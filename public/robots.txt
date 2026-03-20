@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://utilitymega.com/sitemap.xml
+
+# Block admin/internal paths (if any)
+Disallow: /api/
+Disallow: /*.json$
+
+# Crawl-delay for polite bots
+Crawl-delay: 1

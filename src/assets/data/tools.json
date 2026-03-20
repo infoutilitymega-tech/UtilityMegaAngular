@@ -1,0 +1,1116 @@
+{
+  "categories": [
+    {
+      "id": "cat-01",
+      "name": "Calculators",
+      "slug": "calculators",
+      "icon": "calculate",
+      "description": "Free online calculators for finance, math, health, and everyday calculations. Our calculator tools are fast, accurate, and require no downloads.",
+      "shortDescription": "Free financial, math & health calculators",
+      "seoTitle": "Free Online Calculators - Math, Finance & Health",
+      "metaDescription": "Use our free online calculators for finance, math, health, and more. 100% free, no login required. Fast, accurate results instantly.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-02",
+      "name": "Image Tools",
+      "slug": "image-tools",
+      "icon": "image",
+      "description": "Free online image tools to compress, resize, convert, and optimize images. All processing is done in your browser — your files never leave your device.",
+      "shortDescription": "Compress, resize & convert images free",
+      "seoTitle": "Free Online Image Tools - Compress, Resize & Convert",
+      "metaDescription": "Free online image tools. Compress, resize, crop, and convert images without uploading to a server. Private and fast.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-03",
+      "name": "Video Tools",
+      "slug": "video-tools",
+      "icon": "videocam",
+      "description": "Free online video tools to compress, convert, trim, and process video files directly in your browser. No watermarks. No account needed.",
+      "shortDescription": "Compress, convert & trim videos online free",
+      "seoTitle": "Free Online Video Tools - Compress & Convert",
+      "metaDescription": "Free online video compression, conversion, and editing tools. Process videos in your browser. No signup required.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-04",
+      "name": "Developer Tools",
+      "slug": "developer-tools",
+      "icon": "code",
+      "description": "Powerful free developer tools for formatting, encoding, decoding, and debugging. Essential utilities for web developers, backend engineers, and DevOps professionals.",
+      "shortDescription": "JSON formatter, encoders & dev utilities",
+      "seoTitle": "Free Developer Tools - JSON, Base64 & More",
+      "metaDescription": "Free online developer tools: JSON formatter, Base64 encoder, regex tester, and more. Fast, free, no login needed.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-05",
+      "name": "Text Tools",
+      "slug": "text-tools",
+      "icon": "text_fields",
+      "description": "Free online text utilities for counting words, changing case, removing duplicates, and formatting text. Essential writing and content tools for everyone.",
+      "shortDescription": "Word counter, case converter & text utilities",
+      "seoTitle": "Free Text Tools - Word Counter, Case Converter",
+      "metaDescription": "Free online text tools: word counter, case converter, duplicate remover, and more. Process text instantly in your browser.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-06",
+      "name": "Security Tools",
+      "slug": "security-tools",
+      "icon": "security",
+      "description": "Free online security and privacy tools. Generate strong passwords, hash strings, check password strength, and protect your online presence — all client-side.",
+      "shortDescription": "Password generator, hash tools & security utilities",
+      "seoTitle": "Free Online Security Tools - Password & Hash Generator",
+      "metaDescription": "Free security tools: password generator, MD5/SHA hash generator, password strength checker. 100% client-side. No data stored.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-07",
+      "name": "SEO Tools",
+      "slug": "seo-tools",
+      "icon": "travel_explore",
+      "description": "Free SEO tools to generate meta tags, check keyword density, analyze readability, and boost your website's search engine rankings. No signup needed.",
+      "shortDescription": "Meta tag generator, keyword density & SEO analyzers",
+      "seoTitle": "Free SEO Tools - Meta Tags, Keywords & Analysis",
+      "metaDescription": "Free online SEO tools: meta tag generator, keyword density checker, readability analyzer. Improve your website ranking for free.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-08",
+      "name": "Unit Converters",
+      "slug": "unit-converters",
+      "icon": "swap_horiz",
+      "description": "Free unit conversion tools for length, weight, temperature, area, speed, and more. Accurate conversions with formula explanations for students and professionals.",
+      "shortDescription": "Convert length, weight, temperature & more",
+      "seoTitle": "Free Unit Converters - Length, Weight & Temperature",
+      "metaDescription": "Free online unit converters for length, weight, temperature, area, speed, and more. Accurate and instant conversions.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-09",
+      "name": "Utility Tools",
+      "slug": "utility-tools",
+      "icon": "build",
+      "description": "Free online utility tools: QR code generator, URL encoder, IP lookup, screen ruler, color picker, and more handy everyday tools.",
+      "shortDescription": "QR code generator, URL tools & everyday utilities",
+      "seoTitle": "Free Online Utility Tools - QR Code, URL & More",
+      "metaDescription": "Free online utility tools: QR code generator, URL encoder/decoder, IP lookup, color picker and more. Fast, free, no login.",
+      "toolCount": 2
+    },
+    {
+      "id": "cat-10",
+      "name": "Farmers Tools",
+      "slug": "farmers-tools",
+      "icon": "agriculture",
+      "description": "Free online tools for farmers and agricultural professionals. Calculate crop yield, fertilizer needs, irrigation requirements, and farming costs.",
+      "shortDescription": "Crop yield, fertilizer & irrigation calculators",
+      "seoTitle": "Free Farmers Tools - Crop Yield & Fertilizer Calculator",
+      "metaDescription": "Free online farmers tools: crop yield calculator, fertilizer calculator, irrigation planner, and more. Tools for modern agriculture.",
+      "toolCount": 2
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool-001",
+      "name": "SIP Calculator",
+      "slug": "sip-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate your SIP returns with monthly investment, expected rate, and time period.",
+      "seoTitle": "SIP Calculator - Calculate SIP Returns Online Free",
+      "metaDescription": "Use our free SIP calculator to estimate your Systematic Investment Plan returns. Enter monthly amount, rate of return, and tenure to see wealth growth.",
+      "keywords": [
+        "SIP calculator",
+        "systematic investment plan",
+        "mutual fund SIP",
+        "SIP returns calculator",
+        "monthly SIP",
+        "investment calculator",
+        "SIP maturity amount",
+        "SIP interest calculator"
+      ],
+      "content": "A Systematic Investment Plan (SIP) calculator is one of the most powerful financial planning tools available to investors today. Whether you are a seasoned investor or just starting your wealth-building journey, understanding how your SIP investments will grow over time is critical for achieving your financial goals.\n\nOur free SIP calculator helps you estimate the future value of your monthly mutual fund investments. By entering three simple values — your monthly investment amount, the expected annual rate of return, and the investment duration — you instantly get a projection of your total invested amount versus total returns.\n\nHow Does a SIP Calculator Work?\n\nThe SIP calculator uses compound interest formula to compute returns. The mathematical formula used is: M = P × ({[1 + i]^n – 1} / i) × (1 + i), where M is the maturity amount, P is the monthly investment, i is the monthly rate of interest, and n is the number of payments (months).\n\nFor example, if you invest ₹5,000 per month at 12% annual return for 10 years, you would invest a total of ₹6,00,000 but your wealth could grow to approximately ₹11.6 lakhs, giving you returns of over ₹5.6 lakhs.\n\nWhy Use a SIP Calculator?\n\nSIP calculators provide instant clarity on your investment outcomes without complex manual calculations. They help you plan for specific financial goals such as buying a home, funding children's education, or building a retirement corpus. You can experiment with different scenarios — increasing your monthly SIP amount, adjusting return expectations, or extending the tenure — to see how each variable impacts your wealth.\n\nBenefits of SIP Investing\n\nSIPs offer the advantage of rupee cost averaging, meaning you buy more units when markets are low and fewer when they are high. This disciplined approach reduces the impact of market volatility over time. Starting early is the most important factor in SIP investing because compounding works exponentially over long periods.\n\nEven a modest monthly SIP of ₹1,000 started at age 25 could grow significantly more than ₹5,000 started at age 40, due to the power of time and compound interest.\n\nTips for Using This SIP Calculator\n\nAlways use a conservative expected return rate (8–10% for equity mutual funds over long periods). Consider step-up SIP where you increase your monthly contribution by 10% every year. Use the calculator to set concrete, goal-based targets rather than arbitrary amounts. Regular review and rebalancing of your mutual fund portfolio is essential for staying on track.",
+      "faq": [
+        {
+          "question": "What is a SIP calculator?",
+          "answer": "A SIP calculator is an online tool that estimates the future value of your Systematic Investment Plan (SIP) based on monthly investment amount, expected annual return rate, and investment duration using compound interest formula."
+        },
+        {
+          "question": "How accurate is the SIP return calculation?",
+          "answer": "The SIP calculator provides estimates based on a constant assumed rate of return. Actual mutual fund returns vary with market conditions. The calculator is best used for planning and goal-setting purposes."
+        },
+        {
+          "question": "What is a good expected return rate to use in SIP calculator?",
+          "answer": "For equity mutual funds, an expected return of 10–12% per annum is commonly used for long-term projections (10+ years). For debt funds, 6–8% is more appropriate. Always use conservative estimates for financial planning."
+        },
+        {
+          "question": "Can I calculate step-up SIP returns?",
+          "answer": "Yes, you can use our advanced SIP calculator that supports step-up SIP, where your monthly investment increases by a fixed percentage each year, typically 10%, to match income growth."
+        },
+        {
+          "question": "Is there a minimum SIP amount?",
+          "answer": "Most mutual funds allow SIPs starting from ₹100 or ₹500 per month. However, for meaningful wealth creation, financial advisors recommend investing at least ₹1,000–₹5,000 per month depending on your income and goals."
+        }
+      ],
+      "relatedTools": [
+        "emi-calculator",
+        "compound-interest-calculator",
+        "retirement-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": true
+    },
+    {
+      "id": "tool-002",
+      "name": "EMI Calculator",
+      "slug": "emi-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate your loan EMI for home, car, or personal loans instantly.",
+      "seoTitle": "EMI Calculator - Home, Car & Personal Loan EMI",
+      "metaDescription": "Free EMI calculator for home loan, car loan, and personal loan. Calculate monthly EMI, total interest, and payment schedule instantly.",
+      "keywords": [
+        "EMI calculator",
+        "loan EMI calculator",
+        "home loan EMI",
+        "car loan EMI",
+        "personal loan EMI",
+        "monthly installment calculator",
+        "loan repayment calculator",
+        "interest calculator"
+      ],
+      "content": "An EMI (Equated Monthly Installment) calculator is an essential financial tool for anyone planning to take a loan. Whether it is a home loan, car loan, personal loan, or education loan, knowing your monthly EMI before committing helps you plan your budget and make informed borrowing decisions.\n\nOur free EMI calculator provides instant results with three simple inputs: loan principal amount, annual interest rate, and loan tenure in months or years. Within seconds, you see your monthly EMI, total amount payable, and total interest charged over the loan period.\n\nHow is EMI Calculated?\n\nEMI is calculated using the standard reducing balance method: EMI = P × r × (1+r)^n / ((1+r)^n – 1), where P is the principal loan amount, r is the monthly interest rate (annual rate / 12), and n is the loan tenure in months.\n\nFor example, a home loan of ₹30 lakhs at 8.5% per annum for 20 years results in a monthly EMI of approximately ₹26,035. Over 20 years, you pay a total of ₹62.5 lakhs, meaning the interest component is ₹32.5 lakhs — more than the principal itself.\n\nHome Loan EMI Planning\n\nFor home loans, banks typically allow EMI up to 40–50% of your monthly gross income. If your monthly income is ₹80,000, you can comfortably afford an EMI of ₹32,000–₹40,000. Use our calculator to find the right loan amount that keeps your EMI affordable.\n\nCar Loan EMI Tips\n\nCar loans typically have tenures of 3–7 years with interest rates ranging from 7.5% to 14%. A shorter tenure means higher EMI but significantly lower total interest. A 5-year car loan at 9% on ₹8 lakhs costs ₹16,598 per month and ₹1.99 lakh total interest.\n\nPersonal Loan Considerations\n\nPersonal loans have no collateral and typically carry higher interest rates (12–24%). Always compare the total cost of borrowing, not just the EMI. Prepayment can save substantial interest amounts.\n\nAmortization Schedule\n\nOur EMI calculator also shows an amortization breakdown, revealing how much of each payment goes toward principal versus interest. In the early months of a loan, most of your EMI pays interest. Over time, the principal component increases — this is especially important to understand for home loans where prepayment in early years saves the most interest.",
+      "faq": [
+        {
+          "question": "What does EMI stand for?",
+          "answer": "EMI stands for Equated Monthly Installment. It is the fixed monthly payment made to a lender (bank or NBFC) to repay a loan. Each EMI includes both the principal repayment and interest for that month."
+        },
+        {
+          "question": "Does EMI change if interest rate changes?",
+          "answer": "For floating rate loans, if the bank's benchmark rate (like MCLR or repo rate) changes, your EMI may increase or decrease. Fixed rate loans maintain the same EMI throughout the tenure."
+        },
+        {
+          "question": "What happens if I miss an EMI payment?",
+          "answer": "Missing an EMI results in a late payment penalty (usually 1–3% of overdue amount) and negatively impacts your CIBIL credit score. Consistently missing payments can lead to loan default and legal action."
+        },
+        {
+          "question": "Can I prepay my loan to reduce EMI?",
+          "answer": "Yes. Most banks allow part-prepayment after a lock-in period. Prepayment reduces your outstanding principal, which can either reduce your monthly EMI or shorten the loan tenure — both save interest."
+        },
+        {
+          "question": "How do I reduce my loan EMI?",
+          "answer": "You can reduce EMI by negotiating a lower interest rate, choosing a longer tenure, making a larger down payment, or opting for a balance transfer to a lender offering lower rates."
+        }
+      ],
+      "relatedTools": [
+        "sip-calculator",
+        "compound-interest-calculator",
+        "loan-comparison-tool"
+      ],
+      "isPopular": true,
+      "isFeatured": true
+    },
+    {
+      "id": "tool-003",
+      "name": "Image Compressor",
+      "slug": "image-compressor",
+      "categorySlug": "image-tools",
+      "categoryName": "Image Tools",
+      "shortDescription": "Compress JPG, PNG, and WebP images online without losing quality.",
+      "seoTitle": "Free Image Compressor - Compress JPG, PNG Online",
+      "metaDescription": "Compress images online for free. Reduce JPG, PNG, WebP file size without visible quality loss. Browser-based — no upload to server needed.",
+      "keywords": [
+        "image compressor",
+        "compress image online",
+        "reduce image size",
+        "JPG compressor",
+        "PNG compressor",
+        "WebP optimizer",
+        "image optimizer",
+        "photo compressor"
+      ],
+      "content": "Image compression is one of the most critical tasks for web developers, bloggers, e-commerce owners, and digital marketers. Large image files slow down websites, increase bounce rates, and hurt SEO rankings. Our free online image compressor lets you reduce image file size dramatically while maintaining excellent visual quality.\n\nOur tool supports JPG, JPEG, PNG, and WebP formats. The entire compression process happens inside your browser using JavaScript Canvas API — your images are never uploaded to any server, ensuring complete privacy.\n\nWhy Compress Images?\n\nGoogle's Core Web Vitals penalize slow-loading pages. Images typically account for 60–70% of a webpage's total byte weight. Compressing images can reduce page load time by 2–5 seconds on mobile connections. Faster pages rank higher on Google, convert better, and provide a superior user experience.\n\nLossless vs Lossy Compression\n\nLossless compression reduces file size without any quality degradation — ideal for logos, screenshots, and graphics with text. Lossy compression (JPEG) achieves much higher compression ratios (50–80% reduction) by removing imperceptible image data. Our tool lets you control the compression level, so you decide the balance between quality and file size.\n\nWebP Format Advantage\n\nWebP images are typically 25–35% smaller than equivalent JPEG or PNG files at the same visual quality. Converting your images to WebP is one of the easiest performance wins for any website. Our tool supports WebP output conversion from JPG and PNG inputs.\n\nBest Practices for Image Optimization\n\nAlways compress images before uploading to your website or CMS. Use appropriate dimensions — do not upload a 3000px wide image for a 600px wide column. Use WebP with JPEG fallback for maximum browser compatibility. Lazy-load images below the fold to improve initial page load time.\n\nFor e-commerce sites with hundreds of product images, bulk compression can save gigabytes of storage and significantly reduce CDN costs. For bloggers, properly optimized images can cut page load time in half, improving both user experience and Google Search rankings.",
+      "faq": [
+        {
+          "question": "Does image compression reduce quality?",
+          "answer": "Lossy compression (used for JPEG) slightly reduces quality in exchange for smaller file sizes. At quality levels of 70–85%, the difference is virtually invisible to human eyes. Lossless compression preserves 100% quality."
+        },
+        {
+          "question": "Is it safe to compress images in this tool?",
+          "answer": "Yes, completely safe. All compression happens inside your browser. Your images are never uploaded to our servers. No data leaves your device."
+        },
+        {
+          "question": "What image formats does the compressor support?",
+          "answer": "Our image compressor supports JPG/JPEG, PNG, and WebP formats. You can also convert between formats during compression."
+        },
+        {
+          "question": "How much can I compress an image?",
+          "answer": "Typical compression ratios are 40–80% file size reduction for JPEG and 20–60% for PNG, depending on the image content and quality setting selected."
+        },
+        {
+          "question": "Can I compress multiple images at once?",
+          "answer": "Yes, our batch image compressor allows you to upload and compress multiple images simultaneously, saving time for large collections."
+        }
+      ],
+      "relatedTools": [
+        "image-resizer",
+        "image-converter",
+        "image-crop-tool"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-004",
+      "name": "Image Resizer",
+      "slug": "image-resizer",
+      "categorySlug": "image-tools",
+      "categoryName": "Image Tools",
+      "shortDescription": "Resize images to exact dimensions or percentage without losing quality.",
+      "seoTitle": "Free Image Resizer - Resize Images Online",
+      "metaDescription": "Resize images online for free. Set exact pixel dimensions or scale by percentage. Supports JPG, PNG, WebP. No upload required.",
+      "keywords": [
+        "image resizer",
+        "resize image online",
+        "change image dimensions",
+        "image size changer",
+        "photo resizer",
+        "resize JPG",
+        "resize PNG",
+        "bulk image resize"
+      ],
+      "content": "Resizing images to the correct dimensions is essential for web performance, social media optimization, and professional presentations. An oversized image wastes bandwidth and slows down your page, while an undersized one looks blurry and unprofessional. Our free image resizer gives you precise control over output dimensions.\n\nOur tool supports resizing by exact pixel width and height, by percentage scale, or by fitting within specific dimensions while maintaining aspect ratio. Supported formats include JPG, PNG, and WebP.\n\nWhy Image Dimensions Matter\n\nWeb browsers resize oversized images using CSS, but the full-size file still downloads. A 4000×3000px camera image displayed at 800×600px wastes 25 times more bandwidth than necessary. Always serve images at their display size.\n\nSocial Media Image Size Guide\n\nDifferent platforms require specific image dimensions for optimal display. Facebook cover photos should be 820×312px. Instagram posts require 1080×1080px for square format. Twitter header images need 1500×500px. LinkedIn banners are 1128×191px. Our resizer makes it easy to create correctly sized images for every platform.\n\nAspect Ratio and Cropping\n\nWhen resizing, maintaining aspect ratio prevents image distortion. Our tool automatically calculates the proportional dimension when you input either width or height. If you need a specific aspect ratio (like 16:9 for video thumbnails or 1:1 for social media), you can enable auto-crop mode.\n\nBatch Resizing for Efficiency\n\nFor developers and content teams working with multiple images, our batch resize feature processes entire image sets at once. This is particularly valuable for e-commerce catalogs where hundreds of product images need uniform dimensions.\n\nImage resizing for mobile optimization is critical in a world where over 60% of web traffic comes from smartphones. Mobile-optimized images using responsive sizing can dramatically improve Core Web Vitals scores, particularly Largest Contentful Paint (LCP), which Google uses as a ranking signal.",
+      "faq": [
+        {
+          "question": "Will resizing an image reduce its quality?",
+          "answer": "Resizing down (reducing dimensions) generally maintains quality well. Resizing up (enlarging beyond original size) will cause pixelation or blurring since pixels are being interpolated. Always resize from original high-resolution sources."
+        },
+        {
+          "question": "Can I resize an image without distorting it?",
+          "answer": "Yes. Enable 'Lock Aspect Ratio' in our tool. When you change width, height adjusts proportionally, and vice versa. This prevents stretching or squishing."
+        },
+        {
+          "question": "What is the maximum image size I can upload?",
+          "answer": "Our browser-based tool can handle images up to 50MB. For larger files, we recommend using our desktop-grade processing mode which handles images of any size."
+        },
+        {
+          "question": "Can I resize images to specific social media dimensions?",
+          "answer": "Yes, we offer preset dimensions for all major platforms: Facebook, Instagram, Twitter/X, LinkedIn, YouTube thumbnails, and more."
+        },
+        {
+          "question": "Does resizing affect file size?",
+          "answer": "Yes, reducing image dimensions significantly reduces file size since fewer pixels means less data. A 50% reduction in both dimensions typically results in a 75% smaller file size."
+        }
+      ],
+      "relatedTools": [
+        "image-compressor",
+        "image-crop-tool",
+        "image-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-005",
+      "name": "Video Compressor",
+      "slug": "video-compressor",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Compress video files online to reduce size while maintaining quality.",
+      "seoTitle": "Free Video Compressor - Reduce Video File Size Online",
+      "metaDescription": "Compress video files online for free. Reduce MP4, AVI, MOV file size without watermarks. Browser-based video compression tool.",
+      "keywords": [
+        "video compressor",
+        "compress video online",
+        "reduce video size",
+        "MP4 compressor",
+        "video optimizer",
+        "shrink video file",
+        "video file reducer",
+        "online video compression"
+      ],
+      "content": "Video files are among the largest digital assets you will work with. A single minute of 1080p video can be 100–400MB in size. For websites, apps, email attachments, or social media, large video files create significant upload, download, and storage challenges. Our free video compressor solves this problem with browser-based video compression technology.\n\nUsing WebCodecs API and FFmpeg.wasm, our tool compresses video directly in your browser without uploading files to a server. Your privacy is protected, and compression can begin immediately without file size limits imposed by server infrastructure.\n\nVideo Compression Techniques\n\nVideo compression works by eliminating redundant information between frames (temporal compression) and within individual frames (spatial compression). Modern codecs like H.264 (AVC) and H.265 (HEVC) are highly efficient at this. Our tool uses H.264 encoding by default with configurable quality settings using the CRF (Constant Rate Factor) scale.\n\nTarget File Size vs Bitrate Control\n\nYou can compress by setting a target file size (e.g., reduce to under 25MB) or by controlling the output bitrate. Lower bitrate means smaller file but lower quality. For general web use, 2–4 Mbps for 1080p video provides excellent quality. For 720p, 1–2 Mbps is sufficient.\n\nResolution and Frame Rate Optimization\n\nSometimes the best compression strategy is reducing resolution or frame rate. A 4K video downscaled to 1080p is typically 4x smaller. Reducing frame rate from 60fps to 30fps halves the temporal data. Our tool supports resolution and frame rate adjustment alongside bitrate control.\n\nPlatform-Specific Compression Presets\n\nWe provide optimized compression presets for YouTube (recommended bitrates per resolution), WhatsApp (under 16MB), Instagram (under 100MB, 1:1 or 4:5 ratio), email attachments, and general web embedding. These presets take the guesswork out of compression settings.\n\nFor content creators, bloggers, and marketing teams producing video content regularly, having a fast, free, privacy-respecting video compressor in the browser is a significant workflow improvement. No more waiting for cloud uploads or worrying about sensitive footage being stored on third-party servers.",
+      "faq": [
+        {
+          "question": "What video formats can I compress?",
+          "answer": "Our video compressor supports MP4, AVI, MOV, MKV, WebM, and FLV formats. Output is MP4 (H.264) by default, which has the best compatibility across all devices and platforms."
+        },
+        {
+          "question": "Is video compression done on the server?",
+          "answer": "No. All video processing uses FFmpeg.wasm running in your browser. Your video files never leave your device, ensuring complete privacy."
+        },
+        {
+          "question": "How much can I compress a video?",
+          "answer": "Typical compression ratios are 50–80% file size reduction with minimal visible quality loss. A 100MB video can often be reduced to 20–40MB while remaining crisp on most screens."
+        },
+        {
+          "question": "How long does video compression take?",
+          "answer": "Browser-based compression speed depends on your device's CPU. A 1-minute 1080p video typically takes 1–3 minutes to compress on a modern laptop. Mobile devices may take longer."
+        },
+        {
+          "question": "Will there be any watermark on my compressed video?",
+          "answer": "Absolutely not. Our video compressor is completely free with no watermarks added. What you compress is exactly what you download."
+        }
+      ],
+      "relatedTools": [
+        "video-converter",
+        "video-trimmer",
+        "gif-maker"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-006",
+      "name": "Video Converter",
+      "slug": "video-converter",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Convert video files between MP4, AVI, MOV, WebM and other formats free.",
+      "seoTitle": "Free Video Converter - Convert MP4, AVI, MOV Online",
+      "metaDescription": "Convert video files online for free. Convert between MP4, AVI, MOV, WebM, MKV formats. No watermark, no signup required.",
+      "keywords": [
+        "video converter",
+        "convert video online",
+        "MP4 converter",
+        "AVI to MP4",
+        "MOV to MP4",
+        "WebM converter",
+        "free video converter",
+        "online video format converter"
+      ],
+      "content": "Video format compatibility is a constant challenge in digital workflows. A video recorded on iPhone is in MOV format, but it may not play on older Android devices or Windows Media Player. A WebM file optimized for web won't open in Adobe Premiere. Our free video converter eliminates these compatibility headaches by converting between all major video formats entirely within your browser.\n\nSupported Conversions\n\nOur video converter handles all common format conversions: MOV to MP4, AVI to MP4, WebM to MP4, MKV to MP4, MP4 to AVI, MP4 to WebM, and dozens of other format combinations. MP4 with H.264 codec is the universally compatible output for most use cases.\n\nUnderstanding Video Codecs vs Containers\n\nMany people confuse video format (container) with codec. A .mp4 file is a container that can hold H.264, H.265, or even AV1 video codec. A .mov file is Apple's QuickTime container. When converting, you choose both the container format and the codec. Our tool handles this complexity automatically, selecting optimal codec settings for each output format.\n\nWhich Format Should You Use?\n\nMP4 (H.264): Best for universal compatibility — plays on every device, accepted by every platform. WebM (VP9): Best for web browsers and YouTube — similar quality to H.264 at smaller file sizes. MOV: Best for Apple ecosystem and professional video editing. AVI: Legacy format with wide software support but larger files. MKV: Best for high-quality video storage with multiple audio tracks and subtitles.\n\nAudio Conversion Support\n\nWhen converting video formats, audio tracks are automatically re-encoded to match the target container. You can optionally extract audio as MP3 or AAC, which is useful for creating podcast episodes or audio-only versions from video content.\n\nFor content creators uploading to multiple platforms simultaneously, having the right format for each platform is essential. YouTube prefers MP4, Instagram requires specific aspect ratios and duration limits, and TikTok has its own requirements. Our converter handles all these needs efficiently without server uploads or per-conversion fees.",
+      "faq": [
+        {
+          "question": "What is the best video format for web use?",
+          "answer": "MP4 with H.264 encoding is the best choice for web compatibility. For modern browsers, WebM with VP9 offers better compression. Always provide MP4 as a fallback."
+        },
+        {
+          "question": "Can I convert video without losing quality?",
+          "answer": "Every encoding involves some quality loss (transcode loss). To minimize this, use high quality settings in the converter. Converting to the same codec is more quality-preserving than cross-codec conversion."
+        },
+        {
+          "question": "Is there a file size limit for video conversion?",
+          "answer": "Browser-based conversion is limited by your device's available RAM. Practically, videos up to 2GB can be converted on most modern computers with 8GB or more RAM."
+        },
+        {
+          "question": "How long does video conversion take?",
+          "answer": "Conversion speed depends on video length, resolution, and your device's CPU. A 5-minute HD video typically converts in 2–5 minutes on a modern computer."
+        },
+        {
+          "question": "Can I convert multiple videos at once?",
+          "answer": "Currently, our free tool processes one video at a time. For bulk video conversion, we recommend queuing videos one after another while the first conversion completes."
+        }
+      ],
+      "relatedTools": [
+        "video-compressor",
+        "video-trimmer",
+        "gif-maker"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-007",
+      "name": "JSON Formatter",
+      "slug": "json-formatter",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Format, validate, and beautify JSON data with syntax highlighting.",
+      "seoTitle": "Free JSON Formatter - Validate & Beautify JSON Online",
+      "metaDescription": "Free online JSON formatter and validator. Beautify minified JSON, validate syntax, and view JSON in a tree structure. No login required.",
+      "keywords": [
+        "JSON formatter",
+        "JSON beautifier",
+        "JSON validator",
+        "format JSON online",
+        "JSON pretty print",
+        "JSON viewer",
+        "minify JSON",
+        "JSON syntax checker"
+      ],
+      "content": "JSON (JavaScript Object Notation) has become the universal language of data exchange in modern web development, APIs, and configuration files. Working with raw, minified JSON is error-prone and time-consuming. Our free JSON formatter instantly beautifies, validates, and visualizes any JSON data with intelligent syntax highlighting.\n\nPaste your JSON data and immediately see it formatted with proper indentation (2 or 4 spaces), color-coded syntax highlighting for keys, strings, numbers, booleans, and null values, and a collapsible tree view for navigating complex nested structures.\n\nJSON Validation and Error Detection\n\nInvalid JSON is one of the most common bugs in API development and configuration management. Our JSON validator pinpoints exactly where syntax errors occur — a missing comma, an extra bracket, or an unescaped character — with precise line and column information. This eliminates hours of manual debugging.\n\nJSON Minification\n\nFor production deployments, minified JSON reduces payload size and improves API response times. Our tool offers one-click minification that removes all whitespace while preserving data integrity. This is especially valuable for configuration files bundled with web applications and API responses where bandwidth efficiency matters.\n\nJSON to Other Format Conversion\n\nOur tool also supports converting JSON to CSV for spreadsheet import, JSON to XML for legacy system integration, and JSON to YAML for Kubernetes and Docker configuration files. These conversions are particularly useful for DevOps engineers and full-stack developers working across multiple technology stacks.\n\nCommon JSON Use Cases for Developers\n\nAPI response debugging: Paste raw API response to quickly understand data structure. Configuration validation: Verify JSON config files before deployment. Data transformation: Convert between JSON and other formats. Schema documentation: Use the tree view to document API payloads for your team.\n\nWith REST APIs now powering virtually every modern application, JSON formatting and validation tools have become essential daily utilities for developers. Our formatter works with JSON files of any size and complexity, from simple key-value pairs to deeply nested API payloads with arrays, objects, and mixed data types.",
+      "faq": [
+        {
+          "question": "What is JSON formatting?",
+          "answer": "JSON formatting (or pretty-printing) adds proper indentation and line breaks to compact JSON data, making it human-readable. Minified JSON works for machines but is nearly impossible for humans to read without formatting."
+        },
+        {
+          "question": "How do I validate JSON?",
+          "answer": "Paste your JSON into the validator. Valid JSON will be formatted and displayed. Invalid JSON will show a specific error message indicating the problem location (line number and character position)."
+        },
+        {
+          "question": "What is the difference between JSON and JSONP?",
+          "answer": "JSON is a data format. JSONP (JSON with Padding) is a legacy technique for cross-domain data requests that wraps JSON in a function call. Modern APIs use CORS instead of JSONP."
+        },
+        {
+          "question": "Can I format very large JSON files?",
+          "answer": "Yes. Our browser-based formatter handles JSON files up to several MB efficiently. For extremely large files (100MB+), consider using command-line tools like jq for better performance."
+        },
+        {
+          "question": "Is my JSON data safe when I paste it here?",
+          "answer": "Completely safe. All processing happens in your browser using JavaScript. Your JSON data is never sent to our servers. This is especially important when working with API keys or sensitive configuration data."
+        }
+      ],
+      "relatedTools": [
+        "base64-encoder",
+        "regex-tester",
+        "xml-formatter"
+      ],
+      "isPopular": true,
+      "isFeatured": true
+    },
+    {
+      "id": "tool-008",
+      "name": "Base64 Encoder/Decoder",
+      "slug": "base64-encoder",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Encode and decode Base64 strings online with support for text, URLs, and files.",
+      "seoTitle": "Free Base64 Encoder Decoder - Encode & Decode Online",
+      "metaDescription": "Free Base64 encoder and decoder. Encode text, URLs, or files to Base64 and decode Base64 strings. Instant, browser-based tool.",
+      "keywords": [
+        "Base64 encoder",
+        "Base64 decoder",
+        "Base64 converter",
+        "encode Base64 online",
+        "decode Base64",
+        "Base64 URL encoder",
+        "file to Base64",
+        "Base64 string"
+      ],
+      "content": "Base64 encoding is a fundamental technique in web development, data transmission, and security protocols. Our free Base64 encoder and decoder handles text, URLs, and binary file encoding/decoding entirely in your browser with zero latency and complete privacy.\n\nWhat is Base64 Encoding?\n\nBase64 converts binary data into a text string using 64 printable ASCII characters (A–Z, a–z, 0–9, +, /). This enables binary data to be safely transmitted over text-based protocols like HTTP headers, JSON, and email (MIME). The encoded output is approximately 33% larger than the original data.\n\nCommon Use Cases for Base64\n\nData URIs for images: Embedding small images directly in HTML or CSS as data:image/png;base64,..., eliminating HTTP requests for small icons. Email attachments: MIME encoding uses Base64 to attach binary files to email messages. JWT tokens: JSON Web Tokens use Base64URL encoding for header and payload sections. API authentication: Basic Authentication encodes username:password in Base64 for HTTP headers. Environment variables: Storing binary configuration data (like SSL certificates) as Base64 strings in environment variables.\n\nBase64 vs Base64URL\n\nStandard Base64 uses + and / characters, which are special characters in URLs. Base64URL variant replaces + with - and / with _ to make encoded strings URL-safe. Our tool supports both variants with a simple toggle.\n\nFile to Base64 Encoding\n\nOur tool supports encoding entire files to Base64, which is useful for embedding small images as data URIs, storing binary configuration in JSON, and testing API endpoints that accept Base64-encoded file uploads. Simply drag and drop your file and get the Base64 string instantly.\n\nBase64 Decoding and Verification\n\nPaste any Base64 string to decode it back to text or binary. Our decoder automatically detects if the output is valid UTF-8 text or binary data, and displays the decoded content accordingly. Malformed Base64 strings are detected and flagged immediately.",
+      "faq": [
+        {
+          "question": "Is Base64 encoding the same as encryption?",
+          "answer": "No. Base64 is encoding, not encryption. It simply converts binary data to text using a reversible algorithm. Anyone can decode a Base64 string — it provides no security. Never use Base64 for sensitive data without actual encryption."
+        },
+        {
+          "question": "Why does Base64 output end with == signs?",
+          "answer": "Base64 works in 3-byte groups. If the input length is not a multiple of 3, padding characters (=) are added to make the output length a multiple of 4. One = means 1 byte padding; == means 2 bytes padding."
+        },
+        {
+          "question": "What is Base64URL encoding?",
+          "answer": "Base64URL replaces + with - and / with _ in the output, and typically omits padding =. This makes the encoded string safe to use in URLs and filenames without percent-encoding."
+        },
+        {
+          "question": "Can I encode images to Base64?",
+          "answer": "Yes. Use our file encoder to convert any image (JPG, PNG, GIF, SVG, WebP) to a Base64 data URI. This allows embedding images directly in HTML or CSS without additional HTTP requests."
+        },
+        {
+          "question": "How do I decode a JWT token?",
+          "answer": "A JWT token has three Base64URL-encoded parts separated by dots. Our tool decodes each part to reveal the header (algorithm), payload (claims), and signature. Note that the signature cannot be verified without the secret key."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "url-encoder",
+        "hash-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-009",
+      "name": "Word Counter",
+      "slug": "word-counter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Count words, characters, sentences, and paragraphs in any text instantly.",
+      "seoTitle": "Free Word Counter - Count Words & Characters Online",
+      "metaDescription": "Free online word counter. Count words, characters, sentences, paragraphs, and reading time. Paste or type your text for instant analysis.",
+      "keywords": [
+        "word counter",
+        "character counter",
+        "count words online",
+        "word count tool",
+        "text analyzer",
+        "sentence counter",
+        "reading time calculator",
+        "online word count"
+      ],
+      "content": "Whether you are a student checking essay length, a blogger optimizing content, or a copywriter meeting a brief, an accurate word counter is indispensable. Our free word counter provides comprehensive text analysis including word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time.\n\nInstant Text Analysis\n\nPaste or type your text and see real-time statistics updating as you type. There is no word limit — analyze short social media captions or entire book manuscripts. The tool processes text entirely in your browser with no delay.\n\nWord Count for Different Purposes\n\nAcademic writing: Most university essays require 500–5000 words. Our tool highlights when you approach your target count, helping you stay within limits. Blog posts: Research shows blog posts of 1,500–2,500 words perform best for SEO. Short posts under 300 words rarely rank well on Google. Social media: Twitter/X allows 280 characters per tweet. Instagram captions support up to 2,200 characters. LinkedIn posts perform best at 1,300–2,000 characters. SEO meta content: Title tags should be under 60 characters; meta descriptions under 160 characters. Our live counter helps you stay within these limits.\n\nReading Time Estimation\n\nThe average adult reads 200–250 words per minute. Our tool calculates estimated reading time based on your word count, helping you gauge whether your content length matches your audience's attention span.\n\nKeyword Density Analysis\n\nOur advanced word counter includes keyword density analysis — it identifies the most frequently used words and their percentage occurrence. This helps content writers check if their target keywords appear at the right density (typically 1–2% for primary keywords).\n\nText Statistics Explained\n\nWords: Any sequence of characters separated by spaces. Characters with spaces: Total character count including whitespace. Characters without spaces: Only non-whitespace characters. Sentences: Text segments ending with . ! or ? Paragraphs: Blocks of text separated by blank lines. Unique words: Count of distinct word forms — useful for measuring vocabulary richness.",
+      "faq": [
+        {
+          "question": "How does the word counter count words?",
+          "answer": "Words are counted as sequences of characters separated by whitespace. Hyphenated words like 'full-time' count as one word. Numbers and special characters adjacent to letters count as part of a word."
+        },
+        {
+          "question": "Does word count include headings and titles?",
+          "answer": "Our tool counts all text you paste, including headings and titles. If you need to exclude specific sections, remove them before pasting."
+        },
+        {
+          "question": "What is the ideal word count for a blog post?",
+          "answer": "For SEO, most studies suggest 1,500–2,500 words for competitive keywords. However, content quality and relevance matter more than length. Some top-ranking pages are under 1,000 words for low-competition topics."
+        },
+        {
+          "question": "How many words per minute is average reading speed?",
+          "answer": "The average adult reads approximately 200–250 words per minute. Our reading time estimate uses 225 WPM as the baseline. Speed readers may read 500+ WPM with comprehension."
+        },
+        {
+          "question": "Can the word counter handle different languages?",
+          "answer": "Yes, our tool handles text in any Unicode language. For languages without spaces between words (like Chinese or Japanese), character count is more meaningful than word count."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "duplicate-line-remover",
+        "lorem-ipsum-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-010",
+      "name": "Text Case Converter",
+      "slug": "text-case-converter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, and more.",
+      "seoTitle": "Free Text Case Converter - UPPER, lower, Title Case",
+      "metaDescription": "Free text case converter. Convert text to uppercase, lowercase, title case, sentence case, camelCase, PascalCase, kebab-case, snake_case.",
+      "keywords": [
+        "text case converter",
+        "uppercase converter",
+        "lowercase converter",
+        "title case converter",
+        "camelCase converter",
+        "snake_case converter",
+        "text transformation",
+        "case changer"
+      ],
+      "content": "Text case conversion is a frequent task in programming, content writing, and data processing. Manually changing the case of large amounts of text is tedious and error-prone. Our free text case converter instantly transforms your text between 8 different case formats with a single click.\n\nSupported Case Conversions\n\nUPPERCASE: Converts all letters to capitals. Used for acronyms, titles on physical signs, SQL keywords, and emphasis. Example: HELLO WORLD. lowercase: Converts all letters to small case. Used for URL slugs, email addresses, and programming constants. Example: hello world. Title Case: Capitalizes the first letter of each significant word. Used for article titles, book names, and headings. Example: Hello World. Sentence case: Capitalizes only the first letter of each sentence. Used for normal prose and social media captions. Example: Hello world. camelCase: No spaces, each word starts with capital except first. Used extensively in JavaScript variable naming. Example: helloWorld. PascalCase: Like camelCase but first word also capitalized. Used for class names in JavaScript, C#, Java. Example: HelloWorld. snake_case: Words separated by underscores, all lowercase. Used in Python, Ruby, and database column names. Example: hello_world. kebab-case: Words separated by hyphens, all lowercase. Used for HTML/CSS class names and URL slugs. Example: hello-world.\n\nWhen to Use Each Case\n\nIn web development, URLs should use kebab-case (my-page-title.html). CSS classes use kebab-case (.nav-item). JavaScript variables use camelCase (userFirstName). Python variables use snake_case (user_first_name). Database columns use snake_case (created_at). React components use PascalCase (UserProfile).\n\nFor SEO professionals, our tool helps quickly format heading tags, meta titles, and URL slugs to the correct case convention. Inconsistent capitalization in headings can affect readability and perceived content quality.\n\nBulk Text Case Conversion\n\nOur tool handles any amount of text — from a single word to entire documents. This is particularly useful when importing data from one system to another where naming conventions differ, such as converting database column names to JavaScript object keys.",
+      "faq": [
+        {
+          "question": "What is camelCase used for?",
+          "answer": "camelCase is used for variable and function names in JavaScript, Java, Swift, and many other programming languages. Example: getUserData(), firstName, totalPrice."
+        },
+        {
+          "question": "What is the difference between PascalCase and camelCase?",
+          "answer": "Both join words without spaces. PascalCase capitalizes the first letter of every word including the first (UserProfile). camelCase leaves the first word lowercase (userProfile). PascalCase is used for class/component names; camelCase for variables and functions."
+        },
+        {
+          "question": "What case should I use for HTML class names?",
+          "answer": "HTML class names conventionally use kebab-case (my-class-name). This is the standard followed by CSS frameworks like Bootstrap and Tailwind CSS."
+        },
+        {
+          "question": "Does title case capitalize every word?",
+          "answer": "Standard title case capitalizes the first and last words plus all words except articles (a, an, the), short prepositions (in, on, at), and coordinating conjunctions (and, but, or) unless they are the first or last word."
+        },
+        {
+          "question": "Can I convert code variable names between cases?",
+          "answer": "Yes. Our tool intelligently splits camelCase and snake_case strings at word boundaries, enabling accurate conversion between all programming naming conventions."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "duplicate-line-remover",
+        "find-and-replace"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-011",
+      "name": "Password Generator",
+      "slug": "password-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate strong, secure random passwords with custom length and character sets.",
+      "seoTitle": "Free Password Generator - Strong Random Password",
+      "metaDescription": "Generate strong secure passwords online for free. Customize length, include uppercase, numbers, symbols. 100% client-side, passwords never stored.",
+      "keywords": [
+        "password generator",
+        "strong password generator",
+        "random password",
+        "secure password creator",
+        "password maker",
+        "complex password generator",
+        "free password generator",
+        "online password tool"
+      ],
+      "content": "Weak and reused passwords are the leading cause of account breaches, identity theft, and data leaks. Our free password generator creates cryptographically secure, truly random passwords that are virtually impossible to crack, even with the most powerful brute-force attacks.\n\nAll password generation happens entirely in your browser using the Web Crypto API (window.crypto.getRandomValues()), which provides cryptographically secure random numbers. Your generated passwords are never transmitted to our servers, stored in databases, or logged anywhere.\n\nPassword Strength Explained\n\nPassword strength depends on two factors: length and character set size. A 12-character password using only lowercase letters (26 characters) has 26^12 = 95 trillion possible combinations. Adding uppercase doubles the character set, numbers add 10 more, and symbols add another 32. A 16-character password using all character types has more combinations than atoms in the observable universe.\n\nCustomization Options\n\nOur generator gives you full control: Length (8 to 64 characters), Uppercase letters (A–Z), Lowercase letters (a–z), Numbers (0–9), Symbols (!@#$%^&*), Exclude ambiguous characters (0, O, l, 1, I) for manually typed passwords, Exclude similar-looking characters, Custom character set input.\n\nPassword Best Practices\n\nUse a unique password for every account — password reuse means one breached site compromises all accounts. Length matters more than complexity — a 20-character random lowercase string is stronger than an 8-character mixed string. Store passwords in a reputable password manager (Bitwarden, 1Password, Dashlane). Enable two-factor authentication (2FA) everywhere it is offered. Change passwords immediately after known data breaches.\n\nPassphrase Generation\n\nOur tool also offers passphrase generation — combining random dictionary words (e.g., correct-horse-battery-staple). Passphrases are easier to remember than random strings while providing excellent security. A 4-word passphrase from a 7,776-word wordlist offers 7,776^4 = 36 septillion possible combinations.",
+      "faq": [
+        {
+          "question": "Are generated passwords saved anywhere?",
+          "answer": "No. All password generation uses your browser's cryptographic random number generator. Passwords are never sent to our servers, stored in cookies, or logged in any way. Close the tab and they are gone."
+        },
+        {
+          "question": "What is the most secure password length?",
+          "answer": "For accounts protected by rate limiting, 12–16 characters is considered very secure. For encryption keys or high-value accounts with offline cracking risk, 20+ characters with full character set is recommended."
+        },
+        {
+          "question": "Should I use symbols in my password?",
+          "answer": "Symbols increase security by expanding the character set. However, some systems have restrictions on which symbols are allowed. Our generator lets you exclude problem characters while maintaining strong randomness."
+        },
+        {
+          "question": "What is the difference between random and pseudorandom passwords?",
+          "answer": "Pseudorandom (like Math.random()) is predictable if an attacker knows the seed. Cryptographically random (window.crypto.getRandomValues) is unpredictable by design. Our tool uses only cryptographic randomness."
+        },
+        {
+          "question": "How often should I change my passwords?",
+          "answer": "Current guidance from NIST (US security standard) recommends changing passwords only when there is evidence of compromise, not on a fixed schedule. Using unique passwords per site is more important than frequent changes."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-strength-checker",
+        "uuid-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": true
+    },
+    {
+      "id": "tool-012",
+      "name": "Hash Generator",
+      "slug": "hash-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from text or files.",
+      "seoTitle": "Free Hash Generator - MD5, SHA256, SHA512 Online",
+      "metaDescription": "Generate MD5, SHA-1, SHA-256, and SHA-512 hash values online for free. Hash text strings and files. Verify file integrity instantly.",
+      "keywords": [
+        "hash generator",
+        "MD5 generator",
+        "SHA-256 generator",
+        "SHA-512 hash",
+        "online hash tool",
+        "checksum generator",
+        "file hash checker",
+        "cryptographic hash"
+      ],
+      "content": "Cryptographic hash functions are foundational to cybersecurity, data integrity verification, and software distribution. Our free hash generator supports all major hash algorithms including MD5, SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512 — all computed locally in your browser without any server processing.\n\nWhat is a Hash Function?\n\nA cryptographic hash function takes an input of any size and produces a fixed-length output (digest). The same input always produces the same hash, but even a single character change produces a completely different hash. This makes hashes ideal for verifying data integrity and detecting tampering.\n\nHash Algorithm Guide\n\nMD5 (128-bit): Produces a 32-character hex string. No longer secure against collision attacks but widely used for file checksums and non-security purposes. Fast computation speed. SHA-1 (160-bit): 40-character hex output. Deprecated for security use since 2017 but still used in legacy systems and Git commit hashes. SHA-256 (256-bit): 64-character hex output. The current standard for most security applications, used in TLS certificates, Bitcoin, and code signing. SHA-512 (512-bit): 128-character hex output. Highest security level, used for password hashing when combined with salt.\n\nFile Integrity Verification\n\nWhen downloading software, operating system images, or important files, always verify the file hash against the officially published checksum. A single bit difference in the downloaded file produces a completely different hash, indicating corruption or tampering. This is critical for detecting malware-infected software downloads.\n\nPassword Hashing Best Practices\n\nFor storing passwords, never use raw MD5 or SHA hashes. Use purpose-built password hashing algorithms like bcrypt, scrypt, or Argon2 which include salting and computational cost parameters to resist brute-force attacks. Our tool is for educational purposes and file integrity checks, not production password storage.\n\nHMAC Generation\n\nHMAC (Hash-based Message Authentication Code) combines a secret key with a hash function to produce a message authentication code. Our tool supports HMAC-SHA256 and HMAC-SHA512 for API request signing, webhook verification, and data authentication scenarios.",
+      "faq": [
+        {
+          "question": "What is the difference between MD5 and SHA-256?",
+          "answer": "MD5 produces a 128-bit hash and is vulnerable to collision attacks (two different inputs producing the same hash). SHA-256 produces a 256-bit hash and is cryptographically secure. Use SHA-256 for any security-sensitive application."
+        },
+        {
+          "question": "Can a hash be reversed to get the original text?",
+          "answer": "Hash functions are one-way by design. You cannot mathematically reverse a hash to get the original input. However, common inputs can be found via rainbow table lookup, which is why short or common passwords should never be stored as raw hashes."
+        },
+        {
+          "question": "How do I verify a file download using its hash?",
+          "answer": "Download the file and the published checksum (usually SHA-256). Drop the file into our hash generator to compute its hash. Compare the result with the published checksum — they must match exactly, character by character."
+        },
+        {
+          "question": "Is MD5 still safe to use?",
+          "answer": "MD5 is not safe for security-sensitive uses like digital signatures or password hashing due to collision vulnerabilities. It remains acceptable for non-security file checksums where collision resistance is not critical."
+        },
+        {
+          "question": "What is a SHA-256 collision?",
+          "answer": "A collision means two different inputs produce the same hash output. SHA-256 has never had a real-world collision found and is believed to be collision-resistant for the foreseeable future, unlike MD5 and SHA-1."
+        }
+      ],
+      "relatedTools": [
+        "password-generator",
+        "base64-encoder",
+        "uuid-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-013",
+      "name": "Meta Tag Generator",
+      "slug": "meta-tag-generator",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Generate complete HTML meta tags for SEO, Open Graph, and Twitter Cards.",
+      "seoTitle": "Free Meta Tag Generator - SEO, OG & Twitter Cards",
+      "metaDescription": "Generate complete HTML meta tags for SEO. Includes title, description, Open Graph, Twitter Card, and robots tags. Free, instant output.",
+      "keywords": [
+        "meta tag generator",
+        "SEO meta tags",
+        "Open Graph generator",
+        "Twitter Card tags",
+        "HTML meta tags",
+        "title tag generator",
+        "meta description generator",
+        "social media tags"
+      ],
+      "content": "Meta tags are HTML elements that provide metadata about your webpage to search engines and social media platforms. Properly configured meta tags are fundamental to SEO performance and how your content appears when shared on social networks. Our free meta tag generator creates complete, standards-compliant meta tag code for any page.\n\nEssential SEO Meta Tags\n\nTitle tag: The most important on-page SEO element. Should be 50–60 characters, include primary keyword, and be compelling enough to earn clicks. Each page needs a unique title. Meta description: 150–160 character summary that appears under your title in search results. While not a direct ranking factor, it heavily influences click-through rates. Keywords meta tag: No longer used by major search engines for ranking but some minor search engines still read it. Viewport meta tag: Critical for mobile SEO — tells browsers how to scale the page on mobile devices. Robots meta tag: Controls whether search engines index the page and follow its links.\n\nOpen Graph Tags for Social Sharing\n\nOpen Graph tags control how your content appears when shared on Facebook, LinkedIn, WhatsApp, and other platforms that support the OG protocol. Key tags include og:title, og:description, og:image, og:url, og:type, and og:site_name. A compelling og:image significantly increases social media engagement.\n\nTwitter Card Tags\n\nTwitter Card tags create rich previews when URLs are shared on Twitter/X. Summary cards show title, description, and small image. Summary Card with Large Image shows a prominent image. App cards link directly to app downloads. Player cards embed audio/video. Our generator creates all Twitter Card types.\n\nCanonical URL Tag\n\nThe canonical tag prevents duplicate content penalties by telling search engines which version of a page is the definitive one. Essential for e-commerce sites with multiple filter URLs pointing to the same product, and for content syndicated across multiple domains.\n\nStructured Data Integration\n\nBeyond traditional meta tags, our generator helps you implement JSON-LD structured data for enhanced search appearance, including breadcrumbs, FAQs, product information, and review stars in Google Search results.",
+      "faq": [
+        {
+          "question": "Do keywords meta tags still affect SEO?",
+          "answer": "No. Google officially ignores the keywords meta tag for ranking purposes since 2009. Bing also ignores it. Focus on natural keyword usage in your actual page content instead."
+        },
+        {
+          "question": "What is the ideal meta description length?",
+          "answer": "Google displays up to 160 characters for desktop and 120 characters for mobile. Write compelling descriptions of 140–155 characters that accurately describe the page and encourage clicks."
+        },
+        {
+          "question": "What is Open Graph and why does it matter?",
+          "answer": "Open Graph (og:) meta tags tell Facebook, LinkedIn, WhatsApp, and other platforms how to display your content when shared. Without OG tags, platforms use their own scraping which often produces poor-looking previews."
+        },
+        {
+          "question": "Can I have different OG and Twitter Card images?",
+          "answer": "Yes. Twitter uses twitter:image while Open Graph uses og:image. You can specify different images optimized for each platform's aspect ratio requirements (2:1 for Twitter, 1.91:1 for OG)."
+        },
+        {
+          "question": "What is the canonical URL tag?",
+          "answer": "The rel=canonical tag tells search engines which URL is the preferred version of a page when the same content exists at multiple URLs. It prevents duplicate content issues that can dilute your SEO authority."
+        }
+      ],
+      "relatedTools": [
+        "keyword-density-checker",
+        "robots-txt-generator",
+        "sitemap-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-014",
+      "name": "Keyword Density Checker",
+      "slug": "keyword-density-checker",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Analyze keyword frequency and density in your content for SEO optimization.",
+      "seoTitle": "Free Keyword Density Checker - SEO Content Analyzer",
+      "metaDescription": "Check keyword density in your content for free. Analyze word frequency, identify overused terms, and optimize your content for SEO.",
+      "keywords": [
+        "keyword density checker",
+        "keyword frequency analyzer",
+        "SEO content analysis",
+        "keyword stuffing checker",
+        "content optimizer",
+        "keyword occurrence counter",
+        "on-page SEO tool",
+        "keyword prominence"
+      ],
+      "content": "Keyword density is the percentage of times a specific keyword appears in your content relative to the total word count. While keyword stuffing (overusing keywords) is penalized by Google, having your target keywords appear at an appropriate frequency is still an important on-page SEO signal. Our keyword density checker helps you find the perfect balance.\n\nHow to Calculate Keyword Density\n\nKeyword density is calculated as: (Number of times keyword appears ÷ Total words) × 100. If your 1,000-word article uses the phrase 'digital marketing' 10 times, the density is 1%. SEO best practices recommend 1–2% for primary keywords and 0.5–1% for secondary keywords.\n\nKeyword Stuffing and Google Penalties\n\nKeyword stuffing — unnaturally forcing keywords into content — was an effective black-hat SEO tactic in the early 2000s. Google's algorithm updates (Panda, Hummingbird) made this counterproductive. Pages with unnaturally high keyword density (above 4–5%) may be devalued or penalized. Natural, reader-focused writing with moderate keyword frequency always outperforms stuffed content.\n\nLSI Keywords and Semantic SEO\n\nModern SEO goes beyond exact keyword repetition. Google uses Latent Semantic Indexing (LSI) and natural language processing to understand content context. Our analyzer identifies not just your target keywords but also related semantic terms, helping you build topically authoritative content that ranks for hundreds of related phrases.\n\nLong-Tail Keyword Analysis\n\nLong-tail keywords (3+ word phrases) typically have lower search volume but much higher conversion rates. Our tool identifies long-tail phrase frequencies in your content, helping you optimize for specific intent-based queries that drive qualified traffic.\n\nContent Optimization Workflow\n\nWrite your content naturally focusing on the reader. Paste the text into our analyzer. Review the keyword density report. Identify primary keyword density (target: 1–2%). Check if important secondary keywords appear. Look for overused filler words to remove. Compare keyword prominence (keywords near the beginning of the page carry more weight).",
+      "faq": [
+        {
+          "question": "What is the ideal keyword density for SEO?",
+          "answer": "Most SEO professionals recommend 1–2% for primary keywords. However, there is no universally agreed optimal density. Focus on natural-sounding content — if your keyword fits naturally 1% of the time, that is likely appropriate."
+        },
+        {
+          "question": "Does Google use keyword density as a ranking factor?",
+          "answer": "Google does not use keyword density as a direct ranking factor. However, keywords must appear in content for Google to understand the topic. Modern Google uses semantic analysis to understand content beyond exact keyword matches."
+        },
+        {
+          "question": "What is keyword stuffing?",
+          "answer": "Keyword stuffing is unnaturally forcing keywords into content at high frequency in hopes of ranking higher. Example: 'We sell the best red shoes. Our red shoes store has red shoes for red shoe buyers.' Google penalizes this practice."
+        },
+        {
+          "question": "How do I check the keyword density of a competitor page?",
+          "answer": "Open the competitor page, select all text (Ctrl+A), copy it, paste it into our analyzer, and analyze. This gives you insight into their keyword targeting strategy."
+        },
+        {
+          "question": "What is keyword prominence?",
+          "answer": "Keyword prominence refers to where in the page keywords appear. Keywords in the title, first paragraph, H1, and URL carry more weight than keywords deep in the page. High density with low prominence is less effective than moderate density with high prominence."
+        }
+      ],
+      "relatedTools": [
+        "meta-tag-generator",
+        "word-counter",
+        "readability-checker"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-015",
+      "name": "Length Converter",
+      "slug": "length-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between meters, feet, inches, centimeters, miles, and kilometers.",
+      "seoTitle": "Free Length Converter - Meters, Feet, Inches & More",
+      "metaDescription": "Convert length units online for free. Instantly convert between meters, feet, inches, centimeters, kilometers, miles, yards, and nautical miles.",
+      "keywords": [
+        "length converter",
+        "meters to feet",
+        "feet to meters",
+        "cm to inches",
+        "inches to cm",
+        "miles to kilometers",
+        "unit converter",
+        "distance converter"
+      ],
+      "content": "Length conversion is one of the most frequently needed mathematical operations in daily life, construction, engineering, cooking, and international travel. Our free length converter handles all major length units with precision up to 10 decimal places, making it suitable for casual use and professional applications alike.\n\nSupported Length Units\n\nMetric System: Kilometer (km), Meter (m), Decimeter (dm), Centimeter (cm), Millimeter (mm), Micrometer (μm), Nanometer (nm). Imperial/US Customary: Mile (mi), Yard (yd), Foot (ft), Inch (in). Nautical: Nautical mile (nmi). Astronomical: Light year (ly), Astronomical Unit (AU).\n\nCommon Length Conversions\n\n1 meter = 3.28084 feet = 39.3701 inches. 1 foot = 30.48 centimeters = 0.3048 meters. 1 inch = 2.54 centimeters = 25.4 millimeters. 1 kilometer = 0.621371 miles = 1,093.61 yards. 1 mile = 1.60934 kilometers = 5,280 feet. 1 nautical mile = 1.852 kilometers = 1.15078 miles.\n\nPractical Use Cases\n\nConstruction and real estate: Converting between metric (international) and imperial (US/UK) measurements for architectural drawings, floor plans, and material estimates. Travel and navigation: Understanding distances in unfamiliar units when traveling internationally. GPS coordinates and maps sometimes use different unit systems. Fashion and clothing: Converting sizes between US, UK, and European sizing systems which use different measurement units. Manufacturing: Engineering drawings may specify dimensions in millimeters while manufacturing equipment calibration uses inches. Screen resolutions: Converting between physical screen sizes (inches/cm) and pixel dimensions.\n\nMetric vs Imperial: Why Two Systems?\n\nThe metric system (SI) is used by 195 countries worldwide, including all of Europe, Asia, and Africa. The United States, Liberia, and Myanmar are the only countries that primarily use the imperial system. Scientists worldwide use metric exclusively. The 1999 Mars Climate Orbiter crash was caused by a NASA team using imperial units while another used metric — a $327 million lesson in unit conversion.",
+      "faq": [
+        {
+          "question": "How many centimeters in an inch?",
+          "answer": "1 inch = 2.54 centimeters exactly. This is the internationally defined conversion. So 12 inches (1 foot) = 30.48 cm, and 1 meter = 39.3701 inches."
+        },
+        {
+          "question": "How many feet in a meter?",
+          "answer": "1 meter = 3.28084 feet (rounded). More precisely, 1 meter = 3 feet and 3.37 inches. For quick mental math, multiply meters by 3.3 to get approximate feet."
+        },
+        {
+          "question": "What is the difference between a mile and a nautical mile?",
+          "answer": "A statute mile (land mile) = 1.60934 km = 5,280 feet. A nautical mile = 1.852 km = 6,076 feet. The nautical mile is based on the Earth's circumference, making it ideal for navigation where one nautical mile equals one arcminute of latitude."
+        },
+        {
+          "question": "How do I convert meters to feet in my head?",
+          "answer": "A quick mental approximation: multiply meters by 3.3 (instead of the exact 3.28084). So 10 meters ≈ 33 feet. For running distances, 100 meters ≈ 109 yards."
+        },
+        {
+          "question": "What is a light year in kilometers?",
+          "answer": "1 light year = 9.461 × 10^12 km (about 9.46 trillion kilometers). It is the distance light travels in one year at the speed of 299,792 km/s. The nearest star system, Alpha Centauri, is 4.37 light years away."
+        }
+      ],
+      "relatedTools": [
+        "temperature-converter",
+        "weight-converter",
+        "area-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-016",
+      "name": "Temperature Converter",
+      "slug": "temperature-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine temperature scales.",
+      "seoTitle": "Free Temperature Converter - Celsius to Fahrenheit",
+      "metaDescription": "Convert temperature units online for free. Convert Celsius to Fahrenheit, Kelvin, and Rankine. Instant accurate temperature conversion.",
+      "keywords": [
+        "temperature converter",
+        "Celsius to Fahrenheit",
+        "Fahrenheit to Celsius",
+        "Kelvin converter",
+        "temperature unit converter",
+        "°C to °F",
+        "°F to °C",
+        "online temperature calculator"
+      ],
+      "content": "Temperature conversion is essential in daily life, cooking, science, medicine, weather, and engineering. Our free temperature converter handles all four major temperature scales with precise formulas, providing instant conversions between Celsius, Fahrenheit, Kelvin, and Rankine.\n\nTemperature Scale Overview\n\nCelsius (°C): The international standard used in most countries. Water freezes at 0°C and boils at 100°C at standard pressure. Developed by Anders Celsius in 1742. Fahrenheit (°F): Used primarily in the United States and its territories. Water freezes at 32°F and boils at 212°F. Developed by Daniel Gabriel Fahrenheit in 1724. Kelvin (K): The SI base unit of temperature used in science and physics. Zero Kelvin (0K = -273.15°C) is absolute zero — the coldest possible temperature. No degrees symbol used with Kelvin. Rankine (°R): The Fahrenheit-based absolute temperature scale used in some engineering applications. Absolute zero is 0°R = 0K = -459.67°F.\n\nConversion Formulas\n\nCelsius to Fahrenheit: °F = (°C × 9/5) + 32. Fahrenheit to Celsius: °C = (°F − 32) × 5/9. Celsius to Kelvin: K = °C + 273.15. Kelvin to Celsius: °C = K − 273.15. Fahrenheit to Kelvin: K = (°F + 459.67) × 5/9. Fahrenheit to Rankine: °R = °F + 459.67.\n\nPractical Temperature References\n\nAbsolute zero: 0 K = −273.15°C = −459.67°F. Water freezes: 0°C = 32°F = 273.15 K. Human body temperature: 37°C = 98.6°F = 310.15 K. Water boils: 100°C = 212°F = 373.15 K. Oven baking (moderate): 175°C = 350°F = 448.15 K. Sun surface: 5,500°C ≈ 9,932°F ≈ 5,773 K.\n\nCooking Temperature Guide\n\nCooking is one of the most common reasons people need temperature conversion. American recipes use Fahrenheit while most of the world uses Celsius. Bread baking: 200°C / 400°F. Roasting meat: 180°C / 356°F. Deep frying oil: 180–190°C / 356–375°F. Candy hard crack stage: 149–154°C / 300–310°F.",
+      "faq": [
+        {
+          "question": "What is the formula to convert Celsius to Fahrenheit?",
+          "answer": "°F = (°C × 9/5) + 32. Or equivalently: °F = (°C × 1.8) + 32. Quick trick: double the Celsius temperature and add 30 for a rough Fahrenheit estimate."
+        },
+        {
+          "question": "At what temperature are Celsius and Fahrenheit equal?",
+          "answer": "Celsius and Fahrenheit are equal at -40 degrees. -40°C = -40°F. This is the only temperature where the two scales intersect."
+        },
+        {
+          "question": "Why does the US use Fahrenheit instead of Celsius?",
+          "answer": "The US adopted the Fahrenheit scale before the metric system was developed and did not switch to Celsius despite several attempts. Fahrenheit was in common use when the US became independent, and changing established measurement systems is a slow cultural process."
+        },
+        {
+          "question": "What is absolute zero in Celsius and Fahrenheit?",
+          "answer": "Absolute zero is 0 Kelvin = -273.15°C = -459.67°F. It is the theoretical temperature at which all thermal motion of particles stops. It has never been achieved in practice, though scientists have reached within billionths of a degree."
+        },
+        {
+          "question": "What is normal human body temperature in Celsius?",
+          "answer": "Normal human body temperature is 37°C (98.6°F). This is a historical average — individual normal temperatures range from 36.1°C to 37.2°C (97°F to 99°F). Body temperature also varies by time of day and measurement location."
+        }
+      ],
+      "relatedTools": [
+        "length-converter",
+        "weight-converter",
+        "pressure-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-017",
+      "name": "QR Code Generator",
+      "slug": "qr-code-generator",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Generate QR codes for URLs, text, email, WiFi, and contact information.",
+      "seoTitle": "Free QR Code Generator - Create QR Codes Online",
+      "metaDescription": "Generate QR codes online for free. Create QR codes for URLs, text, WiFi passwords, email, phone, and vCards. Download PNG or SVG.",
+      "keywords": [
+        "QR code generator",
+        "free QR code",
+        "create QR code online",
+        "QR code maker",
+        "URL to QR code",
+        "WiFi QR code",
+        "vCard QR code",
+        "QR code download"
+      ],
+      "content": "QR codes (Quick Response codes) have become ubiquitous in marketing, business operations, contactless payments, and personal use. Our free QR code generator creates high-quality QR codes for any content type in seconds, with customization options and multiple output formats.\n\nQR Code Types Supported\n\nURL QR Code: Link any website URL. Scanning opens the URL in the device browser — the most common use case for marketing campaigns. Text QR Code: Encode plain text messages up to 4,296 characters. Useful for encoded notes, product information, and instructions. Email QR Code: Encode email address, subject line, and body text. Scanning opens the compose window pre-filled. Phone QR Code: Encode a phone number. Scanning opens the phone dialer with the number ready to call. SMS QR Code: Encode phone number and message text for instant SMS sending. WiFi QR Code: Encode SSID, password, and security type. Scanning automatically connects to the WiFi network — eliminate the need to share passwords manually. vCard QR Code: Encode full contact information including name, phone, email, address, and website. Scanning adds the contact directly to the phone's address book.\n\nQR Code Design and Customization\n\nOur generator offers color customization, logo embedding (add your brand logo in the center), size control, and error correction level selection. Higher error correction allows more of the QR code to be obscured (by a logo or physical damage) while remaining scannable. Error correction levels: L (7% damage tolerance), M (15%), Q (25%), H (30%).\n\nQR Code Best Practices\n\nAlways test your QR code with multiple devices before printing. Ensure sufficient contrast between the dark squares and background. Include a minimum size of 2×2 cm for reliable scanning. Add a clear call-to-action near the code ('Scan to visit our website'). Use URL shorteners for long URLs to create less dense, more scannable codes.\n\nQR Codes in Marketing\n\nQR codes experienced a massive revival during COVID-19 for contactless menus and check-ins. Studies show QR code scans increased by over 500% between 2018 and 2022. They bridge offline and online marketing — print ads, product packaging, business cards, and storefront signage can all drive digital engagement.",
+      "faq": [
+        {
+          "question": "How much data can a QR code store?",
+          "answer": "QR codes can store up to 7,089 numeric characters, 4,296 alphanumeric characters, or 2,953 binary bytes. Shorter content creates simpler, more easily scannable codes."
+        },
+        {
+          "question": "Are QR codes permanent?",
+          "answer": "Static QR codes (like those generated here) are permanent — the encoded data never expires or changes. For editable QR codes where you can change the destination URL after printing, use dynamic QR code services."
+        },
+        {
+          "question": "What is the minimum size for a QR code to be scannable?",
+          "answer": "The minimum practical size is 2×2 cm (about 0.8×0.8 inches) for scanning at arm's length. For large-format printing (banners, posters), scale proportionally based on expected scanning distance."
+        },
+        {
+          "question": "Can I add a logo to my QR code?",
+          "answer": "Yes. Our tool allows you to add a centered logo. Use error correction level H (30%) when adding logos to ensure the code remains scannable even with the logo covering the center."
+        },
+        {
+          "question": "What format should I download the QR code in?",
+          "answer": "Download as SVG for print use (infinitely scalable without quality loss). Download as PNG for digital use (web, email, documents). Avoid JPEG for QR codes as compression artifacts can make them unscannable."
+        }
+      ],
+      "relatedTools": [
+        "url-encoder",
+        "barcode-generator",
+        "image-compressor"
+      ],
+      "isPopular": true,
+      "isFeatured": true
+    },
+    {
+      "id": "tool-018",
+      "name": "URL Encoder/Decoder",
+      "slug": "url-encoder",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Encode and decode URLs to handle special characters in web addresses.",
+      "seoTitle": "Free URL Encoder Decoder - Encode Special Characters",
+      "metaDescription": "Encode and decode URLs online for free. Handle special characters, spaces, and Unicode in web addresses. Instant browser-based tool.",
+      "keywords": [
+        "URL encoder",
+        "URL decoder",
+        "percent encoding",
+        "URL special characters",
+        "encode URL online",
+        "decode URL",
+        "query string encoder",
+        "URI encoder"
+      ],
+      "content": "URL encoding (also called percent-encoding) is the process of converting characters in a URL that are not allowed in the ASCII character set into a format that can be safely transmitted over the internet. Our free URL encoder and decoder handles both encoding and decoding instantly in your browser.\n\nWhy URL Encoding is Necessary\n\nURLs can only contain a limited set of ASCII characters. Spaces, special characters, non-English letters, and symbols must be encoded. For example, a space becomes %20, the @ sign becomes %40, and the Chinese character 中 becomes %E4%B8%AD. Without proper encoding, URLs break, form submissions fail, and web requests return errors.\n\nURL Reserved vs Unreserved Characters\n\nReserved characters have special meaning in URLs: / (path separator), ? (query string start), & (query parameter separator), = (parameter value), # (fragment identifier), + (space in query strings). These must be encoded when used as data, not structure. Unreserved characters (A–Z, a–z, 0–9, -, _, ., ~) never need encoding.\n\nPractical Applications\n\nAPI development: Encoding query parameters with special characters for correct API requests. Web forms: POST and GET form data uses URL encoding for special characters in submitted values. Email links: mailto: links with pre-filled subjects and bodies require encoding. Redirect URLs: When a URL contains another URL as a parameter, the inner URL must be fully encoded. Debugging: Decoding API logs and browser developer tools output that show percent-encoded values.\n\nencodeURI vs encodeURIComponent\n\nIn JavaScript, two encoding functions handle different scenarios. encodeURI() encodes a full URL, preserving structure characters (/,?,&,=,#). It is used when you want to encode an entire URL. encodeURIComponent() encodes everything including structure characters, used when encoding URL components like query parameter values. Our tool supports both encoding modes.\n\nURL Encoding Best Practices\n\nAlways encode special characters in URL query parameters. Use encodeURIComponent for individual parameter values. Test URLs with online validators before deployment. Ensure your server-side code decodes URL parameters before processing.",
+      "faq": [
+        {
+          "question": "What does %20 mean in a URL?",
+          "answer": "%20 is the URL-encoded form of a space character. In query strings, + is also used to represent spaces (application/x-www-form-urlencoded format). Both %20 and + decode to a space."
+        },
+        {
+          "question": "When should I encode a URL?",
+          "answer": "Encode URLs whenever you are building URLs programmatically, when URLs contain non-ASCII characters (accents, Chinese, Arabic), or when URL components contain reserved characters like &, =, ?, or / used as data."
+        },
+        {
+          "question": "What is the difference between URL encoding and HTML encoding?",
+          "answer": "URL encoding (percent-encoding) converts characters for use in URLs. HTML encoding converts characters for safe display in HTML (e.g., < becomes &lt;). They serve different purposes and are not interchangeable."
+        },
+        {
+          "question": "Can I decode multiple URLs at once?",
+          "answer": "Yes. Our tool supports batch encoding/decoding. Paste multiple URLs on separate lines and all will be processed simultaneously."
+        },
+        {
+          "question": "Why are some characters not encoded in the URL?",
+          "answer": "Unreserved characters (letters, numbers, -, _, ., ~) are safe in URLs and do not need encoding. Reserved characters (:, /, ?, #, [, ], @, !, $, &, ', (, ), *, +, ,, ;, =) have special URL meaning and should only be encoded when used as data values."
+        }
+      ],
+      "relatedTools": [
+        "base64-encoder",
+        "qr-code-generator",
+        "json-formatter"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-019",
+      "name": "Crop Yield Calculator",
+      "slug": "crop-yield-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate estimated crop yield per acre or hectare based on crop type and conditions.",
+      "seoTitle": "Free Crop Yield Calculator - Estimate Farm Production",
+      "metaDescription": "Calculate estimated crop yield for wheat, rice, cotton, and more. Enter field area, crop variety, and conditions for yield estimates.",
+      "keywords": [
+        "crop yield calculator",
+        "farm yield estimator",
+        "wheat yield calculator",
+        "rice yield calculator",
+        "agricultural yield",
+        "crop production calculator",
+        "harvest yield",
+        "farming calculator"
+      ],
+      "content": "Accurate crop yield estimation is critical for farm planning, input purchasing, financing, crop insurance, and marketing decisions. Our free crop yield calculator helps farmers, agronomists, and agricultural advisors estimate expected production based on field area, crop type, planting density, and growing conditions.\n\nHow Crop Yield is Measured\n\nCrop yield is typically measured as: Quintals per acre (q/acre) or quintals per hectare (q/ha) in India. Bushels per acre in the United States. Tonnes per hectare globally. Our calculator supports all these units with automatic conversion.\n\nKey Factors Affecting Crop Yield\n\nSeed variety: High-yielding varieties (HYV) can produce 2–3× more than traditional varieties. Use certified seeds from registered dealers. Soil health: Optimal pH (6.0–7.5 for most crops), adequate organic matter, and micronutrient availability directly impact yield. Irrigation: Water-stressed crops show 20–50% yield reduction. Proper timing and quantity of irrigation is critical. Fertilization: Balanced NPK (Nitrogen, Phosphorus, Potassium) application based on soil test results. Over-fertilization is wasteful and under-fertilization limits yield. Pest and disease management: Timely intervention prevents 15–40% yield losses. Weather: Temperature extremes, unseasonal rain, and drought can significantly reduce actual yield below potential.\n\nCrop-Specific Yield Benchmarks (India)\n\nWheat: 35–50 q/ha (improved varieties). Rice: 40–60 q/ha (irrigated), 20–30 q/ha (rainfed). Maize: 50–70 q/ha (hybrid varieties). Cotton: 15–20 q/ha (lint yield). Sugarcane: 700–900 q/ha. Soybean: 20–30 q/ha.\n\nYield Gap Analysis\n\nThe yield gap is the difference between potential yield (under ideal conditions) and actual farm yield. In India, the yield gap for major crops is 30–50% due to sub-optimal practices. Our calculator helps you identify where your yield stands relative to potential and where improvement opportunities exist.\n\nFor bank loan applications, crop insurance claims, and government subsidy applications, having calculated yield estimates with documented basis is essential.",
+      "faq": [
+        {
+          "question": "How is crop yield calculated per acre?",
+          "answer": "Crop yield per acre = (Total plot production in kg) ÷ (Total area in acres). For standing crop estimation, take sample measurements from 3–5 spots: count plants/m², estimate grains/plant, and multiply by grain weight."
+        },
+        {
+          "question": "What is a good wheat yield per acre in India?",
+          "answer": "Good wheat yield in India ranges from 18–22 quintals per acre (45–55 q/ha) for irrigated fields with improved varieties. National average is around 14–16 q/acre. Top farmers achieve 25+ q/acre with optimal management."
+        },
+        {
+          "question": "How does soil type affect crop yield?",
+          "answer": "Heavy clay soils retain water well but may have drainage issues. Sandy soils drain fast but have poor nutrient retention. Loamy soils are ideal for most crops. Conduct a soil test to determine amendments needed for your specific soil type."
+        },
+        {
+          "question": "What is yield estimation for crop insurance?",
+          "answer": "Crop insurance yield estimation uses the Crop Cutting Experiment (CCE) method — government-supervised harvesting of a sample plot to determine actual yield for insurance claim purposes under PMFBY scheme."
+        },
+        {
+          "question": "How can I increase my crop yield?",
+          "answer": "Key yield improvement strategies: use certified HYV seeds, conduct soil testing and apply balanced fertilizers, ensure timely irrigation, adopt integrated pest management, use mulching to conserve moisture, and follow recommended crop spacing for your variety."
+        }
+      ],
+      "relatedTools": [
+        "fertilizer-calculator",
+        "irrigation-calculator",
+        "soil-ph-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false
+    },
+    {
+      "id": "tool-020",
+      "name": "Fertilizer Calculator",
+      "slug": "fertilizer-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate NPK fertilizer requirements for your crop and field size.",
+      "seoTitle": "Free Fertilizer Calculator - NPK Requirement Calculator",
+      "metaDescription": "Calculate fertilizer requirements for your crops. Enter crop type, field area, and soil test values to get NPK fertilizer recommendations.",
+      "keywords": [
+        "fertilizer calculator",
+        "NPK calculator",
+        "fertilizer requirement",
+        "nitrogen phosphorus potassium",
+        "fertilizer dose calculator",
+        "crop nutrition calculator",
+        "soil fertilizer requirement",
+        "farm fertilizer tool"
+      ],
+      "content": "Proper fertilizer application is one of the most impactful management decisions a farmer makes each season. Under-fertilization limits crop yield potential. Over-fertilization wastes money, damages soil health, and causes environmental pollution. Our free fertilizer calculator helps you determine the right amount of fertilizer for your crop, based on scientifically validated nutrient requirement data.\n\nNPK Basics\n\nAll crops require three primary macronutrients in relatively large quantities: Nitrogen (N): Essential for vegetative growth, leaf development, and protein formation. Deficiency causes yellowing of older leaves and stunted growth. Phosphorus (P): Critical for root development, flowering, and seed formation. Deficiency causes purple discoloration and poor root systems. Potassium (K): Regulates water use, disease resistance, and overall plant health. Deficiency causes brown leaf edges and weak stems.\n\nHow to Use the Fertilizer Calculator\n\nInput your field area (acres or hectares), select your crop (wheat, rice, cotton, maize, vegetables, etc.), enter your soil test N, P, and K values if available, and specify the expected yield target. The calculator computes the total N, P, and K required minus what the soil already provides, then calculates specific fertilizer quantities (bags of Urea, DAP, MOP, etc.).\n\nCommon Fertilizer Sources and Nutrient Content\n\nUrea (46-0-0): 46% Nitrogen — most common and cost-effective nitrogen source. DAP (18-46-0): 18% N, 46% P₂O₅ — excellent phosphorus source. MOP/Potash (0-0-60): 60% K₂O — primary potassium fertilizer. SSP (0-16-0): 16% P₂O₅ + 11% Sulfur — good for sulfur-deficient soils. NPK complex (various grades): Balanced combinations for simplified application.\n\nFertilizer Application Timing\n\nBasal application (at sowing): Mix P, K, and 1/3 of N into the soil before or at planting. Top dressing at tillering: Apply 1/3 N when crop shows active vegetative growth. Top dressing at panicle initiation: Final 1/3 N application for grain filling. Split nitrogen application is critical — applying all nitrogen at once leads to losses through volatilization, leaching, and denitrification.",
+      "faq": [
+        {
+          "question": "How do I calculate fertilizer quantity per acre?",
+          "answer": "Multiply the recommended nutrient dose (kg/acre) by the inverse of fertilizer nutrient content. For example, to apply 25 kg N/acre using Urea (46% N): 25 ÷ 0.46 = 54.3 kg Urea/acre ≈ 1.09 bags (50 kg bags)."
+        },
+        {
+          "question": "What is the NPK requirement for wheat?",
+          "answer": "Recommended NPK dose for wheat in India is typically 120:60:40 kg/ha (N:P:K). This translates to approximately 52 kg Urea/acre for N, 58 kg DAP/acre for P, and 33 kg MOP/acre for K (basal dose calculations vary by region)."
+        },
+        {
+          "question": "Is soil testing necessary before applying fertilizer?",
+          "answer": "Soil testing is highly recommended. It reveals existing nutrient levels, pH, and organic matter content, allowing precision fertilization. Without soil data, you apply fertilizer based on general crop requirements which may over-apply P and K that the soil already has in sufficient quantity."
+        },
+        {
+          "question": "What is the difference between DAP and SSP?",
+          "answer": "DAP (Di-Ammonium Phosphate 18-46-0) contains both N and P, making it efficient but more expensive. SSP (Single Super Phosphate 0-16-0) contains only P plus sulfur and calcium. SSP is better for sulfur-deficient soils. DAP is better for N and P combination needs."
+        },
+        {
+          "question": "How does over-fertilization harm crops?",
+          "answer": "Excess nitrogen causes vegetative growth at the expense of grains, disease susceptibility, and lodging (plants falling over). High phosphorus blocks zinc and iron uptake. Excess potassium causes salinity stress. Over-fertilization also pollutes groundwater through nutrient leaching."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "irrigation-calculator",
+        "soil-ph-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false
+    }
+  ]
+}
