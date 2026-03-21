@@ -1,5 +1,5 @@
 import { Component, signal, OnInit } from '@angular/core';
-import { CommonModule, DecimalPipe } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 interface YearRow { year: number; invested: number; returns: number; total: number; growth: number; }
@@ -7,7 +7,7 @@ interface YearRow { year: number; invested: number; returns: number; total: numb
 @Component({
   selector: 'app-sip-calculator',
   standalone: true,
-  imports: [CommonModule, FormsModule, DecimalPipe],
+  imports: [CommonModule, FormsModule],
   template: `
     <div class="sip-wrap">
 

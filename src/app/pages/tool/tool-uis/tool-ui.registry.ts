@@ -42,6 +42,11 @@ import { QrGeneratorComponent } from './qr-generator.component';
 // ── Farmers Tools ─────────────────────────────────────────────────────────────
 import { CropYieldCalculatorComponent } from './crop-yield-calculator.component';
 import { FertilizerCalculatorComponent } from './fertilizer-calculator.component';
+import { ImageConverterComponent } from './image-converter.component';
+import { ImageCropperComponent } from './image-cropper.component';
+import { ImageFlipRotateComponent } from './image-flip-rotate.component';
+import { ImageWatermarkComponent } from './image-watermark.component';
+import { ImageColorPickerComponent, ImageToBase64Component, JpgToPngComponent, PngToJpgComponent } from './image-misc-components';
 
 /**
  * TOOL_UI_REGISTRY
@@ -53,45 +58,53 @@ import { FertilizerCalculatorComponent } from './fertilizer-calculator.component
  */
 export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   // Calculators
-  'sip-calculator':               SipCalculatorComponent,
-  'emi-calculator':               EmiCalculatorComponent,
+  'sip-calculator': SipCalculatorComponent,
+  'emi-calculator': EmiCalculatorComponent,
   'compound-interest-calculator': CompoundInterestCalculatorComponent,
-  'bmi-calculator':               BmiCalculatorComponent,
-  'age-calculator':               AgeCalculatorComponent,
-  'percentage-calculator':        PercentageCalculatorComponent,
-  'gst-calculator':               GstCalculatorComponent,
-  'calorie-calculator':           CalorieCalculatorComponent,
-  'discount-calculator':          DiscountCalculatorComponent,
-  'retirement-calculator':        RetirementCalculatorComponent,
+  'bmi-calculator': BmiCalculatorComponent,
+  'age-calculator': AgeCalculatorComponent,
+  'percentage-calculator': PercentageCalculatorComponent,
+  'gst-calculator': GstCalculatorComponent,
+  'calorie-calculator': CalorieCalculatorComponent,
+  'discount-calculator': DiscountCalculatorComponent,
+  'retirement-calculator': RetirementCalculatorComponent,
 
   // Image Tools
-  'image-compressor':             ImageCompressorComponent,
-  'image-resizer':                ImageResizerComponent,
-
+  'image-compressor': ImageCompressorComponent,
+  'image-resizer': ImageResizerComponent,
+  'image-converter': ImageConverterComponent,
+  'image-cropper': ImageCropperComponent,
+  'image-flip-rotate': ImageFlipRotateComponent,
+  'image-watermark': ImageWatermarkComponent,
+  'png-to-jpg': PngToJpgComponent,
+  'jpg-to-png': JpgToPngComponent,
+  'image-color-picker': ImageColorPickerComponent,
+  'image-to-base64': ImageToBase64Component,
+  
   // Developer Tools
-  'json-formatter':               JsonFormatterComponent,
-  'base64-encoder':               Base64EncoderComponent,
-  'hash-generator':               HashGeneratorComponent,
+  'json-formatter': JsonFormatterComponent,
+  'base64-encoder': Base64EncoderComponent,
+  'hash-generator': HashGeneratorComponent,
 
   // Text Tools
-  'word-counter':                 WordCounterComponent,
-  'text-case-converter':          TextCaseConverterComponent,
+  'word-counter': WordCounterComponent,
+  'text-case-converter': TextCaseConverterComponent,
 
   // Security Tools
-  'password-generator':           PasswordGeneratorComponent,
+  'password-generator': PasswordGeneratorComponent,
 
   // SEO Tools
-  'meta-tag-generator':           MetaTagGeneratorComponent,
-  'keyword-density-checker':      KeywordDensityCheckerComponent,
+  'meta-tag-generator': MetaTagGeneratorComponent,
+  'keyword-density-checker': KeywordDensityCheckerComponent,
 
   // Unit Converters
-  'length-converter':             LengthConverterComponent,
-  'temperature-converter':        TemperatureConverterComponent,
+  'length-converter': LengthConverterComponent,
+  'temperature-converter': TemperatureConverterComponent,
 
   // Utility Tools
-  'qr-code-generator':            QrGeneratorComponent,
+  'qr-code-generator': QrGeneratorComponent,
 
   // Farmers Tools
-  'crop-yield-calculator':        CropYieldCalculatorComponent,
-  'fertilizer-calculator':        FertilizerCalculatorComponent,
+  'crop-yield-calculator': CropYieldCalculatorComponent,
+  'fertilizer-calculator': FertilizerCalculatorComponent,
 };
