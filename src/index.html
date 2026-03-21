@@ -22,6 +22,17 @@
   <link rel="canonical" href="https://utilitymega.com">
 </head>
 <body>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ7NVQ7CMJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-HJ7NVQ7CMJ', {
+    send_page_view: false   // 👈 MUST for Angular SPA
+  });
+</script>
   <app-root></app-root>
 </body>
 </html>

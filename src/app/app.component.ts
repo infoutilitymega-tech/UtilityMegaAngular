@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
+import { AnalyticsService } from './core/services/analytics.service';
 
 @Component({
   selector: 'app-root',
@@ -17,4 +18,5 @@ import { SidebarComponent } from './shared/components/sidebar/sidebar.component'
 })
 export class AppComponent {
   sidebarOpen = signal(false);
+ constructor(private analytics: AnalyticsService) {}
 }
