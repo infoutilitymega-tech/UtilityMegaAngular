@@ -54,8 +54,8 @@ const CAT_ICONS: Record<string, string> = {
 
       <div class="sidebar-foot">
         <a routerLink="/" (click)="close.emit()">🏠 Home</a>
-        <a routerLink="/search" (click)="close.emit()">🔍 Search</a>
-        <span class="copy">© 2025 UtilityMega</span>
+        <!-- <a routerLink="/search" (click)="close.emit()">🔍 Search</a> -->
+        <span class="copy">© 2026 UtilityMega</span>
       </div>
     </aside>
   `,
