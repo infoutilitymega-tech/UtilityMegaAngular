@@ -151,8 +151,8 @@ import { TOOL_UI_REGISTRY } from './tool-uis/tool-ui.registry';
             <div class="sb-card">
               <h3 class="sb-title">📤 Share</h3>
               <div class="share-btns">
-                <button class="sh-btn tw" (click)="share('twitter')">𝕏 Share on X</button>
-                <button class="sh-btn wa" (click)="share('whatsapp')">💬 WhatsApp</button>
+                <!-- <button class="sh-btn tw" (click)="share('twitter')">𝕏 Share on X</button>
+                <button class="sh-btn wa" (click)="share('whatsapp')">💬 WhatsApp</button> -->
                 <button class="sh-btn cp" (click)="copyLink()">
                   {{ copied() ? '✓ Copied!' : '📋 Copy Link' }}
                 </button>

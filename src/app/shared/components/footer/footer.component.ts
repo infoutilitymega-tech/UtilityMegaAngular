@@ -6,81 +6,101 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [RouterLink],
   template: `
-    <footer class="site-footer">
+    <footer class="footer">
       <div class="container">
+
         <div class="footer-grid">
+
+          <!-- Brand -->
           <div class="footer-brand">
-            <a routerLink="/" class="footer-logo">
-              <img src="favicon.ico" alt="UtilityMega" class="foot-ico" />
-              Utility<strong>Mega</strong>
-            </a>
-            <p>100+ free online tools for everyone. No login, no cost, no limits. Built for speed and privacy.</p>
-            <div class="footer-social">
-              <a href="#" aria-label="Twitter/X">𝕏</a>
-              <a href="#" aria-label="YouTube">▶</a>
-              <a href="#" aria-label="Telegram">✈</a>
+            <a routerLink="/" class="brand-logo">⚡ UtilityMega</a>
+            <p class="brand-desc">100+ free online tools for everyone. No login. No limits. No cost. All processing happens in your browser.</p>
+            <div class="brand-badges">
+              <span class="fbadge">🆓 100% Free</span>
+              <span class="fbadge">🔒 Private</span>
+              <span class="fbadge">⚡ Instant</span>
             </div>
           </div>
 
+          <!-- Categories -->
           <div class="footer-col">
-            <h4>Top Tools</h4>
-            <a routerLink="/calculators/sip-calculator">SIP Calculator</a>
-            <a routerLink="/calculators/emi-calculator">EMI Calculator</a>
-            <a routerLink="/developer-tools/json-formatter">JSON Formatter</a>
-            <a routerLink="/security-tools/password-generator">Password Generator</a>
-            <a routerLink="/utility-tools/qr-code-generator">QR Code Generator</a>
+            <h4>Tools</h4>
+            <a routerLink="/calculators">🧮 Calculators</a>
+            <a routerLink="/image-tools">🖼️ Image Tools</a>
+            <a routerLink="/video-tools">🎬 Video Tools</a>
+            <a routerLink="/developer-tools">💻 Developer Tools</a>
+            <a routerLink="/text-tools">📝 Text Tools</a>
           </div>
 
           <div class="footer-col">
-            <h4>Categories</h4>
-            <a routerLink="/calculators">🧮 Calculators</a>
-            <a routerLink="/image-tools">🖼️ Image Tools</a>
-            <a routerLink="/developer-tools">💻 Developer Tools</a>
+            <h4>More Tools</h4>
+            <a routerLink="/security-tools">🔒 Security Tools</a>
             <a routerLink="/seo-tools">📈 SEO Tools</a>
+            <a routerLink="/unit-converters">⚖️ Unit Converters</a>
+            <a routerLink="/utility-tools">🔧 Utility Tools</a>
             <a routerLink="/farmers-tools">🌾 Farmers Tools</a>
           </div>
 
+          <!-- Company -->
           <div class="footer-col">
             <h4>Company</h4>
             <a routerLink="/about">About Us</a>
             <a routerLink="/contact">Contact</a>
-            <a routerLink="/privacy">Privacy Policy</a>
-            <a routerLink="/terms">Terms of Use</a>
+            <a routerLink="/sitemap">Sitemap</a>
+            <a routerLink="/privacy-policy">Privacy Policy</a>
+            <a routerLink="/terms-of-use">Terms of Use</a>
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">© {{ year }} UtilityMega. All rights reserved. Made with ❤️ for the internet.</p>
+          <div class="bottom-links">
+            <a routerLink="/privacy-policy">Privacy</a>
+            <span class="sep">·</span>
+            <a routerLink="/terms-of-use">Terms</a>
+            <span class="sep">·</span>
+            <a routerLink="/contact">Contact</a>
+            <span class="sep">·</span>
             <a routerLink="/sitemap">Sitemap</a>
           </div>
         </div>
 
-        <div class="footer-bottom">
-          <span>© {{ year }} UtilityMega — Free Tools, Forever.</span>
-          <div class="foot-badges">
-            <span class="fbadge">🆓 Always Free</span>
-            <span class="fbadge">🔒 No Login</span>
-            <span class="fbadge">⚡ Instant Results</span>
-          </div>
-        </div>
       </div>
     </footer>
   `,
   styles: [`
-    .site-footer { background: #0d1526; color: #64748b; margin-top: 4rem; border-top: 1px solid #1e293b; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 1.25rem; }
-    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2.5rem; padding: 3rem 0 2rem; }
-    .footer-brand p { font-size: .85rem; line-height: 1.7; margin-top: .75rem; color: #475569; }
-    .footer-logo { display: flex; align-items: center; gap: .5rem; text-decoration: none; color: #94a3b8; font-size: 1.1rem; font-weight: 800; }
-    .footer-logo strong { color: #fbbf24; }
-    .foot-ico { width: 22px; height: 22px; border-radius: 5px; }
-    .footer-social { display: flex; gap: .6rem; margin-top: 1rem; }
-    .footer-social a { display: flex; align-items: center; justify-content: center; width: 34px; height: 34px; background: #1e293b; border-radius: 8px; color: #64748b; text-decoration: none; font-size: .9rem; transition: all .15s; border: 1px solid #253556; }
-    .footer-social a:hover { background: #2563eb; color: #fff; border-color: #2563eb; }
-    .footer-col { display: flex; flex-direction: column; gap: .5rem; }
-    .footer-col h4 { color: #e2e8f0; font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .35rem; }
-    .footer-col a { color: #475569; text-decoration: none; font-size: .85rem; transition: color .15s; }
-    .footer-col a:hover { color: #60a5fa; }
-    .footer-bottom { border-top: 1px solid #1e293b; padding: 1.25rem 0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem; font-size: .82rem; }
-    .foot-badges { display: flex; gap: .5rem; flex-wrap: wrap; }
-    .fbadge { font-size: .72rem; padding: .2rem .55rem; background: #1e293b; border-radius: 99px; color: #64748b; border: 1px solid #253556; }
-    @media(max-width: 768px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1/-1; } }
-    @media(max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } .footer-bottom { flex-direction: column; align-items: flex-start; } }
+    .footer { background: #0f172a; color: #cbd5e1; padding: 3.5rem 1.25rem 0; margin-top: auto; }
+    .container { max-width: 1200px; margin: 0 auto; }
+
+    .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 2.5rem; padding-bottom: 3rem; border-bottom: 1px solid #1e293b; }
+
+    /* Brand */
+    .brand-logo { display: block; font-size: 1.2rem; font-weight: 800; color: white; text-decoration: none; margin-bottom: .75rem; }
+    .brand-desc { font-size: .8rem; line-height: 1.7; color: #64748b; margin-bottom: 1rem; }
+    .brand-badges { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .fbadge { font-size: .7rem; padding: .2rem .6rem; border-radius: 99px; background: rgba(255,255,255,.07); color: #94a3b8; font-weight: 600; border: 1px solid rgba(255,255,255,.08); }
+
+    /* Columns */
+    .footer-col h4 { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #475569; margin-bottom: .9rem; }
+    .footer-col a { display: block; color: #94a3b8; text-decoration: none; font-size: .82rem; padding: .28rem 0; transition: color .12s; }
+    .footer-col a:hover { color: #e2e8f0; }
+
+    /* Bottom */
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; padding: 1.25rem 0; flex-wrap: wrap; gap: .75rem; }
+    .copyright { font-size: .75rem; color: #475569; }
+    .bottom-links { display: flex; align-items: center; gap: .5rem; }
+    .bottom-links a { font-size: .75rem; color: #475569; text-decoration: none; transition: color .12s; }
+    .bottom-links a:hover { color: #94a3b8; }
+    .sep { color: #334155; font-size: .75rem; }
+
+    @media (max-width: 900px) {
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 560px) {
+      .footer-grid { grid-template-columns: 1fr; gap: 1.75rem; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; }
+    }
   `]
 })
 export class FooterComponent {

@@ -1,120 +1,114 @@
 import { Injectable, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { DOCUMENT } from '@angular/common';
-import { Router } from '@angular/router';
-import { Tool, Category, BreadcrumbItem } from '../models/tool.model';
+import { Category, Tool } from '../models/tool.model';
 
-const BASE_URL = 'https://utilitymega.com';
+interface MetaOptions {
+  title: string;
+  description: string;
+  url: string;
+  image?: string;
+}
 
 @Injectable({ providedIn: 'root' })
 export class SeoService {
-  private title = inject(Title);
   private meta = inject(Meta);
-  private doc = inject(DOCUMENT);
-  private router = inject(Router);
+  private title = inject(Title);
 
-  setHomeMeta() {
-    this.apply({
-      title: 'UtilityMega - 100+ Free Online Tools | No Login Required',
-      description: 'Free online tools for everyone: SIP calculator, EMI calculator, image compressor, JSON formatter, password generator, QR code maker, and 100+ more. No login needed.',
-      keywords: 'free online tools, calculators, image tools, developer tools, SEO tools, unit converters, text tools, security tools',
-      canonical: BASE_URL,
-    });
-    this.setOGFromObj({ 'og:title': 'UtilityMega - 100+ Free Online Tools', 'og:description': 'Free online tools — calculators, image tools, developer utilities, SEO analyzers and more.', 'og:type': 'website', 'og:url': BASE_URL, 'og:site_name': 'UtilityMega' });
-    this.setTwFromObj({ 'twitter:card': 'summary_large_image', 'twitter:title': 'UtilityMega - 100+ Free Online Tools', 'twitter:description': '100+ free tools. No login, no ads, no limits.' });
-    this.injectJsonLd('website-schema', {
-      '@context': 'https://schema.org', '@type': 'WebSite', name: 'UtilityMega', url: BASE_URL,
-      potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${BASE_URL}/search?q={search_term_string}` }, 'query-input': 'required name=search_term_string' }
+  private readonly defaultImage = 'https://utilitymega.com/assets/og-default.png';
+
+  /** Generic meta updater — used by static pages (About, Contact, Privacy, etc.) */
+  updateMeta(opts: MetaOptions): void {
+    this.title.setTitle(opts.title);
+    const image = opts.image ?? this.defaultImage;
+
+    // Standard SEO
+    this.meta.updateTag({ name: 'description', content: opts.description });
+    this.meta.updateTag({ name: 'robots', content: 'index, follow' });
+
+    // Open Graph
+    this.meta.updateTag({ property: 'og:title', content: opts.title });
+    this.meta.updateTag({ property: 'og:description', content: opts.description });
+    this.meta.updateTag({ property: 'og:url', content: opts.url });
+    this.meta.updateTag({ property: 'og:image', content: image });
+    this.meta.updateTag({ property: 'og:type', content: 'website' });
+    this.meta.updateTag({ property: 'og:site_name', content: 'UtilityMega' });
+
+    // Twitter Card
+    this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
+    this.meta.updateTag({ name: 'twitter:title', content: opts.title });
+    this.meta.updateTag({ name: 'twitter:description', content: opts.description });
+    this.meta.updateTag({ name: 'twitter:image', content: image });
+
+    // Canonical
+    this.setCanonical(opts.url);
+  }
+
+  setHomeMeta(): void {
+    this.updateMeta({
+      title: 'UtilityMega — 100+ Free Online Tools | No Login Required',
+      description: 'Free online tools for everyone: SIP calculator, EMI calculator, image compressor, JSON formatter, password generator, unit converters and more. 100% free, instant, private.',
+      url: 'https://utilitymega.com'
     });
   }
 
-  setCategoryMeta(cat: Category) {
-    const t = cat as any;
-    const url = t.canonicalUrl ?? `${BASE_URL}/${cat.slug}`;
-    this.apply({
+  setCategoryMeta(cat: Category): void {
+    this.updateMeta({
       title: cat.seoTitle,
       description: cat.metaDescription,
-      keywords: (t.keywords ?? []).join(', ') || `${cat.name} free online tools`,
-      canonical: url,
-    });
-    t.openGraph ? this.setOGFromObj(t.openGraph) : this.setOGFromObj({ 'og:title': cat.seoTitle, 'og:description': cat.metaDescription, 'og:type': 'website', 'og:url': url, 'og:site_name': 'UtilityMega' });
-    t.twitterCard && this.setTwFromObj(t.twitterCard);
-    t.jsonLd && this.injectJsonLd('category-schema', t.jsonLd);
-    this.injectJsonLd('breadcrumb-schema', {
-      '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
-        { '@type': 'ListItem', position: 2, name: cat.name, item: url },
-      ]
+      url: cat.canonicalUrl
     });
   }
 
-  setToolMeta(tool: Tool) {
-    const t = tool as any;
-    const url = t.canonicalUrl ?? `${BASE_URL}/${tool.categorySlug}/${tool.slug}`;
-    this.apply({ title: tool.seoTitle, description: tool.metaDescription, keywords: tool.keywords.join(', '), canonical: url });
-    // Open Graph
-    t.openGraph ? this.setOGFromObj(t.openGraph) : this.setOGFromObj({ 'og:title': tool.seoTitle, 'og:description': tool.metaDescription, 'og:type': 'website', 'og:url': url, 'og:site_name': 'UtilityMega' });
-    // Twitter Card
-    t.twitterCard ? this.setTwFromObj(t.twitterCard) : this.setTwFromObj({ 'twitter:card': 'summary_large_image', 'twitter:title': tool.seoTitle, 'twitter:description': tool.metaDescription });
-    // WebApplication JSON-LD (includes embedded breadcrumb from tools.json)
-    this.injectJsonLd('webapp-schema', t.jsonLd ?? {
-      '@context': 'https://schema.org', '@type': 'WebApplication',
-      name: tool.name, description: tool.metaDescription,
-      url, applicationCategory: 'UtilityApplication', operatingSystem: 'All',
-      offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' }
+  setToolMeta(tool: Tool): void {
+    this.updateMeta({
+      title: tool.seoTitle,
+      description: tool.metaDescription,
+      url: tool.canonicalUrl
     });
-    // Standalone BreadcrumbList JSON-LD
-    if (t.breadcrumbs?.length) {
-      this.injectJsonLd('breadcrumb-schema', {
-        '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-        itemListElement: t.breadcrumbs.map((b: any, i: number) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: b.url }))
-      });
+
+    // Tool-specific structured data
+    this.injectJsonLd(tool.jsonLd);
+    if (tool.faqSchema) {
+      this.injectJsonLd(tool.faqSchema, 'faq-schema');
     }
-    // FAQPage JSON-LD
-    const faqData = t.faqSchema ?? (tool.faq?.length ? {
-      '@context': 'https://schema.org', '@type': 'FAQPage',
-      mainEntity: tool.faq.slice(0, 5).map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } }))
-    } : null);
-    faqData && this.injectJsonLd('faq-schema', faqData);
   }
 
-  setSearchMeta() {
-    this.apply({
-      title: 'Search Free Online Tools - UtilityMega',
-      description: 'Search 100+ free online tools on UtilityMega. Find calculators, image tools, developer utilities, SEO analyzers, and more instantly.',
-      keywords: 'search online tools, find free tools, utility tools search',
-      canonical: `${BASE_URL}/search`,
-    });
-  }
-
-  private apply(opts: { title: string; description: string; keywords: string; canonical: string }) {
-    this.title.setTitle(opts.title);
-    this.meta.updateTag({ name: 'description', content: opts.description });
-    this.meta.updateTag({ name: 'keywords', content: opts.keywords });
-    this.meta.updateTag({ name: 'robots', content: 'index, follow' });
-    this.setCanonical(opts.canonical);
-  }
-
-  private setOGFromObj(og: Record<string, string>) {
-    Object.entries(og).forEach(([prop, content]) => this.meta.updateTag({ property: prop, content }));
-    if (!og['og:image']) this.meta.updateTag({ property: 'og:image', content: `${BASE_URL}/assets/og-image.png` });
-  }
-
-  private setTwFromObj(tw: Record<string, string>) {
-    Object.entries(tw).forEach(([name, content]) => this.meta.updateTag({ name, content }));
-    if (!tw['twitter:image']) this.meta.updateTag({ name: 'twitter:image', content: `${BASE_URL}/assets/og-image.png` });
-  }
-
-  private setCanonical(url: string) {
-    let link = this.doc.querySelector("link[rel='canonical']") as HTMLLinkElement;
-    if (!link) { link = this.doc.createElement('link'); link.setAttribute('rel', 'canonical'); this.doc.head.appendChild(link); }
+  private setCanonical(url: string): void {
+    let link: HTMLLinkElement | null = document.querySelector("link[rel='canonical']");
+    if (!link) {
+      link = document.createElement('link');
+      link.setAttribute('rel', 'canonical');
+      document.head.appendChild(link);
+    }
     link.setAttribute('href', url);
   }
 
-  private injectJsonLd(id: string, schema: object) {
-    let s = this.doc.getElementById(id) as HTMLScriptElement;
-    if (!s) { s = this.doc.createElement('script'); s.id = id; s.type = 'application/ld+json'; this.doc.head.appendChild(s); }
-    s.textContent = JSON.stringify(schema);
+  private injectJsonLd(data: object, id = 'json-ld'): void {
+    let script = document.getElementById(id);
+    if (!script) {
+      script = document.createElement('script');
+      script.id = id;
+      script.setAttribute('type', 'application/ld+json');
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(data);
   }
+  setSearchMeta(query?: string): void {
+  const baseTitle = 'Search Tools | UtilityMega';
+  const baseDesc = 'Search from 100+ free online tools like calculators, converters, generators, and more. Fast, private, and no login required.';
+
+  const title = query
+    ? `${query} - Search Tools | UtilityMega`
+    : baseTitle;
+
+  const description = query
+    ? `Find "${query}" and related tools on UtilityMega. Explore 100+ free online utilities with instant results.`
+    : baseDesc;
+
+  const url = query
+    ? `https://utilitymega.com/search?q=${encodeURIComponent(query)}`
+    : 'https://utilitymega.com/search';
+
+  this.updateMeta({ title, description, url });
+}
 }

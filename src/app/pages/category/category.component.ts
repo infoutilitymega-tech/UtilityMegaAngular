@@ -89,7 +89,7 @@ const CAT_ICONS: Record<string, string> = {
   `,
   styles: [`
     .page-wrapper { min-height: 60vh; }
-    .cat-hero { background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%); border-bottom: 1px solid var(--border-color, #e5e7eb); padding: 2rem 1rem 2.5rem; }
+    .cat-hero {  border-bottom: 1px solid var(--border-color, #e5e7eb); padding: 2rem 1rem 2.5rem; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
     .cat-hero-inner { display: flex; align-items: flex-start; gap: 1.5rem; margin-top: 1rem; }
     .cat-hero-icon { font-size: 3.5rem; line-height: 1; flex-shrink: 0; }

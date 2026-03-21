@@ -2172,6 +2172,255 @@
           { "@type": "Question", "name": "Is soil testing necessary before applying fertilizer?", "acceptedAnswer": { "@type": "Answer", "text": "Soil testing is highly recommended. It reveals existing nutrient levels, pH, and organic matter content, allowing precision fertilization. Without soil data, you may over-apply nutrients already present in the soil." } }
         ]
       }
-    }
-  ]
+    },
+
+  {
+    "id": "tool-021",
+    "name": "Age Calculator",
+    "slug": "age-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate your exact age in years, months, days, hours, and minutes.",
+    "seoTitle": "Age Calculator - Calculate Your Exact Age Online Free",
+    "metaDescription": "Calculate your exact age in years, months, days, hours and minutes. Find out how many days until your next birthday. Free online age calculator.",
+    "h1": "Age Calculator — Calculate Your Exact Age",
+    "canonicalUrl": "https://utilitymega.com/calculators/age-calculator",
+    "keywords": ["age calculator", "how old am I", "exact age calculator", "birthday calculator", "date of birth calculator", "age in days", "days until birthday"],
+    "content": "An age calculator computes your exact age from your date of birth to today or any target date. Beyond simple years, our calculator shows months, weeks, days, hours, and even minutes of life — giving you a fascinating perspective on your time on Earth.\n\nHow Age is Calculated\n\nAge calculation must account for leap years, varying month lengths, and timezone differences. Our calculator uses precise date arithmetic to give you accurate results regardless of when your birthday falls.\n\nUses of an Age Calculator\n\nLegal and administrative: Many legal thresholds depend on exact age — voting rights at 18, retirement benefits, senior citizen discounts. Medical: Doctors calculate patient age precisely for medication dosing, developmental milestones, and age-specific health screenings. Insurance: Age determines premium calculations for life, health, and vehicle insurance policies. Fun facts: See exactly how many days, hours, or heartbeats you've lived.\n\nBirthday Countdown\n\nOur calculator also shows how many days remain until your next birthday — useful for planning celebrations well in advance.",
+    "faq": [
+      { "question": "How is age calculated exactly?", "answer": "Age is calculated by subtracting your birth date from today's date, accounting for leap years and varying month lengths. The result gives years, months, and days as separate components." },
+      { "question": "What if I was born on February 29?", "answer": "For leap year birthdays (Feb 29), most systems count the birthday on Feb 28 in non-leap years. Our calculator handles this correctly and shows your age accurately." },
+      { "question": "Can I calculate age between two specific dates?", "answer": "Yes. Our calculator supports custom date ranges — enter any start and end date to calculate the age or duration between them, not just from birth to today." }
+    ],
+    "relatedTools": ["sip-calculator", "retirement-calculator", "bmi-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "Age Calculator", "url": "https://utilitymega.com/calculators/age-calculator" }
+    ],
+    "openGraph": { "og:title": "Free Age Calculator - Calculate Exact Age Online", "og:description": "Calculate your exact age in years, months, days, hours. Birthday countdown. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/age-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free Age Calculator | UtilityMega", "twitter:description": "Calculate exact age in years, months, days, hours. Birthday countdown. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "Age Calculator", "url": "https://utilitymega.com/calculators/age-calculator", "applicationCategory": "UtilityApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } }
+  },
+
+  {
+    "id": "tool-022",
+    "name": "BMI Calculator",
+    "slug": "bmi-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate your Body Mass Index (BMI) and check healthy weight range.",
+    "seoTitle": "BMI Calculator - Body Mass Index Calculator Free",
+    "metaDescription": "Calculate your BMI (Body Mass Index) for free. Check if you are underweight, normal, overweight or obese. Supports metric and imperial units.",
+    "h1": "BMI Calculator — Body Mass Index Calculator",
+    "canonicalUrl": "https://utilitymega.com/calculators/bmi-calculator",
+    "keywords": ["BMI calculator", "body mass index", "healthy weight calculator", "overweight calculator", "obesity calculator", "BMI India", "weight height calculator"],
+    "content": "BMI (Body Mass Index) is a widely used screening tool that estimates body fat based on height and weight. Our free BMI calculator instantly computes your BMI and tells you which category you fall into — underweight, normal weight, overweight, or obese — based on WHO standards.\n\nBMI Formula\n\nBMI = weight (kg) ÷ height² (m²). In imperial: BMI = 703 × weight (lbs) ÷ height² (inches²). Our calculator supports both metric and imperial inputs.\n\nBMI Categories (WHO)\n\nUnderweight: BMI below 18.5. Normal weight: BMI 18.5–24.9. Overweight: BMI 25–29.9. Obese Class I: BMI 30–34.9. Obese Class II: BMI 35–39.9. Obese Class III: BMI 40 and above.\n\nLimitations of BMI\n\nBMI does not distinguish between muscle and fat mass. Athletes with high muscle mass may show as overweight despite being very fit. BMI also doesn't account for fat distribution — abdominal fat carries higher health risk than fat elsewhere. Use BMI as one indicator among many, not as a definitive health measure.",
+    "faq": [
+      { "question": "What is a healthy BMI?", "answer": "A BMI between 18.5 and 24.9 is considered healthy by WHO standards. However, for Asian populations including India, a BMI above 23 may indicate increased health risk." },
+      { "question": "Is BMI accurate for everyone?", "answer": "BMI is a population-level screening tool, not a perfect individual measure. It may overestimate fat in muscular people and underestimate it in older adults with low muscle mass. Consult a doctor for personalized assessment." },
+      { "question": "What is the ideal BMI for Indians?", "answer": "The Indian Council of Medical Research suggests that for Indians, a BMI of 18.0–22.9 is normal, 23–24.9 is overweight, and 25+ is obese — lower thresholds than WHO global standards due to higher metabolic risk at lower BMIs." }
+    ],
+    "relatedTools": ["calorie-calculator", "age-calculator", "sip-calculator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "BMI Calculator", "url": "https://utilitymega.com/calculators/bmi-calculator" }
+    ],
+    "openGraph": { "og:title": "Free BMI Calculator - Body Mass Index Online", "og:description": "Calculate BMI with healthy weight range, BMI category and visual gauge. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/bmi-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free BMI Calculator | UtilityMega", "twitter:description": "Calculate BMI, check healthy weight range, BMI category. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "BMI Calculator", "url": "https://utilitymega.com/calculators/bmi-calculator", "applicationCategory": "HealthApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } }
+  },
+
+  {
+    "id": "tool-023",
+    "name": "Calorie Calculator",
+    "slug": "calorie-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate daily calorie needs based on age, weight, height, and activity level.",
+    "seoTitle": "Calorie Calculator - Daily Calorie Needs Calculator Free",
+    "metaDescription": "Calculate your daily calorie needs for weight loss, maintenance, or muscle gain. Based on age, weight, height, gender and activity level. Free.",
+    "h1": "Calorie Calculator — Daily Calorie Needs",
+    "canonicalUrl": "https://utilitymega.com/calculators/calorie-calculator",
+    "keywords": ["calorie calculator", "daily calorie needs", "TDEE calculator", "calorie intake calculator", "weight loss calories", "BMR calculator", "how many calories"],
+    "content": "Knowing your daily calorie needs is the foundation of any effective diet or fitness plan. Our free calorie calculator uses the Mifflin-St Jeor equation — the most accurate formula for estimating Basal Metabolic Rate (BMR) — and multiplies by your activity factor to give your Total Daily Energy Expenditure (TDEE).\n\nHow Calories are Calculated\n\nBMR (Basal Metabolic Rate): Calories burned at complete rest to maintain vital functions. TDEE = BMR × Activity Factor. Activity factors range from 1.2 (sedentary) to 1.9 (very active). To lose weight: eat 500 calories below TDEE. To gain weight: eat 300–500 calories above TDEE.\n\nMifflin-St Jeor Formula\n\nMen: BMR = (10 × weight kg) + (6.25 × height cm) − (5 × age) + 5. Women: BMR = (10 × weight kg) + (6.25 × height cm) − (5 × age) − 161.",
+    "faq": [
+      { "question": "How many calories should I eat to lose weight?", "answer": "A deficit of 500 calories per day leads to approximately 0.5 kg weight loss per week. Never go below 1200 calories (women) or 1500 calories (men) without medical supervision." },
+      { "question": "What is TDEE?", "answer": "TDEE (Total Daily Energy Expenditure) is the total calories you burn in a day including exercise and daily activities. Eating at your TDEE maintains your current weight." },
+      { "question": "Are these calorie estimates accurate?", "answer": "The Mifflin-St Jeor equation is accurate to within 10% for most people. Individual metabolism varies — use these as starting estimates and adjust based on actual results over 2–3 weeks." }
+    ],
+    "relatedTools": ["bmi-calculator", "age-calculator", "sip-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "Calorie Calculator", "url": "https://utilitymega.com/calculators/calorie-calculator" }
+    ],
+    "openGraph": { "og:title": "Free Calorie Calculator - Daily Calorie Needs Online", "og:description": "Calculate TDEE, BMR and daily calorie targets for weight loss or gain. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/calorie-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free Calorie Calculator | UtilityMega", "twitter:description": "TDEE, BMR, daily calorie needs for weight loss or gain. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "Calorie Calculator", "url": "https://utilitymega.com/calculators/calorie-calculator", "applicationCategory": "HealthApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } }
+  },
+
+  {
+    "id": "tool-024",
+    "name": "Compound Interest Calculator",
+    "slug": "compound-interest-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate compound interest on investments with yearly, quarterly, or monthly compounding.",
+    "seoTitle": "Compound Interest Calculator - Calculate Interest Online Free",
+    "metaDescription": "Calculate compound interest on your investment or loan. Choose compounding frequency: annually, quarterly, monthly, or daily. Free online tool.",
+    "h1": "Compound Interest Calculator — Grow Your Wealth",
+    "canonicalUrl": "https://utilitymega.com/calculators/compound-interest-calculator",
+    "keywords": ["compound interest calculator", "compound interest formula", "interest calculator online", "investment growth calculator", "annual compound interest", "monthly compound interest"],
+    "content": "Compound interest is the eighth wonder of the world — money that earns interest on its interest, creating exponential growth over time. Our compound interest calculator shows you exactly how your principal grows with different compounding frequencies and rates.\n\nCompound Interest Formula\n\nA = P(1 + r/n)^(nt), where A = Final amount, P = Principal, r = Annual rate (decimal), n = Compounding periods per year, t = Time in years.\n\nCompounding Frequencies\n\nAnnually (n=1): Interest added once per year. Quarterly (n=4): Interest added 4 times per year. Monthly (n=12): Most common for savings accounts and loans. Daily (n=365): Maximum compounding, used by some high-yield accounts.\n\nPower of Compound Interest\n\n₹1,00,000 at 10% for 20 years: Simple interest = ₹3,00,000. Compound interest (annual) = ₹6,72,750. Compound interest (monthly) = ₹7,32,857. The difference is the compounding effect — and it grows exponentially with time.",
+    "faq": [
+      { "question": "What is the difference between simple and compound interest?", "answer": "Simple interest is calculated only on the principal. Compound interest is calculated on principal plus accumulated interest — meaning interest earns interest, creating exponential growth over time." },
+      { "question": "Which compounding frequency is best?", "answer": "More frequent compounding gives slightly higher returns. Daily compounding yields marginally more than monthly, which yields more than annual. For long time horizons, the difference compounds significantly." },
+      { "question": "How do I use compound interest for investments?", "answer": "Start early and stay invested. ₹10,000 compounding at 12% for 30 years grows to ₹2,99,599. The same amount for 20 years grows to only ₹96,463 — time is the most powerful variable in compound interest." }
+    ],
+    "relatedTools": ["sip-calculator", "emi-calculator", "retirement-calculator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "Compound Interest Calculator", "url": "https://utilitymega.com/calculators/compound-interest-calculator" }
+    ],
+    "openGraph": { "og:title": "Free Compound Interest Calculator - Calculate Investment Growth", "og:description": "Calculate compound interest with annual, quarterly, monthly compounding. Growth chart included. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/compound-interest-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free Compound Interest Calculator | UtilityMega", "twitter:description": "Compound interest with growth chart, all compounding frequencies. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "Compound Interest Calculator", "url": "https://utilitymega.com/calculators/compound-interest-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } }
+  },
+
+  {
+    "id": "tool-025",
+    "name": "Discount Calculator",
+    "slug": "discount-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate discounted price, savings amount, and percentage off instantly.",
+    "seoTitle": "Discount Calculator - Calculate Sale Price & Savings Free",
+    "metaDescription": "Calculate discount price, amount saved, and percentage off. Find original price from discounted price. Free online discount calculator.",
+    "h1": "Discount Calculator — Calculate Sale Price & Savings",
+    "canonicalUrl": "https://utilitymega.com/calculators/discount-calculator",
+    "keywords": ["discount calculator", "percentage off calculator", "sale price calculator", "savings calculator", "how much is X% off", "original price calculator"],
+    "content": "Whether you're shopping online, calculating trade discounts, or figuring out sale prices, our discount calculator gives you instant answers. Enter any two values — original price and discount percentage, or discounted price and percentage — and get the complete picture.\n\nDiscount Formulas\n\nDiscounted price = Original price × (1 − discount%/100). Amount saved = Original price × discount%/100. Discount% = (Amount saved ÷ Original price) × 100. Original price = Discounted price ÷ (1 − discount%/100).\n\nDouble Discount Calculation\n\nWhen multiple discounts apply (e.g., 20% off + additional 10% off), they don't simply add up. A 20% discount followed by 10% equals 28% total — not 30%. Our calculator handles successive discounts correctly.\n\nGST After Discount\n\nIn India, GST is applied on the post-discount price, not the original price. Our calculator optionally adds GST calculation so you see the exact amount payable after both discount and tax.",
+    "faq": [
+      { "question": "How do I calculate 20% off a price?", "answer": "Multiply the original price by 0.20 to get the discount amount, then subtract from original price. Example: 20% off ₹500 = ₹500 × 0.20 = ₹100 discount → Final price = ₹400." },
+      { "question": "How do I find the original price after discount?", "answer": "Divide the discounted price by (1 − discount percentage/100). Example: If ₹400 is after 20% off: ₹400 ÷ 0.80 = ₹500 original price." },
+      { "question": "Is a 50% discount the same as buy one get one free?", "answer": "Yes, effectively. Buy one get one free means you pay for one item and get two, which is equivalent to 50% off per item. However, BOGO requires buying two items while a 50% discount applies to any quantity." }
+    ],
+    "relatedTools": ["gst-calculator", "percentage-calculator", "compound-interest-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "Discount Calculator", "url": "https://utilitymega.com/calculators/discount-calculator" }
+    ],
+    "openGraph": { "og:title": "Free Discount Calculator - Sale Price & Savings", "og:description": "Calculate discounted price, savings, original price. Multiple discount support. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/discount-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free Discount Calculator | UtilityMega", "twitter:description": "Discount price, savings, original price calculator. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "Discount Calculator", "url": "https://utilitymega.com/calculators/discount-calculator", "applicationCategory": "UtilityApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } }
+  },
+
+  {
+    "id": "tool-026",
+    "name": "GST Calculator",
+    "slug": "gst-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate GST amount and final price for 5%, 12%, 18%, and 28% GST slabs.",
+    "seoTitle": "GST Calculator India - Calculate GST Amount Online Free",
+    "metaDescription": "Free GST calculator for India. Calculate GST amount, exclusive and inclusive prices for 5%, 12%, 18%, 28% GST slabs. CGST and SGST breakdown.",
+    "h1": "GST Calculator — Calculate GST Amount India",
+    "canonicalUrl": "https://utilitymega.com/calculators/gst-calculator",
+    "keywords": ["GST calculator", "GST calculator India", "GST amount calculator", "GST inclusive exclusive", "CGST SGST calculator", "18% GST calculator", "28% GST India"],
+    "content": "GST (Goods and Services Tax) replaced India's complex indirect tax system in 2017, unifying multiple taxes into a single structure. Our free GST calculator handles both GST-exclusive (add GST to base price) and GST-inclusive (extract GST from total price) calculations for all GST slabs.\n\nGST Slabs in India\n\n0%: Essential items — fresh food, books, newspapers, children's drawing books. 5%: Basic necessities — packaged food, footwear under ₹1000, transport services. 12%: Standard items — processed food, business class air travel, mobile phones. 18%: Most services and goods — restaurants, electronics, software, financial services. 28%: Luxury and sin goods — automobiles, tobacco, aerated drinks, luxury hotels.\n\nCGST and SGST Breakdown\n\nFor intra-state transactions, GST splits equally: CGST (Central GST) = 50% of total GST. SGST (State GST) = 50% of total GST. For inter-state: IGST (Integrated GST) = Full GST rate applied by central government.\n\nGST Inclusive vs Exclusive\n\nGST exclusive: You have the base price and want to add GST. Final price = Base × (1 + GST%/100). GST inclusive: You have the total price and want to extract GST. Base price = Total ÷ (1 + GST%/100). GST amount = Total − Base price.",
+    "faq": [
+      { "question": "What are the GST rates in India?", "answer": "India has 5 GST slabs: 0%, 5%, 12%, 18%, and 28%. Most everyday goods fall under 5–12%, services under 18%, and luxury items under 28%." },
+      { "question": "How do I calculate GST from an inclusive price?", "answer": "GST Amount = Total Price − (Total Price ÷ (1 + GST Rate/100)). Example: Total price ₹118 with 18% GST: GST = ₹118 − (₹118 ÷ 1.18) = ₹118 − ₹100 = ₹18 GST." },
+      { "question": "What is the difference between CGST, SGST, and IGST?", "answer": "CGST and SGST apply on intra-state sales — each gets 50% of the total GST rate. IGST applies on inter-state sales and is collected entirely by the central government before distribution." }
+    ],
+    "relatedTools": ["discount-calculator", "percentage-calculator", "emi-calculator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "GST Calculator", "url": "https://utilitymega.com/calculators/gst-calculator" }
+    ],
+    "openGraph": { "og:title": "Free GST Calculator India - CGST SGST IGST Calculator", "og:description": "Calculate GST for all slabs. CGST, SGST, IGST breakdown. Inclusive and exclusive. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/gst-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free GST Calculator India | UtilityMega", "twitter:description": "GST calculator for all slabs. CGST SGST breakdown. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "GST Calculator", "url": "https://utilitymega.com/calculators/gst-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" }, "areaServed": { "@type": "Country", "name": "India" } }
+  },
+
+  {
+    "id": "tool-027",
+    "name": "Percentage Calculator",
+    "slug": "percentage-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Calculate percentages, percentage change, and what percent one number is of another.",
+    "seoTitle": "Percentage Calculator - Calculate % Online Free",
+    "metaDescription": "Free percentage calculator. Calculate what % of a number is, percentage change, increase or decrease, and find original value from percentage.",
+    "h1": "Percentage Calculator — Calculate % Instantly",
+    "canonicalUrl": "https://utilitymega.com/calculators/percentage-calculator",
+    "keywords": ["percentage calculator", "percent calculator", "percentage of a number", "percentage change calculator", "percentage increase decrease", "what percent is X of Y"],
+    "content": "Percentage calculations appear everywhere — exam scores, discounts, tax rates, interest rates, growth rates, and statistics. Our percentage calculator handles all common percentage problems with clear explanations of each formula.\n\nTypes of Percentage Calculations\n\nWhat is X% of Y? (e.g., What is 15% of 500?) Formula: Result = Y × X/100. What percentage is X of Y? (e.g., 75 is what % of 300?) Formula: % = (X ÷ Y) × 100. Percentage increase: % change = ((New − Old) ÷ Old) × 100. Percentage decrease: Same formula, result is negative. Find original from percentage: Original = Value ÷ (Percentage/100).\n\nCommon Applications\n\nExam scores: 45 out of 60 = 75%. GST calculation: 18% of ₹1000 = ₹180. Salary hike: From ₹50,000 to ₹58,000 = 16% increase. Discount: 25% off ₹800 = ₹600 final price. Profit margin: Profit ÷ Cost × 100.",
+    "faq": [
+      { "question": "How do I calculate percentage of marks?", "answer": "Divide total marks obtained by maximum marks, then multiply by 100. Example: 450 out of 600 = (450 ÷ 600) × 100 = 75%." },
+      { "question": "How do I calculate percentage increase?", "answer": "Percentage increase = ((New Value − Old Value) ÷ Old Value) × 100. Example: Price went from ₹200 to ₹250: ((250 − 200) ÷ 200) × 100 = 25% increase." },
+      { "question": "What is percentage vs percentile?", "answer": "Percentage is a ratio expressed per hundred (you scored 80%). Percentile is a rank — 80th percentile means you scored higher than 80% of test takers. They measure different things." }
+    ],
+    "relatedTools": ["discount-calculator", "gst-calculator", "compound-interest-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "Percentage Calculator", "url": "https://utilitymega.com/calculators/percentage-calculator" }
+    ],
+    "openGraph": { "og:title": "Free Percentage Calculator - Calculate % Online", "og:description": "Calculate percentage of a number, percentage change, increase/decrease. Multiple calculation modes. Free.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/percentage-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free Percentage Calculator | UtilityMega", "twitter:description": "Percentage calculations — all types. Free online tool." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "Percentage Calculator", "url": "https://utilitymega.com/calculators/percentage-calculator", "applicationCategory": "UtilityApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } }
+  },
+
+  {
+    "id": "tool-028",
+    "name": "Retirement Calculator",
+    "slug": "retirement-calculator",
+    "categorySlug": "calculators",
+    "categoryName": "Calculators",
+    "shortDescription": "Plan your retirement corpus with monthly savings, expected returns, and inflation.",
+    "seoTitle": "Retirement Calculator India - Plan Your Retirement Free",
+    "metaDescription": "Calculate how much you need to retire comfortably. Enter current age, retirement age, monthly expenses, and expected returns. Free retirement planner.",
+    "h1": "Retirement Calculator — Plan Your Retirement Corpus",
+    "canonicalUrl": "https://utilitymega.com/calculators/retirement-calculator",
+    "keywords": ["retirement calculator", "retirement planning India", "retirement corpus calculator", "NPS calculator", "EPF calculator", "how much to retire", "retirement savings calculator"],
+    "content": "Retirement planning is one of the most critical financial decisions you'll make. With increasing life expectancy, rising healthcare costs, and inflation eroding purchasing power, building an adequate retirement corpus requires early and consistent planning. Our retirement calculator helps you visualize how much you need and how to get there.\n\nHow Much Do You Need to Retire?\n\nThe standard rule: Save 25× your annual expenses (the 4% withdrawal rule). If you spend ₹5 lakh per year, you need ₹1.25 crore at retirement. In India, with higher inflation (6–7%), a more conservative target is 30× annual expenses.\n\nInflation Impact on Retirement\n\nAt 6% inflation, ₹50,000/month today becomes ₹1,60,357/month in 20 years. Your retirement corpus must account for this purchasing power erosion. Our calculator applies inflation adjustments to give you realistic targets.\n\nRetirement Savings Vehicles in India\n\nEPF: Employer + employee contribution, 8.15% guaranteed interest. NPS: Market-linked returns, tax benefits under 80CCD. PPF: 7.1% guaranteed, 15-year lock-in, completely tax-free. Mutual fund SIPs: Potentially 10–14% returns, market risk. All of these should be part of a diversified retirement strategy.",
+    "faq": [
+      { "question": "How much should I save for retirement in India?", "answer": "Aim to save 15–20% of your income from age 25. The target corpus depends on your expected retirement expenses and age — typically 25–30× your annual expenses at retirement." },
+      { "question": "What is the 4% retirement rule?", "answer": "The 4% rule states you can withdraw 4% of your retirement corpus annually without depleting it over 30 years. For India with higher inflation, 3–3.5% withdrawal rate is more conservative and safer." },
+      { "question": "Should I use NPS or mutual funds for retirement?", "answer": "Both serve different purposes. NPS offers guaranteed allocation, tax benefits, and pension annuity. Mutual fund SIPs offer higher potential returns and full liquidity. Ideally, use NPS for the fixed income component and SIPs for the equity growth component." }
+    ],
+    "relatedTools": ["sip-calculator", "compound-interest-calculator", "emi-calculator"],
+    "isPopular": true,
+    "isFeatured": true,
+    "breadcrumbs": [
+      { "name": "Home", "url": "https://utilitymega.com" },
+      { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+      { "name": "Retirement Calculator", "url": "https://utilitymega.com/calculators/retirement-calculator" }
+    ],
+    "openGraph": { "og:title": "Free Retirement Calculator India - Plan Retirement Corpus", "og:description": "Calculate retirement corpus needed with inflation, returns, and monthly savings. Free retirement planner.", "og:type": "website", "og:url": "https://utilitymega.com/calculators/retirement-calculator", "og:site_name": "UtilityMega" },
+    "twitterCard": { "twitter:card": "summary_large_image", "twitter:title": "Free Retirement Calculator India | UtilityMega", "twitter:description": "Plan retirement corpus with inflation adjustment. Free." },
+    "jsonLd": { "@context": "https://schema.org", "@type": "WebApplication", "name": "Retirement Calculator", "url": "https://utilitymega.com/calculators/retirement-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" }, "areaServed": { "@type": "Country", "name": "India" } }
+  }
+]
+  
 }

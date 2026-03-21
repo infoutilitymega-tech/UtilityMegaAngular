@@ -128,7 +128,8 @@ const CATEGORY_ICONS: Record<string, string> = {
   `,
   styles: [`
     .hero {
-      background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 40%, #7c3aed 100%);
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='30' cy='30' r='1.5' fill='rgba(255,255,255,0.08)'/%3E%3C/svg%3E")
+      
       color: white; padding: 5rem 1rem 4rem; text-align: center; position: relative; overflow: hidden;
     }
     .hero::before {
