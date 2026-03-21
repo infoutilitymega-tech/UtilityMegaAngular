@@ -218,8 +218,9 @@ import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
 
     @media(max-width: 600px) {
       .logo-text { display: none; }
-      .header-search-wrap { max-width: none; }
+      .header-search-wrap { max-width: 210px; }
     }
+    
   `]
 })
 export class HeaderComponent implements OnInit, OnDestroy {
