@@ -30,7 +30,7 @@ const CATEGORY_ICONS: Record<string, string> = {
             <span class="search-icon">🔍</span>
             <input
               type="search"
-              placeholder="Search tools... e.g. 'SIP Calculator', 'JSON Formatter'"
+              placeholder="Search tools..."
               [(ngModel)]="searchQuery"
               (input)="onSearch()"
               (keyup.enter)="onSearch()"
@@ -178,6 +178,24 @@ const CATEGORY_ICONS: Record<string, string> = {
     .feature h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; }
     .feature p { font-size: 0.875rem; color: var(--text-muted, #6b7280); line-height: 1.5; }
     .about-text p { color: var(--text-muted, #4b5563); line-height: 1.8; margin-bottom: 1rem; }
+    @media (max-width: 640px) {
+
+
+  .search-box {
+    flex-direction: row;
+  }
+
+  .search-input {
+    min-width: 0;        /* prevents overflow */
+    font-size: 0.9rem;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .search-btn {
+    padding: 0.75rem 1rem;
+    white-space: nowrap; /* keeps text in one line */
+  }
+}
   `]
 })
 export class HomeComponent implements OnInit {
