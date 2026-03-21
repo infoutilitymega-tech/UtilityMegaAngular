@@ -35,7 +35,7 @@ import { FormsModule } from '@angular/forms';
           <label class="toggle"><input type="checkbox" [(ngModel)]="useUpper" (change)="generate()" /><span class="tog-label">Uppercase (A-Z)</span></label>
           <label class="toggle"><input type="checkbox" [(ngModel)]="useLower" (change)="generate()" /><span class="tog-label">Lowercase (a-z)</span></label>
           <label class="toggle"><input type="checkbox" [(ngModel)]="useNumbers" (change)="generate()" /><span class="tog-label">Numbers (0-9)</span></label>
-          <label class="toggle"><input type="checkbox" [(ngModel)]="useSymbols" (change)="generate()" /><span class="tog-label">Symbols (!#$%)</span></label>
+          <label class="toggle"><input type="checkbox" [(ngModel)]="useSymbols" (change)="generate()" /><span class="tog-label">{{ 'Symbols (!@#$%)' }}</span></label>
           <label class="toggle"><input type="checkbox" [(ngModel)]="excludeAmbig" (change)="generate()" /><span class="tog-label">Exclude ambiguous (O,0,l,1)</span></label>
         </div>
       </div>

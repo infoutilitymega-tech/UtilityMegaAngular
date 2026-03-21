@@ -9,7 +9,29 @@
       "shortDescription": "Free financial, math & health calculators",
       "seoTitle": "Free Online Calculators - Math, Finance & Health",
       "metaDescription": "Use our free online calculators for finance, math, health, and more. 100% free, no login required. Fast, accurate results instantly.",
-      "toolCount": 2
+      "h1": "Free Online Calculators",
+      "canonicalUrl": "https://utilitymega.com/calculators",
+      "keywords": ["free online calculators", "finance calculator", "SIP calculator", "EMI calculator", "health calculator", "math calculator online", "GST calculator India", "retirement calculator India"],
+      "openGraph": {
+        "og:title": "Free Online Calculators — Finance, Health & Math | UtilityMega",
+        "og:description": "Free calculators: SIP, EMI, BMI, GST, Retirement, Age, Calories, Percentage, Discount. Instant results. No login.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Online Calculators — UtilityMega",
+        "twitter:description": "SIP, EMI, BMI, GST, Retirement calculators — 100% free, instant, no login."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Online Calculators",
+        "description": "Free online calculators for finance, math, and health",
+        "url": "https://utilitymega.com/calculators"
+      },
+      "toolCount": 10
     },
     {
       "id": "cat-02",
@@ -20,6 +42,28 @@
       "shortDescription": "Compress, resize & convert images free",
       "seoTitle": "Free Online Image Tools - Compress, Resize & Convert",
       "metaDescription": "Free online image tools. Compress, resize, crop, and convert images without uploading to a server. Private and fast.",
+      "h1": "Free Online Image Tools",
+      "canonicalUrl": "https://utilitymega.com/image-tools",
+      "keywords": ["free image tools", "image compressor online", "image resizer", "compress image online free", "resize image online", "image converter free"],
+      "openGraph": {
+        "og:title": "Free Image Tools — Compress, Resize & Convert | UtilityMega",
+        "og:description": "Compress, resize, crop, convert images free. All processing in your browser. No upload to server.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/image-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Image Tools — UtilityMega",
+        "twitter:description": "Compress, resize, convert images free. Browser-based, private, instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Online Image Tools",
+        "description": "Free image compression, resizing, and conversion tools",
+        "url": "https://utilitymega.com/image-tools"
+      },
       "toolCount": 2
     },
     {
@@ -31,6 +75,28 @@
       "shortDescription": "Compress, convert & trim videos online free",
       "seoTitle": "Free Online Video Tools - Compress & Convert",
       "metaDescription": "Free online video compression, conversion, and editing tools. Process videos in your browser. No signup required.",
+      "h1": "Free Online Video Tools",
+      "canonicalUrl": "https://utilitymega.com/video-tools",
+      "keywords": ["free video tools", "video compressor online", "video converter free", "compress video online", "MP4 converter free", "video editor online free"],
+      "openGraph": {
+        "og:title": "Free Video Tools — Compress & Convert | UtilityMega",
+        "og:description": "Compress, convert, trim videos free. No watermarks, no signup. Browser-based processing.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Tools — UtilityMega",
+        "twitter:description": "Compress, convert videos free. No watermarks, no account needed."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Online Video Tools",
+        "description": "Free video compression, conversion, and editing tools",
+        "url": "https://utilitymega.com/video-tools"
+      },
       "toolCount": 2
     },
     {
@@ -42,6 +108,28 @@
       "shortDescription": "JSON formatter, encoders & dev utilities",
       "seoTitle": "Free Developer Tools - JSON, Base64 & More",
       "metaDescription": "Free online developer tools: JSON formatter, Base64 encoder, regex tester, and more. Fast, free, no login needed.",
+      "h1": "Free Developer Tools",
+      "canonicalUrl": "https://utilitymega.com/developer-tools",
+      "keywords": ["free developer tools", "JSON formatter online", "Base64 encoder decoder", "hash generator online", "developer utilities free", "URL encoder decoder"],
+      "openGraph": {
+        "og:title": "Free Developer Tools — JSON, Base64 & More | UtilityMega",
+        "og:description": "JSON formatter, Base64 encoder, hash generator, and more dev tools. Free, instant, no login.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/developer-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Developer Tools — UtilityMega",
+        "twitter:description": "JSON, Base64, regex and more developer tools. Free, instant results."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Developer Tools",
+        "description": "Free developer utilities: JSON formatter, Base64 encoder, regex tester and more",
+        "url": "https://utilitymega.com/developer-tools"
+      },
       "toolCount": 2
     },
     {
@@ -53,6 +141,28 @@
       "shortDescription": "Word counter, case converter & text utilities",
       "seoTitle": "Free Text Tools - Word Counter, Case Converter",
       "metaDescription": "Free online text tools: word counter, case converter, duplicate remover, and more. Process text instantly in your browser.",
+      "h1": "Free Text Tools",
+      "canonicalUrl": "https://utilitymega.com/text-tools",
+      "keywords": ["free text tools", "word counter online", "text case converter", "character counter", "text utilities free", "online text analyzer"],
+      "openGraph": {
+        "og:title": "Free Text Tools — Word Counter, Case Converter | UtilityMega",
+        "og:description": "Word counter, case converter, duplicate remover, and more text utilities. Free, instant.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Text Tools — UtilityMega",
+        "twitter:description": "Word counter, case converter, text utilities. Free online tools."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Text Tools",
+        "description": "Free text utilities: word counter, case converter, duplicate remover and more",
+        "url": "https://utilitymega.com/text-tools"
+      },
       "toolCount": 2
     },
     {
@@ -64,6 +174,28 @@
       "shortDescription": "Password generator, hash tools & security utilities",
       "seoTitle": "Free Online Security Tools - Password & Hash Generator",
       "metaDescription": "Free security tools: password generator, MD5/SHA hash generator, password strength checker. 100% client-side. No data stored.",
+      "h1": "Free Online Security Tools",
+      "canonicalUrl": "https://utilitymega.com/security-tools",
+      "keywords": ["free security tools", "password generator online", "hash generator free", "MD5 SHA256 generator", "security utilities free", "password strength checker"],
+      "openGraph": {
+        "og:title": "Free Security Tools — Password & Hash Generator | UtilityMega",
+        "og:description": "Password generator, MD5/SHA hash, strength checker. 100% client-side. No data stored.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Security Tools — UtilityMega",
+        "twitter:description": "Password generator, hash tools. 100% client-side, no data stored."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Online Security Tools",
+        "description": "Free security tools: password generator, hash generator, strength checker",
+        "url": "https://utilitymega.com/security-tools"
+      },
       "toolCount": 2
     },
     {
@@ -75,6 +207,28 @@
       "shortDescription": "Meta tag generator, keyword density & SEO analyzers",
       "seoTitle": "Free SEO Tools - Meta Tags, Keywords & Analysis",
       "metaDescription": "Free online SEO tools: meta tag generator, keyword density checker, readability analyzer. Improve your website ranking for free.",
+      "h1": "Free SEO Tools",
+      "canonicalUrl": "https://utilitymega.com/seo-tools",
+      "keywords": ["free SEO tools", "meta tag generator", "keyword density checker", "SEO analysis tools free", "Open Graph generator", "Twitter Card generator"],
+      "openGraph": {
+        "og:title": "Free SEO Tools — Meta Tags, Keywords & Analysis | UtilityMega",
+        "og:description": "Meta tag generator, keyword density checker, readability analyzer. Boost rankings for free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/seo-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free SEO Tools — UtilityMega",
+        "twitter:description": "Meta tags, keyword density, readability. Free SEO tools, no signup."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free SEO Tools",
+        "description": "Free SEO tools: meta tag generator, keyword density checker, readability analyzer",
+        "url": "https://utilitymega.com/seo-tools"
+      },
       "toolCount": 2
     },
     {
@@ -86,6 +240,28 @@
       "shortDescription": "Convert length, weight, temperature & more",
       "seoTitle": "Free Unit Converters - Length, Weight & Temperature",
       "metaDescription": "Free online unit converters for length, weight, temperature, area, speed, and more. Accurate and instant conversions.",
+      "h1": "Free Unit Converters",
+      "canonicalUrl": "https://utilitymega.com/unit-converters",
+      "keywords": ["free unit converters", "length converter online", "temperature converter", "weight converter", "unit conversion free", "meters to feet", "Celsius to Fahrenheit"],
+      "openGraph": {
+        "og:title": "Free Unit Converters — Length, Weight & Temperature | UtilityMega",
+        "og:description": "Convert length, weight, temperature, area and more. Free, accurate, instant unit conversions.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Unit Converters — UtilityMega",
+        "twitter:description": "Length, weight, temperature converters. Free, accurate, instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Unit Converters",
+        "description": "Free unit converters for length, weight, temperature, area, speed and more",
+        "url": "https://utilitymega.com/unit-converters"
+      },
       "toolCount": 2
     },
     {
@@ -97,6 +273,28 @@
       "shortDescription": "QR code generator, URL tools & everyday utilities",
       "seoTitle": "Free Online Utility Tools - QR Code, URL & More",
       "metaDescription": "Free online utility tools: QR code generator, URL encoder/decoder, IP lookup, color picker and more. Fast, free, no login.",
+      "h1": "Free Online Utility Tools",
+      "canonicalUrl": "https://utilitymega.com/utility-tools",
+      "keywords": ["free utility tools", "QR code generator online", "URL encoder decoder", "everyday utility tools", "free online tools", "QR code maker free"],
+      "openGraph": {
+        "og:title": "Free Utility Tools — QR Code, URL Encoder & More | UtilityMega",
+        "og:description": "QR code generator, URL encoder, IP lookup, color picker and more everyday tools. Free, instant.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/utility-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Utility Tools — UtilityMega",
+        "twitter:description": "QR codes, URL tools and more everyday utilities. Free, no login."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Online Utility Tools",
+        "description": "Free utility tools: QR code generator, URL encoder, IP lookup, color picker and more",
+        "url": "https://utilitymega.com/utility-tools"
+      },
       "toolCount": 2
     },
     {
@@ -108,6 +306,29 @@
       "shortDescription": "Crop yield, fertilizer & irrigation calculators",
       "seoTitle": "Free Farmers Tools - Crop Yield & Fertilizer Calculator",
       "metaDescription": "Free online farmers tools: crop yield calculator, fertilizer calculator, irrigation planner, and more. Tools for modern agriculture.",
+      "h1": "Free Farmers Tools",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools",
+      "keywords": ["free farmers tools", "crop yield calculator India", "fertilizer calculator", "NPK calculator", "agriculture tools online", "farming calculator India"],
+      "openGraph": {
+        "og:title": "Free Farmers Tools — Crop Yield & Fertilizer Calculator | UtilityMega",
+        "og:description": "Crop yield, fertilizer, irrigation calculators for Indian farmers. Free, accurate, no login.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/farmers-tools",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Farmers Tools — UtilityMega",
+        "twitter:description": "Crop yield, fertilizer, irrigation tools for farmers. Free online."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Farmers Tools",
+        "description": "Free agricultural tools: crop yield, fertilizer, irrigation calculators",
+        "url": "https://utilitymega.com/farmers-tools",
+        "areaServed": { "@type": "Country", "name": "India" }
+      },
       "toolCount": 2
     }
   ],
@@ -121,6 +342,8 @@
       "shortDescription": "Calculate your SIP returns with monthly investment, expected rate, and time period.",
       "seoTitle": "SIP Calculator - Calculate SIP Returns Online Free",
       "metaDescription": "Use our free SIP calculator to estimate your Systematic Investment Plan returns. Enter monthly amount, rate of return, and tenure to see wealth growth.",
+      "h1": "SIP Calculator — Systematic Investment Plan",
+      "canonicalUrl": "https://utilitymega.com/calculators/sip-calculator",
       "keywords": [
         "SIP calculator",
         "systematic investment plan",
@@ -154,13 +377,53 @@
           "answer": "Most mutual funds allow SIPs starting from ₹100 or ₹500 per month. However, for meaningful wealth creation, financial advisors recommend investing at least ₹1,000–₹5,000 per month depending on your income and goals."
         }
       ],
-      "relatedTools": [
-        "emi-calculator",
-        "compound-interest-calculator",
-        "retirement-calculator"
-      ],
+      "relatedTools": ["emi-calculator", "compound-interest-calculator", "retirement-calculator"],
       "isPopular": true,
-      "isFeatured": true
+      "isFeatured": true,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+        { "name": "SIP Calculator", "url": "https://utilitymega.com/calculators/sip-calculator" }
+      ],
+      "openGraph": {
+        "og:title": "SIP Calculator - Calculate Mutual Fund SIP Returns Free",
+        "og:description": "Calculate your SIP maturity amount with step-up option, year-wise table, and growth charts. 100% free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/sip-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "SIP Calculator - Free Online Tool | UtilityMega",
+        "twitter:description": "Calculate SIP returns with step-up option, donut chart and year-wise table. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SIP Calculator",
+        "description": "Calculate systematic investment plan returns with step-up SIP, year-wise growth chart, and donut breakdown.",
+        "url": "https://utilitymega.com/calculators/sip-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Calculators", "item": "https://utilitymega.com/calculators" },
+            { "@type": "ListItem", "position": 3, "name": "SIP Calculator", "item": "https://utilitymega.com/calculators/sip-calculator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is a SIP calculator?", "acceptedAnswer": { "@type": "Answer", "text": "A SIP calculator is an online tool that estimates the future value of your Systematic Investment Plan (SIP) based on monthly investment amount, expected annual return rate, and investment duration using compound interest formula." } },
+          { "@type": "Question", "name": "What is a good expected return rate to use in SIP calculator?", "acceptedAnswer": { "@type": "Answer", "text": "For equity mutual funds, an expected return of 10–12% per annum is commonly used for long-term projections (10+ years). For debt funds, 6–8% is more appropriate. Always use conservative estimates for financial planning." } },
+          { "@type": "Question", "name": "Can I calculate step-up SIP returns?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, our advanced SIP calculator supports step-up SIP, where your monthly investment increases by a fixed percentage each year, typically 10%, to match income growth." } }
+        ]
+      }
     },
     {
       "id": "tool-002",
@@ -171,6 +434,8 @@
       "shortDescription": "Calculate your loan EMI for home, car, or personal loans instantly.",
       "seoTitle": "EMI Calculator - Home, Car & Personal Loan EMI",
       "metaDescription": "Free EMI calculator for home loan, car loan, and personal loan. Calculate monthly EMI, total interest, and payment schedule instantly.",
+      "h1": "EMI Calculator — Loan EMI Calculator",
+      "canonicalUrl": "https://utilitymega.com/calculators/emi-calculator",
       "keywords": [
         "EMI calculator",
         "loan EMI calculator",
@@ -204,13 +469,53 @@
           "answer": "You can reduce EMI by negotiating a lower interest rate, choosing a longer tenure, making a larger down payment, or opting for a balance transfer to a lender offering lower rates."
         }
       ],
-      "relatedTools": [
-        "sip-calculator",
-        "compound-interest-calculator",
-        "loan-comparison-tool"
-      ],
+      "relatedTools": ["sip-calculator", "compound-interest-calculator", "loan-comparison-tool"],
       "isPopular": true,
-      "isFeatured": true
+      "isFeatured": true,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Calculators", "url": "https://utilitymega.com/calculators" },
+        { "name": "EMI Calculator", "url": "https://utilitymega.com/calculators/emi-calculator" }
+      ],
+      "openGraph": {
+        "og:title": "EMI Calculator - Calculate Loan EMI Online Free",
+        "og:description": "Calculate home loan, car loan, personal loan EMI with amortization schedule. Free, instant, no login.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/emi-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "EMI Calculator - Free Online Tool | UtilityMega",
+        "twitter:description": "Calculate home, car, personal loan EMI with amortization schedule. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "EMI Calculator",
+        "description": "Calculate loan EMI for home, car, or personal loans with amortization schedule and principal-interest breakdown.",
+        "url": "https://utilitymega.com/calculators/emi-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Calculators", "item": "https://utilitymega.com/calculators" },
+            { "@type": "ListItem", "position": 3, "name": "EMI Calculator", "item": "https://utilitymega.com/calculators/emi-calculator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What does EMI stand for?", "acceptedAnswer": { "@type": "Answer", "text": "EMI stands for Equated Monthly Installment. It is the fixed monthly payment made to a lender (bank or NBFC) to repay a loan. Each EMI includes both the principal repayment and interest for that month." } },
+          { "@type": "Question", "name": "Does EMI change if interest rate changes?", "acceptedAnswer": { "@type": "Answer", "text": "For floating rate loans, if the bank's benchmark rate (like MCLR or repo rate) changes, your EMI may increase or decrease. Fixed rate loans maintain the same EMI throughout the tenure." } },
+          { "@type": "Question", "name": "How do I reduce my loan EMI?", "acceptedAnswer": { "@type": "Answer", "text": "You can reduce EMI by negotiating a lower interest rate, choosing a longer tenure, making a larger down payment, or opting for a balance transfer to a lender offering lower rates." } }
+        ]
+      }
     },
     {
       "id": "tool-003",
@@ -221,6 +526,8 @@
       "shortDescription": "Compress JPG, PNG, and WebP images online without losing quality.",
       "seoTitle": "Free Image Compressor - Compress JPG, PNG Online",
       "metaDescription": "Compress images online for free. Reduce JPG, PNG, WebP file size without visible quality loss. Browser-based — no upload to server needed.",
+      "h1": "Image Compressor — Compress Images Online Free",
+      "canonicalUrl": "https://utilitymega.com/image-tools/image-compressor",
       "keywords": [
         "image compressor",
         "compress image online",
@@ -254,13 +561,53 @@
           "answer": "Yes, our batch image compressor allows you to upload and compress multiple images simultaneously, saving time for large collections."
         }
       ],
-      "relatedTools": [
-        "image-resizer",
-        "image-converter",
-        "image-crop-tool"
-      ],
+      "relatedTools": ["image-resizer", "image-converter", "image-crop-tool"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Image Tools", "url": "https://utilitymega.com/image-tools" },
+        { "name": "Image Compressor", "url": "https://utilitymega.com/image-tools/image-compressor" }
+      ],
+      "openGraph": {
+        "og:title": "Free Image Compressor - Compress JPG PNG WebP Online",
+        "og:description": "Reduce image file size without visible quality loss. Browser-based, no server upload, batch support.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/image-tools/image-compressor",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Image Compressor | UtilityMega",
+        "twitter:description": "Compress JPG, PNG, WebP images free. 40-80% size reduction. Private, browser-based."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Image Compressor",
+        "description": "Compress JPG, PNG, WebP images online without quality loss. Browser-based, private processing.",
+        "url": "https://utilitymega.com/image-tools/image-compressor",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Image Tools", "item": "https://utilitymega.com/image-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Image Compressor", "item": "https://utilitymega.com/image-tools/image-compressor" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Does image compression reduce quality?", "acceptedAnswer": { "@type": "Answer", "text": "Lossy compression (used for JPEG) slightly reduces quality in exchange for smaller file sizes. At quality levels of 70–85%, the difference is virtually invisible to human eyes. Lossless compression preserves 100% quality." } },
+          { "@type": "Question", "name": "Is it safe to compress images in this tool?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, completely safe. All compression happens inside your browser. Your images are never uploaded to our servers. No data leaves your device." } },
+          { "@type": "Question", "name": "What image formats does the compressor support?", "acceptedAnswer": { "@type": "Answer", "text": "Our image compressor supports JPG/JPEG, PNG, and WebP formats. You can also convert between formats during compression." } }
+        ]
+      }
     },
     {
       "id": "tool-004",
@@ -271,6 +618,8 @@
       "shortDescription": "Resize images to exact dimensions or percentage without losing quality.",
       "seoTitle": "Free Image Resizer - Resize Images Online",
       "metaDescription": "Resize images online for free. Set exact pixel dimensions or scale by percentage. Supports JPG, PNG, WebP. No upload required.",
+      "h1": "Image Resizer — Resize Images Online Free",
+      "canonicalUrl": "https://utilitymega.com/image-tools/image-resizer",
       "keywords": [
         "image resizer",
         "resize image online",
@@ -304,13 +653,53 @@
           "answer": "Yes, reducing image dimensions significantly reduces file size since fewer pixels means less data. A 50% reduction in both dimensions typically results in a 75% smaller file size."
         }
       ],
-      "relatedTools": [
-        "image-compressor",
-        "image-crop-tool",
-        "image-converter"
-      ],
+      "relatedTools": ["image-compressor", "image-crop-tool", "image-converter"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Image Tools", "url": "https://utilitymega.com/image-tools" },
+        { "name": "Image Resizer", "url": "https://utilitymega.com/image-tools/image-resizer" }
+      ],
+      "openGraph": {
+        "og:title": "Free Image Resizer - Resize Images Online Instantly",
+        "og:description": "Resize images to exact dimensions or percentage. Social media presets. No upload required.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/image-tools/image-resizer",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Image Resizer | UtilityMega",
+        "twitter:description": "Resize images to exact pixels, percentage or social media presets. Free, instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Image Resizer",
+        "description": "Resize images to exact pixel dimensions with aspect ratio lock and social media presets.",
+        "url": "https://utilitymega.com/image-tools/image-resizer",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Image Tools", "item": "https://utilitymega.com/image-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Image Resizer", "item": "https://utilitymega.com/image-tools/image-resizer" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Will resizing an image reduce its quality?", "acceptedAnswer": { "@type": "Answer", "text": "Resizing down (reducing dimensions) generally maintains quality well. Resizing up (enlarging beyond original size) will cause pixelation or blurring since pixels are being interpolated. Always resize from original high-resolution sources." } },
+          { "@type": "Question", "name": "Can I resize an image without distorting it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Enable 'Lock Aspect Ratio' in our tool. When you change width, height adjusts proportionally, and vice versa. This prevents stretching or squishing." } },
+          { "@type": "Question", "name": "Can I resize images to specific social media dimensions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we offer preset dimensions for all major platforms: Facebook, Instagram, Twitter/X, LinkedIn, YouTube thumbnails, and more." } }
+        ]
+      }
     },
     {
       "id": "tool-005",
@@ -321,6 +710,8 @@
       "shortDescription": "Compress video files online to reduce size while maintaining quality.",
       "seoTitle": "Free Video Compressor - Reduce Video File Size Online",
       "metaDescription": "Compress video files online for free. Reduce MP4, AVI, MOV file size without watermarks. Browser-based video compression tool.",
+      "h1": "Video Compressor — Compress Video Online Free",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-compressor",
       "keywords": [
         "video compressor",
         "compress video online",
@@ -354,13 +745,53 @@
           "answer": "Absolutely not. Our video compressor is completely free with no watermarks added. What you compress is exactly what you download."
         }
       ],
-      "relatedTools": [
-        "video-converter",
-        "video-trimmer",
-        "gif-maker"
-      ],
+      "relatedTools": ["video-converter", "video-trimmer", "gif-maker"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Video Tools", "url": "https://utilitymega.com/video-tools" },
+        { "name": "Video Compressor", "url": "https://utilitymega.com/video-tools/video-compressor" }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Compressor - Reduce Video File Size Online",
+        "og:description": "Compress MP4, AVI, MOV video files free. No watermarks, no server upload, browser-based.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-compressor",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Compressor | UtilityMega",
+        "twitter:description": "Compress videos 50-80% free. No watermarks, browser-based."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Compressor",
+        "description": "Compress video files online without watermarks. Browser-based using FFmpeg.wasm.",
+        "url": "https://utilitymega.com/video-tools/video-compressor",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Video Tools", "item": "https://utilitymega.com/video-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Video Compressor", "item": "https://utilitymega.com/video-tools/video-compressor" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What video formats can I compress?", "acceptedAnswer": { "@type": "Answer", "text": "Our video compressor supports MP4, AVI, MOV, MKV, WebM, and FLV formats. Output is MP4 (H.264) by default, which has the best compatibility across all devices and platforms." } },
+          { "@type": "Question", "name": "Is video compression done on the server?", "acceptedAnswer": { "@type": "Answer", "text": "No. All video processing uses FFmpeg.wasm running in your browser. Your video files never leave your device, ensuring complete privacy." } },
+          { "@type": "Question", "name": "Will there be any watermark on my compressed video?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely not. Our video compressor is completely free with no watermarks added. What you compress is exactly what you download." } }
+        ]
+      }
     },
     {
       "id": "tool-006",
@@ -371,6 +802,8 @@
       "shortDescription": "Convert video files between MP4, AVI, MOV, WebM and other formats free.",
       "seoTitle": "Free Video Converter - Convert MP4, AVI, MOV Online",
       "metaDescription": "Convert video files online for free. Convert between MP4, AVI, MOV, WebM, MKV formats. No watermark, no signup required.",
+      "h1": "Video Converter — Convert Video Formats Online Free",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-converter",
       "keywords": [
         "video converter",
         "convert video online",
@@ -404,13 +837,52 @@
           "answer": "Currently, our free tool processes one video at a time. For bulk video conversion, we recommend queuing videos one after another while the first conversion completes."
         }
       ],
-      "relatedTools": [
-        "video-compressor",
-        "video-trimmer",
-        "gif-maker"
-      ],
+      "relatedTools": ["video-compressor", "video-trimmer", "gif-maker"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Video Tools", "url": "https://utilitymega.com/video-tools" },
+        { "name": "Video Converter", "url": "https://utilitymega.com/video-tools/video-converter" }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Converter - Convert MP4, AVI, MOV Online",
+        "og:description": "Convert between all video formats free. MOV to MP4, AVI to MP4, WebM and more. No watermark.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Converter | UtilityMega",
+        "twitter:description": "Convert MP4, AVI, MOV, WebM, MKV formats free. No watermark."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Converter",
+        "description": "Convert video files between all major formats. Browser-based, no watermarks.",
+        "url": "https://utilitymega.com/video-tools/video-converter",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Video Tools", "item": "https://utilitymega.com/video-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Video Converter", "item": "https://utilitymega.com/video-tools/video-converter" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is the best video format for web use?", "acceptedAnswer": { "@type": "Answer", "text": "MP4 with H.264 encoding is the best choice for web compatibility. For modern browsers, WebM with VP9 offers better compression. Always provide MP4 as a fallback." } },
+          { "@type": "Question", "name": "Can I convert video without losing quality?", "acceptedAnswer": { "@type": "Answer", "text": "Every encoding involves some quality loss (transcode loss). To minimize this, use high quality settings in the converter. Converting to the same codec is more quality-preserving than cross-codec conversion." } }
+        ]
+      }
     },
     {
       "id": "tool-007",
@@ -421,6 +893,8 @@
       "shortDescription": "Format, validate, and beautify JSON data with syntax highlighting.",
       "seoTitle": "Free JSON Formatter - Validate & Beautify JSON Online",
       "metaDescription": "Free online JSON formatter and validator. Beautify minified JSON, validate syntax, and view JSON in a tree structure. No login required.",
+      "h1": "JSON Formatter — Format & Validate JSON Online",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/json-formatter",
       "keywords": [
         "JSON formatter",
         "JSON beautifier",
@@ -454,13 +928,53 @@
           "answer": "Completely safe. All processing happens in your browser using JavaScript. Your JSON data is never sent to our servers. This is especially important when working with API keys or sensitive configuration data."
         }
       ],
-      "relatedTools": [
-        "base64-encoder",
-        "regex-tester",
-        "xml-formatter"
-      ],
+      "relatedTools": ["base64-encoder", "regex-tester", "xml-formatter"],
       "isPopular": true,
-      "isFeatured": true
+      "isFeatured": true,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Developer Tools", "url": "https://utilitymega.com/developer-tools" },
+        { "name": "JSON Formatter", "url": "https://utilitymega.com/developer-tools/json-formatter" }
+      ],
+      "openGraph": {
+        "og:title": "Free JSON Formatter - Validate & Beautify JSON Online",
+        "og:description": "Beautify, validate, minify JSON with syntax highlighting. Spot errors instantly. Free, browser-based.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/developer-tools/json-formatter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free JSON Formatter | UtilityMega",
+        "twitter:description": "Format, validate, minify JSON with syntax highlighting. Free developer tool."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "JSON Formatter",
+        "description": "Format, validate, and beautify JSON with syntax highlighting, error detection, and minification.",
+        "url": "https://utilitymega.com/developer-tools/json-formatter",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://utilitymega.com/developer-tools" },
+            { "@type": "ListItem", "position": 3, "name": "JSON Formatter", "item": "https://utilitymega.com/developer-tools/json-formatter" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is JSON formatting?", "acceptedAnswer": { "@type": "Answer", "text": "JSON formatting (or pretty-printing) adds proper indentation and line breaks to compact JSON data, making it human-readable. Minified JSON works for machines but is nearly impossible for humans to read without formatting." } },
+          { "@type": "Question", "name": "How do I validate JSON?", "acceptedAnswer": { "@type": "Answer", "text": "Paste your JSON into the validator. Valid JSON will be formatted and displayed. Invalid JSON will show a specific error message indicating the problem location (line number and character position)." } },
+          { "@type": "Question", "name": "Is my JSON data safe when I paste it here?", "acceptedAnswer": { "@type": "Answer", "text": "Completely safe. All processing happens in your browser using JavaScript. Your JSON data is never sent to our servers." } }
+        ]
+      }
     },
     {
       "id": "tool-008",
@@ -471,6 +985,8 @@
       "shortDescription": "Encode and decode Base64 strings online with support for text, URLs, and files.",
       "seoTitle": "Free Base64 Encoder Decoder - Encode & Decode Online",
       "metaDescription": "Free Base64 encoder and decoder. Encode text, URLs, or files to Base64 and decode Base64 strings. Instant, browser-based tool.",
+      "h1": "Base64 Encoder / Decoder — Free Online Tool",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/base64-encoder",
       "keywords": [
         "Base64 encoder",
         "Base64 decoder",
@@ -504,13 +1020,53 @@
           "answer": "A JWT token has three Base64URL-encoded parts separated by dots. Our tool decodes each part to reveal the header (algorithm), payload (claims), and signature. Note that the signature cannot be verified without the secret key."
         }
       ],
-      "relatedTools": [
-        "json-formatter",
-        "url-encoder",
-        "hash-generator"
-      ],
+      "relatedTools": ["json-formatter", "url-encoder", "hash-generator"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Developer Tools", "url": "https://utilitymega.com/developer-tools" },
+        { "name": "Base64 Encoder", "url": "https://utilitymega.com/developer-tools/base64-encoder" }
+      ],
+      "openGraph": {
+        "og:title": "Free Base64 Encoder Decoder - Encode & Decode Online",
+        "og:description": "Encode text/files to Base64, decode Base64 strings, URL-encode. Free, browser-based, private.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/developer-tools/base64-encoder",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Base64 Encoder Decoder | UtilityMega",
+        "twitter:description": "Encode/decode Base64, URL encode, file to Base64. Free developer tool."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Base64 Encoder/Decoder",
+        "description": "Encode and decode Base64 strings for text, URLs, and files. Browser-based, private.",
+        "url": "https://utilitymega.com/developer-tools/base64-encoder",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Developer Tools", "item": "https://utilitymega.com/developer-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Base64 Encoder", "item": "https://utilitymega.com/developer-tools/base64-encoder" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is Base64 encoding the same as encryption?", "acceptedAnswer": { "@type": "Answer", "text": "No. Base64 is encoding, not encryption. It simply converts binary data to text using a reversible algorithm. Anyone can decode a Base64 string — it provides no security." } },
+          { "@type": "Question", "name": "What is Base64URL encoding?", "acceptedAnswer": { "@type": "Answer", "text": "Base64URL replaces + with - and / with _ in the output, making the encoded string safe to use in URLs and filenames without percent-encoding." } },
+          { "@type": "Question", "name": "Can I encode images to Base64?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Use our file encoder to convert any image (JPG, PNG, GIF, SVG, WebP) to a Base64 data URI. This allows embedding images directly in HTML or CSS without additional HTTP requests." } }
+        ]
+      }
     },
     {
       "id": "tool-009",
@@ -521,6 +1077,8 @@
       "shortDescription": "Count words, characters, sentences, and paragraphs in any text instantly.",
       "seoTitle": "Free Word Counter - Count Words & Characters Online",
       "metaDescription": "Free online word counter. Count words, characters, sentences, paragraphs, and reading time. Paste or type your text for instant analysis.",
+      "h1": "Word Counter — Count Words & Characters Online",
+      "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
       "keywords": [
         "word counter",
         "character counter",
@@ -554,13 +1112,53 @@
           "answer": "Yes, our tool handles text in any Unicode language. For languages without spaces between words (like Chinese or Japanese), character count is more meaningful than word count."
         }
       ],
-      "relatedTools": [
-        "text-case-converter",
-        "duplicate-line-remover",
-        "lorem-ipsum-generator"
-      ],
+      "relatedTools": ["text-case-converter", "duplicate-line-remover", "lorem-ipsum-generator"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Text Tools", "url": "https://utilitymega.com/text-tools" },
+        { "name": "Word Counter", "url": "https://utilitymega.com/text-tools/word-counter" }
+      ],
+      "openGraph": {
+        "og:title": "Free Word Counter - Count Words & Characters Online",
+        "og:description": "Count words, characters, sentences, paragraphs, reading time and keyword density instantly. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/word-counter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Word Counter | UtilityMega",
+        "twitter:description": "Count words, characters, reading time, keyword density. Free text analyzer."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Word Counter",
+        "description": "Count words, characters, sentences, paragraphs and reading time with keyword density analysis.",
+        "url": "https://utilitymega.com/text-tools/word-counter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Text Tools", "item": "https://utilitymega.com/text-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Word Counter", "item": "https://utilitymega.com/text-tools/word-counter" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How does the word counter count words?", "acceptedAnswer": { "@type": "Answer", "text": "Words are counted as sequences of characters separated by whitespace. Hyphenated words like 'full-time' count as one word." } },
+          { "@type": "Question", "name": "What is the ideal word count for a blog post?", "acceptedAnswer": { "@type": "Answer", "text": "For SEO, most studies suggest 1,500–2,500 words for competitive keywords. However, content quality and relevance matter more than length." } },
+          { "@type": "Question", "name": "Can the word counter handle different languages?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, our tool handles text in any Unicode language. For languages without spaces between words (like Chinese or Japanese), character count is more meaningful than word count." } }
+        ]
+      }
     },
     {
       "id": "tool-010",
@@ -571,6 +1169,8 @@
       "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, and more.",
       "seoTitle": "Free Text Case Converter - UPPER, lower, Title Case",
       "metaDescription": "Free text case converter. Convert text to uppercase, lowercase, title case, sentence case, camelCase, PascalCase, kebab-case, snake_case.",
+      "h1": "Text Case Converter — 8 Case Formats Free",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
       "keywords": [
         "text case converter",
         "uppercase converter",
@@ -604,13 +1204,53 @@
           "answer": "Yes. Our tool intelligently splits camelCase and snake_case strings at word boundaries, enabling accurate conversion between all programming naming conventions."
         }
       ],
-      "relatedTools": [
-        "word-counter",
-        "duplicate-line-remover",
-        "find-and-replace"
-      ],
+      "relatedTools": ["word-counter", "duplicate-line-remover", "find-and-replace"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Text Tools", "url": "https://utilitymega.com/text-tools" },
+        { "name": "Text Case Converter", "url": "https://utilitymega.com/text-tools/text-case-converter" }
+      ],
+      "openGraph": {
+        "og:title": "Free Text Case Converter - UPPER lower Title camelCase",
+        "og:description": "Convert text between 8 case formats: UPPERCASE, lowercase, Title, camelCase, PascalCase, snake_case, kebab-case. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/text-case-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Text Case Converter | UtilityMega",
+        "twitter:description": "8 case formats: UPPER, lower, Title, camel, Pascal, snake, kebab. Free instant converter."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Text Case Converter",
+        "description": "Convert text between 8 case formats including camelCase, PascalCase, snake_case, and kebab-case.",
+        "url": "https://utilitymega.com/text-tools/text-case-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Text Tools", "item": "https://utilitymega.com/text-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Text Case Converter", "item": "https://utilitymega.com/text-tools/text-case-converter" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is camelCase used for?", "acceptedAnswer": { "@type": "Answer", "text": "camelCase is used for variable and function names in JavaScript, Java, Swift, and many other programming languages. Example: getUserData(), firstName, totalPrice." } },
+          { "@type": "Question", "name": "What case should I use for HTML class names?", "acceptedAnswer": { "@type": "Answer", "text": "HTML class names conventionally use kebab-case (my-class-name). This is the standard followed by CSS frameworks like Bootstrap and Tailwind CSS." } },
+          { "@type": "Question", "name": "What is the difference between PascalCase and camelCase?", "acceptedAnswer": { "@type": "Answer", "text": "Both join words without spaces. PascalCase capitalizes the first letter of every word including the first (UserProfile). camelCase leaves the first word lowercase (userProfile)." } }
+        ]
+      }
     },
     {
       "id": "tool-011",
@@ -621,6 +1261,8 @@
       "shortDescription": "Generate strong, secure random passwords with custom length and character sets.",
       "seoTitle": "Free Password Generator - Strong Random Password",
       "metaDescription": "Generate strong secure passwords online for free. Customize length, include uppercase, numbers, symbols. 100% client-side, passwords never stored.",
+      "h1": "Password Generator — Strong Random Passwords Free",
+      "canonicalUrl": "https://utilitymega.com/security-tools/password-generator",
       "keywords": [
         "password generator",
         "strong password generator",
@@ -654,13 +1296,53 @@
           "answer": "Current guidance from NIST (US security standard) recommends changing passwords only when there is evidence of compromise, not on a fixed schedule. Using unique passwords per site is more important than frequent changes."
         }
       ],
-      "relatedTools": [
-        "hash-generator",
-        "password-strength-checker",
-        "uuid-generator"
-      ],
+      "relatedTools": ["hash-generator", "password-strength-checker", "uuid-generator"],
       "isPopular": true,
-      "isFeatured": true
+      "isFeatured": true,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Security Tools", "url": "https://utilitymega.com/security-tools" },
+        { "name": "Password Generator", "url": "https://utilitymega.com/security-tools/password-generator" }
+      ],
+      "openGraph": {
+        "og:title": "Free Password Generator - Strong Random Passwords",
+        "og:description": "Generate cryptographically secure passwords. Customize length, characters. 100% client-side, never stored.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/password-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Password Generator | UtilityMega",
+        "twitter:description": "Generate strong cryptographic passwords. Entropy score, crack time, bulk generate. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Password Generator",
+        "description": "Generate cryptographically secure random passwords with entropy analysis and bulk generation.",
+        "url": "https://utilitymega.com/security-tools/password-generator",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Security Tools", "item": "https://utilitymega.com/security-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Password Generator", "item": "https://utilitymega.com/security-tools/password-generator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Are generated passwords saved anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "No. All password generation uses your browser's cryptographic random number generator. Passwords are never sent to our servers, stored in cookies, or logged in any way." } },
+          { "@type": "Question", "name": "What is the most secure password length?", "acceptedAnswer": { "@type": "Answer", "text": "For accounts protected by rate limiting, 12–16 characters is considered very secure. For encryption keys or high-value accounts with offline cracking risk, 20+ characters with full character set is recommended." } },
+          { "@type": "Question", "name": "Should I use symbols in my password?", "acceptedAnswer": { "@type": "Answer", "text": "Symbols increase security by expanding the character set. However, some systems have restrictions on which symbols are allowed. Our generator lets you exclude problem characters while maintaining strong randomness." } }
+        ]
+      }
     },
     {
       "id": "tool-012",
@@ -671,6 +1353,8 @@
       "shortDescription": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from text or files.",
       "seoTitle": "Free Hash Generator - MD5, SHA256, SHA512 Online",
       "metaDescription": "Generate MD5, SHA-1, SHA-256, and SHA-512 hash values online for free. Hash text strings and files. Verify file integrity instantly.",
+      "h1": "Hash Generator — MD5, SHA-256, SHA-512 Free",
+      "canonicalUrl": "https://utilitymega.com/security-tools/hash-generator",
       "keywords": [
         "hash generator",
         "MD5 generator",
@@ -704,13 +1388,53 @@
           "answer": "A collision means two different inputs produce the same hash output. SHA-256 has never had a real-world collision found and is believed to be collision-resistant for the foreseeable future, unlike MD5 and SHA-1."
         }
       ],
-      "relatedTools": [
-        "password-generator",
-        "base64-encoder",
-        "uuid-generator"
-      ],
+      "relatedTools": ["password-generator", "base64-encoder", "uuid-generator"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Security Tools", "url": "https://utilitymega.com/security-tools" },
+        { "name": "Hash Generator", "url": "https://utilitymega.com/security-tools/hash-generator" }
+      ],
+      "openGraph": {
+        "og:title": "Free Hash Generator - MD5, SHA256, SHA512 Online",
+        "og:description": "Generate MD5, SHA-1, SHA-256, SHA-512 hashes for text and files. HMAC support. Verify integrity. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/hash-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Hash Generator | UtilityMega",
+        "twitter:description": "MD5, SHA-1, SHA-256, SHA-512, HMAC hash generator. Verify file integrity. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Hash Generator",
+        "description": "Generate MD5, SHA-1, SHA-256, SHA-512 cryptographic hashes with HMAC support and file integrity verification.",
+        "url": "https://utilitymega.com/security-tools/hash-generator",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Security Tools", "item": "https://utilitymega.com/security-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Hash Generator", "item": "https://utilitymega.com/security-tools/hash-generator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is the difference between MD5 and SHA-256?", "acceptedAnswer": { "@type": "Answer", "text": "MD5 produces a 128-bit hash and is vulnerable to collision attacks. SHA-256 produces a 256-bit hash and is cryptographically secure. Use SHA-256 for any security-sensitive application." } },
+          { "@type": "Question", "name": "Can a hash be reversed to get the original text?", "acceptedAnswer": { "@type": "Answer", "text": "Hash functions are one-way by design. You cannot mathematically reverse a hash to get the original input." } },
+          { "@type": "Question", "name": "How do I verify a file download using its hash?", "acceptedAnswer": { "@type": "Answer", "text": "Download the file and the published checksum (usually SHA-256). Drop the file into our hash generator to compute its hash. Compare the result with the published checksum — they must match exactly, character by character." } }
+        ]
+      }
     },
     {
       "id": "tool-013",
@@ -721,6 +1445,8 @@
       "shortDescription": "Generate complete HTML meta tags for SEO, Open Graph, and Twitter Cards.",
       "seoTitle": "Free Meta Tag Generator - SEO, OG & Twitter Cards",
       "metaDescription": "Generate complete HTML meta tags for SEO. Includes title, description, Open Graph, Twitter Card, and robots tags. Free, instant output.",
+      "h1": "Meta Tag Generator — SEO, Open Graph & Twitter Cards",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/meta-tag-generator",
       "keywords": [
         "meta tag generator",
         "SEO meta tags",
@@ -754,13 +1480,53 @@
           "answer": "The rel=canonical tag tells search engines which URL is the preferred version of a page when the same content exists at multiple URLs. It prevents duplicate content issues that can dilute your SEO authority."
         }
       ],
-      "relatedTools": [
-        "keyword-density-checker",
-        "robots-txt-generator",
-        "sitemap-generator"
-      ],
+      "relatedTools": ["keyword-density-checker", "robots-txt-generator", "sitemap-generator"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "SEO Tools", "url": "https://utilitymega.com/seo-tools" },
+        { "name": "Meta Tag Generator", "url": "https://utilitymega.com/seo-tools/meta-tag-generator" }
+      ],
+      "openGraph": {
+        "og:title": "Free Meta Tag Generator - SEO, Open Graph & Twitter Cards",
+        "og:description": "Generate complete HTML meta tags with live SERP and social media previews. Free, instant.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/seo-tools/meta-tag-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Meta Tag Generator | UtilityMega",
+        "twitter:description": "Generate SEO meta tags, Open Graph, Twitter Cards with live preview. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Meta Tag Generator",
+        "description": "Generate complete HTML meta tags for SEO, Open Graph and Twitter Cards with live SERP preview.",
+        "url": "https://utilitymega.com/seo-tools/meta-tag-generator",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "SEO Tools", "item": "https://utilitymega.com/seo-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Meta Tag Generator", "item": "https://utilitymega.com/seo-tools/meta-tag-generator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Do keywords meta tags still affect SEO?", "acceptedAnswer": { "@type": "Answer", "text": "No. Google officially ignores the keywords meta tag for ranking purposes since 2009. Focus on natural keyword usage in your actual page content instead." } },
+          { "@type": "Question", "name": "What is the ideal meta description length?", "acceptedAnswer": { "@type": "Answer", "text": "Google displays up to 160 characters for desktop and 120 characters for mobile. Write compelling descriptions of 140–155 characters that accurately describe the page and encourage clicks." } },
+          { "@type": "Question", "name": "What is Open Graph and why does it matter?", "acceptedAnswer": { "@type": "Answer", "text": "Open Graph meta tags tell Facebook, LinkedIn, WhatsApp, and other platforms how to display your content when shared. Without OG tags, platforms produce poor-looking previews." } }
+        ]
+      }
     },
     {
       "id": "tool-014",
@@ -771,6 +1537,8 @@
       "shortDescription": "Analyze keyword frequency and density in your content for SEO optimization.",
       "seoTitle": "Free Keyword Density Checker - SEO Content Analyzer",
       "metaDescription": "Check keyword density in your content for free. Analyze word frequency, identify overused terms, and optimize your content for SEO.",
+      "h1": "Keyword Density Checker — SEO Content Analyzer",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/keyword-density-checker",
       "keywords": [
         "keyword density checker",
         "keyword frequency analyzer",
@@ -804,13 +1572,53 @@
           "answer": "Keyword prominence refers to where in the page keywords appear. Keywords in the title, first paragraph, H1, and URL carry more weight than keywords deep in the page. High density with low prominence is less effective than moderate density with high prominence."
         }
       ],
-      "relatedTools": [
-        "meta-tag-generator",
-        "word-counter",
-        "readability-checker"
-      ],
+      "relatedTools": ["meta-tag-generator", "word-counter", "readability-checker"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "SEO Tools", "url": "https://utilitymega.com/seo-tools" },
+        { "name": "Keyword Density Checker", "url": "https://utilitymega.com/seo-tools/keyword-density-checker" }
+      ],
+      "openGraph": {
+        "og:title": "Free Keyword Density Checker - SEO Content Analyzer",
+        "og:description": "Analyze keyword density with bar chart, target keyword analysis, and SEO score. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/seo-tools/keyword-density-checker",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Keyword Density Checker | UtilityMega",
+        "twitter:description": "Check keyword density and stuffing risk. Target keyword analysis, bar chart. Free SEO tool."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Keyword Density Checker",
+        "description": "Analyze keyword frequency and density in content with bar chart visualization and target keyword analysis.",
+        "url": "https://utilitymega.com/seo-tools/keyword-density-checker",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "SEO Tools", "item": "https://utilitymega.com/seo-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Keyword Density Checker", "item": "https://utilitymega.com/seo-tools/keyword-density-checker" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is the ideal keyword density for SEO?", "acceptedAnswer": { "@type": "Answer", "text": "Most SEO professionals recommend 1–2% for primary keywords. Focus on natural-sounding content — if your keyword fits naturally 1% of the time, that is likely appropriate." } },
+          { "@type": "Question", "name": "What is keyword stuffing?", "acceptedAnswer": { "@type": "Answer", "text": "Keyword stuffing is unnaturally forcing keywords into content at high frequency in hopes of ranking higher. Google penalizes this practice." } },
+          { "@type": "Question", "name": "What is keyword prominence?", "acceptedAnswer": { "@type": "Answer", "text": "Keyword prominence refers to where in the page keywords appear. Keywords in the title, first paragraph, H1, and URL carry more weight than keywords deep in the page." } }
+        ]
+      }
     },
     {
       "id": "tool-015",
@@ -821,6 +1629,8 @@
       "shortDescription": "Convert between meters, feet, inches, centimeters, miles, and kilometers.",
       "seoTitle": "Free Length Converter - Meters, Feet, Inches & More",
       "metaDescription": "Convert length units online for free. Instantly convert between meters, feet, inches, centimeters, kilometers, miles, yards, and nautical miles.",
+      "h1": "Length Converter — Meters, Feet, Inches & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/length-converter",
       "keywords": [
         "length converter",
         "meters to feet",
@@ -854,13 +1664,53 @@
           "answer": "1 light year = 9.461 × 10^12 km (about 9.46 trillion kilometers). It is the distance light travels in one year at the speed of 299,792 km/s. The nearest star system, Alpha Centauri, is 4.37 light years away."
         }
       ],
-      "relatedTools": [
-        "temperature-converter",
-        "weight-converter",
-        "area-converter"
-      ],
+      "relatedTools": ["temperature-converter", "weight-converter", "area-converter"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
+        { "name": "Length Converter", "url": "https://utilitymega.com/unit-converters/length-converter" }
+      ],
+      "openGraph": {
+        "og:title": "Free Length Converter - Meters, Feet, Inches, km & More",
+        "og:description": "Convert between all length units instantly. Metric, imperial, nautical, astronomical. Visual scale bars.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/length-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Length Converter | UtilityMega",
+        "twitter:description": "Convert meters, feet, inches, km, miles and more. Free, instant, visual comparison."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Length Converter",
+        "description": "Convert between metric, imperial, nautical and astronomical length units with visual comparison bars.",
+        "url": "https://utilitymega.com/unit-converters/length-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
+            { "@type": "ListItem", "position": 3, "name": "Length Converter", "item": "https://utilitymega.com/unit-converters/length-converter" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How many centimeters in an inch?", "acceptedAnswer": { "@type": "Answer", "text": "1 inch = 2.54 centimeters exactly. This is the internationally defined conversion. So 12 inches (1 foot) = 30.48 cm, and 1 meter = 39.3701 inches." } },
+          { "@type": "Question", "name": "How many feet in a meter?", "acceptedAnswer": { "@type": "Answer", "text": "1 meter = 3.28084 feet (rounded). More precisely, 1 meter = 3 feet and 3.37 inches. For quick mental math, multiply meters by 3.3 to get approximate feet." } },
+          { "@type": "Question", "name": "What is the difference between a mile and a nautical mile?", "acceptedAnswer": { "@type": "Answer", "text": "A statute mile (land mile) = 1.60934 km = 5,280 feet. A nautical mile = 1.852 km = 6,076 feet. The nautical mile is based on the Earth's circumference." } }
+        ]
+      }
     },
     {
       "id": "tool-016",
@@ -871,6 +1721,8 @@
       "shortDescription": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine temperature scales.",
       "seoTitle": "Free Temperature Converter - Celsius to Fahrenheit",
       "metaDescription": "Convert temperature units online for free. Convert Celsius to Fahrenheit, Kelvin, and Rankine. Instant accurate temperature conversion.",
+      "h1": "Temperature Converter — Celsius, Fahrenheit & Kelvin",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/temperature-converter",
       "keywords": [
         "temperature converter",
         "Celsius to Fahrenheit",
@@ -904,13 +1756,53 @@
           "answer": "Normal human body temperature is 37°C (98.6°F). This is a historical average — individual normal temperatures range from 36.1°C to 37.2°C (97°F to 99°F). Body temperature also varies by time of day and measurement location."
         }
       ],
-      "relatedTools": [
-        "length-converter",
-        "weight-converter",
-        "pressure-converter"
-      ],
+      "relatedTools": ["length-converter", "weight-converter", "pressure-converter"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
+        { "name": "Temperature Converter", "url": "https://utilitymega.com/unit-converters/temperature-converter" }
+      ],
+      "openGraph": {
+        "og:title": "Free Temperature Converter - Celsius to Fahrenheit & Kelvin",
+        "og:description": "Convert between Celsius, Fahrenheit, Kelvin, Rankine with visual thermometer and cooking guide. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/temperature-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Temperature Converter | UtilityMega",
+        "twitter:description": "Celsius, Fahrenheit, Kelvin, Rankine converter with thermometer visual. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Temperature Converter",
+        "description": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine with live thermometer visualization and cooking guide.",
+        "url": "https://utilitymega.com/unit-converters/temperature-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
+            { "@type": "ListItem", "position": 3, "name": "Temperature Converter", "item": "https://utilitymega.com/unit-converters/temperature-converter" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is the formula to convert Celsius to Fahrenheit?", "acceptedAnswer": { "@type": "Answer", "text": "°F = (°C × 9/5) + 32. Or equivalently: °F = (°C × 1.8) + 32. Quick trick: double the Celsius temperature and add 30 for a rough Fahrenheit estimate." } },
+          { "@type": "Question", "name": "At what temperature are Celsius and Fahrenheit equal?", "acceptedAnswer": { "@type": "Answer", "text": "Celsius and Fahrenheit are equal at -40 degrees. -40°C = -40°F. This is the only temperature where the two scales intersect." } },
+          { "@type": "Question", "name": "What is absolute zero in Celsius and Fahrenheit?", "acceptedAnswer": { "@type": "Answer", "text": "Absolute zero is 0 Kelvin = -273.15°C = -459.67°F. It is the theoretical temperature at which all thermal motion of particles stops." } }
+        ]
+      }
     },
     {
       "id": "tool-017",
@@ -921,6 +1813,8 @@
       "shortDescription": "Generate QR codes for URLs, text, email, WiFi, and contact information.",
       "seoTitle": "Free QR Code Generator - Create QR Codes Online",
       "metaDescription": "Generate QR codes online for free. Create QR codes for URLs, text, WiFi passwords, email, phone, and vCards. Download PNG or SVG.",
+      "h1": "QR Code Generator — Create QR Codes Free Online",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/qr-code-generator",
       "keywords": [
         "QR code generator",
         "free QR code",
@@ -954,13 +1848,53 @@
           "answer": "Download as SVG for print use (infinitely scalable without quality loss). Download as PNG for digital use (web, email, documents). Avoid JPEG for QR codes as compression artifacts can make them unscannable."
         }
       ],
-      "relatedTools": [
-        "url-encoder",
-        "barcode-generator",
-        "image-compressor"
-      ],
+      "relatedTools": ["url-encoder", "barcode-generator", "image-compressor"],
       "isPopular": true,
-      "isFeatured": true
+      "isFeatured": true,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Utility Tools", "url": "https://utilitymega.com/utility-tools" },
+        { "name": "QR Code Generator", "url": "https://utilitymega.com/utility-tools/qr-code-generator" }
+      ],
+      "openGraph": {
+        "og:title": "Free QR Code Generator - Create QR Codes Online",
+        "og:description": "Generate QR codes for URLs, text, WiFi, email, phone, vCard. Color customization. Download PNG/SVG.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/utility-tools/qr-code-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free QR Code Generator | UtilityMega",
+        "twitter:description": "Create QR codes for URLs, WiFi, email, vCard. Custom colors. Download free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "QR Code Generator",
+        "description": "Generate QR codes for URLs, text, WiFi, email, phone, and vCard with color customization.",
+        "url": "https://utilitymega.com/utility-tools/qr-code-generator",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Utility Tools", "item": "https://utilitymega.com/utility-tools" },
+            { "@type": "ListItem", "position": 3, "name": "QR Code Generator", "item": "https://utilitymega.com/utility-tools/qr-code-generator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How much data can a QR code store?", "acceptedAnswer": { "@type": "Answer", "text": "QR codes can store up to 7,089 numeric characters, 4,296 alphanumeric characters, or 2,953 binary bytes. Shorter content creates simpler, more easily scannable codes." } },
+          { "@type": "Question", "name": "Are QR codes permanent?", "acceptedAnswer": { "@type": "Answer", "text": "Static QR codes (like those generated here) are permanent — the encoded data never expires or changes. For editable QR codes, use dynamic QR code services." } },
+          { "@type": "Question", "name": "What format should I download the QR code in?", "acceptedAnswer": { "@type": "Answer", "text": "Download as SVG for print use (infinitely scalable without quality loss). Download as PNG for digital use (web, email, documents)." } }
+        ]
+      }
     },
     {
       "id": "tool-018",
@@ -971,6 +1905,8 @@
       "shortDescription": "Encode and decode URLs to handle special characters in web addresses.",
       "seoTitle": "Free URL Encoder Decoder - Encode Special Characters",
       "metaDescription": "Encode and decode URLs online for free. Handle special characters, spaces, and Unicode in web addresses. Instant browser-based tool.",
+      "h1": "URL Encoder / Decoder — Encode Special Characters Free",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/url-encoder",
       "keywords": [
         "URL encoder",
         "URL decoder",
@@ -1004,13 +1940,52 @@
           "answer": "Unreserved characters (letters, numbers, -, _, ., ~) are safe in URLs and do not need encoding. Reserved characters (:, /, ?, #, [, ], @, !, $, &, ', (, ), *, +, ,, ;, =) have special URL meaning and should only be encoded when used as data values."
         }
       ],
-      "relatedTools": [
-        "base64-encoder",
-        "qr-code-generator",
-        "json-formatter"
-      ],
+      "relatedTools": ["base64-encoder", "qr-code-generator", "json-formatter"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Utility Tools", "url": "https://utilitymega.com/utility-tools" },
+        { "name": "URL Encoder", "url": "https://utilitymega.com/utility-tools/url-encoder" }
+      ],
+      "openGraph": {
+        "og:title": "Free URL Encoder Decoder - Encode Special Characters",
+        "og:description": "URL encode/decode, encodeURIComponent, HTML encode with URL parser. 5 modes. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/utility-tools/url-encoder",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free URL Encoder Decoder | UtilityMega",
+        "twitter:description": "URL encode, decode, encodeURIComponent, HTML encode. 5 modes. Free developer tool."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "URL Encoder/Decoder",
+        "description": "Encode and decode URLs with 5 modes including encodeURIComponent, encodeURI, and HTML encoding.",
+        "url": "https://utilitymega.com/utility-tools/url-encoder",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Utility Tools", "item": "https://utilitymega.com/utility-tools" },
+            { "@type": "ListItem", "position": 3, "name": "URL Encoder", "item": "https://utilitymega.com/utility-tools/url-encoder" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What does %20 mean in a URL?", "acceptedAnswer": { "@type": "Answer", "text": "%20 is the URL-encoded form of a space character. In query strings, + is also used to represent spaces. Both %20 and + decode to a space." } },
+          { "@type": "Question", "name": "What is the difference between URL encoding and HTML encoding?", "acceptedAnswer": { "@type": "Answer", "text": "URL encoding (percent-encoding) converts characters for use in URLs. HTML encoding converts characters for safe display in HTML (e.g., < becomes &lt;). They serve different purposes and are not interchangeable." } }
+        ]
+      }
     },
     {
       "id": "tool-019",
@@ -1021,6 +1996,8 @@
       "shortDescription": "Calculate estimated crop yield per acre or hectare based on crop type and conditions.",
       "seoTitle": "Free Crop Yield Calculator - Estimate Farm Production",
       "metaDescription": "Calculate estimated crop yield for wheat, rice, cotton, and more. Enter field area, crop variety, and conditions for yield estimates.",
+      "h1": "Crop Yield Calculator — Estimate Farm Yield Free",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
       "keywords": [
         "crop yield calculator",
         "farm yield estimator",
@@ -1054,13 +2031,54 @@
           "answer": "Key yield improvement strategies: use certified HYV seeds, conduct soil testing and apply balanced fertilizers, ensure timely irrigation, adopt integrated pest management, use mulching to conserve moisture, and follow recommended crop spacing for your variety."
         }
       ],
-      "relatedTools": [
-        "fertilizer-calculator",
-        "irrigation-calculator",
-        "soil-ph-calculator"
-      ],
+      "relatedTools": ["fertilizer-calculator", "irrigation-calculator", "soil-ph-calculator"],
       "isPopular": true,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Farmers Tools", "url": "https://utilitymega.com/farmers-tools" },
+        { "name": "Crop Yield Calculator", "url": "https://utilitymega.com/farmers-tools/crop-yield-calculator" }
+      ],
+      "openGraph": {
+        "og:title": "Free Crop Yield Calculator - Estimate Farm Production",
+        "og:description": "Calculate crop yield for wheat, rice, cotton, maize. Compare with national average. MSP revenue estimate. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Crop Yield Calculator | UtilityMega",
+        "twitter:description": "Estimate crop yield for wheat, rice, cotton. MSP revenue, yield chart. Free for Indian farmers."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Crop Yield Calculator",
+        "description": "Calculate estimated crop yield for Indian farms with variety selection, irrigation and soil quality factors.",
+        "url": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Farmers Tools", "item": "https://utilitymega.com/farmers-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Crop Yield Calculator", "item": "https://utilitymega.com/farmers-tools/crop-yield-calculator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How is crop yield calculated per acre?", "acceptedAnswer": { "@type": "Answer", "text": "Crop yield per acre = (Total plot production in kg) ÷ (Total area in acres). For standing crop estimation, take sample measurements from 3–5 spots: count plants/m², estimate grains/plant, and multiply by grain weight." } },
+          { "@type": "Question", "name": "What is a good wheat yield per acre in India?", "acceptedAnswer": { "@type": "Answer", "text": "Good wheat yield in India ranges from 18–22 quintals per acre (45–55 q/ha) for irrigated fields with improved varieties. National average is around 14–16 q/acre. Top farmers achieve 25+ q/acre with optimal management." } },
+          { "@type": "Question", "name": "How can I increase my crop yield?", "acceptedAnswer": { "@type": "Answer", "text": "Key yield improvement strategies: use certified HYV seeds, conduct soil testing and apply balanced fertilizers, ensure timely irrigation, adopt integrated pest management, use mulching to conserve moisture, and follow recommended crop spacing for your variety." } }
+        ]
+      }
     },
     {
       "id": "tool-020",
@@ -1071,6 +2089,8 @@
       "shortDescription": "Calculate NPK fertilizer requirements for your crop and field size.",
       "seoTitle": "Free Fertilizer Calculator - NPK Requirement Calculator",
       "metaDescription": "Calculate fertilizer requirements for your crops. Enter crop type, field area, and soil test values to get NPK fertilizer recommendations.",
+      "h1": "Fertilizer Calculator — NPK Requirement Calculator Free",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
       "keywords": [
         "fertilizer calculator",
         "NPK calculator",
@@ -1104,13 +2124,54 @@
           "answer": "Excess nitrogen causes vegetative growth at the expense of grains, disease susceptibility, and lodging (plants falling over). High phosphorus blocks zinc and iron uptake. Excess potassium causes salinity stress. Over-fertilization also pollutes groundwater through nutrient leaching."
         }
       ],
-      "relatedTools": [
-        "crop-yield-calculator",
-        "irrigation-calculator",
-        "soil-ph-calculator"
-      ],
+      "relatedTools": ["crop-yield-calculator", "irrigation-calculator", "soil-ph-calculator"],
       "isPopular": false,
-      "isFeatured": false
+      "isFeatured": false,
+      "breadcrumbs": [
+        { "name": "Home", "url": "https://utilitymega.com" },
+        { "name": "Farmers Tools", "url": "https://utilitymega.com/farmers-tools" },
+        { "name": "Fertilizer Calculator", "url": "https://utilitymega.com/farmers-tools/fertilizer-calculator" }
+      ],
+      "openGraph": {
+        "og:title": "Free Fertilizer Calculator - NPK Requirement for Crops",
+        "og:description": "Calculate Urea, DAP, MOP requirements for wheat, rice, maize. Soil test-based precision fertilization. Free.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Fertilizer Calculator | UtilityMega",
+        "twitter:description": "NPK fertilizer requirement calculator for Indian crops. Urea, DAP, MOP bags needed. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Fertilizer Calculator",
+        "description": "Calculate NPK fertilizer requirements for Indian crops with soil test integration and application schedule.",
+        "url": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+        "areaServed": { "@type": "Country", "name": "India" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
+            { "@type": "ListItem", "position": 2, "name": "Farmers Tools", "item": "https://utilitymega.com/farmers-tools" },
+            { "@type": "ListItem", "position": 3, "name": "Fertilizer Calculator", "item": "https://utilitymega.com/farmers-tools/fertilizer-calculator" }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "How do I calculate fertilizer quantity per acre?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply the recommended nutrient dose (kg/acre) by the inverse of fertilizer nutrient content. For example, to apply 25 kg N/acre using Urea (46% N): 25 ÷ 0.46 = 54.3 kg Urea/acre ≈ 1.09 bags (50 kg bags)." } },
+          { "@type": "Question", "name": "What is the NPK requirement for wheat?", "acceptedAnswer": { "@type": "Answer", "text": "Recommended NPK dose for wheat in India is typically 120:60:40 kg/ha (N:P:K). This translates to approximately 52 kg Urea/acre for N, 58 kg DAP/acre for P, and 33 kg MOP/acre for K." } },
+          { "@type": "Question", "name": "Is soil testing necessary before applying fertilizer?", "acceptedAnswer": { "@type": "Answer", "text": "Soil testing is highly recommended. It reveals existing nutrient levels, pH, and organic matter content, allowing precision fertilization. Without soil data, you may over-apply nutrients already present in the soil." } }
+        ]
+      }
     }
   ]
 }

@@ -13,8 +13,6 @@ export class SeoService {
   private doc = inject(DOCUMENT);
   private router = inject(Router);
 
-  private get currentUrl() { return `${BASE_URL}${this.router.url}`; }
-
   setHomeMeta() {
     this.apply({
       title: 'UtilityMega - 100+ Free Online Tools | No Login Required',
@@ -22,8 +20,8 @@ export class SeoService {
       keywords: 'free online tools, calculators, image tools, developer tools, SEO tools, unit converters, text tools, security tools',
       canonical: BASE_URL,
     });
-    this.setOG({ title: 'UtilityMega - 100+ Free Online Tools', description: 'Free online tools — calculators, image tools, developer utilities, SEO analyzers and more.', url: BASE_URL });
-    this.setTwitter({ title: 'UtilityMega - 100+ Free Online Tools', description: '100+ free tools. No login, no ads, no limits.' });
+    this.setOGFromObj({ 'og:title': 'UtilityMega - 100+ Free Online Tools', 'og:description': 'Free online tools — calculators, image tools, developer utilities, SEO analyzers and more.', 'og:type': 'website', 'og:url': BASE_URL, 'og:site_name': 'UtilityMega' });
+    this.setTwFromObj({ 'twitter:card': 'summary_large_image', 'twitter:title': 'UtilityMega - 100+ Free Online Tools', 'twitter:description': '100+ free tools. No login, no ads, no limits.' });
     this.injectJsonLd('website-schema', {
       '@context': 'https://schema.org', '@type': 'WebSite', name: 'UtilityMega', url: BASE_URL,
       potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: `${BASE_URL}/search?q={search_term_string}` }, 'query-input': 'required name=search_term_string' }
@@ -31,32 +29,54 @@ export class SeoService {
   }
 
   setCategoryMeta(cat: Category) {
-    const url = `${BASE_URL}/${cat.slug}`;
-    this.apply({ title: cat.seoTitle, description: cat.metaDescription, keywords: `${cat.name} tools, free ${cat.name.toLowerCase()}, online ${cat.name.toLowerCase()} tools`, canonical: url });
-    this.setOG({ title: cat.seoTitle, description: cat.metaDescription, url });
-    this.setBreadcrumb([{ label: 'Home', url: BASE_URL }, { label: cat.name, url }]);
+    const t = cat as any;
+    const url = t.canonicalUrl ?? `${BASE_URL}/${cat.slug}`;
+    this.apply({
+      title: cat.seoTitle,
+      description: cat.metaDescription,
+      keywords: (t.keywords ?? []).join(', ') || `${cat.name} free online tools`,
+      canonical: url,
+    });
+    t.openGraph ? this.setOGFromObj(t.openGraph) : this.setOGFromObj({ 'og:title': cat.seoTitle, 'og:description': cat.metaDescription, 'og:type': 'website', 'og:url': url, 'og:site_name': 'UtilityMega' });
+    t.twitterCard && this.setTwFromObj(t.twitterCard);
+    t.jsonLd && this.injectJsonLd('category-schema', t.jsonLd);
+    this.injectJsonLd('breadcrumb-schema', {
+      '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+        { '@type': 'ListItem', position: 2, name: cat.name, item: url },
+      ]
+    });
   }
 
   setToolMeta(tool: Tool) {
-    const url = `${BASE_URL}/${tool.categorySlug}/${tool.slug}`;
+    const t = tool as any;
+    const url = t.canonicalUrl ?? `${BASE_URL}/${tool.categorySlug}/${tool.slug}`;
     this.apply({ title: tool.seoTitle, description: tool.metaDescription, keywords: tool.keywords.join(', '), canonical: url });
-    this.setOG({ title: tool.seoTitle, description: tool.metaDescription, url });
-    this.setTwitter({ title: tool.seoTitle, description: tool.metaDescription });
-    this.setBreadcrumb([
-      { label: 'Home', url: BASE_URL },
-      { label: tool.categoryName, url: `${BASE_URL}/${tool.categorySlug}` },
-      { label: tool.name, url }
-    ]);
-    this.injectJsonLd('webapp-schema', {
+    // Open Graph
+    t.openGraph ? this.setOGFromObj(t.openGraph) : this.setOGFromObj({ 'og:title': tool.seoTitle, 'og:description': tool.metaDescription, 'og:type': 'website', 'og:url': url, 'og:site_name': 'UtilityMega' });
+    // Twitter Card
+    t.twitterCard ? this.setTwFromObj(t.twitterCard) : this.setTwFromObj({ 'twitter:card': 'summary_large_image', 'twitter:title': tool.seoTitle, 'twitter:description': tool.metaDescription });
+    // WebApplication JSON-LD (includes embedded breadcrumb from tools.json)
+    this.injectJsonLd('webapp-schema', t.jsonLd ?? {
       '@context': 'https://schema.org', '@type': 'WebApplication',
       name: tool.name, description: tool.metaDescription,
       url, applicationCategory: 'UtilityApplication', operatingSystem: 'All',
-      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'INR' }
     });
-    this.injectJsonLd('faq-schema', {
+    // Standalone BreadcrumbList JSON-LD
+    if (t.breadcrumbs?.length) {
+      this.injectJsonLd('breadcrumb-schema', {
+        '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+        itemListElement: t.breadcrumbs.map((b: any, i: number) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: b.url }))
+      });
+    }
+    // FAQPage JSON-LD
+    const faqData = t.faqSchema ?? (tool.faq?.length ? {
       '@context': 'https://schema.org', '@type': 'FAQPage',
-      mainEntity: tool.faq.map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } }))
-    });
+      mainEntity: tool.faq.slice(0, 5).map(f => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } }))
+    } : null);
+    faqData && this.injectJsonLd('faq-schema', faqData);
   }
 
   setSearchMeta() {
@@ -76,33 +96,20 @@ export class SeoService {
     this.setCanonical(opts.canonical);
   }
 
-  private setOG(o: { title: string; description: string; url: string }) {
-    this.meta.updateTag({ property: 'og:title', content: o.title });
-    this.meta.updateTag({ property: 'og:description', content: o.description });
-    this.meta.updateTag({ property: 'og:url', content: o.url });
-    this.meta.updateTag({ property: 'og:type', content: 'website' });
-    this.meta.updateTag({ property: 'og:site_name', content: 'UtilityMega' });
-    this.meta.updateTag({ property: 'og:image', content: `${BASE_URL}/assets/og-image.png` });
+  private setOGFromObj(og: Record<string, string>) {
+    Object.entries(og).forEach(([prop, content]) => this.meta.updateTag({ property: prop, content }));
+    if (!og['og:image']) this.meta.updateTag({ property: 'og:image', content: `${BASE_URL}/assets/og-image.png` });
   }
 
-  private setTwitter(o: { title: string; description: string }) {
-    this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
-    this.meta.updateTag({ name: 'twitter:title', content: o.title });
-    this.meta.updateTag({ name: 'twitter:description', content: o.description });
-    this.meta.updateTag({ name: 'twitter:image', content: `${BASE_URL}/assets/og-image.png` });
+  private setTwFromObj(tw: Record<string, string>) {
+    Object.entries(tw).forEach(([name, content]) => this.meta.updateTag({ name, content }));
+    if (!tw['twitter:image']) this.meta.updateTag({ name: 'twitter:image', content: `${BASE_URL}/assets/og-image.png` });
   }
 
   private setCanonical(url: string) {
     let link = this.doc.querySelector("link[rel='canonical']") as HTMLLinkElement;
     if (!link) { link = this.doc.createElement('link'); link.setAttribute('rel', 'canonical'); this.doc.head.appendChild(link); }
     link.setAttribute('href', url);
-  }
-
-  private setBreadcrumb(items: BreadcrumbItem[]) {
-    this.injectJsonLd('breadcrumb-schema', {
-      '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-      itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.label, item: it.url }))
-    });
   }
 
   private injectJsonLd(id: string, schema: object) {
