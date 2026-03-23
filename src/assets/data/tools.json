@@ -361,7 +361,7 @@
         "description": "Free utility tools: QR code generator, URL encoder, IP lookup, color picker and more",
         "url": "https://utilitymega.com/utility-tools"
       },
-      "toolCount": 2
+      "toolCount": 10
     },
     {
       "id": "cat-10",
@@ -405,7 +405,7 @@
           "name": "India"
         }
       },
-      "toolCount": 10
+      "toolCount": 2
     }
   ],
   "tools": [
