@@ -80,7 +80,7 @@
         "description": "Free image compression, resizing, and conversion tools",
         "url": "https://utilitymega.com/image-tools"
       },
-      "toolCount": 2
+      "toolCount": 10
     },
     {
       "id": "cat-03",
@@ -321,7 +321,7 @@
         "description": "Free unit converters for length, weight, temperature, area, speed and more",
         "url": "https://utilitymega.com/unit-converters"
       },
-      "toolCount": 2
+      "toolCount": 10
     },
     {
       "id": "cat-09",
@@ -405,7 +405,7 @@
           "name": "India"
         }
       },
-      "toolCount": 2
+      "toolCount": 10
     }
   ],
   "tools": [
@@ -3636,294 +3636,511 @@
       }
     },
     {
-      "id": "tool-013",
+      "id": "seo-001",
       "name": "Meta Tag Generator",
       "slug": "meta-tag-generator",
       "categorySlug": "seo-tools",
       "categoryName": "SEO Tools",
-      "shortDescription": "Generate complete HTML meta tags for SEO, Open Graph, and Twitter Cards.",
-      "seoTitle": "Free Meta Tag Generator - SEO, OG & Twitter Cards",
-      "metaDescription": "Generate complete HTML meta tags for SEO. Includes title, description, Open Graph, Twitter Card, and robots tags. Free, instant output.",
-      "h1": "Meta Tag Generator — SEO, Open Graph & Twitter Cards",
+      "shortDescription": "Generate complete HTML meta tags for SEO, Open Graph, and Twitter Cards with a live SERP preview.",
+      "seoTitle": "Free Meta Tag Generator — SEO, Open Graph, Twitter Card | UtilityMega",
+      "metaDescription": "Generate all HTML meta tags for SEO in seconds. Includes title, description, robots, Open Graph, and Twitter Card tags. Live SERP preview. Free online tool.",
+      "h1": "Meta Tag Generator for SEO",
       "canonicalUrl": "https://utilitymega.com/seo-tools/meta-tag-generator",
       "keywords": [
         "meta tag generator",
-        "SEO meta tags",
-        "Open Graph generator",
-        "Twitter Card tags",
-        "HTML meta tags",
-        "title tag generator",
-        "meta description generator",
-        "social media tags"
+        "og tag generator",
+        "twitter card generator",
+        "seo meta tags",
+        "open graph generator"
       ],
-      "content": "Meta tags are HTML elements that provide metadata about your webpage to search engines and social media platforms. Properly configured meta tags are fundamental to SEO performance and how your content appears when shared on social networks. Our free meta tag generator creates complete, standards-compliant meta tag code for any page.\n\nEssential SEO Meta Tags\n\nTitle tag: The most important on-page SEO element. Should be 50–60 characters, include primary keyword, and be compelling enough to earn clicks. Each page needs a unique title. Meta description: 150–160 character summary that appears under your title in search results. While not a direct ranking factor, it heavily influences click-through rates. Keywords meta tag: No longer used by major search engines for ranking but some minor search engines still read it. Viewport meta tag: Critical for mobile SEO — tells browsers how to scale the page on mobile devices. Robots meta tag: Controls whether search engines index the page and follow its links.\n\nOpen Graph Tags for Social Sharing\n\nOpen Graph tags control how your content appears when shared on Facebook, LinkedIn, WhatsApp, and other platforms that support the OG protocol. Key tags include og:title, og:description, og:image, og:url, og:type, and og:site_name. A compelling og:image significantly increases social media engagement.\n\nTwitter Card Tags\n\nTwitter Card tags create rich previews when URLs are shared on Twitter/X. Summary cards show title, description, and small image. Summary Card with Large Image shows a prominent image. App cards link directly to app downloads. Player cards embed audio/video. Our generator creates all Twitter Card types.\n\nCanonical URL Tag\n\nThe canonical tag prevents duplicate content penalties by telling search engines which version of a page is the definitive one. Essential for e-commerce sites with multiple filter URLs pointing to the same product, and for content syndicated across multiple domains.\n\nStructured Data Integration\n\nBeyond traditional meta tags, our generator helps you implement JSON-LD structured data for enhanced search appearance, including breadcrumbs, FAQs, product information, and review stars in Google Search results.",
+      "content": "Create all essential HTML meta tags for SEO optimization. Generates primary SEO tags, Open Graph tags for Facebook and LinkedIn, and Twitter Card tags. Live Google SERP preview shows how your page will appear in search results.",
       "faq": [
         {
-          "question": "Do keywords meta tags still affect SEO?",
-          "answer": "No. Google officially ignores the keywords meta tag for ranking purposes since 2009. Bing also ignores it. Focus on natural keyword usage in your actual page content instead."
+          "question": "What meta tags are most important for SEO?",
+          "answer": "The title tag and meta description are most impactful for click-through rates. The robots tag controls crawling, and canonical URL prevents duplicate content issues."
         },
         {
-          "question": "What is the ideal meta description length?",
-          "answer": "Google displays up to 160 characters for desktop and 120 characters for mobile. Write compelling descriptions of 140–155 characters that accurately describe the page and encourage clicks."
-        },
-        {
-          "question": "What is Open Graph and why does it matter?",
-          "answer": "Open Graph (og:) meta tags tell Facebook, LinkedIn, WhatsApp, and other platforms how to display your content when shared. Without OG tags, platforms use their own scraping which often produces poor-looking previews."
-        },
-        {
-          "question": "Can I have different OG and Twitter Card images?",
-          "answer": "Yes. Twitter uses twitter:image while Open Graph uses og:image. You can specify different images optimized for each platform's aspect ratio requirements (2:1 for Twitter, 1.91:1 for OG)."
-        },
-        {
-          "question": "What is the canonical URL tag?",
-          "answer": "The rel=canonical tag tells search engines which URL is the preferred version of a page when the same content exists at multiple URLs. It prevents duplicate content issues that can dilute your SEO authority."
+          "question": "What are Open Graph tags?",
+          "answer": "Open Graph tags control how your page appears when shared on social media platforms like Facebook, LinkedIn, WhatsApp, and Telegram. og:title, og:description, and og:image are most important."
         }
       ],
       "relatedTools": [
-        "keyword-density-checker",
-        "robots-txt-generator",
-        "sitemap-generator"
+        "serp-preview",
+        "schema-markup-generator",
+        "robots-txt-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Meta Tag Generator",
+          "url": "/seo-tools/meta-tag-generator"
+        }
+      ]
+    },
+    {
+      "id": "seo-002",
+      "name": "Keyword Density Checker",
+      "slug": "keyword-density-checker",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Analyze keyword frequency, density percentage, and over-optimization risk in your content.",
+      "seoTitle": "Keyword Density Checker — Analyze Content for SEO | UtilityMega",
+      "metaDescription": "Check keyword density and frequency in your content. Find top keywords, analyze target keyword density, and identify over-optimization. Free keyword analysis tool.",
+      "h1": "Keyword Density Checker",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/keyword-density-checker",
+      "keywords": [
+        "keyword density checker",
+        "keyword frequency analysis",
+        "seo content analyzer",
+        "keyword density tool",
+        "check keyword density"
+      ],
+      "content": "Analyze any piece of content for keyword density, frequency, and distribution. Check if your target keyword falls within the ideal 1–3% range and identify potential over-optimization issues.",
+      "faq": [
+        {
+          "question": "What is the ideal keyword density?",
+          "answer": "There's no perfect number, but 1–3% is commonly recommended. Too low and your topic relevance may be unclear; too high (keyword stuffing) can trigger penalties."
+        },
+        {
+          "question": "Should I worry about keyword density in 2024?",
+          "answer": "Modern SEO focuses more on topical coverage and natural language. Instead of targeting a fixed density, focus on covering your topic comprehensively with natural keyword use."
+        }
+      ],
+      "relatedTools": [
+        "readability-checker",
+        "meta-tag-generator",
+        "serp-preview"
       ],
       "isPopular": true,
       "isFeatured": false,
       "breadcrumbs": [
         {
-          "name": "Home",
-          "url": "https://utilitymega.com"
+          "label": "Home",
+          "url": "/"
         },
         {
-          "name": "SEO Tools",
-          "url": "https://utilitymega.com/seo-tools"
+          "label": "SEO Tools",
+          "url": "/seo-tools"
         },
         {
-          "name": "Meta Tag Generator",
-          "url": "https://utilitymega.com/seo-tools/meta-tag-generator"
+          "label": "Keyword Density Checker",
+          "url": "/seo-tools/keyword-density-checker"
         }
-      ],
-      "openGraph": {
-        "og:title": "Free Meta Tag Generator - SEO, Open Graph & Twitter Cards",
-        "og:description": "Generate complete HTML meta tags with live SERP and social media previews. Free, instant.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/seo-tools/meta-tag-generator",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Meta Tag Generator | UtilityMega",
-        "twitter:description": "Generate SEO meta tags, Open Graph, Twitter Cards with live preview. Free."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Meta Tag Generator",
-        "description": "Generate complete HTML meta tags for SEO, Open Graph and Twitter Cards with live SERP preview.",
-        "url": "https://utilitymega.com/seo-tools/meta-tag-generator",
-        "applicationCategory": "WebApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "SEO Tools",
-              "item": "https://utilitymega.com/seo-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Meta Tag Generator",
-              "item": "https://utilitymega.com/seo-tools/meta-tag-generator"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Do keywords meta tags still affect SEO?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Google officially ignores the keywords meta tag for ranking purposes since 2009. Focus on natural keyword usage in your actual page content instead."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the ideal meta description length?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Google displays up to 160 characters for desktop and 120 characters for mobile. Write compelling descriptions of 140–155 characters that accurately describe the page and encourage clicks."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is Open Graph and why does it matter?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Open Graph meta tags tell Facebook, LinkedIn, WhatsApp, and other platforms how to display your content when shared. Without OG tags, platforms produce poor-looking previews."
-            }
-          }
-        ]
-      }
+      ]
     },
     {
-      "id": "tool-014",
-      "name": "Keyword Density Checker",
-      "slug": "keyword-density-checker",
+      "id": "seo-003",
+      "name": "Readability Checker",
+      "slug": "readability-checker",
       "categorySlug": "seo-tools",
       "categoryName": "SEO Tools",
-      "shortDescription": "Analyze keyword frequency and density in your content for SEO optimization.",
-      "seoTitle": "Free Keyword Density Checker - SEO Content Analyzer",
-      "metaDescription": "Check keyword density in your content for free. Analyze word frequency, identify overused terms, and optimize your content for SEO.",
-      "h1": "Keyword Density Checker — SEO Content Analyzer",
-      "canonicalUrl": "https://utilitymega.com/seo-tools/keyword-density-checker",
+      "shortDescription": "Analyze content readability with Flesch Reading Ease, Flesch-Kincaid Grade, and actionable improvement suggestions.",
+      "seoTitle": "Readability Checker — Flesch-Kincaid Score, Reading Level | UtilityMega",
+      "metaDescription": "Check content readability using Flesch Reading Ease and Flesch-Kincaid Grade scores. Get suggestions to improve clarity, sentence length, and word complexity. Free tool.",
+      "h1": "Content Readability Checker",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/readability-checker",
       "keywords": [
-        "keyword density checker",
-        "keyword frequency analyzer",
-        "SEO content analysis",
-        "keyword stuffing checker",
-        "content optimizer",
-        "keyword occurrence counter",
-        "on-page SEO tool",
-        "keyword prominence"
+        "readability checker",
+        "flesch reading ease",
+        "flesch kincaid score",
+        "content readability analyzer",
+        "reading level checker"
       ],
-      "content": "Keyword density is the percentage of times a specific keyword appears in your content relative to the total word count. While keyword stuffing (overusing keywords) is penalized by Google, having your target keywords appear at an appropriate frequency is still an important on-page SEO signal. Our keyword density checker helps you find the perfect balance.\n\nHow to Calculate Keyword Density\n\nKeyword density is calculated as: (Number of times keyword appears ÷ Total words) × 100. If your 1,000-word article uses the phrase 'digital marketing' 10 times, the density is 1%. SEO best practices recommend 1–2% for primary keywords and 0.5–1% for secondary keywords.\n\nKeyword Stuffing and Google Penalties\n\nKeyword stuffing — unnaturally forcing keywords into content — was an effective black-hat SEO tactic in the early 2000s. Google's algorithm updates (Panda, Hummingbird) made this counterproductive. Pages with unnaturally high keyword density (above 4–5%) may be devalued or penalized. Natural, reader-focused writing with moderate keyword frequency always outperforms stuffed content.\n\nLSI Keywords and Semantic SEO\n\nModern SEO goes beyond exact keyword repetition. Google uses Latent Semantic Indexing (LSI) and natural language processing to understand content context. Our analyzer identifies not just your target keywords but also related semantic terms, helping you build topically authoritative content that ranks for hundreds of related phrases.\n\nLong-Tail Keyword Analysis\n\nLong-tail keywords (3+ word phrases) typically have lower search volume but much higher conversion rates. Our tool identifies long-tail phrase frequencies in your content, helping you optimize for specific intent-based queries that drive qualified traffic.\n\nContent Optimization Workflow\n\nWrite your content naturally focusing on the reader. Paste the text into our analyzer. Review the keyword density report. Identify primary keyword density (target: 1–2%). Check if important secondary keywords appear. Look for overused filler words to remove. Compare keyword prominence (keywords near the beginning of the page carry more weight).",
+      "content": "Measure your content's readability using industry-standard metrics including Flesch Reading Ease and Flesch-Kincaid Grade Level. Get specific suggestions for improving sentence structure, vocabulary, and overall clarity.",
       "faq": [
         {
-          "question": "What is the ideal keyword density for SEO?",
-          "answer": "Most SEO professionals recommend 1–2% for primary keywords. However, there is no universally agreed optimal density. Focus on natural-sounding content — if your keyword fits naturally 1% of the time, that is likely appropriate."
+          "question": "What Flesch Reading Ease score should I aim for?",
+          "answer": "For general web content: 60–70 (plain English). For consumer products: 70+ (easy). For academic content: 30–50 is acceptable. Higher scores mean easier reading."
         },
         {
-          "question": "Does Google use keyword density as a ranking factor?",
-          "answer": "Google does not use keyword density as a direct ranking factor. However, keywords must appear in content for Google to understand the topic. Modern Google uses semantic analysis to understand content beyond exact keyword matches."
-        },
-        {
-          "question": "What is keyword stuffing?",
-          "answer": "Keyword stuffing is unnaturally forcing keywords into content at high frequency in hopes of ranking higher. Example: 'We sell the best red shoes. Our red shoes store has red shoes for red shoe buyers.' Google penalizes this practice."
-        },
-        {
-          "question": "How do I check the keyword density of a competitor page?",
-          "answer": "Open the competitor page, select all text (Ctrl+A), copy it, paste it into our analyzer, and analyze. This gives you insight into their keyword targeting strategy."
-        },
-        {
-          "question": "What is keyword prominence?",
-          "answer": "Keyword prominence refers to where in the page keywords appear. Keywords in the title, first paragraph, H1, and URL carry more weight than keywords deep in the page. High density with low prominence is less effective than moderate density with high prominence."
+          "question": "Does readability affect SEO?",
+          "answer": "Yes indirectly. Readable content improves user engagement metrics (time on page, bounce rate, scroll depth) which are signals Google uses to evaluate content quality."
         }
       ],
       "relatedTools": [
-        "meta-tag-generator",
+        "keyword-density-checker",
         "word-counter",
-        "readability-checker"
+        "meta-tag-generator"
       ],
       "isPopular": false,
       "isFeatured": false,
       "breadcrumbs": [
         {
-          "name": "Home",
-          "url": "https://utilitymega.com"
+          "label": "Home",
+          "url": "/"
         },
         {
-          "name": "SEO Tools",
-          "url": "https://utilitymega.com/seo-tools"
+          "label": "SEO Tools",
+          "url": "/seo-tools"
         },
         {
-          "name": "Keyword Density Checker",
-          "url": "https://utilitymega.com/seo-tools/keyword-density-checker"
+          "label": "Readability Checker",
+          "url": "/seo-tools/readability-checker"
+        }
+      ]
+    },
+    {
+      "id": "seo-004",
+      "name": "Robots.txt Generator",
+      "slug": "robots-txt-generator",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Generate a valid robots.txt file with custom user-agent rules, crawl delays, and sitemap references.",
+      "seoTitle": "Robots.txt Generator — Create Custom Crawl Rules | UtilityMega",
+      "metaDescription": "Generate a robots.txt file with custom rules for Google, Bing, and other crawlers. Block specific paths, set crawl delay, add sitemap URL. Free robots.txt creator.",
+      "h1": "Robots.txt File Generator",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/robots-txt-generator",
+      "keywords": [
+        "robots txt generator",
+        "robots.txt creator",
+        "create robots txt",
+        "block googlebot",
+        "sitemap robots txt"
+      ],
+      "content": "Create a properly formatted robots.txt file with custom user-agent rules, allow/disallow directives, crawl delay settings, and sitemap references. Includes common presets for WordPress, e-commerce, and news sites.",
+      "faq": [
+        {
+          "question": "What is robots.txt used for?",
+          "answer": "Robots.txt instructs web crawlers which pages or sections of your site they can or cannot crawl. It helps manage crawl budget and prevent indexing of admin pages, duplicate content, or private sections."
+        },
+        {
+          "question": "Does robots.txt prevent pages from appearing in Google?",
+          "answer": "Robots.txt only prevents crawling, not indexing. If other pages link to a blocked URL, Google may still index it without crawling. Use noindex meta tags to prevent indexing."
         }
       ],
-      "openGraph": {
-        "og:title": "Free Keyword Density Checker - SEO Content Analyzer",
-        "og:description": "Analyze keyword density with bar chart, target keyword analysis, and SEO score. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/seo-tools/keyword-density-checker",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Keyword Density Checker | UtilityMega",
-        "twitter:description": "Check keyword density and stuffing risk. Target keyword analysis, bar chart. Free SEO tool."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Keyword Density Checker",
-        "description": "Analyze keyword frequency and density in content with bar chart visualization and target keyword analysis.",
-        "url": "https://utilitymega.com/seo-tools/keyword-density-checker",
-        "applicationCategory": "WebApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
+      "relatedTools": [
+        "sitemap-generator",
+        "meta-tag-generator",
+        "schema-markup-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
         },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "SEO Tools",
-              "item": "https://utilitymega.com/seo-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Keyword Density Checker",
-              "item": "https://utilitymega.com/seo-tools/keyword-density-checker"
-            }
-          ]
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Robots.txt Generator",
+          "url": "/seo-tools/robots-txt-generator"
         }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the ideal keyword density for SEO?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Most SEO professionals recommend 1–2% for primary keywords. Focus on natural-sounding content — if your keyword fits naturally 1% of the time, that is likely appropriate."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is keyword stuffing?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Keyword stuffing is unnaturally forcing keywords into content at high frequency in hopes of ranking higher. Google penalizes this practice."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is keyword prominence?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Keyword prominence refers to where in the page keywords appear. Keywords in the title, first paragraph, H1, and URL carry more weight than keywords deep in the page."
-            }
-          }
-        ]
-      }
+      ]
+    },
+    {
+      "id": "seo-005",
+      "name": "Sitemap Generator",
+      "slug": "sitemap-generator",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Generate a valid XML sitemap with custom URLs, change frequencies, priorities, and last-modified dates.",
+      "seoTitle": "XML Sitemap Generator — Create sitemap.xml Online Free | UtilityMega",
+      "metaDescription": "Generate a valid XML sitemap with custom URLs, change frequency, priority, and last-modified dates. Bulk URL import, download as sitemap.xml. Free sitemap creator.",
+      "h1": "XML Sitemap Generator",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/sitemap-generator",
+      "keywords": [
+        "sitemap generator",
+        "xml sitemap creator",
+        "sitemap.xml generator",
+        "free sitemap tool",
+        "google sitemap generator"
+      ],
+      "content": "Create a standards-compliant XML sitemap for your website. Add URLs individually or in bulk, set change frequency and priority for each URL, and download the ready-to-upload sitemap.xml file.",
+      "faq": [
+        {
+          "question": "Does every website need a sitemap?",
+          "answer": "Sitemaps are especially helpful for large sites, new sites with few external links, or sites with rich media. Small, well-linked sites may not need one, but having one never hurts."
+        },
+        {
+          "question": "What is the maximum number of URLs in a sitemap?",
+          "answer": "A single XML sitemap can contain up to 50,000 URLs and should not exceed 50MB uncompressed. For larger sites, use a sitemap index file."
+        }
+      ],
+      "relatedTools": [
+        "robots-txt-generator",
+        "meta-tag-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Sitemap Generator",
+          "url": "/seo-tools/sitemap-generator"
+        }
+      ]
+    },
+    {
+      "id": "seo-006",
+      "name": "Open Graph Tester",
+      "slug": "open-graph-tester",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Preview how your webpage looks when shared on Facebook, Twitter/X, WhatsApp, and LinkedIn.",
+      "seoTitle": "Open Graph Tester — Preview Social Media Share Cards | UtilityMega",
+      "metaDescription": "Test and preview how your website appears on Facebook, Twitter/X, WhatsApp, and LinkedIn when shared. Enter OG tags manually or fetch from URL. Free OG debugger.",
+      "h1": "Open Graph & Social Share Tester",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/open-graph-tester",
+      "keywords": [
+        "open graph tester",
+        "og tag preview",
+        "social share preview",
+        "facebook share preview",
+        "twitter card tester"
+      ],
+      "content": "Preview how your page will appear when shared on all major social platforms. Test Open Graph tags for Facebook and LinkedIn, Twitter Cards for Twitter/X, and WhatsApp link previews. Includes an OG tag audit with actionable fixes.",
+      "faq": [
+        {
+          "question": "What is the recommended og:image size?",
+          "answer": "Use 1200×630 pixels (1.91:1 ratio) for optimal display across all platforms. The minimum is 600×314 pixels. Images smaller than 200×200 may not display."
+        },
+        {
+          "question": "How long until social platforms refresh cached OG data?",
+          "answer": "Facebook caches for up to 24 hours. Use the Facebook Sharing Debugger to force a refresh. Twitter re-fetches periodically but you can use the Card Validator for immediate updates."
+        }
+      ],
+      "relatedTools": [
+        "meta-tag-generator",
+        "serp-preview"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Open Graph Tester",
+          "url": "/seo-tools/open-graph-tester"
+        }
+      ]
+    },
+    {
+      "id": "seo-007",
+      "name": "Schema Markup Generator",
+      "slug": "schema-markup-generator",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Generate JSON-LD schema markup for Articles, Products, FAQs, Breadcrumbs, and Organizations.",
+      "seoTitle": "Schema Markup Generator — JSON-LD for SEO Rich Results | UtilityMega",
+      "metaDescription": "Generate JSON-LD schema markup for Articles, Products, FAQ, Breadcrumbs, and Organizations. Ready-to-copy code for Google rich results. Free schema generator.",
+      "h1": "Schema Markup Generator (JSON-LD)",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/schema-markup-generator",
+      "keywords": [
+        "schema markup generator",
+        "json-ld generator",
+        "structured data generator",
+        "faq schema",
+        "product schema markup"
+      ],
+      "content": "Generate valid JSON-LD structured data markup for 5 schema types. Proper schema markup can enable rich results in Google Search including star ratings, FAQ dropdowns, breadcrumbs, and article metadata.",
+      "faq": [
+        {
+          "question": "What is schema markup?",
+          "answer": "Schema markup (structured data) is code you add to your HTML that helps search engines understand your content. It can enable rich results like star ratings, FAQ dropdowns, and breadcrumb trails in Google Search."
+        },
+        {
+          "question": "Where do I put the generated JSON-LD code?",
+          "answer": "Place the <script type='application/ld+json'> block inside your HTML <head> section, or anywhere in the <body>. Google reads JSON-LD regardless of placement."
+        }
+      ],
+      "relatedTools": [
+        "meta-tag-generator",
+        "robots-txt-generator",
+        "serp-preview"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Schema Markup Generator",
+          "url": "/seo-tools/schema-markup-generator"
+        }
+      ]
+    },
+    {
+      "id": "seo-008",
+      "name": "Page Speed Analyzer",
+      "slug": "page-speed-analyzer",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Analyze website performance and Core Web Vitals using Google PageSpeed Insights API.",
+      "seoTitle": "Page Speed Analyzer — Core Web Vitals, Lighthouse Score | UtilityMega",
+      "metaDescription": "Analyze website speed and Core Web Vitals (LCP, FCP, CLS, TBT) using Google PageSpeed Insights. Get performance, accessibility, SEO, and best practices scores. Free tool.",
+      "h1": "Page Speed & Core Web Vitals Analyzer",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/page-speed-analyzer",
+      "keywords": [
+        "page speed analyzer",
+        "core web vitals checker",
+        "lighthouse score",
+        "website speed test",
+        "pagespeed insights"
+      ],
+      "content": "Run Google Lighthouse analysis on any public URL and get detailed performance scores, Core Web Vitals measurements, and specific optimization recommendations with estimated savings.",
+      "faq": [
+        {
+          "question": "What are Core Web Vitals?",
+          "answer": "Core Web Vitals are Google's key performance metrics: LCP (Largest Contentful Paint — loading), FID/INP (Interaction — interactivity), and CLS (Cumulative Layout Shift — visual stability). These are ranking factors."
+        },
+        {
+          "question": "What is a good PageSpeed score?",
+          "answer": "Scores of 90+ are considered Good, 50–89 Needs Improvement, and below 50 Poor. Focus on mobile scores first as Google uses mobile-first indexing."
+        }
+      ],
+      "relatedTools": [
+        "meta-tag-generator",
+        "robots-txt-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Page Speed Analyzer",
+          "url": "/seo-tools/page-speed-analyzer"
+        }
+      ]
+    },
+    {
+      "id": "seo-009",
+      "name": "Backlink Checker",
+      "slug": "backlink-checker",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Check domain authority, PageRank score, and backlink profile data for any website.",
+      "seoTitle": "Free Backlink Checker — Domain Authority & PageRank Tool | UtilityMega",
+      "metaDescription": "Check domain authority, Open PageRank score, and backlink overview for any website. Free backlink analysis tool. For comprehensive data, see Ahrefs or Moz.",
+      "h1": "Backlink Checker & Domain Authority Tool",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/backlink-checker",
+      "keywords": [
+        "backlink checker",
+        "domain authority checker",
+        "free backlink tool",
+        "pagerank checker",
+        "website authority checker"
+      ],
+      "content": "Check domain authority metrics and backlink data using Open PageRank API. Understand your site's authority, discover linking domains, and analyze dofollow vs nofollow ratios.",
+      "faq": [
+        {
+          "question": "What is Domain Authority?",
+          "answer": "Domain Authority (DA) is a 0–100 score developed by Moz predicting how likely a domain is to rank in search engines. It's based on factors like the number and quality of backlinks."
+        },
+        {
+          "question": "Why is backlink analysis important for SEO?",
+          "answer": "Backlinks remain one of Google's top ranking factors. Quality links from authoritative, relevant sites signal trust and expertise, helping your pages rank higher in search results."
+        }
+      ],
+      "relatedTools": [
+        "meta-tag-generator",
+        "page-speed-analyzer",
+        "keyword-density-checker"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "Backlink Checker",
+          "url": "/seo-tools/backlink-checker"
+        }
+      ]
+    },
+    {
+      "id": "seo-010",
+      "name": "SERP Preview",
+      "slug": "serp-preview",
+      "categorySlug": "seo-tools",
+      "categoryName": "SEO Tools",
+      "shortDescription": "Preview how your page appears in Google search results with keyword highlighting and mobile/desktop views.",
+      "seoTitle": "SERP Preview Tool — Google Search Result Preview | UtilityMega",
+      "metaDescription": "Preview how your page appears in Google search results. Check title length (60 chars), description length (160 chars), URL format, and keyword highlighting. Mobile & desktop views.",
+      "h1": "Google SERP Preview Tool",
+      "canonicalUrl": "https://utilitymega.com/seo-tools/serp-preview",
+      "keywords": [
+        "serp preview tool",
+        "google search preview",
+        "meta description preview",
+        "title tag preview",
+        "seo snippet preview"
+      ],
+      "content": "See exactly how your page will appear in Google search results before publishing. Check title tag length, meta description length, keyword highlighting, breadcrumb format, and get mobile and desktop previews with dark/light themes.",
+      "faq": [
+        {
+          "question": "What is the ideal title tag length?",
+          "answer": "Google typically displays the first 50–60 characters of a title tag. Aim for 50–60 characters (about 600px wide). Longer titles may be truncated with an ellipsis."
+        },
+        {
+          "question": "How long should my meta description be?",
+          "answer": "Meta descriptions are typically truncated at around 155–160 characters on desktop and 120 characters on mobile. Write concise, compelling descriptions that include your target keyword."
+        }
+      ],
+      "relatedTools": [
+        "meta-tag-generator",
+        "keyword-density-checker",
+        "schema-markup-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "SEO Tools",
+          "url": "/seo-tools"
+        },
+        {
+          "label": "SERP Preview",
+          "url": "/seo-tools/serp-preview"
+        }
+      ]
     },
     {
       "id": "tool-015",
@@ -4216,286 +4433,509 @@
       }
     },
     {
-      "id": "tool-017",
+      "id": "utility-001",
       "name": "QR Code Generator",
       "slug": "qr-code-generator",
       "categorySlug": "utility-tools",
       "categoryName": "Utility Tools",
-      "shortDescription": "Generate QR codes for URLs, text, email, WiFi, and contact information.",
-      "seoTitle": "Free QR Code Generator - Create QR Codes Online",
-      "metaDescription": "Generate QR codes online for free. Create QR codes for URLs, text, WiFi passwords, email, phone, and vCards. Download PNG or SVG.",
-      "h1": "QR Code Generator — Create QR Codes Free Online",
+      "shortDescription": "Generate QR codes for URLs, WiFi, contacts, emails, SMS, and more with custom colors and styles.",
+      "seoTitle": "Free QR Code Generator — URL, WiFi, vCard, Email, SMS | UtilityMega",
+      "metaDescription": "Generate QR codes for URLs, WiFi passwords, contacts (vCard), emails, SMS, and location. Customize colors, download as PNG or SVG. Free, no signup.",
+      "h1": "Free QR Code Generator",
       "canonicalUrl": "https://utilitymega.com/utility-tools/qr-code-generator",
       "keywords": [
-        "QR code generator",
-        "free QR code",
-        "create QR code online",
-        "QR code maker",
-        "URL to QR code",
-        "WiFi QR code",
-        "vCard QR code",
-        "QR code download"
+        "qr code generator",
+        "free qr code",
+        "wifi qr code",
+        "vcard qr code",
+        "qr code maker online"
       ],
-      "content": "QR codes (Quick Response codes) have become ubiquitous in marketing, business operations, contactless payments, and personal use. Our free QR code generator creates high-quality QR codes for any content type in seconds, with customization options and multiple output formats.\n\nQR Code Types Supported\n\nURL QR Code: Link any website URL. Scanning opens the URL in the device browser — the most common use case for marketing campaigns. Text QR Code: Encode plain text messages up to 4,296 characters. Useful for encoded notes, product information, and instructions. Email QR Code: Encode email address, subject line, and body text. Scanning opens the compose window pre-filled. Phone QR Code: Encode a phone number. Scanning opens the phone dialer with the number ready to call. SMS QR Code: Encode phone number and message text for instant SMS sending. WiFi QR Code: Encode SSID, password, and security type. Scanning automatically connects to the WiFi network — eliminate the need to share passwords manually. vCard QR Code: Encode full contact information including name, phone, email, address, and website. Scanning adds the contact directly to the phone's address book.\n\nQR Code Design and Customization\n\nOur generator offers color customization, logo embedding (add your brand logo in the center), size control, and error correction level selection. Higher error correction allows more of the QR code to be obscured (by a logo or physical damage) while remaining scannable. Error correction levels: L (7% damage tolerance), M (15%), Q (25%), H (30%).\n\nQR Code Best Practices\n\nAlways test your QR code with multiple devices before printing. Ensure sufficient contrast between the dark squares and background. Include a minimum size of 2×2 cm for reliable scanning. Add a clear call-to-action near the code ('Scan to visit our website'). Use URL shorteners for long URLs to create less dense, more scannable codes.\n\nQR Codes in Marketing\n\nQR codes experienced a massive revival during COVID-19 for contactless menus and check-ins. Studies show QR code scans increased by over 500% between 2018 and 2022. They bridge offline and online marketing — print ads, product packaging, business cards, and storefront signage can all drive digital engagement.",
+      "content": "Generate professional QR codes for 8 different content types. Customize colors, error correction levels, and download as PNG or SVG. All processing is done in your browser — no data is sent to our servers.",
       "faq": [
         {
-          "question": "How much data can a QR code store?",
-          "answer": "QR codes can store up to 7,089 numeric characters, 4,296 alphanumeric characters, or 2,953 binary bytes. Shorter content creates simpler, more easily scannable codes."
+          "question": "What types of QR codes can I generate?",
+          "answer": "You can generate QR codes for URLs, plain text, email addresses, phone numbers, SMS, WiFi networks, vCards (contact cards), and GPS locations."
         },
         {
-          "question": "Are QR codes permanent?",
-          "answer": "Static QR codes (like those generated here) are permanent — the encoded data never expires or changes. For editable QR codes where you can change the destination URL after printing, use dynamic QR code services."
-        },
-        {
-          "question": "What is the minimum size for a QR code to be scannable?",
-          "answer": "The minimum practical size is 2×2 cm (about 0.8×0.8 inches) for scanning at arm's length. For large-format printing (banners, posters), scale proportionally based on expected scanning distance."
+          "question": "What is error correction level?",
+          "answer": "Error correction allows QR codes to be read even if partially damaged. Level L (7%), M (15%), Q (25%), H (30%). Higher levels make QR codes denser but more reliable."
         },
         {
           "question": "Can I add a logo to my QR code?",
-          "answer": "Yes. Our tool allows you to add a centered logo. Use error correction level H (30%) when adding logos to ensure the code remains scannable even with the logo covering the center."
-        },
-        {
-          "question": "What format should I download the QR code in?",
-          "answer": "Download as SVG for print use (infinitely scalable without quality loss). Download as PNG for digital use (web, email, documents). Avoid JPEG for QR codes as compression artifacts can make them unscannable."
+          "answer": "Currently color customization is supported. Logo overlay can be added manually after downloading the SVG version using a vector editor."
         }
       ],
       "relatedTools": [
-        "url-encoder",
         "barcode-generator",
-        "image-compressor"
+        "url-encoder",
+        "image-converter"
       ],
       "isPopular": true,
       "isFeatured": true,
       "breadcrumbs": [
         {
-          "name": "Home",
-          "url": "https://utilitymega.com"
+          "label": "Home",
+          "url": "/"
         },
         {
-          "name": "Utility Tools",
-          "url": "https://utilitymega.com/utility-tools"
+          "label": "Utility Tools",
+          "url": "/utility-tools"
         },
         {
-          "name": "QR Code Generator",
-          "url": "https://utilitymega.com/utility-tools/qr-code-generator"
+          "label": "QR Code Generator",
+          "url": "/utility-tools/qr-code-generator"
         }
-      ],
-      "openGraph": {
-        "og:title": "Free QR Code Generator - Create QR Codes Online",
-        "og:description": "Generate QR codes for URLs, text, WiFi, email, phone, vCard. Color customization. Download PNG/SVG.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/utility-tools/qr-code-generator",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free QR Code Generator | UtilityMega",
-        "twitter:description": "Create QR codes for URLs, WiFi, email, vCard. Custom colors. Download free."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "QR Code Generator",
-        "description": "Generate QR codes for URLs, text, WiFi, email, phone, and vCard with color customization.",
-        "url": "https://utilitymega.com/utility-tools/qr-code-generator",
-        "applicationCategory": "UtilityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Utility Tools",
-              "item": "https://utilitymega.com/utility-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "QR Code Generator",
-              "item": "https://utilitymega.com/utility-tools/qr-code-generator"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How much data can a QR code store?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "QR codes can store up to 7,089 numeric characters, 4,296 alphanumeric characters, or 2,953 binary bytes. Shorter content creates simpler, more easily scannable codes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are QR codes permanent?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Static QR codes (like those generated here) are permanent — the encoded data never expires or changes. For editable QR codes, use dynamic QR code services."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What format should I download the QR code in?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Download as SVG for print use (infinitely scalable without quality loss). Download as PNG for digital use (web, email, documents)."
-            }
-          }
-        ]
-      }
+      ]
     },
     {
-      "id": "tool-018",
-      "name": "URL Encoder/Decoder",
-      "slug": "url-encoder",
+      "id": "utility-002",
+      "name": "Barcode Generator",
+      "slug": "barcode-generator",
       "categorySlug": "utility-tools",
       "categoryName": "Utility Tools",
-      "shortDescription": "Encode and decode URLs to handle special characters in web addresses.",
-      "seoTitle": "Free URL Encoder Decoder - Encode Special Characters",
-      "metaDescription": "Encode and decode URLs online for free. Handle special characters, spaces, and Unicode in web addresses. Instant browser-based tool.",
-      "h1": "URL Encoder / Decoder — Encode Special Characters Free",
-      "canonicalUrl": "https://utilitymega.com/utility-tools/url-encoder",
+      "shortDescription": "Generate professional barcodes in Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, and MSI formats.",
+      "seoTitle": "Free Barcode Generator Online — EAN-13, Code 128, UPC-A, QR | UtilityMega",
+      "metaDescription": "Generate barcodes in 7 formats including Code 128, EAN-13, EAN-8, UPC-A, Code 39, ITF-14, and MSI. Custom colors, download PNG or SVG. Free online tool.",
+      "h1": "Free Barcode Generator",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/barcode-generator",
       "keywords": [
-        "URL encoder",
-        "URL decoder",
-        "percent encoding",
-        "URL special characters",
-        "encode URL online",
-        "decode URL",
-        "query string encoder",
-        "URI encoder"
+        "barcode generator",
+        "ean-13 barcode",
+        "code 128 generator",
+        "upc barcode maker",
+        "free barcode creator"
       ],
-      "content": "URL encoding (also called percent-encoding) is the process of converting characters in a URL that are not allowed in the ASCII character set into a format that can be safely transmitted over the internet. Our free URL encoder and decoder handles both encoding and decoding instantly in your browser.\n\nWhy URL Encoding is Necessary\n\nURLs can only contain a limited set of ASCII characters. Spaces, special characters, non-English letters, and symbols must be encoded. For example, a space becomes %20, the @ sign becomes %40, and the Chinese character 中 becomes %E4%B8%AD. Without proper encoding, URLs break, form submissions fail, and web requests return errors.\n\nURL Reserved vs Unreserved Characters\n\nReserved characters have special meaning in URLs: / (path separator), ? (query string start), & (query parameter separator), = (parameter value), # (fragment identifier), + (space in query strings). These must be encoded when used as data, not structure. Unreserved characters (A–Z, a–z, 0–9, -, _, ., ~) never need encoding.\n\nPractical Applications\n\nAPI development: Encoding query parameters with special characters for correct API requests. Web forms: POST and GET form data uses URL encoding for special characters in submitted values. Email links: mailto: links with pre-filled subjects and bodies require encoding. Redirect URLs: When a URL contains another URL as a parameter, the inner URL must be fully encoded. Debugging: Decoding API logs and browser developer tools output that show percent-encoded values.\n\nencodeURI vs encodeURIComponent\n\nIn JavaScript, two encoding functions handle different scenarios. encodeURI() encodes a full URL, preserving structure characters (/,?,&,=,#). It is used when you want to encode an entire URL. encodeURIComponent() encodes everything including structure characters, used when encoding URL components like query parameter values. Our tool supports both encoding modes.\n\nURL Encoding Best Practices\n\nAlways encode special characters in URL query parameters. Use encodeURIComponent for individual parameter values. Test URLs with online validators before deployment. Ensure your server-side code decodes URL parameters before processing.",
+      "content": "Create professional barcodes for retail, inventory, logistics, and identification. Supports 7 barcode symbologies with auto check-digit calculation. Customize bar colors and download as PNG or SVG.",
       "faq": [
         {
-          "question": "What does %20 mean in a URL?",
-          "answer": "%20 is the URL-encoded form of a space character. In query strings, + is also used to represent spaces (application/x-www-form-urlencoded format). Both %20 and + decode to a space."
+          "question": "Which barcode type should I use?",
+          "answer": "Use Code 128 for general purposes, EAN-13/UPC-A for retail products, ITF-14 for shipping cartons, and Code 39 for industrial applications."
         },
         {
-          "question": "When should I encode a URL?",
-          "answer": "Encode URLs whenever you are building URLs programmatically, when URLs contain non-ASCII characters (accents, Chinese, Arabic), or when URL components contain reserved characters like &, =, ?, or / used as data."
-        },
-        {
-          "question": "What is the difference between URL encoding and HTML encoding?",
-          "answer": "URL encoding (percent-encoding) converts characters for use in URLs. HTML encoding converts characters for safe display in HTML (e.g., < becomes &lt;). They serve different purposes and are not interchangeable."
-        },
-        {
-          "question": "Can I decode multiple URLs at once?",
-          "answer": "Yes. Our tool supports batch encoding/decoding. Paste multiple URLs on separate lines and all will be processed simultaneously."
-        },
-        {
-          "question": "Why are some characters not encoded in the URL?",
-          "answer": "Unreserved characters (letters, numbers, -, _, ., ~) are safe in URLs and do not need encoding. Reserved characters (:, /, ?, #, [, ], @, !, $, &, ', (, ), *, +, ,, ;, =) have special URL meaning and should only be encoded when used as data values."
+          "question": "Are check digits calculated automatically?",
+          "answer": "Yes! For EAN-13, EAN-8, UPC-A, and ITF-14, the check digit is automatically calculated and appended. You only need to enter the data digits."
         }
       ],
       "relatedTools": [
-        "base64-encoder",
         "qr-code-generator",
-        "json-formatter"
+        "image-converter"
       ],
       "isPopular": false,
       "isFeatured": false,
       "breadcrumbs": [
         {
-          "name": "Home",
-          "url": "https://utilitymega.com"
+          "label": "Home",
+          "url": "/"
         },
         {
-          "name": "Utility Tools",
-          "url": "https://utilitymega.com/utility-tools"
+          "label": "Utility Tools",
+          "url": "/utility-tools"
         },
         {
-          "name": "URL Encoder",
-          "url": "https://utilitymega.com/utility-tools/url-encoder"
+          "label": "Barcode Generator",
+          "url": "/utility-tools/barcode-generator"
+        }
+      ]
+    },
+    {
+      "id": "utility-003",
+      "name": "Color Picker",
+      "slug": "color-picker",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Advanced color picker with HEX, RGB, HSL sliders, color harmony, shades, tints, and CSS output.",
+      "seoTitle": "Color Picker Online — HEX, RGB, HSL, CSS Variables | UtilityMega",
+      "metaDescription": "Professional color picker tool. Get HEX, RGB, RGBA, HSL, HSLA values. View shades, tints, color harmony (complementary, triadic). Copy CSS variables and Tailwind classes.",
+      "h1": "Advanced Color Picker & Converter",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/color-picker",
+      "keywords": [
+        "color picker",
+        "hex to rgb",
+        "color converter",
+        "color harmony tool",
+        "css color picker online"
+      ],
+      "content": "Pick any color and instantly get all its values: HEX, RGB, RGBA, HSL, HSLA, CSS custom properties, and Tailwind utility classes. Explore harmonious color relationships, shades, and tints.",
+      "faq": [
+        {
+          "question": "What color formats are supported?",
+          "answer": "HEX, HEX+Alpha, RGB, RGBA, HSL, HSLA, CSS custom property syntax, and Tailwind arbitrary value syntax."
+        },
+        {
+          "question": "What is color harmony?",
+          "answer": "Color harmony refers to aesthetically pleasing color relationships. The tool generates complementary, triadic, and split-complementary colors from your selected base color."
         }
       ],
-      "openGraph": {
-        "og:title": "Free URL Encoder Decoder - Encode Special Characters",
-        "og:description": "URL encode/decode, encodeURIComponent, HTML encode with URL parser. 5 modes. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/utility-tools/url-encoder",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free URL Encoder Decoder | UtilityMega",
-        "twitter:description": "URL encode, decode, encodeURIComponent, HTML encode. 5 modes. Free developer tool."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "URL Encoder/Decoder",
-        "description": "Encode and decode URLs with 5 modes including encodeURIComponent, encodeURI, and HTML encoding.",
-        "url": "https://utilitymega.com/utility-tools/url-encoder",
-        "applicationCategory": "DeveloperApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
+      "relatedTools": [
+        "image-color-picker",
+        "image-to-base64"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
         },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Utility Tools",
-              "item": "https://utilitymega.com/utility-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "URL Encoder",
-              "item": "https://utilitymega.com/utility-tools/url-encoder"
-            }
-          ]
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "Color Picker",
+          "url": "/utility-tools/color-picker"
         }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What does %20 mean in a URL?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "%20 is the URL-encoded form of a space character. In query strings, + is also used to represent spaces. Both %20 and + decode to a space."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the difference between URL encoding and HTML encoding?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "URL encoding (percent-encoding) converts characters for use in URLs. HTML encoding converts characters for safe display in HTML (e.g., < becomes &lt;). They serve different purposes and are not interchangeable."
-            }
-          }
-        ]
-      }
+      ]
+    },
+    {
+      "id": "utility-004",
+      "name": "IP Lookup",
+      "slug": "ip-lookup",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Look up IP address geolocation, ISP, timezone, ASN, and other details for any IP or domain.",
+      "seoTitle": "IP Address Lookup Tool — Geolocation, ISP, Timezone | UtilityMega",
+      "metaDescription": "Look up any IP address to find geolocation, ISP, ASN, timezone, currency, and more. Also detects your current IP address. Free IP lookup tool with no signup.",
+      "h1": "IP Address Lookup & Geolocation",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/ip-lookup",
+      "keywords": [
+        "ip lookup",
+        "ip geolocation",
+        "find ip location",
+        "ip address checker",
+        "what is my ip"
+      ],
+      "content": "Instantly find the geolocation, ISP, ASN, timezone, and other metadata for any IP address or domain. Also detects and displays your own public IP address.",
+      "faq": [
+        {
+          "question": "How accurate is IP geolocation?",
+          "answer": "IP geolocation is accurate to the country level in ~99% of cases and to the city level in ~75% of cases. It cannot pinpoint exact street addresses."
+        },
+        {
+          "question": "Can I look up my own IP?",
+          "answer": "Yes! Your public IP is automatically detected when you open the tool. Click 'Lookup Details' to see full geolocation info."
+        }
+      ],
+      "relatedTools": [
+        "url-encoder",
+        "timestamp-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "IP Lookup",
+          "url": "/utility-tools/ip-lookup"
+        }
+      ]
+    },
+    {
+      "id": "utility-005",
+      "name": "URL Encoder / Decoder",
+      "slug": "url-encoder",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Encode and decode URLs, parse URL components, and build URLs with query parameters.",
+      "seoTitle": "URL Encoder & Decoder Online — Parse, Build, Encode URLs | UtilityMega",
+      "metaDescription": "URL encode or decode any string. Parse URLs into components (hostname, path, query params). Build URLs with a visual query parameter builder. Free online tool.",
+      "h1": "URL Encoder, Decoder & Parser",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/url-encoder",
+      "keywords": [
+        "url encoder",
+        "url decoder",
+        "url parser",
+        "url builder",
+        "percent encoding tool"
+      ],
+      "content": "Four tools in one: encode URLs with percent-encoding, decode encoded URLs, parse any URL into its components, and build URLs with a visual query parameter editor.",
+      "faq": [
+        {
+          "question": "What is URL encoding?",
+          "answer": "URL encoding (percent-encoding) replaces unsafe characters in URLs with a % followed by two hexadecimal digits. For example, a space becomes %20 or +."
+        },
+        {
+          "question": "When should I use %20 vs + for spaces?",
+          "answer": "Use %20 for path segments and %20 in general. Use + only in application/x-www-form-urlencoded query strings (HTML form submissions)."
+        }
+      ],
+      "relatedTools": [
+        "base64-encoder",
+        "timestamp-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "URL Encoder",
+          "url": "/utility-tools/url-encoder"
+        }
+      ]
+    },
+    {
+      "id": "utility-006",
+      "name": "Timestamp Converter",
+      "slug": "timestamp-converter",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Convert Unix timestamps to human-readable dates and vice versa, with timezone support and a live clock.",
+      "seoTitle": "Unix Timestamp Converter — Epoch to Date, Date to Epoch | UtilityMega",
+      "metaDescription": "Convert Unix timestamps to human-readable dates and dates to Unix timestamps. Supports seconds and milliseconds, multiple timezones, and shows a live current timestamp.",
+      "h1": "Unix Timestamp Converter",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/timestamp-converter",
+      "keywords": [
+        "unix timestamp converter",
+        "epoch to date",
+        "date to unix timestamp",
+        "epoch time converter",
+        "timestamp converter online"
+      ],
+      "content": "Convert between Unix timestamps and human-readable dates. Support for both seconds and milliseconds, multiple timezones, ISO 8601 format, and a live real-time Unix clock.",
+      "faq": [
+        {
+          "question": "What is a Unix timestamp?",
+          "answer": "A Unix timestamp is the number of seconds (or milliseconds) that have elapsed since January 1, 1970, 00:00:00 UTC (the Unix Epoch). It's widely used in programming."
+        },
+        {
+          "question": "What is the Y2K38 problem?",
+          "answer": "On January 19, 2038 at 03:14:07 UTC, 32-bit signed integer Unix timestamps will overflow. Modern 64-bit systems don't have this limitation."
+        }
+      ],
+      "relatedTools": [
+        "base-converter",
+        "url-encoder"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "Timestamp Converter",
+          "url": "/utility-tools/timestamp-converter"
+        }
+      ]
+    },
+    {
+      "id": "utility-007",
+      "name": "Base Converter",
+      "slug": "base-converter",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Convert numbers between binary, octal, decimal, hexadecimal, and any base from 2 to 36.",
+      "seoTitle": "Number Base Converter — Binary, Octal, Decimal, Hex | UtilityMega",
+      "metaDescription": "Convert numbers between any base from 2 to 36. Binary, octal, decimal, hexadecimal, and custom base conversion with bit-level display. Free online tool.",
+      "h1": "Number Base Converter",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/base-converter",
+      "keywords": [
+        "base converter",
+        "binary to decimal",
+        "hex converter",
+        "number base conversion",
+        "binary octal hex decimal converter"
+      ],
+      "content": "Convert numbers between binary (base 2), octal (base 8), decimal (base 10), hexadecimal (base 16), and any custom base from 2 to 36. Includes bit-level representation and byte count display.",
+      "faq": [
+        {
+          "question": "What are the most common number bases in programming?",
+          "answer": "Binary (base 2) for machine code, octal (base 8) for Unix permissions, decimal (base 10) for everyday use, and hexadecimal (base 16) for memory addresses and color codes."
+        },
+        {
+          "question": "What is hexadecimal used for?",
+          "answer": "Hexadecimal is compact (1 hex digit = 4 binary bits) and is used for memory addresses, color codes (#FF5733), byte values, and encoding in cryptography."
+        }
+      ],
+      "relatedTools": [
+        "timestamp-converter",
+        "hash-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "Base Converter",
+          "url": "/utility-tools/base-converter"
+        }
+      ]
+    },
+    {
+      "id": "utility-008",
+      "name": "Roman Numeral Converter",
+      "slug": "roman-numeral-converter",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Convert Arabic numbers to Roman numerals and Roman numerals to numbers, with step-by-step breakdown.",
+      "seoTitle": "Roman Numeral Converter — Arabic to Roman, Roman to Number | UtilityMega",
+      "metaDescription": "Convert numbers to Roman numerals and Roman numerals to Arabic numbers. Supports 1 to 3,999,999. Shows step-by-step breakdown. Free online converter.",
+      "h1": "Roman Numeral Converter",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/roman-numeral-converter",
+      "keywords": [
+        "roman numeral converter",
+        "arabic to roman numerals",
+        "roman to number converter",
+        "roman numeral chart",
+        "convert year to roman numerals"
+      ],
+      "content": "Convert any number from 1 to 3,999,999 to Roman numerals, or decode any Roman numeral back to an Arabic number. Includes a step-by-step breakdown showing how each part is composed.",
+      "faq": [
+        {
+          "question": "What is the largest Roman numeral?",
+          "answer": "Traditional Roman numerals go up to MMMCMXCIX (3,999). Using parenthesis notation for large numbers (like (M) = 1,000,000), this tool supports up to 3,999,999."
+        },
+        {
+          "question": "How do I write years in Roman numerals?",
+          "answer": "Years are written using M (1000), C (100), X (10), and I (1). For example: 2024 = MMXXIV, 1999 = MCMXCIX, 1776 = MDCCLXXVI."
+        }
+      ],
+      "relatedTools": [
+        "base-converter",
+        "timestamp-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "Roman Numeral Converter",
+          "url": "/utility-tools/roman-numeral-converter"
+        }
+      ]
+    },
+    {
+      "id": "utility-009",
+      "name": "Morse Code Converter",
+      "slug": "morse-code-converter",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Encode text to Morse code and decode Morse code to text, with audio playback and visual dot-dash display.",
+      "seoTitle": "Morse Code Converter — Text to Morse, Morse to Text + Audio | UtilityMega",
+      "metaDescription": "Convert text to Morse code and Morse code to text. Includes audio playback of Morse code, visual dot-dash display, and a complete reference chart. Free online tool.",
+      "h1": "Morse Code Encoder & Decoder",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/morse-code-converter",
+      "keywords": [
+        "morse code converter",
+        "text to morse code",
+        "morse code translator",
+        "morse code audio",
+        "learn morse code"
+      ],
+      "content": "Translate any text to Morse code or decode Morse back to text. Play Morse code as audio beeps using the Web Audio API. Includes a visual dot-dash display and a complete reference chart for all letters, numbers, and punctuation.",
+      "faq": [
+        {
+          "question": "What is Morse code?",
+          "answer": "Morse code is a communication method using sequences of dots (short signals) and dashes (long signals) to represent letters, numbers, and punctuation. It was used in early telecommunications."
+        },
+        {
+          "question": "How do I separate words in Morse code input?",
+          "answer": "Separate letters with spaces and words with ' / ' (space-slash-space). For example: 'SOS SOS' = '... --- ... / ... --- ...'"
+        }
+      ],
+      "relatedTools": [
+        "base-converter",
+        "text-case-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "Morse Code Converter",
+          "url": "/utility-tools/morse-code-converter"
+        }
+      ]
+    },
+    {
+      "id": "utility-010",
+      "name": "Screen Ruler",
+      "slug": "screen-ruler",
+      "categorySlug": "utility-tools",
+      "categoryName": "Utility Tools",
+      "shortDescription": "Measure elements on screen in pixels, centimeters, or inches using a draggable on-screen ruler.",
+      "seoTitle": "Online Screen Ruler — Measure in Pixels, CM, Inches | UtilityMega",
+      "metaDescription": "Measure anything on your screen with an on-screen ruler. Shows measurements in pixels, centimeters, and inches. Adjustable DPI for physical accuracy. Free browser tool.",
+      "h1": "Online Screen Ruler",
+      "canonicalUrl": "https://utilitymega.com/utility-tools/screen-ruler",
+      "keywords": [
+        "screen ruler",
+        "online ruler",
+        "measure pixels",
+        "pixel ruler",
+        "screen measurement tool"
+      ],
+      "content": "A precision on-screen ruler for measuring UI elements, images, and web layouts in pixels, centimeters, and inches. Supports DPI adjustment for physical accuracy on any display.",
+      "faq": [
+        {
+          "question": "How accurate is the screen ruler?",
+          "answer": "Pixel measurements are exact. Physical measurements (cm/inches) depend on your screen's DPI. Use the DPI calibration feature for the most accurate physical measurements."
+        },
+        {
+          "question": "Can I measure any element on the page?",
+          "answer": "Yes! Position the ruler over any element on the page. Use keyboard shortcuts (arrow keys) for precise 1-pixel adjustments."
+        }
+      ],
+      "relatedTools": [
+        "image-resizer",
+        "color-picker"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Utility Tools",
+          "url": "/utility-tools"
+        },
+        {
+          "label": "Screen Ruler",
+          "url": "/utility-tools/screen-ruler"
+        }
+      ]
     },
     {
       "id": "tool-019",

@@ -47,6 +47,10 @@ import { ImageCropperComponent } from './image-cropper.component';
 import { ImageFlipRotateComponent } from './image-flip-rotate.component';
 import { ImageWatermarkComponent } from './image-watermark.component';
 import { ImageColorPickerComponent, ImageToBase64Component, JpgToPngComponent, PngToJpgComponent } from './image-misc-components';
+import { BarcodeGeneratorComponent, ColorPickerToolComponent, IpLookupComponent, RomanNumeralConverterComponent, TimestampConverterComponent, UrlEncoderComponent } from './utility-tools-1.component';
+import { JsonLdGeneratorComponent, OgGeneratorComponent, OpenGraphTesterComponent, PageSpeedAnalyzerComponent, ReadabilityCheckerComponent, RobotsTxtGeneratorComponent, SchemaMarkupGeneratorComponent, SitemapGeneratorComponent, TitleDescriptionAnalyzerComponent, TwitterCardGeneratorComponent } from './seo-tools-all.component';
+import { StopwatchTimerComponent, ScreenRulerComponent, PomodoroComponent, TextToSpeechComponent, BaseConverterComponent, MorseCodeConverterComponent } from './utility-tools-2.component';
+
 
 /**
  * TOOL_UI_REGISTRY
@@ -80,7 +84,7 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'jpg-to-png': JpgToPngComponent,
   'image-color-picker': ImageColorPickerComponent,
   'image-to-base64': ImageToBase64Component,
-  
+
   // Developer Tools
   'json-formatter': JsonFormatterComponent,
   'base64-encoder': Base64EncoderComponent,
@@ -94,15 +98,38 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'password-generator': PasswordGeneratorComponent,
 
   // SEO Tools
+  //'meta-tag-generator': MetaTagGeneratorComponent,
+  //'keyword-density-checker': KeywordDensityCheckerComponent,
   'meta-tag-generator': MetaTagGeneratorComponent,
   'keyword-density-checker': KeywordDensityCheckerComponent,
-
+  'readability-checker': ReadabilityCheckerComponent,
+  'robots-txt-generator': RobotsTxtGeneratorComponent,
+  'sitemap-generator': SitemapGeneratorComponent,
+  'og-generator': OgGeneratorComponent,
+  'twitter-card-generator': TwitterCardGeneratorComponent,
+  'page-speed-analyzer': PageSpeedAnalyzerComponent,
+  'jsonld-generator': JsonLdGeneratorComponent,
+  'title-description-analyzer': TitleDescriptionAnalyzerComponent,
+  'schema-markup-generator': SchemaMarkupGeneratorComponent,
+  'open-graph-tester': OpenGraphTesterComponent,
   // Unit Converters
   'length-converter': LengthConverterComponent,
   'temperature-converter': TemperatureConverterComponent,
 
   // Utility Tools
   'qr-code-generator': QrGeneratorComponent,
+  'url-encoder': UrlEncoderComponent,
+  'color-picker': ColorPickerToolComponent,
+  'ip-lookup': IpLookupComponent,
+  'barcode-generator': BarcodeGeneratorComponent,
+  'stopwatch-timer': StopwatchTimerComponent,
+  'screen-ruler': ScreenRulerComponent,
+  'pomodoro-timer': PomodoroComponent,
+  'text-to-speech': TextToSpeechComponent,
+  'timestamp-converter': TimestampConverterComponent,
+  'base-converter': BaseConverterComponent,
+  'roman-numeral-converter': RomanNumeralConverterComponent,
+  'morse-code-converter': MorseCodeConverterComponent,
 
   // Farmers Tools
   'crop-yield-calculator': CropYieldCalculatorComponent,

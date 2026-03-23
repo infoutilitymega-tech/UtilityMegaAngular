@@ -1,232 +1,228 @@
-import { Component, signal, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
+import { Component, signal, OnInit, ViewChild, ElementRef, effect } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
+declare var QRCode: any;
 
 @Component({
   selector: 'app-qr-generator',
   standalone: true,
   imports: [CommonModule, FormsModule],
   template: `
-    <div class="tool-ui">
-      <div class="qr-layout">
-        <!-- Left: inputs -->
-        <div class="qr-inputs">
-          <div class="type-tabs">
-            <button *ngFor="let t of types" class="type-tab" [class.active]="qrType===t.key" (click)="setType(t.key)">
-              {{ t.icon }} {{ t.label }}
-            </button>
-          </div>
+    <div class="tool-wrap">
+      <!-- Type Tabs -->
+      <div class="type-tabs">
+        <button *ngFor="let t of types" [class.active]="qrType()===t.key" (click)="qrType.set(t.key);buildContent()">{{t.icon}} {{t.label}}</button>
+      </div>
 
-          <!-- URL -->
-          <div *ngIf="qrType==='url'" class="field">
-            <label>Website URL</label>
-            <input type="url" [(ngModel)]="urlVal" (input)="generate()" placeholder="https://utilitymega.com" />
+      <!-- Input Fields -->
+      <div class="input-section">
+        <!-- URL -->
+        <div *ngIf="qrType()==='url'" class="field-group">
+          <label>Website URL</label>
+          <input [(ngModel)]="url" (ngModelChange)="buildContent()" placeholder="https://example.com" class="main-input" />
+        </div>
+        <!-- Text -->
+        <div *ngIf="qrType()==='text'" class="field-group">
+          <label>Text Message</label>
+          <textarea [(ngModel)]="text" (ngModelChange)="buildContent()" placeholder="Enter any text..." rows="3" class="main-textarea"></textarea>
+        </div>
+        <!-- Email -->
+        <div *ngIf="qrType()==='email'" class="fields-row">
+          <div class="field-group"><label>Email Address</label><input [(ngModel)]="email" (ngModelChange)="buildContent()" placeholder="email@example.com" class="main-input" /></div>
+          <div class="field-group"><label>Subject</label><input [(ngModel)]="emailSubject" (ngModelChange)="buildContent()" placeholder="Email subject" class="main-input" /></div>
+          <div class="field-group"><label>Body</label><textarea [(ngModel)]="emailBody" (ngModelChange)="buildContent()" placeholder="Email body..." rows="2" class="main-textarea"></textarea></div>
+        </div>
+        <!-- Phone -->
+        <div *ngIf="qrType()==='phone'" class="field-group">
+          <label>Phone Number</label>
+          <input [(ngModel)]="phone" (ngModelChange)="buildContent()" placeholder="+91 9876543210" class="main-input" />
+        </div>
+        <!-- SMS -->
+        <div *ngIf="qrType()==='sms'" class="fields-row">
+          <div class="field-group"><label>Phone Number</label><input [(ngModel)]="smsPhone" (ngModelChange)="buildContent()" placeholder="+91 9876543210" class="main-input" /></div>
+          <div class="field-group"><label>Message</label><textarea [(ngModel)]="smsMessage" (ngModelChange)="buildContent()" placeholder="SMS text..." rows="2" class="main-textarea"></textarea></div>
+        </div>
+        <!-- WiFi -->
+        <div *ngIf="qrType()==='wifi'" class="fields-row">
+          <div class="field-group"><label>Network Name (SSID)</label><input [(ngModel)]="wifiSSID" (ngModelChange)="buildContent()" placeholder="MyWiFi" class="main-input" /></div>
+          <div class="field-group"><label>Password</label><input [(ngModel)]="wifiPass" (ngModelChange)="buildContent()" placeholder="Password" class="main-input" /></div>
+          <div class="field-group"><label>Security</label>
+            <select [(ngModel)]="wifiSec" (ngModelChange)="buildContent()" class="sel">
+              <option value="WPA">WPA/WPA2</option><option value="WEP">WEP</option><option value="nopass">None (Open)</option>
+            </select>
           </div>
+          <div class="field-group"><label><input type="checkbox" [(ngModel)]="wifiHidden" (ngModelChange)="buildContent()" /> Hidden Network</label></div>
+        </div>
+        <!-- vCard -->
+        <div *ngIf="qrType()==='vcard'" class="fields-row">
+          <div class="field-group"><label>Full Name</label><input [(ngModel)]="vcName" (ngModelChange)="buildContent()" placeholder="John Doe" class="main-input" /></div>
+          <div class="field-group"><label>Phone</label><input [(ngModel)]="vcPhone" (ngModelChange)="buildContent()" placeholder="+91 9876543210" class="main-input" /></div>
+          <div class="field-group"><label>Email</label><input [(ngModel)]="vcEmail" (ngModelChange)="buildContent()" placeholder="john@example.com" class="main-input" /></div>
+          <div class="field-group"><label>Company</label><input [(ngModel)]="vcOrg" (ngModelChange)="buildContent()" placeholder="Company Name" class="main-input" /></div>
+          <div class="field-group"><label>Website</label><input [(ngModel)]="vcUrl" (ngModelChange)="buildContent()" placeholder="https://example.com" class="main-input" /></div>
+          <div class="field-group"><label>Address</label><input [(ngModel)]="vcAddr" (ngModelChange)="buildContent()" placeholder="123 Main St, City" class="main-input" /></div>
+        </div>
+        <!-- Location -->
+        <div *ngIf="qrType()==='location'" class="fields-row">
+          <div class="field-group"><label>Latitude</label><input [(ngModel)]="lat" (ngModelChange)="buildContent()" placeholder="28.6139" class="main-input" /></div>
+          <div class="field-group"><label>Longitude</label><input [(ngModel)]="lng" (ngModelChange)="buildContent()" placeholder="77.2090" class="main-input" /></div>
+        </div>
+      </div>
 
-          <!-- Text -->
-          <div *ngIf="qrType==='text'" class="field">
-            <label>Text / Message</label>
-            <textarea [(ngModel)]="textVal" (input)="generate()" rows="3" placeholder="Enter any text..."></textarea>
-          </div>
-
-          <!-- Email -->
-          <div *ngIf="qrType==='email'" class="field-group">
-            <div class="field"><label>Email Address</label><input type="email" [(ngModel)]="emailTo" (input)="generate()" placeholder="hello@example.com" /></div>
-            <div class="field"><label>Subject</label><input type="text" [(ngModel)]="emailSubj" (input)="generate()" placeholder="Subject" /></div>
-          </div>
-
-          <!-- Phone -->
-          <div *ngIf="qrType==='phone'" class="field">
-            <label>Phone Number</label>
-            <input type="tel" [(ngModel)]="phone" (input)="generate()" placeholder="+91 98765 43210" />
-          </div>
-
-          <!-- WiFi -->
-          <div *ngIf="qrType==='wifi'" class="field-group">
-            <div class="field"><label>Network Name (SSID)</label><input [(ngModel)]="wifiSSID" (input)="generate()" placeholder="My WiFi" /></div>
-            <div class="field"><label>Password</label><input type="password" [(ngModel)]="wifiPass" (input)="generate()" placeholder="password" /></div>
-            <div class="field"><label>Security</label>
-              <select [(ngModel)]="wifiSec" (change)="generate()">
-                <option>WPA</option><option>WEP</option><option>nopass</option>
+      <!-- Customization + Preview -->
+      <div class="bottom-grid">
+        <div class="customize-panel">
+          <div class="panel-title">Customization</div>
+          <div class="custom-fields">
+            <div class="cf"><label>Foreground</label><input type="color" [(ngModel)]="fgColor" (ngModelChange)="generate()" class="cpick" /></div>
+            <div class="cf"><label>Background</label><input type="color" [(ngModel)]="bgColor" (ngModelChange)="generate()" class="cpick" /></div>
+            <div class="cf"><label>Size (px)</label>
+              <select [(ngModel)]="size" (ngModelChange)="generate()" class="sel">
+                <option value="200">200×200</option><option value="300">300×300</option><option value="400">400×400</option><option value="600">600×600</option>
+              </select>
+            </div>
+            <div class="cf"><label>Error Correction</label>
+              <select [(ngModel)]="errorLevel" (ngModelChange)="generate()" class="sel">
+                <option value="L">L – 7%</option><option value="M">M – 15%</option><option value="Q">Q – 25%</option><option value="H">H – 30%</option>
               </select>
             </div>
           </div>
-
-          <div class="customize">
-            <div class="field-row">
-              <div class="field"><label>Foreground Color</label><input type="color" [(ngModel)]="fgColor" (input)="generate()" /></div>
-              <div class="field"><label>Background Color</label><input type="color" [(ngModel)]="bgColor" (input)="generate()" value="#ffffff" /></div>
-              <div class="field"><label>Size (px)</label>
-                <select [(ngModel)]="size" (change)="generate()">
-                  <option value="200">200px</option><option value="300">300px</option>
-                  <option value="400">400px</option><option value="512">512px</option>
-                </select>
-              </div>
-            </div>
-          </div>
+          <div class="char-count">Content: {{qrContent().length}} chars</div>
         </div>
 
-        <!-- Right: preview -->
-        <div class="qr-preview">
-          <div class="qr-canvas-wrap">
-            <canvas #qrCanvas></canvas>
-            <div class="qr-placeholder" *ngIf="!hasData()">
-              <span>📱</span>
-              <p>Enter data to generate QR</p>
-            </div>
+        <div class="preview-panel">
+          <div class="preview-title">QR Code Preview</div>
+          <div class="qr-wrap">
+            <div #qrContainer class="qr-container"></div>
+            <div class="empty-qr" *ngIf="!qrContent()">Enter content above to generate QR code</div>
           </div>
-          <div class="qr-actions" *ngIf="hasData()">
-            <button class="dl-btn" (click)="download('png')">⬇️ Download PNG</button>
-            <button class="dl-btn secondary" (click)="download('svg')">⬇️ Download SVG</button>
-            <button class="dl-btn secondary" (click)="copyDataUrl()">{{ copied() ? '✓ Copied!' : '📋 Copy Image' }}</button>
-          </div>
-          <div class="qr-data-preview" *ngIf="qrData()">
-            <span class="qd-label">Encoded Data:</span>
-            <span class="qd-val">{{ qrData().substring(0, 60) }}{{ qrData().length > 60 ? '...' : '' }}</span>
+          <div class="dl-buttons" *ngIf="qrContent()">
+            <button class="btn-dl png" (click)="download('png')">⬇ PNG</button>
+            <button class="btn-dl svg" (click)="download('svg')">⬇ SVG</button>
+            <button class="btn-copy" (click)="copyContent()">📋 Copy Text</button>
           </div>
         </div>
       </div>
     </div>
   `,
   styles: [`
-    .tool-ui { padding: 1.25rem; }
-    .qr-layout { display: grid; grid-template-columns: 1fr 280px; gap: 1.5rem; }
-    .type-tabs { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
-    .type-tab { padding: .4rem .8rem; border-radius: 8px; border: 1.5px solid var(--border); background: var(--card-bg); color: var(--text-muted); font-size: .8rem; font-weight: 600; cursor: pointer; transition: all .15s; font-family: inherit; }
-    .type-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .field { display: flex; flex-direction: column; gap: .3rem; margin-bottom: .85rem; }
-    .field label { font-size: .8rem; font-weight: 600; color: var(--text-muted); }
-    .field input, .field textarea, .field select { padding: .55rem .75rem; border: 1.5px solid var(--border); border-radius: 8px; font-size: .88rem; background: var(--input-bg); color: var(--text); outline: none; font-family: inherit; width: 100%; box-sizing: border-box; }
-    .field input[type=color] { height: 40px; padding: .2rem; cursor: pointer; }
-    .field input:focus, .field textarea:focus, .field select:focus { border-color: var(--primary); }
-    .field-group { display: flex; flex-direction: column; }
-    .field-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; }
-    .customize { margin-top: .5rem; }
-    .qr-preview { display: flex; flex-direction: column; gap: .75rem; align-items: center; }
-    .qr-canvas-wrap { width: 220px; height: 220px; border-radius: 12px; border: 2px solid var(--border); display: flex; align-items: center; justify-content: center; background: #fff; overflow: hidden; }
-    .qr-canvas-wrap canvas { max-width: 100%; max-height: 100%; }
-    .qr-placeholder { text-align: center; color: var(--text-muted); }
-    .qr-placeholder span { font-size: 2.5rem; }
-    .qr-placeholder p { font-size: .8rem; margin-top: .5rem; }
-    .qr-actions { display: flex; flex-direction: column; gap: .4rem; width: 100%; }
-    .dl-btn { padding: .6rem 1rem; border-radius: 9px; border: none; background: var(--primary); color: #fff; font-size: .83rem; font-weight: 700; cursor: pointer; text-align: center; font-family: inherit; transition: opacity .15s; }
-    .dl-btn:hover { opacity: .88; }
-    .dl-btn.secondary { background: var(--bg-alt); color: var(--text); border: 1.5px solid var(--border); }
-    .qr-data-preview { width: 100%; padding: .5rem .6rem; background: var(--bg-alt); border-radius: 8px; font-size: .72rem; word-break: break-all; }
-    .qd-label { font-weight: 700; color: var(--text-muted); display: block; margin-bottom: .2rem; }
-    .qd-val { color: var(--text); }
-    @media(max-width: 700px) { .qr-layout { grid-template-columns: 1fr; } .qr-preview { order: -1; } .field-row { grid-template-columns: 1fr; } }
+    .tool-wrap{padding:1.25rem}
+    .type-tabs{display:flex;gap:.3rem;flex-wrap:wrap;margin-bottom:1.25rem;background:#f3f4f6;border-radius:10px;padding:.35rem}
+    .type-tabs button{padding:.4rem .75rem;border:none;background:none;border-radius:7px;font-size:.78rem;font-weight:600;cursor:pointer;color:#6b7280;transition:all .15s;white-space:nowrap}
+    .type-tabs button.active{background:white;color:#2563eb;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+    .input-section{background:#f8fafc;border:1px solid #e5e7eb;border-radius:12px;padding:1.25rem;margin-bottom:1.25rem}
+    .field-group{display:flex;flex-direction:column;gap:.35rem;margin-bottom:.75rem}
+    .field-group:last-child{margin-bottom:0}
+    .fields-row{display:flex;flex-direction:column}
+    .field-group label{font-size:.72rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.04em}
+    .main-input{padding:.55rem .75rem;border:1px solid #d1d5db;border-radius:8px;font-size:.9rem;outline:none;width:100%;box-sizing:border-box;transition:border-color .15s}
+    .main-input:focus{border-color:#2563eb}
+    .main-textarea{padding:.55rem .75rem;border:1px solid #d1d5db;border-radius:8px;font-size:.875rem;outline:none;width:100%;box-sizing:border-box;resize:vertical;font-family:inherit}
+    .main-textarea:focus{border-color:#2563eb}
+    .sel{padding:.45rem .6rem;border:1px solid #d1d5db;border-radius:7px;font-size:.85rem;background:white;outline:none}
+    .bottom-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+    @media(max-width:680px){.bottom-grid{grid-template-columns:1fr}}
+    .customize-panel,.preview-panel{background:#f8fafc;border:1px solid #e5e7eb;border-radius:12px;padding:1.25rem}
+    .panel-title,.preview-title{font-size:.85rem;font-weight:800;margin-bottom:1rem;color:#111827}
+    .custom-fields{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+    .cf{display:flex;flex-direction:column;gap:.3rem}
+    .cf label{font-size:.7rem;font-weight:700;color:#6b7280;text-transform:uppercase}
+    .cpick{width:56px;height:36px;border:1px solid #d1d5db;border-radius:6px;cursor:pointer;padding:2px}
+    .char-count{font-size:.72rem;color:#9ca3af;margin-top:.75rem}
+    .qr-wrap{display:flex;justify-content:center;align-items:center;min-height:160px;margin-bottom:1rem}
+    .qr-container canvas,.qr-container img{border-radius:8px;border:1px solid #e5e7eb}
+    .empty-qr{font-size:.82rem;color:#9ca3af;text-align:center;padding:2rem}
+    .dl-buttons{display:flex;gap:.5rem;flex-wrap:wrap}
+    .btn-dl{padding:.5rem 1rem;border:none;border-radius:8px;font-weight:700;cursor:pointer;font-size:.82rem;flex:1}
+    .btn-dl.png{background:#2563eb;color:white}
+    .btn-dl.svg{background:#7c3aed;color:white}
+    .btn-copy{padding:.5rem 1rem;border:1px solid #e5e7eb;border-radius:8px;background:white;font-weight:700;cursor:pointer;font-size:.82rem}
   `]
 })
-export class QrGeneratorComponent implements AfterViewInit {
-  @ViewChild('qrCanvas') canvasRef!: ElementRef<HTMLCanvasElement>;
+export class QrGeneratorComponent implements OnInit {
+  @ViewChild('qrContainer') qrContainer!: ElementRef;
 
   types = [
-    { key: 'url', icon: '🔗', label: 'URL' },
-    { key: 'text', icon: '📝', label: 'Text' },
-    { key: 'email', icon: '📧', label: 'Email' },
-    { key: 'phone', icon: '📞', label: 'Phone' },
-    { key: 'wifi', icon: '📶', label: 'WiFi' },
+    {key:'url',label:'URL',icon:'🔗'},{key:'text',label:'Text',icon:'📝'},
+    {key:'email',label:'Email',icon:'✉️'},{key:'phone',label:'Phone',icon:'📞'},
+    {key:'sms',label:'SMS',icon:'💬'},{key:'wifi',label:'WiFi',icon:'📶'},
+    {key:'vcard',label:'vCard',icon:'👤'},{key:'location',label:'Location',icon:'📍'},
   ];
+  qrType = signal('url');
+  qrContent = signal('');
 
-  qrType = 'url';
-  urlVal = 'https://utilitymega.com';
-  textVal = '';
-  emailTo = ''; emailSubj = '';
-  phone = '';
-  wifiSSID = ''; wifiPass = ''; wifiSec = 'WPA';
-  fgColor = '#000000';
-  bgColor = '#ffffff';
-  size = '300';
-  copied = signal(false);
-  qrData = signal('');
+  url = 'https://utilitymega.com';
+  text = ''; email = ''; emailSubject = ''; emailBody = '';
+  phone = ''; smsPhone = ''; smsMessage = '';
+  wifiSSID = ''; wifiPass = ''; wifiSec = 'WPA'; wifiHidden = false;
+  vcName = ''; vcPhone = ''; vcEmail = ''; vcOrg = ''; vcUrl = ''; vcAddr = '';
+  lat = ''; lng = '';
 
-  ngAfterViewInit() { this.generate(); }
+  fgColor = '#000000'; bgColor = '#ffffff';
+  size = '300'; errorLevel = 'M';
+  private qrInstance: any = null;
 
-  setType(t: string) { this.qrType = t; this.generate(); }
+  ngOnInit() {
+    this.loadQRLib().then(() => { this.buildContent(); });
+  }
 
-  getData(): string {
-    switch (this.qrType) {
-      case 'url': return this.urlVal || '';
-      case 'text': return this.textVal || '';
-      case 'email': return `mailto:${this.emailTo}?subject=${encodeURIComponent(this.emailSubj)}`;
-      case 'phone': return `tel:${this.phone}`;
-      case 'wifi': return `WIFI:T:${this.wifiSec};S:${this.wifiSSID};P:${this.wifiPass};;`;
-      default: return '';
+  loadQRLib(): Promise<void> {
+    return new Promise(resolve => {
+      if (typeof QRCode !== 'undefined') { resolve(); return; }
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
+      script.onload = () => resolve();
+      document.head.appendChild(script);
+    });
+  }
+
+  buildContent() {
+    let content = '';
+    switch (this.qrType()) {
+      case 'url': content = this.url; break;
+      case 'text': content = this.text; break;
+      case 'email': content = `mailto:${this.email}?subject=${encodeURIComponent(this.emailSubject)}&body=${encodeURIComponent(this.emailBody)}`; break;
+      case 'phone': content = `tel:${this.phone}`; break;
+      case 'sms': content = `sms:${this.smsPhone}?body=${encodeURIComponent(this.smsMessage)}`; break;
+      case 'wifi': content = `WIFI:T:${this.wifiSec};S:${this.wifiSSID};P:${this.wifiPass};H:${this.wifiHidden};;`; break;
+      case 'vcard': content = `BEGIN:VCARD\nVERSION:3.0\nFN:${this.vcName}\nORG:${this.vcOrg}\nTEL:${this.vcPhone}\nEMAIL:${this.vcEmail}\nURL:${this.vcUrl}\nADR:;;${this.vcAddr};;;;\nEND:VCARD`; break;
+      case 'location': content = `geo:${this.lat},${this.lng}`; break;
+    }
+    this.qrContent.set(content);
+    setTimeout(() => this.generate(), 50);
+  }
+
+  generate() {
+    if (!this.qrContent() || !this.qrContainer) return;
+    const container = this.qrContainer.nativeElement;
+    container.innerHTML = '';
+    try {
+      this.qrInstance = new QRCode(container, {
+        text: this.qrContent(),
+        width: parseInt(this.size),
+        height: parseInt(this.size),
+        colorDark: this.fgColor,
+        colorLight: this.bgColor,
+        correctLevel: (QRCode.CorrectLevel as any)[this.errorLevel] ?? QRCode.CorrectLevel.M
+      });
+    } catch(e) { container.innerHTML = '<div style="color:#dc2626;font-size:.8rem;padding:1rem">Content too large for QR code. Reduce text.</div>'; }
+  }
+
+  download(format: 'png'|'svg') {
+    const canvas = this.qrContainer?.nativeElement?.querySelector('canvas');
+    if (!canvas) return;
+    if (format === 'png') {
+      const a = document.createElement('a'); a.href = canvas.toDataURL('image/png');
+      a.download = 'qrcode.png'; a.click();
+    } else {
+      const size = parseInt(this.size);
+      const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}"><image href="${canvas.toDataURL()}" width="${size}" height="${size}"/></svg>`;
+      const blob = new Blob([svgContent], {type:'image/svg+xml'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+      a.download = 'qrcode.svg'; a.click();
     }
   }
 
-  hasData() { return !!this.qrData(); }
-
-  generate() {
-    const data = this.getData();
-    this.qrData.set(data);
-    if (!data || !this.canvasRef) return;
-    this.drawQR(data);
-  }
-
-  drawQR(data: string) {
-    const canvas = this.canvasRef.nativeElement;
-    const s = Number(this.size);
-    canvas.width = s; canvas.height = s;
-    const ctx = canvas.getContext('2d')!;
-
-    // Simple QR-like pattern using a hash of the data
-    // For production, use a real QR library (qrcode.js, qrcode-generator)
-    ctx.fillStyle = this.bgColor;
-    ctx.fillRect(0, 0, s, s);
-
-    // We'll create an SVG-based QR using the qrcode endpoint simulation
-    const img = new Image();
-    const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=${s}x${s}&data=${encodeURIComponent(data)}&color=${this.fgColor.replace('#', '')}&bgcolor=${this.bgColor.replace('#', '')}`;
-    img.crossOrigin = 'anonymous';
-    img.onload = () => { ctx.drawImage(img, 0, 0, s, s); };
-    img.onerror = () => { this.drawFallbackQR(ctx, data, s); };
-    img.src = qrUrl;
-  }
-
-  drawFallbackQR(ctx: CanvasRenderingContext2D, data: string, s: number) {
-    // Simple pattern as fallback
-    ctx.fillStyle = this.bgColor;
-    ctx.fillRect(0, 0, s, s);
-    ctx.fillStyle = this.fgColor;
-    // Draw finder patterns
-    [[0, 0], [s - 7 * (s / 25), 0], [0, s - 7 * (s / 25)]].forEach(([x, y]) => {
-      const b = s / 25;
-      ctx.fillRect(x, y, 7 * b, 7 * b);
-      ctx.fillStyle = this.bgColor;
-      ctx.fillRect(x + b, y + b, 5 * b, 5 * b);
-      ctx.fillStyle = this.fgColor;
-      ctx.fillRect(x + 2 * b, y + 2 * b, 3 * b, 3 * b);
-    });
-    ctx.font = `${s * 0.06}px monospace`;
-    ctx.textAlign = 'center';
-    ctx.fillText('QR Code', s / 2, s / 2);
-    ctx.font = `${s * 0.04}px monospace`;
-    ctx.fillText('(Offline mode)', s / 2, s / 2 + s * 0.08);
-  }
-
-  download(format: string) {
-    const canvas = this.canvasRef.nativeElement;
-    const a = document.createElement('a');
-    a.href = canvas.toDataURL('image/png');
-    a.download = `qrcode-utilitymega.${format}`;
-    a.click();
-  }
-
-  copyDataUrl() {
-    const canvas = this.canvasRef.nativeElement;
-    canvas.toBlob(blob => {
-      if (!blob) return;
-      navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]).then(() => {
-        this.copied.set(true);
-        setTimeout(() => this.copied.set(false), 2000);
-      }).catch(() => {
-        const url = canvas.toDataURL();
-        navigator.clipboard.writeText(url);
-        this.copied.set(true);
-        setTimeout(() => this.copied.set(false), 2000);
-      });
-    });
-  }
+  copyContent() { navigator.clipboard.writeText(this.qrContent()); }
 }
