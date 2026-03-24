@@ -53,6 +53,9 @@ import { StopwatchTimerComponent, ScreenRulerComponent, PomodoroComponent, TextT
 import { CronGeneratorComponent, ColorConverterComponent, DiffCheckerComponent } from './cron-color-diff.component';
 import { MarkdownEditorComponent, JwtDecoderComponent } from './markdown-jwt.component';
 import { RegexTesterComponent, UuidGeneratorComponent } from './url-encoder-regex-uuid.component';
+import { PasswordStrengthCheckerComponent } from './hash-password-strength.component';
+import { CorsTesterComponent, CspGeneratorComponent, BcryptGeneratorComponent } from './cors-csp-bcrypt.component';
+import { HmacGeneratorComponent, SslCheckerComponent } from './hmac-ssl-ip.component';
 
 
 /**
@@ -106,6 +109,13 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
 
   // Security Tools
   'password-generator': PasswordGeneratorComponent,
+  'password-strength-checker': PasswordStrengthCheckerComponent,
+  'hmac-generator': HmacGeneratorComponent,
+  'ssl-checker': SslCheckerComponent,
+  'cors-tester': CorsTesterComponent,
+  'csp-generator': CspGeneratorComponent,
+  'bcrypt-generator': BcryptGeneratorComponent,
+  //
 
   // SEO Tools
   //'meta-tag-generator': MetaTagGeneratorComponent,

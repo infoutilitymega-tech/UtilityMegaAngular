@@ -240,7 +240,7 @@
         "description": "Free security tools: password generator, hash generator, strength checker",
         "url": "https://utilitymega.com/security-tools"
       },
-      "toolCount": 2
+      "toolCount": 7
     },
     {
       "id": "cat-07",
@@ -2765,7 +2765,6 @@
         ]
       }
     },
-    
     {
       "id": "tool-009",
       "name": "Word Counter",
@@ -3051,296 +3050,6 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Both join words without spaces. PascalCase capitalizes the first letter of every word including the first (UserProfile). camelCase leaves the first word lowercase (userProfile)."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-011",
-      "name": "Password Generator",
-      "slug": "password-generator",
-      "categorySlug": "security-tools",
-      "categoryName": "Security Tools",
-      "shortDescription": "Generate strong, secure random passwords with custom length and character sets.",
-      "seoTitle": "Free Password Generator - Strong Random Password",
-      "metaDescription": "Generate strong secure passwords online for free. Customize length, include uppercase, numbers, symbols. 100% client-side, passwords never stored.",
-      "h1": "Password Generator — Strong Random Passwords Free",
-      "canonicalUrl": "https://utilitymega.com/security-tools/password-generator",
-      "keywords": [
-        "password generator",
-        "strong password generator",
-        "random password",
-        "secure password creator",
-        "password maker",
-        "complex password generator",
-        "free password generator",
-        "online password tool"
-      ],
-      "content": "Weak and reused passwords are the leading cause of account breaches, identity theft, and data leaks. Our free password generator creates cryptographically secure, truly random passwords that are virtually impossible to crack, even with the most powerful brute-force attacks.\n\nAll password generation happens entirely in your browser using the Web Crypto API (window.crypto.getRandomValues()), which provides cryptographically secure random numbers. Your generated passwords are never transmitted to our servers, stored in databases, or logged anywhere.\n\nPassword Strength Explained\n\nPassword strength depends on two factors: length and character set size. A 12-character password using only lowercase letters (26 characters) has 26^12 = 95 trillion possible combinations. Adding uppercase doubles the character set, numbers add 10 more, and symbols add another 32. A 16-character password using all character types has more combinations than atoms in the observable universe.\n\nCustomization Options\n\nOur generator gives you full control: Length (8 to 64 characters), Uppercase letters (A–Z), Lowercase letters (a–z), Numbers (0–9), Symbols (!@#$%^&*), Exclude ambiguous characters (0, O, l, 1, I) for manually typed passwords, Exclude similar-looking characters, Custom character set input.\n\nPassword Best Practices\n\nUse a unique password for every account — password reuse means one breached site compromises all accounts. Length matters more than complexity — a 20-character random lowercase string is stronger than an 8-character mixed string. Store passwords in a reputable password manager (Bitwarden, 1Password, Dashlane). Enable two-factor authentication (2FA) everywhere it is offered. Change passwords immediately after known data breaches.\n\nPassphrase Generation\n\nOur tool also offers passphrase generation — combining random dictionary words (e.g., correct-horse-battery-staple). Passphrases are easier to remember than random strings while providing excellent security. A 4-word passphrase from a 7,776-word wordlist offers 7,776^4 = 36 septillion possible combinations.",
-      "faq": [
-        {
-          "question": "Are generated passwords saved anywhere?",
-          "answer": "No. All password generation uses your browser's cryptographic random number generator. Passwords are never sent to our servers, stored in cookies, or logged in any way. Close the tab and they are gone."
-        },
-        {
-          "question": "What is the most secure password length?",
-          "answer": "For accounts protected by rate limiting, 12–16 characters is considered very secure. For encryption keys or high-value accounts with offline cracking risk, 20+ characters with full character set is recommended."
-        },
-        {
-          "question": "Should I use symbols in my password?",
-          "answer": "Symbols increase security by expanding the character set. However, some systems have restrictions on which symbols are allowed. Our generator lets you exclude problem characters while maintaining strong randomness."
-        },
-        {
-          "question": "What is the difference between random and pseudorandom passwords?",
-          "answer": "Pseudorandom (like Math.random()) is predictable if an attacker knows the seed. Cryptographically random (window.crypto.getRandomValues) is unpredictable by design. Our tool uses only cryptographic randomness."
-        },
-        {
-          "question": "How often should I change my passwords?",
-          "answer": "Current guidance from NIST (US security standard) recommends changing passwords only when there is evidence of compromise, not on a fixed schedule. Using unique passwords per site is more important than frequent changes."
-        }
-      ],
-      "relatedTools": [
-        "hash-generator",
-        "password-strength-checker",
-        "uuid-generator"
-      ],
-      "isPopular": true,
-      "isFeatured": true,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Security Tools",
-          "url": "https://utilitymega.com/security-tools"
-        },
-        {
-          "name": "Password Generator",
-          "url": "https://utilitymega.com/security-tools/password-generator"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Password Generator - Strong Random Passwords",
-        "og:description": "Generate cryptographically secure passwords. Customize length, characters. 100% client-side, never stored.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/security-tools/password-generator",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Password Generator | UtilityMega",
-        "twitter:description": "Generate strong cryptographic passwords. Entropy score, crack time, bulk generate. Free."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Password Generator",
-        "description": "Generate cryptographically secure random passwords with entropy analysis and bulk generation.",
-        "url": "https://utilitymega.com/security-tools/password-generator",
-        "applicationCategory": "SecurityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Security Tools",
-              "item": "https://utilitymega.com/security-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Password Generator",
-              "item": "https://utilitymega.com/security-tools/password-generator"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Are generated passwords saved anywhere?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. All password generation uses your browser's cryptographic random number generator. Passwords are never sent to our servers, stored in cookies, or logged in any way."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the most secure password length?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "For accounts protected by rate limiting, 12–16 characters is considered very secure. For encryption keys or high-value accounts with offline cracking risk, 20+ characters with full character set is recommended."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Should I use symbols in my password?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Symbols increase security by expanding the character set. However, some systems have restrictions on which symbols are allowed. Our generator lets you exclude problem characters while maintaining strong randomness."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-012",
-      "name": "Hash Generator",
-      "slug": "hash-generator",
-      "categorySlug": "security-tools",
-      "categoryName": "Security Tools",
-      "shortDescription": "Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from text or files.",
-      "seoTitle": "Free Hash Generator - MD5, SHA256, SHA512 Online",
-      "metaDescription": "Generate MD5, SHA-1, SHA-256, and SHA-512 hash values online for free. Hash text strings and files. Verify file integrity instantly.",
-      "h1": "Hash Generator — MD5, SHA-256, SHA-512 Free",
-      "canonicalUrl": "https://utilitymega.com/security-tools/hash-generator",
-      "keywords": [
-        "hash generator",
-        "MD5 generator",
-        "SHA-256 generator",
-        "SHA-512 hash",
-        "online hash tool",
-        "checksum generator",
-        "file hash checker",
-        "cryptographic hash"
-      ],
-      "content": "Cryptographic hash functions are foundational to cybersecurity, data integrity verification, and software distribution. Our free hash generator supports all major hash algorithms including MD5, SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512 — all computed locally in your browser without any server processing.\n\nWhat is a Hash Function?\n\nA cryptographic hash function takes an input of any size and produces a fixed-length output (digest). The same input always produces the same hash, but even a single character change produces a completely different hash. This makes hashes ideal for verifying data integrity and detecting tampering.\n\nHash Algorithm Guide\n\nMD5 (128-bit): Produces a 32-character hex string. No longer secure against collision attacks but widely used for file checksums and non-security purposes. Fast computation speed. SHA-1 (160-bit): 40-character hex output. Deprecated for security use since 2017 but still used in legacy systems and Git commit hashes. SHA-256 (256-bit): 64-character hex output. The current standard for most security applications, used in TLS certificates, Bitcoin, and code signing. SHA-512 (512-bit): 128-character hex output. Highest security level, used for password hashing when combined with salt.\n\nFile Integrity Verification\n\nWhen downloading software, operating system images, or important files, always verify the file hash against the officially published checksum. A single bit difference in the downloaded file produces a completely different hash, indicating corruption or tampering. This is critical for detecting malware-infected software downloads.\n\nPassword Hashing Best Practices\n\nFor storing passwords, never use raw MD5 or SHA hashes. Use purpose-built password hashing algorithms like bcrypt, scrypt, or Argon2 which include salting and computational cost parameters to resist brute-force attacks. Our tool is for educational purposes and file integrity checks, not production password storage.\n\nHMAC Generation\n\nHMAC (Hash-based Message Authentication Code) combines a secret key with a hash function to produce a message authentication code. Our tool supports HMAC-SHA256 and HMAC-SHA512 for API request signing, webhook verification, and data authentication scenarios.",
-      "faq": [
-        {
-          "question": "What is the difference between MD5 and SHA-256?",
-          "answer": "MD5 produces a 128-bit hash and is vulnerable to collision attacks (two different inputs producing the same hash). SHA-256 produces a 256-bit hash and is cryptographically secure. Use SHA-256 for any security-sensitive application."
-        },
-        {
-          "question": "Can a hash be reversed to get the original text?",
-          "answer": "Hash functions are one-way by design. You cannot mathematically reverse a hash to get the original input. However, common inputs can be found via rainbow table lookup, which is why short or common passwords should never be stored as raw hashes."
-        },
-        {
-          "question": "How do I verify a file download using its hash?",
-          "answer": "Download the file and the published checksum (usually SHA-256). Drop the file into our hash generator to compute its hash. Compare the result with the published checksum — they must match exactly, character by character."
-        },
-        {
-          "question": "Is MD5 still safe to use?",
-          "answer": "MD5 is not safe for security-sensitive uses like digital signatures or password hashing due to collision vulnerabilities. It remains acceptable for non-security file checksums where collision resistance is not critical."
-        },
-        {
-          "question": "What is a SHA-256 collision?",
-          "answer": "A collision means two different inputs produce the same hash output. SHA-256 has never had a real-world collision found and is believed to be collision-resistant for the foreseeable future, unlike MD5 and SHA-1."
-        }
-      ],
-      "relatedTools": [
-        "password-generator",
-        "base64-encoder",
-        "uuid-generator"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Security Tools",
-          "url": "https://utilitymega.com/security-tools"
-        },
-        {
-          "name": "Hash Generator",
-          "url": "https://utilitymega.com/security-tools/hash-generator"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Hash Generator - MD5, SHA256, SHA512 Online",
-        "og:description": "Generate MD5, SHA-1, SHA-256, SHA-512 hashes for text and files. HMAC support. Verify integrity. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/security-tools/hash-generator",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Hash Generator | UtilityMega",
-        "twitter:description": "MD5, SHA-1, SHA-256, SHA-512, HMAC hash generator. Verify file integrity. Free."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Hash Generator",
-        "description": "Generate MD5, SHA-1, SHA-256, SHA-512 cryptographic hashes with HMAC support and file integrity verification.",
-        "url": "https://utilitymega.com/security-tools/hash-generator",
-        "applicationCategory": "SecurityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Security Tools",
-              "item": "https://utilitymega.com/security-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Hash Generator",
-              "item": "https://utilitymega.com/security-tools/hash-generator"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the difference between MD5 and SHA-256?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "MD5 produces a 128-bit hash and is vulnerable to collision attacks. SHA-256 produces a 256-bit hash and is cryptographically secure. Use SHA-256 for any security-sensitive application."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can a hash be reversed to get the original text?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Hash functions are one-way by design. You cannot mathematically reverse a hash to get the original input."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I verify a file download using its hash?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Download the file and the published checksum (usually SHA-256). Drop the file into our hash generator to compute its hash. Compare the result with the published checksum — they must match exactly, character by character."
             }
           }
         ]
@@ -4946,248 +4655,916 @@
         ]
       }
     },
-  {
-    "id": "tool-dev-001",
-    "name": "JSON Formatter",
-    "slug": "json-formatter",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Format, validate, and beautify JSON data with syntax highlighting and a tree view.",
-    "seoTitle": "Free JSON Formatter & Validator — Beautify JSON Online | UtilityMega",
-    "metaDescription": "Free JSON formatter, validator, and beautifier. Format minified JSON with syntax highlighting, collapsible tree view, minify, and export. No login required.",
-    "h1": "JSON Formatter & Validator",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/json-formatter",
-    "keywords": ["JSON formatter", "JSON beautifier", "JSON validator", "format JSON online", "JSON pretty print", "JSON minifier", "JSON tree viewer"],
-    "content": "Format and validate any JSON data instantly in your browser. Supports 2-space, 4-space, and tab indentation. Features syntax error detection with line/column info, collapsible tree view, minification, and JSON statistics.",
-    "faq": [
-      {"question": "What is JSON formatting?", "answer": "JSON formatting (pretty-printing) adds proper indentation and line breaks to compact JSON, making it human-readable. The opposite, minification, removes whitespace to reduce file size."},
-      {"question": "How do I validate JSON?", "answer": "Paste your JSON and the validator instantly shows whether it is valid or highlights the exact error with line and column information."},
-      {"question": "Is my JSON data safe?", "answer": "Completely safe. All processing happens in your browser — your JSON data is never sent to our servers."}
-    ],
-    "relatedTools": ["base64-encoder", "url-encoder", "regex-tester"],
-    "isPopular": true,
-    "isFeatured": true,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "JSON Formatter", "url": "/developer-tools/json-formatter"}
-    ]
-  },
-  {
-    "id": "tool-dev-002",
-    "name": "Base64 Encoder/Decoder",
-    "slug": "base64-encoder",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Encode and decode Base64 strings for text, files, and images with URL-safe support.",
-    "seoTitle": "Free Base64 Encoder & Decoder — Text, File & Image | UtilityMega",
-    "metaDescription": "Encode text, files, and images to Base64. Decode Base64 strings back to text. Supports URL-safe Base64, file data URI, and image preview. Free, browser-based.",
-    "h1": "Base64 Encoder & Decoder",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/base64-encoder",
-    "keywords": ["Base64 encoder", "Base64 decoder", "Base64 converter", "encode Base64 online", "decode Base64", "Base64 URL encoder", "file to Base64", "image to Base64"],
-    "content": "Encode and decode Base64 for text strings, file uploads (with data URI output), and image preview. Supports standard and URL-safe Base64 variants (replaces + with - and / with _). Three modes: text encode/decode, file encode, and image preview.",
-    "faq": [
-      {"question": "Is Base64 the same as encryption?", "answer": "No. Base64 is encoding — it converts binary to text using a reversible algorithm. Anyone can decode it. Never use Base64 for sensitive data without actual encryption."},
-      {"question": "Why does Base64 end with == signs?", "answer": "Base64 works in 3-byte groups. Padding (=) is added when input length is not a multiple of 3."},
-      {"question": "What is URL-safe Base64?", "answer": "URL-safe Base64 replaces + with - and / with _ so the output can be safely used in URLs without percent-encoding. Used in JWTs and OAuth tokens."}
-    ],
-    "relatedTools": ["json-formatter", "url-encoder", "hash-generator"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "Base64 Encoder", "url": "/developer-tools/base64-encoder"}
-    ]
-  },
     {
-    "id": "tool-dev-003",
-    "name": "Regex Tester",
-    "slug": "regex-tester",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Test and debug regular expressions with real-time match highlighting and capture group extraction.",
-    "seoTitle": "Free Regex Tester — Test Regular Expressions Online | UtilityMega",
-    "metaDescription": "Test JavaScript regular expressions online. Real-time match highlighting, capture groups, all flags (g, i, m, s, u). Includes 12 common patterns library.",
-    "h1": "Regex Tester & Debugger",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/regex-tester",
-    "keywords": ["regex tester", "regular expression tester", "regex online", "test regex JavaScript", "regex validator", "regex match highlighter", "regex debugger"],
-    "content": "Test regular expressions with real-time highlighting of all matches. Supports all JavaScript RegExp flags (g, i, m, s, u, y). Shows a detailed match table with indices and capture groups. Includes a library of 12 common patterns for email, phone, URLs, dates, and more.",
-    "faq": [
-      {"question": "What regex engine does this use?", "answer": "JavaScript's built-in RegExp engine, which follows ECMAScript standards. Compatible with Node.js, browser JavaScript, and TypeScript."},
-      {"question": "How do I find all matches?", "answer": "Enable the 'g' (global) flag to find all matches in the test string, not just the first one."},
-      {"question": "Can I test capture groups?", "answer": "Yes. Capture groups are shown in the matches table with their extracted values."}
-    ],
-    "relatedTools": ["json-formatter", "url-encoder", "diff-checker"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "Regex Tester", "url": "/developer-tools/regex-tester"}
-    ]
-  },
-  {
-    "id": "tool-dev-004",
-    "name": "UUID Generator",
-    "slug": "uuid-generator",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Generate UUID v1, v4, v5, and ULID identifiers with bulk generation and format options.",
-    "seoTitle": "Free UUID Generator — v4, v1, ULID Online | UtilityMega",
-    "metaDescription": "Generate UUID v4, v1, v5, and ULID identifiers online. Bulk generation up to 100. Format options: uppercase, no dashes, braces. UUID validator included.",
-    "h1": "UUID & ULID Generator",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/uuid-generator",
-    "keywords": ["UUID generator", "GUID generator", "UUID v4 generator", "unique ID generator", "random UUID online", "ULID generator", "UUID bulk generator"],
-    "content": "Generate cryptographically secure UUIDs in v4 (random), v1 (time-based), v5 (name-based), or ULID (sortable) formats. Bulk generate up to 100 at once. Format options include uppercase, removing dashes, and adding braces. Includes a UUID validator.",
-    "faq": [
-      {"question": "What is the difference between UUID v1 and v4?", "answer": "UUID v1 includes a timestamp and MAC address — sortable but potentially reveals system info. UUID v4 is fully random — most common for security-sensitive IDs."},
-      {"question": "Are generated UUIDs truly unique?", "answer": "UUID v4 has 2^122 possible values. The probability of collision is astronomically small — practically guaranteed unique for all real-world use cases."},
-      {"question": "What is a ULID?", "answer": "ULID (Universally Unique Lexicographically Sortable Identifier) is a 26-character alternative to UUID that is sortable by creation time — ideal for database primary keys."}
-    ],
-    "relatedTools": ["hash-generator", "base64-encoder", "json-formatter"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "UUID Generator", "url": "/developer-tools/uuid-generator"}
-    ]
-  },
-  {
-    "id": "tool-dev-005",
-    "name": "Cron Expression Generator",
-    "slug": "cron-generator",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Build and validate cron expressions with a visual schedule builder and next-run preview.",
-    "seoTitle": "Free Cron Expression Generator — Build & Test Cron Jobs | UtilityMega",
-    "metaDescription": "Generate cron expressions with a visual builder. See human-readable description and next 8 run times. 16 preset schedules. Linux and AWS EventBridge support.",
-    "h1": "Cron Expression Generator & Tester",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/cron-generator",
-    "keywords": ["cron expression generator", "cron job builder", "cron syntax validator", "cron schedule builder", "Linux cron", "AWS EventBridge cron", "cron next run"],
-    "content": "Build cron expressions with a visual 5-field editor. Get a plain-English description of your schedule and preview the next 8 run times. Includes 16 common schedule presets and a full syntax reference.",
-    "faq": [
-      {"question": "What is a cron expression?", "answer": "A cron expression is a string of 5 fields defining when a scheduled task runs: minute, hour, day-of-month, month, and day-of-week."},
-      {"question": "How do I run a job every 5 minutes?", "answer": "Use */5 in the minute field: `*/5 * * * *`. The */ syntax means 'every N' of that unit."},
-      {"question": "What is the difference between Linux cron and AWS EventBridge?", "answer": "AWS EventBridge uses a 6-field format (adds year) and uses ? for unspecified day fields. Standard Linux cron uses 5 fields."}
-    ],
-    "relatedTools": ["json-formatter", "regex-tester", "uuid-generator"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "Cron Generator", "url": "/developer-tools/cron-generator"}
-    ]
-  },
-  {
-    "id": "tool-dev-006",
-    "name": "Color Converter",
-    "slug": "color-converter",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Convert colors between HEX, RGB, HSL, HSV, and CMYK with shades, tints, and a named colors palette.",
-    "seoTitle": "Free Color Converter — HEX, RGB, HSL, CMYK Online | UtilityMega",
-    "metaDescription": "Convert colors between HEX, RGB, RGBA, HSL, HSLA, HSV, and CMYK. Auto-generated shades and tints. CSS custom property and Tailwind output. 18 named colors palette.",
-    "h1": "Color Converter — HEX, RGB, HSL, CMYK",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/color-converter",
-    "keywords": ["color converter", "HEX to RGB", "RGB to HSL", "HEX to CMYK", "color code converter", "CSS color converter", "color format converter"],
-    "content": "Convert between all major color formats: HEX, RGB, RGBA, HSL, HSLA, HSV, and CMYK. Automatically generates 9 shades and 9 tints. Outputs CSS custom property and Tailwind arbitrary value syntax. Includes an 18-color named palette for quick selection.",
-    "faq": [
-      {"question": "What is the difference between RGB and CMYK?", "answer": "RGB is an additive model for screens (light). CMYK is subtractive for print (ink). The same color can look different in each medium."},
-      {"question": "How do I convert HEX to RGB?", "answer": "Split the 6-digit HEX into 3 pairs and convert each from hex to decimal. #FF5733 → R=255, G=87, B=51."},
-      {"question": "What is HSL useful for?", "answer": "HSL (Hue, Saturation, Lightness) makes it easy to create lighter/darker variants by adjusting L, or more/less vivid variants by adjusting S."}
-    ],
-    "relatedTools": ["json-formatter", "url-encoder", "base64-encoder"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "Color Converter", "url": "/developer-tools/color-converter"}
-    ]
-  },
-  {
-    "id": "tool-dev-007",
-    "name": "Diff Checker",
-    "slug": "diff-checker",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Compare two texts or code snippets side-by-side or in unified view with line-level diff.",
-    "seoTitle": "Free Diff Checker — Compare Text & Code Online | UtilityMega",
-    "metaDescription": "Compare two texts or code files side-by-side. Shows added, removed, and unchanged lines. Side-by-side and unified views. Shows exact diff statistics.",
-    "h1": "Diff Checker — Compare Text & Code",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/diff-checker",
-    "keywords": ["diff checker", "text compare online", "code diff tool", "compare two texts", "find differences text", "diff viewer online", "code comparison tool"],
-    "content": "Compare two blocks of text with line-level diffing. Highlights added lines in green and removed lines in red. Side-by-side view shows both versions simultaneously. Unified view shows a single stream with + and - markers. Diff statistics show exact counts.",
-    "faq": [
-      {"question": "What is a diff?", "answer": "A diff (difference) shows exactly what changed between two versions of text. Added lines are marked with +, removed lines with -."},
-      {"question": "Can I compare code files?", "answer": "Yes. Paste code from any language. The diff works on plain text, so any code can be compared."},
-      {"question": "What is the difference between side-by-side and unified view?", "answer": "Side-by-side shows both texts in parallel columns. Unified view shows a single text stream with additions and removals inline — similar to git diff output."}
-    ],
-    "relatedTools": ["json-formatter", "regex-tester", "markdown-editor"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "Diff Checker", "url": "/developer-tools/diff-checker"}
-    ]
-  },
-  {
-    "id": "tool-dev-008",
-    "name": "Markdown Editor",
-    "slug": "markdown-editor",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Write and preview Markdown with live HTML rendering, toolbar, and export to .md or .html.",
-    "seoTitle": "Free Markdown Editor — Live Preview, Export HTML | UtilityMega",
-    "metaDescription": "Online Markdown editor with live HTML preview. Toolbar for bold, italic, headers, tables, code blocks. Export as .md or .html. Word count and reading time.",
-    "h1": "Markdown Editor with Live Preview",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/markdown-editor",
-    "keywords": ["markdown editor online", "markdown preview", "markdown to HTML", "live markdown editor", "GFM markdown editor", "markdown toolbar", "export markdown HTML"],
-    "content": "Write Markdown and see a live HTML preview side-by-side. Includes a toolbar with 16 formatting buttons for bold, italic, headers, code blocks, tables, task lists, and more. Export as .md or .html. Shows real-time word count, character count, and estimated reading time.",
-    "faq": [
-      {"question": "What Markdown syntax is supported?", "answer": "Standard CommonMark plus GitHub Flavored Markdown (GFM): tables, task lists, strikethrough, fenced code blocks, and blockquotes."},
-      {"question": "Can I export my Markdown?", "answer": "Yes. Export as a .md file for GitHub/documentation, or as a complete .html file for direct use in websites."},
-      {"question": "What is the keyboard shortcut for bold?", "answer": "Click the B button in the toolbar, which wraps selected text in ** markers. Standard Markdown syntax works directly in the editor."}
-    ],
-    "relatedTools": ["diff-checker", "json-formatter", "url-encoder"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "Markdown Editor", "url": "/developer-tools/markdown-editor"}
-    ]
-  },
-  {
-    "id": "tool-dev-009",
-    "name": "JWT Decoder",
-    "slug": "jwt-decoder",
-    "categorySlug": "developer-tools",
-    "categoryName": "Developer Tools",
-    "shortDescription": "Decode and inspect JWT tokens to view header, payload claims, and expiry status.",
-    "seoTitle": "Free JWT Decoder — Decode JSON Web Tokens Online | UtilityMega",
-    "metaDescription": "Decode JWT tokens online. View header algorithm, payload claims with timestamps, and check expiry status. Supports HS256, RS256, ES256 and all JWT algorithms.",
-    "h1": "JWT Decoder & Inspector",
-    "canonicalUrl": "https://utilitymega.com/developer-tools/jwt-decoder",
-    "keywords": ["JWT decoder", "JSON Web Token decoder", "decode JWT online", "JWT token viewer", "JWT claims viewer", "JWT expiry checker", "JWT inspector"],
-    "content": "Decode any JWT token to inspect its header, payload claims, and signature. Automatically detects algorithm, parses timestamp claims (exp, iat, nbf) into human-readable dates, and shows expiry status. Color-coded visualization of all three JWT parts.",
-    "faq": [
-      {"question": "Can I verify a JWT signature?", "answer": "Decoding shows the header and payload without signature verification. Signature verification requires the secret key (HMAC) or public key (RSA/ECDSA)."},
-      {"question": "Is it safe to paste my JWT here?", "answer": "All decoding happens in your browser — nothing is sent to servers. Still, avoid pasting production tokens with sensitive data into any online tool."},
-      {"question": "What claims are in a JWT?", "answer": "Standard claims: sub (subject), iss (issuer), exp (expiry), iat (issued at), aud (audience). Applications add custom claims for user roles, permissions, etc."}
-    ],
-    "relatedTools": ["base64-encoder", "hash-generator", "json-formatter"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Developer Tools", "url": "/developer-tools"},
-      {"label": "JWT Decoder", "url": "/developer-tools/jwt-decoder"}
-    ]
-  }
+      "id": "tool-dev-001",
+      "name": "JSON Formatter",
+      "slug": "json-formatter",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Format, validate, and beautify JSON data with syntax highlighting and a tree view.",
+      "seoTitle": "Free JSON Formatter & Validator — Beautify JSON Online | UtilityMega",
+      "metaDescription": "Free JSON formatter, validator, and beautifier. Format minified JSON with syntax highlighting, collapsible tree view, minify, and export. No login required.",
+      "h1": "JSON Formatter & Validator",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/json-formatter",
+      "keywords": [
+        "JSON formatter",
+        "JSON beautifier",
+        "JSON validator",
+        "format JSON online",
+        "JSON pretty print",
+        "JSON minifier",
+        "JSON tree viewer"
+      ],
+      "content": "Format and validate any JSON data instantly in your browser. Supports 2-space, 4-space, and tab indentation. Features syntax error detection with line/column info, collapsible tree view, minification, and JSON statistics.",
+      "faq": [
+        {
+          "question": "What is JSON formatting?",
+          "answer": "JSON formatting (pretty-printing) adds proper indentation and line breaks to compact JSON, making it human-readable. The opposite, minification, removes whitespace to reduce file size."
+        },
+        {
+          "question": "How do I validate JSON?",
+          "answer": "Paste your JSON and the validator instantly shows whether it is valid or highlights the exact error with line and column information."
+        },
+        {
+          "question": "Is my JSON data safe?",
+          "answer": "Completely safe. All processing happens in your browser — your JSON data is never sent to our servers."
+        }
+      ],
+      "relatedTools": [
+        "base64-encoder",
+        "url-encoder",
+        "regex-tester"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "JSON Formatter",
+          "url": "/developer-tools/json-formatter"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-002",
+      "name": "Base64 Encoder/Decoder",
+      "slug": "base64-encoder",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Encode and decode Base64 strings for text, files, and images with URL-safe support.",
+      "seoTitle": "Free Base64 Encoder & Decoder — Text, File & Image | UtilityMega",
+      "metaDescription": "Encode text, files, and images to Base64. Decode Base64 strings back to text. Supports URL-safe Base64, file data URI, and image preview. Free, browser-based.",
+      "h1": "Base64 Encoder & Decoder",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/base64-encoder",
+      "keywords": [
+        "Base64 encoder",
+        "Base64 decoder",
+        "Base64 converter",
+        "encode Base64 online",
+        "decode Base64",
+        "Base64 URL encoder",
+        "file to Base64",
+        "image to Base64"
+      ],
+      "content": "Encode and decode Base64 for text strings, file uploads (with data URI output), and image preview. Supports standard and URL-safe Base64 variants (replaces + with - and / with _). Three modes: text encode/decode, file encode, and image preview.",
+      "faq": [
+        {
+          "question": "Is Base64 the same as encryption?",
+          "answer": "No. Base64 is encoding — it converts binary to text using a reversible algorithm. Anyone can decode it. Never use Base64 for sensitive data without actual encryption."
+        },
+        {
+          "question": "Why does Base64 end with == signs?",
+          "answer": "Base64 works in 3-byte groups. Padding (=) is added when input length is not a multiple of 3."
+        },
+        {
+          "question": "What is URL-safe Base64?",
+          "answer": "URL-safe Base64 replaces + with - and / with _ so the output can be safely used in URLs without percent-encoding. Used in JWTs and OAuth tokens."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "url-encoder",
+        "hash-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "Base64 Encoder",
+          "url": "/developer-tools/base64-encoder"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-003",
+      "name": "Regex Tester",
+      "slug": "regex-tester",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Test and debug regular expressions with real-time match highlighting and capture group extraction.",
+      "seoTitle": "Free Regex Tester — Test Regular Expressions Online | UtilityMega",
+      "metaDescription": "Test JavaScript regular expressions online. Real-time match highlighting, capture groups, all flags (g, i, m, s, u). Includes 12 common patterns library.",
+      "h1": "Regex Tester & Debugger",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/regex-tester",
+      "keywords": [
+        "regex tester",
+        "regular expression tester",
+        "regex online",
+        "test regex JavaScript",
+        "regex validator",
+        "regex match highlighter",
+        "regex debugger"
+      ],
+      "content": "Test regular expressions with real-time highlighting of all matches. Supports all JavaScript RegExp flags (g, i, m, s, u, y). Shows a detailed match table with indices and capture groups. Includes a library of 12 common patterns for email, phone, URLs, dates, and more.",
+      "faq": [
+        {
+          "question": "What regex engine does this use?",
+          "answer": "JavaScript's built-in RegExp engine, which follows ECMAScript standards. Compatible with Node.js, browser JavaScript, and TypeScript."
+        },
+        {
+          "question": "How do I find all matches?",
+          "answer": "Enable the 'g' (global) flag to find all matches in the test string, not just the first one."
+        },
+        {
+          "question": "Can I test capture groups?",
+          "answer": "Yes. Capture groups are shown in the matches table with their extracted values."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "url-encoder",
+        "diff-checker"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "Regex Tester",
+          "url": "/developer-tools/regex-tester"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-004",
+      "name": "UUID Generator",
+      "slug": "uuid-generator",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Generate UUID v1, v4, v5, and ULID identifiers with bulk generation and format options.",
+      "seoTitle": "Free UUID Generator — v4, v1, ULID Online | UtilityMega",
+      "metaDescription": "Generate UUID v4, v1, v5, and ULID identifiers online. Bulk generation up to 100. Format options: uppercase, no dashes, braces. UUID validator included.",
+      "h1": "UUID & ULID Generator",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/uuid-generator",
+      "keywords": [
+        "UUID generator",
+        "GUID generator",
+        "UUID v4 generator",
+        "unique ID generator",
+        "random UUID online",
+        "ULID generator",
+        "UUID bulk generator"
+      ],
+      "content": "Generate cryptographically secure UUIDs in v4 (random), v1 (time-based), v5 (name-based), or ULID (sortable) formats. Bulk generate up to 100 at once. Format options include uppercase, removing dashes, and adding braces. Includes a UUID validator.",
+      "faq": [
+        {
+          "question": "What is the difference between UUID v1 and v4?",
+          "answer": "UUID v1 includes a timestamp and MAC address — sortable but potentially reveals system info. UUID v4 is fully random — most common for security-sensitive IDs."
+        },
+        {
+          "question": "Are generated UUIDs truly unique?",
+          "answer": "UUID v4 has 2^122 possible values. The probability of collision is astronomically small — practically guaranteed unique for all real-world use cases."
+        },
+        {
+          "question": "What is a ULID?",
+          "answer": "ULID (Universally Unique Lexicographically Sortable Identifier) is a 26-character alternative to UUID that is sortable by creation time — ideal for database primary keys."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "base64-encoder",
+        "json-formatter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "UUID Generator",
+          "url": "/developer-tools/uuid-generator"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-005",
+      "name": "Cron Expression Generator",
+      "slug": "cron-generator",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Build and validate cron expressions with a visual schedule builder and next-run preview.",
+      "seoTitle": "Free Cron Expression Generator — Build & Test Cron Jobs | UtilityMega",
+      "metaDescription": "Generate cron expressions with a visual builder. See human-readable description and next 8 run times. 16 preset schedules. Linux and AWS EventBridge support.",
+      "h1": "Cron Expression Generator & Tester",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/cron-generator",
+      "keywords": [
+        "cron expression generator",
+        "cron job builder",
+        "cron syntax validator",
+        "cron schedule builder",
+        "Linux cron",
+        "AWS EventBridge cron",
+        "cron next run"
+      ],
+      "content": "Build cron expressions with a visual 5-field editor. Get a plain-English description of your schedule and preview the next 8 run times. Includes 16 common schedule presets and a full syntax reference.",
+      "faq": [
+        {
+          "question": "What is a cron expression?",
+          "answer": "A cron expression is a string of 5 fields defining when a scheduled task runs: minute, hour, day-of-month, month, and day-of-week."
+        },
+        {
+          "question": "How do I run a job every 5 minutes?",
+          "answer": "Use */5 in the minute field: `*/5 * * * *`. The */ syntax means 'every N' of that unit."
+        },
+        {
+          "question": "What is the difference between Linux cron and AWS EventBridge?",
+          "answer": "AWS EventBridge uses a 6-field format (adds year) and uses ? for unspecified day fields. Standard Linux cron uses 5 fields."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "regex-tester",
+        "uuid-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "Cron Generator",
+          "url": "/developer-tools/cron-generator"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-006",
+      "name": "Color Converter",
+      "slug": "color-converter",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Convert colors between HEX, RGB, HSL, HSV, and CMYK with shades, tints, and a named colors palette.",
+      "seoTitle": "Free Color Converter — HEX, RGB, HSL, CMYK Online | UtilityMega",
+      "metaDescription": "Convert colors between HEX, RGB, RGBA, HSL, HSLA, HSV, and CMYK. Auto-generated shades and tints. CSS custom property and Tailwind output. 18 named colors palette.",
+      "h1": "Color Converter — HEX, RGB, HSL, CMYK",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/color-converter",
+      "keywords": [
+        "color converter",
+        "HEX to RGB",
+        "RGB to HSL",
+        "HEX to CMYK",
+        "color code converter",
+        "CSS color converter",
+        "color format converter"
+      ],
+      "content": "Convert between all major color formats: HEX, RGB, RGBA, HSL, HSLA, HSV, and CMYK. Automatically generates 9 shades and 9 tints. Outputs CSS custom property and Tailwind arbitrary value syntax. Includes an 18-color named palette for quick selection.",
+      "faq": [
+        {
+          "question": "What is the difference between RGB and CMYK?",
+          "answer": "RGB is an additive model for screens (light). CMYK is subtractive for print (ink). The same color can look different in each medium."
+        },
+        {
+          "question": "How do I convert HEX to RGB?",
+          "answer": "Split the 6-digit HEX into 3 pairs and convert each from hex to decimal. #FF5733 → R=255, G=87, B=51."
+        },
+        {
+          "question": "What is HSL useful for?",
+          "answer": "HSL (Hue, Saturation, Lightness) makes it easy to create lighter/darker variants by adjusting L, or more/less vivid variants by adjusting S."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "url-encoder",
+        "base64-encoder"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "Color Converter",
+          "url": "/developer-tools/color-converter"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-007",
+      "name": "Diff Checker",
+      "slug": "diff-checker",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Compare two texts or code snippets side-by-side or in unified view with line-level diff.",
+      "seoTitle": "Free Diff Checker — Compare Text & Code Online | UtilityMega",
+      "metaDescription": "Compare two texts or code files side-by-side. Shows added, removed, and unchanged lines. Side-by-side and unified views. Shows exact diff statistics.",
+      "h1": "Diff Checker — Compare Text & Code",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/diff-checker",
+      "keywords": [
+        "diff checker",
+        "text compare online",
+        "code diff tool",
+        "compare two texts",
+        "find differences text",
+        "diff viewer online",
+        "code comparison tool"
+      ],
+      "content": "Compare two blocks of text with line-level diffing. Highlights added lines in green and removed lines in red. Side-by-side view shows both versions simultaneously. Unified view shows a single stream with + and - markers. Diff statistics show exact counts.",
+      "faq": [
+        {
+          "question": "What is a diff?",
+          "answer": "A diff (difference) shows exactly what changed between two versions of text. Added lines are marked with +, removed lines with -."
+        },
+        {
+          "question": "Can I compare code files?",
+          "answer": "Yes. Paste code from any language. The diff works on plain text, so any code can be compared."
+        },
+        {
+          "question": "What is the difference between side-by-side and unified view?",
+          "answer": "Side-by-side shows both texts in parallel columns. Unified view shows a single text stream with additions and removals inline — similar to git diff output."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "regex-tester",
+        "markdown-editor"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "Diff Checker",
+          "url": "/developer-tools/diff-checker"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-008",
+      "name": "Markdown Editor",
+      "slug": "markdown-editor",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Write and preview Markdown with live HTML rendering, toolbar, and export to .md or .html.",
+      "seoTitle": "Free Markdown Editor — Live Preview, Export HTML | UtilityMega",
+      "metaDescription": "Online Markdown editor with live HTML preview. Toolbar for bold, italic, headers, tables, code blocks. Export as .md or .html. Word count and reading time.",
+      "h1": "Markdown Editor with Live Preview",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/markdown-editor",
+      "keywords": [
+        "markdown editor online",
+        "markdown preview",
+        "markdown to HTML",
+        "live markdown editor",
+        "GFM markdown editor",
+        "markdown toolbar",
+        "export markdown HTML"
+      ],
+      "content": "Write Markdown and see a live HTML preview side-by-side. Includes a toolbar with 16 formatting buttons for bold, italic, headers, code blocks, tables, task lists, and more. Export as .md or .html. Shows real-time word count, character count, and estimated reading time.",
+      "faq": [
+        {
+          "question": "What Markdown syntax is supported?",
+          "answer": "Standard CommonMark plus GitHub Flavored Markdown (GFM): tables, task lists, strikethrough, fenced code blocks, and blockquotes."
+        },
+        {
+          "question": "Can I export my Markdown?",
+          "answer": "Yes. Export as a .md file for GitHub/documentation, or as a complete .html file for direct use in websites."
+        },
+        {
+          "question": "What is the keyboard shortcut for bold?",
+          "answer": "Click the B button in the toolbar, which wraps selected text in ** markers. Standard Markdown syntax works directly in the editor."
+        }
+      ],
+      "relatedTools": [
+        "diff-checker",
+        "json-formatter",
+        "url-encoder"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "Markdown Editor",
+          "url": "/developer-tools/markdown-editor"
+        }
+      ]
+    },
+    {
+      "id": "tool-dev-009",
+      "name": "JWT Decoder",
+      "slug": "jwt-decoder",
+      "categorySlug": "developer-tools",
+      "categoryName": "Developer Tools",
+      "shortDescription": "Decode and inspect JWT tokens to view header, payload claims, and expiry status.",
+      "seoTitle": "Free JWT Decoder — Decode JSON Web Tokens Online | UtilityMega",
+      "metaDescription": "Decode JWT tokens online. View header algorithm, payload claims with timestamps, and check expiry status. Supports HS256, RS256, ES256 and all JWT algorithms.",
+      "h1": "JWT Decoder & Inspector",
+      "canonicalUrl": "https://utilitymega.com/developer-tools/jwt-decoder",
+      "keywords": [
+        "JWT decoder",
+        "JSON Web Token decoder",
+        "decode JWT online",
+        "JWT token viewer",
+        "JWT claims viewer",
+        "JWT expiry checker",
+        "JWT inspector"
+      ],
+      "content": "Decode any JWT token to inspect its header, payload claims, and signature. Automatically detects algorithm, parses timestamp claims (exp, iat, nbf) into human-readable dates, and shows expiry status. Color-coded visualization of all three JWT parts.",
+      "faq": [
+        {
+          "question": "Can I verify a JWT signature?",
+          "answer": "Decoding shows the header and payload without signature verification. Signature verification requires the secret key (HMAC) or public key (RSA/ECDSA)."
+        },
+        {
+          "question": "Is it safe to paste my JWT here?",
+          "answer": "All decoding happens in your browser — nothing is sent to servers. Still, avoid pasting production tokens with sensitive data into any online tool."
+        },
+        {
+          "question": "What claims are in a JWT?",
+          "answer": "Standard claims: sub (subject), iss (issuer), exp (expiry), iat (issued at), aud (audience). Applications add custom claims for user roles, permissions, etc."
+        }
+      ],
+      "relatedTools": [
+        "base64-encoder",
+        "hash-generator",
+        "json-formatter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Developer Tools",
+          "url": "/developer-tools"
+        },
+        {
+          "label": "JWT Decoder",
+          "url": "/developer-tools/jwt-decoder"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-001",
+      "name": "Password Generator",
+      "slug": "password-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate cryptographically secure random passwords with custom length, charset, passphrase mode, and batch generation.",
+      "seoTitle": "Free Password Generator — Strong Random Passwords | UtilityMega",
+      "metaDescription": "Generate strong secure passwords using Web Crypto API. Custom length (4–64), charsets, passphrase mode, batch up to 100. Entropy score and crack time estimate. 100% client-side.",
+      "h1": "Password Generator",
+      "canonicalUrl": "https://utilitymega.com/security-tools/password-generator",
+      "keywords": [
+        "password generator",
+        "strong password generator",
+        "random password",
+        "secure password creator",
+        "passphrase generator",
+        "bulk password generator"
+      ],
+      "content": "Generate cryptographically secure passwords using window.crypto.getRandomValues(). Customize length (4–64 chars), character sets (uppercase, lowercase, numbers, symbols), and options like excluding ambiguous characters. Batch-generate up to 100 passwords. Passphrase generator creates memorable 4-word phrases. Shows entropy in bits and estimated crack time.",
+      "faq": [
+        {
+          "question": "Are passwords stored anywhere?",
+          "answer": "No. Generation uses your browser's cryptographic RNG (window.crypto). Passwords are never transmitted or stored."
+        },
+        {
+          "question": "What makes a password secure?",
+          "answer": "Length is the most important factor. A 20-character random string is far stronger than an 8-character complex one. Use 16+ characters with mixed charsets for high-security accounts."
+        },
+        {
+          "question": "What is a passphrase?",
+          "answer": "A passphrase combines 4+ random words (e.g., 'correct-horse-battery-staple'). It provides ~52 bits of entropy and is easier to remember than a random string."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-strength-checker",
+        "uuid-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "Password Generator",
+          "url": "/security-tools/password-generator"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-002",
+      "name": "Password Strength Checker",
+      "slug": "password-strength-checker",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Check password strength with entropy analysis, pattern detection, crack time estimation, and improvement suggestions.",
+      "seoTitle": "Free Password Strength Checker — Entropy & Crack Time | UtilityMega",
+      "metaDescription": "Check password strength with detailed entropy score, crack time for online and offline attacks, pattern detection (keyboard walks, years, common words), and specific suggestions.",
+      "h1": "Password Strength Checker",
+      "canonicalUrl": "https://utilitymega.com/security-tools/password-strength-checker",
+      "keywords": [
+        "password strength checker",
+        "password security test",
+        "how strong is my password",
+        "password entropy calculator",
+        "crack time estimator",
+        "password analyzer"
+      ],
+      "content": "Analyze your password's strength using entropy calculation, charset analysis, and pattern detection. Shows estimated crack time for both online (1,000/sec) and offline fast-hash (10B/sec) attacks. Detects weak patterns: keyboard walks (qwerty, asdf), common passwords, date patterns, repeating characters. Provides specific improvement suggestions.",
+      "faq": [
+        {
+          "question": "Is it safe to type my password here?",
+          "answer": "Yes. Strength checking happens entirely in your browser JavaScript. Your password is never transmitted anywhere."
+        },
+        {
+          "question": "What is password entropy?",
+          "answer": "Entropy measures unpredictability in bits. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
+        },
+        {
+          "question": "What makes a password weak?",
+          "answer": "Short length, lack of character variety, dictionary words, predictable patterns (dates, keyboard walks, repeated characters), and being on a list of common passwords."
+        }
+      ],
+      "relatedTools": [
+        "password-generator",
+        "hash-generator",
+        "bcrypt-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "Password Strength Checker",
+          "url": "/security-tools/password-strength-checker"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-003",
+      "name": "HMAC Generator",
+      "slug": "hmac-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate HMAC-SHA256 and HMAC-SHA512 message authentication codes for API signing and webhook verification.",
+      "seoTitle": "Free HMAC Generator — HMAC-SHA256 & SHA512 Online | UtilityMega",
+      "metaDescription": "Generate HMAC authentication codes with SHA-256, SHA-512, SHA-384. Verify HMAC. Output in Hex, Base64, or Base64URL. Supports webhook signing and API authentication.",
+      "h1": "HMAC Generator",
+      "canonicalUrl": "https://utilitymega.com/security-tools/hmac-generator",
+      "keywords": [
+        "HMAC generator",
+        "HMAC-SHA256",
+        "HMAC-SHA512",
+        "message authentication code",
+        "API signature generator",
+        "webhook signature",
+        "HMAC online"
+      ],
+      "content": "Generate HMAC (Hash-based Message Authentication Code) using SHA-256, SHA-512, or SHA-384. Output in Hex, Base64, or URL-safe Base64URL format. Built-in HMAC verification tool. Auto-generates a secure random key. Explains how HMAC works and shows common use cases: webhook verification (GitHub, Stripe), AWS API signing, JWT HS256/HS512.",
+      "faq": [
+        {
+          "question": "What is HMAC used for?",
+          "answer": "HMAC proves that a message was created by someone with the secret key and wasn't tampered with in transit. Used for API authentication and webhook payload verification."
+        },
+        {
+          "question": "How is HMAC different from a regular hash?",
+          "answer": "A regular hash has no secret key — anyone can compute it. HMAC requires a shared secret, providing authentication that a hash alone cannot."
+        },
+        {
+          "question": "HMAC-SHA256 vs HMAC-SHA512?",
+          "answer": "HMAC-SHA256 is the standard for most APIs (AWS, GitHub, Stripe). Use HMAC-SHA512 for additional security margin when performance allows."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-generator",
+        "bcrypt-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "HMAC Generator",
+          "url": "/security-tools/hmac-generator"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-004",
+      "name": "SSL Certificate Checker",
+      "slug": "ssl-checker",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Check SSL certificate validity, expiry date, TLS version, cipher suite, and certificate chain for any domain.",
+      "seoTitle": "Free SSL Certificate Checker — Check SSL Expiry Online | UtilityMega",
+      "metaDescription": "Check SSL/TLS certificate details for any domain: validity, expiry date, issuer, TLS version, cipher suite, HSTS status, SANs, and full certificate chain.",
+      "h1": "SSL Certificate Checker",
+      "canonicalUrl": "https://utilitymega.com/security-tools/ssl-checker",
+      "keywords": [
+        "SSL certificate checker",
+        "check SSL expiry",
+        "SSL validator online",
+        "TLS checker",
+        "HTTPS checker",
+        "certificate chain checker",
+        "SSL expiry date"
+      ],
+      "content": "Inspect SSL/TLS certificate details for any domain. Shows validity status, days until expiry, issuer and CA chain, TLS version, cipher suite, HSTS status, and Subject Alternative Names (SANs). Alerts when certificates expire within 30 days.",
+      "faq": [
+        {
+          "question": "When should I renew my SSL certificate?",
+          "answer": "Renew at least 30 days before expiry. Let's Encrypt auto-renews at 30 days. Paid certificates should be renewed 60+ days before expiry to allow processing time."
+        },
+        {
+          "question": "What causes SSL certificate errors?",
+          "answer": "Expired certificate, domain mismatch, self-signed certificate (not trusted by browsers), broken certificate chain, or a revoked certificate."
+        },
+        {
+          "question": "What is TLS 1.3?",
+          "answer": "TLS 1.3 (released 2018) is the latest version. It's faster (1-RTT handshake) and more secure than TLS 1.2. All modern browsers support it."
+        }
+      ],
+      "relatedTools": [
+        "cors-tester",
+        "csp-generator",
+        "ip-lookup"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "SSL Checker",
+          "url": "/security-tools/ssl-checker"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-005",
+      "name": "CORS Tester",
+      "slug": "cors-tester",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Test CORS headers for any URL, diagnose cross-origin errors, and get exact server configuration fixes.",
+      "seoTitle": "Free CORS Tester — Test Cross-Origin Headers & Fix Errors | UtilityMega",
+      "metaDescription": "Test CORS (Cross-Origin Resource Sharing) configuration for any API endpoint. Checks all Access-Control headers, preflight OPTIONS response, and provides exact server-side fixes.",
+      "h1": "CORS Tester & Debugger",
+      "canonicalUrl": "https://utilitymega.com/security-tools/cors-tester",
+      "keywords": [
+        "CORS tester",
+        "CORS checker",
+        "test CORS headers",
+        "Access-Control-Allow-Origin",
+        "CORS error checker",
+        "cross-origin debugger",
+        "CORS fix"
+      ],
+      "content": "Test CORS configuration for any API URL. Checks Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers, credentials support, and preflight OPTIONS response. Shows which headers are present/missing, whether your request would be blocked, and provides copy-paste server configuration fixes for Express.js, Nginx, and other frameworks.",
+      "faq": [
+        {
+          "question": "What causes CORS errors?",
+          "answer": "The server is not returning the Access-Control-Allow-Origin header matching your origin, or the preflight OPTIONS request is not handled correctly."
+        },
+        {
+          "question": "Can CORS be disabled in the browser?",
+          "answer": "Some extensions can disable CORS for testing. Never disable CORS in production — it is a critical security mechanism protecting users."
+        },
+        {
+          "question": "Why does CORS only affect browsers?",
+          "answer": "CORS is enforced by browsers to protect users. Server-to-server requests and tools like curl are not subject to CORS restrictions."
+        }
+      ],
+      "relatedTools": [
+        "ssl-checker",
+        "csp-generator",
+        "ip-lookup"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "CORS Tester",
+          "url": "/security-tools/cors-tester"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-006",
+      "name": "CSP Generator",
+      "slug": "csp-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Build Content Security Policy headers visually with a security score, ready-made presets, and Nginx output.",
+      "seoTitle": "Free CSP Generator — Content Security Policy Builder | UtilityMega",
+      "metaDescription": "Generate Content Security Policy headers with a visual builder. Configure script-src, style-src, img-src and more. Get security score, HTML meta tag, and Nginx config. 5 presets included.",
+      "h1": "CSP Generator — Content Security Policy Builder",
+      "canonicalUrl": "https://utilitymega.com/security-tools/csp-generator",
+      "keywords": [
+        "CSP generator",
+        "Content Security Policy",
+        "CSP header builder",
+        "XSS protection",
+        "web security headers",
+        "CSP policy generator",
+        "Content-Security-Policy"
+      ],
+      "content": "Build a Content Security Policy with a visual checkbox interface covering all major directives: default-src, script-src, style-src, img-src, font-src, connect-src, and more. Shows security score (0–100), warns about unsafe-inline and unsafe-eval, outputs ready-to-use header string, HTML meta tag, and Nginx config. Includes 5 presets for SPA, WordPress, Google Fonts, minimal, and development modes.",
+      "faq": [
+        {
+          "question": "What does unsafe-inline mean in CSP?",
+          "answer": "It allows inline scripts and styles — significantly weakening XSS protection. Avoid unsafe-inline and use nonces or hashes instead when possible."
+        },
+        {
+          "question": "How do I deploy CSP?",
+          "answer": "Add as an HTTP response header: Content-Security-Policy: your-policy. Or use a meta tag (with limitations). Start with report-only mode to monitor before enforcing."
+        },
+        {
+          "question": "What is report-only mode?",
+          "answer": "Content-Security-Policy-Report-Only logs violations without blocking them. Use it to test your policy and find false positives before switching to enforcement."
+        }
+      ],
+      "relatedTools": [
+        "cors-tester",
+        "ssl-checker",
+        "hmac-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "CSP Generator",
+          "url": "/security-tools/csp-generator"
+        }
+      ]
+    },
+    {
+      "id": "tool-security-007",
+      "name": "Bcrypt Generator",
+      "slug": "bcrypt-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate bcrypt password hashes with configurable cost factor and verify passwords against bcrypt hashes.",
+      "seoTitle": "Free Bcrypt Generator — Hash & Verify Passwords Online | UtilityMega",
+      "metaDescription": "Generate bcrypt password hashes with cost factor 4–15. Verify passwords against bcrypt hashes. Shows hash anatomy, cost factor timing guide, and explains why bcrypt is preferred over SHA.",
+      "h1": "Bcrypt Generator & Verifier",
+      "canonicalUrl": "https://utilitymega.com/security-tools/bcrypt-generator",
+      "keywords": [
+        "bcrypt generator",
+        "bcrypt hash online",
+        "bcrypt password hash",
+        "verify bcrypt hash",
+        "bcrypt cost factor",
+        "password hashing",
+        "bcrypt vs SHA"
+      ],
+      "content": "Generate bcrypt hashes with configurable cost factor (4–15). Shows estimated computation time per cost level. Visual hash anatomy breaking down the version, cost, salt, and hash portions. Cost factor guide shows recommended settings. Verify passwords against existing bcrypt hashes. Explains why bcrypt is superior to SHA for password storage.",
+      "faq": [
+        {
+          "question": "Why use bcrypt instead of SHA for passwords?",
+          "answer": "SHA is fast — attackers can compute billions per second. Bcrypt is intentionally slow, limiting attackers to thousands/second. This makes brute-force attacks practically infeasible."
+        },
+        {
+          "question": "What cost factor should I use?",
+          "answer": "Cost 10 (~100ms) for standard web apps. Cost 12 (~400ms) for high-security systems. Increase cost factor as hardware improves to maintain ~100ms target."
+        },
+        {
+          "question": "Are generated hashes unique for the same password?",
+          "answer": "Yes. Bcrypt automatically generates a unique random salt for each hash, so hashing the same password twice produces different hashes — preventing rainbow table attacks."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-generator",
+        "hmac-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Security Tools",
+          "url": "/security-tools"
+        },
+        {
+          "label": "Bcrypt Generator",
+          "url": "/security-tools/bcrypt-generator"
+        }
+      ]
+    }
   ]
 }
