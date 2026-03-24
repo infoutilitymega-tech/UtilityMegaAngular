@@ -160,7 +160,7 @@
         "description": "Free developer utilities: JSON formatter, Base64 encoder, regex tester and more",
         "url": "https://utilitymega.com/developer-tools"
       },
-      "toolCount": 2
+      "toolCount": 9
     },
     {
       "id": "cat-05",
@@ -200,7 +200,7 @@
         "description": "Free text utilities: word counter, case converter, duplicate remover and more",
         "url": "https://utilitymega.com/text-tools"
       },
-      "toolCount": 2
+      "toolCount": 9
     },
     {
       "id": "cat-06",
@@ -2765,296 +2765,7 @@
         ]
       }
     },
-    {
-      "id": "tool-007",
-      "name": "JSON Formatter",
-      "slug": "json-formatter",
-      "categorySlug": "developer-tools",
-      "categoryName": "Developer Tools",
-      "shortDescription": "Format, validate, and beautify JSON data with syntax highlighting.",
-      "seoTitle": "Free JSON Formatter - Validate & Beautify JSON Online",
-      "metaDescription": "Free online JSON formatter and validator. Beautify minified JSON, validate syntax, and view JSON in a tree structure. No login required.",
-      "h1": "JSON Formatter — Format & Validate JSON Online",
-      "canonicalUrl": "https://utilitymega.com/developer-tools/json-formatter",
-      "keywords": [
-        "JSON formatter",
-        "JSON beautifier",
-        "JSON validator",
-        "format JSON online",
-        "JSON pretty print",
-        "JSON viewer",
-        "minify JSON",
-        "JSON syntax checker"
-      ],
-      "content": "JSON (JavaScript Object Notation) has become the universal language of data exchange in modern web development, APIs, and configuration files. Working with raw, minified JSON is error-prone and time-consuming. Our free JSON formatter instantly beautifies, validates, and visualizes any JSON data with intelligent syntax highlighting.\n\nPaste your JSON data and immediately see it formatted with proper indentation (2 or 4 spaces), color-coded syntax highlighting for keys, strings, numbers, booleans, and null values, and a collapsible tree view for navigating complex nested structures.\n\nJSON Validation and Error Detection\n\nInvalid JSON is one of the most common bugs in API development and configuration management. Our JSON validator pinpoints exactly where syntax errors occur — a missing comma, an extra bracket, or an unescaped character — with precise line and column information. This eliminates hours of manual debugging.\n\nJSON Minification\n\nFor production deployments, minified JSON reduces payload size and improves API response times. Our tool offers one-click minification that removes all whitespace while preserving data integrity. This is especially valuable for configuration files bundled with web applications and API responses where bandwidth efficiency matters.\n\nJSON to Other Format Conversion\n\nOur tool also supports converting JSON to CSV for spreadsheet import, JSON to XML for legacy system integration, and JSON to YAML for Kubernetes and Docker configuration files. These conversions are particularly useful for DevOps engineers and full-stack developers working across multiple technology stacks.\n\nCommon JSON Use Cases for Developers\n\nAPI response debugging: Paste raw API response to quickly understand data structure. Configuration validation: Verify JSON config files before deployment. Data transformation: Convert between JSON and other formats. Schema documentation: Use the tree view to document API payloads for your team.\n\nWith REST APIs now powering virtually every modern application, JSON formatting and validation tools have become essential daily utilities for developers. Our formatter works with JSON files of any size and complexity, from simple key-value pairs to deeply nested API payloads with arrays, objects, and mixed data types.",
-      "faq": [
-        {
-          "question": "What is JSON formatting?",
-          "answer": "JSON formatting (or pretty-printing) adds proper indentation and line breaks to compact JSON data, making it human-readable. Minified JSON works for machines but is nearly impossible for humans to read without formatting."
-        },
-        {
-          "question": "How do I validate JSON?",
-          "answer": "Paste your JSON into the validator. Valid JSON will be formatted and displayed. Invalid JSON will show a specific error message indicating the problem location (line number and character position)."
-        },
-        {
-          "question": "What is the difference between JSON and JSONP?",
-          "answer": "JSON is a data format. JSONP (JSON with Padding) is a legacy technique for cross-domain data requests that wraps JSON in a function call. Modern APIs use CORS instead of JSONP."
-        },
-        {
-          "question": "Can I format very large JSON files?",
-          "answer": "Yes. Our browser-based formatter handles JSON files up to several MB efficiently. For extremely large files (100MB+), consider using command-line tools like jq for better performance."
-        },
-        {
-          "question": "Is my JSON data safe when I paste it here?",
-          "answer": "Completely safe. All processing happens in your browser using JavaScript. Your JSON data is never sent to our servers. This is especially important when working with API keys or sensitive configuration data."
-        }
-      ],
-      "relatedTools": [
-        "base64-encoder",
-        "regex-tester",
-        "xml-formatter"
-      ],
-      "isPopular": true,
-      "isFeatured": true,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Developer Tools",
-          "url": "https://utilitymega.com/developer-tools"
-        },
-        {
-          "name": "JSON Formatter",
-          "url": "https://utilitymega.com/developer-tools/json-formatter"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free JSON Formatter - Validate & Beautify JSON Online",
-        "og:description": "Beautify, validate, minify JSON with syntax highlighting. Spot errors instantly. Free, browser-based.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/developer-tools/json-formatter",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free JSON Formatter | UtilityMega",
-        "twitter:description": "Format, validate, minify JSON with syntax highlighting. Free developer tool."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "JSON Formatter",
-        "description": "Format, validate, and beautify JSON with syntax highlighting, error detection, and minification.",
-        "url": "https://utilitymega.com/developer-tools/json-formatter",
-        "applicationCategory": "DeveloperApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Developer Tools",
-              "item": "https://utilitymega.com/developer-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "JSON Formatter",
-              "item": "https://utilitymega.com/developer-tools/json-formatter"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is JSON formatting?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "JSON formatting (or pretty-printing) adds proper indentation and line breaks to compact JSON data, making it human-readable. Minified JSON works for machines but is nearly impossible for humans to read without formatting."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I validate JSON?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Paste your JSON into the validator. Valid JSON will be formatted and displayed. Invalid JSON will show a specific error message indicating the problem location (line number and character position)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is my JSON data safe when I paste it here?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Completely safe. All processing happens in your browser using JavaScript. Your JSON data is never sent to our servers."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-008",
-      "name": "Base64 Encoder/Decoder",
-      "slug": "base64-encoder",
-      "categorySlug": "developer-tools",
-      "categoryName": "Developer Tools",
-      "shortDescription": "Encode and decode Base64 strings online with support for text, URLs, and files.",
-      "seoTitle": "Free Base64 Encoder Decoder - Encode & Decode Online",
-      "metaDescription": "Free Base64 encoder and decoder. Encode text, URLs, or files to Base64 and decode Base64 strings. Instant, browser-based tool.",
-      "h1": "Base64 Encoder / Decoder — Free Online Tool",
-      "canonicalUrl": "https://utilitymega.com/developer-tools/base64-encoder",
-      "keywords": [
-        "Base64 encoder",
-        "Base64 decoder",
-        "Base64 converter",
-        "encode Base64 online",
-        "decode Base64",
-        "Base64 URL encoder",
-        "file to Base64",
-        "Base64 string"
-      ],
-      "content": "Base64 encoding is a fundamental technique in web development, data transmission, and security protocols. Our free Base64 encoder and decoder handles text, URLs, and binary file encoding/decoding entirely in your browser with zero latency and complete privacy.\n\nWhat is Base64 Encoding?\n\nBase64 converts binary data into a text string using 64 printable ASCII characters (A–Z, a–z, 0–9, +, /). This enables binary data to be safely transmitted over text-based protocols like HTTP headers, JSON, and email (MIME). The encoded output is approximately 33% larger than the original data.\n\nCommon Use Cases for Base64\n\nData URIs for images: Embedding small images directly in HTML or CSS as data:image/png;base64,..., eliminating HTTP requests for small icons. Email attachments: MIME encoding uses Base64 to attach binary files to email messages. JWT tokens: JSON Web Tokens use Base64URL encoding for header and payload sections. API authentication: Basic Authentication encodes username:password in Base64 for HTTP headers. Environment variables: Storing binary configuration data (like SSL certificates) as Base64 strings in environment variables.\n\nBase64 vs Base64URL\n\nStandard Base64 uses + and / characters, which are special characters in URLs. Base64URL variant replaces + with - and / with _ to make encoded strings URL-safe. Our tool supports both variants with a simple toggle.\n\nFile to Base64 Encoding\n\nOur tool supports encoding entire files to Base64, which is useful for embedding small images as data URIs, storing binary configuration in JSON, and testing API endpoints that accept Base64-encoded file uploads. Simply drag and drop your file and get the Base64 string instantly.\n\nBase64 Decoding and Verification\n\nPaste any Base64 string to decode it back to text or binary. Our decoder automatically detects if the output is valid UTF-8 text or binary data, and displays the decoded content accordingly. Malformed Base64 strings are detected and flagged immediately.",
-      "faq": [
-        {
-          "question": "Is Base64 encoding the same as encryption?",
-          "answer": "No. Base64 is encoding, not encryption. It simply converts binary data to text using a reversible algorithm. Anyone can decode a Base64 string — it provides no security. Never use Base64 for sensitive data without actual encryption."
-        },
-        {
-          "question": "Why does Base64 output end with == signs?",
-          "answer": "Base64 works in 3-byte groups. If the input length is not a multiple of 3, padding characters (=) are added to make the output length a multiple of 4. One = means 1 byte padding; == means 2 bytes padding."
-        },
-        {
-          "question": "What is Base64URL encoding?",
-          "answer": "Base64URL replaces + with - and / with _ in the output, and typically omits padding =. This makes the encoded string safe to use in URLs and filenames without percent-encoding."
-        },
-        {
-          "question": "Can I encode images to Base64?",
-          "answer": "Yes. Use our file encoder to convert any image (JPG, PNG, GIF, SVG, WebP) to a Base64 data URI. This allows embedding images directly in HTML or CSS without additional HTTP requests."
-        },
-        {
-          "question": "How do I decode a JWT token?",
-          "answer": "A JWT token has three Base64URL-encoded parts separated by dots. Our tool decodes each part to reveal the header (algorithm), payload (claims), and signature. Note that the signature cannot be verified without the secret key."
-        }
-      ],
-      "relatedTools": [
-        "json-formatter",
-        "url-encoder",
-        "hash-generator"
-      ],
-      "isPopular": true,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Developer Tools",
-          "url": "https://utilitymega.com/developer-tools"
-        },
-        {
-          "name": "Base64 Encoder",
-          "url": "https://utilitymega.com/developer-tools/base64-encoder"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Base64 Encoder Decoder - Encode & Decode Online",
-        "og:description": "Encode text/files to Base64, decode Base64 strings, URL-encode. Free, browser-based, private.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/developer-tools/base64-encoder",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Base64 Encoder Decoder | UtilityMega",
-        "twitter:description": "Encode/decode Base64, URL encode, file to Base64. Free developer tool."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Base64 Encoder/Decoder",
-        "description": "Encode and decode Base64 strings for text, URLs, and files. Browser-based, private.",
-        "url": "https://utilitymega.com/developer-tools/base64-encoder",
-        "applicationCategory": "DeveloperApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Developer Tools",
-              "item": "https://utilitymega.com/developer-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Base64 Encoder",
-              "item": "https://utilitymega.com/developer-tools/base64-encoder"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Base64 encoding the same as encryption?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. Base64 is encoding, not encryption. It simply converts binary data to text using a reversible algorithm. Anyone can decode a Base64 string — it provides no security."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is Base64URL encoding?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Base64URL replaces + with - and / with _ in the output, making the encoded string safe to use in URLs and filenames without percent-encoding."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I encode images to Base64?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Use our file encoder to convert any image (JPG, PNG, GIF, SVG, WebP) to a Base64 data URI. This allows embedding images directly in HTML or CSS without additional HTTP requests."
-            }
-          }
-        ]
-      }
-    },
+    
     {
       "id": "tool-009",
       "name": "Word Counter",
@@ -5234,6 +4945,249 @@
           }
         ]
       }
-    }
+    },
+  {
+    "id": "tool-dev-001",
+    "name": "JSON Formatter",
+    "slug": "json-formatter",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Format, validate, and beautify JSON data with syntax highlighting and a tree view.",
+    "seoTitle": "Free JSON Formatter & Validator — Beautify JSON Online | UtilityMega",
+    "metaDescription": "Free JSON formatter, validator, and beautifier. Format minified JSON with syntax highlighting, collapsible tree view, minify, and export. No login required.",
+    "h1": "JSON Formatter & Validator",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/json-formatter",
+    "keywords": ["JSON formatter", "JSON beautifier", "JSON validator", "format JSON online", "JSON pretty print", "JSON minifier", "JSON tree viewer"],
+    "content": "Format and validate any JSON data instantly in your browser. Supports 2-space, 4-space, and tab indentation. Features syntax error detection with line/column info, collapsible tree view, minification, and JSON statistics.",
+    "faq": [
+      {"question": "What is JSON formatting?", "answer": "JSON formatting (pretty-printing) adds proper indentation and line breaks to compact JSON, making it human-readable. The opposite, minification, removes whitespace to reduce file size."},
+      {"question": "How do I validate JSON?", "answer": "Paste your JSON and the validator instantly shows whether it is valid or highlights the exact error with line and column information."},
+      {"question": "Is my JSON data safe?", "answer": "Completely safe. All processing happens in your browser — your JSON data is never sent to our servers."}
+    ],
+    "relatedTools": ["base64-encoder", "url-encoder", "regex-tester"],
+    "isPopular": true,
+    "isFeatured": true,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "JSON Formatter", "url": "/developer-tools/json-formatter"}
+    ]
+  },
+  {
+    "id": "tool-dev-002",
+    "name": "Base64 Encoder/Decoder",
+    "slug": "base64-encoder",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Encode and decode Base64 strings for text, files, and images with URL-safe support.",
+    "seoTitle": "Free Base64 Encoder & Decoder — Text, File & Image | UtilityMega",
+    "metaDescription": "Encode text, files, and images to Base64. Decode Base64 strings back to text. Supports URL-safe Base64, file data URI, and image preview. Free, browser-based.",
+    "h1": "Base64 Encoder & Decoder",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/base64-encoder",
+    "keywords": ["Base64 encoder", "Base64 decoder", "Base64 converter", "encode Base64 online", "decode Base64", "Base64 URL encoder", "file to Base64", "image to Base64"],
+    "content": "Encode and decode Base64 for text strings, file uploads (with data URI output), and image preview. Supports standard and URL-safe Base64 variants (replaces + with - and / with _). Three modes: text encode/decode, file encode, and image preview.",
+    "faq": [
+      {"question": "Is Base64 the same as encryption?", "answer": "No. Base64 is encoding — it converts binary to text using a reversible algorithm. Anyone can decode it. Never use Base64 for sensitive data without actual encryption."},
+      {"question": "Why does Base64 end with == signs?", "answer": "Base64 works in 3-byte groups. Padding (=) is added when input length is not a multiple of 3."},
+      {"question": "What is URL-safe Base64?", "answer": "URL-safe Base64 replaces + with - and / with _ so the output can be safely used in URLs without percent-encoding. Used in JWTs and OAuth tokens."}
+    ],
+    "relatedTools": ["json-formatter", "url-encoder", "hash-generator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "Base64 Encoder", "url": "/developer-tools/base64-encoder"}
+    ]
+  },
+    {
+    "id": "tool-dev-003",
+    "name": "Regex Tester",
+    "slug": "regex-tester",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Test and debug regular expressions with real-time match highlighting and capture group extraction.",
+    "seoTitle": "Free Regex Tester — Test Regular Expressions Online | UtilityMega",
+    "metaDescription": "Test JavaScript regular expressions online. Real-time match highlighting, capture groups, all flags (g, i, m, s, u). Includes 12 common patterns library.",
+    "h1": "Regex Tester & Debugger",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/regex-tester",
+    "keywords": ["regex tester", "regular expression tester", "regex online", "test regex JavaScript", "regex validator", "regex match highlighter", "regex debugger"],
+    "content": "Test regular expressions with real-time highlighting of all matches. Supports all JavaScript RegExp flags (g, i, m, s, u, y). Shows a detailed match table with indices and capture groups. Includes a library of 12 common patterns for email, phone, URLs, dates, and more.",
+    "faq": [
+      {"question": "What regex engine does this use?", "answer": "JavaScript's built-in RegExp engine, which follows ECMAScript standards. Compatible with Node.js, browser JavaScript, and TypeScript."},
+      {"question": "How do I find all matches?", "answer": "Enable the 'g' (global) flag to find all matches in the test string, not just the first one."},
+      {"question": "Can I test capture groups?", "answer": "Yes. Capture groups are shown in the matches table with their extracted values."}
+    ],
+    "relatedTools": ["json-formatter", "url-encoder", "diff-checker"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "Regex Tester", "url": "/developer-tools/regex-tester"}
+    ]
+  },
+  {
+    "id": "tool-dev-004",
+    "name": "UUID Generator",
+    "slug": "uuid-generator",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Generate UUID v1, v4, v5, and ULID identifiers with bulk generation and format options.",
+    "seoTitle": "Free UUID Generator — v4, v1, ULID Online | UtilityMega",
+    "metaDescription": "Generate UUID v4, v1, v5, and ULID identifiers online. Bulk generation up to 100. Format options: uppercase, no dashes, braces. UUID validator included.",
+    "h1": "UUID & ULID Generator",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/uuid-generator",
+    "keywords": ["UUID generator", "GUID generator", "UUID v4 generator", "unique ID generator", "random UUID online", "ULID generator", "UUID bulk generator"],
+    "content": "Generate cryptographically secure UUIDs in v4 (random), v1 (time-based), v5 (name-based), or ULID (sortable) formats. Bulk generate up to 100 at once. Format options include uppercase, removing dashes, and adding braces. Includes a UUID validator.",
+    "faq": [
+      {"question": "What is the difference between UUID v1 and v4?", "answer": "UUID v1 includes a timestamp and MAC address — sortable but potentially reveals system info. UUID v4 is fully random — most common for security-sensitive IDs."},
+      {"question": "Are generated UUIDs truly unique?", "answer": "UUID v4 has 2^122 possible values. The probability of collision is astronomically small — practically guaranteed unique for all real-world use cases."},
+      {"question": "What is a ULID?", "answer": "ULID (Universally Unique Lexicographically Sortable Identifier) is a 26-character alternative to UUID that is sortable by creation time — ideal for database primary keys."}
+    ],
+    "relatedTools": ["hash-generator", "base64-encoder", "json-formatter"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "UUID Generator", "url": "/developer-tools/uuid-generator"}
+    ]
+  },
+  {
+    "id": "tool-dev-005",
+    "name": "Cron Expression Generator",
+    "slug": "cron-generator",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Build and validate cron expressions with a visual schedule builder and next-run preview.",
+    "seoTitle": "Free Cron Expression Generator — Build & Test Cron Jobs | UtilityMega",
+    "metaDescription": "Generate cron expressions with a visual builder. See human-readable description and next 8 run times. 16 preset schedules. Linux and AWS EventBridge support.",
+    "h1": "Cron Expression Generator & Tester",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/cron-generator",
+    "keywords": ["cron expression generator", "cron job builder", "cron syntax validator", "cron schedule builder", "Linux cron", "AWS EventBridge cron", "cron next run"],
+    "content": "Build cron expressions with a visual 5-field editor. Get a plain-English description of your schedule and preview the next 8 run times. Includes 16 common schedule presets and a full syntax reference.",
+    "faq": [
+      {"question": "What is a cron expression?", "answer": "A cron expression is a string of 5 fields defining when a scheduled task runs: minute, hour, day-of-month, month, and day-of-week."},
+      {"question": "How do I run a job every 5 minutes?", "answer": "Use */5 in the minute field: `*/5 * * * *`. The */ syntax means 'every N' of that unit."},
+      {"question": "What is the difference between Linux cron and AWS EventBridge?", "answer": "AWS EventBridge uses a 6-field format (adds year) and uses ? for unspecified day fields. Standard Linux cron uses 5 fields."}
+    ],
+    "relatedTools": ["json-formatter", "regex-tester", "uuid-generator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "Cron Generator", "url": "/developer-tools/cron-generator"}
+    ]
+  },
+  {
+    "id": "tool-dev-006",
+    "name": "Color Converter",
+    "slug": "color-converter",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Convert colors between HEX, RGB, HSL, HSV, and CMYK with shades, tints, and a named colors palette.",
+    "seoTitle": "Free Color Converter — HEX, RGB, HSL, CMYK Online | UtilityMega",
+    "metaDescription": "Convert colors between HEX, RGB, RGBA, HSL, HSLA, HSV, and CMYK. Auto-generated shades and tints. CSS custom property and Tailwind output. 18 named colors palette.",
+    "h1": "Color Converter — HEX, RGB, HSL, CMYK",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/color-converter",
+    "keywords": ["color converter", "HEX to RGB", "RGB to HSL", "HEX to CMYK", "color code converter", "CSS color converter", "color format converter"],
+    "content": "Convert between all major color formats: HEX, RGB, RGBA, HSL, HSLA, HSV, and CMYK. Automatically generates 9 shades and 9 tints. Outputs CSS custom property and Tailwind arbitrary value syntax. Includes an 18-color named palette for quick selection.",
+    "faq": [
+      {"question": "What is the difference between RGB and CMYK?", "answer": "RGB is an additive model for screens (light). CMYK is subtractive for print (ink). The same color can look different in each medium."},
+      {"question": "How do I convert HEX to RGB?", "answer": "Split the 6-digit HEX into 3 pairs and convert each from hex to decimal. #FF5733 → R=255, G=87, B=51."},
+      {"question": "What is HSL useful for?", "answer": "HSL (Hue, Saturation, Lightness) makes it easy to create lighter/darker variants by adjusting L, or more/less vivid variants by adjusting S."}
+    ],
+    "relatedTools": ["json-formatter", "url-encoder", "base64-encoder"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "Color Converter", "url": "/developer-tools/color-converter"}
+    ]
+  },
+  {
+    "id": "tool-dev-007",
+    "name": "Diff Checker",
+    "slug": "diff-checker",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Compare two texts or code snippets side-by-side or in unified view with line-level diff.",
+    "seoTitle": "Free Diff Checker — Compare Text & Code Online | UtilityMega",
+    "metaDescription": "Compare two texts or code files side-by-side. Shows added, removed, and unchanged lines. Side-by-side and unified views. Shows exact diff statistics.",
+    "h1": "Diff Checker — Compare Text & Code",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/diff-checker",
+    "keywords": ["diff checker", "text compare online", "code diff tool", "compare two texts", "find differences text", "diff viewer online", "code comparison tool"],
+    "content": "Compare two blocks of text with line-level diffing. Highlights added lines in green and removed lines in red. Side-by-side view shows both versions simultaneously. Unified view shows a single stream with + and - markers. Diff statistics show exact counts.",
+    "faq": [
+      {"question": "What is a diff?", "answer": "A diff (difference) shows exactly what changed between two versions of text. Added lines are marked with +, removed lines with -."},
+      {"question": "Can I compare code files?", "answer": "Yes. Paste code from any language. The diff works on plain text, so any code can be compared."},
+      {"question": "What is the difference between side-by-side and unified view?", "answer": "Side-by-side shows both texts in parallel columns. Unified view shows a single text stream with additions and removals inline — similar to git diff output."}
+    ],
+    "relatedTools": ["json-formatter", "regex-tester", "markdown-editor"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "Diff Checker", "url": "/developer-tools/diff-checker"}
+    ]
+  },
+  {
+    "id": "tool-dev-008",
+    "name": "Markdown Editor",
+    "slug": "markdown-editor",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Write and preview Markdown with live HTML rendering, toolbar, and export to .md or .html.",
+    "seoTitle": "Free Markdown Editor — Live Preview, Export HTML | UtilityMega",
+    "metaDescription": "Online Markdown editor with live HTML preview. Toolbar for bold, italic, headers, tables, code blocks. Export as .md or .html. Word count and reading time.",
+    "h1": "Markdown Editor with Live Preview",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/markdown-editor",
+    "keywords": ["markdown editor online", "markdown preview", "markdown to HTML", "live markdown editor", "GFM markdown editor", "markdown toolbar", "export markdown HTML"],
+    "content": "Write Markdown and see a live HTML preview side-by-side. Includes a toolbar with 16 formatting buttons for bold, italic, headers, code blocks, tables, task lists, and more. Export as .md or .html. Shows real-time word count, character count, and estimated reading time.",
+    "faq": [
+      {"question": "What Markdown syntax is supported?", "answer": "Standard CommonMark plus GitHub Flavored Markdown (GFM): tables, task lists, strikethrough, fenced code blocks, and blockquotes."},
+      {"question": "Can I export my Markdown?", "answer": "Yes. Export as a .md file for GitHub/documentation, or as a complete .html file for direct use in websites."},
+      {"question": "What is the keyboard shortcut for bold?", "answer": "Click the B button in the toolbar, which wraps selected text in ** markers. Standard Markdown syntax works directly in the editor."}
+    ],
+    "relatedTools": ["diff-checker", "json-formatter", "url-encoder"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "Markdown Editor", "url": "/developer-tools/markdown-editor"}
+    ]
+  },
+  {
+    "id": "tool-dev-009",
+    "name": "JWT Decoder",
+    "slug": "jwt-decoder",
+    "categorySlug": "developer-tools",
+    "categoryName": "Developer Tools",
+    "shortDescription": "Decode and inspect JWT tokens to view header, payload claims, and expiry status.",
+    "seoTitle": "Free JWT Decoder — Decode JSON Web Tokens Online | UtilityMega",
+    "metaDescription": "Decode JWT tokens online. View header algorithm, payload claims with timestamps, and check expiry status. Supports HS256, RS256, ES256 and all JWT algorithms.",
+    "h1": "JWT Decoder & Inspector",
+    "canonicalUrl": "https://utilitymega.com/developer-tools/jwt-decoder",
+    "keywords": ["JWT decoder", "JSON Web Token decoder", "decode JWT online", "JWT token viewer", "JWT claims viewer", "JWT expiry checker", "JWT inspector"],
+    "content": "Decode any JWT token to inspect its header, payload claims, and signature. Automatically detects algorithm, parses timestamp claims (exp, iat, nbf) into human-readable dates, and shows expiry status. Color-coded visualization of all three JWT parts.",
+    "faq": [
+      {"question": "Can I verify a JWT signature?", "answer": "Decoding shows the header and payload without signature verification. Signature verification requires the secret key (HMAC) or public key (RSA/ECDSA)."},
+      {"question": "Is it safe to paste my JWT here?", "answer": "All decoding happens in your browser — nothing is sent to servers. Still, avoid pasting production tokens with sensitive data into any online tool."},
+      {"question": "What claims are in a JWT?", "answer": "Standard claims: sub (subject), iss (issuer), exp (expiry), iat (issued at), aud (audience). Applications add custom claims for user roles, permissions, etc."}
+    ],
+    "relatedTools": ["base64-encoder", "hash-generator", "json-formatter"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Developer Tools", "url": "/developer-tools"},
+      {"label": "JWT Decoder", "url": "/developer-tools/jwt-decoder"}
+    ]
+  }
   ]
 }

@@ -50,6 +50,9 @@ import { ImageColorPickerComponent, ImageToBase64Component, JpgToPngComponent, P
 import { BarcodeGeneratorComponent, ColorPickerToolComponent, IpLookupComponent, RomanNumeralConverterComponent, TimestampConverterComponent, UrlEncoderComponent } from './utility-tools-1.component';
 import { JsonLdGeneratorComponent, OgGeneratorComponent, OpenGraphTesterComponent, PageSpeedAnalyzerComponent, ReadabilityCheckerComponent, RobotsTxtGeneratorComponent, SchemaMarkupGeneratorComponent, SitemapGeneratorComponent, TitleDescriptionAnalyzerComponent, TwitterCardGeneratorComponent } from './seo-tools-all.component';
 import { StopwatchTimerComponent, ScreenRulerComponent, PomodoroComponent, TextToSpeechComponent, BaseConverterComponent, MorseCodeConverterComponent } from './utility-tools-2.component';
+import { CronGeneratorComponent, ColorConverterComponent, DiffCheckerComponent } from './cron-color-diff.component';
+import { MarkdownEditorComponent, JwtDecoderComponent } from './markdown-jwt.component';
+import { RegexTesterComponent, UuidGeneratorComponent } from './url-encoder-regex-uuid.component';
 
 
 /**
@@ -89,6 +92,13 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'json-formatter': JsonFormatterComponent,
   'base64-encoder': Base64EncoderComponent,
   'hash-generator': HashGeneratorComponent,
+  'regex-tester': RegexTesterComponent,
+  'uuid-generator': UuidGeneratorComponent,
+  'cron-generator': CronGeneratorComponent,
+  'color-converter': ColorConverterComponent,
+  'diff-checker': DiffCheckerComponent,
+  'markdown-editor': MarkdownEditorComponent,
+  'jwt-decoder': JwtDecoderComponent,
 
   // Text Tools
   'word-counter': WordCounterComponent,
@@ -112,6 +122,7 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'title-description-analyzer': TitleDescriptionAnalyzerComponent,
   'schema-markup-generator': SchemaMarkupGeneratorComponent,
   'open-graph-tester': OpenGraphTesterComponent,
+
   // Unit Converters
   'length-converter': LengthConverterComponent,
   'temperature-converter': TemperatureConverterComponent,

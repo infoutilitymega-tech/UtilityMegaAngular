@@ -7,128 +7,234 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule, FormsModule],
   template: `
-    <div class="tool-ui">
+    <div class="tool-wrap">
       <div class="mode-tabs">
-        <button class="mode-tab" [class.active]="mode==='encode'" (click)="mode='encode';convert()">🔒 Encode</button>
-        <button class="mode-tab" [class.active]="mode==='decode'" (click)="mode='decode';convert()">🔓 Decode</button>
-        <button class="mode-tab" [class.active]="mode==='url'" (click)="mode='url';convert()">🔗 URL Encode</button>
-        <button class="mode-tab" [class.active]="mode==='urldec'" (click)="mode='urldec';convert()">🔗 URL Decode</button>
+        <button *ngFor="let m of modes" [class.active]="mode()===m.key" (click)="setMode(m.key)">{{m.label}}</button>
       </div>
 
-      <div class="editor-pane">
-        <div class="pane-label">{{ mode === 'encode' || mode === 'url' ? 'Input Text' : 'Base64 / Encoded Input' }}</div>
-        <textarea class="b64-area" [(ngModel)]="input" (input)="convert()"
-          [placeholder]="placeholder()" rows="6" spellcheck="false"></textarea>
-        <div class="char-count">{{ input.length }} characters</div>
-      </div>
-
-      <div class="convert-arrow">
-        <button class="convert-btn" (click)="convert()">
-          {{ arrowLabel() }}
-        </button>
-        <button class="swap-btn" (click)="swap()">⇅ Swap</button>
-      </div>
-
-      <div class="editor-pane">
-        <div class="pane-label-row">
-          <span class="pane-label">Output</span>
-          <div class="output-actions">
-            <button class="sm-btn" (click)="copy()">{{ copied() ? '✓ Copied' : '📋 Copy' }}</button>
-            <button class="sm-btn" (click)="clear()">🗑 Clear</button>
+      <!-- Text encode/decode -->
+      <div *ngIf="mode()==='text'">
+        <div class="io-grid">
+          <div class="io-box">
+            <div class="io-header">
+              <label class="io-label">Plain Text Input</label>
+              <div class="io-actions">
+                <label class="chk-label"><input type="checkbox" [(ngModel)]="urlSafe" (change)="convert()" /> URL-safe</label>
+              </div>
+            </div>
+            <textarea [(ngModel)]="textInput" (ngModelChange)="convert()" class="io-ta" rows="7" placeholder="Enter text to encode to Base64..."></textarea>
+            <div class="ta-footer">{{textInput.length}} chars</div>
+          </div>
+          <div class="io-box">
+            <div class="io-header">
+              <label class="io-label">Base64 Output</label>
+              <button class="copy-btn" (click)="copy(b64Output)">📋 Copy</button>
+            </div>
+            <textarea class="io-ta output" [value]="b64Output" readonly rows="7"></textarea>
+            <div class="ta-footer">{{b64Output.length}} chars · {{ratio()}}x size</div>
           </div>
         </div>
-        <textarea class="b64-area output" readonly [value]="output()" rows="6" spellcheck="false"></textarea>
-        <div class="status-msg" [class]="statusClass()">{{ status() }}</div>
+        <div class="divider"><span>⇅ Decode</span></div>
+        <div class="io-grid">
+          <div class="io-box">
+            <label class="io-label">Base64 Input</label>
+            <textarea [(ngModel)]="b64Input" (ngModelChange)="decode()" class="io-ta" rows="5" placeholder="Paste Base64 string to decode..."></textarea>
+          </div>
+          <div class="io-box">
+            <div class="io-header">
+              <label class="io-label">Decoded Text</label>
+              <button class="copy-btn" (click)="copy(decodedOutput)">📋 Copy</button>
+            </div>
+            <textarea class="io-ta output" [value]="decodedOutput" readonly rows="5"></textarea>
+            <div class="error-inline" *ngIf="decodeError()">⚠️ {{decodeError()}}</div>
+          </div>
+        </div>
       </div>
 
-      <!-- File to Base64 -->
-      <div class="file-section">
-        <div class="pane-label">File → Base64</div>
-        <label class="file-drop">
-          <input type="file" (change)="encodeFile($event)" class="file-hidden" />
-          <span>📂 Drop file or click to encode as Base64</span>
-        </label>
+      <!-- File encode -->
+      <div *ngIf="mode()==='file'">
+        <div class="upload-zone" (dragover)="$event.preventDefault()" (drop)="onFileDrop($event)" (click)="fileInput.click()">
+          <div class="uz-icon">📁</div>
+          <div class="uz-text">Drop any file here or <span class="uz-link">click to browse</span></div>
+          <div class="uz-sub">Any file type supported — image, PDF, audio, video</div>
+          <input #fileInput type="file" (change)="onFileSelect($event)" style="display:none" />
+        </div>
+        <div class="file-result" *ngIf="fileName()">
+          <div class="fr-header">
+            <div class="fr-info">
+              <span class="fr-name">{{fileName()}}</span>
+              <span class="fr-size">{{fileSize()}}</span>
+              <span class="fr-type">{{fileType()}}</span>
+            </div>
+            <div class="fr-actions">
+              <button class="btn-action" (click)="copy(fileB64.startsWith('data:')?fileB64:dataUri())">📋 Copy Data URI</button>
+              <button class="btn-action secondary" (click)="copy(pureB64())">📋 Copy Pure Base64</button>
+            </div>
+          </div>
+          <textarea class="io-ta output file-ta" [value]="fileB64" readonly rows="6"></textarea>
+          <div class="encode-ratio">Original: {{origBytes()}} bytes → Base64: {{fileB64.length}} chars (~{{Math.ceil(fileB64.length/1.37)}} bytes, {{Math.round((fileB64.length/origBytes()-1)*100)}}% larger)</div>
+        </div>
+      </div>
+
+      <!-- Image preview -->
+      <div *ngIf="mode()==='image'">
+        <div class="io-grid">
+          <div class="io-box">
+            <label class="io-label">Paste Base64 Image / Data URI</label>
+            <textarea [(ngModel)]="imgInput" (ngModelChange)="previewImage()" class="io-ta" rows="8" placeholder="Paste Base64 image string or full data URI here...&#10;&#10;data:image/png;base64,iVBORw0KGgo..."></textarea>
+          </div>
+          <div class="io-box">
+            <label class="io-label">Image Preview</label>
+            <div class="img-preview" *ngIf="previewSrc()">
+              <img [src]="previewSrc()" class="preview-img" alt="Base64 preview" />
+            </div>
+            <div class="img-placeholder" *ngIf="!previewSrc()">🖼️ Image will appear here</div>
+            <div class="error-inline" *ngIf="imgError()">⚠️ {{imgError()}}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reference -->
+      <div class="ref-section">
+        <div class="ref-title">Base64 Encoding Rules</div>
+        <div class="ref-grid">
+          <div class="ref-item" *ngFor="let r of refItems"><span class="ri-label">{{r.label}}</span><span class="ri-val">{{r.val}}</span></div>
+        </div>
       </div>
     </div>
   `,
   styles: [`
-    .tool-ui { padding: 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
-    .mode-tabs { display: flex; gap: .35rem; flex-wrap: wrap; }
-    .mode-tab { padding: .4rem .85rem; border-radius: 8px; border: 1.5px solid var(--border); background: var(--card-bg); color: var(--text-muted); font-size: .8rem; font-weight: 600; cursor: pointer; font-family: var(--font); transition: all .15s; }
-    .mode-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .editor-pane { display: flex; flex-direction: column; gap: .3rem; }
-    .pane-label { font-size: .75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; }
-    .pane-label-row { display: flex; align-items: center; justify-content: space-between; }
-    .output-actions { display: flex; gap: .35rem; }
-    .b64-area { width: 100%; padding: .85rem; border: 1.5px solid var(--border); border-radius: 10px; font-family: 'Courier New', monospace; font-size: .82rem; line-height: 1.6; background: var(--input-bg); color: var(--text); resize: vertical; outline: none; box-sizing: border-box; }
-    .b64-area:focus { border-color: var(--primary); }
-    .b64-area.output { background: var(--bg-alt); }
-    .char-count { font-size: .7rem; color: var(--text-muted); text-align: right; }
-    .convert-arrow { display: flex; align-items: center; gap: .5rem; }
-    .convert-btn { flex: 1; padding: .6rem; border-radius: 10px; border: none; background: var(--primary); color: #fff; font-size: .9rem; font-weight: 700; cursor: pointer; font-family: var(--font); transition: opacity .15s; }
-    .convert-btn:hover { opacity: .88; }
-    .swap-btn { padding: .6rem 1rem; border-radius: 10px; border: 1.5px solid var(--border); background: var(--card-bg); color: var(--text); font-size: .82rem; font-weight: 600; cursor: pointer; font-family: var(--font); transition: all .15s; }
-    .swap-btn:hover { border-color: var(--primary); color: var(--primary); }
-    .sm-btn { padding: .3rem .65rem; border-radius: 7px; border: 1.5px solid var(--border); background: var(--card-bg); color: var(--text-muted); font-size: .75rem; font-weight: 600; cursor: pointer; font-family: var(--font); transition: all .15s; }
-    .sm-btn:hover { border-color: var(--primary); color: var(--primary); }
-    .status-msg { font-size: .75rem; font-weight: 600; margin-top: .2rem; }
-    .status-msg.success { color: #16a34a; }
-    .status-msg.error { color: #ef4444; }
-    .status-msg.info { color: var(--primary); }
-    .file-section { display: flex; flex-direction: column; gap: .4rem; }
-    .file-drop { display: flex; align-items: center; justify-content: center; padding: 1rem; border: 2px dashed var(--border); border-radius: 10px; cursor: pointer; color: var(--text-muted); font-size: .85rem; transition: all .15s; }
-    .file-drop:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-light); }
-    .file-hidden { display: none; }
+    .tool-wrap{padding:1.25rem}
+    .mode-tabs{display:flex;gap:.35rem;background:#f3f4f6;border-radius:8px;padding:.3rem;margin-bottom:1rem}
+    .mode-tabs button{flex:1;padding:.4rem;border:none;background:none;border-radius:6px;font-size:.82rem;font-weight:600;cursor:pointer;color:#6b7280}
+    .mode-tabs button.active{background:white;color:#2563eb;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+    .io-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:.85rem}
+    @media(max-width:680px){.io-grid{grid-template-columns:1fr}}
+    .io-box{display:flex;flex-direction:column;gap:.3rem}
+    .io-header{display:flex;justify-content:space-between;align-items:center}
+    .io-label{font-size:.72rem;font-weight:700;color:#6b7280;text-transform:uppercase}
+    .io-actions{display:flex;align-items:center;gap:.5rem}
+    .chk-label{font-size:.75rem;font-weight:600;display:flex;align-items:center;gap:.25rem;cursor:pointer}
+    .io-ta{width:100%;padding:.55rem .75rem;border:1px solid #d1d5db;border-radius:8px;font-size:.82rem;font-family:monospace;resize:vertical;outline:none;box-sizing:border-box;line-height:1.5}
+    .io-ta.output{background:#f8fafc;color:#374151}
+    .ta-footer{font-size:.68rem;color:#9ca3af;text-align:right}
+    .copy-btn{background:#eff6ff;border:1px solid #bfdbfe;color:#2563eb;border-radius:6px;padding:.2rem .65rem;cursor:pointer;font-size:.72rem;font-weight:700}
+    .divider{display:flex;align-items:center;gap:.75rem;margin:.75rem 0;color:#9ca3af;font-size:.78rem;font-weight:600}
+    .divider::before,.divider::after{content:'';flex:1;border-top:1px solid #e5e7eb}
+    .error-inline{color:#dc2626;font-size:.75rem;margin-top:.25rem}
+    .upload-zone{border:2px dashed #d1d5db;border-radius:12px;padding:2.5rem 1.5rem;text-align:center;cursor:pointer;transition:all .2s;margin-bottom:1rem}
+    .upload-zone:hover{border-color:#2563eb;background:#eff6ff}
+    .uz-icon{font-size:2.5rem;margin-bottom:.65rem}
+    .uz-text{font-size:.9rem;font-weight:600;color:#374151;margin-bottom:.3rem}
+    .uz-link{color:#2563eb;text-decoration:underline}
+    .uz-sub{font-size:.75rem;color:#9ca3af}
+    .file-result{background:#f8fafc;border:1px solid #e5e7eb;border-radius:10px;padding:.85rem 1rem}
+    .fr-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:.5rem;margin-bottom:.75rem}
+    .fr-info{display:flex;flex-direction:column;gap:.15rem}
+    .fr-name{font-size:.85rem;font-weight:700;color:#111827}
+    .fr-size,.fr-type{font-size:.72rem;color:#6b7280}
+    .fr-actions{display:flex;gap:.4rem;flex-wrap:wrap}
+    .btn-action{background:#2563eb;color:white;border:none;border-radius:7px;padding:.35rem .85rem;cursor:pointer;font-size:.78rem;font-weight:700}
+    .btn-action.secondary{background:#f3f4f6;border:1px solid #e5e7eb;color:#374151}
+    .file-ta{min-height:130px}
+    .encode-ratio{font-size:.72rem;color:#6b7280;margin-top:.4rem}
+    .img-preview,.img-placeholder{background:#f3f4f6;border:1px solid #e5e7eb;border-radius:8px;min-height:180px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .preview-img{max-width:100%;max-height:240px;object-fit:contain}
+    .img-placeholder{color:#9ca3af;font-size:1.5rem;flex-direction:column;gap:.5rem}
+    .ref-section{background:#f8fafc;border:1px solid #e5e7eb;border-radius:10px;padding:.85rem 1rem;margin-top:.85rem}
+    .ref-title{font-size:.72rem;font-weight:700;text-transform:uppercase;color:#6b7280;margin-bottom:.6rem}
+    .ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.4rem}
+    .ref-item{background:white;border:1px solid #e5e7eb;border-radius:6px;padding:.4rem .75rem;display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+    .ri-label{font-size:.75rem;color:#374151}.ri-val{font-size:.72rem;font-family:monospace;color:#2563eb;font-weight:600}
   `]
 })
 export class Base64EncoderComponent {
-  mode = 'encode';
-  input = '';
-  output = signal('');
-  status = signal('');
-  statusClass = signal('info');
-  copied = signal(false);
+  Math = Math;
+  mode = signal<'text'|'file'|'image'>('text');
+  textInput = 'Hello, World! नमस्ते 🙏'; urlSafe = false;
+  b64Output = ''; b64Input = ''; decodedOutput = '';
+  decodeError = signal(''); fileB64 = '';
+  imgInput = ''; previewSrc = signal(''); imgError = signal('');
+  fileName = signal(''); fileSize = signal(''); fileType = signal('');
+  private _origBytes = 0;
 
-  placeholder() {
-    const m: Record<string,string> = { encode: 'Enter text to encode to Base64...', decode: 'Paste Base64 string to decode...', url: 'Enter text to URL encode...', urldec: 'Paste URL encoded string to decode...' };
-    return m[this.mode];
-  }
+  modes :{ key: Base64Mode; label: string }[] = [{key:'text',label:'📝 Text'},{key:'file',label:'📁 File'},{key:'image',label:'🖼️ Image Preview'}];
 
-  arrowLabel() {
-    const m: Record<string,string> = { encode: '🔒 Encode to Base64 →', decode: '🔓 Decode from Base64 →', url: '🔗 URL Encode →', urldec: '🔗 URL Decode →' };
-    return m[this.mode];
-  }
 
-  convert() {
-    if (!this.input) { this.output.set(''); this.status.set(''); return; }
-    try {
-      switch (this.mode) {
-        case 'encode': this.output.set(btoa(unescape(encodeURIComponent(this.input)))); this.status.set(`✅ Encoded — ${this.output().length} chars`); this.statusClass.set('success'); break;
-        case 'decode':
-          const dec = decodeURIComponent(escape(atob(this.input)));
-          this.output.set(dec); this.status.set(`✅ Decoded — ${dec.length} chars`); this.statusClass.set('success'); break;
-        case 'url': this.output.set(encodeURIComponent(this.input)); this.status.set('✅ URL encoded'); this.statusClass.set('success'); break;
-        case 'urldec': this.output.set(decodeURIComponent(this.input)); this.status.set('✅ URL decoded'); this.statusClass.set('success'); break;
-      }
-    } catch (e: any) {
-      this.output.set(''); this.status.set('❌ Error: ' + e.message); this.statusClass.set('error');
-    }
-  }
+  refItems = [
+    {label:'Alphabet',val:'A–Z, a–z, 0–9, +, /'},
+    {label:'URL-safe alphabet',val:'A–Z, a–z, 0–9, -, _'},
+    {label:'Padding character',val:'= (1 or 2 chars)'},
+    {label:'Output size',val:'⌈n/3⌉ × 4 bytes'},
+    {label:'Size increase',val:'~33% larger than input'},
+    {label:'MIME type (images)',val:'data:[type];base64,...'},
+  ];
 
-  swap() { this.input = this.output(); this.convert(); }
-  clear() { this.input = ''; this.output.set(''); this.status.set(''); }
-  copy() { navigator.clipboard.writeText(this.output()).then(() => { this.copied.set(true); setTimeout(() => this.copied.set(false), 2000); }); }
+  constructor() { this.convert(); }
 
-  encodeFile(ev: Event) {
-    const file = (ev.target as HTMLInputElement).files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      const b64 = (reader.result as string).split(',')[1];
-      this.output.set(`data:${file.type};base64,${b64}`);
-      this.status.set(`✅ ${file.name} encoded — ${(b64.length / 1024).toFixed(1)} KB`);
-      this.statusClass.set('success');
-    };
-    reader.readAsDataURL(file);
-  }
+  reset() { this.b64Output=''; this.b64Input=''; this.decodedOutput=''; this.fileB64=''; this.imgInput=''; this.previewSrc.set(''); this.imgError.set(''); this.decodeError.set(''); this.fileName.set(''); }
+
+  setMode(m: Base64Mode) {
+  this.mode.set(m);
+  this.reset();
 }
+  
+  convert() {
+    try {
+      let encoded = btoa(unescape(encodeURIComponent(this.textInput)));
+      if (this.urlSafe) encoded = encoded.replace(/\+/g,'-').replace(/\//g,'_').replace(/=/g,'');
+      this.b64Output = encoded;
+    } catch { this.b64Output = 'Error: invalid input'; }
+  }
+
+  decode() {
+    this.decodeError.set('');
+    try {
+      let s = this.b64Input.trim();
+      if (this.urlSafe) s = s.replace(/-/g,'+').replace(/_/g,'/');
+      while (s.length % 4) s += '=';
+      this.decodedOutput = decodeURIComponent(escape(atob(s)));
+    } catch (e: any) { this.decodeError.set('Invalid Base64 string'); this.decodedOutput = ''; }
+  }
+
+  ratio() { return this.textInput.length ? (this.b64Output.length / this.textInput.length).toFixed(2) : '—'; }
+
+  onFileDrop(e: DragEvent) {
+    e.preventDefault();
+    const f = e.dataTransfer?.files[0];
+    if (f) this.encodeFile(f);
+  }
+  onFileSelect(e: Event) {
+    const f = (e.target as HTMLInputElement).files?.[0];
+    if (f) this.encodeFile(f);
+  }
+
+  encodeFile(f: File) {
+    this.fileName.set(f.name);
+    this.fileSize.set(this.formatBytes(f.size));
+    this.fileType.set(f.type || 'application/octet-stream');
+    this._origBytes = f.size;
+    const r = new FileReader();
+    r.onload = () => { this.fileB64 = r.result as string; };
+    r.readAsDataURL(f);
+  }
+
+  pureB64() { return this.fileB64.split(',')[1] || this.fileB64; }
+  dataUri() { return this.fileB64; }
+  origBytes() { return this._origBytes; }
+  formatBytes(n: number) { if (n < 1024) return n + ' B'; if (n < 1048576) return (n/1024).toFixed(1) + ' KB'; return (n/1048576).toFixed(2) + ' MB'; }
+
+  previewImage() {
+    this.imgError.set('');
+    const s = this.imgInput.trim();
+    if (!s) { this.previewSrc.set(''); return; }
+    const src = s.startsWith('data:') ? s : `data:image/png;base64,${s}`;
+    const img = new Image();
+    img.onload = () => this.previewSrc.set(src);
+    img.onerror = () => { this.imgError.set('Not a valid image'); this.previewSrc.set(''); };
+    img.src = src;
+  }
+
+  copy(t: string) { navigator.clipboard.writeText(t); }
+}
+type Base64Mode = 'text' | 'file' | 'image';
