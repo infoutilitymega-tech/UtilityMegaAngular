@@ -202,46 +202,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/video-trimmer</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/gif-maker</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/video-to-mp3</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/video-merger</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/screen-recorder</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/video-speed-changer</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/video-rotate</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/video-tools/video-subtitle-adder</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  
 
   <!-- ── Developer Tools (10 tools) ────────────────────────────────────── -->
   <url>
@@ -306,46 +267,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/lorem-ipsum-generator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/duplicate-line-remover</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/find-and-replace</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/text-to-slug</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/text-reverser</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/line-sorter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/string-encoder</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/text-tools/text-diff-highlighter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  
 
   <!-- ── Security Tools (10 tools) ─────────────────────────────────────── -->
   <url>
@@ -353,11 +275,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/security-tools/hash-generator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://utilitymega.com/security-tools/password-strength-checker</loc>
     <changefreq>monthly</changefreq>
@@ -378,11 +296,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/security-tools/ip-lookup</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://utilitymega.com/security-tools/cors-tester</loc>
     <changefreq>monthly</changefreq>
@@ -462,46 +376,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/weight-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/area-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/speed-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/volume-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/pressure-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/energy-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/data-storage-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/unit-converters/time-converter</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  
 
   <!-- ── Utility Tools (10 tools) ──────────────────────────────────────── -->
   <url>
@@ -566,45 +441,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/irrigation-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/soil-ph-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/seed-rate-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/pesticide-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/farm-income-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/livestock-feed-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/weather-crop-advisor</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://utilitymega.com/farmers-tools/msp-calculator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  
 
 </urlset>
