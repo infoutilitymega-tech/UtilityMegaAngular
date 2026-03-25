@@ -405,7 +405,7 @@
           "name": "India"
         }
       },
-      "toolCount": 2
+      "toolCount": 10
     }
   ],
   "tools": [
@@ -4357,304 +4357,277 @@
         }
       ]
     },
+ 
     {
-      "id": "tool-019",
-      "name": "Crop Yield Calculator",
-      "slug": "crop-yield-calculator",
-      "categorySlug": "farmers-tools",
-      "categoryName": "Farmers Tools",
-      "shortDescription": "Calculate estimated crop yield per acre or hectare based on crop type and conditions.",
-      "seoTitle": "Free Crop Yield Calculator - Estimate Farm Production",
-      "metaDescription": "Calculate estimated crop yield for wheat, rice, cotton, and more. Enter field area, crop variety, and conditions for yield estimates.",
-      "h1": "Crop Yield Calculator — Estimate Farm Yield Free",
-      "canonicalUrl": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
-      "keywords": [
-        "crop yield calculator",
-        "farm yield estimator",
-        "wheat yield calculator",
-        "rice yield calculator",
-        "agricultural yield",
-        "crop production calculator",
-        "harvest yield",
-        "farming calculator"
-      ],
-      "content": "Accurate crop yield estimation is critical for farm planning, input purchasing, financing, crop insurance, and marketing decisions. Our free crop yield calculator helps farmers, agronomists, and agricultural advisors estimate expected production based on field area, crop type, planting density, and growing conditions.\n\nHow Crop Yield is Measured\n\nCrop yield is typically measured as: Quintals per acre (q/acre) or quintals per hectare (q/ha) in India. Bushels per acre in the United States. Tonnes per hectare globally. Our calculator supports all these units with automatic conversion.\n\nKey Factors Affecting Crop Yield\n\nSeed variety: High-yielding varieties (HYV) can produce 2–3× more than traditional varieties. Use certified seeds from registered dealers. Soil health: Optimal pH (6.0–7.5 for most crops), adequate organic matter, and micronutrient availability directly impact yield. Irrigation: Water-stressed crops show 20–50% yield reduction. Proper timing and quantity of irrigation is critical. Fertilization: Balanced NPK (Nitrogen, Phosphorus, Potassium) application based on soil test results. Over-fertilization is wasteful and under-fertilization limits yield. Pest and disease management: Timely intervention prevents 15–40% yield losses. Weather: Temperature extremes, unseasonal rain, and drought can significantly reduce actual yield below potential.\n\nCrop-Specific Yield Benchmarks (India)\n\nWheat: 35–50 q/ha (improved varieties). Rice: 40–60 q/ha (irrigated), 20–30 q/ha (rainfed). Maize: 50–70 q/ha (hybrid varieties). Cotton: 15–20 q/ha (lint yield). Sugarcane: 700–900 q/ha. Soybean: 20–30 q/ha.\n\nYield Gap Analysis\n\nThe yield gap is the difference between potential yield (under ideal conditions) and actual farm yield. In India, the yield gap for major crops is 30–50% due to sub-optimal practices. Our calculator helps you identify where your yield stands relative to potential and where improvement opportunities exist.\n\nFor bank loan applications, crop insurance claims, and government subsidy applications, having calculated yield estimates with documented basis is essential.",
-      "faq": [
-        {
-          "question": "How is crop yield calculated per acre?",
-          "answer": "Crop yield per acre = (Total plot production in kg) ÷ (Total area in acres). For standing crop estimation, take sample measurements from 3–5 spots: count plants/m², estimate grains/plant, and multiply by grain weight."
-        },
-        {
-          "question": "What is a good wheat yield per acre in India?",
-          "answer": "Good wheat yield in India ranges from 18–22 quintals per acre (45–55 q/ha) for irrigated fields with improved varieties. National average is around 14–16 q/acre. Top farmers achieve 25+ q/acre with optimal management."
-        },
-        {
-          "question": "How does soil type affect crop yield?",
-          "answer": "Heavy clay soils retain water well but may have drainage issues. Sandy soils drain fast but have poor nutrient retention. Loamy soils are ideal for most crops. Conduct a soil test to determine amendments needed for your specific soil type."
-        },
-        {
-          "question": "What is yield estimation for crop insurance?",
-          "answer": "Crop insurance yield estimation uses the Crop Cutting Experiment (CCE) method — government-supervised harvesting of a sample plot to determine actual yield for insurance claim purposes under PMFBY scheme."
-        },
-        {
-          "question": "How can I increase my crop yield?",
-          "answer": "Key yield improvement strategies: use certified HYV seeds, conduct soil testing and apply balanced fertilizers, ensure timely irrigation, adopt integrated pest management, use mulching to conserve moisture, and follow recommended crop spacing for your variety."
-        }
-      ],
-      "relatedTools": [
-        "fertilizer-calculator",
-        "irrigation-calculator",
-        "soil-ph-calculator"
-      ],
-      "isPopular": true,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Farmers Tools",
-          "url": "https://utilitymega.com/farmers-tools"
-        },
-        {
-          "name": "Crop Yield Calculator",
-          "url": "https://utilitymega.com/farmers-tools/crop-yield-calculator"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Crop Yield Calculator - Estimate Farm Production",
-        "og:description": "Calculate crop yield for wheat, rice, cotton, maize. Compare with national average. MSP revenue estimate. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Crop Yield Calculator | UtilityMega",
-        "twitter:description": "Estimate crop yield for wheat, rice, cotton. MSP revenue, yield chart. Free for Indian farmers."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Crop Yield Calculator",
-        "description": "Calculate estimated crop yield for Indian farms with variety selection, irrigation and soil quality factors.",
-        "url": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
-        "applicationCategory": "UtilityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "INR"
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "India"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Farmers Tools",
-              "item": "https://utilitymega.com/farmers-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Crop Yield Calculator",
-              "item": "https://utilitymega.com/farmers-tools/crop-yield-calculator"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How is crop yield calculated per acre?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Crop yield per acre = (Total plot production in kg) ÷ (Total area in acres). For standing crop estimation, take sample measurements from 3–5 spots: count plants/m², estimate grains/plant, and multiply by grain weight."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is a good wheat yield per acre in India?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Good wheat yield in India ranges from 18–22 quintals per acre (45–55 q/ha) for irrigated fields with improved varieties. National average is around 14–16 q/acre. Top farmers achieve 25+ q/acre with optimal management."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How can I increase my crop yield?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Key yield improvement strategies: use certified HYV seeds, conduct soil testing and apply balanced fertilizers, ensure timely irrigation, adopt integrated pest management, use mulching to conserve moisture, and follow recommended crop spacing for your variety."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-020",
-      "name": "Fertilizer Calculator",
-      "slug": "fertilizer-calculator",
-      "categorySlug": "farmers-tools",
-      "categoryName": "Farmers Tools",
-      "shortDescription": "Calculate NPK fertilizer requirements for your crop and field size.",
-      "seoTitle": "Free Fertilizer Calculator - NPK Requirement Calculator",
-      "metaDescription": "Calculate fertilizer requirements for your crops. Enter crop type, field area, and soil test values to get NPK fertilizer recommendations.",
-      "h1": "Fertilizer Calculator — NPK Requirement Calculator Free",
-      "canonicalUrl": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
-      "keywords": [
-        "fertilizer calculator",
-        "NPK calculator",
-        "fertilizer requirement",
-        "nitrogen phosphorus potassium",
-        "fertilizer dose calculator",
-        "crop nutrition calculator",
-        "soil fertilizer requirement",
-        "farm fertilizer tool"
-      ],
-      "content": "Proper fertilizer application is one of the most impactful management decisions a farmer makes each season. Under-fertilization limits crop yield potential. Over-fertilization wastes money, damages soil health, and causes environmental pollution. Our free fertilizer calculator helps you determine the right amount of fertilizer for your crop, based on scientifically validated nutrient requirement data.\n\nNPK Basics\n\nAll crops require three primary macronutrients in relatively large quantities: Nitrogen (N): Essential for vegetative growth, leaf development, and protein formation. Deficiency causes yellowing of older leaves and stunted growth. Phosphorus (P): Critical for root development, flowering, and seed formation. Deficiency causes purple discoloration and poor root systems. Potassium (K): Regulates water use, disease resistance, and overall plant health. Deficiency causes brown leaf edges and weak stems.\n\nHow to Use the Fertilizer Calculator\n\nInput your field area (acres or hectares), select your crop (wheat, rice, cotton, maize, vegetables, etc.), enter your soil test N, P, and K values if available, and specify the expected yield target. The calculator computes the total N, P, and K required minus what the soil already provides, then calculates specific fertilizer quantities (bags of Urea, DAP, MOP, etc.).\n\nCommon Fertilizer Sources and Nutrient Content\n\nUrea (46-0-0): 46% Nitrogen — most common and cost-effective nitrogen source. DAP (18-46-0): 18% N, 46% P₂O₅ — excellent phosphorus source. MOP/Potash (0-0-60): 60% K₂O — primary potassium fertilizer. SSP (0-16-0): 16% P₂O₅ + 11% Sulfur — good for sulfur-deficient soils. NPK complex (various grades): Balanced combinations for simplified application.\n\nFertilizer Application Timing\n\nBasal application (at sowing): Mix P, K, and 1/3 of N into the soil before or at planting. Top dressing at tillering: Apply 1/3 N when crop shows active vegetative growth. Top dressing at panicle initiation: Final 1/3 N application for grain filling. Split nitrogen application is critical — applying all nitrogen at once leads to losses through volatilization, leaching, and denitrification.",
-      "faq": [
-        {
-          "question": "How do I calculate fertilizer quantity per acre?",
-          "answer": "Multiply the recommended nutrient dose (kg/acre) by the inverse of fertilizer nutrient content. For example, to apply 25 kg N/acre using Urea (46% N): 25 ÷ 0.46 = 54.3 kg Urea/acre ≈ 1.09 bags (50 kg bags)."
-        },
-        {
-          "question": "What is the NPK requirement for wheat?",
-          "answer": "Recommended NPK dose for wheat in India is typically 120:60:40 kg/ha (N:P:K). This translates to approximately 52 kg Urea/acre for N, 58 kg DAP/acre for P, and 33 kg MOP/acre for K (basal dose calculations vary by region)."
-        },
-        {
-          "question": "Is soil testing necessary before applying fertilizer?",
-          "answer": "Soil testing is highly recommended. It reveals existing nutrient levels, pH, and organic matter content, allowing precision fertilization. Without soil data, you apply fertilizer based on general crop requirements which may over-apply P and K that the soil already has in sufficient quantity."
-        },
-        {
-          "question": "What is the difference between DAP and SSP?",
-          "answer": "DAP (Di-Ammonium Phosphate 18-46-0) contains both N and P, making it efficient but more expensive. SSP (Single Super Phosphate 0-16-0) contains only P plus sulfur and calcium. SSP is better for sulfur-deficient soils. DAP is better for N and P combination needs."
-        },
-        {
-          "question": "How does over-fertilization harm crops?",
-          "answer": "Excess nitrogen causes vegetative growth at the expense of grains, disease susceptibility, and lodging (plants falling over). High phosphorus blocks zinc and iron uptake. Excess potassium causes salinity stress. Over-fertilization also pollutes groundwater through nutrient leaching."
-        }
-      ],
-      "relatedTools": [
-        "crop-yield-calculator",
-        "irrigation-calculator",
-        "soil-ph-calculator"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Farmers Tools",
-          "url": "https://utilitymega.com/farmers-tools"
-        },
-        {
-          "name": "Fertilizer Calculator",
-          "url": "https://utilitymega.com/farmers-tools/fertilizer-calculator"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Fertilizer Calculator - NPK Requirement for Crops",
-        "og:description": "Calculate Urea, DAP, MOP requirements for wheat, rice, maize. Soil test-based precision fertilization. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Fertilizer Calculator | UtilityMega",
-        "twitter:description": "NPK fertilizer requirement calculator for Indian crops. Urea, DAP, MOP bags needed. Free."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Fertilizer Calculator",
-        "description": "Calculate NPK fertilizer requirements for Indian crops with soil test integration and application schedule.",
-        "url": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
-        "applicationCategory": "UtilityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "INR"
-        },
-        "areaServed": {
-          "@type": "Country",
-          "name": "India"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Farmers Tools",
-              "item": "https://utilitymega.com/farmers-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Fertilizer Calculator",
-              "item": "https://utilitymega.com/farmers-tools/fertilizer-calculator"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How do I calculate fertilizer quantity per acre?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Multiply the recommended nutrient dose (kg/acre) by the inverse of fertilizer nutrient content. For example, to apply 25 kg N/acre using Urea (46% N): 25 ÷ 0.46 = 54.3 kg Urea/acre ≈ 1.09 bags (50 kg bags)."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the NPK requirement for wheat?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Recommended NPK dose for wheat in India is typically 120:60:40 kg/ha (N:P:K). This translates to approximately 52 kg Urea/acre for N, 58 kg DAP/acre for P, and 33 kg MOP/acre for K."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is soil testing necessary before applying fertilizer?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Soil testing is highly recommended. It reveals existing nutrient levels, pH, and organic matter content, allowing precision fertilization. Without soil data, you may over-apply nutrients already present in the soil."
-            }
-          }
-        ]
-      }
-    },
+    "id": "tool-farmers-001",
+    "name": "Crop Yield Calculator",
+    "slug": "crop-yield-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Estimate crop yield, gross income, net profit and ROI for 10 major Indian crops in acres, bigha or hectares.",
+    "seoTitle": "Free Crop Yield Calculator India — Income & Profit Estimator | UtilityMega",
+    "metaDescription": "Calculate expected crop yield, gross income, total input cost and net profit for Rice, Wheat, Cotton, Soybean and more. Supports acres, bigha, hectares. MSP 2024–25 included.",
+    "h1": "Crop Yield & Income Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
+    "keywords": ["crop yield calculator India", "farm income calculator", "crop profit calculator", "rice yield per acre", "wheat yield calculator", "farm profit estimator India"],
+    "content": "Calculate expected yield (kg and quintals), gross income, total input cost and net profit for 10 major Indian crops — Rice, Wheat, Maize, Cotton, Sugarcane, Soybean, Mustard, Groundnut, Onion and Tomato. Supports land input in acres, hectares, bigha and guntha. Adjusts yield for soil type (rich/loamy/sandy/clay) and irrigation method. Shows breakeven yield, breakeven price, ROI and profit margin. Loaded with MSP 2024–25 rates.",
+    "faq": [
+      {"question": "Which land units are supported?", "answer": "Acres, hectares, bigha (0.619 acres) and guntha (0.025 acres) are all supported with automatic conversion."},
+      {"question": "How is yield adjusted for soil type?", "answer": "Rich black / alluvial soil gets +10%, loamy soil is the standard baseline, sandy / light soil gets −15% and heavy clay gets −5%."},
+      {"question": "What is breakeven yield?", "answer": "The minimum yield (kg/acre) at which total income equals total input cost — below this you incur a loss."}
+    ],
+    "relatedTools": ["fertilizer-calculator", "msp-calculator", "farm-income-calculator"],
+    "isPopular": true,
+    "isFeatured": true,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Crop Yield Calculator", "url": "/farmers-tools/crop-yield-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-002",
+    "name": "Fertilizer (NPK) Calculator",
+    "slug": "fertilizer-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Calculate exact Urea, DAP and MOP quantities from soil test NPK values and ICAR crop requirements.",
+    "seoTitle": "Free Fertilizer NPK Calculator India — Urea DAP MOP Dose | UtilityMega",
+    "metaDescription": "Calculate fertilizer (Urea, DAP, MOP) quantities from soil test N-P-K values for any crop. Based on ICAR recommendations. Adjusts for organic matter (FYM, compost, vermicompost).",
+    "h1": "Fertilizer NPK Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
+    "keywords": ["fertilizer calculator India", "NPK calculator", "Urea DAP MOP calculator", "fertilizer dose per acre", "soil test fertilizer recommendation", "ICAR fertilizer recommendation"],
+    "content": "Enter your soil test N-P-K values and the tool calculates net fertilizer requirement after crediting available soil nutrients. Accounts for organic matter credits from FYM (25 kg N/ha), compost or vermicompost. Outputs Urea, DAP and MOP quantities per acre and total, with approximate cost. Includes a 3-split application schedule (basal + two top-dressings) and a full fertilizer NPK reference table.",
+    "faq": [
+      {"question": "What soil test values are needed?", "answer": "Nitrogen (N), Phosphorus (P) and Potassium (K) in kg/hectare. These are obtained from a certified soil testing laboratory (often available free at Krishi Vigyan Kendras)."},
+      {"question": "Why subtract soil N from fertilizer dose?", "answer": "Not all soil nitrogen is available to crops — typically 1–2% of organic N mineralises per season. The calculator credits this so you don't over-apply."},
+      {"question": "What is the split application schedule?", "answer": "Basal dose at sowing (DAP + 1/3 Urea + full MOP), first top-dressing at 30 DAS (days after sowing), and second top-dressing at 60 DAS."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "soil-ph-calculator", "irrigation-calculator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Fertilizer Calculator", "url": "/farmers-tools/fertilizer-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-003",
+    "name": "Irrigation Water Calculator",
+    "slug": "irrigation-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Calculate irrigation water requirements, pump run time and a 7-day irrigation schedule by crop, soil and method.",
+    "seoTitle": "Free Irrigation Water Calculator India — Pump Hours & Schedule | UtilityMega",
+    "metaDescription": "Calculate water per irrigation, pump run time and weekly irrigation schedule for any crop. Supports flood, furrow, sprinkler and drip methods. Adjusts for temperature zone and rainfall.",
+    "h1": "Irrigation Water Requirement Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/irrigation-calculator",
+    "keywords": ["irrigation calculator India", "water requirement for crops", "pump run time calculator", "drip irrigation calculator", "crop water need India", "irrigation schedule calculator"],
+    "content": "Calculates crop evapotranspiration (ETo × Kc) adjusted for growth stage, temperature zone and effective rainfall. Accounts for irrigation method efficiency (flood 60%, furrow 70%, sprinkler 80%, drip 95%). Outputs litres per irrigation event, pump run time (hours), irrigations per week, total weekly water, and a 7-day schedule. Includes water-saving tips specific to each crop.",
+    "faq": [
+      {"question": "What is ETo and Kc?", "answer": "ETo is reference evapotranspiration (water lost from a reference grass crop). Kc is the crop coefficient that adjusts ETo for a specific crop and growth stage. ETo × Kc = actual crop water use (ETc)."},
+      {"question": "Why does drip irrigation need less water?", "answer": "Drip delivers water directly to the root zone with 95% efficiency vs 60% for flood irrigation. Less water is lost to runoff, evaporation and deep percolation."},
+      {"question": "How do I use the pump run time result?", "answer": "If your pump discharges 1,000 L/min and the result shows 6,000 L per irrigation, you need to run the pump for 6 minutes per irrigation event."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "fertilizer-calculator", "soil-ph-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Irrigation Calculator", "url": "/farmers-tools/irrigation-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-004",
+    "name": "Soil pH Calculator",
+    "slug": "soil-ph-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Check soil pH, see nutrient availability, and calculate lime or sulphur dose to correct soil acidity or alkalinity.",
+    "seoTitle": "Free Soil pH Calculator — Lime & Sulphur Dose for India | UtilityMega",
+    "metaDescription": "Enter your soil pH and target, get lime (to raise pH) or sulphur (to lower pH) quantity in kg per acre and total cost. Shows nutrient availability chart and crop pH preferences.",
+    "h1": "Soil pH Calculator & Corrector",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/soil-ph-calculator",
+    "keywords": ["soil pH calculator India", "lime requirement calculator", "soil acidity correction", "how to increase soil pH", "sulphur for alkaline soil", "agricultural lime dose per acre"],
+    "content": "Interactive pH slider (3–10) with colour-coded indicator and category (Extremely Acidic to Strongly Alkaline). Shows nutrient availability (N, P, K, Fe, Zn, Ca) at the current pH. Calculates lime (CaCO₃) dose to raise acidic soil or elemental sulphur dose to lower alkaline soil — per hectare, per acre and total — with approximate cost and application steps. Adjusts buffer factor for sandy, loamy or clay soils.",
+    "faq": [
+      {"question": "What is the ideal soil pH for most crops?", "answer": "6.0–7.0 is ideal for most Indian field crops. This range maximises availability of all essential nutrients, especially N, P and K."},
+      {"question": "How long does lime take to work?", "answer": "Agricultural lime reacts slowly — allow 2–4 weeks after incorporation before sowing. Re-test soil pH after one crop season (3–4 months)."},
+      {"question": "Why is pH important for nutrients?", "answer": "Soil pH controls solubility of nutrients. Phosphorus becomes unavailable below pH 5.5. Iron and zinc become excessive below pH 5.0. Most nutrients are maximally available at pH 6–7."}
+    ],
+    "relatedTools": ["fertilizer-calculator", "irrigation-calculator", "crop-yield-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Soil pH Calculator", "url": "/farmers-tools/soil-ph-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-005",
+    "name": "Seed Rate Calculator",
+    "slug": "seed-rate-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Calculate seed quantity, seed cost and optimum plant population for 8 major crops based on sowing method and germination %.",
+    "seoTitle": "Free Seed Rate Calculator India — Seed Quantity per Acre | UtilityMega",
+    "metaDescription": "Calculate how much seed is needed per acre for Rice, Wheat, Maize, Cotton, Soybean and more. Adjusts for sowing method (line, broadcast, transplant) and germination percentage.",
+    "h1": "Seed Rate Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/seed-rate-calculator",
+    "keywords": ["seed rate calculator India", "seed quantity per acre", "how much seed per acre", "wheat seed rate per acre", "rice seed rate", "seed cost calculator"],
+    "content": "Calculates adjusted seed rate for 8 crops based on sowing method (broadcast adds 20%, transplanting uses 5%), actual germination percentage, area and seed price. Shows total seed required in kg, seed cost, and estimated plant population from row × plant spacing. Includes crop-specific tips on seed treatment and germination management. Quick-reference table shows recommended seed rates, 1000-seed weight and spacing for all crops.",
+    "faq": [
+      {"question": "Why does germination % affect seed rate?", "answer": "If germination is 80%, you need to sow 25% more seed to achieve the same plant population as with 100% germination."},
+      {"question": "What is the seed rate for hybrid vs open-pollinated varieties?", "answer": "Hybrid seeds are typically more expensive and require lower quantities. Single-cross maize hybrids need only 8 kg/acre vs 12 kg for composites."},
+      {"question": "When should I use transplanting?", "answer": "Transplanting (nursery raising) is used for Rice, Onion and Tomato — it needs only 5% of the direct-sown seed rate but requires nursery infrastructure."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "fertilizer-calculator", "pesticide-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Seed Rate Calculator", "url": "/farmers-tools/seed-rate-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-006",
+    "name": "Pesticide Dose Calculator",
+    "slug": "pesticide-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Calculate pesticide quantity, total water and per-tank mixing guide for accurate and safe pesticide application.",
+    "seoTitle": "Free Pesticide Dose Calculator India — Spray Mix Guide | UtilityMega",
+    "metaDescription": "Calculate exact pesticide quantity for any field area, spray volume and 9 common pesticides. Per-tank mixing guide. Drone, knapsack and power sprayer volumes. Safety guidelines included.",
+    "h1": "Pesticide Dose Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/pesticide-calculator",
+    "keywords": ["pesticide dose calculator India", "pesticide spray calculator", "how much pesticide per acre", "insecticide mixing calculator", "spray volume calculator", "fungicide dose calculator"],
+    "content": "Select from 9 common pesticides (Chlorpyrifos, Lambda-cyhalothrin, Imidacloprid, Mancozeb, Carbendazim, Glyphosate, 2,4-D Amine, Atrazine, Propiconazole). Enter field area, spray volume per acre (50L drone to 400L power sprayer) and formulation type. Outputs total pesticide, total water, number of tanks needed and exact per-tank mixing guide. Includes critical PPE and safe-handling reminders, Poison Control number (1800-11-6117).",
+    "faq": [
+      {"question": "What is the recommended spray volume per acre?", "answer": "200 L/acre for knapsack sprayers, 400 L/acre for power sprayers, 100 L for high-volume nozzles, and 50 L for drone sprayers."},
+      {"question": "How do I convert ml/ha to ml/acre?", "answer": "Multiply ml/ha × 0.4047 to get ml/acre. For example, 1500 ml/ha = 607 ml/acre."},
+      {"question": "What PPE is required for pesticide spraying?", "answer": "Minimum: nitrile gloves, safety goggles, a nose-and-mouth respirator mask, full-sleeve clothing and closed-toe shoes. Wash with soap and water immediately after spraying."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "seed-rate-calculator", "farm-income-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Pesticide Calculator", "url": "/farmers-tools/pesticide-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-007",
+    "name": "Farm Income & Profit Calculator",
+    "slug": "farm-income-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Track all farm income sources and expenses to calculate net profit, margin and income per acre for a full season P&L.",
+    "seoTitle": "Free Farm Income Calculator India — Season Profit & Loss | UtilityMega",
+    "metaDescription": "Add all income sources (crop sale, straw, subsidy) and expenses (seed, fertilizer, labour, irrigation) to get a complete farm P&L with net profit, margin and profit per acre.",
+    "h1": "Farm Income & Profit Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/farm-income-calculator",
+    "keywords": ["farm income calculator India", "farm profit calculator", "farm P&L statement", "agricultural income calculator", "net farm income", "farming profit per acre India"],
+    "content": "A dynamic income and expense tracker for a complete farm P&L statement. Add unlimited income rows (crop sale, by-product sale, government subsidy, agri-tourism) and expense rows (seeds, fertilizer, pesticide, labour, irrigation, harvesting, transport). Outputs total income, total expenses, net profit or loss, profit margin %, income per acre and profit/loss per acre. Pre-loaded with a realistic rice crop example.",
+    "faq": [
+      {"question": "What expenses should I include?", "answer": "Seeds, fertilizer, pesticide, irrigation (electricity/diesel), hired labour, harvesting (manual or machine), transport to mandi, and land rent if applicable."},
+      {"question": "What income sources should I include?", "answer": "Main crop sale, by-product sale (straw, husk, cobs), any government subsidy received, and income from intercropping or companion crops."},
+      {"question": "What is profit margin in farming?", "answer": "Profit margin = (Net Profit / Total Income) × 100. A healthy farm business typically targets 30–50% margin on input costs."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "msp-calculator", "fertilizer-calculator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Farm Income Calculator", "url": "/farmers-tools/farm-income-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-008",
+    "name": "Livestock Feed Calculator",
+    "slug": "livestock-feed-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Calculate daily feed ration and monthly feed cost for cows, buffaloes, goats, poultry and other livestock.",
+    "seoTitle": "Free Livestock Feed Calculator India — Cow Buffalo Goat Feed Cost | UtilityMega",
+    "metaDescription": "Calculate daily green fodder, dry fodder, concentrate and mineral mixture requirements for cows, buffaloes, goats, sheep, pigs, poultry and bullocks. Monthly feed cost included.",
+    "h1": "Livestock Feed Calculator",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/livestock-feed-calculator",
+    "keywords": ["livestock feed calculator India", "cow feed calculator", "buffalo feed requirement", "goat feed calculator", "dairy cattle ration", "monthly feed cost calculator"],
+    "content": "Calculates daily feed ration (green fodder, dry fodder/straw, concentrate feed, mineral mixture) for 7 animal types: HF/Jersey cow, buffalo, goat, sheep, pig, poultry, and bullock. Adjusts ration based on body weight, production purpose (maintenance, milk production 5L or 10L/day, meat, work animal, pregnant) and season (summer +10%, winter +5%). Shows monthly feed cost per animal and total for the herd.",
+    "faq": [
+      {"question": "How much feed does a dairy cow need per day?", "answer": "A 450 kg HF/Jersey cow producing 5L milk/day needs approximately 25 kg green fodder, 7.5 kg dry straw and 5 kg concentrate feed daily."},
+      {"question": "What is a mineral mixture and why is it needed?", "answer": "Mineral mixture provides calcium, phosphorus, sodium, trace minerals and vitamins that are deficient in fodder. It prevents milk fever, reproductive failure and improves production."},
+      {"question": "How does season affect feed requirement?", "answer": "Animals need 10% more feed in summer to maintain body temperature and production. In winter, 5% extra energy is needed for thermoregulation."}
+    ],
+    "relatedTools": ["farm-income-calculator", "crop-yield-calculator", "msp-calculator"],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Livestock Feed Calculator", "url": "/farmers-tools/livestock-feed-calculator"}
+    ]
+  },
+  {
+    "id": "tool-farmers-009",
+    "name": "Weather-Based Crop Advisor",
+    "slug": "weather-crop-advisor",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Get crop recommendations, sowing calendar and seasonal alerts for your state and month in India.",
+    "seoTitle": "Free Weather Crop Advisor India — Crop Recommendations by State | UtilityMega",
+    "metaDescription": "Get crop recommendations for your state and current month with sowing window, duration, yield and water needs. Annual sowing calendar (Kharif/Rabi/Zaid) and seasonal weather alerts.",
+    "h1": "Weather-Based Crop Advisor",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/weather-crop-advisor",
+    "keywords": ["crop advisor India", "which crop to sow this month", "kharif crop recommendations", "rabi crop selection", "crop calendar India", "best crop for my region India"],
+    "content": "Covers 10 major Indian states with district/zone selection. Shows typical weather (temperature, rainfall, humidity, sunshine, wind) for the selected state and month. Recommends suitable crops with sowing window, duration, expected yield, water requirement and specific alerts. Displays a 12-month annual sowing calendar colour-coded by Kharif (green), Rabi (blue), Zaid (amber) and Harvest (purple). Seasonal alerts cover heat waves, heavy rainfall, fog and normal conditions.",
+    "faq": [
+      {"question": "What are Kharif and Rabi crops?", "answer": "Kharif crops are sown in June–July with the monsoon (Rice, Cotton, Soybean, Maize). Rabi crops are sown in October–November in winter (Wheat, Mustard, Gram). Zaid crops are grown in the short summer season (March–May)."},
+      {"question": "How do I choose the best crop for my district?", "answer": "Select your state and district, then check the recommendations for the current month. Crops marked ⭐ Best are highest priority based on typical weather patterns for your region."},
+      {"question": "Are the weather values actual forecasts?", "answer": "The values are typical climatological averages for the region and month — not real-time forecasts. For actual weather forecasts, use IMD (India Meteorological Department) or Meghdoot app."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "msp-calculator", "irrigation-calculator"],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "Weather Crop Advisor", "url": "/farmers-tools/weather-crop-advisor"}
+    ]
+  },
+  {
+    "id": "tool-farmers-010",
+    "name": "MSP Calculator",
+    "slug": "msp-calculator",
+    "categorySlug": "farmers-tools",
+    "categoryName": "Farmers Tools",
+    "shortDescription": "Calculate expected income at government MSP 2024–25 rates vs market price for all 24 Kharif and Rabi crops.",
+    "seoTitle": "Free MSP Calculator 2024–25 — Minimum Support Price India | UtilityMega",
+    "metaDescription": "Calculate farm income at MSP 2024–25 for all 24 Kharif and Rabi crops. Compare MSP vs market price income. Net profit after input cost. CACP-approved rates for Rice, Wheat, Cotton and more.",
+    "h1": "MSP Calculator 2024–25",
+    "canonicalUrl": "https://utilitymega.com/farmers-tools/msp-calculator",
+    "keywords": ["MSP calculator India 2024", "minimum support price 2024", "MSP 2024-25 rates", "MSP rice wheat cotton", "farm income at MSP", "CACP MSP rates India"],
+    "content": "Complete MSP 2024–25 rate table for all 24 notified crops: 14 Kharif (Rice, Cotton, Tur, Moong, Urad, Groundnut, Soybean, Sunflower, Sesame, Jowar, Bajra, Maize), 6 Rabi (Wheat, Barley, Gram, Masur, Mustard, Safflower) and 4 others (Sugarcane FRP, Copra, Jute). Input yield and area to calculate total income at MSP vs actual market price. Compare with visual bar chart and shows gain or loss vs MSP. Net profit after input cost.",
+    "faq": [
+      {"question": "What is MSP (Minimum Support Price)?", "answer": "MSP is the government-guaranteed minimum price at which the government (through FCI, NAFED etc.) procures crops from farmers. It protects farmers from distress selling when market prices fall."},
+      {"question": "Are MSP rates guaranteed to every farmer?", "answer": "MSP is a price guarantee but actual procurement depends on state government agencies and FCI centres. Farmers in states with active procurement (Punjab, Haryana, MP) are more likely to sell at MSP."},
+      {"question": "How often are MSP rates revised?", "answer": "MSP is revised annually before every Kharif and Rabi sowing season based on CACP (Commission for Agricultural Costs and Prices) recommendations, targeting a 50% return above A2+FL cost."}
+    ],
+    "relatedTools": ["crop-yield-calculator", "farm-income-calculator", "weather-crop-advisor"],
+    "isPopular": true,
+    "isFeatured": true,
+    "breadcrumbs": [
+      {"label": "Home", "url": "/"},
+      {"label": "Farmers Tools", "url": "/farmers-tools"},
+      {"label": "MSP Calculator", "url": "/farmers-tools/msp-calculator"}
+    ]
+  },
     {
       "id": "tool-dev-001",
       "name": "JSON Formatter",

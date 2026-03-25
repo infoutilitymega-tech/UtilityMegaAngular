@@ -56,6 +56,9 @@ import { RegexTesterComponent, UuidGeneratorComponent } from './url-encoder-rege
 import { PasswordStrengthCheckerComponent } from './hash-password-strength.component';
 import { CorsTesterComponent, CspGeneratorComponent, BcryptGeneratorComponent } from './cors-csp-bcrypt.component';
 import { HmacGeneratorComponent, SslCheckerComponent } from './hmac-ssl-ip.component';
+import { IrrigationCalculatorComponent, SoilPhCalculatorComponent } from './irrigation-soilph.component';
+import { SeedRateCalculatorComponent, PesticideCalculatorComponent, FarmIncomeCalculatorComponent, LivestockFeedCalculatorComponent } from './seed-pesticide-income-livestock.component';
+import { WeatherCropAdvisorComponent, MspCalculatorComponent } from './weather-msp.component';
 
 
 /**
@@ -153,6 +156,16 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'morse-code-converter': MorseCodeConverterComponent,
 
   // Farmers Tools
+  // 'crop-yield-calculator': CropYieldCalculatorComponent,
+  // 'fertilizer-calculator': FertilizerCalculatorComponent,
   'crop-yield-calculator': CropYieldCalculatorComponent,
   'fertilizer-calculator': FertilizerCalculatorComponent,
+  'irrigation-calculator': IrrigationCalculatorComponent,
+  'soil-ph-calculator': SoilPhCalculatorComponent,
+  'seed-rate-calculator': SeedRateCalculatorComponent,
+  'pesticide-calculator': PesticideCalculatorComponent,
+  'farm-income-calculator': FarmIncomeCalculatorComponent,
+  'livestock-feed-calculator': LivestockFeedCalculatorComponent,
+  'weather-crop-advisor': WeatherCropAdvisorComponent,
+  'msp-calculator': MspCalculatorComponent,
 };
