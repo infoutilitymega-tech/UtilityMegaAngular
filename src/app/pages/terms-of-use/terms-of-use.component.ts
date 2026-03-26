@@ -22,17 +22,17 @@ import { SeoService } from '../../core/services/seo.service';
           <!-- TOC -->
           <nav class="toc">
             <div class="toc-title">Contents</div>
-            <a href="#acceptance" class="toc-link">1. Acceptance</a>
-            <a href="#description" class="toc-link">2. Service Description</a>
-            <a href="#permitted-use" class="toc-link">3. Permitted Use</a>
-            <a href="#prohibited-use" class="toc-link">4. Prohibited Use</a>
-            <a href="#ip" class="toc-link">5. Intellectual Property</a>
-            <a href="#disclaimer" class="toc-link">6. Disclaimer</a>
-            <a href="#liability" class="toc-link">7. Limitation of Liability</a>
-            <a href="#third-party-links" class="toc-link">8. Third-Party Links</a>
-            <a href="#changes" class="toc-link">9. Changes to Service</a>
-            <a href="#governing" class="toc-link">10. Governing Law</a>
-            <a href="#contact-terms" class="toc-link">11. Contact</a>
+            <a (click)="scrollTo('acceptance')" class="toc-link">1. Acceptance</a>
+            <a (click)="scrollTo('description')" class="toc-link">2. Service Description</a>
+            <a (click)="scrollTo('permitted-use')" class="toc-link">3. Permitted Use</a>
+            <a (click)="scrollTo('prohibited-use')" class="toc-link">4. Prohibited Use</a>
+            <a (click)="scrollTo('ip')" class="toc-link">5. Intellectual Property</a>
+            <a (click)="scrollTo('disclaimer')" class="toc-link">6. Disclaimer</a>
+            <a (click)="scrollTo('liability')" class="toc-link">7. Limitation of Liability</a>
+            <a (click)="scrollTo('third-party-links')" class="toc-link">8. Third-Party Links</a>
+            <a (click)="scrollTo('changes')" class="toc-link">9. Changes to Service</a>
+            <a (click)="scrollTo('governing')" class="toc-link">10. Governing Law</a>
+            <a (click)="scrollTo('contact')" class="toc-link">11. Contact</a>
           </nav>
 
           <!-- Content -->
@@ -140,11 +140,11 @@ import { SeoService } from '../../core/services/seo.service';
 
     .toc { position: sticky; top: 80px; background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; }
     .toc-title { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #6b7280; margin-bottom: .75rem; }
-    .toc-link { display: block; color: #4b5563; text-decoration: none; font-size: .8rem; padding: .3rem 0; border-bottom: 1px solid #f3f4f6; transition: color .12s; }
+    .toc-link { cursor: pointer; display: block; color: #4b5563; text-decoration: none; font-size: .8rem; padding: .3rem 0; border-bottom: 1px solid #f3f4f6; transition: color .12s; }
     .toc-link:last-child { border-bottom: none; }
     .toc-link:hover { color: #2563eb; }
 
-    .policy-content h2 { font-size: 1.2rem; font-weight: 800; margin: 2rem 0 .75rem; padding-top: .5rem; border-top: 1px solid #f3f4f6; }
+    .policy-content h2 { scroll-margin-top: 80px; font-size: 1.2rem; font-weight: 800; margin: 2rem 0 .75rem; padding-top: .5rem; border-top: 1px solid #f3f4f6; }
     .policy-content h2:first-of-type { margin-top: 1.5rem; }
     .policy-content p { color: #374151; font-size: .9rem; line-height: 1.8; margin-bottom: .9rem; }
     .policy-content ul { padding-left: 1.25rem; margin-bottom: .9rem; }
@@ -171,4 +171,9 @@ export class TermsOfUseComponent implements OnInit {
       url: 'https://utilitymega.com/terms-of-use'
     });
   }
+
+  scrollTo(id: string) {
+  const element = document.getElementById(id);
+  element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 }
