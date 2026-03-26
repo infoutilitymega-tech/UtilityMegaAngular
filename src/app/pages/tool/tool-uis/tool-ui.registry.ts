@@ -35,6 +35,14 @@ import { KeywordDensityCheckerComponent } from './keyword-density-checker.compon
 // ── Unit Converters ───────────────────────────────────────────────────────────
 import { LengthConverterComponent } from './length-converter.component';
 import { TemperatureConverterComponent } from './temperature-converter.component';
+import { AreaConverterComponent } from './area-converter.component';
+import { VolumeConverterComponent } from './volume-converter.component';
+import { SpeedConverterComponent } from './speed-converter.component';
+import { TimeConverterComponent } from './time-converter.component';
+import { PressureConverterComponent } from './pressure-converter.component';
+import { EnergyConverterComponent } from './energy-converter.component';
+import { DataConverterComponent } from './data-converter.component';
+import { FuelConverterComponent } from './fuel-converter.component';
 
 // ── Utility Tools ─────────────────────────────────────────────────────────────
 import { QrGeneratorComponent } from './qr-generator.component';
@@ -139,6 +147,14 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   // Unit Converters
   'length-converter': LengthConverterComponent,
   'temperature-converter': TemperatureConverterComponent,
+  'area-converter': AreaConverterComponent,
+  'volume-converter': VolumeConverterComponent,
+  'speed-converter': SpeedConverterComponent,
+  'time-converter': TimeConverterComponent,
+  'pressure-converter': PressureConverterComponent,
+  'energy-converter': EnergyConverterComponent,
+  'data-converter': DataConverterComponent,
+  'fuel-converter': FuelConverterComponent,
 
   // Utility Tools
   'qr-code-generator': QrGeneratorComponent,
