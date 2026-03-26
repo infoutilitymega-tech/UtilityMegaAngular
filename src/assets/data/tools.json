@@ -10968,571 +10968,1282 @@
         ]
       }
     },
+
     {
-      "id": "tool-text-001",
+  "id": "tool-text-001",
+  "name": "Word Counter",
+  "slug": "word-counter",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Count words, characters, sentences and paragraphs with readability scores, reading time and keyword frequency.",
+  "seoTitle": "Free Word Counter Online — Characters, Sentences & Reading Time | UtilityMega",
+  "metaDescription": "Count words, characters (with/without spaces), sentences, paragraphs and lines. Shows reading time, speaking time, Flesch readability score, top keywords and character frequency. Free.",
+  "h1": "Word Counter",
+  "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
+  "keywords": [
+    "word counter online",
+    "character counter",
+    "word count tool",
+    "reading time calculator",
+    "readability score",
+    "text analyzer online",
+    "character count"
+  ],
+  "content": "Real-time word counter with comprehensive text analysis. Counts words, characters, characters without spaces, sentences, paragraphs and lines. Shows estimated reading time (at 238 wpm) and speaking time (at 130 wpm). Calculates Flesch Reading Ease score and Flesch-Kincaid Grade Level. Shows top 8 keywords (excluding stop words), top 12 character frequency, and sentence-level analysis (average/shortest/longest). Includes writing goals for tweet, blog post, article and long-form content lengths.",
+  "faq": [
+    {
+      "question": "How is reading time calculated?",
+      "answer": "Reading time is estimated at 238 words per minute (the average adult silent reading speed). Speaking time uses 130 wpm (the average conversational speech rate)."
+    },
+    {
+      "question": "What is the Flesch Reading Ease score?",
+      "answer": "A score of 60–70 is standard (Grade 8–9). Scores 70+ are easy to read. Scores below 30 are very difficult (college graduate level). Higher is easier."
+    },
+    {
+      "question": "Does the word counter count correctly for different languages?",
+      "answer": "The counter splits on whitespace, which works for most Latin-script languages. CJK languages (Chinese, Japanese, Korean) require character-based counting, which is less accurate in this browser-based tool."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "lorem-ipsum-generator",
+    "find-and-replace"
+  ],
+  "isPopular": true,
+  "isFeatured": true,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
       "name": "Word Counter",
-      "slug": "word-counter",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Count words, characters, sentences and paragraphs with readability scores, reading time and keyword frequency.",
-      "seoTitle": "Free Word Counter Online — Characters, Sentences & Reading Time | UtilityMega",
-      "metaDescription": "Count words, characters (with/without spaces), sentences, paragraphs and lines. Shows reading time, speaking time, Flesch readability score, top keywords and character frequency. Free.",
-      "h1": "Word Counter",
-      "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
-      "keywords": [
-        "word counter online",
-        "character counter",
-        "word count tool",
-        "reading time calculator",
-        "readability score",
-        "text analyzer online",
-        "character count"
-      ],
-      "content": "Real-time word counter with comprehensive text analysis. Counts words, characters, characters without spaces, sentences, paragraphs and lines. Shows estimated reading time (at 238 wpm) and speaking time (at 130 wpm). Calculates Flesch Reading Ease score and Flesch-Kincaid Grade Level. Shows top 8 keywords (excluding stop words), top 12 character frequency, and sentence-level analysis (average/shortest/longest). Includes writing goals for tweet, blog post, article and long-form content lengths.",
-      "faq": [
-        {
-          "question": "How is reading time calculated?",
-          "answer": "Reading time is estimated at 238 words per minute (the average adult silent reading speed). Speaking time uses 130 wpm (the average conversational speech rate)."
-        },
-        {
-          "question": "What is the Flesch Reading Ease score?",
-          "answer": "A score of 60–70 is standard (Grade 8–9). Scores 70+ are easy to read. Scores below 30 are very difficult (college graduate level). Higher is easier."
-        },
-        {
-          "question": "Does the word counter count correctly for different languages?",
-          "answer": "The counter splits on whitespace, which works for most Latin-script languages. CJK languages (Chinese, Japanese, Korean) require character-based counting, which is less accurate in this browser-based tool."
-        }
-      ],
-      "relatedTools": [
-        "text-case-converter",
-        "lorem-ipsum-generator",
-        "find-and-replace"
-      ],
-      "isPopular": true,
-      "isFeatured": true,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Word Counter",
-          "url": "/text-tools/word-counter"
-        }
-      ]
+      "url": "https://utilitymega.com/text-tools/word-counter"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Word Counter Online — Characters, Sentences & Reading Time",
+    "og:description": "Count words, characters, sentences, paragraphs. Reading time, speaking time, Flesch readability score. Free text analyzer.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/word-counter",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Word Counter | UtilityMega",
+    "twitter:description": "Word count, character count, reading time, readability score. Free online tool."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Word Counter",
+    "description": "Count words, characters, sentences, paragraphs with readability scores, reading time and keyword frequency.",
+    "url": "https://utilitymega.com/text-tools/word-counter",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
     },
-    {
-      "id": "tool-text-002",
-      "name": "Text Case Converter",
-      "slug": "text-case-converter",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case and 8 more formats.",
-      "seoTitle": "Free Text Case Converter — camelCase, snake_case, kebab-case | UtilityMega",
-      "metaDescription": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case, aLtErNaTe and inverse. Free.",
-      "h1": "Text Case Converter",
-      "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
-      "keywords": [
-        "text case converter",
-        "camelCase converter",
-        "snake_case converter",
-        "kebab-case converter",
-        "PascalCase converter",
-        "uppercase lowercase converter",
-        "title case converter online"
-      ],
-      "content": "Convert text between 12 different case formats. Programming cases: camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case. Writing cases: UPPERCASE, lowercase, Title Case, Sentence case. Fun cases: aLtErNaTe CaSe, iNVERSE CaSe. Shows all conversions at a glance for quick comparison. Includes a reference guide for when to use each case in programming and writing.",
-      "faq": [
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
         {
-          "question": "What is camelCase vs PascalCase?",
-          "answer": "camelCase starts with a lowercase letter: myVariableName. PascalCase (UpperCamelCase) starts with uppercase: MyComponentName. Use camelCase for variables/functions in JS/TypeScript; PascalCase for class names and Angular components."
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
         },
         {
-          "question": "When should I use snake_case vs kebab-case?",
-          "answer": "snake_case (words_with_underscores) is used in Python, Ruby and SQL. kebab-case (words-with-hyphens) is used in CSS class names, HTML attributes and URL slugs. Both improve readability over no-separator names."
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
         },
         {
-          "question": "What is CONSTANT_CASE?",
-          "answer": "CONSTANT_CASE (uppercase with underscores) is used for environment variables, Redux action types, and named constants in most programming languages: MAX_RETRY_COUNT, API_BASE_URL."
-        }
-      ],
-      "relatedTools": [
-        "word-counter",
-        "find-and-replace",
-        "text-to-slug"
-      ],
-      "isPopular": true,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Text Case Converter",
-          "url": "/text-tools/text-case-converter"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-003",
-      "name": "Lorem Ipsum Generator",
-      "slug": "lorem-ipsum-generator",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
-      "seoTitle": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs | UtilityMega",
-      "metaDescription": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 flavors: Classic Lorem, Original Cicero, Extended Lorem, Hipster Ipsum, Corporate Ipsum. HTML tags option.",
-      "h1": "Lorem Ipsum Generator",
-      "canonicalUrl": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
-      "keywords": [
-        "lorem ipsum generator",
-        "placeholder text generator",
-        "dummy text generator",
-        "Lorem ipsum online",
-        "generate random text",
-        "filler text generator"
-      ],
-      "content": "Generate lorem ipsum placeholder text for design mockups, prototypes and development. Choose quantity in words (1–500), sentences (1–50) or paragraphs (1–20). Five text styles: Classic Lorem ipsum, Original Cicero Latin, Extended Lorem, Hipster Ipsum and Corporate Ipsum. Options: start with 'Lorem ipsum', include HTML paragraph tags, add line breaks. Quick presets for single paragraphs, short/long articles and image captions.",
-      "faq": [
-        {
-          "question": "What is Lorem Ipsum?",
-          "answer": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC). The standard passage has been used as printer's dummy text since the 1500s."
-        },
-        {
-          "question": "When should I use lorem ipsum?",
-          "answer": "Use it for design mockups, UI prototypes, or any scenario where you need realistic-looking text without final content. It helps reviewers focus on design rather than reading content."
-        },
-        {
-          "question": "What is Hipster Ipsum?",
-          "answer": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin, making mockups more recognizable as English placeholder text."
-        }
-      ],
-      "relatedTools": [
-        "word-counter",
-        "text-case-converter",
-        "duplicate-line-remover"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Lorem Ipsum Generator",
-          "url": "/text-tools/lorem-ipsum-generator"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-004",
-      "name": "Duplicate Line Remover",
-      "slug": "duplicate-line-remover",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
-      "seoTitle": "Free Duplicate Line Remover — Remove Repeated Lines Online | UtilityMega",
-      "metaDescription": "Remove duplicate lines from any text. Options: case-sensitive, trim whitespace, remove empty lines, keep first/last occurrence, sort output A-Z/Z-A/by length. Shows duplicate groups.",
-      "h1": "Duplicate Line Remover",
-      "canonicalUrl": "https://utilitymega.com/text-tools/duplicate-line-remover",
-      "keywords": [
-        "duplicate line remover",
-        "remove duplicate lines online",
-        "unique lines extractor",
-        "deduplicate text",
-        "remove repeated lines",
-        "unique list generator"
-      ],
-      "content": "Remove duplicate lines from any text or list instantly. Case-sensitive or case-insensitive comparison. Optionally trim leading/trailing whitespace before comparing. Remove empty lines. Choose to keep the first or last occurrence of each duplicate. Sort output alphabetically (A-Z, Z-A) or by line length. Shows the list of duplicate groups found. Displays statistics: input lines, unique count, duplicates found, removed count and percentage.",
-      "faq": [
-        {
-          "question": "What is a duplicate line?",
-          "answer": "A line that appears more than once in the text. With case-insensitive mode enabled, 'Apple' and 'apple' are treated as the same line."
-        },
-        {
-          "question": "What is 'keep first' vs 'keep last'?",
-          "answer": "Keep first: keeps the first occurrence, removes subsequent ones. Keep last: keeps the final occurrence. Useful when later entries are more recent (e.g., log file deduplication)."
-        },
-        {
-          "question": "Can I process CSV or database output?",
-          "answer": "Yes. Paste any line-separated data — CSV rows, SQL results, lists. Each line is treated as one unit."
-        }
-      ],
-      "relatedTools": [
-        "line-sorter",
-        "find-and-replace",
-        "word-counter"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Duplicate Line Remover",
-          "url": "/text-tools/duplicate-line-remover"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-005",
-      "name": "Find and Replace",
-      "slug": "find-and-replace",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
-      "seoTitle": "Free Find and Replace Text Tool — Regex Online | UtilityMega",
-      "metaDescription": "Find and replace text online. Supports regex, case-sensitive matching and whole-word search. Highlights all matches with orange. Navigate matches one by one. Replace all at once.",
-      "h1": "Find and Replace",
-      "canonicalUrl": "https://utilitymega.com/text-tools/find-and-replace",
-      "keywords": [
-        "find and replace online",
-        "text find replace tool",
-        "regex find replace",
-        "search replace text browser",
-        "bulk text replace",
-        "regular expression replacer"
-      ],
-      "content": "A powerful find-and-replace tool for any text. Features: regex mode (full JavaScript RegExp), case-sensitive toggle, whole-word boundary matching, replace current match or all at once, navigate between matches with arrow buttons. All matches are highlighted in real-time. Replace history shows what was changed. Works on any text — code, documents, data files.",
-      "faq": [
-        {
-          "question": "Can I use regular expressions?",
-          "answer": "Yes. Enable the .* button and use JavaScript RegExp syntax. For example: \\b\\d{10}\\b matches 10-digit numbers; [aeiou] matches any vowel."
-        },
-        {
-          "question": "How do I delete text (replace with nothing)?",
-          "answer": "Leave the 'Replace with' field empty, then click Replace All. The matched text will be deleted."
-        },
-        {
-          "question": "Can I use capture groups in replacement?",
-          "answer": "In regex mode, use $1, $2 etc. in the replacement string to reference capture groups. For example, pattern (\\w+) (\\w+) replaced with $2 $1 swaps two words."
-        }
-      ],
-      "relatedTools": [
-        "word-counter",
-        "duplicate-line-remover",
-        "text-diff-highlighter"
-      ],
-      "isPopular": true,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Find and Replace",
-          "url": "/text-tools/find-and-replace"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-006",
-      "name": "Text to Slug",
-      "slug": "text-to-slug",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
-      "seoTitle": "Free Text to Slug Converter — URL Slug Generator Online | UtilityMega",
-      "metaDescription": "Convert titles to URL-friendly slugs. Choose separator (-, _, .), case, max length. Remove stop words. Transliterate accented characters. Batch converter for multiple titles. Free.",
-      "h1": "Text to URL Slug Converter",
-      "canonicalUrl": "https://utilitymega.com/text-tools/text-to-slug",
-      "keywords": [
-        "text to slug converter",
-        "URL slug generator",
-        "title to URL converter",
-        "slugify text online",
-        "SEO URL generator",
-        "permalink generator",
-        "slug maker"
-      ],
-      "content": "Convert any text or title into a clean, URL-friendly slug. Options: separator character (-, _, ., none), case (lowercase/uppercase/keep), maximum length, remove stop words (the, a, and, etc.) and transliterate accented characters (ñ→n, é→e). Shows four outputs: URL slug, full permalink, HTML anchor ID and filename. Includes a batch converter for processing multiple titles at once.",
-      "faq": [
-        {
-          "question": "What makes a good URL slug?",
-          "answer": "Use hyphens as separators (Google recommends hyphens over underscores), keep it under 60 characters, use lowercase only, remove special characters and stop words, and make it descriptive of the content."
-        },
-        {
-          "question": "What are stop words and should I remove them?",
-          "answer": "Stop words (the, a, and, or, in, etc.) are common words that add length without SEO value. Removing them makes slugs shorter: 'the-best-way-to-learn' becomes 'best-way-learn'. Optional — some prefer to keep them for readability."
-        },
-        {
-          "question": "What does transliteration do?",
-          "answer": "Transliteration converts accented or special characters to their ASCII equivalents: é→e, ñ→n, ü→u, ç→c. This prevents URL encoding issues (%C3%A9 for é) in the browser address bar."
-        }
-      ],
-      "relatedTools": [
-        "text-case-converter",
-        "find-and-replace",
-        "word-counter"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Text to Slug",
-          "url": "/text-tools/text-to-slug"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-007",
-      "name": "Text Reverser",
-      "slug": "text-reverser",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
-      "seoTitle": "Free Text Reverser Online — Reverse Words, Lines & Characters | UtilityMega",
-      "metaDescription": "Reverse text in 6 ways: reverse all characters, reverse words, reverse lines, reverse sentences, flip text upside down (Unicode flipped chars), or mirror (right-to-left). Free browser tool.",
-      "h1": "Text Reverser",
-      "canonicalUrl": "https://utilitymega.com/text-tools/text-reverser",
-      "keywords": [
-        "text reverser online",
-        "reverse text generator",
-        "flip text upside down",
-        "backwards text generator",
-        "reverse words online",
-        "mirror text generator"
-      ],
-      "content": "Reverse text in six different ways: Reverse Characters (olleH), Reverse Words (World Hello), Reverse Lines (last line first), Reverse Sentences, Flip Upside Down (Unicode mapped characters, e.g. ɥǝllo), and Mirror (RTL layout). Each mode is previewed in a card with a live example. Includes a swap button to use the output as new input for chaining transformations.",
-      "faq": [
-        {
-          "question": "How does upside-down text work?",
-          "answer": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters (e.g., ɐ for a, ǝ for e). The text is also reversed so it reads correctly when physically flipped."
-        },
-        {
-          "question": "Can I reverse just one word?",
-          "answer": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
-        },
-        {
-          "question": "Is upside-down text supported everywhere?",
-          "answer": "Unicode flipped characters display correctly in most modern browsers, mobile devices and apps like Slack and Twitter. Older systems or some fonts may show replacement characters."
-        }
-      ],
-      "relatedTools": [
-        "text-case-converter",
-        "string-encoder",
-        "word-counter"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Text Reverser",
-          "url": "/text-tools/text-reverser"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-008",
-      "name": "Line Sorter",
-      "slug": "line-sorter",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
-      "seoTitle": "Free Line Sorter — Sort Text Lines Online A-Z | UtilityMega",
-      "metaDescription": "Sort text lines alphabetically A-Z or Z-A, by shortest/longest first, or shuffle randomly. Remove duplicates, trim whitespace, natural number sorting. Free browser-based tool.",
-      "h1": "Line Sorter",
-      "canonicalUrl": "https://utilitymega.com/text-tools/line-sorter",
-      "keywords": [
-        "line sorter online",
-        "sort text lines",
-        "alphabetical sorter",
-        "sort list online",
-        "text sorter tool",
-        "sort lines alphabetically",
-        "random line shuffler"
-      ],
-      "content": "Sort any list of lines in multiple ways: A→Z, Z→A, shortest first, longest first, or random shuffle. Options: case-sensitive sorting, trim whitespace, remove duplicates, remove empty lines, natural number sorting (1, 2, 10 instead of 1, 10, 2). Shows input line count, output line count and how many lines were removed. Pre-loaded with an example list containing duplicates and numbered items.",
-      "faq": [
-        {
-          "question": "What is natural number sorting?",
-          "answer": "Natural sorting treats numbers within strings numerically: 1, 2, 10 (natural) vs 1, 10, 2 (lexicographic). For example, 'item10' sorts after 'item9' with natural sorting."
-        },
-        {
-          "question": "Can I sort CSV or TSV columns?",
-          "answer": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time or use a spreadsheet tool."
-        },
-        {
-          "question": "What happens to case when sorting?",
-          "answer": "With case-insensitive sorting (default), 'Apple', 'apple' and 'APPLE' are treated as the same for comparison. With case-sensitive, uppercase letters sort before lowercase (A < a)."
-        }
-      ],
-      "relatedTools": [
-        "duplicate-line-remover",
-        "find-and-replace",
-        "word-counter"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Line Sorter",
-          "url": "/text-tools/line-sorter"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-009",
-      "name": "String Encoder/Decoder",
-      "slug": "string-encoder",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
-      "seoTitle": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary | UtilityMega",
-      "metaDescription": "Encode or decode strings in 8 formats: HTML entities, URL percent-encoding, Base64, Hexadecimal, Binary, Unicode escape sequences, ASCII codes and ROT13. Shows all encodings at once.",
-      "h1": "String Encoder & Decoder",
-      "canonicalUrl": "https://utilitymega.com/text-tools/string-encoder",
-      "keywords": [
-        "string encoder decoder",
-        "HTML entity encoder",
-        "URL encode decode",
-        "Base64 text encoder",
-        "hex encoder online",
-        "binary text converter",
-        "Unicode escape tool",
-        "ROT13 encoder"
-      ],
-      "content": "Encode or decode text in 8 different formats simultaneously. HTML Entities: converts < > & \" ' © to safe HTML codes. URL: percent-encodes for safe use in URLs. Base64: converts to/from Base64. Hex: converts to/from hexadecimal byte representation. Binary: converts to/from 8-bit binary. Unicode: converts to/from \\uXXXX escape sequences. ASCII: converts to/from ASCII code numbers. ROT13: Caesar cipher with 13-letter shift. Shows all 8 encodings at once for quick comparison.",
-      "faq": [
-        {
-          "question": "When do I need HTML entity encoding?",
-          "answer": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;, & becomes &amp;. Always encode user input in HTML output."
-        },
-        {
-          "question": "What is the difference between URL encode and HTML encode?",
-          "answer": "URL encoding converts characters for safe use in URLs (%20 for space). HTML encoding converts characters for safe display in HTML (&lt; for <). They're used in different contexts."
-        },
-        {
-          "question": "What is ROT13?",
-          "answer": "ROT13 is a simple Caesar cipher that shifts letters 13 positions. Since 13+13=26 (full alphabet), encoding and decoding use the same operation. It's used for spoiler text and simple obfuscation."
-        }
-      ],
-      "relatedTools": [
-        "find-and-replace",
-        "text-case-converter",
-        "text-to-slug"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "String Encoder",
-          "url": "/text-tools/string-encoder"
-        }
-      ]
-    },
-    {
-      "id": "tool-text-010",
-      "name": "Text Diff Highlighter",
-      "slug": "text-diff-highlighter",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
-      "seoTitle": "Free Text Diff Highlighter — Compare Two Texts Online | UtilityMega",
-      "metaDescription": "Compare two texts with color-coded diff view. Highlights added (green), removed (red) and unchanged lines. Side-by-side or unified view. Line, word or character-level comparison.",
-      "h1": "Text Diff Highlighter",
-      "canonicalUrl": "https://utilitymega.com/text-tools/text-diff-highlighter",
-      "keywords": [
-        "text diff tool",
-        "compare two texts online",
-        "text difference highlighter",
-        "diff checker text",
-        "find text differences",
-        "side by side text compare"
-      ],
-      "content": "Compare two versions of text with a color-coded diff view. Three comparison granularities: line-by-line (default), word-by-word or character-by-character. Two viewing modes: side-by-side (original vs modified in parallel columns) and unified (single stream with + and - markers). Shows statistics: added items, removed items and unchanged items. Copy the diff output to clipboard.",
-      "faq": [
-        {
-          "question": "What do the colors mean?",
-          "answer": "Green background: lines added in the modified version. Red background: lines removed (present in original, not in modified). No color: unchanged lines present in both."
-        },
-        {
-          "question": "What is the difference between line, word and character diff?",
-          "answer": "Line diff compares whole lines — best for code and documents. Word diff shows which words changed within lines. Character diff shows individual character changes — most granular, best for short texts."
-        },
-        {
-          "question": "Is this tool good for comparing code?",
-          "answer": "Yes for simple comparisons. For advanced code diffing with syntax highlighting, indentation-aware comparison and git-style output, use the Developer Tools diff checker which has more programming-specific features."
-        }
-      ],
-      "relatedTools": [
-        "find-and-replace",
-        "duplicate-line-remover",
-        "word-counter"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "label": "Home",
-          "url": "/"
-        },
-        {
-          "label": "Text Tools",
-          "url": "/text-tools"
-        },
-        {
-          "label": "Text Diff",
-          "url": "/text-tools/text-diff-highlighter"
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Word Counter",
+          "item": "https://utilitymega.com/text-tools/word-counter"
         }
       ]
     }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is reading time calculated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reading time is estimated at 238 words per minute (average adult silent reading speed)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Flesch Reading Ease score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A score of 60–70 is standard. Scores 70+ are easy to read. Higher is easier."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-002",
+  "name": "Text Case Converter",
+  "slug": "text-case-converter",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case and 8 more formats.",
+  "seoTitle": "Free Text Case Converter — camelCase, snake_case, kebab-case | UtilityMega",
+  "metaDescription": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case, aLtErNaTe and inverse. Free.",
+  "h1": "Text Case Converter",
+  "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
+  "keywords": [
+    "text case converter",
+    "camelCase converter",
+    "snake_case converter",
+    "kebab-case converter",
+    "PascalCase converter",
+    "uppercase lowercase converter",
+    "title case converter online"
+  ],
+  "content": "Convert text between 12 different case formats. Programming cases: camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case. Writing cases: UPPERCASE, lowercase, Title Case, Sentence case. Fun cases: aLtErNaTe CaSe, iNVERSE CaSe. Shows all conversions at a glance for quick comparison. Includes a reference guide for when to use each case in programming and writing.",
+  "faq": [
+    {
+      "question": "What is camelCase vs PascalCase?",
+      "answer": "camelCase starts with a lowercase letter: myVariableName. PascalCase (UpperCamelCase) starts with uppercase: MyComponentName. Use camelCase for variables/functions in JS/TypeScript; PascalCase for class names and Angular components."
+    },
+    {
+      "question": "When should I use snake_case vs kebab-case?",
+      "answer": "snake_case (words_with_underscores) is used in Python, Ruby and SQL. kebab-case (words-with-hyphens) is used in CSS class names, HTML attributes and URL slugs. Both improve readability over no-separator names."
+    },
+    {
+      "question": "What is CONSTANT_CASE?",
+      "answer": "CONSTANT_CASE (uppercase with underscores) is used for environment variables, Redux action types, and named constants in most programming languages: MAX_RETRY_COUNT, API_BASE_URL."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "find-and-replace",
+    "text-to-slug"
+  ],
+  "isPopular": true,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Text Case Converter",
+      "url": "https://utilitymega.com/text-tools/text-case-converter"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Text Case Converter — camelCase, snake_case, kebab-case",
+    "og:description": "Convert text between 12 case formats: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case and more.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/text-case-converter",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Text Case Converter | UtilityMega",
+    "twitter:description": "12 case formats: camelCase, snake_case, kebab-case, PascalCase and more."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Text Case Converter",
+    "description": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case and more.",
+    "url": "https://utilitymega.com/text-tools/text-case-converter",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Text Case Converter",
+          "item": "https://utilitymega.com/text-tools/text-case-converter"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is camelCase vs PascalCase?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "camelCase starts with lowercase: myVariableName. PascalCase starts with uppercase: MyComponentName."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When should I use snake_case vs kebab-case?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "snake_case is used in Python, Ruby and SQL. kebab-case is used in CSS class names and URL slugs."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-003",
+  "name": "Lorem Ipsum Generator",
+  "slug": "lorem-ipsum-generator",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
+  "seoTitle": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs | UtilityMega",
+  "metaDescription": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 flavors: Classic Lorem, Original Cicero, Extended Lorem, Hipster Ipsum, Corporate Ipsum. HTML tags option.",
+  "h1": "Lorem Ipsum Generator",
+  "canonicalUrl": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+  "keywords": [
+    "lorem ipsum generator",
+    "placeholder text generator",
+    "dummy text generator",
+    "Lorem ipsum online",
+    "generate random text",
+    "filler text generator"
+  ],
+  "content": "Generate lorem ipsum placeholder text for design mockups, prototypes and development. Choose quantity in words (1–500), sentences (1–50) or paragraphs (1–20). Five text styles: Classic Lorem ipsum, Original Cicero Latin, Extended Lorem, Hipster Ipsum and Corporate Ipsum. Options: start with 'Lorem ipsum', include HTML paragraph tags, add line breaks. Quick presets for single paragraphs, short/long articles and image captions.",
+  "faq": [
+    {
+      "question": "What is Lorem Ipsum?",
+      "answer": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC). The standard passage has been used as printer's dummy text since the 1500s."
+    },
+    {
+      "question": "When should I use lorem ipsum?",
+      "answer": "Use it for design mockups, UI prototypes, or any scenario where you need realistic-looking text without final content. It helps reviewers focus on design rather than reading content."
+    },
+    {
+      "question": "What is Hipster Ipsum?",
+      "answer": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin, making mockups more recognizable as English placeholder text."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "text-case-converter",
+    "duplicate-line-remover"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Lorem Ipsum Generator",
+      "url": "https://utilitymega.com/text-tools/lorem-ipsum-generator"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs",
+    "og:description": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 text flavors: Classic, Hipster, Corporate. HTML tags option.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Lorem Ipsum Generator | UtilityMega",
+    "twitter:description": "Generate placeholder text. Words, sentences, paragraphs. Multiple flavors."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Lorem Ipsum Generator",
+    "description": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
+    "url": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lorem Ipsum Generator",
+          "item": "https://utilitymega.com/text-tools/lorem-ipsum-generator"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Lorem Ipsum?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Hipster Ipsum?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-004",
+  "name": "Duplicate Line Remover",
+  "slug": "duplicate-line-remover",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
+  "seoTitle": "Free Duplicate Line Remover — Remove Repeated Lines Online | UtilityMega",
+  "metaDescription": "Remove duplicate lines from any text. Options: case-sensitive, trim whitespace, remove empty lines, keep first/last occurrence, sort output A-Z/Z-A/by length. Shows duplicate groups.",
+  "h1": "Duplicate Line Remover",
+  "canonicalUrl": "https://utilitymega.com/text-tools/duplicate-line-remover",
+  "keywords": [
+    "duplicate line remover",
+    "remove duplicate lines online",
+    "unique lines extractor",
+    "deduplicate text",
+    "remove repeated lines",
+    "unique list generator"
+  ],
+  "content": "Remove duplicate lines from any text or list instantly. Case-sensitive or case-insensitive comparison. Optionally trim leading/trailing whitespace before comparing. Remove empty lines. Choose to keep the first or last occurrence of each duplicate. Sort output alphabetically (A-Z, Z-A) or by line length. Shows the list of duplicate groups found. Displays statistics: input lines, unique count, duplicates found, removed count and percentage.",
+  "faq": [
+    {
+      "question": "What is a duplicate line?",
+      "answer": "A line that appears more than once in the text. With case-insensitive mode enabled, 'Apple' and 'apple' are treated as the same line."
+    },
+    {
+      "question": "What is 'keep first' vs 'keep last'?",
+      "answer": "Keep first: keeps the first occurrence, removes subsequent ones. Keep last: keeps the final occurrence. Useful when later entries are more recent (e.g., log file deduplication)."
+    },
+    {
+      "question": "Can I process CSV or database output?",
+      "answer": "Yes. Paste any line-separated data — CSV rows, SQL results, lists. Each line is treated as one unit."
+    }
+  ],
+  "relatedTools": [
+    "line-sorter",
+    "find-and-replace",
+    "word-counter"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Duplicate Line Remover",
+      "url": "https://utilitymega.com/text-tools/duplicate-line-remover"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Duplicate Line Remover — Remove Repeated Lines Online",
+    "og:description": "Remove duplicate lines from any text. Case-sensitive, trim whitespace, sort output. Shows duplicate groups and statistics.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/duplicate-line-remover",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Duplicate Line Remover | UtilityMega",
+    "twitter:description": "Remove duplicate lines, unique list extractor, deduplicate text."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Duplicate Line Remover",
+    "description": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
+    "url": "https://utilitymega.com/text-tools/duplicate-line-remover",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Duplicate Line Remover",
+          "item": "https://utilitymega.com/text-tools/duplicate-line-remover"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is 'keep first' vs 'keep last'?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keep first: keeps first occurrence. Keep last: keeps final occurrence, useful for recent log entries."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I process CSV or database output?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Paste any line-separated data — each line is treated as one unit."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-005",
+  "name": "Find and Replace",
+  "slug": "find-and-replace",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
+  "seoTitle": "Free Find and Replace Text Tool — Regex Online | UtilityMega",
+  "metaDescription": "Find and replace text online. Supports regex, case-sensitive matching and whole-word search. Highlights all matches with orange. Navigate matches one by one. Replace all at once.",
+  "h1": "Find and Replace",
+  "canonicalUrl": "https://utilitymega.com/text-tools/find-and-replace",
+  "keywords": [
+    "find and replace online",
+    "text find replace tool",
+    "regex find replace",
+    "search replace text browser",
+    "bulk text replace",
+    "regular expression replacer"
+  ],
+  "content": "A powerful find-and-replace tool for any text. Features: regex mode (full JavaScript RegExp), case-sensitive toggle, whole-word boundary matching, replace current match or all at once, navigate between matches with arrow buttons. All matches are highlighted in real-time. Replace history shows what was changed. Works on any text — code, documents, data files.",
+  "faq": [
+    {
+      "question": "Can I use regular expressions?",
+      "answer": "Yes. Enable the .* button and use JavaScript RegExp syntax. For example: \\b\\d{10}\\b matches 10-digit numbers; [aeiou] matches any vowel."
+    },
+    {
+      "question": "How do I delete text (replace with nothing)?",
+      "answer": "Leave the 'Replace with' field empty, then click Replace All. The matched text will be deleted."
+    },
+    {
+      "question": "Can I use capture groups in replacement?",
+      "answer": "In regex mode, use $1, $2 etc. in the replacement string to reference capture groups. For example, pattern (\\w+) (\\w+) replaced with $2 $1 swaps two words."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "duplicate-line-remover",
+    "text-diff-highlighter"
+  ],
+  "isPopular": true,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Find and Replace",
+      "url": "https://utilitymega.com/text-tools/find-and-replace"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Find and Replace Text Tool — Regex Online",
+    "og:description": "Find and replace text with regex support, case sensitivity, whole word matching. Navigate matches, replace all at once.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/find-and-replace",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Find and Replace | UtilityMega",
+    "twitter:description": "Find and replace text with regex. Case-sensitive, whole word, replace all."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Find and Replace",
+    "description": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
+    "url": "https://utilitymega.com/text-tools/find-and-replace",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Find and Replace",
+          "item": "https://utilitymega.com/text-tools/find-and-replace"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I use regular expressions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Enable regex mode and use JavaScript RegExp syntax."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use capture groups in replacement?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Use $1, $2 etc. in replacement to reference capture groups."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-006",
+  "name": "Text to Slug",
+  "slug": "text-to-slug",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
+  "seoTitle": "Free Text to Slug Converter — URL Slug Generator Online | UtilityMega",
+  "metaDescription": "Convert titles to URL-friendly slugs. Choose separator (-, _, .), case, max length. Remove stop words. Transliterate accented characters. Batch converter for multiple titles. Free.",
+  "h1": "Text to URL Slug Converter",
+  "canonicalUrl": "https://utilitymega.com/text-tools/text-to-slug",
+  "keywords": [
+    "text to slug converter",
+    "URL slug generator",
+    "title to URL converter",
+    "slugify text online",
+    "SEO URL generator",
+    "permalink generator",
+    "slug maker"
+  ],
+  "content": "Convert any text or title into a clean, URL-friendly slug. Options: separator character (-, _, ., none), case (lowercase/uppercase/keep), maximum length, remove stop words (the, a, and, etc.) and transliterate accented characters (ñ→n, é→e). Shows four outputs: URL slug, full permalink, HTML anchor ID and filename. Includes a batch converter for processing multiple titles at once.",
+  "faq": [
+    {
+      "question": "What makes a good URL slug?",
+      "answer": "Use hyphens as separators (Google recommends hyphens over underscores), keep it under 60 characters, use lowercase only, remove special characters and stop words, and make it descriptive of the content."
+    },
+    {
+      "question": "What are stop words and should I remove them?",
+      "answer": "Stop words (the, a, and, or, in, etc.) are common words that add length without SEO value. Removing them makes slugs shorter: 'the-best-way-to-learn' becomes 'best-way-learn'. Optional — some prefer to keep them for readability."
+    },
+    {
+      "question": "What does transliteration do?",
+      "answer": "Transliteration converts accented or special characters to their ASCII equivalents: é→e, ñ→n, ü→u, ç→c. This prevents URL encoding issues (%C3%A9 for é) in the browser address bar."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "find-and-replace",
+    "word-counter"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Text to Slug",
+      "url": "https://utilitymega.com/text-tools/text-to-slug"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Text to Slug Converter — URL Slug Generator Online",
+    "og:description": "Convert titles to URL-friendly slugs. Choose separator, case, max length. Remove stop words, transliterate accents. Batch converter.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/text-to-slug",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Text to Slug Converter | UtilityMega",
+    "twitter:description": "Generate clean URL slugs. Hyphens, underscores, remove stop words."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Text to Slug Converter",
+    "description": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
+    "url": "https://utilitymega.com/text-tools/text-to-slug",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Text to Slug",
+          "item": "https://utilitymega.com/text-tools/text-to-slug"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What makes a good URL slug?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use hyphens, keep under 60 characters, use lowercase, remove special characters and stop words."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does transliteration do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Transliteration converts accented characters to ASCII: é→e, ñ→n, ü→u."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-007",
+  "name": "Text Reverser",
+  "slug": "text-reverser",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
+  "seoTitle": "Free Text Reverser Online — Reverse Words, Lines & Characters | UtilityMega",
+  "metaDescription": "Reverse text in 6 ways: reverse all characters, reverse words, reverse lines, reverse sentences, flip text upside down (Unicode flipped chars), or mirror (right-to-left). Free browser tool.",
+  "h1": "Text Reverser",
+  "canonicalUrl": "https://utilitymega.com/text-tools/text-reverser",
+  "keywords": [
+    "text reverser online",
+    "reverse text generator",
+    "flip text upside down",
+    "backwards text generator",
+    "reverse words online",
+    "mirror text generator"
+  ],
+  "content": "Reverse text in six different ways: Reverse Characters (olleH), Reverse Words (World Hello), Reverse Lines (last line first), Reverse Sentences, Flip Upside Down (Unicode mapped characters, e.g. ɥǝllo), and Mirror (RTL layout). Each mode is previewed in a card with a live example. Includes a swap button to use the output as new input for chaining transformations.",
+  "faq": [
+    {
+      "question": "How does upside-down text work?",
+      "answer": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters (e.g., ɐ for a, ǝ for e). The text is also reversed so it reads correctly when physically flipped."
+    },
+    {
+      "question": "Can I reverse just one word?",
+      "answer": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
+    },
+    {
+      "question": "Is upside-down text supported everywhere?",
+      "answer": "Unicode flipped characters display correctly in most modern browsers, mobile devices and apps like Slack and Twitter. Older systems or some fonts may show replacement characters."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "string-encoder",
+    "word-counter"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Text Reverser",
+      "url": "https://utilitymega.com/text-tools/text-reverser"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Text Reverser Online — Reverse Words, Lines & Characters",
+    "og:description": "Reverse text in 6 ways: characters, words, lines, sentences, upside-down (Unicode), and mirror. Free browser tool.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/text-reverser",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Text Reverser | UtilityMega",
+    "twitter:description": "Reverse characters, words, lines, sentences. Flip text upside down or mirror."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Text Reverser",
+    "description": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
+    "url": "https://utilitymega.com/text-tools/text-reverser",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Text Reverser",
+          "item": "https://utilitymega.com/text-tools/text-reverser"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does upside-down text work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I reverse just one word?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-008",
+  "name": "Line Sorter",
+  "slug": "line-sorter",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
+  "seoTitle": "Free Line Sorter — Sort Text Lines Online A-Z | UtilityMega",
+  "metaDescription": "Sort text lines alphabetically A-Z or Z-A, by shortest/longest first, or shuffle randomly. Remove duplicates, trim whitespace, natural number sorting. Free browser-based tool.",
+  "h1": "Line Sorter",
+  "canonicalUrl": "https://utilitymega.com/text-tools/line-sorter",
+  "keywords": [
+    "line sorter online",
+    "sort text lines",
+    "alphabetical sorter",
+    "sort list online",
+    "text sorter tool",
+    "sort lines alphabetically",
+    "random line shuffler"
+  ],
+  "content": "Sort any list of lines in multiple ways: A→Z, Z→A, shortest first, longest first, or random shuffle. Options: case-sensitive sorting, trim whitespace, remove duplicates, remove empty lines, natural number sorting (1, 2, 10 instead of 1, 10, 2). Shows input line count, output line count and how many lines were removed. Pre-loaded with an example list containing duplicates and numbered items.",
+  "faq": [
+    {
+      "question": "What is natural number sorting?",
+      "answer": "Natural sorting treats numbers within strings numerically: 1, 2, 10 (natural) vs 1, 10, 2 (lexicographic). For example, 'item10' sorts after 'item9' with natural sorting."
+    },
+    {
+      "question": "Can I sort CSV or TSV columns?",
+      "answer": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time or use a spreadsheet tool."
+    },
+    {
+      "question": "What happens to case when sorting?",
+      "answer": "With case-insensitive sorting (default), 'Apple', 'apple' and 'APPLE' are treated as the same for comparison. With case-sensitive, uppercase letters sort before lowercase (A < a)."
+    }
+  ],
+  "relatedTools": [
+    "duplicate-line-remover",
+    "find-and-replace",
+    "word-counter"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Line Sorter",
+      "url": "https://utilitymega.com/text-tools/line-sorter"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Line Sorter — Sort Text Lines Online A-Z",
+    "og:description": "Sort lines alphabetically, by length, or randomly. Remove duplicates, trim whitespace, natural number sorting. Free tool.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/line-sorter",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Line Sorter | UtilityMega",
+    "twitter:description": "Sort lines A-Z, Z-A, by length, random shuffle. Remove duplicates."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Line Sorter",
+    "description": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
+    "url": "https://utilitymega.com/text-tools/line-sorter",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Line Sorter",
+          "item": "https://utilitymega.com/text-tools/line-sorter"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is natural number sorting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Natural sorting treats numbers within strings numerically: 1, 2, 10 vs 1, 10, 2 (lexicographic)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I sort CSV or TSV columns?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-009",
+  "name": "String Encoder/Decoder",
+  "slug": "string-encoder",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
+  "seoTitle": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary | UtilityMega",
+  "metaDescription": "Encode or decode strings in 8 formats: HTML entities, URL percent-encoding, Base64, Hexadecimal, Binary, Unicode escape sequences, ASCII codes and ROT13. Shows all encodings at once.",
+  "h1": "String Encoder & Decoder",
+  "canonicalUrl": "https://utilitymega.com/text-tools/string-encoder",
+  "keywords": [
+    "string encoder decoder",
+    "HTML entity encoder",
+    "URL encode decode",
+    "Base64 text encoder",
+    "hex encoder online",
+    "binary text converter",
+    "Unicode escape tool",
+    "ROT13 encoder"
+  ],
+  "content": "Encode or decode text in 8 different formats simultaneously. HTML Entities: converts < > & \" ' © to safe HTML codes. URL: percent-encodes for safe use in URLs. Base64: converts to/from Base64. Hex: converts to/from hexadecimal byte representation. Binary: converts to/from 8-bit binary. Unicode: converts to/from \\uXXXX escape sequences. ASCII: converts to/from ASCII code numbers. ROT13: Caesar cipher with 13-letter shift. Shows all 8 encodings at once for quick comparison.",
+  "faq": [
+    {
+      "question": "When do I need HTML entity encoding?",
+      "answer": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;, & becomes &amp;. Always encode user input in HTML output."
+    },
+    {
+      "question": "What is the difference between URL encode and HTML encode?",
+      "answer": "URL encoding converts characters for safe use in URLs (%20 for space). HTML encoding converts characters for safe display in HTML (&lt; for <). They're used in different contexts."
+    },
+    {
+      "question": "What is ROT13?",
+      "answer": "ROT13 is a simple Caesar cipher that shifts letters 13 positions. Since 13+13=26 (full alphabet), encoding and decoding use the same operation. It's used for spoiler text and simple obfuscation."
+    }
+  ],
+  "relatedTools": [
+    "find-and-replace",
+    "text-case-converter",
+    "text-to-slug"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "String Encoder",
+      "url": "https://utilitymega.com/text-tools/string-encoder"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary",
+    "og:description": "Encode or decode strings in 8 formats: HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII, ROT13. Shows all at once.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/string-encoder",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free String Encoder & Decoder | UtilityMega",
+    "twitter:description": "8 formats: HTML, URL, Base64, Hex, Binary, Unicode, ASCII, ROT13."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "String Encoder & Decoder",
+    "description": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
+    "url": "https://utilitymega.com/text-tools/string-encoder",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "String Encoder",
+          "item": "https://utilitymega.com/text-tools/string-encoder"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "When do I need HTML entity encoding?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is ROT13?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ROT13 is a Caesar cipher shifting letters 13 positions. Encoding and decoding use the same operation."
+        }
+      }
+    ]
+  }
+},
+{
+  "id": "tool-text-010",
+  "name": "Text Diff Highlighter",
+  "slug": "text-diff-highlighter",
+  "categorySlug": "text-tools",
+  "categoryName": "Text Tools",
+  "shortDescription": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
+  "seoTitle": "Free Text Diff Highlighter — Compare Two Texts Online | UtilityMega",
+  "metaDescription": "Compare two texts with color-coded diff view. Highlights added (green), removed (red) and unchanged lines. Side-by-side or unified view. Line, word or character-level comparison.",
+  "h1": "Text Diff Highlighter",
+  "canonicalUrl": "https://utilitymega.com/text-tools/text-diff-highlighter",
+  "keywords": [
+    "text diff tool",
+    "compare two texts online",
+    "text difference highlighter",
+    "diff checker text",
+    "find text differences",
+    "side by side text compare"
+  ],
+  "content": "Compare two versions of text with a color-coded diff view. Three comparison granularities: line-by-line (default), word-by-word or character-by-character. Two viewing modes: side-by-side (original vs modified in parallel columns) and unified (single stream with + and - markers). Shows statistics: added items, removed items and unchanged items. Copy the diff output to clipboard.",
+  "faq": [
+    {
+      "question": "What do the colors mean?",
+      "answer": "Green background: lines added in the modified version. Red background: lines removed (present in original, not in modified). No color: unchanged lines present in both."
+    },
+    {
+      "question": "What is the difference between line, word and character diff?",
+      "answer": "Line diff compares whole lines — best for code and documents. Word diff shows which words changed within lines. Character diff shows individual character changes — most granular, best for short texts."
+    },
+    {
+      "question": "Is this tool good for comparing code?",
+      "answer": "Yes for simple comparisons. For advanced code diffing with syntax highlighting, indentation-aware comparison and git-style output, use the Developer Tools diff checker which has more programming-specific features."
+    }
+  ],
+  "relatedTools": [
+    "find-and-replace",
+    "duplicate-line-remover",
+    "word-counter"
+  ],
+  "isPopular": false,
+  "isFeatured": false,
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "url": "https://utilitymega.com"
+    },
+    {
+      "name": "Text Tools",
+      "url": "https://utilitymega.com/text-tools"
+    },
+    {
+      "name": "Text Diff",
+      "url": "https://utilitymega.com/text-tools/text-diff-highlighter"
+    }
+  ],
+  "openGraph": {
+    "og:title": "Free Text Diff Highlighter — Compare Two Texts Online",
+    "og:description": "Compare two texts with color-coded diff view. Side-by-side or unified view. Line, word or character-level comparison. Free tool.",
+    "og:type": "website",
+    "og:url": "https://utilitymega.com/text-tools/text-diff-highlighter",
+    "og:site_name": "UtilityMega"
+  },
+  "twitterCard": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Free Text Diff Highlighter | UtilityMega",
+    "twitter:description": "Compare texts, see additions and deletions. Side-by-side or unified view."
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Text Diff Highlighter",
+    "description": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
+    "url": "https://utilitymega.com/text-tools/text-diff-highlighter",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://utilitymega.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Text Tools",
+          "item": "https://utilitymega.com/text-tools"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Text Diff",
+          "item": "https://utilitymega.com/text-tools/text-diff-highlighter"
+        }
+      ]
+    }
+  },
+  "faqSchema": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What do the colors mean?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Green: lines added. Red: lines removed. No color: unchanged lines."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between line, word and character diff?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Line diff compares whole lines. Word diff shows which words changed. Character diff shows individual character changes."
+        }
+      }
+    ]
+  }
+}
   ]
 }
