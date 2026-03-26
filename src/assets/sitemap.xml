@@ -215,11 +215,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://utilitymega.com/developer-tools/url-encoder</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+
   <url>
     <loc>https://utilitymega.com/developer-tools/regex-tester</loc>
     <changefreq>monthly</changefreq>
@@ -513,7 +509,7 @@
     <priority>0.7</priority>
   </url>
    <url>
-    <loc>https://utilitymega.com/farmers-tools/weather-crop-calculator</loc>
+    <loc>https://utilitymega.com/farmers-tools/weather-crop-advisor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
