@@ -482,6 +482,46 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/irrigation-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/soil-ph-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/seed-rate-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/pesticide-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/farm-income-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/livestock-feed-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/weather-crop-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://utilitymega.com/farmers-tools/msp-calculator</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   
 
 </urlset>
