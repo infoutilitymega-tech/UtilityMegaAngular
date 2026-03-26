@@ -200,7 +200,7 @@
         "description": "Free text utilities: word counter, case converter, duplicate remover and more",
         "url": "https://utilitymega.com/text-tools"
       },
-      "toolCount": 2
+      "toolCount": 10
     },
     {
       "id": "cat-06",
@@ -3392,296 +3392,6 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Every encoding involves some quality loss (transcode loss). To minimize this, use high quality settings in the converter. Converting to the same codec is more quality-preserving than cross-codec conversion."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-009",
-      "name": "Word Counter",
-      "slug": "word-counter",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Count words, characters, sentences, and paragraphs in any text instantly.",
-      "seoTitle": "Free Word Counter - Count Words & Characters Online",
-      "metaDescription": "Free online word counter. Count words, characters, sentences, paragraphs, and reading time. Paste or type your text for instant analysis.",
-      "h1": "Word Counter — Count Words & Characters Online",
-      "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
-      "keywords": [
-        "word counter",
-        "character counter",
-        "count words online",
-        "word count tool",
-        "text analyzer",
-        "sentence counter",
-        "reading time calculator",
-        "online word count"
-      ],
-      "content": "Whether you are a student checking essay length, a blogger optimizing content, or a copywriter meeting a brief, an accurate word counter is indispensable. Our free word counter provides comprehensive text analysis including word count, character count (with and without spaces), sentence count, paragraph count, and estimated reading time.\n\nInstant Text Analysis\n\nPaste or type your text and see real-time statistics updating as you type. There is no word limit — analyze short social media captions or entire book manuscripts. The tool processes text entirely in your browser with no delay.\n\nWord Count for Different Purposes\n\nAcademic writing: Most university essays require 500–5000 words. Our tool highlights when you approach your target count, helping you stay within limits. Blog posts: Research shows blog posts of 1,500–2,500 words perform best for SEO. Short posts under 300 words rarely rank well on Google. Social media: Twitter/X allows 280 characters per tweet. Instagram captions support up to 2,200 characters. LinkedIn posts perform best at 1,300–2,000 characters. SEO meta content: Title tags should be under 60 characters; meta descriptions under 160 characters. Our live counter helps you stay within these limits.\n\nReading Time Estimation\n\nThe average adult reads 200–250 words per minute. Our tool calculates estimated reading time based on your word count, helping you gauge whether your content length matches your audience's attention span.\n\nKeyword Density Analysis\n\nOur advanced word counter includes keyword density analysis — it identifies the most frequently used words and their percentage occurrence. This helps content writers check if their target keywords appear at the right density (typically 1–2% for primary keywords).\n\nText Statistics Explained\n\nWords: Any sequence of characters separated by spaces. Characters with spaces: Total character count including whitespace. Characters without spaces: Only non-whitespace characters. Sentences: Text segments ending with . ! or ? Paragraphs: Blocks of text separated by blank lines. Unique words: Count of distinct word forms — useful for measuring vocabulary richness.",
-      "faq": [
-        {
-          "question": "How does the word counter count words?",
-          "answer": "Words are counted as sequences of characters separated by whitespace. Hyphenated words like 'full-time' count as one word. Numbers and special characters adjacent to letters count as part of a word."
-        },
-        {
-          "question": "Does word count include headings and titles?",
-          "answer": "Our tool counts all text you paste, including headings and titles. If you need to exclude specific sections, remove them before pasting."
-        },
-        {
-          "question": "What is the ideal word count for a blog post?",
-          "answer": "For SEO, most studies suggest 1,500–2,500 words for competitive keywords. However, content quality and relevance matter more than length. Some top-ranking pages are under 1,000 words for low-competition topics."
-        },
-        {
-          "question": "How many words per minute is average reading speed?",
-          "answer": "The average adult reads approximately 200–250 words per minute. Our reading time estimate uses 225 WPM as the baseline. Speed readers may read 500+ WPM with comprehension."
-        },
-        {
-          "question": "Can the word counter handle different languages?",
-          "answer": "Yes, our tool handles text in any Unicode language. For languages without spaces between words (like Chinese or Japanese), character count is more meaningful than word count."
-        }
-      ],
-      "relatedTools": [
-        "text-case-converter",
-        "duplicate-line-remover",
-        "lorem-ipsum-generator"
-      ],
-      "isPopular": true,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Text Tools",
-          "url": "https://utilitymega.com/text-tools"
-        },
-        {
-          "name": "Word Counter",
-          "url": "https://utilitymega.com/text-tools/word-counter"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Word Counter - Count Words & Characters Online",
-        "og:description": "Count words, characters, sentences, paragraphs, reading time and keyword density instantly. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/text-tools/word-counter",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Word Counter | UtilityMega",
-        "twitter:description": "Count words, characters, reading time, keyword density. Free text analyzer."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Word Counter",
-        "description": "Count words, characters, sentences, paragraphs and reading time with keyword density analysis.",
-        "url": "https://utilitymega.com/text-tools/word-counter",
-        "applicationCategory": "UtilityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Text Tools",
-              "item": "https://utilitymega.com/text-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Word Counter",
-              "item": "https://utilitymega.com/text-tools/word-counter"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How does the word counter count words?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Words are counted as sequences of characters separated by whitespace. Hyphenated words like 'full-time' count as one word."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the ideal word count for a blog post?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "For SEO, most studies suggest 1,500–2,500 words for competitive keywords. However, content quality and relevance matter more than length."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can the word counter handle different languages?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, our tool handles text in any Unicode language. For languages without spaces between words (like Chinese or Japanese), character count is more meaningful than word count."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-010",
-      "name": "Text Case Converter",
-      "slug": "text-case-converter",
-      "categorySlug": "text-tools",
-      "categoryName": "Text Tools",
-      "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, and more.",
-      "seoTitle": "Free Text Case Converter - UPPER, lower, Title Case",
-      "metaDescription": "Free text case converter. Convert text to uppercase, lowercase, title case, sentence case, camelCase, PascalCase, kebab-case, snake_case.",
-      "h1": "Text Case Converter — 8 Case Formats Free",
-      "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
-      "keywords": [
-        "text case converter",
-        "uppercase converter",
-        "lowercase converter",
-        "title case converter",
-        "camelCase converter",
-        "snake_case converter",
-        "text transformation",
-        "case changer"
-      ],
-      "content": "Text case conversion is a frequent task in programming, content writing, and data processing. Manually changing the case of large amounts of text is tedious and error-prone. Our free text case converter instantly transforms your text between 8 different case formats with a single click.\n\nSupported Case Conversions\n\nUPPERCASE: Converts all letters to capitals. Used for acronyms, titles on physical signs, SQL keywords, and emphasis. Example: HELLO WORLD. lowercase: Converts all letters to small case. Used for URL slugs, email addresses, and programming constants. Example: hello world. Title Case: Capitalizes the first letter of each significant word. Used for article titles, book names, and headings. Example: Hello World. Sentence case: Capitalizes only the first letter of each sentence. Used for normal prose and social media captions. Example: Hello world. camelCase: No spaces, each word starts with capital except first. Used extensively in JavaScript variable naming. Example: helloWorld. PascalCase: Like camelCase but first word also capitalized. Used for class names in JavaScript, C#, Java. Example: HelloWorld. snake_case: Words separated by underscores, all lowercase. Used in Python, Ruby, and database column names. Example: hello_world. kebab-case: Words separated by hyphens, all lowercase. Used for HTML/CSS class names and URL slugs. Example: hello-world.\n\nWhen to Use Each Case\n\nIn web development, URLs should use kebab-case (my-page-title.html). CSS classes use kebab-case (.nav-item). JavaScript variables use camelCase (userFirstName). Python variables use snake_case (user_first_name). Database columns use snake_case (created_at). React components use PascalCase (UserProfile).\n\nFor SEO professionals, our tool helps quickly format heading tags, meta titles, and URL slugs to the correct case convention. Inconsistent capitalization in headings can affect readability and perceived content quality.\n\nBulk Text Case Conversion\n\nOur tool handles any amount of text — from a single word to entire documents. This is particularly useful when importing data from one system to another where naming conventions differ, such as converting database column names to JavaScript object keys.",
-      "faq": [
-        {
-          "question": "What is camelCase used for?",
-          "answer": "camelCase is used for variable and function names in JavaScript, Java, Swift, and many other programming languages. Example: getUserData(), firstName, totalPrice."
-        },
-        {
-          "question": "What is the difference between PascalCase and camelCase?",
-          "answer": "Both join words without spaces. PascalCase capitalizes the first letter of every word including the first (UserProfile). camelCase leaves the first word lowercase (userProfile). PascalCase is used for class/component names; camelCase for variables and functions."
-        },
-        {
-          "question": "What case should I use for HTML class names?",
-          "answer": "HTML class names conventionally use kebab-case (my-class-name). This is the standard followed by CSS frameworks like Bootstrap and Tailwind CSS."
-        },
-        {
-          "question": "Does title case capitalize every word?",
-          "answer": "Standard title case capitalizes the first and last words plus all words except articles (a, an, the), short prepositions (in, on, at), and coordinating conjunctions (and, but, or) unless they are the first or last word."
-        },
-        {
-          "question": "Can I convert code variable names between cases?",
-          "answer": "Yes. Our tool intelligently splits camelCase and snake_case strings at word boundaries, enabling accurate conversion between all programming naming conventions."
-        }
-      ],
-      "relatedTools": [
-        "word-counter",
-        "duplicate-line-remover",
-        "find-and-replace"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Text Tools",
-          "url": "https://utilitymega.com/text-tools"
-        },
-        {
-          "name": "Text Case Converter",
-          "url": "https://utilitymega.com/text-tools/text-case-converter"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Text Case Converter - UPPER lower Title camelCase",
-        "og:description": "Convert text between 8 case formats: UPPERCASE, lowercase, Title, camelCase, PascalCase, snake_case, kebab-case. Free.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/text-tools/text-case-converter",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Text Case Converter | UtilityMega",
-        "twitter:description": "8 case formats: UPPER, lower, Title, camel, Pascal, snake, kebab. Free instant converter."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Text Case Converter",
-        "description": "Convert text between 8 case formats including camelCase, PascalCase, snake_case, and kebab-case.",
-        "url": "https://utilitymega.com/text-tools/text-case-converter",
-        "applicationCategory": "UtilityApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Text Tools",
-              "item": "https://utilitymega.com/text-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Text Case Converter",
-              "item": "https://utilitymega.com/text-tools/text-case-converter"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is camelCase used for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "camelCase is used for variable and function names in JavaScript, Java, Swift, and many other programming languages. Example: getUserData(), firstName, totalPrice."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What case should I use for HTML class names?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "HTML class names conventionally use kebab-case (my-class-name). This is the standard followed by CSS frameworks like Bootstrap and Tailwind CSS."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the difference between PascalCase and camelCase?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Both join words without spaces. PascalCase capitalizes the first letter of every word including the first (UserProfile). camelCase leaves the first word lowercase (userProfile)."
             }
           }
         ]
@@ -10308,957 +10018,1521 @@
         ]
       }
     },
-
-
-   {
-  "id": "tool-security-001",
-  "name": "Password Generator",
-  "slug": "password-generator",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Generate cryptographically secure random passwords with custom length, charset, passphrase mode, and batch generation.",
-  "seoTitle": "Free Password Generator — Strong Random Passwords | UtilityMega",
-  "metaDescription": "Generate strong secure passwords using Web Crypto API. Custom length (4–64), charsets, passphrase mode, batch up to 100. Entropy score and crack time estimate. 100% client-side.",
-  "h1": "Password Generator",
-  "canonicalUrl": "https://utilitymega.com/security-tools/password-generator",
-  "keywords": [
-    "password generator",
-    "strong password generator",
-    "random password",
-    "secure password creator",
-    "passphrase generator",
-    "bulk password generator"
-  ],
-  "content": "Generate cryptographically secure passwords using window.crypto.getRandomValues(). Customize length (4–64 chars), character sets (uppercase, lowercase, numbers, symbols), and options like excluding ambiguous characters. Batch-generate up to 100 passwords. Passphrase generator creates memorable 4-word phrases. Shows entropy in bits and estimated crack time.\n\nPassword Strength Metrics\n\nEntropy (bits): Measures randomness. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts. 80+ bits for sensitive accounts. 100+ bits for encryption keys.\n\nCrack Time Estimates\n\nOnline attack: 1,000 guesses/second (typical website rate). Offline fast hash: 10,000,000,000 guesses/second (dedicated GPU cracker). Shows time for both scenarios to illustrate importance of password strength.\n\nCharacter Sets\n\nUppercase: A-Z (26 chars). Lowercase: a-z (26 chars). Numbers: 0-9 (10 chars). Symbols: !@#$%^&*()_+~`-=[]{};:'\",./<>? (32 chars). More character types = higher entropy.\n\nAmbiguous Characters\n\nExclude confusing characters: i, I, l, L, 1, o, O, 0, etc. Helps avoid confusion when copying passwords manually.\n\nPassphrase Mode\n\nGenerate memorable 4-word passphrases from a dictionary of 7,776 common words. Example: \"correct-horse-battery-staple\". Provides ~52 bits of entropy (4 words × 13 bits per word). Easier to remember than random strings.\n\nBatch Generation\n\nGenerate up to 100 passwords at once. Copy all to clipboard or download as CSV/TXT. Useful for creating user accounts, test data, or family passwords.",
-  "faq": [
     {
-      "question": "Are passwords stored anywhere?",
-      "answer": "No. Generation uses your browser's cryptographic RNG (window.crypto). Passwords are never transmitted or stored."
-    },
-    {
-      "question": "What makes a password secure?",
-      "answer": "Length is the most important factor. A 20-character random string is far stronger than an 8-character complex one. Use 16+ characters with mixed charsets for high-security accounts."
-    },
-    {
-      "question": "What is a passphrase?",
-      "answer": "A passphrase combines 4+ random words (e.g., 'correct-horse-battery-staple'). It provides ~52 bits of entropy and is easier to remember than a random string."
-    },
-    {
-      "question": "What is password entropy?",
-      "answer": "Entropy measures unpredictability in bits. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
-    },
-    {
-      "question": "Should I use symbols in passwords?",
-      "answer": "Yes, if the system allows them. Adding symbols increases entropy. However, length matters more than complexity. A 20-character lowercase password is stronger than a 10-character password with all character types."
-    }
-  ],
-  "relatedTools": [
-    "hash-generator",
-    "password-strength-checker",
-    "uuid-generator"
-  ],
-  "isPopular": true,
-  "isFeatured": true,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
+      "id": "tool-security-001",
       "name": "Password Generator",
-      "url": "https://utilitymega.com/security-tools/password-generator"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Password Generator — Strong Random Passwords",
-    "og:description": "Generate cryptographically secure random passwords. Custom length, charsets, passphrase mode, batch generation. Entropy score and crack time estimate.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/password-generator",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Password Generator | UtilityMega",
-    "twitter:description": "Strong random passwords, passphrases, entropy score, crack time estimate. 100% client-side."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Password Generator",
-    "description": "Generate cryptographically secure random passwords with custom length, charset, passphrase mode, and batch generation.",
-    "url": "https://utilitymega.com/security-tools/password-generator",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "password-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate cryptographically secure random passwords with custom length, charset, passphrase mode, and batch generation.",
+      "seoTitle": "Free Password Generator — Strong Random Passwords | UtilityMega",
+      "metaDescription": "Generate strong secure passwords using Web Crypto API. Custom length (4–64), charsets, passphrase mode, batch up to 100. Entropy score and crack time estimate. 100% client-side.",
+      "h1": "Password Generator",
+      "canonicalUrl": "https://utilitymega.com/security-tools/password-generator",
+      "keywords": [
+        "password generator",
+        "strong password generator",
+        "random password",
+        "secure password creator",
+        "passphrase generator",
+        "bulk password generator"
+      ],
+      "content": "Generate cryptographically secure passwords using window.crypto.getRandomValues(). Customize length (4–64 chars), character sets (uppercase, lowercase, numbers, symbols), and options like excluding ambiguous characters. Batch-generate up to 100 passwords. Passphrase generator creates memorable 4-word phrases. Shows entropy in bits and estimated crack time.\n\nPassword Strength Metrics\n\nEntropy (bits): Measures randomness. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts. 80+ bits for sensitive accounts. 100+ bits for encryption keys.\n\nCrack Time Estimates\n\nOnline attack: 1,000 guesses/second (typical website rate). Offline fast hash: 10,000,000,000 guesses/second (dedicated GPU cracker). Shows time for both scenarios to illustrate importance of password strength.\n\nCharacter Sets\n\nUppercase: A-Z (26 chars). Lowercase: a-z (26 chars). Numbers: 0-9 (10 chars). Symbols: !@#$%^&*()_+~`-=[]{};:'\",./<>? (32 chars). More character types = higher entropy.\n\nAmbiguous Characters\n\nExclude confusing characters: i, I, l, L, 1, o, O, 0, etc. Helps avoid confusion when copying passwords manually.\n\nPassphrase Mode\n\nGenerate memorable 4-word passphrases from a dictionary of 7,776 common words. Example: \"correct-horse-battery-staple\". Provides ~52 bits of entropy (4 words × 13 bits per word). Easier to remember than random strings.\n\nBatch Generation\n\nGenerate up to 100 passwords at once. Copy all to clipboard or download as CSV/TXT. Useful for creating user accounts, test data, or family passwords.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "Are passwords stored anywhere?",
+          "answer": "No. Generation uses your browser's cryptographic RNG (window.crypto). Passwords are never transmitted or stored."
+        },
+        {
+          "question": "What makes a password secure?",
+          "answer": "Length is the most important factor. A 20-character random string is far stronger than an 8-character complex one. Use 16+ characters with mixed charsets for high-security accounts."
+        },
+        {
+          "question": "What is a passphrase?",
+          "answer": "A passphrase combines 4+ random words (e.g., 'correct-horse-battery-staple'). It provides ~52 bits of entropy and is easier to remember than a random string."
+        },
+        {
+          "question": "What is password entropy?",
+          "answer": "Entropy measures unpredictability in bits. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
+        },
+        {
+          "question": "Should I use symbols in passwords?",
+          "answer": "Yes, if the system allows them. Adding symbols increases entropy. However, length matters more than complexity. A 20-character lowercase password is stronger than a 10-character password with all character types."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-strength-checker",
+        "uuid-generator"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Password Generator",
-          "item": "https://utilitymega.com/security-tools/password-generator"
+          "url": "https://utilitymega.com/security-tools/password-generator"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Are passwords stored anywhere?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "No. Generation uses your browser's cryptographic RNG. Passwords are never transmitted or stored."
+      ],
+      "openGraph": {
+        "og:title": "Free Password Generator — Strong Random Passwords",
+        "og:description": "Generate cryptographically secure random passwords. Custom length, charsets, passphrase mode, batch generation. Entropy score and crack time estimate.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/password-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Password Generator | UtilityMega",
+        "twitter:description": "Strong random passwords, passphrases, entropy score, crack time estimate. 100% client-side."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Password Generator",
+        "description": "Generate cryptographically secure random passwords with custom length, charset, passphrase mode, and batch generation.",
+        "url": "https://utilitymega.com/security-tools/password-generator",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Password Generator",
+              "item": "https://utilitymega.com/security-tools/password-generator"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is a passphrase?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A passphrase combines 4+ random words, providing ~52 bits of entropy and is easier to remember than random strings."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are passwords stored anywhere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Generation uses your browser's cryptographic RNG. Passwords are never transmitted or stored."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a passphrase?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A passphrase combines 4+ random words, providing ~52 bits of entropy and is easier to remember than random strings."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-security-002",
-  "name": "Password Strength Checker",
-  "slug": "password-strength-checker",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Check password strength with entropy analysis, pattern detection, crack time estimation, and improvement suggestions.",
-  "seoTitle": "Free Password Strength Checker — Entropy & Crack Time | UtilityMega",
-  "metaDescription": "Check password strength with detailed entropy score, crack time for online and offline attacks, pattern detection (keyboard walks, years, common words), and specific suggestions.",
-  "h1": "Password Strength Checker",
-  "canonicalUrl": "https://utilitymega.com/security-tools/password-strength-checker",
-  "keywords": [
-    "password strength checker",
-    "password security test",
-    "how strong is my password",
-    "password entropy calculator",
-    "crack time estimator",
-    "password analyzer"
-  ],
-  "content": "Analyze your password's strength using entropy calculation, charset analysis, and pattern detection. Shows estimated crack time for both online (1,000/sec) and offline fast-hash (10B/sec) attacks. Detects weak patterns: keyboard walks (qwerty, asdf), common passwords, date patterns, repeating characters. Provides specific improvement suggestions.\n\nEntropy Calculation\n\nEntropy (bits) = log2(charset size^password length). Example: 8-character lowercase password: log2(26^8) = 37.6 bits. 12-character mixed case + numbers + symbols: log2(94^12) = 78.4 bits.\n\nCrack Time Estimates\n\nOnline attack (1,000 guesses/sec): Time to crack at typical website rate. Offline fast hash (10 billion guesses/sec): Time with dedicated GPU cracker. Shows both to illustrate why offline password databases are dangerous.\n\nPattern Detection\n\nKeyboard walks: qwerty, asdf, 1qaz, zxcv, qwertyuiop. Common passwords: password, 123456, admin, welcome, letmein. Date patterns: Birth years (1990, 2000), months (jan, feb), dates. Repeating characters: aaaa, 1111, ababab. Sequential numbers: 12345, 54321.\n\nImprovement Suggestions\n\nIncrease length to at least 12-16 characters. Add numbers and symbols. Avoid dictionary words. Avoid personal information (name, birthdate). Avoid common patterns. Use passphrase approach for memorable strong passwords.\n\nSecurity Warning\n\nPassword strength checking happens entirely in your browser. Your password is never transmitted anywhere. However, avoid typing your actual passwords into any online tool if you're concerned about security.",
-  "faq": [
-    {
-      "question": "Is it safe to type my password here?",
-      "answer": "Yes. Strength checking happens entirely in your browser JavaScript. Your password is never transmitted anywhere."
     },
     {
-      "question": "What is password entropy?",
-      "answer": "Entropy measures unpredictability in bits. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
-    },
-    {
-      "question": "What makes a password weak?",
-      "answer": "Short length, lack of character variety, dictionary words, predictable patterns (dates, keyboard walks, repeated characters), and being on a list of common passwords."
-    },
-    {
-      "question": "What is the difference between online and offline crack times?",
-      "answer": "Online attacks are limited by website rate limits (thousands/sec). Offline attacks use stolen password hashes with no limits (billions/sec)."
-    },
-    {
-      "question": "How can I create a strong password I can remember?",
-      "answer": "Use a passphrase: 4-6 random words (e.g., 'mountain-sunset-coffee-umbrella'). This provides high entropy and is memorable."
-    }
-  ],
-  "relatedTools": [
-    "password-generator",
-    "hash-generator",
-    "bcrypt-generator"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
+      "id": "tool-security-002",
       "name": "Password Strength Checker",
-      "url": "https://utilitymega.com/security-tools/password-strength-checker"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Password Strength Checker — Entropy & Crack Time",
-    "og:description": "Check password strength with entropy analysis, pattern detection, crack time estimates, and improvement suggestions. Free tool.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/password-strength-checker",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Password Strength Checker | UtilityMega",
-    "twitter:description": "Entropy score, crack time estimates, pattern detection, improvement suggestions."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Password Strength Checker",
-    "description": "Check password strength with entropy analysis, pattern detection, crack time estimation, and improvement suggestions.",
-    "url": "https://utilitymega.com/security-tools/password-strength-checker",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "password-strength-checker",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Check password strength with entropy analysis, pattern detection, crack time estimation, and improvement suggestions.",
+      "seoTitle": "Free Password Strength Checker — Entropy & Crack Time | UtilityMega",
+      "metaDescription": "Check password strength with detailed entropy score, crack time for online and offline attacks, pattern detection (keyboard walks, years, common words), and specific suggestions.",
+      "h1": "Password Strength Checker",
+      "canonicalUrl": "https://utilitymega.com/security-tools/password-strength-checker",
+      "keywords": [
+        "password strength checker",
+        "password security test",
+        "how strong is my password",
+        "password entropy calculator",
+        "crack time estimator",
+        "password analyzer"
+      ],
+      "content": "Analyze your password's strength using entropy calculation, charset analysis, and pattern detection. Shows estimated crack time for both online (1,000/sec) and offline fast-hash (10B/sec) attacks. Detects weak patterns: keyboard walks (qwerty, asdf), common passwords, date patterns, repeating characters. Provides specific improvement suggestions.\n\nEntropy Calculation\n\nEntropy (bits) = log2(charset size^password length). Example: 8-character lowercase password: log2(26^8) = 37.6 bits. 12-character mixed case + numbers + symbols: log2(94^12) = 78.4 bits.\n\nCrack Time Estimates\n\nOnline attack (1,000 guesses/sec): Time to crack at typical website rate. Offline fast hash (10 billion guesses/sec): Time with dedicated GPU cracker. Shows both to illustrate why offline password databases are dangerous.\n\nPattern Detection\n\nKeyboard walks: qwerty, asdf, 1qaz, zxcv, qwertyuiop. Common passwords: password, 123456, admin, welcome, letmein. Date patterns: Birth years (1990, 2000), months (jan, feb), dates. Repeating characters: aaaa, 1111, ababab. Sequential numbers: 12345, 54321.\n\nImprovement Suggestions\n\nIncrease length to at least 12-16 characters. Add numbers and symbols. Avoid dictionary words. Avoid personal information (name, birthdate). Avoid common patterns. Use passphrase approach for memorable strong passwords.\n\nSecurity Warning\n\nPassword strength checking happens entirely in your browser. Your password is never transmitted anywhere. However, avoid typing your actual passwords into any online tool if you're concerned about security.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "Is it safe to type my password here?",
+          "answer": "Yes. Strength checking happens entirely in your browser JavaScript. Your password is never transmitted anywhere."
+        },
+        {
+          "question": "What is password entropy?",
+          "answer": "Entropy measures unpredictability in bits. Each additional bit doubles the possible combinations. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
+        },
+        {
+          "question": "What makes a password weak?",
+          "answer": "Short length, lack of character variety, dictionary words, predictable patterns (dates, keyboard walks, repeated characters), and being on a list of common passwords."
+        },
+        {
+          "question": "What is the difference between online and offline crack times?",
+          "answer": "Online attacks are limited by website rate limits (thousands/sec). Offline attacks use stolen password hashes with no limits (billions/sec)."
+        },
+        {
+          "question": "How can I create a strong password I can remember?",
+          "answer": "Use a passphrase: 4-6 random words (e.g., 'mountain-sunset-coffee-umbrella'). This provides high entropy and is memorable."
+        }
+      ],
+      "relatedTools": [
+        "password-generator",
+        "hash-generator",
+        "bcrypt-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Password Strength Checker",
-          "item": "https://utilitymega.com/security-tools/password-strength-checker"
+          "url": "https://utilitymega.com/security-tools/password-strength-checker"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Is it safe to type my password here?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Strength checking happens entirely in your browser. Your password is never transmitted anywhere."
+      ],
+      "openGraph": {
+        "og:title": "Free Password Strength Checker — Entropy & Crack Time",
+        "og:description": "Check password strength with entropy analysis, pattern detection, crack time estimates, and improvement suggestions. Free tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/password-strength-checker",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Password Strength Checker | UtilityMega",
+        "twitter:description": "Entropy score, crack time estimates, pattern detection, improvement suggestions."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Password Strength Checker",
+        "description": "Check password strength with entropy analysis, pattern detection, crack time estimation, and improvement suggestions.",
+        "url": "https://utilitymega.com/security-tools/password-strength-checker",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Password Strength Checker",
+              "item": "https://utilitymega.com/security-tools/password-strength-checker"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is password entropy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Entropy measures unpredictability in bits. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is it safe to type my password here?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Strength checking happens entirely in your browser. Your password is never transmitted anywhere."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is password entropy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Entropy measures unpredictability in bits. 60+ bits is strong for online accounts; 100+ bits for encryption keys."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-security-003",
-  "name": "HMAC Generator",
-  "slug": "hmac-generator",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Generate HMAC-SHA256 and HMAC-SHA512 message authentication codes for API signing and webhook verification.",
-  "seoTitle": "Free HMAC Generator — HMAC-SHA256 & SHA512 Online | UtilityMega",
-  "metaDescription": "Generate HMAC authentication codes with SHA-256, SHA-512, SHA-384. Verify HMAC. Output in Hex, Base64, or Base64URL. Supports webhook signing and API authentication.",
-  "h1": "HMAC Generator",
-  "canonicalUrl": "https://utilitymega.com/security-tools/hmac-generator",
-  "keywords": [
-    "HMAC generator",
-    "HMAC-SHA256",
-    "HMAC-SHA512",
-    "message authentication code",
-    "API signature generator",
-    "webhook signature",
-    "HMAC online"
-  ],
-  "content": "Generate HMAC (Hash-based Message Authentication Code) using SHA-256, SHA-512, or SHA-384. Output in Hex, Base64, or URL-safe Base64URL format. Built-in HMAC verification tool. Auto-generates a secure random key. Explains how HMAC works and shows common use cases: webhook verification (GitHub, Stripe), AWS API signing, JWT HS256/HS512.\n\nHow HMAC Works\n\nHMAC = hash(secret + message). It ensures both authenticity (only someone with the secret key could have created it) and integrity (message hasn't been tampered with). Unlike a regular hash, HMAC requires a shared secret key.\n\nAlgorithms Supported\n\nSHA-256: 256-bit output, standard for most APIs (GitHub, Stripe, AWS). SHA-512: 512-bit output, stronger security margin. SHA-384: 384-bit output, truncated SHA-512.\n\nOutput Formats\n\nHex: Hexadecimal string (64 chars for SHA-256). Base64: Standard Base64 encoding (44 chars for SHA-256). Base64URL: URL-safe Base64 (replaces + with -, / with _, no padding).\n\nUse Cases\n\nWebhook verification: GitHub, Stripe, and other services sign webhook payloads with HMAC to verify authenticity. API authentication: AWS Signature V4 uses HMAC-SHA256. JWT: HS256 and HS512 algorithms use HMAC. Data integrity: Verify files or messages haven't been tampered with.\n\nHMAC Verification\n\nPaste your HMAC output and the tool will verify if it matches the expected signature for your message and secret key. Helps debug API signing issues.",
-  "faq": [
-    {
-      "question": "What is HMAC used for?",
-      "answer": "HMAC proves that a message was created by someone with the secret key and wasn't tampered with in transit. Used for API authentication and webhook payload verification."
     },
     {
-      "question": "How is HMAC different from a regular hash?",
-      "answer": "A regular hash has no secret key — anyone can compute it. HMAC requires a shared secret, providing authentication that a hash alone cannot."
-    },
-    {
-      "question": "HMAC-SHA256 vs HMAC-SHA512?",
-      "answer": "HMAC-SHA256 is the standard for most APIs (AWS, GitHub, Stripe). Use HMAC-SHA512 for additional security margin when performance allows."
-    },
-    {
-      "question": "What is Base64URL encoding?",
-      "answer": "Base64URL replaces + with -, / with _, and removes padding. It's safe to use in URLs, cookies, and JSON without escaping."
-    },
-    {
-      "question": "Is the secret key stored anywhere?",
-      "answer": "No. All processing happens in your browser. The secret key is never transmitted to any server."
-    }
-  ],
-  "relatedTools": [
-    "hash-generator",
-    "password-generator",
-    "bcrypt-generator"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
+      "id": "tool-security-003",
       "name": "HMAC Generator",
-      "url": "https://utilitymega.com/security-tools/hmac-generator"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free HMAC Generator — HMAC-SHA256 & SHA512 Online",
-    "og:description": "Generate HMAC authentication codes with SHA-256, SHA-512. Output in Hex, Base64, Base64URL. Webhook signing, API authentication.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/hmac-generator",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free HMAC Generator | UtilityMega",
-    "twitter:description": "HMAC-SHA256, HMAC-SHA512. Hex, Base64, Base64URL output. Webhook and API signing."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "HMAC Generator",
-    "description": "Generate HMAC-SHA256 and HMAC-SHA512 message authentication codes for API signing and webhook verification.",
-    "url": "https://utilitymega.com/security-tools/hmac-generator",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "hmac-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate HMAC-SHA256 and HMAC-SHA512 message authentication codes for API signing and webhook verification.",
+      "seoTitle": "Free HMAC Generator — HMAC-SHA256 & SHA512 Online | UtilityMega",
+      "metaDescription": "Generate HMAC authentication codes with SHA-256, SHA-512, SHA-384. Verify HMAC. Output in Hex, Base64, or Base64URL. Supports webhook signing and API authentication.",
+      "h1": "HMAC Generator",
+      "canonicalUrl": "https://utilitymega.com/security-tools/hmac-generator",
+      "keywords": [
+        "HMAC generator",
+        "HMAC-SHA256",
+        "HMAC-SHA512",
+        "message authentication code",
+        "API signature generator",
+        "webhook signature",
+        "HMAC online"
+      ],
+      "content": "Generate HMAC (Hash-based Message Authentication Code) using SHA-256, SHA-512, or SHA-384. Output in Hex, Base64, or URL-safe Base64URL format. Built-in HMAC verification tool. Auto-generates a secure random key. Explains how HMAC works and shows common use cases: webhook verification (GitHub, Stripe), AWS API signing, JWT HS256/HS512.\n\nHow HMAC Works\n\nHMAC = hash(secret + message). It ensures both authenticity (only someone with the secret key could have created it) and integrity (message hasn't been tampered with). Unlike a regular hash, HMAC requires a shared secret key.\n\nAlgorithms Supported\n\nSHA-256: 256-bit output, standard for most APIs (GitHub, Stripe, AWS). SHA-512: 512-bit output, stronger security margin. SHA-384: 384-bit output, truncated SHA-512.\n\nOutput Formats\n\nHex: Hexadecimal string (64 chars for SHA-256). Base64: Standard Base64 encoding (44 chars for SHA-256). Base64URL: URL-safe Base64 (replaces + with -, / with _, no padding).\n\nUse Cases\n\nWebhook verification: GitHub, Stripe, and other services sign webhook payloads with HMAC to verify authenticity. API authentication: AWS Signature V4 uses HMAC-SHA256. JWT: HS256 and HS512 algorithms use HMAC. Data integrity: Verify files or messages haven't been tampered with.\n\nHMAC Verification\n\nPaste your HMAC output and the tool will verify if it matches the expected signature for your message and secret key. Helps debug API signing issues.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What is HMAC used for?",
+          "answer": "HMAC proves that a message was created by someone with the secret key and wasn't tampered with in transit. Used for API authentication and webhook payload verification."
+        },
+        {
+          "question": "How is HMAC different from a regular hash?",
+          "answer": "A regular hash has no secret key — anyone can compute it. HMAC requires a shared secret, providing authentication that a hash alone cannot."
+        },
+        {
+          "question": "HMAC-SHA256 vs HMAC-SHA512?",
+          "answer": "HMAC-SHA256 is the standard for most APIs (AWS, GitHub, Stripe). Use HMAC-SHA512 for additional security margin when performance allows."
+        },
+        {
+          "question": "What is Base64URL encoding?",
+          "answer": "Base64URL replaces + with -, / with _, and removes padding. It's safe to use in URLs, cookies, and JSON without escaping."
+        },
+        {
+          "question": "Is the secret key stored anywhere?",
+          "answer": "No. All processing happens in your browser. The secret key is never transmitted to any server."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-generator",
+        "bcrypt-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "HMAC Generator",
-          "item": "https://utilitymega.com/security-tools/hmac-generator"
+          "url": "https://utilitymega.com/security-tools/hmac-generator"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is HMAC used for?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "HMAC proves that a message was created by someone with the secret key and wasn't tampered with. Used for API authentication and webhook verification."
+      ],
+      "openGraph": {
+        "og:title": "Free HMAC Generator — HMAC-SHA256 & SHA512 Online",
+        "og:description": "Generate HMAC authentication codes with SHA-256, SHA-512. Output in Hex, Base64, Base64URL. Webhook signing, API authentication.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/hmac-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free HMAC Generator | UtilityMega",
+        "twitter:description": "HMAC-SHA256, HMAC-SHA512. Hex, Base64, Base64URL output. Webhook and API signing."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "HMAC Generator",
+        "description": "Generate HMAC-SHA256 and HMAC-SHA512 message authentication codes for API signing and webhook verification.",
+        "url": "https://utilitymega.com/security-tools/hmac-generator",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "HMAC Generator",
+              "item": "https://utilitymega.com/security-tools/hmac-generator"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "How is HMAC different from a regular hash?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A regular hash has no secret key — anyone can compute it. HMAC requires a shared secret, providing authentication."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is HMAC used for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "HMAC proves that a message was created by someone with the secret key and wasn't tampered with. Used for API authentication and webhook verification."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is HMAC different from a regular hash?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A regular hash has no secret key — anyone can compute it. HMAC requires a shared secret, providing authentication."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-security-004",
-  "name": "SSL Certificate Checker",
-  "slug": "ssl-checker",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Check SSL certificate validity, expiry date, TLS version, cipher suite, and certificate chain for any domain.",
-  "seoTitle": "Free SSL Certificate Checker — Check SSL Expiry Online | UtilityMega",
-  "metaDescription": "Check SSL/TLS certificate details for any domain: validity, expiry date, issuer, TLS version, cipher suite, HSTS status, SANs, and full certificate chain.",
-  "h1": "SSL Certificate Checker",
-  "canonicalUrl": "https://utilitymega.com/security-tools/ssl-checker",
-  "keywords": [
-    "SSL certificate checker",
-    "check SSL expiry",
-    "SSL validator online",
-    "TLS checker",
-    "HTTPS checker",
-    "certificate chain checker",
-    "SSL expiry date"
-  ],
-  "content": "Inspect SSL/TLS certificate details for any domain. Shows validity status, days until expiry, issuer and CA chain, TLS version, cipher suite, HSTS status, and Subject Alternative Names (SANs). Alerts when certificates expire within 30 days.\n\nCertificate Details\n\nCommon Name (CN): Primary domain name. Subject Alternative Names (SANs): All domains covered by the certificate. Issuer: Certificate Authority that issued the certificate. Validity Period: Not Before and Not After dates. Days Until Expiry: Countdown to expiration. Serial Number: Unique certificate identifier.\n\nTLS Information\n\nProtocol Version: TLS 1.2, TLS 1.3, etc. Cipher Suite: Encryption algorithm in use. Key Exchange: ECDHE, RSA, etc. Certificate Chain: Complete chain from leaf to root.\n\nSecurity Headers\n\nHSTS (HTTP Strict Transport Security): Enforces HTTPS connections. HPKP (HTTP Public Key Pinning): Certificate pinning (deprecated). Security Score: Overall SSL configuration rating.\n\nExpiry Alerts\n\nShows warnings for certificates expiring within 30 days. Alerts for expired certificates. Recommended renewal window: 30-60 days before expiry.\n\nCommon Issues Detected\n\nExpired certificate. Self-signed certificate. Domain mismatch (certificate not valid for domain). Incomplete certificate chain. Weak cipher suites. TLS 1.0 or 1.1 support (deprecated). Missing intermediate certificates.",
-  "faq": [
-    {
-      "question": "When should I renew my SSL certificate?",
-      "answer": "Renew at least 30 days before expiry. Let's Encrypt auto-renews at 30 days. Paid certificates should be renewed 60+ days before expiry to allow processing time."
     },
     {
-      "question": "What causes SSL certificate errors?",
-      "answer": "Expired certificate, domain mismatch, self-signed certificate (not trusted by browsers), broken certificate chain, or a revoked certificate."
-    },
-    {
-      "question": "What is TLS 1.3?",
-      "answer": "TLS 1.3 (released 2018) is the latest version. It's faster (1-RTT handshake) and more secure than TLS 1.2. All modern browsers support it."
-    },
-    {
-      "question": "What are Subject Alternative Names (SANs)?",
-      "answer": "SANs list all domain names a certificate is valid for. A single certificate can cover multiple domains (e.g., example.com, www.example.com, api.example.com)."
-    },
-    {
-      "question": "What is HSTS?",
-      "answer": "HSTS (HTTP Strict Transport Security) forces browsers to always use HTTPS connections, preventing SSL stripping attacks and protocol downgrade attacks."
-    }
-  ],
-  "relatedTools": [
-    "cors-tester",
-    "csp-generator",
-    "ip-lookup"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
-      "name": "SSL Checker",
-      "url": "https://utilitymega.com/security-tools/ssl-checker"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free SSL Certificate Checker — Check SSL Expiry Online",
-    "og:description": "Check SSL/TLS certificate details: validity, expiry date, issuer, TLS version, cipher suite, SANs, certificate chain. Free tool.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/ssl-checker",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free SSL Certificate Checker | UtilityMega",
-    "twitter:description": "Check SSL expiry, issuer, TLS version, cipher suite, certificate chain."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "SSL Certificate Checker",
-    "description": "Check SSL certificate validity, expiry date, TLS version, cipher suite, and certificate chain for any domain.",
-    "url": "https://utilitymega.com/security-tools/ssl-checker",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "id": "tool-security-004",
+      "name": "SSL Certificate Checker",
+      "slug": "ssl-checker",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Check SSL certificate validity, expiry date, TLS version, cipher suite, and certificate chain for any domain.",
+      "seoTitle": "Free SSL Certificate Checker — Check SSL Expiry Online | UtilityMega",
+      "metaDescription": "Check SSL/TLS certificate details for any domain: validity, expiry date, issuer, TLS version, cipher suite, HSTS status, SANs, and full certificate chain.",
+      "h1": "SSL Certificate Checker",
+      "canonicalUrl": "https://utilitymega.com/security-tools/ssl-checker",
+      "keywords": [
+        "SSL certificate checker",
+        "check SSL expiry",
+        "SSL validator online",
+        "TLS checker",
+        "HTTPS checker",
+        "certificate chain checker",
+        "SSL expiry date"
+      ],
+      "content": "Inspect SSL/TLS certificate details for any domain. Shows validity status, days until expiry, issuer and CA chain, TLS version, cipher suite, HSTS status, and Subject Alternative Names (SANs). Alerts when certificates expire within 30 days.\n\nCertificate Details\n\nCommon Name (CN): Primary domain name. Subject Alternative Names (SANs): All domains covered by the certificate. Issuer: Certificate Authority that issued the certificate. Validity Period: Not Before and Not After dates. Days Until Expiry: Countdown to expiration. Serial Number: Unique certificate identifier.\n\nTLS Information\n\nProtocol Version: TLS 1.2, TLS 1.3, etc. Cipher Suite: Encryption algorithm in use. Key Exchange: ECDHE, RSA, etc. Certificate Chain: Complete chain from leaf to root.\n\nSecurity Headers\n\nHSTS (HTTP Strict Transport Security): Enforces HTTPS connections. HPKP (HTTP Public Key Pinning): Certificate pinning (deprecated). Security Score: Overall SSL configuration rating.\n\nExpiry Alerts\n\nShows warnings for certificates expiring within 30 days. Alerts for expired certificates. Recommended renewal window: 30-60 days before expiry.\n\nCommon Issues Detected\n\nExpired certificate. Self-signed certificate. Domain mismatch (certificate not valid for domain). Incomplete certificate chain. Weak cipher suites. TLS 1.0 or 1.1 support (deprecated). Missing intermediate certificates.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "When should I renew my SSL certificate?",
+          "answer": "Renew at least 30 days before expiry. Let's Encrypt auto-renews at 30 days. Paid certificates should be renewed 60+ days before expiry to allow processing time."
+        },
+        {
+          "question": "What causes SSL certificate errors?",
+          "answer": "Expired certificate, domain mismatch, self-signed certificate (not trusted by browsers), broken certificate chain, or a revoked certificate."
+        },
+        {
+          "question": "What is TLS 1.3?",
+          "answer": "TLS 1.3 (released 2018) is the latest version. It's faster (1-RTT handshake) and more secure than TLS 1.2. All modern browsers support it."
+        },
+        {
+          "question": "What are Subject Alternative Names (SANs)?",
+          "answer": "SANs list all domain names a certificate is valid for. A single certificate can cover multiple domains (e.g., example.com, www.example.com, api.example.com)."
+        },
+        {
+          "question": "What is HSTS?",
+          "answer": "HSTS (HTTP Strict Transport Security) forces browsers to always use HTTPS connections, preventing SSL stripping attacks and protocol downgrade attacks."
+        }
+      ],
+      "relatedTools": [
+        "cors-tester",
+        "csp-generator",
+        "ip-lookup"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "SSL Checker",
-          "item": "https://utilitymega.com/security-tools/ssl-checker"
+          "url": "https://utilitymega.com/security-tools/ssl-checker"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "When should I renew my SSL certificate?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Renew at least 30 days before expiry. Let's Encrypt auto-renews at 30 days."
+      ],
+      "openGraph": {
+        "og:title": "Free SSL Certificate Checker — Check SSL Expiry Online",
+        "og:description": "Check SSL/TLS certificate details: validity, expiry date, issuer, TLS version, cipher suite, SANs, certificate chain. Free tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/ssl-checker",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free SSL Certificate Checker | UtilityMega",
+        "twitter:description": "Check SSL expiry, issuer, TLS version, cipher suite, certificate chain."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SSL Certificate Checker",
+        "description": "Check SSL certificate validity, expiry date, TLS version, cipher suite, and certificate chain for any domain.",
+        "url": "https://utilitymega.com/security-tools/ssl-checker",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "SSL Checker",
+              "item": "https://utilitymega.com/security-tools/ssl-checker"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is TLS 1.3?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "TLS 1.3 is the latest version — faster (1-RTT handshake) and more secure than TLS 1.2."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "When should I renew my SSL certificate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Renew at least 30 days before expiry. Let's Encrypt auto-renews at 30 days."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is TLS 1.3?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TLS 1.3 is the latest version — faster (1-RTT handshake) and more secure than TLS 1.2."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-security-005",
-  "name": "CORS Tester",
-  "slug": "cors-tester",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Test CORS headers for any URL, diagnose cross-origin errors, and get exact server configuration fixes.",
-  "seoTitle": "Free CORS Tester — Test Cross-Origin Headers & Fix Errors | UtilityMega",
-  "metaDescription": "Test CORS (Cross-Origin Resource Sharing) configuration for any API endpoint. Checks all Access-Control headers, preflight OPTIONS response, and provides exact server-side fixes.",
-  "h1": "CORS Tester & Debugger",
-  "canonicalUrl": "https://utilitymega.com/security-tools/cors-tester",
-  "keywords": [
-    "CORS tester",
-    "CORS checker",
-    "test CORS headers",
-    "Access-Control-Allow-Origin",
-    "CORS error checker",
-    "cross-origin debugger",
-    "CORS fix"
-  ],
-  "content": "Test CORS configuration for any API URL. Checks Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers, credentials support, and preflight OPTIONS response. Shows which headers are present/missing, whether your request would be blocked, and provides copy-paste server configuration fixes for Express.js, Nginx, and other frameworks.\n\nCORS Headers Checked\n\nAccess-Control-Allow-Origin: Which origins are allowed (must match your origin or *). Access-Control-Allow-Methods: Which HTTP methods are allowed (GET, POST, PUT, DELETE, etc.). Access-Control-Allow-Headers: Which request headers are allowed. Access-Control-Allow-Credentials: Whether cookies/auth headers are allowed. Access-Control-Max-Age: How long preflight results are cached. Access-Control-Expose-Headers: Which response headers are exposed to JavaScript.\n\nPreflight OPTIONS Request\n\nChecks if the server properly responds to OPTIONS requests. Required for cross-origin requests with non-simple methods (POST with custom headers, PUT, DELETE).\n\nServer Configuration Fixes\n\nExpress.js/Node.js: `app.use(cors())` or custom middleware. Nginx: `add_header Access-Control-Allow-Origin *;` Apache: `Header set Access-Control-Allow-Origin \"*\"` Python/Flask: `@app.after_request` decorator. PHP: `header('Access-Control-Allow-Origin: *');`\n\nCommon CORS Errors\n\nNo 'Access-Control-Allow-Origin' header: Server not configured for CORS. Origin not allowed: Server only allows specific origins, not yours. Credentials not allowed: Server doesn't allow cookies/auth headers. Preflight fails: OPTIONS request not handled properly.\n\nTesting Notes\n\nCORS tests are performed from your browser. Some APIs may block requests from browsers but work from servers. The tool shows exact request/response headers for debugging.",
-  "faq": [
-    {
-      "question": "What causes CORS errors?",
-      "answer": "The server is not returning the Access-Control-Allow-Origin header matching your origin, or the preflight OPTIONS request is not handled correctly."
     },
     {
-      "question": "Can CORS be disabled in the browser?",
-      "answer": "Some extensions can disable CORS for testing. Never disable CORS in production — it is a critical security mechanism protecting users."
-    },
-    {
-      "question": "Why does CORS only affect browsers?",
-      "answer": "CORS is enforced by browsers to protect users. Server-to-server requests and tools like curl are not subject to CORS restrictions."
-    },
-    {
-      "question": "What is a preflight request?",
-      "answer": "A preflight OPTIONS request is sent before the actual request for non-simple requests (PUT, DELETE, custom headers). It checks if the server allows the actual request."
-    },
-    {
-      "question": "What is the difference between * and a specific origin?",
-      "answer": "* allows any origin (broad). A specific origin (like https://example.com) allows only that origin. * cannot be used with credentials (cookies, auth headers)."
-    }
-  ],
-  "relatedTools": [
-    "ssl-checker",
-    "csp-generator",
-    "ip-lookup"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
+      "id": "tool-security-005",
       "name": "CORS Tester",
-      "url": "https://utilitymega.com/security-tools/cors-tester"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free CORS Tester — Test Cross-Origin Headers & Fix Errors",
-    "og:description": "Test CORS configuration for any API endpoint. Checks all Access-Control headers, preflight OPTIONS, and provides server configuration fixes.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/cors-tester",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free CORS Tester | UtilityMega",
-    "twitter:description": "Test CORS headers, preflight requests, get Express/Nginx/Apache fixes."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "CORS Tester",
-    "description": "Test CORS headers for any URL, diagnose cross-origin errors, and get exact server configuration fixes.",
-    "url": "https://utilitymega.com/security-tools/cors-tester",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "cors-tester",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Test CORS headers for any URL, diagnose cross-origin errors, and get exact server configuration fixes.",
+      "seoTitle": "Free CORS Tester — Test Cross-Origin Headers & Fix Errors | UtilityMega",
+      "metaDescription": "Test CORS (Cross-Origin Resource Sharing) configuration for any API endpoint. Checks all Access-Control headers, preflight OPTIONS response, and provides exact server-side fixes.",
+      "h1": "CORS Tester & Debugger",
+      "canonicalUrl": "https://utilitymega.com/security-tools/cors-tester",
+      "keywords": [
+        "CORS tester",
+        "CORS checker",
+        "test CORS headers",
+        "Access-Control-Allow-Origin",
+        "CORS error checker",
+        "cross-origin debugger",
+        "CORS fix"
+      ],
+      "content": "Test CORS configuration for any API URL. Checks Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers, credentials support, and preflight OPTIONS response. Shows which headers are present/missing, whether your request would be blocked, and provides copy-paste server configuration fixes for Express.js, Nginx, and other frameworks.\n\nCORS Headers Checked\n\nAccess-Control-Allow-Origin: Which origins are allowed (must match your origin or *). Access-Control-Allow-Methods: Which HTTP methods are allowed (GET, POST, PUT, DELETE, etc.). Access-Control-Allow-Headers: Which request headers are allowed. Access-Control-Allow-Credentials: Whether cookies/auth headers are allowed. Access-Control-Max-Age: How long preflight results are cached. Access-Control-Expose-Headers: Which response headers are exposed to JavaScript.\n\nPreflight OPTIONS Request\n\nChecks if the server properly responds to OPTIONS requests. Required for cross-origin requests with non-simple methods (POST with custom headers, PUT, DELETE).\n\nServer Configuration Fixes\n\nExpress.js/Node.js: `app.use(cors())` or custom middleware. Nginx: `add_header Access-Control-Allow-Origin *;` Apache: `Header set Access-Control-Allow-Origin \"*\"` Python/Flask: `@app.after_request` decorator. PHP: `header('Access-Control-Allow-Origin: *');`\n\nCommon CORS Errors\n\nNo 'Access-Control-Allow-Origin' header: Server not configured for CORS. Origin not allowed: Server only allows specific origins, not yours. Credentials not allowed: Server doesn't allow cookies/auth headers. Preflight fails: OPTIONS request not handled properly.\n\nTesting Notes\n\nCORS tests are performed from your browser. Some APIs may block requests from browsers but work from servers. The tool shows exact request/response headers for debugging.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What causes CORS errors?",
+          "answer": "The server is not returning the Access-Control-Allow-Origin header matching your origin, or the preflight OPTIONS request is not handled correctly."
+        },
+        {
+          "question": "Can CORS be disabled in the browser?",
+          "answer": "Some extensions can disable CORS for testing. Never disable CORS in production — it is a critical security mechanism protecting users."
+        },
+        {
+          "question": "Why does CORS only affect browsers?",
+          "answer": "CORS is enforced by browsers to protect users. Server-to-server requests and tools like curl are not subject to CORS restrictions."
+        },
+        {
+          "question": "What is a preflight request?",
+          "answer": "A preflight OPTIONS request is sent before the actual request for non-simple requests (PUT, DELETE, custom headers). It checks if the server allows the actual request."
+        },
+        {
+          "question": "What is the difference between * and a specific origin?",
+          "answer": "* allows any origin (broad). A specific origin (like https://example.com) allows only that origin. * cannot be used with credentials (cookies, auth headers)."
+        }
+      ],
+      "relatedTools": [
+        "ssl-checker",
+        "csp-generator",
+        "ip-lookup"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "CORS Tester",
-          "item": "https://utilitymega.com/security-tools/cors-tester"
+          "url": "https://utilitymega.com/security-tools/cors-tester"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What causes CORS errors?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The server is not returning Access-Control-Allow-Origin matching your origin, or preflight OPTIONS request is not handled correctly."
+      ],
+      "openGraph": {
+        "og:title": "Free CORS Tester — Test Cross-Origin Headers & Fix Errors",
+        "og:description": "Test CORS configuration for any API endpoint. Checks all Access-Control headers, preflight OPTIONS, and provides server configuration fixes.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/cors-tester",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free CORS Tester | UtilityMega",
+        "twitter:description": "Test CORS headers, preflight requests, get Express/Nginx/Apache fixes."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CORS Tester",
+        "description": "Test CORS headers for any URL, diagnose cross-origin errors, and get exact server configuration fixes.",
+        "url": "https://utilitymega.com/security-tools/cors-tester",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "CORS Tester",
+              "item": "https://utilitymega.com/security-tools/cors-tester"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is a preflight request?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A preflight OPTIONS request checks if the server allows the actual request before sending it."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What causes CORS errors?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The server is not returning Access-Control-Allow-Origin matching your origin, or preflight OPTIONS request is not handled correctly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a preflight request?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A preflight OPTIONS request checks if the server allows the actual request before sending it."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-security-006",
-  "name": "CSP Generator",
-  "slug": "csp-generator",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Build Content Security Policy headers visually with a security score, ready-made presets, and Nginx output.",
-  "seoTitle": "Free CSP Generator — Content Security Policy Builder | UtilityMega",
-  "metaDescription": "Generate Content Security Policy headers with a visual builder. Configure script-src, style-src, img-src and more. Get security score, HTML meta tag, and Nginx config. 5 presets included.",
-  "h1": "CSP Generator — Content Security Policy Builder",
-  "canonicalUrl": "https://utilitymega.com/security-tools/csp-generator",
-  "keywords": [
-    "CSP generator",
-    "Content Security Policy",
-    "CSP header builder",
-    "XSS protection",
-    "web security headers",
-    "CSP policy generator",
-    "Content-Security-Policy"
-  ],
-  "content": "Build a Content Security Policy with a visual checkbox interface covering all major directives: default-src, script-src, style-src, img-src, font-src, connect-src, and more. Shows security score (0–100), warns about unsafe-inline and unsafe-eval, outputs ready-to-use header string, HTML meta tag, and Nginx config. Includes 5 presets for SPA, WordPress, Google Fonts, minimal, and development modes.\n\nCSP Directives\n\ndefault-src: Fallback for other directives. script-src: Where JavaScript can load from. style-src: Where CSS can load from. img-src: Where images can load from. font-src: Where fonts can load from. connect-src: Where fetch/XHR requests can go. frame-src: Where iframes can load from. object-src: Where plugins can load from. base-uri: Where <base> tag can point to. form-action: Where forms can submit to. report-uri: Where violations are reported.\n\nSource Values\n\n'self': Same origin only. 'none': Nothing allowed. 'unsafe-inline': Inline scripts/styles (weak). 'unsafe-eval': eval() allowed (weak). 'strict-dynamic': Trust nonces/hashes. 'nonce-{random}': Specific random token. 'sha256-{hash}': Specific inline script hash. https://: Any HTTPS URL. https://example.com: Specific domain.\n\nSecurity Score\n\n0-100 rating based on policy strength. Penalties for: 'unsafe-inline' (-20), 'unsafe-eval' (-15), no 'strict-dynamic' (-10), wildcard '*' allowed (-25). Bonuses for: 'nonce-' or 'sha256-' (+15), 'report-uri' configured (+5).\n\nPresets\n\nSPA (Single Page App): Modern React/Vue configuration. WordPress: WordPress-specific with admin API allowances. Google Fonts: Includes fonts.googleapis.com and fonts.gstatic.com. Minimal: Very restrictive, least privilege. Development: Development-friendly with unsafe-eval and localhost.\n\nReport-Only Mode\n\nStart with Content-Security-Policy-Report-Only header to monitor violations without blocking. Allows testing policies in production safely. Violations are sent to report-uri endpoint.",
-  "faq": [
-    {
-      "question": "What does unsafe-inline mean in CSP?",
-      "answer": "It allows inline scripts and styles — significantly weakening XSS protection. Avoid unsafe-inline and use nonces or hashes instead when possible."
     },
     {
-      "question": "How do I deploy CSP?",
-      "answer": "Add as an HTTP response header: Content-Security-Policy: your-policy. Or use a meta tag (with limitations). Start with report-only mode to monitor before enforcing."
-    },
-    {
-      "question": "What is report-only mode?",
-      "answer": "Content-Security-Policy-Report-Only logs violations without blocking them. Use it to test your policy and find false positives before switching to enforcement."
-    },
-    {
-      "question": "What is a nonce?",
-      "answer": "A nonce is a random, single-use token. CSP allows scripts with matching nonce='value' attribute. More secure than unsafe-inline."
-    },
-    {
-      "question": "What is strict-dynamic?",
-      "answer": "strict-dynamic tells the browser to trust scripts loaded by scripts that already have a valid nonce or hash. Makes managing third-party scripts easier."
-    }
-  ],
-  "relatedTools": [
-    "cors-tester",
-    "ssl-checker",
-    "hmac-generator"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
+      "id": "tool-security-006",
       "name": "CSP Generator",
-      "url": "https://utilitymega.com/security-tools/csp-generator"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free CSP Generator — Content Security Policy Builder",
-    "og:description": "Generate Content Security Policy headers with visual builder. Security score, presets, Nginx config, HTML meta tag. Free tool.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/csp-generator",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free CSP Generator | UtilityMega",
-    "twitter:description": "Build Content Security Policy visually. Security score, presets, server config."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "CSP Generator",
-    "description": "Build Content Security Policy headers visually with a security score, ready-made presets, and Nginx output.",
-    "url": "https://utilitymega.com/security-tools/csp-generator",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "csp-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Build Content Security Policy headers visually with a security score, ready-made presets, and Nginx output.",
+      "seoTitle": "Free CSP Generator — Content Security Policy Builder | UtilityMega",
+      "metaDescription": "Generate Content Security Policy headers with a visual builder. Configure script-src, style-src, img-src and more. Get security score, HTML meta tag, and Nginx config. 5 presets included.",
+      "h1": "CSP Generator — Content Security Policy Builder",
+      "canonicalUrl": "https://utilitymega.com/security-tools/csp-generator",
+      "keywords": [
+        "CSP generator",
+        "Content Security Policy",
+        "CSP header builder",
+        "XSS protection",
+        "web security headers",
+        "CSP policy generator",
+        "Content-Security-Policy"
+      ],
+      "content": "Build a Content Security Policy with a visual checkbox interface covering all major directives: default-src, script-src, style-src, img-src, font-src, connect-src, and more. Shows security score (0–100), warns about unsafe-inline and unsafe-eval, outputs ready-to-use header string, HTML meta tag, and Nginx config. Includes 5 presets for SPA, WordPress, Google Fonts, minimal, and development modes.\n\nCSP Directives\n\ndefault-src: Fallback for other directives. script-src: Where JavaScript can load from. style-src: Where CSS can load from. img-src: Where images can load from. font-src: Where fonts can load from. connect-src: Where fetch/XHR requests can go. frame-src: Where iframes can load from. object-src: Where plugins can load from. base-uri: Where <base> tag can point to. form-action: Where forms can submit to. report-uri: Where violations are reported.\n\nSource Values\n\n'self': Same origin only. 'none': Nothing allowed. 'unsafe-inline': Inline scripts/styles (weak). 'unsafe-eval': eval() allowed (weak). 'strict-dynamic': Trust nonces/hashes. 'nonce-{random}': Specific random token. 'sha256-{hash}': Specific inline script hash. https://: Any HTTPS URL. https://example.com: Specific domain.\n\nSecurity Score\n\n0-100 rating based on policy strength. Penalties for: 'unsafe-inline' (-20), 'unsafe-eval' (-15), no 'strict-dynamic' (-10), wildcard '*' allowed (-25). Bonuses for: 'nonce-' or 'sha256-' (+15), 'report-uri' configured (+5).\n\nPresets\n\nSPA (Single Page App): Modern React/Vue configuration. WordPress: WordPress-specific with admin API allowances. Google Fonts: Includes fonts.googleapis.com and fonts.gstatic.com. Minimal: Very restrictive, least privilege. Development: Development-friendly with unsafe-eval and localhost.\n\nReport-Only Mode\n\nStart with Content-Security-Policy-Report-Only header to monitor violations without blocking. Allows testing policies in production safely. Violations are sent to report-uri endpoint.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What does unsafe-inline mean in CSP?",
+          "answer": "It allows inline scripts and styles — significantly weakening XSS protection. Avoid unsafe-inline and use nonces or hashes instead when possible."
+        },
+        {
+          "question": "How do I deploy CSP?",
+          "answer": "Add as an HTTP response header: Content-Security-Policy: your-policy. Or use a meta tag (with limitations). Start with report-only mode to monitor before enforcing."
+        },
+        {
+          "question": "What is report-only mode?",
+          "answer": "Content-Security-Policy-Report-Only logs violations without blocking them. Use it to test your policy and find false positives before switching to enforcement."
+        },
+        {
+          "question": "What is a nonce?",
+          "answer": "A nonce is a random, single-use token. CSP allows scripts with matching nonce='value' attribute. More secure than unsafe-inline."
+        },
+        {
+          "question": "What is strict-dynamic?",
+          "answer": "strict-dynamic tells the browser to trust scripts loaded by scripts that already have a valid nonce or hash. Makes managing third-party scripts easier."
+        }
+      ],
+      "relatedTools": [
+        "cors-tester",
+        "ssl-checker",
+        "hmac-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "CSP Generator",
-          "item": "https://utilitymega.com/security-tools/csp-generator"
+          "url": "https://utilitymega.com/security-tools/csp-generator"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What does unsafe-inline mean in CSP?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "It allows inline scripts and styles — significantly weakening XSS protection. Use nonces or hashes instead."
+      ],
+      "openGraph": {
+        "og:title": "Free CSP Generator — Content Security Policy Builder",
+        "og:description": "Generate Content Security Policy headers with visual builder. Security score, presets, Nginx config, HTML meta tag. Free tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/csp-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free CSP Generator | UtilityMega",
+        "twitter:description": "Build Content Security Policy visually. Security score, presets, server config."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CSP Generator",
+        "description": "Build Content Security Policy headers visually with a security score, ready-made presets, and Nginx output.",
+        "url": "https://utilitymega.com/security-tools/csp-generator",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "CSP Generator",
+              "item": "https://utilitymega.com/security-tools/csp-generator"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is report-only mode?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Report-only mode logs violations without blocking — test policies safely before enforcement."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does unsafe-inline mean in CSP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It allows inline scripts and styles — significantly weakening XSS protection. Use nonces or hashes instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is report-only mode?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Report-only mode logs violations without blocking — test policies safely before enforcement."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-security-007",
-  "name": "Bcrypt Generator",
-  "slug": "bcrypt-generator",
-  "categorySlug": "security-tools",
-  "categoryName": "Security Tools",
-  "shortDescription": "Generate bcrypt password hashes with configurable cost factor and verify passwords against bcrypt hashes.",
-  "seoTitle": "Free Bcrypt Generator — Hash & Verify Passwords Online | UtilityMega",
-  "metaDescription": "Generate bcrypt password hashes with cost factor 4–15. Verify passwords against bcrypt hashes. Shows hash anatomy, cost factor timing guide, and explains why bcrypt is preferred over SHA.",
-  "h1": "Bcrypt Generator & Verifier",
-  "canonicalUrl": "https://utilitymega.com/security-tools/bcrypt-generator",
-  "keywords": [
-    "bcrypt generator",
-    "bcrypt hash online",
-    "bcrypt password hash",
-    "verify bcrypt hash",
-    "bcrypt cost factor",
-    "password hashing",
-    "bcrypt vs SHA"
-  ],
-  "content": "Generate bcrypt hashes with configurable cost factor (4–15). Shows estimated computation time per cost level. Visual hash anatomy breaking down the version, cost, salt, and hash portions. Cost factor guide shows recommended settings. Verify passwords against existing bcrypt hashes. Explains why bcrypt is superior to SHA for password storage.\n\nWhy Bcrypt?\n\nBcrypt is designed for password hashing. It's intentionally slow and includes a salt to prevent rainbow table attacks. Unlike SHA (which is fast, allowing billions of guesses/second), bcrypt's work factor can be increased as hardware improves to maintain security.\n\nHash Anatomy\n\n$2a$10$N9qo8uLOickgx2ZMRZoMy.Mr/F9p8q4q4q4q4q4q4q4q4q4q4q4q4q\n\n$2a$: Version (2a, 2b, 2y). $10$: Cost factor (2^10 = 1,024 rounds). N9qo8uLOickgx2ZMRZoMy.: Salt (22 characters). Mr/F9p8q4q4q4q4q4q4q4q4q4q4q: Hash (31 characters).\n\nCost Factor Guide\n\nCost 4-7: Too weak — not recommended. Cost 8: ~40ms, minimum for development. Cost 10: ~100ms, recommended for standard web apps. Cost 12: ~400ms, for high-security systems. Cost 14-15: ~1-3 seconds, for maximum security.\n\nVerification\n\nEnter a password and a bcrypt hash to verify if they match. The tool extracts the salt from the hash and recomputes the hash for comparison. Useful for debugging stored passwords and testing implementations.\n\nSecurity Best Practices\n\nAlways use bcrypt for password storage (or Argon2id). Never use MD5 or SHA1 for passwords. Use cost factor that keeps hash time under 100ms on your servers. Increase cost factor over time as hardware improves.",
-  "faq": [
-    {
-      "question": "Why use bcrypt instead of SHA for passwords?",
-      "answer": "SHA is fast — attackers can compute billions per second. Bcrypt is intentionally slow, limiting attackers to thousands/second. This makes brute-force attacks practically infeasible."
     },
     {
-      "question": "What cost factor should I use?",
-      "answer": "Cost 10 (~100ms) for standard web apps. Cost 12 (~400ms) for high-security systems. Increase cost factor as hardware improves to maintain ~100ms target."
-    },
-    {
-      "question": "Are generated hashes unique for the same password?",
-      "answer": "Yes. Bcrypt automatically generates a unique random salt for each hash, so hashing the same password twice produces different hashes — preventing rainbow table attacks."
-    },
-    {
-      "question": "What is the difference between bcrypt versions?",
-      "answer": "$2a$: Original spec. $2b$: Fixed bug for Unicode passwords. $2y$: Used by some PHP implementations. All are compatible with modern libraries."
-    },
-    {
-      "question": "Can I migrate from SHA to bcrypt?",
-      "answer": "Yes. Hash existing passwords with bcrypt when users log in next time. Store both until all passwords are migrated. This provides a seamless upgrade path."
-    }
-  ],
-  "relatedTools": [
-    "hash-generator",
-    "password-generator",
-    "hmac-generator"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Security Tools",
-      "url": "https://utilitymega.com/security-tools"
-    },
-    {
+      "id": "tool-security-007",
       "name": "Bcrypt Generator",
-      "url": "https://utilitymega.com/security-tools/bcrypt-generator"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Bcrypt Generator — Hash & Verify Passwords Online",
-    "og:description": "Generate bcrypt password hashes with configurable cost factor. Verify passwords against bcrypt hashes. Cost factor timing guide.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/security-tools/bcrypt-generator",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Bcrypt Generator | UtilityMega",
-    "twitter:description": "Generate bcrypt hashes, verify passwords, cost factor guide. Why bcrypt is better than SHA."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Bcrypt Generator",
-    "description": "Generate bcrypt password hashes with configurable cost factor and verify passwords against bcrypt hashes.",
-    "url": "https://utilitymega.com/security-tools/bcrypt-generator",
-    "applicationCategory": "SecurityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "bcrypt-generator",
+      "categorySlug": "security-tools",
+      "categoryName": "Security Tools",
+      "shortDescription": "Generate bcrypt password hashes with configurable cost factor and verify passwords against bcrypt hashes.",
+      "seoTitle": "Free Bcrypt Generator — Hash & Verify Passwords Online | UtilityMega",
+      "metaDescription": "Generate bcrypt password hashes with cost factor 4–15. Verify passwords against bcrypt hashes. Shows hash anatomy, cost factor timing guide, and explains why bcrypt is preferred over SHA.",
+      "h1": "Bcrypt Generator & Verifier",
+      "canonicalUrl": "https://utilitymega.com/security-tools/bcrypt-generator",
+      "keywords": [
+        "bcrypt generator",
+        "bcrypt hash online",
+        "bcrypt password hash",
+        "verify bcrypt hash",
+        "bcrypt cost factor",
+        "password hashing",
+        "bcrypt vs SHA"
+      ],
+      "content": "Generate bcrypt hashes with configurable cost factor (4–15). Shows estimated computation time per cost level. Visual hash anatomy breaking down the version, cost, salt, and hash portions. Cost factor guide shows recommended settings. Verify passwords against existing bcrypt hashes. Explains why bcrypt is superior to SHA for password storage.\n\nWhy Bcrypt?\n\nBcrypt is designed for password hashing. It's intentionally slow and includes a salt to prevent rainbow table attacks. Unlike SHA (which is fast, allowing billions of guesses/second), bcrypt's work factor can be increased as hardware improves to maintain security.\n\nHash Anatomy\n\n$2a$10$N9qo8uLOickgx2ZMRZoMy.Mr/F9p8q4q4q4q4q4q4q4q4q4q4q4q4q\n\n$2a$: Version (2a, 2b, 2y). $10$: Cost factor (2^10 = 1,024 rounds). N9qo8uLOickgx2ZMRZoMy.: Salt (22 characters). Mr/F9p8q4q4q4q4q4q4q4q4q4q4q: Hash (31 characters).\n\nCost Factor Guide\n\nCost 4-7: Too weak — not recommended. Cost 8: ~40ms, minimum for development. Cost 10: ~100ms, recommended for standard web apps. Cost 12: ~400ms, for high-security systems. Cost 14-15: ~1-3 seconds, for maximum security.\n\nVerification\n\nEnter a password and a bcrypt hash to verify if they match. The tool extracts the salt from the hash and recomputes the hash for comparison. Useful for debugging stored passwords and testing implementations.\n\nSecurity Best Practices\n\nAlways use bcrypt for password storage (or Argon2id). Never use MD5 or SHA1 for passwords. Use cost factor that keeps hash time under 100ms on your servers. Increase cost factor over time as hardware improves.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "Why use bcrypt instead of SHA for passwords?",
+          "answer": "SHA is fast — attackers can compute billions per second. Bcrypt is intentionally slow, limiting attackers to thousands/second. This makes brute-force attacks practically infeasible."
+        },
+        {
+          "question": "What cost factor should I use?",
+          "answer": "Cost 10 (~100ms) for standard web apps. Cost 12 (~400ms) for high-security systems. Increase cost factor as hardware improves to maintain ~100ms target."
+        },
+        {
+          "question": "Are generated hashes unique for the same password?",
+          "answer": "Yes. Bcrypt automatically generates a unique random salt for each hash, so hashing the same password twice produces different hashes — preventing rainbow table attacks."
+        },
+        {
+          "question": "What is the difference between bcrypt versions?",
+          "answer": "$2a$: Original spec. $2b$: Fixed bug for Unicode passwords. $2y$: Used by some PHP implementations. All are compatible with modern libraries."
+        },
+        {
+          "question": "Can I migrate from SHA to bcrypt?",
+          "answer": "Yes. Hash existing passwords with bcrypt when users log in next time. Store both until all passwords are migrated. This provides a seamless upgrade path."
+        }
+      ],
+      "relatedTools": [
+        "hash-generator",
+        "password-generator",
+        "hmac-generator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Security Tools",
-          "item": "https://utilitymega.com/security-tools"
+          "url": "https://utilitymega.com/security-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Bcrypt Generator",
-          "item": "https://utilitymega.com/security-tools/bcrypt-generator"
+          "url": "https://utilitymega.com/security-tools/bcrypt-generator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Bcrypt Generator — Hash & Verify Passwords Online",
+        "og:description": "Generate bcrypt password hashes with configurable cost factor. Verify passwords against bcrypt hashes. Cost factor timing guide.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/security-tools/bcrypt-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Bcrypt Generator | UtilityMega",
+        "twitter:description": "Generate bcrypt hashes, verify passwords, cost factor guide. Why bcrypt is better than SHA."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Bcrypt Generator",
+        "description": "Generate bcrypt password hashes with configurable cost factor and verify passwords against bcrypt hashes.",
+        "url": "https://utilitymega.com/security-tools/bcrypt-generator",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Security Tools",
+              "item": "https://utilitymega.com/security-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Bcrypt Generator",
+              "item": "https://utilitymega.com/security-tools/bcrypt-generator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why use bcrypt instead of SHA for passwords?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SHA is fast — attackers can compute billions per second. Bcrypt is intentionally slow, limiting attackers to thousands/second."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What cost factor should I use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cost 10 (~100ms) for standard web apps. Cost 12 (~400ms) for high-security systems."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-text-001",
+      "name": "Word Counter",
+      "slug": "word-counter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Count words, characters, sentences and paragraphs with readability scores, reading time and keyword frequency.",
+      "seoTitle": "Free Word Counter Online — Characters, Sentences & Reading Time | UtilityMega",
+      "metaDescription": "Count words, characters (with/without spaces), sentences, paragraphs and lines. Shows reading time, speaking time, Flesch readability score, top keywords and character frequency. Free.",
+      "h1": "Word Counter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
+      "keywords": [
+        "word counter online",
+        "character counter",
+        "word count tool",
+        "reading time calculator",
+        "readability score",
+        "text analyzer online",
+        "character count"
+      ],
+      "content": "Real-time word counter with comprehensive text analysis. Counts words, characters, characters without spaces, sentences, paragraphs and lines. Shows estimated reading time (at 238 wpm) and speaking time (at 130 wpm). Calculates Flesch Reading Ease score and Flesch-Kincaid Grade Level. Shows top 8 keywords (excluding stop words), top 12 character frequency, and sentence-level analysis (average/shortest/longest). Includes writing goals for tweet, blog post, article and long-form content lengths.",
+      "faq": [
+        {
+          "question": "How is reading time calculated?",
+          "answer": "Reading time is estimated at 238 words per minute (the average adult silent reading speed). Speaking time uses 130 wpm (the average conversational speech rate)."
+        },
+        {
+          "question": "What is the Flesch Reading Ease score?",
+          "answer": "A score of 60–70 is standard (Grade 8–9). Scores 70+ are easy to read. Scores below 30 are very difficult (college graduate level). Higher is easier."
+        },
+        {
+          "question": "Does the word counter count correctly for different languages?",
+          "answer": "The counter splits on whitespace, which works for most Latin-script languages. CJK languages (Chinese, Japanese, Korean) require character-based counting, which is less accurate in this browser-based tool."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "lorem-ipsum-generator",
+        "find-and-replace"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Word Counter",
+          "url": "/text-tools/word-counter"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-002",
+      "name": "Text Case Converter",
+      "slug": "text-case-converter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case and 8 more formats.",
+      "seoTitle": "Free Text Case Converter — camelCase, snake_case, kebab-case | UtilityMega",
+      "metaDescription": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case, aLtErNaTe and inverse. Free.",
+      "h1": "Text Case Converter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
+      "keywords": [
+        "text case converter",
+        "camelCase converter",
+        "snake_case converter",
+        "kebab-case converter",
+        "PascalCase converter",
+        "uppercase lowercase converter",
+        "title case converter online"
+      ],
+      "content": "Convert text between 12 different case formats. Programming cases: camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case. Writing cases: UPPERCASE, lowercase, Title Case, Sentence case. Fun cases: aLtErNaTe CaSe, iNVERSE CaSe. Shows all conversions at a glance for quick comparison. Includes a reference guide for when to use each case in programming and writing.",
+      "faq": [
+        {
+          "question": "What is camelCase vs PascalCase?",
+          "answer": "camelCase starts with a lowercase letter: myVariableName. PascalCase (UpperCamelCase) starts with uppercase: MyComponentName. Use camelCase for variables/functions in JS/TypeScript; PascalCase for class names and Angular components."
+        },
+        {
+          "question": "When should I use snake_case vs kebab-case?",
+          "answer": "snake_case (words_with_underscores) is used in Python, Ruby and SQL. kebab-case (words-with-hyphens) is used in CSS class names, HTML attributes and URL slugs. Both improve readability over no-separator names."
+        },
+        {
+          "question": "What is CONSTANT_CASE?",
+          "answer": "CONSTANT_CASE (uppercase with underscores) is used for environment variables, Redux action types, and named constants in most programming languages: MAX_RETRY_COUNT, API_BASE_URL."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "find-and-replace",
+        "text-to-slug"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Text Case Converter",
+          "url": "/text-tools/text-case-converter"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-003",
+      "name": "Lorem Ipsum Generator",
+      "slug": "lorem-ipsum-generator",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
+      "seoTitle": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs | UtilityMega",
+      "metaDescription": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 flavors: Classic Lorem, Original Cicero, Extended Lorem, Hipster Ipsum, Corporate Ipsum. HTML tags option.",
+      "h1": "Lorem Ipsum Generator",
+      "canonicalUrl": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+      "keywords": [
+        "lorem ipsum generator",
+        "placeholder text generator",
+        "dummy text generator",
+        "Lorem ipsum online",
+        "generate random text",
+        "filler text generator"
+      ],
+      "content": "Generate lorem ipsum placeholder text for design mockups, prototypes and development. Choose quantity in words (1–500), sentences (1–50) or paragraphs (1–20). Five text styles: Classic Lorem ipsum, Original Cicero Latin, Extended Lorem, Hipster Ipsum and Corporate Ipsum. Options: start with 'Lorem ipsum', include HTML paragraph tags, add line breaks. Quick presets for single paragraphs, short/long articles and image captions.",
+      "faq": [
+        {
+          "question": "What is Lorem Ipsum?",
+          "answer": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC). The standard passage has been used as printer's dummy text since the 1500s."
+        },
+        {
+          "question": "When should I use lorem ipsum?",
+          "answer": "Use it for design mockups, UI prototypes, or any scenario where you need realistic-looking text without final content. It helps reviewers focus on design rather than reading content."
+        },
+        {
+          "question": "What is Hipster Ipsum?",
+          "answer": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin, making mockups more recognizable as English placeholder text."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "text-case-converter",
+        "duplicate-line-remover"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Lorem Ipsum Generator",
+          "url": "/text-tools/lorem-ipsum-generator"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-004",
+      "name": "Duplicate Line Remover",
+      "slug": "duplicate-line-remover",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
+      "seoTitle": "Free Duplicate Line Remover — Remove Repeated Lines Online | UtilityMega",
+      "metaDescription": "Remove duplicate lines from any text. Options: case-sensitive, trim whitespace, remove empty lines, keep first/last occurrence, sort output A-Z/Z-A/by length. Shows duplicate groups.",
+      "h1": "Duplicate Line Remover",
+      "canonicalUrl": "https://utilitymega.com/text-tools/duplicate-line-remover",
+      "keywords": [
+        "duplicate line remover",
+        "remove duplicate lines online",
+        "unique lines extractor",
+        "deduplicate text",
+        "remove repeated lines",
+        "unique list generator"
+      ],
+      "content": "Remove duplicate lines from any text or list instantly. Case-sensitive or case-insensitive comparison. Optionally trim leading/trailing whitespace before comparing. Remove empty lines. Choose to keep the first or last occurrence of each duplicate. Sort output alphabetically (A-Z, Z-A) or by line length. Shows the list of duplicate groups found. Displays statistics: input lines, unique count, duplicates found, removed count and percentage.",
+      "faq": [
+        {
+          "question": "What is a duplicate line?",
+          "answer": "A line that appears more than once in the text. With case-insensitive mode enabled, 'Apple' and 'apple' are treated as the same line."
+        },
+        {
+          "question": "What is 'keep first' vs 'keep last'?",
+          "answer": "Keep first: keeps the first occurrence, removes subsequent ones. Keep last: keeps the final occurrence. Useful when later entries are more recent (e.g., log file deduplication)."
+        },
+        {
+          "question": "Can I process CSV or database output?",
+          "answer": "Yes. Paste any line-separated data — CSV rows, SQL results, lists. Each line is treated as one unit."
+        }
+      ],
+      "relatedTools": [
+        "line-sorter",
+        "find-and-replace",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Duplicate Line Remover",
+          "url": "/text-tools/duplicate-line-remover"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-005",
+      "name": "Find and Replace",
+      "slug": "find-and-replace",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
+      "seoTitle": "Free Find and Replace Text Tool — Regex Online | UtilityMega",
+      "metaDescription": "Find and replace text online. Supports regex, case-sensitive matching and whole-word search. Highlights all matches with orange. Navigate matches one by one. Replace all at once.",
+      "h1": "Find and Replace",
+      "canonicalUrl": "https://utilitymega.com/text-tools/find-and-replace",
+      "keywords": [
+        "find and replace online",
+        "text find replace tool",
+        "regex find replace",
+        "search replace text browser",
+        "bulk text replace",
+        "regular expression replacer"
+      ],
+      "content": "A powerful find-and-replace tool for any text. Features: regex mode (full JavaScript RegExp), case-sensitive toggle, whole-word boundary matching, replace current match or all at once, navigate between matches with arrow buttons. All matches are highlighted in real-time. Replace history shows what was changed. Works on any text — code, documents, data files.",
+      "faq": [
+        {
+          "question": "Can I use regular expressions?",
+          "answer": "Yes. Enable the .* button and use JavaScript RegExp syntax. For example: \\b\\d{10}\\b matches 10-digit numbers; [aeiou] matches any vowel."
+        },
+        {
+          "question": "How do I delete text (replace with nothing)?",
+          "answer": "Leave the 'Replace with' field empty, then click Replace All. The matched text will be deleted."
+        },
+        {
+          "question": "Can I use capture groups in replacement?",
+          "answer": "In regex mode, use $1, $2 etc. in the replacement string to reference capture groups. For example, pattern (\\w+) (\\w+) replaced with $2 $1 swaps two words."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "duplicate-line-remover",
+        "text-diff-highlighter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Find and Replace",
+          "url": "/text-tools/find-and-replace"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-006",
+      "name": "Text to Slug",
+      "slug": "text-to-slug",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
+      "seoTitle": "Free Text to Slug Converter — URL Slug Generator Online | UtilityMega",
+      "metaDescription": "Convert titles to URL-friendly slugs. Choose separator (-, _, .), case, max length. Remove stop words. Transliterate accented characters. Batch converter for multiple titles. Free.",
+      "h1": "Text to URL Slug Converter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-to-slug",
+      "keywords": [
+        "text to slug converter",
+        "URL slug generator",
+        "title to URL converter",
+        "slugify text online",
+        "SEO URL generator",
+        "permalink generator",
+        "slug maker"
+      ],
+      "content": "Convert any text or title into a clean, URL-friendly slug. Options: separator character (-, _, ., none), case (lowercase/uppercase/keep), maximum length, remove stop words (the, a, and, etc.) and transliterate accented characters (ñ→n, é→e). Shows four outputs: URL slug, full permalink, HTML anchor ID and filename. Includes a batch converter for processing multiple titles at once.",
+      "faq": [
+        {
+          "question": "What makes a good URL slug?",
+          "answer": "Use hyphens as separators (Google recommends hyphens over underscores), keep it under 60 characters, use lowercase only, remove special characters and stop words, and make it descriptive of the content."
+        },
+        {
+          "question": "What are stop words and should I remove them?",
+          "answer": "Stop words (the, a, and, or, in, etc.) are common words that add length without SEO value. Removing them makes slugs shorter: 'the-best-way-to-learn' becomes 'best-way-learn'. Optional — some prefer to keep them for readability."
+        },
+        {
+          "question": "What does transliteration do?",
+          "answer": "Transliteration converts accented or special characters to their ASCII equivalents: é→e, ñ→n, ü→u, ç→c. This prevents URL encoding issues (%C3%A9 for é) in the browser address bar."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "find-and-replace",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Text to Slug",
+          "url": "/text-tools/text-to-slug"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-007",
+      "name": "Text Reverser",
+      "slug": "text-reverser",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
+      "seoTitle": "Free Text Reverser Online — Reverse Words, Lines & Characters | UtilityMega",
+      "metaDescription": "Reverse text in 6 ways: reverse all characters, reverse words, reverse lines, reverse sentences, flip text upside down (Unicode flipped chars), or mirror (right-to-left). Free browser tool.",
+      "h1": "Text Reverser",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-reverser",
+      "keywords": [
+        "text reverser online",
+        "reverse text generator",
+        "flip text upside down",
+        "backwards text generator",
+        "reverse words online",
+        "mirror text generator"
+      ],
+      "content": "Reverse text in six different ways: Reverse Characters (olleH), Reverse Words (World Hello), Reverse Lines (last line first), Reverse Sentences, Flip Upside Down (Unicode mapped characters, e.g. ɥǝllo), and Mirror (RTL layout). Each mode is previewed in a card with a live example. Includes a swap button to use the output as new input for chaining transformations.",
+      "faq": [
+        {
+          "question": "How does upside-down text work?",
+          "answer": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters (e.g., ɐ for a, ǝ for e). The text is also reversed so it reads correctly when physically flipped."
+        },
+        {
+          "question": "Can I reverse just one word?",
+          "answer": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
+        },
+        {
+          "question": "Is upside-down text supported everywhere?",
+          "answer": "Unicode flipped characters display correctly in most modern browsers, mobile devices and apps like Slack and Twitter. Older systems or some fonts may show replacement characters."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "string-encoder",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Text Reverser",
+          "url": "/text-tools/text-reverser"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-008",
+      "name": "Line Sorter",
+      "slug": "line-sorter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
+      "seoTitle": "Free Line Sorter — Sort Text Lines Online A-Z | UtilityMega",
+      "metaDescription": "Sort text lines alphabetically A-Z or Z-A, by shortest/longest first, or shuffle randomly. Remove duplicates, trim whitespace, natural number sorting. Free browser-based tool.",
+      "h1": "Line Sorter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/line-sorter",
+      "keywords": [
+        "line sorter online",
+        "sort text lines",
+        "alphabetical sorter",
+        "sort list online",
+        "text sorter tool",
+        "sort lines alphabetically",
+        "random line shuffler"
+      ],
+      "content": "Sort any list of lines in multiple ways: A→Z, Z→A, shortest first, longest first, or random shuffle. Options: case-sensitive sorting, trim whitespace, remove duplicates, remove empty lines, natural number sorting (1, 2, 10 instead of 1, 10, 2). Shows input line count, output line count and how many lines were removed. Pre-loaded with an example list containing duplicates and numbered items.",
+      "faq": [
+        {
+          "question": "What is natural number sorting?",
+          "answer": "Natural sorting treats numbers within strings numerically: 1, 2, 10 (natural) vs 1, 10, 2 (lexicographic). For example, 'item10' sorts after 'item9' with natural sorting."
+        },
+        {
+          "question": "Can I sort CSV or TSV columns?",
+          "answer": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time or use a spreadsheet tool."
+        },
+        {
+          "question": "What happens to case when sorting?",
+          "answer": "With case-insensitive sorting (default), 'Apple', 'apple' and 'APPLE' are treated as the same for comparison. With case-sensitive, uppercase letters sort before lowercase (A < a)."
+        }
+      ],
+      "relatedTools": [
+        "duplicate-line-remover",
+        "find-and-replace",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Line Sorter",
+          "url": "/text-tools/line-sorter"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-009",
+      "name": "String Encoder/Decoder",
+      "slug": "string-encoder",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
+      "seoTitle": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary | UtilityMega",
+      "metaDescription": "Encode or decode strings in 8 formats: HTML entities, URL percent-encoding, Base64, Hexadecimal, Binary, Unicode escape sequences, ASCII codes and ROT13. Shows all encodings at once.",
+      "h1": "String Encoder & Decoder",
+      "canonicalUrl": "https://utilitymega.com/text-tools/string-encoder",
+      "keywords": [
+        "string encoder decoder",
+        "HTML entity encoder",
+        "URL encode decode",
+        "Base64 text encoder",
+        "hex encoder online",
+        "binary text converter",
+        "Unicode escape tool",
+        "ROT13 encoder"
+      ],
+      "content": "Encode or decode text in 8 different formats simultaneously. HTML Entities: converts < > & \" ' © to safe HTML codes. URL: percent-encodes for safe use in URLs. Base64: converts to/from Base64. Hex: converts to/from hexadecimal byte representation. Binary: converts to/from 8-bit binary. Unicode: converts to/from \\uXXXX escape sequences. ASCII: converts to/from ASCII code numbers. ROT13: Caesar cipher with 13-letter shift. Shows all 8 encodings at once for quick comparison.",
+      "faq": [
+        {
+          "question": "When do I need HTML entity encoding?",
+          "answer": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;, & becomes &amp;. Always encode user input in HTML output."
+        },
+        {
+          "question": "What is the difference between URL encode and HTML encode?",
+          "answer": "URL encoding converts characters for safe use in URLs (%20 for space). HTML encoding converts characters for safe display in HTML (&lt; for <). They're used in different contexts."
+        },
+        {
+          "question": "What is ROT13?",
+          "answer": "ROT13 is a simple Caesar cipher that shifts letters 13 positions. Since 13+13=26 (full alphabet), encoding and decoding use the same operation. It's used for spoiler text and simple obfuscation."
+        }
+      ],
+      "relatedTools": [
+        "find-and-replace",
+        "text-case-converter",
+        "text-to-slug"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "String Encoder",
+          "url": "/text-tools/string-encoder"
+        }
+      ]
+    },
+    {
+      "id": "tool-text-010",
+      "name": "Text Diff Highlighter",
+      "slug": "text-diff-highlighter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
+      "seoTitle": "Free Text Diff Highlighter — Compare Two Texts Online | UtilityMega",
+      "metaDescription": "Compare two texts with color-coded diff view. Highlights added (green), removed (red) and unchanged lines. Side-by-side or unified view. Line, word or character-level comparison.",
+      "h1": "Text Diff Highlighter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-diff-highlighter",
+      "keywords": [
+        "text diff tool",
+        "compare two texts online",
+        "text difference highlighter",
+        "diff checker text",
+        "find text differences",
+        "side by side text compare"
+      ],
+      "content": "Compare two versions of text with a color-coded diff view. Three comparison granularities: line-by-line (default), word-by-word or character-by-character. Two viewing modes: side-by-side (original vs modified in parallel columns) and unified (single stream with + and - markers). Shows statistics: added items, removed items and unchanged items. Copy the diff output to clipboard.",
+      "faq": [
+        {
+          "question": "What do the colors mean?",
+          "answer": "Green background: lines added in the modified version. Red background: lines removed (present in original, not in modified). No color: unchanged lines present in both."
+        },
+        {
+          "question": "What is the difference between line, word and character diff?",
+          "answer": "Line diff compares whole lines — best for code and documents. Word diff shows which words changed within lines. Character diff shows individual character changes — most granular, best for short texts."
+        },
+        {
+          "question": "Is this tool good for comparing code?",
+          "answer": "Yes for simple comparisons. For advanced code diffing with syntax highlighting, indentation-aware comparison and git-style output, use the Developer Tools diff checker which has more programming-specific features."
+        }
+      ],
+      "relatedTools": [
+        "find-and-replace",
+        "duplicate-line-remover",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Text Tools",
+          "url": "/text-tools"
+        },
+        {
+          "label": "Text Diff",
+          "url": "/text-tools/text-diff-highlighter"
         }
       ]
     }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Why use bcrypt instead of SHA for passwords?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "SHA is fast — attackers can compute billions per second. Bcrypt is intentionally slow, limiting attackers to thousands/second."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What cost factor should I use?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Cost 10 (~100ms) for standard web apps. Cost 12 (~400ms) for high-security systems."
-        }
-      }
-    ]
-  }
-}
   ]
 }

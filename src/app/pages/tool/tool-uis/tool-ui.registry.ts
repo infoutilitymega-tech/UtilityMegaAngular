@@ -67,6 +67,8 @@ import { HmacGeneratorComponent, SslCheckerComponent } from './hmac-ssl-ip.compo
 import { IrrigationCalculatorComponent, SoilPhCalculatorComponent } from './irrigation-soilph.component';
 import { SeedRateCalculatorComponent, PesticideCalculatorComponent, FarmIncomeCalculatorComponent, LivestockFeedCalculatorComponent } from './seed-pesticide-income-livestock.component';
 import { WeatherCropAdvisorComponent, MspCalculatorComponent } from './weather-msp.component';
+import { LoremIpsumGeneratorComponent, DuplicateLineRemoverComponent, FindReplaceComponent } from './lorem-duplicate-findreplace.component';
+import { TextToSlugComponent, TextReverserComponent, LineSorterComponent, StringEncoderComponent, TextDiffHighlighterComponent } from './slug-reverser-sorter-encoder-diff.component';
 
 
 /**
@@ -115,8 +117,18 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'jwt-decoder': JwtDecoderComponent,
 
   // Text Tools
-  'word-counter': WordCounterComponent,
-  'text-case-converter': TextCaseConverterComponent,
+  //'word-counter': WordCounterComponent,
+  //'text-case-converter': TextCaseConverterComponent,
+  'word-counter':           WordCounterComponent,
+'text-case-converter':    TextCaseConverterComponent,
+'lorem-ipsum-generator':  LoremIpsumGeneratorComponent,
+'duplicate-line-remover': DuplicateLineRemoverComponent,
+'find-and-replace':       FindReplaceComponent,
+'text-to-slug':           TextToSlugComponent,
+'text-reverser':          TextReverserComponent,
+'line-sorter':            LineSorterComponent,
+'string-encoder':         StringEncoderComponent,
+'text-diff-highlighter':  TextDiffHighlighterComponent,
 
   // Security Tools
   'password-generator': PasswordGeneratorComponent,
