@@ -771,6 +771,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Age Calculator",
+        "description": "Calculate exact age in years, months, days, hours, and minutes from date of birth.",
         "url": "https://utilitymega.com/calculators/age-calculator",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All",
@@ -778,7 +779,52 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Age Calculator",
+              "item": "https://utilitymega.com/calculators/age-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is age calculated exactly?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Age is calculated by subtracting your birth date from today's date, accounting for leap years and varying month lengths."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if I was born on February 29?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For leap year birthdays, most systems count the birthday on Feb 28 in non-leap years. Our calculator handles this correctly."
+            }
+          }
+        ]
       }
     },
     {
@@ -853,6 +899,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "BMI Calculator",
+        "description": "Calculate Body Mass Index with healthy weight range and BMI category based on WHO standards.",
         "url": "https://utilitymega.com/calculators/bmi-calculator",
         "applicationCategory": "HealthApplication",
         "operatingSystem": "All",
@@ -860,7 +907,52 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "BMI Calculator",
+              "item": "https://utilitymega.com/calculators/bmi-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a healthy BMI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A BMI between 18.5 and 24.9 is considered healthy by WHO standards."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the ideal BMI for Indians?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Indian Council of Medical Research suggests a BMI of 18.0–22.9 is normal for Indians."
+            }
+          }
+        ]
       }
     },
     {
@@ -935,6 +1027,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Calorie Calculator",
+        "description": "Calculate daily calorie needs, BMR, and TDEE for weight loss, maintenance, or muscle gain.",
         "url": "https://utilitymega.com/calculators/calorie-calculator",
         "applicationCategory": "HealthApplication",
         "operatingSystem": "All",
@@ -942,7 +1035,52 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Calorie Calculator",
+              "item": "https://utilitymega.com/calculators/calorie-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many calories should I eat to lose weight?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A deficit of 500 calories per day leads to approximately 0.5 kg weight loss per week."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is TDEE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TDEE is the total calories you burn in a day including exercise and daily activities."
+            }
+          }
+        ]
       }
     },
     {
@@ -1016,6 +1154,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Compound Interest Calculator",
+        "description": "Calculate compound interest on investments with annual, quarterly, monthly, or daily compounding.",
         "url": "https://utilitymega.com/calculators/compound-interest-calculator",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
@@ -1023,7 +1162,52 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Compound Interest Calculator",
+              "item": "https://utilitymega.com/calculators/compound-interest-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between simple and compound interest?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Simple interest is calculated only on the principal. Compound interest is calculated on principal plus accumulated interest."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which compounding frequency is best?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "More frequent compounding gives slightly higher returns. Daily compounding yields marginally more than monthly."
+            }
+          }
+        ]
       }
     },
     {
@@ -1097,6 +1281,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Discount Calculator",
+        "description": "Calculate discounted price, savings amount, and percentage off instantly.",
         "url": "https://utilitymega.com/calculators/discount-calculator",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All",
@@ -1104,7 +1289,52 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Discount Calculator",
+              "item": "https://utilitymega.com/calculators/discount-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate 20% off a price?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply the original price by 0.20 to get the discount amount, then subtract from original price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I find the original price after discount?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Divide the discounted price by (1 − discount percentage/100)."
+            }
+          }
+        ]
       }
     },
     {
@@ -1179,6 +1409,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "GST Calculator",
+        "description": "Calculate GST amount and final price for 5%, 12%, 18%, and 28% GST slabs with CGST/SGST breakdown.",
         "url": "https://utilitymega.com/calculators/gst-calculator",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
@@ -1190,7 +1421,52 @@
         "areaServed": {
           "@type": "Country",
           "name": "India"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "GST Calculator",
+              "item": "https://utilitymega.com/calculators/gst-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the GST rates in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "India has 5 GST slabs: 0%, 5%, 12%, 18%, and 28%."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate GST from an inclusive price?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "GST Amount = Total Price − (Total Price ÷ (1 + GST Rate/100))."
+            }
+          }
+        ]
       }
     },
     {
@@ -1264,6 +1540,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Percentage Calculator",
+        "description": "Calculate percentages, percentage change, and what percent one number is of another.",
         "url": "https://utilitymega.com/calculators/percentage-calculator",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All",
@@ -1271,7 +1548,52 @@
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Percentage Calculator",
+              "item": "https://utilitymega.com/calculators/percentage-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate percentage of marks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Divide total marks obtained by maximum marks, then multiply by 100."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate percentage increase?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Percentage increase = ((New Value − Old Value) ÷ Old Value) × 100."
+            }
+          }
+        ]
       }
     },
     {
@@ -1346,6 +1668,7 @@
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "Retirement Calculator",
+        "description": "Plan your retirement corpus with monthly savings, expected returns, and inflation adjustment.",
         "url": "https://utilitymega.com/calculators/retirement-calculator",
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
@@ -1357,7 +1680,52 @@
         "areaServed": {
           "@type": "Country",
           "name": "India"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Retirement Calculator",
+              "item": "https://utilitymega.com/calculators/retirement-calculator"
+            }
+          ]
         }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much should I save for retirement in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Aim to save 15–20% of your income from age 25. Target corpus is typically 25–30× your annual expenses at retirement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the 4% retirement rule?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The 4% rule states you can withdraw 4% of your retirement corpus annually without depleting it over 30 years."
+            }
+          }
+        ]
       }
     },
     {
@@ -3708,617 +4076,1310 @@
       }
     },
     {
-    "id": "tool-016",
-    "name": "Temperature Converter",
-    "slug": "temperature-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine temperature scales.",
-    "seoTitle": "Free Temperature Converter - Celsius, Fahrenheit, Kelvin",
-    "metaDescription": "Convert temperature units online for free. Instantly convert between Celsius, Fahrenheit, Kelvin, and Rankine with formulas and reference points.",
-    "h1": "Temperature Converter — Celsius, Fahrenheit, Kelvin & Rankine",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/temperature-converter",
-    "keywords": ["temperature converter","celsius to fahrenheit","fahrenheit to celsius","kelvin to celsius","celsius to kelvin","temperature scale converter","°C to °F","°F to °C"],
-    "content": "Temperature conversion is one of the most commonly needed calculations, especially when cooking, traveling, or reading international weather forecasts. Unlike most unit conversions, temperature scales use different zero points and different scales, requiring formulas rather than simple multiplication.\n\nTemperature Scales Explained\n\nCelsius (°C): Used by most of the world. Water freezes at 0°C and boils at 100°C at standard pressure. Fahrenheit (°F): Used primarily in the United States. Water freezes at 32°F and boils at 212°F. Kelvin (K): The SI unit of thermodynamic temperature used in science. Absolute zero (0 K) is the coldest possible temperature, −273.15°C. Rankine (°R): An absolute temperature scale using Fahrenheit-sized degrees, used in some engineering applications in the US.\n\nConversion Formulas\n\n°F = (°C × 9/5) + 32. °C = (°F − 32) × 5/9. K = °C + 273.15. °C = K − 273.15. °R = (°C + 273.15) × 9/5.\n\nKey Reference Points\n\nAbsolute zero: −273.15°C = −459.67°F = 0 K. Water freezes: 0°C = 32°F = 273.15 K. Room temperature: ~20°C = 68°F = 293.15 K. Body temperature: 37°C = 98.6°F = 310.15 K. Water boils: 100°C = 212°F = 373.15 K.",
-    "faq": [
-      { "question": "How do I convert Celsius to Fahrenheit?", "answer": "Multiply by 9/5 then add 32. Formula: °F = (°C × 1.8) + 32. Example: 25°C = (25 × 1.8) + 32 = 77°F. Quick estimate: double the Celsius and add 30." },
-      { "question": "What is absolute zero in Celsius and Fahrenheit?", "answer": "Absolute zero is 0 Kelvin = −273.15°C = −459.67°F. It is the theoretical lowest possible temperature, where all atomic motion ceases. It has never been fully achieved in practice." },
-      { "question": "What temperature is the same in Celsius and Fahrenheit?", "answer": "−40 degrees is the point where Celsius and Fahrenheit are equal: −40°C = −40°F. This is the only temperature where the two scales intersect." },
-      { "question": "What is normal human body temperature in Celsius?", "answer": "Average human body temperature is approximately 37°C (98.6°F). Normal body temperature varies between individuals, typically ranging from 36.1°C (97°F) to 37.2°C (99°F)." },
-      { "question": "What is the difference between Kelvin and Celsius?", "answer": "Kelvin and Celsius use the same size degree, but differ only in their zero point. Kelvin starts at absolute zero (−273.15°C), while Celsius starts at the freezing point of water. To convert: K = °C + 273.15." }
-    ],
-    "relatedTools": ["length-converter","weight-converter","pressure-converter"],
-    "isPopular": true,
-    "isFeatured": true,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Temperature Converter", "url": "https://utilitymega.com/unit-converters/temperature-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Temperature Converter - Celsius, Fahrenheit, Kelvin",
-      "og:description": "Convert between Celsius, Fahrenheit, Kelvin and Rankine. Formulas, reference points and instant results.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/temperature-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Temperature Converter | UtilityMega",
-      "twitter:description": "Convert °C to °F, Kelvin and more. Instant, free, with conversion formulas."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+      "id": "tool-016",
       "name": "Temperature Converter",
-      "description": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine temperature scales with formulas and key reference points.",
-      "url": "https://utilitymega.com/unit-converters/temperature-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Temperature Converter", "item": "https://utilitymega.com/unit-converters/temperature-converter" }
+      "slug": "temperature-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine temperature scales.",
+      "seoTitle": "Free Temperature Converter - Celsius, Fahrenheit, Kelvin",
+      "metaDescription": "Convert temperature units online for free. Instantly convert between Celsius, Fahrenheit, Kelvin, and Rankine with formulas and reference points.",
+      "h1": "Temperature Converter — Celsius, Fahrenheit, Kelvin & Rankine",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/temperature-converter",
+      "keywords": [
+        "temperature converter",
+        "celsius to fahrenheit",
+        "fahrenheit to celsius",
+        "kelvin to celsius",
+        "celsius to kelvin",
+        "temperature scale converter",
+        "°C to °F",
+        "°F to °C"
+      ],
+      "content": "Temperature conversion is one of the most commonly needed calculations, especially when cooking, traveling, or reading international weather forecasts. Unlike most unit conversions, temperature scales use different zero points and different scales, requiring formulas rather than simple multiplication.\n\nTemperature Scales Explained\n\nCelsius (°C): Used by most of the world. Water freezes at 0°C and boils at 100°C at standard pressure. Fahrenheit (°F): Used primarily in the United States. Water freezes at 32°F and boils at 212°F. Kelvin (K): The SI unit of thermodynamic temperature used in science. Absolute zero (0 K) is the coldest possible temperature, −273.15°C. Rankine (°R): An absolute temperature scale using Fahrenheit-sized degrees, used in some engineering applications in the US.\n\nConversion Formulas\n\n°F = (°C × 9/5) + 32. °C = (°F − 32) × 5/9. K = °C + 273.15. °C = K − 273.15. °R = (°C + 273.15) × 9/5.\n\nKey Reference Points\n\nAbsolute zero: −273.15°C = −459.67°F = 0 K. Water freezes: 0°C = 32°F = 273.15 K. Room temperature: ~20°C = 68°F = 293.15 K. Body temperature: 37°C = 98.6°F = 310.15 K. Water boils: 100°C = 212°F = 373.15 K.",
+      "faq": [
+        {
+          "question": "How do I convert Celsius to Fahrenheit?",
+          "answer": "Multiply by 9/5 then add 32. Formula: °F = (°C × 1.8) + 32. Example: 25°C = (25 × 1.8) + 32 = 77°F. Quick estimate: double the Celsius and add 30."
+        },
+        {
+          "question": "What is absolute zero in Celsius and Fahrenheit?",
+          "answer": "Absolute zero is 0 Kelvin = −273.15°C = −459.67°F. It is the theoretical lowest possible temperature, where all atomic motion ceases. It has never been fully achieved in practice."
+        },
+        {
+          "question": "What temperature is the same in Celsius and Fahrenheit?",
+          "answer": "−40 degrees is the point where Celsius and Fahrenheit are equal: −40°C = −40°F. This is the only temperature where the two scales intersect."
+        },
+        {
+          "question": "What is normal human body temperature in Celsius?",
+          "answer": "Average human body temperature is approximately 37°C (98.6°F). Normal body temperature varies between individuals, typically ranging from 36.1°C (97°F) to 37.2°C (99°F)."
+        },
+        {
+          "question": "What is the difference between Kelvin and Celsius?",
+          "answer": "Kelvin and Celsius use the same size degree, but differ only in their zero point. Kelvin starts at absolute zero (−273.15°C), while Celsius starts at the freezing point of water. To convert: K = °C + 273.15."
+        }
+      ],
+      "relatedTools": [
+        "length-converter",
+        "weight-converter",
+        "pressure-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Temperature Converter",
+          "url": "https://utilitymega.com/unit-converters/temperature-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Temperature Converter - Celsius, Fahrenheit, Kelvin",
+        "og:description": "Convert between Celsius, Fahrenheit, Kelvin and Rankine. Formulas, reference points and instant results.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/temperature-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Temperature Converter | UtilityMega",
+        "twitter:description": "Convert °C to °F, Kelvin and more. Instant, free, with conversion formulas."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Temperature Converter",
+        "description": "Convert between Celsius, Fahrenheit, Kelvin, and Rankine temperature scales with formulas and key reference points.",
+        "url": "https://utilitymega.com/unit-converters/temperature-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Temperature Converter",
+              "item": "https://utilitymega.com/unit-converters/temperature-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert Celsius to Fahrenheit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "°F = (°C × 1.8) + 32. Example: 25°C = 77°F."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What temperature is the same in Celsius and Fahrenheit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "−40°C = −40°F. The only point where both scales intersect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is absolute zero?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "0 K = −273.15°C = −459.67°F. The lowest theoretically possible temperature."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How do I convert Celsius to Fahrenheit?", "acceptedAnswer": { "@type": "Answer", "text": "°F = (°C × 1.8) + 32. Example: 25°C = 77°F." } },
-        { "@type": "Question", "name": "What temperature is the same in Celsius and Fahrenheit?", "acceptedAnswer": { "@type": "Answer", "text": "−40°C = −40°F. The only point where both scales intersect." } },
-        { "@type": "Question", "name": "What is absolute zero?", "acceptedAnswer": { "@type": "Answer", "text": "0 K = −273.15°C = −459.67°F. The lowest theoretically possible temperature." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-017",
-    "name": "Area Converter",
-    "slug": "area-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between square meters, acres, hectares, square feet, and more area units.",
-    "seoTitle": "Free Area Converter - m², Acres, Hectares, Square Feet & More",
-    "metaDescription": "Convert area units online for free. Instantly convert between square meters, square feet, acres, hectares, square kilometers, and square miles.",
-    "h1": "Area Converter — m², Acres, Hectares, sq ft & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/area-converter",
-    "keywords": ["area converter","square meters to square feet","acres to hectares","hectares to acres","square feet to square meters","square kilometers to square miles","land area converter","property size converter"],
-    "content": "Area conversion is commonly needed in real estate, agriculture, construction, mapping, and land management. Our free area converter supports all standard metric and imperial area units, helping you compare land sizes, room dimensions, and geographic regions with ease.\n\nSupported Area Units\n\nMetric System: Square Kilometer (km²), Hectare (ha), Are (a), Square Meter (m²), Square Decimeter (dm²), Square Centimeter (cm²), Square Millimeter (mm²). Imperial/US Customary: Square Mile (mi²), Acre, Square Yard (yd²), Square Foot (ft²), Square Inch (in²). Nautical: Square Nautical Mile.\n\nCommon Area Conversions\n\n1 hectare = 10,000 m² = 2.47105 acres. 1 acre = 4,046.86 m² = 0.404686 hectares. 1 square mile = 640 acres = 258.999 hectares. 1 square meter = 10.7639 square feet. 1 square foot = 0.0929 square meters.\n\nPractical Use Cases\n\nReal estate: Property listings in different countries use different units — m² in Europe and Asia, square feet in the US and UK, and acres or hectares for land. Agriculture: Farm plots, crop fields, and irrigation coverage are measured in acres (US) or hectares (international). Urban planning: City areas, parks, and zoning maps use km² or square miles depending on the country. Construction: Floor plans and room sizes are typically measured in m² or sq ft.",
-    "faq": [
-      { "question": "How many square feet in a square meter?", "answer": "1 square meter = 10.7639 square feet. To quickly estimate, multiply square meters by 10.76. For example, a 50 m² apartment = approximately 538 square feet." },
-      { "question": "How many acres in a hectare?", "answer": "1 hectare = 2.47105 acres. A hectare is 10,000 square meters (100m × 100m). An acre is 4,046.86 m². Hectares are used internationally while acres are common in the US and UK." },
-      { "question": "How big is an acre?", "answer": "1 acre = 4,046.86 square meters = 43,560 square feet. Visually, an acre is approximately the size of a standard American football field (excluding end zones). It is 1/640th of a square mile." },
-      { "question": "How many square meters in a square kilometer?", "answer": "1 square kilometer = 1,000,000 square meters (1 km × 1 km). It is also equal to 100 hectares or 247.105 acres." },
-      { "question": "What is the difference between a hectare and an acre?", "answer": "A hectare (metric) = 10,000 m² = 2.471 acres. An acre (imperial) = 4,046.86 m². Hectares are the standard unit in most of the world for land measurement, while acres are used primarily in the US, UK, and a few other countries." }
-    ],
-    "relatedTools": ["length-converter","volume-converter","fuel-converter"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Area Converter", "url": "https://utilitymega.com/unit-converters/area-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Area Converter - m², Acres, Hectares, sq ft & More",
-      "og:description": "Convert between square meters, acres, hectares, square feet and more. Free, instant area conversion.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/area-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Area Converter | UtilityMega",
-      "twitter:description": "Convert m², acres, hectares, square feet and more. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-017",
       "name": "Area Converter",
-      "description": "Convert between metric and imperial area units including square meters, acres, hectares, and square feet.",
-      "url": "https://utilitymega.com/unit-converters/area-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Area Converter", "item": "https://utilitymega.com/unit-converters/area-converter" }
+      "slug": "area-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between square meters, acres, hectares, square feet, and more area units.",
+      "seoTitle": "Free Area Converter - m², Acres, Hectares, Square Feet & More",
+      "metaDescription": "Convert area units online for free. Instantly convert between square meters, square feet, acres, hectares, square kilometers, and square miles.",
+      "h1": "Area Converter — m², Acres, Hectares, sq ft & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/area-converter",
+      "keywords": [
+        "area converter",
+        "square meters to square feet",
+        "acres to hectares",
+        "hectares to acres",
+        "square feet to square meters",
+        "square kilometers to square miles",
+        "land area converter",
+        "property size converter"
+      ],
+      "content": "Area conversion is commonly needed in real estate, agriculture, construction, mapping, and land management. Our free area converter supports all standard metric and imperial area units, helping you compare land sizes, room dimensions, and geographic regions with ease.\n\nSupported Area Units\n\nMetric System: Square Kilometer (km²), Hectare (ha), Are (a), Square Meter (m²), Square Decimeter (dm²), Square Centimeter (cm²), Square Millimeter (mm²). Imperial/US Customary: Square Mile (mi²), Acre, Square Yard (yd²), Square Foot (ft²), Square Inch (in²). Nautical: Square Nautical Mile.\n\nCommon Area Conversions\n\n1 hectare = 10,000 m² = 2.47105 acres. 1 acre = 4,046.86 m² = 0.404686 hectares. 1 square mile = 640 acres = 258.999 hectares. 1 square meter = 10.7639 square feet. 1 square foot = 0.0929 square meters.\n\nPractical Use Cases\n\nReal estate: Property listings in different countries use different units — m² in Europe and Asia, square feet in the US and UK, and acres or hectares for land. Agriculture: Farm plots, crop fields, and irrigation coverage are measured in acres (US) or hectares (international). Urban planning: City areas, parks, and zoning maps use km² or square miles depending on the country. Construction: Floor plans and room sizes are typically measured in m² or sq ft.",
+      "faq": [
+        {
+          "question": "How many square feet in a square meter?",
+          "answer": "1 square meter = 10.7639 square feet. To quickly estimate, multiply square meters by 10.76. For example, a 50 m² apartment = approximately 538 square feet."
+        },
+        {
+          "question": "How many acres in a hectare?",
+          "answer": "1 hectare = 2.47105 acres. A hectare is 10,000 square meters (100m × 100m). An acre is 4,046.86 m². Hectares are used internationally while acres are common in the US and UK."
+        },
+        {
+          "question": "How big is an acre?",
+          "answer": "1 acre = 4,046.86 square meters = 43,560 square feet. Visually, an acre is approximately the size of a standard American football field (excluding end zones). It is 1/640th of a square mile."
+        },
+        {
+          "question": "How many square meters in a square kilometer?",
+          "answer": "1 square kilometer = 1,000,000 square meters (1 km × 1 km). It is also equal to 100 hectares or 247.105 acres."
+        },
+        {
+          "question": "What is the difference between a hectare and an acre?",
+          "answer": "A hectare (metric) = 10,000 m² = 2.471 acres. An acre (imperial) = 4,046.86 m². Hectares are the standard unit in most of the world for land measurement, while acres are used primarily in the US, UK, and a few other countries."
+        }
+      ],
+      "relatedTools": [
+        "length-converter",
+        "volume-converter",
+        "fuel-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Area Converter",
+          "url": "https://utilitymega.com/unit-converters/area-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Area Converter - m², Acres, Hectares, sq ft & More",
+        "og:description": "Convert between square meters, acres, hectares, square feet and more. Free, instant area conversion.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/area-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Area Converter | UtilityMega",
+        "twitter:description": "Convert m², acres, hectares, square feet and more. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Area Converter",
+        "description": "Convert between metric and imperial area units including square meters, acres, hectares, and square feet.",
+        "url": "https://utilitymega.com/unit-converters/area-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Area Converter",
+              "item": "https://utilitymega.com/unit-converters/area-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many square feet in a square meter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 m² = 10.7639 sq ft. Multiply m² by 10.76 to estimate sq ft."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many acres in a hectare?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 hectare = 2.47105 acres = 10,000 m²."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How big is an acre?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 acre = 4,046.86 m² = 43,560 sq ft — roughly the size of an American football field without end zones."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How many square feet in a square meter?", "acceptedAnswer": { "@type": "Answer", "text": "1 m² = 10.7639 sq ft. Multiply m² by 10.76 to estimate sq ft." } },
-        { "@type": "Question", "name": "How many acres in a hectare?", "acceptedAnswer": { "@type": "Answer", "text": "1 hectare = 2.47105 acres = 10,000 m²." } },
-        { "@type": "Question", "name": "How big is an acre?", "acceptedAnswer": { "@type": "Answer", "text": "1 acre = 4,046.86 m² = 43,560 sq ft — roughly the size of an American football field without end zones." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-018",
-    "name": "Volume Converter",
-    "slug": "volume-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between liters, gallons, milliliters, cups, fluid ounces, and more.",
-    "seoTitle": "Free Volume Converter - Liters, Gallons, Cups, ml & More",
-    "metaDescription": "Convert volume units online for free. Instantly convert between liters, gallons, milliliters, cups, pints, quarts, fluid ounces (US and UK).",
-    "h1": "Volume Converter — Liters, Gallons, Cups, ml & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/volume-converter",
-    "keywords": ["volume converter","liters to gallons","gallons to liters","ml to cups","cups to ml","fluid ounces converter","pints to liters","cooking measurement converter"],
-    "content": "Volume conversion is essential in cooking, chemistry, fuel measurement, and international trade. Our free volume converter supports metric SI units as well as both US customary and UK imperial volume units, since a US gallon and a UK gallon are different sizes.\n\nSupported Volume Units\n\nMetric: Cubic Meter (m³), Hectoliter (hL), Liter (L), Deciliter (dL), Centiliter (cL), Milliliter (mL), Cubic Centimeter (cm³). US Customary: US Gallon, US Quart, US Pint, US Cup, US Fluid Ounce, US Tablespoon, US Teaspoon. UK Imperial: UK Gallon, UK Quart, UK Pint, UK Fluid Ounce.\n\nUS vs UK Volume Units\n\nA US gallon = 3.78541 liters. A UK (imperial) gallon = 4.54609 liters — about 20% larger. A US pint = 473 mL while a UK pint = 568 mL. This difference is important for fuel economy, brewing, and recipe conversion between US and British cookbooks.\n\nCommon Volume Conversions\n\n1 liter = 0.264172 US gallons = 33.814 US fluid ounces. 1 US gallon = 3.78541 liters = 4 US quarts = 8 US pints. 1 US cup = 236.588 mL = 8 US fluid ounces. 1 US tablespoon = 14.7868 mL = 3 teaspoons.",
-    "faq": [
-      { "question": "How many ml in a cup?", "answer": "1 US cup = 236.588 mL (approximately 237 mL). A metric cup (used in Australia, Canada) = 250 mL. A UK cup is not a standard legal measure but is commonly taken as 284 mL." },
-      { "question": "How many liters in a gallon?", "answer": "1 US gallon = 3.78541 liters. 1 UK (imperial) gallon = 4.54609 liters. Be careful to distinguish between US and UK gallons, as they differ by about 20%." },
-      { "question": "What is the difference between a US fluid ounce and a UK fluid ounce?", "answer": "1 US fluid ounce = 29.5735 mL. 1 UK fluid ounce = 28.4131 mL. They are close but not identical. In recipes, it is usually safe to treat them as equivalent unless extreme precision is required." },
-      { "question": "How many tablespoons in a cup?", "answer": "1 US cup = 16 tablespoons = 48 teaspoons = 8 fluid ounces = 236.588 mL. A half cup = 8 tablespoons, and a quarter cup = 4 tablespoons." },
-      { "question": "How do I convert mL to fluid ounces?", "answer": "Divide milliliters by 29.5735 to get US fluid ounces. For a quick estimate, divide mL by 30. Example: 500 mL ÷ 29.57 ≈ 16.9 fl oz (a standard water bottle)." }
-    ],
-    "relatedTools": ["weight-converter","length-converter","fuel-converter"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Volume Converter", "url": "https://utilitymega.com/unit-converters/volume-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Volume Converter - Liters, Gallons, Cups, ml & More",
-      "og:description": "Convert liters, gallons, cups, fluid ounces, pints and more. US and UK units supported.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/volume-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Volume Converter | UtilityMega",
-      "twitter:description": "Convert liters, gallons, cups, mL and more. US and UK units. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-018",
       "name": "Volume Converter",
-      "description": "Convert between metric, US customary, and UK imperial volume units including liters, gallons, cups, and fluid ounces.",
-      "url": "https://utilitymega.com/unit-converters/volume-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Volume Converter", "item": "https://utilitymega.com/unit-converters/volume-converter" }
+      "slug": "volume-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between liters, gallons, milliliters, cups, fluid ounces, and more.",
+      "seoTitle": "Free Volume Converter - Liters, Gallons, Cups, ml & More",
+      "metaDescription": "Convert volume units online for free. Instantly convert between liters, gallons, milliliters, cups, pints, quarts, fluid ounces (US and UK).",
+      "h1": "Volume Converter — Liters, Gallons, Cups, ml & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/volume-converter",
+      "keywords": [
+        "volume converter",
+        "liters to gallons",
+        "gallons to liters",
+        "ml to cups",
+        "cups to ml",
+        "fluid ounces converter",
+        "pints to liters",
+        "cooking measurement converter"
+      ],
+      "content": "Volume conversion is essential in cooking, chemistry, fuel measurement, and international trade. Our free volume converter supports metric SI units as well as both US customary and UK imperial volume units, since a US gallon and a UK gallon are different sizes.\n\nSupported Volume Units\n\nMetric: Cubic Meter (m³), Hectoliter (hL), Liter (L), Deciliter (dL), Centiliter (cL), Milliliter (mL), Cubic Centimeter (cm³). US Customary: US Gallon, US Quart, US Pint, US Cup, US Fluid Ounce, US Tablespoon, US Teaspoon. UK Imperial: UK Gallon, UK Quart, UK Pint, UK Fluid Ounce.\n\nUS vs UK Volume Units\n\nA US gallon = 3.78541 liters. A UK (imperial) gallon = 4.54609 liters — about 20% larger. A US pint = 473 mL while a UK pint = 568 mL. This difference is important for fuel economy, brewing, and recipe conversion between US and British cookbooks.\n\nCommon Volume Conversions\n\n1 liter = 0.264172 US gallons = 33.814 US fluid ounces. 1 US gallon = 3.78541 liters = 4 US quarts = 8 US pints. 1 US cup = 236.588 mL = 8 US fluid ounces. 1 US tablespoon = 14.7868 mL = 3 teaspoons.",
+      "faq": [
+        {
+          "question": "How many ml in a cup?",
+          "answer": "1 US cup = 236.588 mL (approximately 237 mL). A metric cup (used in Australia, Canada) = 250 mL. A UK cup is not a standard legal measure but is commonly taken as 284 mL."
+        },
+        {
+          "question": "How many liters in a gallon?",
+          "answer": "1 US gallon = 3.78541 liters. 1 UK (imperial) gallon = 4.54609 liters. Be careful to distinguish between US and UK gallons, as they differ by about 20%."
+        },
+        {
+          "question": "What is the difference between a US fluid ounce and a UK fluid ounce?",
+          "answer": "1 US fluid ounce = 29.5735 mL. 1 UK fluid ounce = 28.4131 mL. They are close but not identical. In recipes, it is usually safe to treat them as equivalent unless extreme precision is required."
+        },
+        {
+          "question": "How many tablespoons in a cup?",
+          "answer": "1 US cup = 16 tablespoons = 48 teaspoons = 8 fluid ounces = 236.588 mL. A half cup = 8 tablespoons, and a quarter cup = 4 tablespoons."
+        },
+        {
+          "question": "How do I convert mL to fluid ounces?",
+          "answer": "Divide milliliters by 29.5735 to get US fluid ounces. For a quick estimate, divide mL by 30. Example: 500 mL ÷ 29.57 ≈ 16.9 fl oz (a standard water bottle)."
+        }
+      ],
+      "relatedTools": [
+        "weight-converter",
+        "length-converter",
+        "fuel-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Volume Converter",
+          "url": "https://utilitymega.com/unit-converters/volume-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Volume Converter - Liters, Gallons, Cups, ml & More",
+        "og:description": "Convert liters, gallons, cups, fluid ounces, pints and more. US and UK units supported.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/volume-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Volume Converter | UtilityMega",
+        "twitter:description": "Convert liters, gallons, cups, mL and more. US and UK units. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Volume Converter",
+        "description": "Convert between metric, US customary, and UK imperial volume units including liters, gallons, cups, and fluid ounces.",
+        "url": "https://utilitymega.com/unit-converters/volume-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Volume Converter",
+              "item": "https://utilitymega.com/unit-converters/volume-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many ml in a cup?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 US cup = 236.588 mL. A metric cup (Australia, Canada) = 250 mL."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many liters in a gallon?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 US gallon = 3.78541 liters. 1 UK gallon = 4.54609 liters."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many tablespoons in a cup?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 US cup = 16 tablespoons = 48 teaspoons = 236.588 mL."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How many ml in a cup?", "acceptedAnswer": { "@type": "Answer", "text": "1 US cup = 236.588 mL. A metric cup (Australia, Canada) = 250 mL." } },
-        { "@type": "Question", "name": "How many liters in a gallon?", "acceptedAnswer": { "@type": "Answer", "text": "1 US gallon = 3.78541 liters. 1 UK gallon = 4.54609 liters." } },
-        { "@type": "Question", "name": "How many tablespoons in a cup?", "acceptedAnswer": { "@type": "Answer", "text": "1 US cup = 16 tablespoons = 48 teaspoons = 236.588 mL." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-019",
-    "name": "Speed Converter",
-    "slug": "speed-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between km/h, mph, m/s, knots, Mach, and speed of light.",
-    "seoTitle": "Free Speed Converter - km/h, mph, m/s, Knots & More",
-    "metaDescription": "Convert speed units online for free. Instantly convert between kilometers per hour, miles per hour, meters per second, knots, Mach number, and more.",
-    "h1": "Speed Converter — km/h, mph, m/s, Knots & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/speed-converter",
-    "keywords": ["speed converter","km/h to mph","mph to km/h","meters per second converter","knots to km/h","mach number converter","velocity converter","miles per hour to kilometers per hour"],
-    "content": "Speed conversion is used in automotive, aviation, maritime, and scientific contexts. Our free speed converter covers everything from everyday driving speeds to the speed of light, supporting professional and educational use.\n\nSupported Speed Units\n\nCommon: Meter per second (m/s), Kilometer per hour (km/h), Mile per hour (mph), Foot per second (ft/s), Knot (kn). Scientific: Speed of Light (c), Mach (speed of sound at sea level), Centimeter per second (cm/s). Other: Mile per minute, Kilometer per minute, Foot per minute.\n\nCommon Speed Conversions\n\n1 km/h = 0.621371 mph = 0.277778 m/s. 1 mph = 1.60934 km/h = 0.44704 m/s. 1 knot = 1.852 km/h = 1.15078 mph. 1 Mach ≈ 340.29 m/s = 1,225 km/h at sea level. Speed of light = 299,792,458 m/s = 1,079,252,848 km/h.\n\nSpeed in Context\n\nWalking speed: ~5 km/h (3.1 mph). Cycling: ~25 km/h (15.5 mph). Highway driving: ~120 km/h (74.6 mph). Commercial jet: ~900 km/h (559 mph, ~0.85 Mach). Space shuttle orbital: ~28,000 km/h (17,398 mph).",
-    "faq": [
-      { "question": "How do I convert km/h to mph?", "answer": "Multiply km/h by 0.621371 to get mph. Quick estimate: multiply by 0.6. For example, 100 km/h ≈ 62 mph. To convert mph to km/h, multiply by 1.60934." },
-      { "question": "What is a knot in km/h?", "answer": "1 knot = 1.852 km/h = 1.15078 mph. Knots (nautical miles per hour) are used in aviation and maritime navigation. A ship traveling at 20 knots is moving at 37 km/h." },
-      { "question": "What is Mach 1 in km/h?", "answer": "Mach 1 is the speed of sound, which at sea level (15°C) is approximately 340.29 m/s = 1,225 km/h = 761.2 mph. The speed of sound varies with temperature and altitude." },
-      { "question": "How fast is the speed of light in mph?", "answer": "The speed of light in a vacuum is exactly 299,792,458 m/s = 1,079,252,848 km/h = 670,616,629 mph. Light can travel around the Earth about 7.5 times per second." },
-      { "question": "What is the difference between speed and velocity?", "answer": "Speed is a scalar quantity (magnitude only), while velocity is a vector (magnitude + direction). A car driving at 60 mph in a circle has constant speed but changing velocity." }
-    ],
-    "relatedTools": ["length-converter","time-converter","fuel-converter"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Speed Converter", "url": "https://utilitymega.com/unit-converters/speed-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Speed Converter - km/h, mph, m/s, Knots & More",
-      "og:description": "Convert km/h to mph, knots, Mach, m/s and more. Free, instant speed unit conversion.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/speed-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Speed Converter | UtilityMega",
-      "twitter:description": "Convert km/h, mph, knots, Mach and speed of light. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-019",
       "name": "Speed Converter",
-      "description": "Convert between km/h, mph, m/s, knots, Mach number and more speed units instantly.",
-      "url": "https://utilitymega.com/unit-converters/speed-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Speed Converter", "item": "https://utilitymega.com/unit-converters/speed-converter" }
+      "slug": "speed-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between km/h, mph, m/s, knots, Mach, and speed of light.",
+      "seoTitle": "Free Speed Converter - km/h, mph, m/s, Knots & More",
+      "metaDescription": "Convert speed units online for free. Instantly convert between kilometers per hour, miles per hour, meters per second, knots, Mach number, and more.",
+      "h1": "Speed Converter — km/h, mph, m/s, Knots & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/speed-converter",
+      "keywords": [
+        "speed converter",
+        "km/h to mph",
+        "mph to km/h",
+        "meters per second converter",
+        "knots to km/h",
+        "mach number converter",
+        "velocity converter",
+        "miles per hour to kilometers per hour"
+      ],
+      "content": "Speed conversion is used in automotive, aviation, maritime, and scientific contexts. Our free speed converter covers everything from everyday driving speeds to the speed of light, supporting professional and educational use.\n\nSupported Speed Units\n\nCommon: Meter per second (m/s), Kilometer per hour (km/h), Mile per hour (mph), Foot per second (ft/s), Knot (kn). Scientific: Speed of Light (c), Mach (speed of sound at sea level), Centimeter per second (cm/s). Other: Mile per minute, Kilometer per minute, Foot per minute.\n\nCommon Speed Conversions\n\n1 km/h = 0.621371 mph = 0.277778 m/s. 1 mph = 1.60934 km/h = 0.44704 m/s. 1 knot = 1.852 km/h = 1.15078 mph. 1 Mach ≈ 340.29 m/s = 1,225 km/h at sea level. Speed of light = 299,792,458 m/s = 1,079,252,848 km/h.\n\nSpeed in Context\n\nWalking speed: ~5 km/h (3.1 mph). Cycling: ~25 km/h (15.5 mph). Highway driving: ~120 km/h (74.6 mph). Commercial jet: ~900 km/h (559 mph, ~0.85 Mach). Space shuttle orbital: ~28,000 km/h (17,398 mph).",
+      "faq": [
+        {
+          "question": "How do I convert km/h to mph?",
+          "answer": "Multiply km/h by 0.621371 to get mph. Quick estimate: multiply by 0.6. For example, 100 km/h ≈ 62 mph. To convert mph to km/h, multiply by 1.60934."
+        },
+        {
+          "question": "What is a knot in km/h?",
+          "answer": "1 knot = 1.852 km/h = 1.15078 mph. Knots (nautical miles per hour) are used in aviation and maritime navigation. A ship traveling at 20 knots is moving at 37 km/h."
+        },
+        {
+          "question": "What is Mach 1 in km/h?",
+          "answer": "Mach 1 is the speed of sound, which at sea level (15°C) is approximately 340.29 m/s = 1,225 km/h = 761.2 mph. The speed of sound varies with temperature and altitude."
+        },
+        {
+          "question": "How fast is the speed of light in mph?",
+          "answer": "The speed of light in a vacuum is exactly 299,792,458 m/s = 1,079,252,848 km/h = 670,616,629 mph. Light can travel around the Earth about 7.5 times per second."
+        },
+        {
+          "question": "What is the difference between speed and velocity?",
+          "answer": "Speed is a scalar quantity (magnitude only), while velocity is a vector (magnitude + direction). A car driving at 60 mph in a circle has constant speed but changing velocity."
+        }
+      ],
+      "relatedTools": [
+        "length-converter",
+        "time-converter",
+        "fuel-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Speed Converter",
+          "url": "https://utilitymega.com/unit-converters/speed-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Speed Converter - km/h, mph, m/s, Knots & More",
+        "og:description": "Convert km/h to mph, knots, Mach, m/s and more. Free, instant speed unit conversion.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/speed-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Speed Converter | UtilityMega",
+        "twitter:description": "Convert km/h, mph, knots, Mach and speed of light. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Speed Converter",
+        "description": "Convert between km/h, mph, m/s, knots, Mach number and more speed units instantly.",
+        "url": "https://utilitymega.com/unit-converters/speed-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Speed Converter",
+              "item": "https://utilitymega.com/unit-converters/speed-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert km/h to mph?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply km/h by 0.621371. Example: 100 km/h ≈ 62 mph."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Mach 1 in km/h?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mach 1 at sea level ≈ 1,225 km/h = 761.2 mph = 340.29 m/s."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a knot?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 knot = 1.852 km/h = 1.15078 mph. Used in aviation and maritime navigation."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How do I convert km/h to mph?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply km/h by 0.621371. Example: 100 km/h ≈ 62 mph." } },
-        { "@type": "Question", "name": "What is Mach 1 in km/h?", "acceptedAnswer": { "@type": "Answer", "text": "Mach 1 at sea level ≈ 1,225 km/h = 761.2 mph = 340.29 m/s." } },
-        { "@type": "Question", "name": "What is a knot?", "acceptedAnswer": { "@type": "Answer", "text": "1 knot = 1.852 km/h = 1.15078 mph. Used in aviation and maritime navigation." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-020",
-    "name": "Time Converter",
-    "slug": "time-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between seconds, minutes, hours, days, weeks, months, and years.",
-    "seoTitle": "Free Time Converter - Seconds, Minutes, Hours, Days & More",
-    "metaDescription": "Convert time units online for free. Instantly convert between seconds, minutes, hours, days, weeks, months, years, milliseconds, and nanoseconds.",
-    "h1": "Time Converter — Seconds, Minutes, Hours, Days & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/time-converter",
-    "keywords": ["time converter","seconds to minutes","minutes to hours","hours to days","days to weeks","milliseconds converter","nanoseconds converter","time unit conversion"],
-    "content": "Time conversion is used across computing, physics, project management, and everyday life. Our free time converter supports everything from picoseconds (used in computing) to centuries (used in history), making it useful for scientists, programmers, students, and project planners.\n\nSupported Time Units\n\nCommon: Week, Day, Hour, Minute, Second. Small (Scientific): Millisecond (ms), Microsecond (μs), Nanosecond (ns), Picosecond (ps). Large (Historical): Month (average), Year, Decade, Century.\n\nCommon Time Conversions\n\n1 minute = 60 seconds. 1 hour = 3,600 seconds. 1 day = 86,400 seconds. 1 week = 604,800 seconds. 1 year = 31,557,600 seconds. 1 millisecond = 0.001 seconds.\n\nFun Time Facts\n\nA nanosecond is 10^-9 seconds — in one nanosecond, light travels about 30 cm (1 foot). Your computer performs billions of operations per second. The human blink lasts approximately 150–400 milliseconds. Light from the Sun takes 8 minutes and 20 seconds to reach Earth.",
-    "faq": [
-      { "question": "How many seconds in a day?", "answer": "1 day = 24 hours × 60 minutes × 60 seconds = 86,400 seconds. A year has about 31,536,000 seconds (365 days), or 31,557,600 seconds including the average leap year fraction." },
-      { "question": "How many hours in a year?", "answer": "1 year = 365 days × 24 hours = 8,760 hours. Including the leap year fraction (365.25 days), 1 year ≈ 8,766 hours. A decade = 87,660 hours." },
-      { "question": "What is a millisecond?", "answer": "1 millisecond (ms) = 0.001 seconds = 1/1,000 of a second. Human reaction time is approximately 150–300 ms. Internet ping times are measured in milliseconds." },
-      { "question": "How many days in a year?", "answer": "A common year has 365 days. A leap year has 366 days, occurring every 4 years (with exceptions for century years). The average year length is 365.2425 days." },
-      { "question": "What is the difference between a microsecond and a nanosecond?", "answer": "1 microsecond (μs) = 0.000001 seconds = 1,000 nanoseconds. 1 nanosecond (ns) = 0.000000001 seconds. Modern CPUs operate at GHz speeds, executing instructions every few nanoseconds." }
-    ],
-    "relatedTools": ["speed-converter","length-converter","data-converter"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Time Converter", "url": "https://utilitymega.com/unit-converters/time-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Time Converter - Seconds, Minutes, Hours, Days & More",
-      "og:description": "Convert time units from picoseconds to centuries. Free, instant time unit conversion.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/time-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Time Converter | UtilityMega",
-      "twitter:description": "Convert seconds, minutes, hours, days, weeks, years, milliseconds and more."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-020",
       "name": "Time Converter",
-      "description": "Convert between all time units from picoseconds to centuries.",
-      "url": "https://utilitymega.com/unit-converters/time-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Time Converter", "item": "https://utilitymega.com/unit-converters/time-converter" }
+      "slug": "time-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between seconds, minutes, hours, days, weeks, months, and years.",
+      "seoTitle": "Free Time Converter - Seconds, Minutes, Hours, Days & More",
+      "metaDescription": "Convert time units online for free. Instantly convert between seconds, minutes, hours, days, weeks, months, years, milliseconds, and nanoseconds.",
+      "h1": "Time Converter — Seconds, Minutes, Hours, Days & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/time-converter",
+      "keywords": [
+        "time converter",
+        "seconds to minutes",
+        "minutes to hours",
+        "hours to days",
+        "days to weeks",
+        "milliseconds converter",
+        "nanoseconds converter",
+        "time unit conversion"
+      ],
+      "content": "Time conversion is used across computing, physics, project management, and everyday life. Our free time converter supports everything from picoseconds (used in computing) to centuries (used in history), making it useful for scientists, programmers, students, and project planners.\n\nSupported Time Units\n\nCommon: Week, Day, Hour, Minute, Second. Small (Scientific): Millisecond (ms), Microsecond (μs), Nanosecond (ns), Picosecond (ps). Large (Historical): Month (average), Year, Decade, Century.\n\nCommon Time Conversions\n\n1 minute = 60 seconds. 1 hour = 3,600 seconds. 1 day = 86,400 seconds. 1 week = 604,800 seconds. 1 year = 31,557,600 seconds. 1 millisecond = 0.001 seconds.\n\nFun Time Facts\n\nA nanosecond is 10^-9 seconds — in one nanosecond, light travels about 30 cm (1 foot). Your computer performs billions of operations per second. The human blink lasts approximately 150–400 milliseconds. Light from the Sun takes 8 minutes and 20 seconds to reach Earth.",
+      "faq": [
+        {
+          "question": "How many seconds in a day?",
+          "answer": "1 day = 24 hours × 60 minutes × 60 seconds = 86,400 seconds. A year has about 31,536,000 seconds (365 days), or 31,557,600 seconds including the average leap year fraction."
+        },
+        {
+          "question": "How many hours in a year?",
+          "answer": "1 year = 365 days × 24 hours = 8,760 hours. Including the leap year fraction (365.25 days), 1 year ≈ 8,766 hours. A decade = 87,660 hours."
+        },
+        {
+          "question": "What is a millisecond?",
+          "answer": "1 millisecond (ms) = 0.001 seconds = 1/1,000 of a second. Human reaction time is approximately 150–300 ms. Internet ping times are measured in milliseconds."
+        },
+        {
+          "question": "How many days in a year?",
+          "answer": "A common year has 365 days. A leap year has 366 days, occurring every 4 years (with exceptions for century years). The average year length is 365.2425 days."
+        },
+        {
+          "question": "What is the difference between a microsecond and a nanosecond?",
+          "answer": "1 microsecond (μs) = 0.000001 seconds = 1,000 nanoseconds. 1 nanosecond (ns) = 0.000000001 seconds. Modern CPUs operate at GHz speeds, executing instructions every few nanoseconds."
+        }
+      ],
+      "relatedTools": [
+        "speed-converter",
+        "length-converter",
+        "data-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Time Converter",
+          "url": "https://utilitymega.com/unit-converters/time-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Time Converter - Seconds, Minutes, Hours, Days & More",
+        "og:description": "Convert time units from picoseconds to centuries. Free, instant time unit conversion.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/time-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Time Converter | UtilityMega",
+        "twitter:description": "Convert seconds, minutes, hours, days, weeks, years, milliseconds and more."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Time Converter",
+        "description": "Convert between all time units from picoseconds to centuries.",
+        "url": "https://utilitymega.com/unit-converters/time-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Time Converter",
+              "item": "https://utilitymega.com/unit-converters/time-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many seconds in a day?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 day = 86,400 seconds (24 × 60 × 60)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many hours in a year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 year = 8,760 hours (365 × 24). Including leap year: ≈ 8,766 hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a millisecond?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 millisecond = 0.001 seconds. Human reaction time is ~150–300 ms."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How many seconds in a day?", "acceptedAnswer": { "@type": "Answer", "text": "1 day = 86,400 seconds (24 × 60 × 60)." } },
-        { "@type": "Question", "name": "How many hours in a year?", "acceptedAnswer": { "@type": "Answer", "text": "1 year = 8,760 hours (365 × 24). Including leap year: ≈ 8,766 hours." } },
-        { "@type": "Question", "name": "What is a millisecond?", "acceptedAnswer": { "@type": "Answer", "text": "1 millisecond = 0.001 seconds. Human reaction time is ~150–300 ms." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-021",
-    "name": "Pressure Converter",
-    "slug": "pressure-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between Pascal, bar, PSI, atm, Torr, mmHg, and more pressure units.",
-    "seoTitle": "Free Pressure Converter - Pascal, Bar, PSI, atm & More",
-    "metaDescription": "Convert pressure units online for free. Instantly convert between Pascal, kilopascal, bar, PSI, atmospheres, Torr, mmHg, and more.",
-    "h1": "Pressure Converter — Pa, Bar, PSI, atm & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/pressure-converter",
-    "keywords": ["pressure converter","pascal to psi","bar to psi","psi to bar","atm to bar","mmhg to kpa","pressure unit conversion","kpa to psi"],
-    "content": "Pressure conversion is critical in engineering, meteorology, medicine, and industrial applications. Our free pressure converter supports all major pressure units, from the SI standard Pascal to the commonly used PSI in automotive and industrial settings.\n\nSupported Pressure Units\n\nSI/Metric: Pascal (Pa), Hectopascal (hPa), Kilopascal (kPa), Megapascal (MPa), Bar, Millibar (mbar). Imperial: PSI (pounds per square inch), PSF (pounds per square foot), Inch of Mercury (inHg). Atmosphere-Based: Atmosphere (atm), Torr, Millimeter of Mercury (mmHg), Technical Atmosphere (at).\n\nCommon Pressure Conversions\n\n1 bar = 100,000 Pa = 14.5038 PSI. 1 atm = 101,325 Pa = 1.01325 bar = 14.696 PSI. 1 PSI = 6,894.76 Pa = 0.0689476 bar. Standard atmospheric pressure = 1 atm = 1013.25 hPa = 760 mmHg.\n\nReal-World Applications\n\nTire pressure: Typically measured in PSI (US) or bar (Europe). A standard car tire is inflated to 30–35 PSI (2.1–2.4 bar). Weather: Atmospheric pressure measured in hPa or millibars. Standard sea-level pressure = 1013.25 hPa. Blood pressure: Measured in mmHg. Normal BP is approximately 120/80 mmHg. Scuba diving: Every 10 meters of water depth adds approximately 1 atm of pressure.",
-    "faq": [
-      { "question": "How do I convert bar to PSI?", "answer": "Multiply bar by 14.5038 to get PSI. So 2 bar = 29.0 PSI. To convert PSI to bar, divide by 14.5038 or multiply by 0.0689476." },
-      { "question": "What is standard atmospheric pressure in different units?", "answer": "1 standard atmosphere (atm) = 101,325 Pa = 1013.25 hPa = 1.01325 bar = 14.696 PSI = 760 mmHg = 760 Torr = 29.921 inHg." },
-      { "question": "What is the difference between PSI and bar?", "answer": "PSI (pounds per square inch) is common in the US and UK. Bar is used in Europe and most of the world. 1 bar ≈ 14.5 PSI. Both measure the same physical quantity (pressure) with different scales." },
-      { "question": "What is a Pascal?", "answer": "The Pascal (Pa) is the SI unit of pressure, equal to one Newton per square meter (1 N/m²). Standard atmospheric pressure is 101,325 Pa. Kilopascal (kPa = 1,000 Pa) is more practical for most applications." },
-      { "question": "Why is blood pressure measured in mmHg?", "answer": "Millimeters of mercury (mmHg) dates back to the first blood pressure devices which used mercury columns. Although mercury is no longer used, mmHg persists in medicine by convention. 1 mmHg = 133.322 Pa." }
-    ],
-    "relatedTools": ["temperature-converter","energy-converter","weight-converter"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Pressure Converter", "url": "https://utilitymega.com/unit-converters/pressure-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Pressure Converter - Pa, Bar, PSI, atm & More",
-      "og:description": "Convert between Pascal, bar, PSI, atmospheres, Torr and more. Free pressure unit converter.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/pressure-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Pressure Converter | UtilityMega",
-      "twitter:description": "Convert Pa, kPa, bar, PSI, atm, Torr, mmHg and more. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-021",
       "name": "Pressure Converter",
-      "description": "Convert between Pascal, bar, PSI, atmospheres, Torr, mmHg and other pressure units.",
-      "url": "https://utilitymega.com/unit-converters/pressure-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Pressure Converter", "item": "https://utilitymega.com/unit-converters/pressure-converter" }
+      "slug": "pressure-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between Pascal, bar, PSI, atm, Torr, mmHg, and more pressure units.",
+      "seoTitle": "Free Pressure Converter - Pascal, Bar, PSI, atm & More",
+      "metaDescription": "Convert pressure units online for free. Instantly convert between Pascal, kilopascal, bar, PSI, atmospheres, Torr, mmHg, and more.",
+      "h1": "Pressure Converter — Pa, Bar, PSI, atm & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/pressure-converter",
+      "keywords": [
+        "pressure converter",
+        "pascal to psi",
+        "bar to psi",
+        "psi to bar",
+        "atm to bar",
+        "mmhg to kpa",
+        "pressure unit conversion",
+        "kpa to psi"
+      ],
+      "content": "Pressure conversion is critical in engineering, meteorology, medicine, and industrial applications. Our free pressure converter supports all major pressure units, from the SI standard Pascal to the commonly used PSI in automotive and industrial settings.\n\nSupported Pressure Units\n\nSI/Metric: Pascal (Pa), Hectopascal (hPa), Kilopascal (kPa), Megapascal (MPa), Bar, Millibar (mbar). Imperial: PSI (pounds per square inch), PSF (pounds per square foot), Inch of Mercury (inHg). Atmosphere-Based: Atmosphere (atm), Torr, Millimeter of Mercury (mmHg), Technical Atmosphere (at).\n\nCommon Pressure Conversions\n\n1 bar = 100,000 Pa = 14.5038 PSI. 1 atm = 101,325 Pa = 1.01325 bar = 14.696 PSI. 1 PSI = 6,894.76 Pa = 0.0689476 bar. Standard atmospheric pressure = 1 atm = 1013.25 hPa = 760 mmHg.\n\nReal-World Applications\n\nTire pressure: Typically measured in PSI (US) or bar (Europe). A standard car tire is inflated to 30–35 PSI (2.1–2.4 bar). Weather: Atmospheric pressure measured in hPa or millibars. Standard sea-level pressure = 1013.25 hPa. Blood pressure: Measured in mmHg. Normal BP is approximately 120/80 mmHg. Scuba diving: Every 10 meters of water depth adds approximately 1 atm of pressure.",
+      "faq": [
+        {
+          "question": "How do I convert bar to PSI?",
+          "answer": "Multiply bar by 14.5038 to get PSI. So 2 bar = 29.0 PSI. To convert PSI to bar, divide by 14.5038 or multiply by 0.0689476."
+        },
+        {
+          "question": "What is standard atmospheric pressure in different units?",
+          "answer": "1 standard atmosphere (atm) = 101,325 Pa = 1013.25 hPa = 1.01325 bar = 14.696 PSI = 760 mmHg = 760 Torr = 29.921 inHg."
+        },
+        {
+          "question": "What is the difference between PSI and bar?",
+          "answer": "PSI (pounds per square inch) is common in the US and UK. Bar is used in Europe and most of the world. 1 bar ≈ 14.5 PSI. Both measure the same physical quantity (pressure) with different scales."
+        },
+        {
+          "question": "What is a Pascal?",
+          "answer": "The Pascal (Pa) is the SI unit of pressure, equal to one Newton per square meter (1 N/m²). Standard atmospheric pressure is 101,325 Pa. Kilopascal (kPa = 1,000 Pa) is more practical for most applications."
+        },
+        {
+          "question": "Why is blood pressure measured in mmHg?",
+          "answer": "Millimeters of mercury (mmHg) dates back to the first blood pressure devices which used mercury columns. Although mercury is no longer used, mmHg persists in medicine by convention. 1 mmHg = 133.322 Pa."
+        }
+      ],
+      "relatedTools": [
+        "temperature-converter",
+        "energy-converter",
+        "weight-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Pressure Converter",
+          "url": "https://utilitymega.com/unit-converters/pressure-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Pressure Converter - Pa, Bar, PSI, atm & More",
+        "og:description": "Convert between Pascal, bar, PSI, atmospheres, Torr and more. Free pressure unit converter.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/pressure-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Pressure Converter | UtilityMega",
+        "twitter:description": "Convert Pa, kPa, bar, PSI, atm, Torr, mmHg and more. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Pressure Converter",
+        "description": "Convert between Pascal, bar, PSI, atmospheres, Torr, mmHg and other pressure units.",
+        "url": "https://utilitymega.com/unit-converters/pressure-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Pressure Converter",
+              "item": "https://utilitymega.com/unit-converters/pressure-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert bar to PSI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply bar by 14.5038. Example: 2 bar = 29.0 PSI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is standard atmospheric pressure?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 atm = 101,325 Pa = 1013.25 hPa = 1.01325 bar = 14.696 PSI = 760 mmHg."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a Pascal?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pascal (Pa) = 1 N/m². Standard atmosphere = 101,325 Pa."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How do I convert bar to PSI?", "acceptedAnswer": { "@type": "Answer", "text": "Multiply bar by 14.5038. Example: 2 bar = 29.0 PSI." } },
-        { "@type": "Question", "name": "What is standard atmospheric pressure?", "acceptedAnswer": { "@type": "Answer", "text": "1 atm = 101,325 Pa = 1013.25 hPa = 1.01325 bar = 14.696 PSI = 760 mmHg." } },
-        { "@type": "Question", "name": "What is a Pascal?", "acceptedAnswer": { "@type": "Answer", "text": "Pascal (Pa) = 1 N/m². Standard atmosphere = 101,325 Pa." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-022",
-    "name": "Energy Converter",
-    "slug": "energy-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between joules, calories, kilowatt-hours, BTU, and more energy units.",
-    "seoTitle": "Free Energy Converter - Joules, kWh, Calories, BTU & More",
-    "metaDescription": "Convert energy units online for free. Instantly convert between joules, kilojoules, kilowatt-hours, calories, kilocalories, BTU, and electron-volts.",
-    "h1": "Energy Converter — Joules, kWh, Calories, BTU & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/energy-converter",
-    "keywords": ["energy converter","joules to calories","calories to joules","kwh to joules","btu to joules","kilocalories converter","electron volt converter","energy unit conversion"],
-    "content": "Energy conversion is fundamental in physics, nutrition, engineering, and utility billing. Our free energy converter supports all major energy units, from the everyday calorie to the electron-volt used in particle physics.\n\nSupported Energy Units\n\nSI/Metric: Joule (J), Kilojoule (kJ), Megajoule (MJ), Gigajoule (GJ), Newton-meter (N·m). Heat/Caloric: Calorie (cal), Kilocalorie (kcal), British Thermal Unit (BTU), Therm (US). Electrical: Watt-hour (Wh), Kilowatt-hour (kWh), Megawatt-hour (MWh), Electron-volt (eV).\n\nCommon Energy Conversions\n\n1 kilocalorie (food calorie) = 4,184 J = 4.184 kJ. 1 kWh = 3,600,000 J = 3.6 MJ. 1 BTU = 1,055.06 J = 0.293071 Wh. 1 therm = 100,000 BTU = 105.48 MJ.\n\nEnergy in Daily Life\n\nFood energy: Nutrition labels use kilocalories (kcal), often labelled as 'Calories' (capital C). 1 food Calorie = 1 kcal = 4,184 J. Electricity bills: Energy consumption is billed in kilowatt-hours (kWh). 1 kWh = energy used by a 1,000-watt appliance for 1 hour. Heating: Natural gas and heating oil are measured in BTU or therms in the US. Physics: Particle physicists use electron-volts (eV). 1 eV = 1.602 × 10^-19 J.",
-    "faq": [
-      { "question": "What is the difference between a calorie and a kilocalorie?", "answer": "A small calorie (cal) = 4.184 J. A kilocalorie (kcal) = 1,000 cal = 4,184 J. Food nutrition labels use kcal but often write 'Calories' (capital C). So '200 Calories' on a food label = 200 kcal = 836,800 J." },
-      { "question": "How do I convert kWh to joules?", "answer": "1 kWh = 3,600,000 joules (3.6 MJ). Multiply kWh by 3,600,000 to get joules. Example: 5 kWh = 18,000,000 J = 18 MJ." },
-      { "question": "What is a BTU?", "answer": "BTU (British Thermal Unit) is the energy required to raise 1 pound of water by 1°F. 1 BTU = 1,055.06 joules = 0.293 Wh. It is commonly used in the US for air conditioner ratings, heating systems, and gas appliances." },
-      { "question": "How many joules in a kilowatt-hour?", "answer": "1 kWh = 3,600,000 joules (3.6 MJ). This comes from: 1 kW = 1,000 J/s. Over 1 hour (3,600 s): 1,000 × 3,600 = 3,600,000 J." },
-      { "question": "What is an electron-volt?", "answer": "An electron-volt (eV) = 1.602 × 10^-19 joules. It is the energy gained by a single electron when accelerated through 1 volt. Used in atomic physics, nuclear physics, and chemistry to describe bond and photon energies." }
-    ],
-    "relatedTools": ["pressure-converter","temperature-converter","data-converter"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Energy Converter", "url": "https://utilitymega.com/unit-converters/energy-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Energy Converter - Joules, kWh, Calories, BTU & More",
-      "og:description": "Convert joules, kWh, calories, BTU and more. Free energy unit conversion online.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/energy-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Energy Converter | UtilityMega",
-      "twitter:description": "Convert joules, kWh, calories, kilocalories, BTU, eV and more. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-022",
       "name": "Energy Converter",
-      "description": "Convert between joules, kilowatt-hours, calories, BTU, and other energy units.",
-      "url": "https://utilitymega.com/unit-converters/energy-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Energy Converter", "item": "https://utilitymega.com/unit-converters/energy-converter" }
+      "slug": "energy-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between joules, calories, kilowatt-hours, BTU, and more energy units.",
+      "seoTitle": "Free Energy Converter - Joules, kWh, Calories, BTU & More",
+      "metaDescription": "Convert energy units online for free. Instantly convert between joules, kilojoules, kilowatt-hours, calories, kilocalories, BTU, and electron-volts.",
+      "h1": "Energy Converter — Joules, kWh, Calories, BTU & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/energy-converter",
+      "keywords": [
+        "energy converter",
+        "joules to calories",
+        "calories to joules",
+        "kwh to joules",
+        "btu to joules",
+        "kilocalories converter",
+        "electron volt converter",
+        "energy unit conversion"
+      ],
+      "content": "Energy conversion is fundamental in physics, nutrition, engineering, and utility billing. Our free energy converter supports all major energy units, from the everyday calorie to the electron-volt used in particle physics.\n\nSupported Energy Units\n\nSI/Metric: Joule (J), Kilojoule (kJ), Megajoule (MJ), Gigajoule (GJ), Newton-meter (N·m). Heat/Caloric: Calorie (cal), Kilocalorie (kcal), British Thermal Unit (BTU), Therm (US). Electrical: Watt-hour (Wh), Kilowatt-hour (kWh), Megawatt-hour (MWh), Electron-volt (eV).\n\nCommon Energy Conversions\n\n1 kilocalorie (food calorie) = 4,184 J = 4.184 kJ. 1 kWh = 3,600,000 J = 3.6 MJ. 1 BTU = 1,055.06 J = 0.293071 Wh. 1 therm = 100,000 BTU = 105.48 MJ.\n\nEnergy in Daily Life\n\nFood energy: Nutrition labels use kilocalories (kcal), often labelled as 'Calories' (capital C). 1 food Calorie = 1 kcal = 4,184 J. Electricity bills: Energy consumption is billed in kilowatt-hours (kWh). 1 kWh = energy used by a 1,000-watt appliance for 1 hour. Heating: Natural gas and heating oil are measured in BTU or therms in the US. Physics: Particle physicists use electron-volts (eV). 1 eV = 1.602 × 10^-19 J.",
+      "faq": [
+        {
+          "question": "What is the difference between a calorie and a kilocalorie?",
+          "answer": "A small calorie (cal) = 4.184 J. A kilocalorie (kcal) = 1,000 cal = 4,184 J. Food nutrition labels use kcal but often write 'Calories' (capital C). So '200 Calories' on a food label = 200 kcal = 836,800 J."
+        },
+        {
+          "question": "How do I convert kWh to joules?",
+          "answer": "1 kWh = 3,600,000 joules (3.6 MJ). Multiply kWh by 3,600,000 to get joules. Example: 5 kWh = 18,000,000 J = 18 MJ."
+        },
+        {
+          "question": "What is a BTU?",
+          "answer": "BTU (British Thermal Unit) is the energy required to raise 1 pound of water by 1°F. 1 BTU = 1,055.06 joules = 0.293 Wh. It is commonly used in the US for air conditioner ratings, heating systems, and gas appliances."
+        },
+        {
+          "question": "How many joules in a kilowatt-hour?",
+          "answer": "1 kWh = 3,600,000 joules (3.6 MJ). This comes from: 1 kW = 1,000 J/s. Over 1 hour (3,600 s): 1,000 × 3,600 = 3,600,000 J."
+        },
+        {
+          "question": "What is an electron-volt?",
+          "answer": "An electron-volt (eV) = 1.602 × 10^-19 joules. It is the energy gained by a single electron when accelerated through 1 volt. Used in atomic physics, nuclear physics, and chemistry to describe bond and photon energies."
+        }
+      ],
+      "relatedTools": [
+        "pressure-converter",
+        "temperature-converter",
+        "data-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Energy Converter",
+          "url": "https://utilitymega.com/unit-converters/energy-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Energy Converter - Joules, kWh, Calories, BTU & More",
+        "og:description": "Convert joules, kWh, calories, BTU and more. Free energy unit conversion online.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/energy-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Energy Converter | UtilityMega",
+        "twitter:description": "Convert joules, kWh, calories, kilocalories, BTU, eV and more. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Energy Converter",
+        "description": "Convert between joules, kilowatt-hours, calories, BTU, and other energy units.",
+        "url": "https://utilitymega.com/unit-converters/energy-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Energy Converter",
+              "item": "https://utilitymega.com/unit-converters/energy-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between a calorie and a kilocalorie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 kcal = 1,000 cal = 4,184 J. Food Calories (capital C) = kilocalories."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many joules in a kilowatt-hour?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 kWh = 3,600,000 joules (3.6 MJ)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a BTU?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BTU = energy to raise 1 lb of water by 1°F = 1,055.06 J. Used for HVAC ratings in the US."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "What is the difference between a calorie and a kilocalorie?", "acceptedAnswer": { "@type": "Answer", "text": "1 kcal = 1,000 cal = 4,184 J. Food Calories (capital C) = kilocalories." } },
-        { "@type": "Question", "name": "How many joules in a kilowatt-hour?", "acceptedAnswer": { "@type": "Answer", "text": "1 kWh = 3,600,000 joules (3.6 MJ)." } },
-        { "@type": "Question", "name": "What is a BTU?", "acceptedAnswer": { "@type": "Answer", "text": "BTU = energy to raise 1 lb of water by 1°F = 1,055.06 J. Used for HVAC ratings in the US." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-023",
-    "name": "Data Storage Converter",
-    "slug": "data-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between bits, bytes, KB, MB, GB, TB, and binary units like KiB, MiB, GiB.",
-    "seoTitle": "Free Data Storage Converter - GB, MB, KB, Bits & More",
-    "metaDescription": "Convert digital data units online for free. Instantly convert between bits, bytes, kilobytes, megabytes, gigabytes, terabytes, and binary IEC units (KiB, MiB, GiB).",
-    "h1": "Data Storage Converter — GB, MB, KB, Bits & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/data-converter",
-    "keywords": ["data storage converter","bytes to megabytes","gb to mb","mb to kb","gigabytes to terabytes","kilobytes converter","bits to bytes","binary vs decimal bytes"],
-    "content": "Digital data conversion is essential in computing, networking, storage, and software development. Our data converter supports both decimal (SI) units used by hard drive manufacturers and binary (IEC) units used by operating systems, as well as data transfer rate units.\n\nDecimal (SI) vs Binary (IEC) Units\n\nA frequent source of confusion: storage manufacturers use decimal prefixes (1 KB = 1,000 bytes) while operating systems use binary prefixes (1 KiB = 1,024 bytes). This is why a '1 TB' hard drive shows as ~931 GiB in Windows or macOS. Decimal: bit (b), Byte (B), Kilobyte (KB=1,000 B), Megabyte (MB=10^6 B), Gigabyte (GB=10^9 B), Terabyte (TB=10^12 B), Petabyte (PB=10^15 B). Binary (IEC): Kibibyte (KiB=1,024 B), Mebibyte (MiB=1,024 KiB), Gibibyte (GiB=1,024 MiB), Tebibyte (TiB=1,024 GiB).\n\nData Transfer Rates\n\nNetwork speeds are measured in bits per second (not bytes). 1 Mbps = 1,000,000 bits/s ≈ 125 KB/s (divide by 8 to get bytes). A 100 Mbps internet connection transfers about 12.5 MB per second.",
-    "faq": [
-      { "question": "How many MB in a GB?", "answer": "1 GB (gigabyte, decimal) = 1,000 MB. 1 GiB (gibibyte, binary) = 1,024 MiB. Hard drives use GB (decimal), while operating systems typically display GiB but label it 'GB'. This is why a 1 TB drive shows as ~931 GB in Windows." },
-      { "question": "What is the difference between KB and KiB?", "answer": "KB (kilobyte, SI) = 1,000 bytes. KiB (kibibyte, IEC) = 1,024 bytes. The difference compounds at higher scales: 1 TB = 1,000 GB while 1 TiB = 1,099.5 GB." },
-      { "question": "Why does my hard drive show less space than advertised?", "answer": "Drive manufacturers use decimal (1 TB = 10^12 bytes) while operating systems report in binary (1 TiB = 2^40 bytes). 1 TB (decimal) = 0.909 TiB ≈ 931 GiB. So a 1 TB drive appears as ~931 GB in your OS." },
-      { "question": "How many bits in a byte?", "answer": "1 byte = 8 bits. Internet speeds (Mbps) are in bits, while file sizes (MB) are in bytes — so divide Mbps by 8 to get MB/s download speed." },
-      { "question": "What does Mbps mean?", "answer": "Mbps = megabits per second = 1,000,000 bits per second. To estimate download speed in MB/s, divide Mbps by 8. A 100 Mbps connection = ~12.5 MB/s." }
-    ],
-    "relatedTools": ["time-converter","speed-converter","energy-converter"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Data Storage Converter", "url": "https://utilitymega.com/unit-converters/data-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Data Storage Converter - GB, MB, KB, Bits, GiB & More",
-      "og:description": "Convert between bits, bytes, KB, MB, GB, TB and binary IEC units (KiB, MiB, GiB). Free and instant.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/data-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Data Storage Converter | UtilityMega",
-      "twitter:description": "Convert GB, MB, KB, bits, GiB, MiB, Mbps and more. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-023",
       "name": "Data Storage Converter",
-      "description": "Convert between decimal (SI) and binary (IEC) digital storage units, plus data transfer rates.",
-      "url": "https://utilitymega.com/unit-converters/data-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Data Storage Converter", "item": "https://utilitymega.com/unit-converters/data-converter" }
+      "slug": "data-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between bits, bytes, KB, MB, GB, TB, and binary units like KiB, MiB, GiB.",
+      "seoTitle": "Free Data Storage Converter - GB, MB, KB, Bits & More",
+      "metaDescription": "Convert digital data units online for free. Instantly convert between bits, bytes, kilobytes, megabytes, gigabytes, terabytes, and binary IEC units (KiB, MiB, GiB).",
+      "h1": "Data Storage Converter — GB, MB, KB, Bits & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/data-converter",
+      "keywords": [
+        "data storage converter",
+        "bytes to megabytes",
+        "gb to mb",
+        "mb to kb",
+        "gigabytes to terabytes",
+        "kilobytes converter",
+        "bits to bytes",
+        "binary vs decimal bytes"
+      ],
+      "content": "Digital data conversion is essential in computing, networking, storage, and software development. Our data converter supports both decimal (SI) units used by hard drive manufacturers and binary (IEC) units used by operating systems, as well as data transfer rate units.\n\nDecimal (SI) vs Binary (IEC) Units\n\nA frequent source of confusion: storage manufacturers use decimal prefixes (1 KB = 1,000 bytes) while operating systems use binary prefixes (1 KiB = 1,024 bytes). This is why a '1 TB' hard drive shows as ~931 GiB in Windows or macOS. Decimal: bit (b), Byte (B), Kilobyte (KB=1,000 B), Megabyte (MB=10^6 B), Gigabyte (GB=10^9 B), Terabyte (TB=10^12 B), Petabyte (PB=10^15 B). Binary (IEC): Kibibyte (KiB=1,024 B), Mebibyte (MiB=1,024 KiB), Gibibyte (GiB=1,024 MiB), Tebibyte (TiB=1,024 GiB).\n\nData Transfer Rates\n\nNetwork speeds are measured in bits per second (not bytes). 1 Mbps = 1,000,000 bits/s ≈ 125 KB/s (divide by 8 to get bytes). A 100 Mbps internet connection transfers about 12.5 MB per second.",
+      "faq": [
+        {
+          "question": "How many MB in a GB?",
+          "answer": "1 GB (gigabyte, decimal) = 1,000 MB. 1 GiB (gibibyte, binary) = 1,024 MiB. Hard drives use GB (decimal), while operating systems typically display GiB but label it 'GB'. This is why a 1 TB drive shows as ~931 GB in Windows."
+        },
+        {
+          "question": "What is the difference between KB and KiB?",
+          "answer": "KB (kilobyte, SI) = 1,000 bytes. KiB (kibibyte, IEC) = 1,024 bytes. The difference compounds at higher scales: 1 TB = 1,000 GB while 1 TiB = 1,099.5 GB."
+        },
+        {
+          "question": "Why does my hard drive show less space than advertised?",
+          "answer": "Drive manufacturers use decimal (1 TB = 10^12 bytes) while operating systems report in binary (1 TiB = 2^40 bytes). 1 TB (decimal) = 0.909 TiB ≈ 931 GiB. So a 1 TB drive appears as ~931 GB in your OS."
+        },
+        {
+          "question": "How many bits in a byte?",
+          "answer": "1 byte = 8 bits. Internet speeds (Mbps) are in bits, while file sizes (MB) are in bytes — so divide Mbps by 8 to get MB/s download speed."
+        },
+        {
+          "question": "What does Mbps mean?",
+          "answer": "Mbps = megabits per second = 1,000,000 bits per second. To estimate download speed in MB/s, divide Mbps by 8. A 100 Mbps connection = ~12.5 MB/s."
+        }
+      ],
+      "relatedTools": [
+        "time-converter",
+        "speed-converter",
+        "energy-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Data Storage Converter",
+          "url": "https://utilitymega.com/unit-converters/data-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Data Storage Converter - GB, MB, KB, Bits, GiB & More",
+        "og:description": "Convert between bits, bytes, KB, MB, GB, TB and binary IEC units (KiB, MiB, GiB). Free and instant.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/data-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Data Storage Converter | UtilityMega",
+        "twitter:description": "Convert GB, MB, KB, bits, GiB, MiB, Mbps and more. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Data Storage Converter",
+        "description": "Convert between decimal (SI) and binary (IEC) digital storage units, plus data transfer rates.",
+        "url": "https://utilitymega.com/unit-converters/data-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Data Storage Converter",
+              "item": "https://utilitymega.com/unit-converters/data-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How many MB in a GB?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 GB (decimal) = 1,000 MB. 1 GiB (binary) = 1,024 MiB."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many bits in a byte?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1 byte = 8 bits. Divide Mbps by 8 to get MB/s download speed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my hard drive show less space than advertised?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Manufacturers use decimal (1 TB = 10^12 B) but OS uses binary (1 TiB = 2^40 B). 1 TB ≈ 931 GiB."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How many MB in a GB?", "acceptedAnswer": { "@type": "Answer", "text": "1 GB (decimal) = 1,000 MB. 1 GiB (binary) = 1,024 MiB." } },
-        { "@type": "Question", "name": "How many bits in a byte?", "acceptedAnswer": { "@type": "Answer", "text": "1 byte = 8 bits. Divide Mbps by 8 to get MB/s download speed." } },
-        { "@type": "Question", "name": "Why does my hard drive show less space than advertised?", "acceptedAnswer": { "@type": "Answer", "text": "Manufacturers use decimal (1 TB = 10^12 B) but OS uses binary (1 TiB = 2^40 B). 1 TB ≈ 931 GiB." } }
-      ]
-    }
-  },
-  {
-    "id": "tool-024",
-    "name": "Fuel Efficiency Converter",
-    "slug": "fuel-converter",
-    "categorySlug": "unit-converters",
-    "categoryName": "Unit Converters",
-    "shortDescription": "Convert between MPG, km/L, L/100km, and other fuel efficiency units.",
-    "seoTitle": "Free Fuel Efficiency Converter - MPG, km/L, L/100km & More",
-    "metaDescription": "Convert fuel efficiency units online for free. Instantly convert between miles per gallon (US and UK), kilometers per liter, liters per 100km, and more.",
-    "h1": "Fuel Efficiency Converter — MPG, km/L, L/100km & More",
-    "canonicalUrl": "https://utilitymega.com/unit-converters/fuel-converter",
-    "keywords": ["fuel efficiency converter","mpg to km/l","km/l to mpg","liters per 100km converter","l/100km to mpg","miles per gallon converter","fuel economy converter","gas mileage converter"],
-    "content": "Fuel efficiency conversion is needed when comparing vehicles from different countries, evaluating fuel costs, or understanding international car specifications. Our free fuel converter supports all major fuel economy units used worldwide.\n\nSupported Fuel Efficiency Units\n\nMPG (US): Miles per US gallon — the standard in the United States. MPG (UK): Miles per imperial gallon — used in the UK. Since a UK gallon is larger, UK MPG values are about 20% higher for the same efficiency. km/L: Kilometers per liter — common in many countries including India, Japan, and Latin America. L/100km: Liters per 100 kilometers — the EU standard, used in Europe, Australia, and Canada. Miles/Liter and km/gal (US) round out the available units.\n\nImportant Note: Inverse Relationship\n\nFuel consumption (L/100km) is inversely proportional to fuel economy (km/L and MPG). A lower L/100km means better efficiency. A higher MPG or km/L means better efficiency. Formula: L/100km = 235.215 / MPG(US).\n\nReal-World Reference Points\n\nCity driving sedan: ~25–30 MPG US / 10.6–12.7 km/L / 7.8–9.4 L/100km. Highway SUV: ~20–25 MPG US / 8.5–10.6 km/L. Hybrid vehicles: ~50+ MPG US / 21+ km/L / under 4.7 L/100km. Large trucks: ~12–18 MPG US / 5.1–7.7 km/L.",
-    "faq": [
-      { "question": "How do I convert MPG to L/100km?", "answer": "Use the formula: L/100km = 235.215 ÷ MPG (US). Example: 30 MPG = 235.215 ÷ 30 = 7.84 L/100km. For UK MPG: L/100km = 282.481 ÷ MPG (UK)." },
-      { "question": "What is the difference between US MPG and UK MPG?", "answer": "US MPG uses the US gallon (3.785 liters), while UK MPG uses the imperial gallon (4.546 liters). A car rated at 40 MPG (UK) = only about 33.3 MPG (US). Always check which gallon is used when comparing fuel economy figures." },
-      { "question": "Is lower L/100km better or worse?", "answer": "Lower L/100km is better — it means the car uses fewer liters of fuel to travel 100 km. A car using 5 L/100km is more efficient than one using 10 L/100km. This is the opposite logic from MPG, where higher is better." },
-      { "question": "How do I convert km/L to MPG?", "answer": "Multiply km/L by 2.35215 to get US MPG. Example: 15 km/L × 2.35215 = 35.3 MPG (US). For UK MPG, multiply km/L by 2.82481." },
-      { "question": "What fuel efficiency should I aim for?", "answer": "For a typical sedan, 35+ MPG (US) / 15+ km/L / under 6.7 L/100km is considered good. Hybrids typically achieve 50+ MPG US. Electric vehicles are rated in MPGe (miles per gallon equivalent)." }
-    ],
-    "relatedTools": ["speed-converter","volume-converter","length-converter"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      { "name": "Home", "url": "https://utilitymega.com" },
-      { "name": "Unit Converters", "url": "https://utilitymega.com/unit-converters" },
-      { "name": "Fuel Efficiency Converter", "url": "https://utilitymega.com/unit-converters/fuel-converter" }
-    ],
-    "openGraph": {
-      "og:title": "Free Fuel Efficiency Converter - MPG, km/L, L/100km & More",
-      "og:description": "Convert MPG (US/UK), km/L, L/100km and more. Free fuel economy unit converter.",
-      "og:type": "website",
-      "og:url": "https://utilitymega.com/unit-converters/fuel-converter",
-      "og:site_name": "UtilityMega"
-    },
-    "twitterCard": {
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Free Fuel Efficiency Converter | UtilityMega",
-      "twitter:description": "Convert MPG, km/L, L/100km, miles/liter and more. Free and instant."
-    },
-    "jsonLd": {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
+    {
+      "id": "tool-024",
       "name": "Fuel Efficiency Converter",
-      "description": "Convert between MPG (US and UK), km/L, L/100km and other fuel economy units.",
-      "url": "https://utilitymega.com/unit-converters/fuel-converter",
-      "applicationCategory": "UtilityApplication",
-      "operatingSystem": "All",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://utilitymega.com" },
-          { "@type": "ListItem", "position": 2, "name": "Unit Converters", "item": "https://utilitymega.com/unit-converters" },
-          { "@type": "ListItem", "position": 3, "name": "Fuel Efficiency Converter", "item": "https://utilitymega.com/unit-converters/fuel-converter" }
+      "slug": "fuel-converter",
+      "categorySlug": "unit-converters",
+      "categoryName": "Unit Converters",
+      "shortDescription": "Convert between MPG, km/L, L/100km, and other fuel efficiency units.",
+      "seoTitle": "Free Fuel Efficiency Converter - MPG, km/L, L/100km & More",
+      "metaDescription": "Convert fuel efficiency units online for free. Instantly convert between miles per gallon (US and UK), kilometers per liter, liters per 100km, and more.",
+      "h1": "Fuel Efficiency Converter — MPG, km/L, L/100km & More",
+      "canonicalUrl": "https://utilitymega.com/unit-converters/fuel-converter",
+      "keywords": [
+        "fuel efficiency converter",
+        "mpg to km/l",
+        "km/l to mpg",
+        "liters per 100km converter",
+        "l/100km to mpg",
+        "miles per gallon converter",
+        "fuel economy converter",
+        "gas mileage converter"
+      ],
+      "content": "Fuel efficiency conversion is needed when comparing vehicles from different countries, evaluating fuel costs, or understanding international car specifications. Our free fuel converter supports all major fuel economy units used worldwide.\n\nSupported Fuel Efficiency Units\n\nMPG (US): Miles per US gallon — the standard in the United States. MPG (UK): Miles per imperial gallon — used in the UK. Since a UK gallon is larger, UK MPG values are about 20% higher for the same efficiency. km/L: Kilometers per liter — common in many countries including India, Japan, and Latin America. L/100km: Liters per 100 kilometers — the EU standard, used in Europe, Australia, and Canada. Miles/Liter and km/gal (US) round out the available units.\n\nImportant Note: Inverse Relationship\n\nFuel consumption (L/100km) is inversely proportional to fuel economy (km/L and MPG). A lower L/100km means better efficiency. A higher MPG or km/L means better efficiency. Formula: L/100km = 235.215 / MPG(US).\n\nReal-World Reference Points\n\nCity driving sedan: ~25–30 MPG US / 10.6–12.7 km/L / 7.8–9.4 L/100km. Highway SUV: ~20–25 MPG US / 8.5–10.6 km/L. Hybrid vehicles: ~50+ MPG US / 21+ km/L / under 4.7 L/100km. Large trucks: ~12–18 MPG US / 5.1–7.7 km/L.",
+      "faq": [
+        {
+          "question": "How do I convert MPG to L/100km?",
+          "answer": "Use the formula: L/100km = 235.215 ÷ MPG (US). Example: 30 MPG = 235.215 ÷ 30 = 7.84 L/100km. For UK MPG: L/100km = 282.481 ÷ MPG (UK)."
+        },
+        {
+          "question": "What is the difference between US MPG and UK MPG?",
+          "answer": "US MPG uses the US gallon (3.785 liters), while UK MPG uses the imperial gallon (4.546 liters). A car rated at 40 MPG (UK) = only about 33.3 MPG (US). Always check which gallon is used when comparing fuel economy figures."
+        },
+        {
+          "question": "Is lower L/100km better or worse?",
+          "answer": "Lower L/100km is better — it means the car uses fewer liters of fuel to travel 100 km. A car using 5 L/100km is more efficient than one using 10 L/100km. This is the opposite logic from MPG, where higher is better."
+        },
+        {
+          "question": "How do I convert km/L to MPG?",
+          "answer": "Multiply km/L by 2.35215 to get US MPG. Example: 15 km/L × 2.35215 = 35.3 MPG (US). For UK MPG, multiply km/L by 2.82481."
+        },
+        {
+          "question": "What fuel efficiency should I aim for?",
+          "answer": "For a typical sedan, 35+ MPG (US) / 15+ km/L / under 6.7 L/100km is considered good. Hybrids typically achieve 50+ MPG US. Electric vehicles are rated in MPGe (miles per gallon equivalent)."
+        }
+      ],
+      "relatedTools": [
+        "speed-converter",
+        "volume-converter",
+        "length-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Unit Converters",
+          "url": "https://utilitymega.com/unit-converters"
+        },
+        {
+          "name": "Fuel Efficiency Converter",
+          "url": "https://utilitymega.com/unit-converters/fuel-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Fuel Efficiency Converter - MPG, km/L, L/100km & More",
+        "og:description": "Convert MPG (US/UK), km/L, L/100km and more. Free fuel economy unit converter.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/unit-converters/fuel-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Fuel Efficiency Converter | UtilityMega",
+        "twitter:description": "Convert MPG, km/L, L/100km, miles/liter and more. Free and instant."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Fuel Efficiency Converter",
+        "description": "Convert between MPG (US and UK), km/L, L/100km and other fuel economy units.",
+        "url": "https://utilitymega.com/unit-converters/fuel-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Unit Converters",
+              "item": "https://utilitymega.com/unit-converters"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Fuel Efficiency Converter",
+              "item": "https://utilitymega.com/unit-converters/fuel-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert MPG to L/100km?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "L/100km = 235.215 ÷ MPG (US). Example: 30 MPG = 7.84 L/100km."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between US MPG and UK MPG?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "US MPG uses a 3.785L gallon, UK MPG uses a 4.546L gallon. 40 MPG UK ≈ 33.3 MPG US."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is lower L/100km better or worse?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lower L/100km is better — fewer liters per 100 km = more efficient. Opposite logic to MPG."
+            }
+          }
         ]
       }
     },
-    "faqSchema": {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        { "@type": "Question", "name": "How do I convert MPG to L/100km?", "acceptedAnswer": { "@type": "Answer", "text": "L/100km = 235.215 ÷ MPG (US). Example: 30 MPG = 7.84 L/100km." } },
-        { "@type": "Question", "name": "What is the difference between US MPG and UK MPG?", "acceptedAnswer": { "@type": "Answer", "text": "US MPG uses a 3.785L gallon, UK MPG uses a 4.546L gallon. 40 MPG UK ≈ 33.3 MPG US." } },
-        { "@type": "Question", "name": "Is lower L/100km better or worse?", "acceptedAnswer": { "@type": "Answer", "text": "Lower L/100km is better — fewer liters per 100 km = more efficient. Opposite logic to MPG." } }
-      ]
-    }
-  },
     {
       "id": "utility-001",
       "name": "QR Code Generator",
@@ -4824,277 +5885,566 @@
         }
       ]
     },
- 
     {
-    "id": "tool-farmers-001",
-    "name": "Crop Yield Calculator",
-    "slug": "crop-yield-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Estimate crop yield, gross income, net profit and ROI for 10 major Indian crops in acres, bigha or hectares.",
-    "seoTitle": "Free Crop Yield Calculator India — Income & Profit Estimator | UtilityMega",
-    "metaDescription": "Calculate expected crop yield, gross income, total input cost and net profit for Rice, Wheat, Cotton, Soybean and more. Supports acres, bigha, hectares. MSP 2024–25 included.",
-    "h1": "Crop Yield & Income Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
-    "keywords": ["crop yield calculator India", "farm income calculator", "crop profit calculator", "rice yield per acre", "wheat yield calculator", "farm profit estimator India"],
-    "content": "Calculate expected yield (kg and quintals), gross income, total input cost and net profit for 10 major Indian crops — Rice, Wheat, Maize, Cotton, Sugarcane, Soybean, Mustard, Groundnut, Onion and Tomato. Supports land input in acres, hectares, bigha and guntha. Adjusts yield for soil type (rich/loamy/sandy/clay) and irrigation method. Shows breakeven yield, breakeven price, ROI and profit margin. Loaded with MSP 2024–25 rates.",
-    "faq": [
-      {"question": "Which land units are supported?", "answer": "Acres, hectares, bigha (0.619 acres) and guntha (0.025 acres) are all supported with automatic conversion."},
-      {"question": "How is yield adjusted for soil type?", "answer": "Rich black / alluvial soil gets +10%, loamy soil is the standard baseline, sandy / light soil gets −15% and heavy clay gets −5%."},
-      {"question": "What is breakeven yield?", "answer": "The minimum yield (kg/acre) at which total income equals total input cost — below this you incur a loss."}
-    ],
-    "relatedTools": ["fertilizer-calculator", "msp-calculator", "farm-income-calculator"],
-    "isPopular": true,
-    "isFeatured": true,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Crop Yield Calculator", "url": "/farmers-tools/crop-yield-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-002",
-    "name": "Fertilizer (NPK) Calculator",
-    "slug": "fertilizer-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Calculate exact Urea, DAP and MOP quantities from soil test NPK values and ICAR crop requirements.",
-    "seoTitle": "Free Fertilizer NPK Calculator India — Urea DAP MOP Dose | UtilityMega",
-    "metaDescription": "Calculate fertilizer (Urea, DAP, MOP) quantities from soil test N-P-K values for any crop. Based on ICAR recommendations. Adjusts for organic matter (FYM, compost, vermicompost).",
-    "h1": "Fertilizer NPK Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
-    "keywords": ["fertilizer calculator India", "NPK calculator", "Urea DAP MOP calculator", "fertilizer dose per acre", "soil test fertilizer recommendation", "ICAR fertilizer recommendation"],
-    "content": "Enter your soil test N-P-K values and the tool calculates net fertilizer requirement after crediting available soil nutrients. Accounts for organic matter credits from FYM (25 kg N/ha), compost or vermicompost. Outputs Urea, DAP and MOP quantities per acre and total, with approximate cost. Includes a 3-split application schedule (basal + two top-dressings) and a full fertilizer NPK reference table.",
-    "faq": [
-      {"question": "What soil test values are needed?", "answer": "Nitrogen (N), Phosphorus (P) and Potassium (K) in kg/hectare. These are obtained from a certified soil testing laboratory (often available free at Krishi Vigyan Kendras)."},
-      {"question": "Why subtract soil N from fertilizer dose?", "answer": "Not all soil nitrogen is available to crops — typically 1–2% of organic N mineralises per season. The calculator credits this so you don't over-apply."},
-      {"question": "What is the split application schedule?", "answer": "Basal dose at sowing (DAP + 1/3 Urea + full MOP), first top-dressing at 30 DAS (days after sowing), and second top-dressing at 60 DAS."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "soil-ph-calculator", "irrigation-calculator"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Fertilizer Calculator", "url": "/farmers-tools/fertilizer-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-003",
-    "name": "Irrigation Water Calculator",
-    "slug": "irrigation-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Calculate irrigation water requirements, pump run time and a 7-day irrigation schedule by crop, soil and method.",
-    "seoTitle": "Free Irrigation Water Calculator India — Pump Hours & Schedule | UtilityMega",
-    "metaDescription": "Calculate water per irrigation, pump run time and weekly irrigation schedule for any crop. Supports flood, furrow, sprinkler and drip methods. Adjusts for temperature zone and rainfall.",
-    "h1": "Irrigation Water Requirement Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/irrigation-calculator",
-    "keywords": ["irrigation calculator India", "water requirement for crops", "pump run time calculator", "drip irrigation calculator", "crop water need India", "irrigation schedule calculator"],
-    "content": "Calculates crop evapotranspiration (ETo × Kc) adjusted for growth stage, temperature zone and effective rainfall. Accounts for irrigation method efficiency (flood 60%, furrow 70%, sprinkler 80%, drip 95%). Outputs litres per irrigation event, pump run time (hours), irrigations per week, total weekly water, and a 7-day schedule. Includes water-saving tips specific to each crop.",
-    "faq": [
-      {"question": "What is ETo and Kc?", "answer": "ETo is reference evapotranspiration (water lost from a reference grass crop). Kc is the crop coefficient that adjusts ETo for a specific crop and growth stage. ETo × Kc = actual crop water use (ETc)."},
-      {"question": "Why does drip irrigation need less water?", "answer": "Drip delivers water directly to the root zone with 95% efficiency vs 60% for flood irrigation. Less water is lost to runoff, evaporation and deep percolation."},
-      {"question": "How do I use the pump run time result?", "answer": "If your pump discharges 1,000 L/min and the result shows 6,000 L per irrigation, you need to run the pump for 6 minutes per irrigation event."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "fertilizer-calculator", "soil-ph-calculator"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Irrigation Calculator", "url": "/farmers-tools/irrigation-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-004",
-    "name": "Soil pH Calculator",
-    "slug": "soil-ph-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Check soil pH, see nutrient availability, and calculate lime or sulphur dose to correct soil acidity or alkalinity.",
-    "seoTitle": "Free Soil pH Calculator — Lime & Sulphur Dose for India | UtilityMega",
-    "metaDescription": "Enter your soil pH and target, get lime (to raise pH) or sulphur (to lower pH) quantity in kg per acre and total cost. Shows nutrient availability chart and crop pH preferences.",
-    "h1": "Soil pH Calculator & Corrector",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/soil-ph-calculator",
-    "keywords": ["soil pH calculator India", "lime requirement calculator", "soil acidity correction", "how to increase soil pH", "sulphur for alkaline soil", "agricultural lime dose per acre"],
-    "content": "Interactive pH slider (3–10) with colour-coded indicator and category (Extremely Acidic to Strongly Alkaline). Shows nutrient availability (N, P, K, Fe, Zn, Ca) at the current pH. Calculates lime (CaCO₃) dose to raise acidic soil or elemental sulphur dose to lower alkaline soil — per hectare, per acre and total — with approximate cost and application steps. Adjusts buffer factor for sandy, loamy or clay soils.",
-    "faq": [
-      {"question": "What is the ideal soil pH for most crops?", "answer": "6.0–7.0 is ideal for most Indian field crops. This range maximises availability of all essential nutrients, especially N, P and K."},
-      {"question": "How long does lime take to work?", "answer": "Agricultural lime reacts slowly — allow 2–4 weeks after incorporation before sowing. Re-test soil pH after one crop season (3–4 months)."},
-      {"question": "Why is pH important for nutrients?", "answer": "Soil pH controls solubility of nutrients. Phosphorus becomes unavailable below pH 5.5. Iron and zinc become excessive below pH 5.0. Most nutrients are maximally available at pH 6–7."}
-    ],
-    "relatedTools": ["fertilizer-calculator", "irrigation-calculator", "crop-yield-calculator"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Soil pH Calculator", "url": "/farmers-tools/soil-ph-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-005",
-    "name": "Seed Rate Calculator",
-    "slug": "seed-rate-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Calculate seed quantity, seed cost and optimum plant population for 8 major crops based on sowing method and germination %.",
-    "seoTitle": "Free Seed Rate Calculator India — Seed Quantity per Acre | UtilityMega",
-    "metaDescription": "Calculate how much seed is needed per acre for Rice, Wheat, Maize, Cotton, Soybean and more. Adjusts for sowing method (line, broadcast, transplant) and germination percentage.",
-    "h1": "Seed Rate Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/seed-rate-calculator",
-    "keywords": ["seed rate calculator India", "seed quantity per acre", "how much seed per acre", "wheat seed rate per acre", "rice seed rate", "seed cost calculator"],
-    "content": "Calculates adjusted seed rate for 8 crops based on sowing method (broadcast adds 20%, transplanting uses 5%), actual germination percentage, area and seed price. Shows total seed required in kg, seed cost, and estimated plant population from row × plant spacing. Includes crop-specific tips on seed treatment and germination management. Quick-reference table shows recommended seed rates, 1000-seed weight and spacing for all crops.",
-    "faq": [
-      {"question": "Why does germination % affect seed rate?", "answer": "If germination is 80%, you need to sow 25% more seed to achieve the same plant population as with 100% germination."},
-      {"question": "What is the seed rate for hybrid vs open-pollinated varieties?", "answer": "Hybrid seeds are typically more expensive and require lower quantities. Single-cross maize hybrids need only 8 kg/acre vs 12 kg for composites."},
-      {"question": "When should I use transplanting?", "answer": "Transplanting (nursery raising) is used for Rice, Onion and Tomato — it needs only 5% of the direct-sown seed rate but requires nursery infrastructure."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "fertilizer-calculator", "pesticide-calculator"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Seed Rate Calculator", "url": "/farmers-tools/seed-rate-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-006",
-    "name": "Pesticide Dose Calculator",
-    "slug": "pesticide-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Calculate pesticide quantity, total water and per-tank mixing guide for accurate and safe pesticide application.",
-    "seoTitle": "Free Pesticide Dose Calculator India — Spray Mix Guide | UtilityMega",
-    "metaDescription": "Calculate exact pesticide quantity for any field area, spray volume and 9 common pesticides. Per-tank mixing guide. Drone, knapsack and power sprayer volumes. Safety guidelines included.",
-    "h1": "Pesticide Dose Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/pesticide-calculator",
-    "keywords": ["pesticide dose calculator India", "pesticide spray calculator", "how much pesticide per acre", "insecticide mixing calculator", "spray volume calculator", "fungicide dose calculator"],
-    "content": "Select from 9 common pesticides (Chlorpyrifos, Lambda-cyhalothrin, Imidacloprid, Mancozeb, Carbendazim, Glyphosate, 2,4-D Amine, Atrazine, Propiconazole). Enter field area, spray volume per acre (50L drone to 400L power sprayer) and formulation type. Outputs total pesticide, total water, number of tanks needed and exact per-tank mixing guide. Includes critical PPE and safe-handling reminders, Poison Control number (1800-11-6117).",
-    "faq": [
-      {"question": "What is the recommended spray volume per acre?", "answer": "200 L/acre for knapsack sprayers, 400 L/acre for power sprayers, 100 L for high-volume nozzles, and 50 L for drone sprayers."},
-      {"question": "How do I convert ml/ha to ml/acre?", "answer": "Multiply ml/ha × 0.4047 to get ml/acre. For example, 1500 ml/ha = 607 ml/acre."},
-      {"question": "What PPE is required for pesticide spraying?", "answer": "Minimum: nitrile gloves, safety goggles, a nose-and-mouth respirator mask, full-sleeve clothing and closed-toe shoes. Wash with soap and water immediately after spraying."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "seed-rate-calculator", "farm-income-calculator"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Pesticide Calculator", "url": "/farmers-tools/pesticide-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-007",
-    "name": "Farm Income & Profit Calculator",
-    "slug": "farm-income-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Track all farm income sources and expenses to calculate net profit, margin and income per acre for a full season P&L.",
-    "seoTitle": "Free Farm Income Calculator India — Season Profit & Loss | UtilityMega",
-    "metaDescription": "Add all income sources (crop sale, straw, subsidy) and expenses (seed, fertilizer, labour, irrigation) to get a complete farm P&L with net profit, margin and profit per acre.",
-    "h1": "Farm Income & Profit Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/farm-income-calculator",
-    "keywords": ["farm income calculator India", "farm profit calculator", "farm P&L statement", "agricultural income calculator", "net farm income", "farming profit per acre India"],
-    "content": "A dynamic income and expense tracker for a complete farm P&L statement. Add unlimited income rows (crop sale, by-product sale, government subsidy, agri-tourism) and expense rows (seeds, fertilizer, pesticide, labour, irrigation, harvesting, transport). Outputs total income, total expenses, net profit or loss, profit margin %, income per acre and profit/loss per acre. Pre-loaded with a realistic rice crop example.",
-    "faq": [
-      {"question": "What expenses should I include?", "answer": "Seeds, fertilizer, pesticide, irrigation (electricity/diesel), hired labour, harvesting (manual or machine), transport to mandi, and land rent if applicable."},
-      {"question": "What income sources should I include?", "answer": "Main crop sale, by-product sale (straw, husk, cobs), any government subsidy received, and income from intercropping or companion crops."},
-      {"question": "What is profit margin in farming?", "answer": "Profit margin = (Net Profit / Total Income) × 100. A healthy farm business typically targets 30–50% margin on input costs."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "msp-calculator", "fertilizer-calculator"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Farm Income Calculator", "url": "/farmers-tools/farm-income-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-008",
-    "name": "Livestock Feed Calculator",
-    "slug": "livestock-feed-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Calculate daily feed ration and monthly feed cost for cows, buffaloes, goats, poultry and other livestock.",
-    "seoTitle": "Free Livestock Feed Calculator India — Cow Buffalo Goat Feed Cost | UtilityMega",
-    "metaDescription": "Calculate daily green fodder, dry fodder, concentrate and mineral mixture requirements for cows, buffaloes, goats, sheep, pigs, poultry and bullocks. Monthly feed cost included.",
-    "h1": "Livestock Feed Calculator",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/livestock-feed-calculator",
-    "keywords": ["livestock feed calculator India", "cow feed calculator", "buffalo feed requirement", "goat feed calculator", "dairy cattle ration", "monthly feed cost calculator"],
-    "content": "Calculates daily feed ration (green fodder, dry fodder/straw, concentrate feed, mineral mixture) for 7 animal types: HF/Jersey cow, buffalo, goat, sheep, pig, poultry, and bullock. Adjusts ration based on body weight, production purpose (maintenance, milk production 5L or 10L/day, meat, work animal, pregnant) and season (summer +10%, winter +5%). Shows monthly feed cost per animal and total for the herd.",
-    "faq": [
-      {"question": "How much feed does a dairy cow need per day?", "answer": "A 450 kg HF/Jersey cow producing 5L milk/day needs approximately 25 kg green fodder, 7.5 kg dry straw and 5 kg concentrate feed daily."},
-      {"question": "What is a mineral mixture and why is it needed?", "answer": "Mineral mixture provides calcium, phosphorus, sodium, trace minerals and vitamins that are deficient in fodder. It prevents milk fever, reproductive failure and improves production."},
-      {"question": "How does season affect feed requirement?", "answer": "Animals need 10% more feed in summer to maintain body temperature and production. In winter, 5% extra energy is needed for thermoregulation."}
-    ],
-    "relatedTools": ["farm-income-calculator", "crop-yield-calculator", "msp-calculator"],
-    "isPopular": false,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Livestock Feed Calculator", "url": "/farmers-tools/livestock-feed-calculator"}
-    ]
-  },
-  {
-    "id": "tool-farmers-009",
-    "name": "Weather-Based Crop Advisor",
-    "slug": "weather-crop-advisor",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Get crop recommendations, sowing calendar and seasonal alerts for your state and month in India.",
-    "seoTitle": "Free Weather Crop Advisor India — Crop Recommendations by State | UtilityMega",
-    "metaDescription": "Get crop recommendations for your state and current month with sowing window, duration, yield and water needs. Annual sowing calendar (Kharif/Rabi/Zaid) and seasonal weather alerts.",
-    "h1": "Weather-Based Crop Advisor",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/weather-crop-advisor",
-    "keywords": ["crop advisor India", "which crop to sow this month", "kharif crop recommendations", "rabi crop selection", "crop calendar India", "best crop for my region India"],
-    "content": "Covers 10 major Indian states with district/zone selection. Shows typical weather (temperature, rainfall, humidity, sunshine, wind) for the selected state and month. Recommends suitable crops with sowing window, duration, expected yield, water requirement and specific alerts. Displays a 12-month annual sowing calendar colour-coded by Kharif (green), Rabi (blue), Zaid (amber) and Harvest (purple). Seasonal alerts cover heat waves, heavy rainfall, fog and normal conditions.",
-    "faq": [
-      {"question": "What are Kharif and Rabi crops?", "answer": "Kharif crops are sown in June–July with the monsoon (Rice, Cotton, Soybean, Maize). Rabi crops are sown in October–November in winter (Wheat, Mustard, Gram). Zaid crops are grown in the short summer season (March–May)."},
-      {"question": "How do I choose the best crop for my district?", "answer": "Select your state and district, then check the recommendations for the current month. Crops marked ⭐ Best are highest priority based on typical weather patterns for your region."},
-      {"question": "Are the weather values actual forecasts?", "answer": "The values are typical climatological averages for the region and month — not real-time forecasts. For actual weather forecasts, use IMD (India Meteorological Department) or Meghdoot app."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "msp-calculator", "irrigation-calculator"],
-    "isPopular": true,
-    "isFeatured": false,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "Weather Crop Advisor", "url": "/farmers-tools/weather-crop-advisor"}
-    ]
-  },
-  {
-    "id": "tool-farmers-010",
-    "name": "MSP Calculator",
-    "slug": "msp-calculator",
-    "categorySlug": "farmers-tools",
-    "categoryName": "Farmers Tools",
-    "shortDescription": "Calculate expected income at government MSP 2024–25 rates vs market price for all 24 Kharif and Rabi crops.",
-    "seoTitle": "Free MSP Calculator 2024–25 — Minimum Support Price India | UtilityMega",
-    "metaDescription": "Calculate farm income at MSP 2024–25 for all 24 Kharif and Rabi crops. Compare MSP vs market price income. Net profit after input cost. CACP-approved rates for Rice, Wheat, Cotton and more.",
-    "h1": "MSP Calculator 2024–25",
-    "canonicalUrl": "https://utilitymega.com/farmers-tools/msp-calculator",
-    "keywords": ["MSP calculator India 2024", "minimum support price 2024", "MSP 2024-25 rates", "MSP rice wheat cotton", "farm income at MSP", "CACP MSP rates India"],
-    "content": "Complete MSP 2024–25 rate table for all 24 notified crops: 14 Kharif (Rice, Cotton, Tur, Moong, Urad, Groundnut, Soybean, Sunflower, Sesame, Jowar, Bajra, Maize), 6 Rabi (Wheat, Barley, Gram, Masur, Mustard, Safflower) and 4 others (Sugarcane FRP, Copra, Jute). Input yield and area to calculate total income at MSP vs actual market price. Compare with visual bar chart and shows gain or loss vs MSP. Net profit after input cost.",
-    "faq": [
-      {"question": "What is MSP (Minimum Support Price)?", "answer": "MSP is the government-guaranteed minimum price at which the government (through FCI, NAFED etc.) procures crops from farmers. It protects farmers from distress selling when market prices fall."},
-      {"question": "Are MSP rates guaranteed to every farmer?", "answer": "MSP is a price guarantee but actual procurement depends on state government agencies and FCI centres. Farmers in states with active procurement (Punjab, Haryana, MP) are more likely to sell at MSP."},
-      {"question": "How often are MSP rates revised?", "answer": "MSP is revised annually before every Kharif and Rabi sowing season based on CACP (Commission for Agricultural Costs and Prices) recommendations, targeting a 50% return above A2+FL cost."}
-    ],
-    "relatedTools": ["crop-yield-calculator", "farm-income-calculator", "weather-crop-advisor"],
-    "isPopular": true,
-    "isFeatured": true,
-    "breadcrumbs": [
-      {"label": "Home", "url": "/"},
-      {"label": "Farmers Tools", "url": "/farmers-tools"},
-      {"label": "MSP Calculator", "url": "/farmers-tools/msp-calculator"}
-    ]
-  },
+      "id": "tool-farmers-001",
+      "name": "Crop Yield Calculator",
+      "slug": "crop-yield-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Estimate crop yield, gross income, net profit and ROI for 10 major Indian crops in acres, bigha or hectares.",
+      "seoTitle": "Free Crop Yield Calculator India — Income & Profit Estimator | UtilityMega",
+      "metaDescription": "Calculate expected crop yield, gross income, total input cost and net profit for Rice, Wheat, Cotton, Soybean and more. Supports acres, bigha, hectares. MSP 2024–25 included.",
+      "h1": "Crop Yield & Income Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/crop-yield-calculator",
+      "keywords": [
+        "crop yield calculator India",
+        "farm income calculator",
+        "crop profit calculator",
+        "rice yield per acre",
+        "wheat yield calculator",
+        "farm profit estimator India"
+      ],
+      "content": "Calculate expected yield (kg and quintals), gross income, total input cost and net profit for 10 major Indian crops — Rice, Wheat, Maize, Cotton, Sugarcane, Soybean, Mustard, Groundnut, Onion and Tomato. Supports land input in acres, hectares, bigha and guntha. Adjusts yield for soil type (rich/loamy/sandy/clay) and irrigation method. Shows breakeven yield, breakeven price, ROI and profit margin. Loaded with MSP 2024–25 rates.",
+      "faq": [
+        {
+          "question": "Which land units are supported?",
+          "answer": "Acres, hectares, bigha (0.619 acres) and guntha (0.025 acres) are all supported with automatic conversion."
+        },
+        {
+          "question": "How is yield adjusted for soil type?",
+          "answer": "Rich black / alluvial soil gets +10%, loamy soil is the standard baseline, sandy / light soil gets −15% and heavy clay gets −5%."
+        },
+        {
+          "question": "What is breakeven yield?",
+          "answer": "The minimum yield (kg/acre) at which total income equals total input cost — below this you incur a loss."
+        }
+      ],
+      "relatedTools": [
+        "fertilizer-calculator",
+        "msp-calculator",
+        "farm-income-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Crop Yield Calculator",
+          "url": "/farmers-tools/crop-yield-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-002",
+      "name": "Fertilizer (NPK) Calculator",
+      "slug": "fertilizer-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate exact Urea, DAP and MOP quantities from soil test NPK values and ICAR crop requirements.",
+      "seoTitle": "Free Fertilizer NPK Calculator India — Urea DAP MOP Dose | UtilityMega",
+      "metaDescription": "Calculate fertilizer (Urea, DAP, MOP) quantities from soil test N-P-K values for any crop. Based on ICAR recommendations. Adjusts for organic matter (FYM, compost, vermicompost).",
+      "h1": "Fertilizer NPK Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/fertilizer-calculator",
+      "keywords": [
+        "fertilizer calculator India",
+        "NPK calculator",
+        "Urea DAP MOP calculator",
+        "fertilizer dose per acre",
+        "soil test fertilizer recommendation",
+        "ICAR fertilizer recommendation"
+      ],
+      "content": "Enter your soil test N-P-K values and the tool calculates net fertilizer requirement after crediting available soil nutrients. Accounts for organic matter credits from FYM (25 kg N/ha), compost or vermicompost. Outputs Urea, DAP and MOP quantities per acre and total, with approximate cost. Includes a 3-split application schedule (basal + two top-dressings) and a full fertilizer NPK reference table.",
+      "faq": [
+        {
+          "question": "What soil test values are needed?",
+          "answer": "Nitrogen (N), Phosphorus (P) and Potassium (K) in kg/hectare. These are obtained from a certified soil testing laboratory (often available free at Krishi Vigyan Kendras)."
+        },
+        {
+          "question": "Why subtract soil N from fertilizer dose?",
+          "answer": "Not all soil nitrogen is available to crops — typically 1–2% of organic N mineralises per season. The calculator credits this so you don't over-apply."
+        },
+        {
+          "question": "What is the split application schedule?",
+          "answer": "Basal dose at sowing (DAP + 1/3 Urea + full MOP), first top-dressing at 30 DAS (days after sowing), and second top-dressing at 60 DAS."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "soil-ph-calculator",
+        "irrigation-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Fertilizer Calculator",
+          "url": "/farmers-tools/fertilizer-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-003",
+      "name": "Irrigation Water Calculator",
+      "slug": "irrigation-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate irrigation water requirements, pump run time and a 7-day irrigation schedule by crop, soil and method.",
+      "seoTitle": "Free Irrigation Water Calculator India — Pump Hours & Schedule | UtilityMega",
+      "metaDescription": "Calculate water per irrigation, pump run time and weekly irrigation schedule for any crop. Supports flood, furrow, sprinkler and drip methods. Adjusts for temperature zone and rainfall.",
+      "h1": "Irrigation Water Requirement Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/irrigation-calculator",
+      "keywords": [
+        "irrigation calculator India",
+        "water requirement for crops",
+        "pump run time calculator",
+        "drip irrigation calculator",
+        "crop water need India",
+        "irrigation schedule calculator"
+      ],
+      "content": "Calculates crop evapotranspiration (ETo × Kc) adjusted for growth stage, temperature zone and effective rainfall. Accounts for irrigation method efficiency (flood 60%, furrow 70%, sprinkler 80%, drip 95%). Outputs litres per irrigation event, pump run time (hours), irrigations per week, total weekly water, and a 7-day schedule. Includes water-saving tips specific to each crop.",
+      "faq": [
+        {
+          "question": "What is ETo and Kc?",
+          "answer": "ETo is reference evapotranspiration (water lost from a reference grass crop). Kc is the crop coefficient that adjusts ETo for a specific crop and growth stage. ETo × Kc = actual crop water use (ETc)."
+        },
+        {
+          "question": "Why does drip irrigation need less water?",
+          "answer": "Drip delivers water directly to the root zone with 95% efficiency vs 60% for flood irrigation. Less water is lost to runoff, evaporation and deep percolation."
+        },
+        {
+          "question": "How do I use the pump run time result?",
+          "answer": "If your pump discharges 1,000 L/min and the result shows 6,000 L per irrigation, you need to run the pump for 6 minutes per irrigation event."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "fertilizer-calculator",
+        "soil-ph-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Irrigation Calculator",
+          "url": "/farmers-tools/irrigation-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-004",
+      "name": "Soil pH Calculator",
+      "slug": "soil-ph-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Check soil pH, see nutrient availability, and calculate lime or sulphur dose to correct soil acidity or alkalinity.",
+      "seoTitle": "Free Soil pH Calculator — Lime & Sulphur Dose for India | UtilityMega",
+      "metaDescription": "Enter your soil pH and target, get lime (to raise pH) or sulphur (to lower pH) quantity in kg per acre and total cost. Shows nutrient availability chart and crop pH preferences.",
+      "h1": "Soil pH Calculator & Corrector",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/soil-ph-calculator",
+      "keywords": [
+        "soil pH calculator India",
+        "lime requirement calculator",
+        "soil acidity correction",
+        "how to increase soil pH",
+        "sulphur for alkaline soil",
+        "agricultural lime dose per acre"
+      ],
+      "content": "Interactive pH slider (3–10) with colour-coded indicator and category (Extremely Acidic to Strongly Alkaline). Shows nutrient availability (N, P, K, Fe, Zn, Ca) at the current pH. Calculates lime (CaCO₃) dose to raise acidic soil or elemental sulphur dose to lower alkaline soil — per hectare, per acre and total — with approximate cost and application steps. Adjusts buffer factor for sandy, loamy or clay soils.",
+      "faq": [
+        {
+          "question": "What is the ideal soil pH for most crops?",
+          "answer": "6.0–7.0 is ideal for most Indian field crops. This range maximises availability of all essential nutrients, especially N, P and K."
+        },
+        {
+          "question": "How long does lime take to work?",
+          "answer": "Agricultural lime reacts slowly — allow 2–4 weeks after incorporation before sowing. Re-test soil pH after one crop season (3–4 months)."
+        },
+        {
+          "question": "Why is pH important for nutrients?",
+          "answer": "Soil pH controls solubility of nutrients. Phosphorus becomes unavailable below pH 5.5. Iron and zinc become excessive below pH 5.0. Most nutrients are maximally available at pH 6–7."
+        }
+      ],
+      "relatedTools": [
+        "fertilizer-calculator",
+        "irrigation-calculator",
+        "crop-yield-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Soil pH Calculator",
+          "url": "/farmers-tools/soil-ph-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-005",
+      "name": "Seed Rate Calculator",
+      "slug": "seed-rate-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate seed quantity, seed cost and optimum plant population for 8 major crops based on sowing method and germination %.",
+      "seoTitle": "Free Seed Rate Calculator India — Seed Quantity per Acre | UtilityMega",
+      "metaDescription": "Calculate how much seed is needed per acre for Rice, Wheat, Maize, Cotton, Soybean and more. Adjusts for sowing method (line, broadcast, transplant) and germination percentage.",
+      "h1": "Seed Rate Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/seed-rate-calculator",
+      "keywords": [
+        "seed rate calculator India",
+        "seed quantity per acre",
+        "how much seed per acre",
+        "wheat seed rate per acre",
+        "rice seed rate",
+        "seed cost calculator"
+      ],
+      "content": "Calculates adjusted seed rate for 8 crops based on sowing method (broadcast adds 20%, transplanting uses 5%), actual germination percentage, area and seed price. Shows total seed required in kg, seed cost, and estimated plant population from row × plant spacing. Includes crop-specific tips on seed treatment and germination management. Quick-reference table shows recommended seed rates, 1000-seed weight and spacing for all crops.",
+      "faq": [
+        {
+          "question": "Why does germination % affect seed rate?",
+          "answer": "If germination is 80%, you need to sow 25% more seed to achieve the same plant population as with 100% germination."
+        },
+        {
+          "question": "What is the seed rate for hybrid vs open-pollinated varieties?",
+          "answer": "Hybrid seeds are typically more expensive and require lower quantities. Single-cross maize hybrids need only 8 kg/acre vs 12 kg for composites."
+        },
+        {
+          "question": "When should I use transplanting?",
+          "answer": "Transplanting (nursery raising) is used for Rice, Onion and Tomato — it needs only 5% of the direct-sown seed rate but requires nursery infrastructure."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "fertilizer-calculator",
+        "pesticide-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Seed Rate Calculator",
+          "url": "/farmers-tools/seed-rate-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-006",
+      "name": "Pesticide Dose Calculator",
+      "slug": "pesticide-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate pesticide quantity, total water and per-tank mixing guide for accurate and safe pesticide application.",
+      "seoTitle": "Free Pesticide Dose Calculator India — Spray Mix Guide | UtilityMega",
+      "metaDescription": "Calculate exact pesticide quantity for any field area, spray volume and 9 common pesticides. Per-tank mixing guide. Drone, knapsack and power sprayer volumes. Safety guidelines included.",
+      "h1": "Pesticide Dose Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/pesticide-calculator",
+      "keywords": [
+        "pesticide dose calculator India",
+        "pesticide spray calculator",
+        "how much pesticide per acre",
+        "insecticide mixing calculator",
+        "spray volume calculator",
+        "fungicide dose calculator"
+      ],
+      "content": "Select from 9 common pesticides (Chlorpyrifos, Lambda-cyhalothrin, Imidacloprid, Mancozeb, Carbendazim, Glyphosate, 2,4-D Amine, Atrazine, Propiconazole). Enter field area, spray volume per acre (50L drone to 400L power sprayer) and formulation type. Outputs total pesticide, total water, number of tanks needed and exact per-tank mixing guide. Includes critical PPE and safe-handling reminders, Poison Control number (1800-11-6117).",
+      "faq": [
+        {
+          "question": "What is the recommended spray volume per acre?",
+          "answer": "200 L/acre for knapsack sprayers, 400 L/acre for power sprayers, 100 L for high-volume nozzles, and 50 L for drone sprayers."
+        },
+        {
+          "question": "How do I convert ml/ha to ml/acre?",
+          "answer": "Multiply ml/ha × 0.4047 to get ml/acre. For example, 1500 ml/ha = 607 ml/acre."
+        },
+        {
+          "question": "What PPE is required for pesticide spraying?",
+          "answer": "Minimum: nitrile gloves, safety goggles, a nose-and-mouth respirator mask, full-sleeve clothing and closed-toe shoes. Wash with soap and water immediately after spraying."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "seed-rate-calculator",
+        "farm-income-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Pesticide Calculator",
+          "url": "/farmers-tools/pesticide-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-007",
+      "name": "Farm Income & Profit Calculator",
+      "slug": "farm-income-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Track all farm income sources and expenses to calculate net profit, margin and income per acre for a full season P&L.",
+      "seoTitle": "Free Farm Income Calculator India — Season Profit & Loss | UtilityMega",
+      "metaDescription": "Add all income sources (crop sale, straw, subsidy) and expenses (seed, fertilizer, labour, irrigation) to get a complete farm P&L with net profit, margin and profit per acre.",
+      "h1": "Farm Income & Profit Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/farm-income-calculator",
+      "keywords": [
+        "farm income calculator India",
+        "farm profit calculator",
+        "farm P&L statement",
+        "agricultural income calculator",
+        "net farm income",
+        "farming profit per acre India"
+      ],
+      "content": "A dynamic income and expense tracker for a complete farm P&L statement. Add unlimited income rows (crop sale, by-product sale, government subsidy, agri-tourism) and expense rows (seeds, fertilizer, pesticide, labour, irrigation, harvesting, transport). Outputs total income, total expenses, net profit or loss, profit margin %, income per acre and profit/loss per acre. Pre-loaded with a realistic rice crop example.",
+      "faq": [
+        {
+          "question": "What expenses should I include?",
+          "answer": "Seeds, fertilizer, pesticide, irrigation (electricity/diesel), hired labour, harvesting (manual or machine), transport to mandi, and land rent if applicable."
+        },
+        {
+          "question": "What income sources should I include?",
+          "answer": "Main crop sale, by-product sale (straw, husk, cobs), any government subsidy received, and income from intercropping or companion crops."
+        },
+        {
+          "question": "What is profit margin in farming?",
+          "answer": "Profit margin = (Net Profit / Total Income) × 100. A healthy farm business typically targets 30–50% margin on input costs."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "msp-calculator",
+        "fertilizer-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Farm Income Calculator",
+          "url": "/farmers-tools/farm-income-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-008",
+      "name": "Livestock Feed Calculator",
+      "slug": "livestock-feed-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate daily feed ration and monthly feed cost for cows, buffaloes, goats, poultry and other livestock.",
+      "seoTitle": "Free Livestock Feed Calculator India — Cow Buffalo Goat Feed Cost | UtilityMega",
+      "metaDescription": "Calculate daily green fodder, dry fodder, concentrate and mineral mixture requirements for cows, buffaloes, goats, sheep, pigs, poultry and bullocks. Monthly feed cost included.",
+      "h1": "Livestock Feed Calculator",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/livestock-feed-calculator",
+      "keywords": [
+        "livestock feed calculator India",
+        "cow feed calculator",
+        "buffalo feed requirement",
+        "goat feed calculator",
+        "dairy cattle ration",
+        "monthly feed cost calculator"
+      ],
+      "content": "Calculates daily feed ration (green fodder, dry fodder/straw, concentrate feed, mineral mixture) for 7 animal types: HF/Jersey cow, buffalo, goat, sheep, pig, poultry, and bullock. Adjusts ration based on body weight, production purpose (maintenance, milk production 5L or 10L/day, meat, work animal, pregnant) and season (summer +10%, winter +5%). Shows monthly feed cost per animal and total for the herd.",
+      "faq": [
+        {
+          "question": "How much feed does a dairy cow need per day?",
+          "answer": "A 450 kg HF/Jersey cow producing 5L milk/day needs approximately 25 kg green fodder, 7.5 kg dry straw and 5 kg concentrate feed daily."
+        },
+        {
+          "question": "What is a mineral mixture and why is it needed?",
+          "answer": "Mineral mixture provides calcium, phosphorus, sodium, trace minerals and vitamins that are deficient in fodder. It prevents milk fever, reproductive failure and improves production."
+        },
+        {
+          "question": "How does season affect feed requirement?",
+          "answer": "Animals need 10% more feed in summer to maintain body temperature and production. In winter, 5% extra energy is needed for thermoregulation."
+        }
+      ],
+      "relatedTools": [
+        "farm-income-calculator",
+        "crop-yield-calculator",
+        "msp-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Livestock Feed Calculator",
+          "url": "/farmers-tools/livestock-feed-calculator"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-009",
+      "name": "Weather-Based Crop Advisor",
+      "slug": "weather-crop-advisor",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Get crop recommendations, sowing calendar and seasonal alerts for your state and month in India.",
+      "seoTitle": "Free Weather Crop Advisor India — Crop Recommendations by State | UtilityMega",
+      "metaDescription": "Get crop recommendations for your state and current month with sowing window, duration, yield and water needs. Annual sowing calendar (Kharif/Rabi/Zaid) and seasonal weather alerts.",
+      "h1": "Weather-Based Crop Advisor",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/weather-crop-advisor",
+      "keywords": [
+        "crop advisor India",
+        "which crop to sow this month",
+        "kharif crop recommendations",
+        "rabi crop selection",
+        "crop calendar India",
+        "best crop for my region India"
+      ],
+      "content": "Covers 10 major Indian states with district/zone selection. Shows typical weather (temperature, rainfall, humidity, sunshine, wind) for the selected state and month. Recommends suitable crops with sowing window, duration, expected yield, water requirement and specific alerts. Displays a 12-month annual sowing calendar colour-coded by Kharif (green), Rabi (blue), Zaid (amber) and Harvest (purple). Seasonal alerts cover heat waves, heavy rainfall, fog and normal conditions.",
+      "faq": [
+        {
+          "question": "What are Kharif and Rabi crops?",
+          "answer": "Kharif crops are sown in June–July with the monsoon (Rice, Cotton, Soybean, Maize). Rabi crops are sown in October–November in winter (Wheat, Mustard, Gram). Zaid crops are grown in the short summer season (March–May)."
+        },
+        {
+          "question": "How do I choose the best crop for my district?",
+          "answer": "Select your state and district, then check the recommendations for the current month. Crops marked ⭐ Best are highest priority based on typical weather patterns for your region."
+        },
+        {
+          "question": "Are the weather values actual forecasts?",
+          "answer": "The values are typical climatological averages for the region and month — not real-time forecasts. For actual weather forecasts, use IMD (India Meteorological Department) or Meghdoot app."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "msp-calculator",
+        "irrigation-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "Weather Crop Advisor",
+          "url": "/farmers-tools/weather-crop-advisor"
+        }
+      ]
+    },
+    {
+      "id": "tool-farmers-010",
+      "name": "MSP Calculator",
+      "slug": "msp-calculator",
+      "categorySlug": "farmers-tools",
+      "categoryName": "Farmers Tools",
+      "shortDescription": "Calculate expected income at government MSP 2024–25 rates vs market price for all 24 Kharif and Rabi crops.",
+      "seoTitle": "Free MSP Calculator 2024–25 — Minimum Support Price India | UtilityMega",
+      "metaDescription": "Calculate farm income at MSP 2024–25 for all 24 Kharif and Rabi crops. Compare MSP vs market price income. Net profit after input cost. CACP-approved rates for Rice, Wheat, Cotton and more.",
+      "h1": "MSP Calculator 2024–25",
+      "canonicalUrl": "https://utilitymega.com/farmers-tools/msp-calculator",
+      "keywords": [
+        "MSP calculator India 2024",
+        "minimum support price 2024",
+        "MSP 2024-25 rates",
+        "MSP rice wheat cotton",
+        "farm income at MSP",
+        "CACP MSP rates India"
+      ],
+      "content": "Complete MSP 2024–25 rate table for all 24 notified crops: 14 Kharif (Rice, Cotton, Tur, Moong, Urad, Groundnut, Soybean, Sunflower, Sesame, Jowar, Bajra, Maize), 6 Rabi (Wheat, Barley, Gram, Masur, Mustard, Safflower) and 4 others (Sugarcane FRP, Copra, Jute). Input yield and area to calculate total income at MSP vs actual market price. Compare with visual bar chart and shows gain or loss vs MSP. Net profit after input cost.",
+      "faq": [
+        {
+          "question": "What is MSP (Minimum Support Price)?",
+          "answer": "MSP is the government-guaranteed minimum price at which the government (through FCI, NAFED etc.) procures crops from farmers. It protects farmers from distress selling when market prices fall."
+        },
+        {
+          "question": "Are MSP rates guaranteed to every farmer?",
+          "answer": "MSP is a price guarantee but actual procurement depends on state government agencies and FCI centres. Farmers in states with active procurement (Punjab, Haryana, MP) are more likely to sell at MSP."
+        },
+        {
+          "question": "How often are MSP rates revised?",
+          "answer": "MSP is revised annually before every Kharif and Rabi sowing season based on CACP (Commission for Agricultural Costs and Prices) recommendations, targeting a 50% return above A2+FL cost."
+        }
+      ],
+      "relatedTools": [
+        "crop-yield-calculator",
+        "farm-income-calculator",
+        "weather-crop-advisor"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Farmers Tools",
+          "url": "/farmers-tools"
+        },
+        {
+          "label": "MSP Calculator",
+          "url": "/farmers-tools/msp-calculator"
+        }
+      ]
+    },
     {
       "id": "tool-dev-001",
       "name": "JSON Formatter",
