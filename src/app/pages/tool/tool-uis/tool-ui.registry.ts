@@ -69,6 +69,7 @@ import { SeedRateCalculatorComponent, PesticideCalculatorComponent, FarmIncomeCa
 import { WeatherCropAdvisorComponent, MspCalculatorComponent } from './weather-msp.component';
 import { LoremIpsumGeneratorComponent, DuplicateLineRemoverComponent, FindReplaceComponent } from './lorem-duplicate-findreplace.component';
 import { TextToSlugComponent, TextReverserComponent, LineSorterComponent, StringEncoderComponent, TextDiffHighlighterComponent } from './slug-reverser-sorter-encoder-diff.component';
+import { CagrCalculatorComponent, CurrencyConverterComponent, FdCalculatorComponent, FuelCostCalculatorComponent, LoanComparisonComponent, PpfCalculatorComponent, RdCalculatorComponent, TipCalculatorComponent, VatCalculatorComponent } from './calculator-all.component';
 
 
 /**
@@ -91,7 +92,15 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'calorie-calculator': CalorieCalculatorComponent,
   'discount-calculator': DiscountCalculatorComponent,
   'retirement-calculator': RetirementCalculatorComponent,
-
+  'ppf-calculator': PpfCalculatorComponent,
+  'fd-calculator': FdCalculatorComponent,
+  'rd-calculator': RdCalculatorComponent,
+  'cagr-calculator': CagrCalculatorComponent,
+  'loan-comparison': LoanComparisonComponent,
+  'vat-calculator': VatCalculatorComponent,
+  'tip-calculator': TipCalculatorComponent,
+  'currency-converter': CurrencyConverterComponent,
+  'fuel-cost-calculator': FuelCostCalculatorComponent,
   // Image Tools
   'image-compressor': ImageCompressorComponent,
   'image-resizer': ImageResizerComponent,
@@ -119,16 +128,16 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   // Text Tools
   //'word-counter': WordCounterComponent,
   //'text-case-converter': TextCaseConverterComponent,
-  'word-counter':           WordCounterComponent,
-'text-case-converter':    TextCaseConverterComponent,
-'lorem-ipsum-generator':  LoremIpsumGeneratorComponent,
-'duplicate-line-remover': DuplicateLineRemoverComponent,
-'find-and-replace':       FindReplaceComponent,
-'text-to-slug':           TextToSlugComponent,
-'text-reverser':          TextReverserComponent,
-'line-sorter':            LineSorterComponent,
-'string-encoder':         StringEncoderComponent,
-'text-diff-highlighter':  TextDiffHighlighterComponent,
+  'word-counter': WordCounterComponent,
+  'text-case-converter': TextCaseConverterComponent,
+  'lorem-ipsum-generator': LoremIpsumGeneratorComponent,
+  'duplicate-line-remover': DuplicateLineRemoverComponent,
+  'find-and-replace': FindReplaceComponent,
+  'text-to-slug': TextToSlugComponent,
+  'text-reverser': TextReverserComponent,
+  'line-sorter': LineSorterComponent,
+  'string-encoder': StringEncoderComponent,
+  'text-diff-highlighter': TextDiffHighlighterComponent,
 
   // Security Tools
   'password-generator': PasswordGeneratorComponent,

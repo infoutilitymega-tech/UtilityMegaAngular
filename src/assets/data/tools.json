@@ -40,7 +40,7 @@
         "description": "Free online calculators for finance, math, and health",
         "url": "https://utilitymega.com/calculators"
       },
-      "toolCount": 10
+      "toolCount": 19
     },
     {
       "id": "cat-02",
@@ -1723,6 +1723,1151 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "The 4% rule states you can withdraw 4% of your retirement corpus annually without depleting it over 30 years."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-011",
+      "name": "PPF Calculator",
+      "slug": "ppf-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate Public Provident Fund maturity amount, interest earned, and year-wise balance.",
+      "seoTitle": "PPF Calculator - Calculate Public Provident Fund Returns Free",
+      "metaDescription": "Calculate PPF maturity amount with current 7.1% interest rate. Year-wise balance, total interest, and investment breakdown. Free PPF calculator for India.",
+      "h1": "PPF Calculator — Public Provident Fund Returns",
+      "canonicalUrl": "https://utilitymega.com/calculators/ppf-calculator",
+      "keywords": [
+        "PPF calculator",
+        "Public Provident Fund",
+        "PPF maturity calculator",
+        "PPF interest calculator",
+        "PPF returns India",
+        "PPF balance calculator"
+      ],
+      "content": "The Public Provident Fund (PPF) is one of India's most popular long-term savings schemes, offering tax-free returns under Section 80C. Our PPF calculator helps you estimate your maturity amount based on annual contributions and current interest rates.\n\nPPF Interest Rate: Currently 7.1% per annum (compounded annually, subject to quarterly revision by the government).\n\nPPF Features: 15-year lock-in period, extendable in 5-year blocks. Minimum annual deposit ₹500, maximum ₹1,50,000. Interest is calculated monthly but credited annually. EEE (Exempt-Exempt-Exempt) tax status — deposits, interest, and maturity all tax-free.\n\nOur calculator shows year-wise balance breakdown, total interest earned, and total investment amount.",
+      "faq": [
+        {
+          "question": "What is the current PPF interest rate?",
+          "answer": "The PPF interest rate is 7.1% per annum (effective October-December 2024). Rates are reviewed quarterly by the government."
+        },
+        {
+          "question": "What is the maximum PPF deposit per year?",
+          "answer": "The maximum deposit in a PPF account is ₹1,50,000 per financial year. Deposits above this limit do not earn interest."
+        },
+        {
+          "question": "Is PPF tax-free?",
+          "answer": "Yes, PPF follows the EEE (Exempt-Exempt-Exempt) tax regime — deposits qualify for Section 80C deduction, interest earned is tax-free, and maturity amount is tax-free."
+        }
+      ],
+      "relatedTools": [
+        "sip-calculator",
+        "retirement-calculator",
+        "epf-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "PPF Calculator",
+          "url": "https://utilitymega.com/calculators/ppf-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free PPF Calculator - Calculate Public Provident Fund Returns",
+        "og:description": "Calculate PPF maturity amount, total interest, and year-wise balance. Current 7.1% interest rate. Free PPF calculator India.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/ppf-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free PPF Calculator | UtilityMega",
+        "twitter:description": "Calculate PPF returns, maturity amount, year-wise balance. Free."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "PPF Calculator",
+        "description": "Calculate Public Provident Fund maturity amount with year-wise balance breakdown.",
+        "url": "https://utilitymega.com/calculators/ppf-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "PPF Calculator",
+              "item": "https://utilitymega.com/calculators/ppf-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the current PPF interest rate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The PPF interest rate is 7.1% per annum (effective October-December 2024)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the maximum PPF deposit per year?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The maximum deposit in a PPF account is ₹1,50,000 per financial year."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-012",
+      "name": "FD Calculator",
+      "slug": "fd-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate Fixed Deposit maturity amount, interest earned, and effective yield with various compounding frequencies.",
+      "seoTitle": "FD Calculator - Fixed Deposit Interest Calculator Free",
+      "metaDescription": "Calculate Fixed Deposit maturity amount with annual, half-yearly, quarterly or monthly compounding. See total interest and effective yield. Free FD calculator.",
+      "h1": "FD Calculator — Fixed Deposit Interest Calculator",
+      "canonicalUrl": "https://utilitymega.com/calculators/fd-calculator",
+      "keywords": [
+        "FD calculator",
+        "fixed deposit calculator",
+        "FD interest calculator",
+        "fixed deposit maturity calculator",
+        "compound interest FD",
+        "bank FD calculator India"
+      ],
+      "content": "Fixed Deposits (FDs) are one of the safest investment options in India, offering guaranteed returns. Our FD calculator helps you estimate your maturity amount based on principal, tenure, interest rate, and compounding frequency.\n\nCompounding Frequencies: Annual, Half-Yearly, Quarterly, Monthly. More frequent compounding yields higher returns.\n\nSenior Citizen Benefit: Most banks offer 0.5% higher interest rates for senior citizens (60+ years).\n\nTax Implications: Interest earned on FDs is taxable under 'Income from Other Sources'. TDS is deducted at 10% if interest exceeds ₹40,000 (₹50,000 for senior citizens).\n\nOur calculator shows total interest earned, maturity amount, and effective yield percentage.",
+      "faq": [
+        {
+          "question": "What is the best compounding frequency for FD?",
+          "answer": "Monthly compounding gives the highest returns, followed by quarterly, half-yearly, and annual. However, most banks use quarterly compounding for FDs."
+        },
+        {
+          "question": "Do senior citizens get higher FD rates?",
+          "answer": "Yes. Most banks offer an additional 0.5% interest rate for senior citizens (age 60 and above) on FDs."
+        },
+        {
+          "question": "Is FD interest taxable?",
+          "answer": "Yes. FD interest is added to your income and taxed as per your income slab. TDS is deducted at 10% if interest exceeds ₹40,000 (₹50,000 for senior citizens)."
+        }
+      ],
+      "relatedTools": [
+        "rd-calculator",
+        "ppf-calculator",
+        "compound-interest-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "FD Calculator",
+          "url": "https://utilitymega.com/calculators/fd-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free FD Calculator - Fixed Deposit Interest Calculator",
+        "og:description": "Calculate Fixed Deposit maturity amount with annual, half-yearly, quarterly or monthly compounding. Total interest and effective yield.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/fd-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free FD Calculator | UtilityMega",
+        "twitter:description": "Calculate FD maturity amount, total interest, effective yield. Multiple compounding frequencies."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "FD Calculator",
+        "description": "Calculate Fixed Deposit maturity amount, interest earned, and effective yield with various compounding frequencies.",
+        "url": "https://utilitymega.com/calculators/fd-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "FD Calculator",
+              "item": "https://utilitymega.com/calculators/fd-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best compounding frequency for FD?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Monthly compounding gives the highest returns. Most banks use quarterly compounding."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do senior citizens get higher FD rates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Most banks offer an additional 0.5% interest rate for senior citizens."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-013",
+      "name": "RD Calculator",
+      "slug": "rd-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate Recurring Deposit maturity amount, total deposits, and interest earned.",
+      "seoTitle": "RD Calculator - Recurring Deposit Interest Calculator Free",
+      "metaDescription": "Calculate Recurring Deposit maturity amount, total deposits, and interest earned. Plan your monthly savings with our free RD calculator.",
+      "h1": "RD Calculator — Recurring Deposit Calculator",
+      "canonicalUrl": "https://utilitymega.com/calculators/rd-calculator",
+      "keywords": [
+        "RD calculator",
+        "recurring deposit calculator",
+        "RD interest calculator",
+        "monthly savings calculator",
+        "RD maturity calculator",
+        "bank RD calculator India"
+      ],
+      "content": "Recurring Deposits (RDs) help you build savings through regular monthly deposits. Our RD calculator helps you estimate your maturity amount based on monthly deposit, tenure, and interest rate.\n\nHow RD Works: You deposit a fixed amount each month for a fixed tenure. Interest is compounded quarterly. At maturity, you receive the total deposits plus accumulated interest.\n\nInterest Calculation: RD interest is calculated using the formula: M = R × [(1+i)^n - 1] / (1 - (1+i)^(-1/3)), where R is monthly deposit, i is quarterly interest rate, and n is number of quarters.\n\nOur calculator shows total deposits made, total interest earned, and final maturity amount.",
+      "faq": [
+        {
+          "question": "How is RD interest calculated?",
+          "answer": "RD interest is compounded quarterly. The formula accounts for the fact that each monthly deposit earns interest for a different duration."
+        },
+        {
+          "question": "What is the minimum RD deposit?",
+          "answer": "Most banks allow RD with minimum monthly deposits of ₹100 to ₹500. There is no upper limit."
+        },
+        {
+          "question": "Can I withdraw RD before maturity?",
+          "answer": "Yes, but premature withdrawal usually incurs a penalty (lower interest rate). Some banks allow partial withdrawals after a certain period."
+        }
+      ],
+      "relatedTools": [
+        "fd-calculator",
+        "sip-calculator",
+        "ppf-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "RD Calculator",
+          "url": "https://utilitymega.com/calculators/rd-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free RD Calculator - Recurring Deposit Interest Calculator",
+        "og:description": "Calculate Recurring Deposit maturity amount, total deposits, and interest earned. Plan your monthly savings.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/rd-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free RD Calculator | UtilityMega",
+        "twitter:description": "Calculate RD maturity amount, total deposits, interest earned."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "RD Calculator",
+        "description": "Calculate Recurring Deposit maturity amount, total deposits, and interest earned.",
+        "url": "https://utilitymega.com/calculators/rd-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "RD Calculator",
+              "item": "https://utilitymega.com/calculators/rd-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is RD interest calculated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "RD interest is compounded quarterly. Each monthly deposit earns interest for a different duration."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the minimum RD deposit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most banks allow RD with minimum monthly deposits of ₹100 to ₹500."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-014",
+      "name": "CAGR Calculator",
+      "slug": "cagr-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate Compound Annual Growth Rate (CAGR) for investments, revenue, or any metric over time.",
+      "seoTitle": "CAGR Calculator - Compound Annual Growth Rate Calculator Free",
+      "metaDescription": "Calculate CAGR (Compound Annual Growth Rate) for investments, revenue, or any metric. Find future value or initial value needed for target growth.",
+      "h1": "CAGR Calculator — Compound Annual Growth Rate",
+      "canonicalUrl": "https://utilitymega.com/calculators/cagr-calculator",
+      "keywords": [
+        "CAGR calculator",
+        "compound annual growth rate",
+        "investment growth calculator",
+        "CAGR formula",
+        "annualized return calculator",
+        "business growth calculator"
+      ],
+      "content": "CAGR (Compound Annual Growth Rate) measures the mean annual growth rate of an investment over a specified period longer than one year. It represents the smoothed annualized return, assuming profits are reinvested at the end of each year.\n\nThree Calculation Modes: Calculate CAGR from initial and final values, Calculate Future Value from initial value and CAGR, Calculate Initial Value needed to reach target with CAGR.\n\nCAGR Formula: CAGR = (Final Value / Initial Value)^(1/n) - 1, where n is number of years.\n\nUse Cases: Investment returns, revenue growth, user base expansion, market share growth, any metric that grows over time.",
+      "faq": [
+        {
+          "question": "What is CAGR?",
+          "answer": "CAGR (Compound Annual Growth Rate) is the mean annual growth rate of an investment over a specified period, smoothing out volatility to show the annualized return."
+        },
+        {
+          "question": "How is CAGR different from average annual return?",
+          "answer": "Average annual return simply averages yearly returns. CAGR accounts for compounding and represents the constant rate that would produce the same final value."
+        },
+        {
+          "question": "What is a good CAGR?",
+          "answer": "It depends on the asset class. Equity mutual funds typically target 12-15% CAGR over long term. Fixed income gives 6-8%. A 'good' CAGR varies by risk profile and investment horizon."
+        }
+      ],
+      "relatedTools": [
+        "sip-calculator",
+        "compound-interest-calculator",
+        "retirement-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "CAGR Calculator",
+          "url": "https://utilitymega.com/calculators/cagr-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free CAGR Calculator - Compound Annual Growth Rate Calculator",
+        "og:description": "Calculate CAGR for investments or business metrics. Find future value or initial value needed for target growth. Free tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/cagr-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free CAGR Calculator | UtilityMega",
+        "twitter:description": "Calculate CAGR, future value, or initial value. Investment growth analysis."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "CAGR Calculator",
+        "description": "Calculate Compound Annual Growth Rate for investments, revenue, or any metric over time.",
+        "url": "https://utilitymega.com/calculators/cagr-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "CAGR Calculator",
+              "item": "https://utilitymega.com/calculators/cagr-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is CAGR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "CAGR is the mean annual growth rate of an investment over a specified period, smoothing out volatility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a good CAGR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Equity mutual funds target 12-15% CAGR. Fixed income gives 6-8%. It varies by risk profile."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-015",
+      "name": "Loan Comparison Calculator",
+      "slug": "loan-comparison",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Compare two loan options side-by-side to find the better deal with EMI, interest, and total cost analysis.",
+      "seoTitle": "Loan Comparison Calculator - Compare Home, Car & Personal Loans",
+      "metaDescription": "Compare two loan options side-by-side. Calculate EMI, total interest, total payment, and processing fees to find the better deal. Free loan comparison tool.",
+      "h1": "Loan Comparison Calculator",
+      "canonicalUrl": "https://utilitymega.com/calculators/loan-comparison",
+      "keywords": [
+        "loan comparison calculator",
+        "compare loans online",
+        "EMI comparison tool",
+        "home loan comparison",
+        "car loan comparison",
+        "personal loan compare"
+      ],
+      "content": "When choosing between loan offers, comparing the total cost is essential. Our loan comparison calculator lets you evaluate two loan options side-by-side, showing EMI, total interest, total payment, processing fees, and total cost.\n\nCompare: Principal amount, interest rate, tenure, processing fee percentage.\n\nOutput Metrics: Monthly EMI, total interest payable, total payment (principal + interest), processing fee amount, total cost (interest + processing fee).\n\nRecommendation: Automatically suggests which loan is better based on total cost.\n\nUse Cases: Compare offers from different banks, compare fixed vs floating rates, evaluate different tenures, assess the impact of processing fees.",
+      "faq": [
+        {
+          "question": "What factors should I compare when choosing a loan?",
+          "answer": "Look at EMI affordability, total interest cost, processing fees, prepayment charges, and loan tenure flexibility. Our calculator helps compare the financial aspects."
+        },
+        {
+          "question": "How do processing fees affect loan cost?",
+          "answer": "Processing fees (typically 0.5-2% of loan amount) add to your upfront cost. A lower interest rate with higher processing fee may not always be cheaper — our calculator shows the total cost."
+        },
+        {
+          "question": "Should I choose a longer or shorter tenure?",
+          "answer": "Longer tenure means lower EMI but higher total interest. Shorter tenure means higher EMI but lower total interest. Choose based on your monthly cash flow."
+        }
+      ],
+      "relatedTools": [
+        "emi-calculator",
+        "home-loan-calculator",
+        "car-loan-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "Loan Comparison",
+          "url": "https://utilitymega.com/calculators/loan-comparison"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Loan Comparison Calculator - Compare Home, Car & Personal Loans",
+        "og:description": "Compare two loan options side-by-side. EMI, total interest, total payment, processing fees. Find the better deal.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/loan-comparison",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Loan Comparison Calculator | UtilityMega",
+        "twitter:description": "Compare loan options, see EMI, total interest, total cost. Find better deal."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Loan Comparison Calculator",
+        "description": "Compare two loan options side-by-side to find the better deal with EMI, interest, and total cost analysis.",
+        "url": "https://utilitymega.com/calculators/loan-comparison",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Loan Comparison",
+              "item": "https://utilitymega.com/calculators/loan-comparison"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What factors should I compare when choosing a loan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EMI affordability, total interest cost, processing fees, prepayment charges, and loan tenure flexibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I choose a longer or shorter tenure?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Longer tenure = lower EMI but higher total interest. Shorter tenure = higher EMI but lower total interest."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-016",
+      "name": "VAT Calculator",
+      "slug": "vat-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate VAT (Value Added Tax) amount and net/gross price for any VAT rate.",
+      "seoTitle": "VAT Calculator - Calculate Value Added Tax Online Free",
+      "metaDescription": "Calculate VAT amount, net price, and gross price. Add or remove VAT with any rate. Free online VAT calculator for businesses and consumers.",
+      "h1": "VAT Calculator — Value Added Tax Calculator",
+      "canonicalUrl": "https://utilitymega.com/calculators/vat-calculator",
+      "keywords": [
+        "VAT calculator",
+        "value added tax calculator",
+        "VAT amount calculator",
+        "add VAT calculator",
+        "remove VAT calculator",
+        "VAT inclusive exclusive"
+      ],
+      "content": "VAT (Value Added Tax) is a consumption tax applied to goods and services at each stage of production and distribution. Our VAT calculator helps you calculate VAT amounts for any tax rate in two modes.\n\nAdd VAT: Calculate gross price (including VAT) from net price (excluding VAT). Formula: Gross = Net × (1 + VAT%)\n\nRemove VAT: Calculate net price (excluding VAT) from gross price (including VAT). Formula: Net = Gross ÷ (1 + VAT%)\n\nCommon VAT Rates: Standard rate (18-20% in most countries), Reduced rate (5-12% for essentials), Zero rate (0% for exports, basic food).\n\nOur calculator shows VAT amount, net price (excluding VAT), and gross price (including VAT).",
+      "faq": [
+        {
+          "question": "What is the difference between VAT and GST?",
+          "answer": "VAT is a consumption tax used in many countries. GST (Goods and Services Tax) is India's unified tax system that replaced multiple taxes including VAT for most goods and services."
+        },
+        {
+          "question": "How do I calculate VAT from a total price?",
+          "answer": "Use 'Remove VAT' mode. Enter the gross price (including VAT), select the VAT rate, and the calculator shows the net price (excluding VAT) and the VAT amount."
+        },
+        {
+          "question": "What VAT rate should I use?",
+          "answer": "VAT rates vary by country and product type. Common rates: 20% (UK standard), 19% (Germany), 21% (Netherlands), 5-12% (reduced rates). Check your local tax authority."
+        }
+      ],
+      "relatedTools": [
+        "gst-calculator",
+        "percentage-calculator",
+        "discount-calculator"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "VAT Calculator",
+          "url": "https://utilitymega.com/calculators/vat-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free VAT Calculator - Calculate Value Added Tax Online",
+        "og:description": "Calculate VAT amount, net price, and gross price. Add or remove VAT with any rate. Free VAT calculator.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/vat-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free VAT Calculator | UtilityMega",
+        "twitter:description": "Add or remove VAT. Calculate VAT amount, net, and gross price."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "VAT Calculator",
+        "description": "Calculate VAT (Value Added Tax) amount and net/gross price for any VAT rate.",
+        "url": "https://utilitymega.com/calculators/vat-calculator",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "VAT Calculator",
+              "item": "https://utilitymega.com/calculators/vat-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate VAT from a total price?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use 'Remove VAT' mode. Enter gross price, select VAT rate, get net price and VAT amount."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What VAT rate should I use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "VAT rates vary by country. Common rates: 20% (UK), 19% (Germany), 21% (Netherlands)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-017",
+      "name": "Tip Calculator",
+      "slug": "tip-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate tip amount, total bill, and per-person share for restaurants, cafes, and services.",
+      "seoTitle": "Tip Calculator - Calculate Restaurant Tip & Split Bill Free",
+      "metaDescription": "Calculate tip amount, total bill, and per-person share. Choose tip percentage or custom amount. Split bill among any number of people. Free tip calculator.",
+      "h1": "Tip Calculator — Restaurant & Service Tip Calculator",
+      "canonicalUrl": "https://utilitymega.com/calculators/tip-calculator",
+      "keywords": [
+        "tip calculator",
+        "restaurant tip calculator",
+        "gratuity calculator",
+        "split bill calculator",
+        "tip percentage",
+        "service charge calculator"
+      ],
+      "content": "Calculating tips and splitting bills doesn't have to be complicated. Our tip calculator helps you quickly determine the right tip amount, total bill, and per-person share.\n\nTip Percentage: Choose from common percentages (10%, 15%, 18%, 20%, 25%) or enter a custom percentage.\n\nBill Splitting: Split the bill among any number of people. Perfect for group dining.\n\nOutput: Tip amount per person, total tip, total bill per person, total bill including tip.\n\nCommon Tipping Guidelines: 10-15% for adequate service, 15-18% for good service, 20% for excellent service, 0% for poor service.",
+      "faq": [
+        {
+          "question": "What is the standard tip percentage?",
+          "answer": "In the US, 15-20% is standard for good restaurant service. In other countries, service charge may be included. Check local customs."
+        },
+        {
+          "question": "Should I tip on the total bill including tax?",
+          "answer": "Convention varies. Many people tip on the pre-tax amount, but some tip on the total. Both are acceptable."
+        },
+        {
+          "question": "What if service charge is already included?",
+          "answer": "If a service charge (often 10-15%) is already added to your bill, additional tipping is optional. Check your bill carefully."
+        }
+      ],
+      "relatedTools": [
+        "discount-calculator",
+        "percentage-calculator",
+        "currency-converter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "Tip Calculator",
+          "url": "https://utilitymega.com/calculators/tip-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Tip Calculator - Calculate Restaurant Tip & Split Bill",
+        "og:description": "Calculate tip amount, total bill, and per-person share. Split bill among any number of people. Free tip calculator.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/tip-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Tip Calculator | UtilityMega",
+        "twitter:description": "Calculate tip, split bill, per-person share. Easy restaurant bill calculator."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Tip Calculator",
+        "description": "Calculate tip amount, total bill, and per-person share for restaurants, cafes, and services.",
+        "url": "https://utilitymega.com/calculators/tip-calculator",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Tip Calculator",
+              "item": "https://utilitymega.com/calculators/tip-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the standard tip percentage?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In the US, 15-20% is standard for good restaurant service."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if service charge is already included?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If a service charge is already added, additional tipping is optional."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-018",
+      "name": "Currency Converter",
+      "slug": "currency-converter",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Convert between major world currencies with real-time exchange rates.",
+      "seoTitle": "Currency Converter - Convert Major World Currencies Free",
+      "metaDescription": "Convert between USD, EUR, GBP, INR, and 150+ currencies. Real-time exchange rates. Free currency converter for travel, business, and remittances.",
+      "h1": "Currency Converter — World Currency Exchange",
+      "canonicalUrl": "https://utilitymega.com/calculators/currency-converter",
+      "keywords": [
+        "currency converter",
+        "exchange rate calculator",
+        "USD to INR",
+        "EUR to USD",
+        "GBP to EUR",
+        "foreign exchange calculator",
+        "money converter"
+      ],
+      "content": "Convert between major world currencies instantly. Our currency converter helps you calculate exchange rates for travel, international business, remittances, and online shopping.\n\nSupported Currencies: USD, EUR, GBP, INR, JPY, CNY, CAD, AUD, AED, SGD, and more.\n\nHow It Works: Enter the amount, select the source currency and target currency. The converter shows the converted amount based on current exchange rates.\n\nUse Cases: Travel planning, international payments, online shopping in foreign currencies, business invoicing, investment calculations.\n\nNote: Exchange rates are for reference only. Actual rates may vary by bank or money transfer service.",
+      "faq": [
+        {
+          "question": "Are exchange rates real-time?",
+          "answer": "Exchange rates are updated regularly and are for reference only. Actual rates from banks and money transfer services may include fees and different rates."
+        },
+        {
+          "question": "Why do banks charge different rates?",
+          "answer": "Banks add a margin to the interbank exchange rate. They also may charge transfer fees, wire fees, or service charges."
+        },
+        {
+          "question": "What is the best way to transfer money internationally?",
+          "answer": "Compare rates from banks, specialized transfer services (Wise, Remitly), and currency exchange platforms. Look at both exchange rate and fees."
+        }
+      ],
+      "relatedTools": [
+        "percentage-calculator",
+        "discount-calculator",
+        "vat-calculator"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "Currency Converter",
+          "url": "https://utilitymega.com/calculators/currency-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Currency Converter - Convert Major World Currencies",
+        "og:description": "Convert between USD, EUR, GBP, INR and 150+ currencies. Real-time exchange rates. Free currency converter.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/currency-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Currency Converter | UtilityMega",
+        "twitter:description": "Convert USD, EUR, GBP, INR and more. Real-time exchange rates."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Currency Converter",
+        "description": "Convert between major world currencies with real-time exchange rates.",
+        "url": "https://utilitymega.com/calculators/currency-converter",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Currency Converter",
+              "item": "https://utilitymega.com/calculators/currency-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Are exchange rates real-time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Exchange rates are updated regularly and are for reference only. Actual rates from banks may vary."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do banks charge different rates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Banks add a margin to the interbank exchange rate and may charge transfer fees."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-calculator-019",
+      "name": "Fuel Cost Calculator",
+      "slug": "fuel-cost-calculator",
+      "categorySlug": "calculators",
+      "categoryName": "Calculators",
+      "shortDescription": "Calculate fuel cost for a trip based on distance, fuel efficiency, and fuel price.",
+      "seoTitle": "Fuel Cost Calculator - Calculate Trip Fuel Cost & Consumption",
+      "metaDescription": "Calculate fuel cost for any trip. Enter distance, fuel efficiency (km/L or MPG), and fuel price. See fuel required, total cost, cost per km, and per person.",
+      "h1": "Fuel Cost Calculator — Trip Fuel Cost Estimator",
+      "canonicalUrl": "https://utilitymega.com/calculators/fuel-cost-calculator",
+      "keywords": [
+        "fuel cost calculator",
+        "trip fuel cost",
+        "petrol cost calculator",
+        "diesel cost calculator",
+        "fuel consumption calculator",
+        "mileage calculator",
+        "road trip cost calculator"
+      ],
+      "content": "Planning a road trip? Our fuel cost calculator helps you estimate the total fuel cost for your journey based on distance, vehicle fuel efficiency, and current fuel prices.\n\nInput: Distance (km or miles), Fuel efficiency (km/L or MPG), Fuel price (₹/L or $/gallon), Number of passengers.\n\nOutput: Fuel required (liters/gallons), Total fuel cost, Cost per kilometer/mile, Cost per person (if splitting with passengers).\n\nUse Cases: Road trip planning, comparing vehicle fuel costs, budgeting for daily commute, evaluating fuel efficiency of different vehicles.\n\nPro Tip: For electric vehicles, use electricity cost (₹/kWh) and efficiency (km/kWh) for accurate EV charging cost estimates.",
+      "faq": [
+        {
+          "question": "How is fuel cost calculated?",
+          "answer": "Fuel cost = (Distance ÷ Fuel Efficiency) × Fuel Price. For example, 500 km ÷ 18 km/L = 27.8 L × ₹105 = ₹2,919 total fuel cost."
+        },
+        {
+          "question": "What is a good fuel efficiency?",
+          "answer": "For petrol cars: 15-20 km/L is good. Diesel cars: 18-25 km/L. Hybrids: 25-35 km/L. EVs: 6-8 km/kWh. Efficiency varies by driving conditions."
+        },
+        {
+          "question": "How can I reduce fuel costs?",
+          "answer": "Maintain proper tire pressure, avoid aggressive acceleration, reduce idling, remove excess weight, use cruise control on highways, and consider carpooling."
+        }
+      ],
+      "relatedTools": [
+        "mileage-calculator",
+        "distance-calculator",
+        "currency-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Calculators",
+          "url": "https://utilitymega.com/calculators"
+        },
+        {
+          "name": "Fuel Cost Calculator",
+          "url": "https://utilitymega.com/calculators/fuel-cost-calculator"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Fuel Cost Calculator - Calculate Trip Fuel Cost & Consumption",
+        "og:description": "Calculate fuel cost for any trip. Distance, fuel efficiency, fuel price. Fuel required, total cost, cost per km, per person.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/calculators/fuel-cost-calculator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Fuel Cost Calculator | UtilityMega",
+        "twitter:description": "Estimate trip fuel cost, fuel required, cost per km. Plan your road trip budget."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Fuel Cost Calculator",
+        "description": "Calculate fuel cost for a trip based on distance, fuel efficiency, and fuel price.",
+        "url": "https://utilitymega.com/calculators/fuel-cost-calculator",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Calculators",
+              "item": "https://utilitymega.com/calculators"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Fuel Cost Calculator",
+              "item": "https://utilitymega.com/calculators/fuel-cost-calculator"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is fuel cost calculated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fuel cost = (Distance ÷ Fuel Efficiency) × Fuel Price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a good fuel efficiency?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Petrol cars: 15-20 km/L. Diesel: 18-25 km/L. Hybrids: 25-35 km/L. EVs: 6-8 km/kWh."
             }
           }
         ]
@@ -10968,1282 +12113,1281 @@
         ]
       }
     },
-
     {
-  "id": "tool-text-001",
-  "name": "Word Counter",
-  "slug": "word-counter",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Count words, characters, sentences and paragraphs with readability scores, reading time and keyword frequency.",
-  "seoTitle": "Free Word Counter Online — Characters, Sentences & Reading Time | UtilityMega",
-  "metaDescription": "Count words, characters (with/without spaces), sentences, paragraphs and lines. Shows reading time, speaking time, Flesch readability score, top keywords and character frequency. Free.",
-  "h1": "Word Counter",
-  "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
-  "keywords": [
-    "word counter online",
-    "character counter",
-    "word count tool",
-    "reading time calculator",
-    "readability score",
-    "text analyzer online",
-    "character count"
-  ],
-  "content": "Real-time word counter with comprehensive text analysis. Counts words, characters, characters without spaces, sentences, paragraphs and lines. Shows estimated reading time (at 238 wpm) and speaking time (at 130 wpm). Calculates Flesch Reading Ease score and Flesch-Kincaid Grade Level. Shows top 8 keywords (excluding stop words), top 12 character frequency, and sentence-level analysis (average/shortest/longest). Includes writing goals for tweet, blog post, article and long-form content lengths.",
-  "faq": [
-    {
-      "question": "How is reading time calculated?",
-      "answer": "Reading time is estimated at 238 words per minute (the average adult silent reading speed). Speaking time uses 130 wpm (the average conversational speech rate)."
-    },
-    {
-      "question": "What is the Flesch Reading Ease score?",
-      "answer": "A score of 60–70 is standard (Grade 8–9). Scores 70+ are easy to read. Scores below 30 are very difficult (college graduate level). Higher is easier."
-    },
-    {
-      "question": "Does the word counter count correctly for different languages?",
-      "answer": "The counter splits on whitespace, which works for most Latin-script languages. CJK languages (Chinese, Japanese, Korean) require character-based counting, which is less accurate in this browser-based tool."
-    }
-  ],
-  "relatedTools": [
-    "text-case-converter",
-    "lorem-ipsum-generator",
-    "find-and-replace"
-  ],
-  "isPopular": true,
-  "isFeatured": true,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-001",
       "name": "Word Counter",
-      "url": "https://utilitymega.com/text-tools/word-counter"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Word Counter Online — Characters, Sentences & Reading Time",
-    "og:description": "Count words, characters, sentences, paragraphs. Reading time, speaking time, Flesch readability score. Free text analyzer.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/word-counter",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Word Counter | UtilityMega",
-    "twitter:description": "Word count, character count, reading time, readability score. Free online tool."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Word Counter",
-    "description": "Count words, characters, sentences, paragraphs with readability scores, reading time and keyword frequency.",
-    "url": "https://utilitymega.com/text-tools/word-counter",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "word-counter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Count words, characters, sentences and paragraphs with readability scores, reading time and keyword frequency.",
+      "seoTitle": "Free Word Counter Online — Characters, Sentences & Reading Time | UtilityMega",
+      "metaDescription": "Count words, characters (with/without spaces), sentences, paragraphs and lines. Shows reading time, speaking time, Flesch readability score, top keywords and character frequency. Free.",
+      "h1": "Word Counter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/word-counter",
+      "keywords": [
+        "word counter online",
+        "character counter",
+        "word count tool",
+        "reading time calculator",
+        "readability score",
+        "text analyzer online",
+        "character count"
+      ],
+      "content": "Real-time word counter with comprehensive text analysis. Counts words, characters, characters without spaces, sentences, paragraphs and lines. Shows estimated reading time (at 238 wpm) and speaking time (at 130 wpm). Calculates Flesch Reading Ease score and Flesch-Kincaid Grade Level. Shows top 8 keywords (excluding stop words), top 12 character frequency, and sentence-level analysis (average/shortest/longest). Includes writing goals for tweet, blog post, article and long-form content lengths.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "How is reading time calculated?",
+          "answer": "Reading time is estimated at 238 words per minute (the average adult silent reading speed). Speaking time uses 130 wpm (the average conversational speech rate)."
+        },
+        {
+          "question": "What is the Flesch Reading Ease score?",
+          "answer": "A score of 60–70 is standard (Grade 8–9). Scores 70+ are easy to read. Scores below 30 are very difficult (college graduate level). Higher is easier."
+        },
+        {
+          "question": "Does the word counter count correctly for different languages?",
+          "answer": "The counter splits on whitespace, which works for most Latin-script languages. CJK languages (Chinese, Japanese, Korean) require character-based counting, which is less accurate in this browser-based tool."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "lorem-ipsum-generator",
+        "find-and-replace"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Word Counter",
-          "item": "https://utilitymega.com/text-tools/word-counter"
+          "url": "https://utilitymega.com/text-tools/word-counter"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How is reading time calculated?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Reading time is estimated at 238 words per minute (average adult silent reading speed)."
+      ],
+      "openGraph": {
+        "og:title": "Free Word Counter Online — Characters, Sentences & Reading Time",
+        "og:description": "Count words, characters, sentences, paragraphs. Reading time, speaking time, Flesch readability score. Free text analyzer.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/word-counter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Word Counter | UtilityMega",
+        "twitter:description": "Word count, character count, reading time, readability score. Free online tool."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Word Counter",
+        "description": "Count words, characters, sentences, paragraphs with readability scores, reading time and keyword frequency.",
+        "url": "https://utilitymega.com/text-tools/word-counter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Word Counter",
+              "item": "https://utilitymega.com/text-tools/word-counter"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is the Flesch Reading Ease score?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A score of 60–70 is standard. Scores 70+ are easy to read. Higher is easier."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is reading time calculated?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Reading time is estimated at 238 words per minute (average adult silent reading speed)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Flesch Reading Ease score?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A score of 60–70 is standard. Scores 70+ are easy to read. Higher is easier."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-002",
-  "name": "Text Case Converter",
-  "slug": "text-case-converter",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case and 8 more formats.",
-  "seoTitle": "Free Text Case Converter — camelCase, snake_case, kebab-case | UtilityMega",
-  "metaDescription": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case, aLtErNaTe and inverse. Free.",
-  "h1": "Text Case Converter",
-  "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
-  "keywords": [
-    "text case converter",
-    "camelCase converter",
-    "snake_case converter",
-    "kebab-case converter",
-    "PascalCase converter",
-    "uppercase lowercase converter",
-    "title case converter online"
-  ],
-  "content": "Convert text between 12 different case formats. Programming cases: camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case. Writing cases: UPPERCASE, lowercase, Title Case, Sentence case. Fun cases: aLtErNaTe CaSe, iNVERSE CaSe. Shows all conversions at a glance for quick comparison. Includes a reference guide for when to use each case in programming and writing.",
-  "faq": [
-    {
-      "question": "What is camelCase vs PascalCase?",
-      "answer": "camelCase starts with a lowercase letter: myVariableName. PascalCase (UpperCamelCase) starts with uppercase: MyComponentName. Use camelCase for variables/functions in JS/TypeScript; PascalCase for class names and Angular components."
     },
     {
-      "question": "When should I use snake_case vs kebab-case?",
-      "answer": "snake_case (words_with_underscores) is used in Python, Ruby and SQL. kebab-case (words-with-hyphens) is used in CSS class names, HTML attributes and URL slugs. Both improve readability over no-separator names."
-    },
-    {
-      "question": "What is CONSTANT_CASE?",
-      "answer": "CONSTANT_CASE (uppercase with underscores) is used for environment variables, Redux action types, and named constants in most programming languages: MAX_RETRY_COUNT, API_BASE_URL."
-    }
-  ],
-  "relatedTools": [
-    "word-counter",
-    "find-and-replace",
-    "text-to-slug"
-  ],
-  "isPopular": true,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-002",
       "name": "Text Case Converter",
-      "url": "https://utilitymega.com/text-tools/text-case-converter"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Text Case Converter — camelCase, snake_case, kebab-case",
-    "og:description": "Convert text between 12 case formats: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case and more.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/text-case-converter",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Text Case Converter | UtilityMega",
-    "twitter:description": "12 case formats: camelCase, snake_case, kebab-case, PascalCase and more."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Text Case Converter",
-    "description": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case and more.",
-    "url": "https://utilitymega.com/text-tools/text-case-converter",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "text-case-converter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Convert text to UPPERCASE, lowercase, Title Case, camelCase, snake_case, kebab-case and 8 more formats.",
+      "seoTitle": "Free Text Case Converter — camelCase, snake_case, kebab-case | UtilityMega",
+      "metaDescription": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case, aLtErNaTe and inverse. Free.",
+      "h1": "Text Case Converter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-case-converter",
+      "keywords": [
+        "text case converter",
+        "camelCase converter",
+        "snake_case converter",
+        "kebab-case converter",
+        "PascalCase converter",
+        "uppercase lowercase converter",
+        "title case converter online"
+      ],
+      "content": "Convert text between 12 different case formats. Programming cases: camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case. Writing cases: UPPERCASE, lowercase, Title Case, Sentence case. Fun cases: aLtErNaTe CaSe, iNVERSE CaSe. Shows all conversions at a glance for quick comparison. Includes a reference guide for when to use each case in programming and writing.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What is camelCase vs PascalCase?",
+          "answer": "camelCase starts with a lowercase letter: myVariableName. PascalCase (UpperCamelCase) starts with uppercase: MyComponentName. Use camelCase for variables/functions in JS/TypeScript; PascalCase for class names and Angular components."
+        },
+        {
+          "question": "When should I use snake_case vs kebab-case?",
+          "answer": "snake_case (words_with_underscores) is used in Python, Ruby and SQL. kebab-case (words-with-hyphens) is used in CSS class names, HTML attributes and URL slugs. Both improve readability over no-separator names."
+        },
+        {
+          "question": "What is CONSTANT_CASE?",
+          "answer": "CONSTANT_CASE (uppercase with underscores) is used for environment variables, Redux action types, and named constants in most programming languages: MAX_RETRY_COUNT, API_BASE_URL."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "find-and-replace",
+        "text-to-slug"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Text Case Converter",
-          "item": "https://utilitymega.com/text-tools/text-case-converter"
+          "url": "https://utilitymega.com/text-tools/text-case-converter"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is camelCase vs PascalCase?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "camelCase starts with lowercase: myVariableName. PascalCase starts with uppercase: MyComponentName."
+      ],
+      "openGraph": {
+        "og:title": "Free Text Case Converter — camelCase, snake_case, kebab-case",
+        "og:description": "Convert text between 12 case formats: UPPERCASE, lowercase, camelCase, PascalCase, snake_case, kebab-case and more.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/text-case-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Text Case Converter | UtilityMega",
+        "twitter:description": "12 case formats: camelCase, snake_case, kebab-case, PascalCase and more."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Text Case Converter",
+        "description": "Convert text between 12 case formats: UPPERCASE, lowercase, Title Case, camelCase, PascalCase, snake_case, kebab-case, CONSTANT_CASE, dot.case and more.",
+        "url": "https://utilitymega.com/text-tools/text-case-converter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Text Case Converter",
+              "item": "https://utilitymega.com/text-tools/text-case-converter"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "When should I use snake_case vs kebab-case?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "snake_case is used in Python, Ruby and SQL. kebab-case is used in CSS class names and URL slugs."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is camelCase vs PascalCase?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "camelCase starts with lowercase: myVariableName. PascalCase starts with uppercase: MyComponentName."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When should I use snake_case vs kebab-case?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "snake_case is used in Python, Ruby and SQL. kebab-case is used in CSS class names and URL slugs."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-003",
-  "name": "Lorem Ipsum Generator",
-  "slug": "lorem-ipsum-generator",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
-  "seoTitle": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs | UtilityMega",
-  "metaDescription": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 flavors: Classic Lorem, Original Cicero, Extended Lorem, Hipster Ipsum, Corporate Ipsum. HTML tags option.",
-  "h1": "Lorem Ipsum Generator",
-  "canonicalUrl": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
-  "keywords": [
-    "lorem ipsum generator",
-    "placeholder text generator",
-    "dummy text generator",
-    "Lorem ipsum online",
-    "generate random text",
-    "filler text generator"
-  ],
-  "content": "Generate lorem ipsum placeholder text for design mockups, prototypes and development. Choose quantity in words (1–500), sentences (1–50) or paragraphs (1–20). Five text styles: Classic Lorem ipsum, Original Cicero Latin, Extended Lorem, Hipster Ipsum and Corporate Ipsum. Options: start with 'Lorem ipsum', include HTML paragraph tags, add line breaks. Quick presets for single paragraphs, short/long articles and image captions.",
-  "faq": [
-    {
-      "question": "What is Lorem Ipsum?",
-      "answer": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC). The standard passage has been used as printer's dummy text since the 1500s."
     },
     {
-      "question": "When should I use lorem ipsum?",
-      "answer": "Use it for design mockups, UI prototypes, or any scenario where you need realistic-looking text without final content. It helps reviewers focus on design rather than reading content."
-    },
-    {
-      "question": "What is Hipster Ipsum?",
-      "answer": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin, making mockups more recognizable as English placeholder text."
-    }
-  ],
-  "relatedTools": [
-    "word-counter",
-    "text-case-converter",
-    "duplicate-line-remover"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-003",
       "name": "Lorem Ipsum Generator",
-      "url": "https://utilitymega.com/text-tools/lorem-ipsum-generator"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs",
-    "og:description": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 text flavors: Classic, Hipster, Corporate. HTML tags option.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Lorem Ipsum Generator | UtilityMega",
-    "twitter:description": "Generate placeholder text. Words, sentences, paragraphs. Multiple flavors."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Lorem Ipsum Generator",
-    "description": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
-    "url": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "lorem-ipsum-generator",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
+      "seoTitle": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs | UtilityMega",
+      "metaDescription": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 flavors: Classic Lorem, Original Cicero, Extended Lorem, Hipster Ipsum, Corporate Ipsum. HTML tags option.",
+      "h1": "Lorem Ipsum Generator",
+      "canonicalUrl": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+      "keywords": [
+        "lorem ipsum generator",
+        "placeholder text generator",
+        "dummy text generator",
+        "Lorem ipsum online",
+        "generate random text",
+        "filler text generator"
+      ],
+      "content": "Generate lorem ipsum placeholder text for design mockups, prototypes and development. Choose quantity in words (1–500), sentences (1–50) or paragraphs (1–20). Five text styles: Classic Lorem ipsum, Original Cicero Latin, Extended Lorem, Hipster Ipsum and Corporate Ipsum. Options: start with 'Lorem ipsum', include HTML paragraph tags, add line breaks. Quick presets for single paragraphs, short/long articles and image captions.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What is Lorem Ipsum?",
+          "answer": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC). The standard passage has been used as printer's dummy text since the 1500s."
+        },
+        {
+          "question": "When should I use lorem ipsum?",
+          "answer": "Use it for design mockups, UI prototypes, or any scenario where you need realistic-looking text without final content. It helps reviewers focus on design rather than reading content."
+        },
+        {
+          "question": "What is Hipster Ipsum?",
+          "answer": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin, making mockups more recognizable as English placeholder text."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "text-case-converter",
+        "duplicate-line-remover"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Lorem Ipsum Generator",
-          "item": "https://utilitymega.com/text-tools/lorem-ipsum-generator"
+          "url": "https://utilitymega.com/text-tools/lorem-ipsum-generator"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is Lorem Ipsum?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC)."
+      ],
+      "openGraph": {
+        "og:title": "Free Lorem Ipsum Generator — Words, Sentences, Paragraphs",
+        "og:description": "Generate lorem ipsum placeholder text. Choose words, sentences or paragraphs. 5 text flavors: Classic, Hipster, Corporate. HTML tags option.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Lorem Ipsum Generator | UtilityMega",
+        "twitter:description": "Generate placeholder text. Words, sentences, paragraphs. Multiple flavors."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Lorem Ipsum Generator",
+        "description": "Generate lorem ipsum placeholder text in words, sentences or paragraphs with HTML tags and 5 text flavors.",
+        "url": "https://utilitymega.com/text-tools/lorem-ipsum-generator",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Lorem Ipsum Generator",
+              "item": "https://utilitymega.com/text-tools/lorem-ipsum-generator"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is Hipster Ipsum?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Lorem Ipsum?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lorem Ipsum is scrambled Latin from Cicero's 'de Finibus Bonorum et Malorum' (45 BC)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Hipster Ipsum?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hipster Ipsum uses modern buzzwords and cultural references instead of Latin."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-004",
-  "name": "Duplicate Line Remover",
-  "slug": "duplicate-line-remover",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
-  "seoTitle": "Free Duplicate Line Remover — Remove Repeated Lines Online | UtilityMega",
-  "metaDescription": "Remove duplicate lines from any text. Options: case-sensitive, trim whitespace, remove empty lines, keep first/last occurrence, sort output A-Z/Z-A/by length. Shows duplicate groups.",
-  "h1": "Duplicate Line Remover",
-  "canonicalUrl": "https://utilitymega.com/text-tools/duplicate-line-remover",
-  "keywords": [
-    "duplicate line remover",
-    "remove duplicate lines online",
-    "unique lines extractor",
-    "deduplicate text",
-    "remove repeated lines",
-    "unique list generator"
-  ],
-  "content": "Remove duplicate lines from any text or list instantly. Case-sensitive or case-insensitive comparison. Optionally trim leading/trailing whitespace before comparing. Remove empty lines. Choose to keep the first or last occurrence of each duplicate. Sort output alphabetically (A-Z, Z-A) or by line length. Shows the list of duplicate groups found. Displays statistics: input lines, unique count, duplicates found, removed count and percentage.",
-  "faq": [
-    {
-      "question": "What is a duplicate line?",
-      "answer": "A line that appears more than once in the text. With case-insensitive mode enabled, 'Apple' and 'apple' are treated as the same line."
     },
     {
-      "question": "What is 'keep first' vs 'keep last'?",
-      "answer": "Keep first: keeps the first occurrence, removes subsequent ones. Keep last: keeps the final occurrence. Useful when later entries are more recent (e.g., log file deduplication)."
-    },
-    {
-      "question": "Can I process CSV or database output?",
-      "answer": "Yes. Paste any line-separated data — CSV rows, SQL results, lists. Each line is treated as one unit."
-    }
-  ],
-  "relatedTools": [
-    "line-sorter",
-    "find-and-replace",
-    "word-counter"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-004",
       "name": "Duplicate Line Remover",
-      "url": "https://utilitymega.com/text-tools/duplicate-line-remover"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Duplicate Line Remover — Remove Repeated Lines Online",
-    "og:description": "Remove duplicate lines from any text. Case-sensitive, trim whitespace, sort output. Shows duplicate groups and statistics.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/duplicate-line-remover",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Duplicate Line Remover | UtilityMega",
-    "twitter:description": "Remove duplicate lines, unique list extractor, deduplicate text."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Duplicate Line Remover",
-    "description": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
-    "url": "https://utilitymega.com/text-tools/duplicate-line-remover",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "duplicate-line-remover",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
+      "seoTitle": "Free Duplicate Line Remover — Remove Repeated Lines Online | UtilityMega",
+      "metaDescription": "Remove duplicate lines from any text. Options: case-sensitive, trim whitespace, remove empty lines, keep first/last occurrence, sort output A-Z/Z-A/by length. Shows duplicate groups.",
+      "h1": "Duplicate Line Remover",
+      "canonicalUrl": "https://utilitymega.com/text-tools/duplicate-line-remover",
+      "keywords": [
+        "duplicate line remover",
+        "remove duplicate lines online",
+        "unique lines extractor",
+        "deduplicate text",
+        "remove repeated lines",
+        "unique list generator"
+      ],
+      "content": "Remove duplicate lines from any text or list instantly. Case-sensitive or case-insensitive comparison. Optionally trim leading/trailing whitespace before comparing. Remove empty lines. Choose to keep the first or last occurrence of each duplicate. Sort output alphabetically (A-Z, Z-A) or by line length. Shows the list of duplicate groups found. Displays statistics: input lines, unique count, duplicates found, removed count and percentage.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What is a duplicate line?",
+          "answer": "A line that appears more than once in the text. With case-insensitive mode enabled, 'Apple' and 'apple' are treated as the same line."
+        },
+        {
+          "question": "What is 'keep first' vs 'keep last'?",
+          "answer": "Keep first: keeps the first occurrence, removes subsequent ones. Keep last: keeps the final occurrence. Useful when later entries are more recent (e.g., log file deduplication)."
+        },
+        {
+          "question": "Can I process CSV or database output?",
+          "answer": "Yes. Paste any line-separated data — CSV rows, SQL results, lists. Each line is treated as one unit."
+        }
+      ],
+      "relatedTools": [
+        "line-sorter",
+        "find-and-replace",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Duplicate Line Remover",
-          "item": "https://utilitymega.com/text-tools/duplicate-line-remover"
+          "url": "https://utilitymega.com/text-tools/duplicate-line-remover"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is 'keep first' vs 'keep last'?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Keep first: keeps first occurrence. Keep last: keeps final occurrence, useful for recent log entries."
+      ],
+      "openGraph": {
+        "og:title": "Free Duplicate Line Remover — Remove Repeated Lines Online",
+        "og:description": "Remove duplicate lines from any text. Case-sensitive, trim whitespace, sort output. Shows duplicate groups and statistics.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/duplicate-line-remover",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Duplicate Line Remover | UtilityMega",
+        "twitter:description": "Remove duplicate lines, unique list extractor, deduplicate text."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Duplicate Line Remover",
+        "description": "Remove duplicate lines from text with case sensitivity, trim options, sort and keep-first/last control.",
+        "url": "https://utilitymega.com/text-tools/duplicate-line-remover",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Duplicate Line Remover",
+              "item": "https://utilitymega.com/text-tools/duplicate-line-remover"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "Can I process CSV or database output?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Paste any line-separated data — each line is treated as one unit."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is 'keep first' vs 'keep last'?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep first: keeps first occurrence. Keep last: keeps final occurrence, useful for recent log entries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I process CSV or database output?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Paste any line-separated data — each line is treated as one unit."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-005",
-  "name": "Find and Replace",
-  "slug": "find-and-replace",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
-  "seoTitle": "Free Find and Replace Text Tool — Regex Online | UtilityMega",
-  "metaDescription": "Find and replace text online. Supports regex, case-sensitive matching and whole-word search. Highlights all matches with orange. Navigate matches one by one. Replace all at once.",
-  "h1": "Find and Replace",
-  "canonicalUrl": "https://utilitymega.com/text-tools/find-and-replace",
-  "keywords": [
-    "find and replace online",
-    "text find replace tool",
-    "regex find replace",
-    "search replace text browser",
-    "bulk text replace",
-    "regular expression replacer"
-  ],
-  "content": "A powerful find-and-replace tool for any text. Features: regex mode (full JavaScript RegExp), case-sensitive toggle, whole-word boundary matching, replace current match or all at once, navigate between matches with arrow buttons. All matches are highlighted in real-time. Replace history shows what was changed. Works on any text — code, documents, data files.",
-  "faq": [
-    {
-      "question": "Can I use regular expressions?",
-      "answer": "Yes. Enable the .* button and use JavaScript RegExp syntax. For example: \\b\\d{10}\\b matches 10-digit numbers; [aeiou] matches any vowel."
     },
     {
-      "question": "How do I delete text (replace with nothing)?",
-      "answer": "Leave the 'Replace with' field empty, then click Replace All. The matched text will be deleted."
-    },
-    {
-      "question": "Can I use capture groups in replacement?",
-      "answer": "In regex mode, use $1, $2 etc. in the replacement string to reference capture groups. For example, pattern (\\w+) (\\w+) replaced with $2 $1 swaps two words."
-    }
-  ],
-  "relatedTools": [
-    "word-counter",
-    "duplicate-line-remover",
-    "text-diff-highlighter"
-  ],
-  "isPopular": true,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-005",
       "name": "Find and Replace",
-      "url": "https://utilitymega.com/text-tools/find-and-replace"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Find and Replace Text Tool — Regex Online",
-    "og:description": "Find and replace text with regex support, case sensitivity, whole word matching. Navigate matches, replace all at once.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/find-and-replace",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Find and Replace | UtilityMega",
-    "twitter:description": "Find and replace text with regex. Case-sensitive, whole word, replace all."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Find and Replace",
-    "description": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
-    "url": "https://utilitymega.com/text-tools/find-and-replace",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "find-and-replace",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
+      "seoTitle": "Free Find and Replace Text Tool — Regex Online | UtilityMega",
+      "metaDescription": "Find and replace text online. Supports regex, case-sensitive matching and whole-word search. Highlights all matches with orange. Navigate matches one by one. Replace all at once.",
+      "h1": "Find and Replace",
+      "canonicalUrl": "https://utilitymega.com/text-tools/find-and-replace",
+      "keywords": [
+        "find and replace online",
+        "text find replace tool",
+        "regex find replace",
+        "search replace text browser",
+        "bulk text replace",
+        "regular expression replacer"
+      ],
+      "content": "A powerful find-and-replace tool for any text. Features: regex mode (full JavaScript RegExp), case-sensitive toggle, whole-word boundary matching, replace current match or all at once, navigate between matches with arrow buttons. All matches are highlighted in real-time. Replace history shows what was changed. Works on any text — code, documents, data files.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "Can I use regular expressions?",
+          "answer": "Yes. Enable the .* button and use JavaScript RegExp syntax. For example: \\b\\d{10}\\b matches 10-digit numbers; [aeiou] matches any vowel."
+        },
+        {
+          "question": "How do I delete text (replace with nothing)?",
+          "answer": "Leave the 'Replace with' field empty, then click Replace All. The matched text will be deleted."
+        },
+        {
+          "question": "Can I use capture groups in replacement?",
+          "answer": "In regex mode, use $1, $2 etc. in the replacement string to reference capture groups. For example, pattern (\\w+) (\\w+) replaced with $2 $1 swaps two words."
+        }
+      ],
+      "relatedTools": [
+        "word-counter",
+        "duplicate-line-remover",
+        "text-diff-highlighter"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Find and Replace",
-          "item": "https://utilitymega.com/text-tools/find-and-replace"
+          "url": "https://utilitymega.com/text-tools/find-and-replace"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Can I use regular expressions?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Enable regex mode and use JavaScript RegExp syntax."
+      ],
+      "openGraph": {
+        "og:title": "Free Find and Replace Text Tool — Regex Online",
+        "og:description": "Find and replace text with regex support, case sensitivity, whole word matching. Navigate matches, replace all at once.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/find-and-replace",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Find and Replace | UtilityMega",
+        "twitter:description": "Find and replace text with regex. Case-sensitive, whole word, replace all."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Find and Replace",
+        "description": "Find and replace text with regex support, case sensitivity, whole word matching and match navigation.",
+        "url": "https://utilitymega.com/text-tools/find-and-replace",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Find and Replace",
+              "item": "https://utilitymega.com/text-tools/find-and-replace"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "Can I use capture groups in replacement?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Use $1, $2 etc. in replacement to reference capture groups."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I use regular expressions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Enable regex mode and use JavaScript RegExp syntax."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use capture groups in replacement?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Use $1, $2 etc. in replacement to reference capture groups."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-006",
-  "name": "Text to Slug",
-  "slug": "text-to-slug",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
-  "seoTitle": "Free Text to Slug Converter — URL Slug Generator Online | UtilityMega",
-  "metaDescription": "Convert titles to URL-friendly slugs. Choose separator (-, _, .), case, max length. Remove stop words. Transliterate accented characters. Batch converter for multiple titles. Free.",
-  "h1": "Text to URL Slug Converter",
-  "canonicalUrl": "https://utilitymega.com/text-tools/text-to-slug",
-  "keywords": [
-    "text to slug converter",
-    "URL slug generator",
-    "title to URL converter",
-    "slugify text online",
-    "SEO URL generator",
-    "permalink generator",
-    "slug maker"
-  ],
-  "content": "Convert any text or title into a clean, URL-friendly slug. Options: separator character (-, _, ., none), case (lowercase/uppercase/keep), maximum length, remove stop words (the, a, and, etc.) and transliterate accented characters (ñ→n, é→e). Shows four outputs: URL slug, full permalink, HTML anchor ID and filename. Includes a batch converter for processing multiple titles at once.",
-  "faq": [
-    {
-      "question": "What makes a good URL slug?",
-      "answer": "Use hyphens as separators (Google recommends hyphens over underscores), keep it under 60 characters, use lowercase only, remove special characters and stop words, and make it descriptive of the content."
     },
     {
-      "question": "What are stop words and should I remove them?",
-      "answer": "Stop words (the, a, and, or, in, etc.) are common words that add length without SEO value. Removing them makes slugs shorter: 'the-best-way-to-learn' becomes 'best-way-learn'. Optional — some prefer to keep them for readability."
-    },
-    {
-      "question": "What does transliteration do?",
-      "answer": "Transliteration converts accented or special characters to their ASCII equivalents: é→e, ñ→n, ü→u, ç→c. This prevents URL encoding issues (%C3%A9 for é) in the browser address bar."
-    }
-  ],
-  "relatedTools": [
-    "text-case-converter",
-    "find-and-replace",
-    "word-counter"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-006",
       "name": "Text to Slug",
-      "url": "https://utilitymega.com/text-tools/text-to-slug"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Text to Slug Converter — URL Slug Generator Online",
-    "og:description": "Convert titles to URL-friendly slugs. Choose separator, case, max length. Remove stop words, transliterate accents. Batch converter.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/text-to-slug",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Text to Slug Converter | UtilityMega",
-    "twitter:description": "Generate clean URL slugs. Hyphens, underscores, remove stop words."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Text to Slug Converter",
-    "description": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
-    "url": "https://utilitymega.com/text-tools/text-to-slug",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "text-to-slug",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
+      "seoTitle": "Free Text to Slug Converter — URL Slug Generator Online | UtilityMega",
+      "metaDescription": "Convert titles to URL-friendly slugs. Choose separator (-, _, .), case, max length. Remove stop words. Transliterate accented characters. Batch converter for multiple titles. Free.",
+      "h1": "Text to URL Slug Converter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-to-slug",
+      "keywords": [
+        "text to slug converter",
+        "URL slug generator",
+        "title to URL converter",
+        "slugify text online",
+        "SEO URL generator",
+        "permalink generator",
+        "slug maker"
+      ],
+      "content": "Convert any text or title into a clean, URL-friendly slug. Options: separator character (-, _, ., none), case (lowercase/uppercase/keep), maximum length, remove stop words (the, a, and, etc.) and transliterate accented characters (ñ→n, é→e). Shows four outputs: URL slug, full permalink, HTML anchor ID and filename. Includes a batch converter for processing multiple titles at once.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What makes a good URL slug?",
+          "answer": "Use hyphens as separators (Google recommends hyphens over underscores), keep it under 60 characters, use lowercase only, remove special characters and stop words, and make it descriptive of the content."
+        },
+        {
+          "question": "What are stop words and should I remove them?",
+          "answer": "Stop words (the, a, and, or, in, etc.) are common words that add length without SEO value. Removing them makes slugs shorter: 'the-best-way-to-learn' becomes 'best-way-learn'. Optional — some prefer to keep them for readability."
+        },
+        {
+          "question": "What does transliteration do?",
+          "answer": "Transliteration converts accented or special characters to their ASCII equivalents: é→e, ñ→n, ü→u, ç→c. This prevents URL encoding issues (%C3%A9 for é) in the browser address bar."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "find-and-replace",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Text to Slug",
-          "item": "https://utilitymega.com/text-tools/text-to-slug"
+          "url": "https://utilitymega.com/text-tools/text-to-slug"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What makes a good URL slug?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Use hyphens, keep under 60 characters, use lowercase, remove special characters and stop words."
+      ],
+      "openGraph": {
+        "og:title": "Free Text to Slug Converter — URL Slug Generator Online",
+        "og:description": "Convert titles to URL-friendly slugs. Choose separator, case, max length. Remove stop words, transliterate accents. Batch converter.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/text-to-slug",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Text to Slug Converter | UtilityMega",
+        "twitter:description": "Generate clean URL slugs. Hyphens, underscores, remove stop words."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Text to Slug Converter",
+        "description": "Convert any title or text into a clean URL slug with separator, case, max-length and stop-word options.",
+        "url": "https://utilitymega.com/text-tools/text-to-slug",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Text to Slug",
+              "item": "https://utilitymega.com/text-tools/text-to-slug"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What does transliteration do?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Transliteration converts accented characters to ASCII: é→e, ñ→n, ü→u."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What makes a good URL slug?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use hyphens, keep under 60 characters, use lowercase, remove special characters and stop words."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does transliteration do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Transliteration converts accented characters to ASCII: é→e, ñ→n, ü→u."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-007",
-  "name": "Text Reverser",
-  "slug": "text-reverser",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
-  "seoTitle": "Free Text Reverser Online — Reverse Words, Lines & Characters | UtilityMega",
-  "metaDescription": "Reverse text in 6 ways: reverse all characters, reverse words, reverse lines, reverse sentences, flip text upside down (Unicode flipped chars), or mirror (right-to-left). Free browser tool.",
-  "h1": "Text Reverser",
-  "canonicalUrl": "https://utilitymega.com/text-tools/text-reverser",
-  "keywords": [
-    "text reverser online",
-    "reverse text generator",
-    "flip text upside down",
-    "backwards text generator",
-    "reverse words online",
-    "mirror text generator"
-  ],
-  "content": "Reverse text in six different ways: Reverse Characters (olleH), Reverse Words (World Hello), Reverse Lines (last line first), Reverse Sentences, Flip Upside Down (Unicode mapped characters, e.g. ɥǝllo), and Mirror (RTL layout). Each mode is previewed in a card with a live example. Includes a swap button to use the output as new input for chaining transformations.",
-  "faq": [
-    {
-      "question": "How does upside-down text work?",
-      "answer": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters (e.g., ɐ for a, ǝ for e). The text is also reversed so it reads correctly when physically flipped."
     },
     {
-      "question": "Can I reverse just one word?",
-      "answer": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
-    },
-    {
-      "question": "Is upside-down text supported everywhere?",
-      "answer": "Unicode flipped characters display correctly in most modern browsers, mobile devices and apps like Slack and Twitter. Older systems or some fonts may show replacement characters."
-    }
-  ],
-  "relatedTools": [
-    "text-case-converter",
-    "string-encoder",
-    "word-counter"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-007",
       "name": "Text Reverser",
-      "url": "https://utilitymega.com/text-tools/text-reverser"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Text Reverser Online — Reverse Words, Lines & Characters",
-    "og:description": "Reverse text in 6 ways: characters, words, lines, sentences, upside-down (Unicode), and mirror. Free browser tool.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/text-reverser",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Text Reverser | UtilityMega",
-    "twitter:description": "Reverse characters, words, lines, sentences. Flip text upside down or mirror."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Text Reverser",
-    "description": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
-    "url": "https://utilitymega.com/text-tools/text-reverser",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "text-reverser",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
+      "seoTitle": "Free Text Reverser Online — Reverse Words, Lines & Characters | UtilityMega",
+      "metaDescription": "Reverse text in 6 ways: reverse all characters, reverse words, reverse lines, reverse sentences, flip text upside down (Unicode flipped chars), or mirror (right-to-left). Free browser tool.",
+      "h1": "Text Reverser",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-reverser",
+      "keywords": [
+        "text reverser online",
+        "reverse text generator",
+        "flip text upside down",
+        "backwards text generator",
+        "reverse words online",
+        "mirror text generator"
+      ],
+      "content": "Reverse text in six different ways: Reverse Characters (olleH), Reverse Words (World Hello), Reverse Lines (last line first), Reverse Sentences, Flip Upside Down (Unicode mapped characters, e.g. ɥǝllo), and Mirror (RTL layout). Each mode is previewed in a card with a live example. Includes a swap button to use the output as new input for chaining transformations.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "How does upside-down text work?",
+          "answer": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters (e.g., ɐ for a, ǝ for e). The text is also reversed so it reads correctly when physically flipped."
+        },
+        {
+          "question": "Can I reverse just one word?",
+          "answer": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
+        },
+        {
+          "question": "Is upside-down text supported everywhere?",
+          "answer": "Unicode flipped characters display correctly in most modern browsers, mobile devices and apps like Slack and Twitter. Older systems or some fonts may show replacement characters."
+        }
+      ],
+      "relatedTools": [
+        "text-case-converter",
+        "string-encoder",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Text Reverser",
-          "item": "https://utilitymega.com/text-tools/text-reverser"
+          "url": "https://utilitymega.com/text-tools/text-reverser"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How does upside-down text work?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters."
+      ],
+      "openGraph": {
+        "og:title": "Free Text Reverser Online — Reverse Words, Lines & Characters",
+        "og:description": "Reverse text in 6 ways: characters, words, lines, sentences, upside-down (Unicode), and mirror. Free browser tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/text-reverser",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Text Reverser | UtilityMega",
+        "twitter:description": "Reverse characters, words, lines, sentences. Flip text upside down or mirror."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Text Reverser",
+        "description": "Reverse characters, words, lines or sentences — or flip text upside down and mirror it.",
+        "url": "https://utilitymega.com/text-tools/text-reverser",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Text Reverser",
+              "item": "https://utilitymega.com/text-tools/text-reverser"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "Can I reverse just one word?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does upside-down text work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Upside-down text uses special Unicode characters that look like flipped versions of normal letters."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I reverse just one word?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Type a single word and use 'Reverse Characters' to reverse the letters within it."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-008",
-  "name": "Line Sorter",
-  "slug": "line-sorter",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
-  "seoTitle": "Free Line Sorter — Sort Text Lines Online A-Z | UtilityMega",
-  "metaDescription": "Sort text lines alphabetically A-Z or Z-A, by shortest/longest first, or shuffle randomly. Remove duplicates, trim whitespace, natural number sorting. Free browser-based tool.",
-  "h1": "Line Sorter",
-  "canonicalUrl": "https://utilitymega.com/text-tools/line-sorter",
-  "keywords": [
-    "line sorter online",
-    "sort text lines",
-    "alphabetical sorter",
-    "sort list online",
-    "text sorter tool",
-    "sort lines alphabetically",
-    "random line shuffler"
-  ],
-  "content": "Sort any list of lines in multiple ways: A→Z, Z→A, shortest first, longest first, or random shuffle. Options: case-sensitive sorting, trim whitespace, remove duplicates, remove empty lines, natural number sorting (1, 2, 10 instead of 1, 10, 2). Shows input line count, output line count and how many lines were removed. Pre-loaded with an example list containing duplicates and numbered items.",
-  "faq": [
-    {
-      "question": "What is natural number sorting?",
-      "answer": "Natural sorting treats numbers within strings numerically: 1, 2, 10 (natural) vs 1, 10, 2 (lexicographic). For example, 'item10' sorts after 'item9' with natural sorting."
     },
     {
-      "question": "Can I sort CSV or TSV columns?",
-      "answer": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time or use a spreadsheet tool."
-    },
-    {
-      "question": "What happens to case when sorting?",
-      "answer": "With case-insensitive sorting (default), 'Apple', 'apple' and 'APPLE' are treated as the same for comparison. With case-sensitive, uppercase letters sort before lowercase (A < a)."
-    }
-  ],
-  "relatedTools": [
-    "duplicate-line-remover",
-    "find-and-replace",
-    "word-counter"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
+      "id": "tool-text-008",
       "name": "Line Sorter",
-      "url": "https://utilitymega.com/text-tools/line-sorter"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Line Sorter — Sort Text Lines Online A-Z",
-    "og:description": "Sort lines alphabetically, by length, or randomly. Remove duplicates, trim whitespace, natural number sorting. Free tool.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/line-sorter",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Line Sorter | UtilityMega",
-    "twitter:description": "Sort lines A-Z, Z-A, by length, random shuffle. Remove duplicates."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Line Sorter",
-    "description": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
-    "url": "https://utilitymega.com/text-tools/line-sorter",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "slug": "line-sorter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
+      "seoTitle": "Free Line Sorter — Sort Text Lines Online A-Z | UtilityMega",
+      "metaDescription": "Sort text lines alphabetically A-Z or Z-A, by shortest/longest first, or shuffle randomly. Remove duplicates, trim whitespace, natural number sorting. Free browser-based tool.",
+      "h1": "Line Sorter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/line-sorter",
+      "keywords": [
+        "line sorter online",
+        "sort text lines",
+        "alphabetical sorter",
+        "sort list online",
+        "text sorter tool",
+        "sort lines alphabetically",
+        "random line shuffler"
+      ],
+      "content": "Sort any list of lines in multiple ways: A→Z, Z→A, shortest first, longest first, or random shuffle. Options: case-sensitive sorting, trim whitespace, remove duplicates, remove empty lines, natural number sorting (1, 2, 10 instead of 1, 10, 2). Shows input line count, output line count and how many lines were removed. Pre-loaded with an example list containing duplicates and numbered items.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What is natural number sorting?",
+          "answer": "Natural sorting treats numbers within strings numerically: 1, 2, 10 (natural) vs 1, 10, 2 (lexicographic). For example, 'item10' sorts after 'item9' with natural sorting."
+        },
+        {
+          "question": "Can I sort CSV or TSV columns?",
+          "answer": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time or use a spreadsheet tool."
+        },
+        {
+          "question": "What happens to case when sorting?",
+          "answer": "With case-insensitive sorting (default), 'Apple', 'apple' and 'APPLE' are treated as the same for comparison. With case-sensitive, uppercase letters sort before lowercase (A < a)."
+        }
+      ],
+      "relatedTools": [
+        "duplicate-line-remover",
+        "find-and-replace",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Line Sorter",
-          "item": "https://utilitymega.com/text-tools/line-sorter"
+          "url": "https://utilitymega.com/text-tools/line-sorter"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is natural number sorting?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Natural sorting treats numbers within strings numerically: 1, 2, 10 vs 1, 10, 2 (lexicographic)."
+      ],
+      "openGraph": {
+        "og:title": "Free Line Sorter — Sort Text Lines Online A-Z",
+        "og:description": "Sort lines alphabetically, by length, or randomly. Remove duplicates, trim whitespace, natural number sorting. Free tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/line-sorter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Line Sorter | UtilityMega",
+        "twitter:description": "Sort lines A-Z, Z-A, by length, random shuffle. Remove duplicates."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Line Sorter",
+        "description": "Sort lines alphabetically, by length or randomly with deduplication, whitespace trimming and case control.",
+        "url": "https://utilitymega.com/text-tools/line-sorter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Line Sorter",
+              "item": "https://utilitymega.com/text-tools/line-sorter"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "Can I sort CSV or TSV columns?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is natural number sorting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Natural sorting treats numbers within strings numerically: 1, 2, 10 vs 1, 10, 2 (lexicographic)."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I sort CSV or TSV columns?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This tool sorts by whole line. For multi-column sorting, paste a single column at a time."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-009",
-  "name": "String Encoder/Decoder",
-  "slug": "string-encoder",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
-  "seoTitle": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary | UtilityMega",
-  "metaDescription": "Encode or decode strings in 8 formats: HTML entities, URL percent-encoding, Base64, Hexadecimal, Binary, Unicode escape sequences, ASCII codes and ROT13. Shows all encodings at once.",
-  "h1": "String Encoder & Decoder",
-  "canonicalUrl": "https://utilitymega.com/text-tools/string-encoder",
-  "keywords": [
-    "string encoder decoder",
-    "HTML entity encoder",
-    "URL encode decode",
-    "Base64 text encoder",
-    "hex encoder online",
-    "binary text converter",
-    "Unicode escape tool",
-    "ROT13 encoder"
-  ],
-  "content": "Encode or decode text in 8 different formats simultaneously. HTML Entities: converts < > & \" ' © to safe HTML codes. URL: percent-encodes for safe use in URLs. Base64: converts to/from Base64. Hex: converts to/from hexadecimal byte representation. Binary: converts to/from 8-bit binary. Unicode: converts to/from \\uXXXX escape sequences. ASCII: converts to/from ASCII code numbers. ROT13: Caesar cipher with 13-letter shift. Shows all 8 encodings at once for quick comparison.",
-  "faq": [
-    {
-      "question": "When do I need HTML entity encoding?",
-      "answer": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;, & becomes &amp;. Always encode user input in HTML output."
     },
     {
-      "question": "What is the difference between URL encode and HTML encode?",
-      "answer": "URL encoding converts characters for safe use in URLs (%20 for space). HTML encoding converts characters for safe display in HTML (&lt; for <). They're used in different contexts."
-    },
-    {
-      "question": "What is ROT13?",
-      "answer": "ROT13 is a simple Caesar cipher that shifts letters 13 positions. Since 13+13=26 (full alphabet), encoding and decoding use the same operation. It's used for spoiler text and simple obfuscation."
-    }
-  ],
-  "relatedTools": [
-    "find-and-replace",
-    "text-case-converter",
-    "text-to-slug"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
-      "name": "String Encoder",
-      "url": "https://utilitymega.com/text-tools/string-encoder"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary",
-    "og:description": "Encode or decode strings in 8 formats: HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII, ROT13. Shows all at once.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/string-encoder",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free String Encoder & Decoder | UtilityMega",
-    "twitter:description": "8 formats: HTML, URL, Base64, Hex, Binary, Unicode, ASCII, ROT13."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "String Encoder & Decoder",
-    "description": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
-    "url": "https://utilitymega.com/text-tools/string-encoder",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "id": "tool-text-009",
+      "name": "String Encoder/Decoder",
+      "slug": "string-encoder",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
+      "seoTitle": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary | UtilityMega",
+      "metaDescription": "Encode or decode strings in 8 formats: HTML entities, URL percent-encoding, Base64, Hexadecimal, Binary, Unicode escape sequences, ASCII codes and ROT13. Shows all encodings at once.",
+      "h1": "String Encoder & Decoder",
+      "canonicalUrl": "https://utilitymega.com/text-tools/string-encoder",
+      "keywords": [
+        "string encoder decoder",
+        "HTML entity encoder",
+        "URL encode decode",
+        "Base64 text encoder",
+        "hex encoder online",
+        "binary text converter",
+        "Unicode escape tool",
+        "ROT13 encoder"
+      ],
+      "content": "Encode or decode text in 8 different formats simultaneously. HTML Entities: converts < > & \" ' © to safe HTML codes. URL: percent-encodes for safe use in URLs. Base64: converts to/from Base64. Hex: converts to/from hexadecimal byte representation. Binary: converts to/from 8-bit binary. Unicode: converts to/from \\uXXXX escape sequences. ASCII: converts to/from ASCII code numbers. ROT13: Caesar cipher with 13-letter shift. Shows all 8 encodings at once for quick comparison.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "When do I need HTML entity encoding?",
+          "answer": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;, & becomes &amp;. Always encode user input in HTML output."
+        },
+        {
+          "question": "What is the difference between URL encode and HTML encode?",
+          "answer": "URL encoding converts characters for safe use in URLs (%20 for space). HTML encoding converts characters for safe display in HTML (&lt; for <). They're used in different contexts."
+        },
+        {
+          "question": "What is ROT13?",
+          "answer": "ROT13 is a simple Caesar cipher that shifts letters 13 positions. Since 13+13=26 (full alphabet), encoding and decoding use the same operation. It's used for spoiler text and simple obfuscation."
+        }
+      ],
+      "relatedTools": [
+        "find-and-replace",
+        "text-case-converter",
+        "text-to-slug"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "String Encoder",
-          "item": "https://utilitymega.com/text-tools/string-encoder"
+          "url": "https://utilitymega.com/text-tools/string-encoder"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "When do I need HTML entity encoding?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;."
+      ],
+      "openGraph": {
+        "og:title": "Free String Encoder & Decoder — HTML, URL, Base64, Hex, Binary",
+        "og:description": "Encode or decode strings in 8 formats: HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII, ROT13. Shows all at once.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/string-encoder",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free String Encoder & Decoder | UtilityMega",
+        "twitter:description": "8 formats: HTML, URL, Base64, Hex, Binary, Unicode, ASCII, ROT13."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "String Encoder & Decoder",
+        "description": "Encode and decode strings as HTML entities, URL, Base64, Hex, Binary, Unicode escape, ASCII and ROT13.",
+        "url": "https://utilitymega.com/text-tools/string-encoder",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "String Encoder",
+              "item": "https://utilitymega.com/text-tools/string-encoder"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is ROT13?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "ROT13 is a Caesar cipher shifting letters 13 positions. Encoding and decoding use the same operation."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "When do I need HTML entity encoding?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Encode text before inserting into HTML to prevent XSS attacks: < becomes &lt;, > becomes &gt;."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is ROT13?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ROT13 is a Caesar cipher shifting letters 13 positions. Encoding and decoding use the same operation."
+            }
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "id": "tool-text-010",
-  "name": "Text Diff Highlighter",
-  "slug": "text-diff-highlighter",
-  "categorySlug": "text-tools",
-  "categoryName": "Text Tools",
-  "shortDescription": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
-  "seoTitle": "Free Text Diff Highlighter — Compare Two Texts Online | UtilityMega",
-  "metaDescription": "Compare two texts with color-coded diff view. Highlights added (green), removed (red) and unchanged lines. Side-by-side or unified view. Line, word or character-level comparison.",
-  "h1": "Text Diff Highlighter",
-  "canonicalUrl": "https://utilitymega.com/text-tools/text-diff-highlighter",
-  "keywords": [
-    "text diff tool",
-    "compare two texts online",
-    "text difference highlighter",
-    "diff checker text",
-    "find text differences",
-    "side by side text compare"
-  ],
-  "content": "Compare two versions of text with a color-coded diff view. Three comparison granularities: line-by-line (default), word-by-word or character-by-character. Two viewing modes: side-by-side (original vs modified in parallel columns) and unified (single stream with + and - markers). Shows statistics: added items, removed items and unchanged items. Copy the diff output to clipboard.",
-  "faq": [
-    {
-      "question": "What do the colors mean?",
-      "answer": "Green background: lines added in the modified version. Red background: lines removed (present in original, not in modified). No color: unchanged lines present in both."
     },
     {
-      "question": "What is the difference between line, word and character diff?",
-      "answer": "Line diff compares whole lines — best for code and documents. Word diff shows which words changed within lines. Character diff shows individual character changes — most granular, best for short texts."
-    },
-    {
-      "question": "Is this tool good for comparing code?",
-      "answer": "Yes for simple comparisons. For advanced code diffing with syntax highlighting, indentation-aware comparison and git-style output, use the Developer Tools diff checker which has more programming-specific features."
-    }
-  ],
-  "relatedTools": [
-    "find-and-replace",
-    "duplicate-line-remover",
-    "word-counter"
-  ],
-  "isPopular": false,
-  "isFeatured": false,
-  "breadcrumbs": [
-    {
-      "name": "Home",
-      "url": "https://utilitymega.com"
-    },
-    {
-      "name": "Text Tools",
-      "url": "https://utilitymega.com/text-tools"
-    },
-    {
-      "name": "Text Diff",
-      "url": "https://utilitymega.com/text-tools/text-diff-highlighter"
-    }
-  ],
-  "openGraph": {
-    "og:title": "Free Text Diff Highlighter — Compare Two Texts Online",
-    "og:description": "Compare two texts with color-coded diff view. Side-by-side or unified view. Line, word or character-level comparison. Free tool.",
-    "og:type": "website",
-    "og:url": "https://utilitymega.com/text-tools/text-diff-highlighter",
-    "og:site_name": "UtilityMega"
-  },
-  "twitterCard": {
-    "twitter:card": "summary_large_image",
-    "twitter:title": "Free Text Diff Highlighter | UtilityMega",
-    "twitter:description": "Compare texts, see additions and deletions. Side-by-side or unified view."
-  },
-  "jsonLd": {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Text Diff Highlighter",
-    "description": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
-    "url": "https://utilitymega.com/text-tools/text-diff-highlighter",
-    "applicationCategory": "UtilityApplication",
-    "operatingSystem": "All",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "breadcrumb": {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      "id": "tool-text-010",
+      "name": "Text Diff Highlighter",
+      "slug": "text-diff-highlighter",
+      "categorySlug": "text-tools",
+      "categoryName": "Text Tools",
+      "shortDescription": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
+      "seoTitle": "Free Text Diff Highlighter — Compare Two Texts Online | UtilityMega",
+      "metaDescription": "Compare two texts with color-coded diff view. Highlights added (green), removed (red) and unchanged lines. Side-by-side or unified view. Line, word or character-level comparison.",
+      "h1": "Text Diff Highlighter",
+      "canonicalUrl": "https://utilitymega.com/text-tools/text-diff-highlighter",
+      "keywords": [
+        "text diff tool",
+        "compare two texts online",
+        "text difference highlighter",
+        "diff checker text",
+        "find text differences",
+        "side by side text compare"
+      ],
+      "content": "Compare two versions of text with a color-coded diff view. Three comparison granularities: line-by-line (default), word-by-word or character-by-character. Two viewing modes: side-by-side (original vs modified in parallel columns) and unified (single stream with + and - markers). Shows statistics: added items, removed items and unchanged items. Copy the diff output to clipboard.",
+      "faq": [
         {
-          "@type": "ListItem",
-          "position": 1,
+          "question": "What do the colors mean?",
+          "answer": "Green background: lines added in the modified version. Red background: lines removed (present in original, not in modified). No color: unchanged lines present in both."
+        },
+        {
+          "question": "What is the difference between line, word and character diff?",
+          "answer": "Line diff compares whole lines — best for code and documents. Word diff shows which words changed within lines. Character diff shows individual character changes — most granular, best for short texts."
+        },
+        {
+          "question": "Is this tool good for comparing code?",
+          "answer": "Yes for simple comparisons. For advanced code diffing with syntax highlighting, indentation-aware comparison and git-style output, use the Developer Tools diff checker which has more programming-specific features."
+        }
+      ],
+      "relatedTools": [
+        "find-and-replace",
+        "duplicate-line-remover",
+        "word-counter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
           "name": "Home",
-          "item": "https://utilitymega.com"
+          "url": "https://utilitymega.com"
         },
         {
-          "@type": "ListItem",
-          "position": 2,
           "name": "Text Tools",
-          "item": "https://utilitymega.com/text-tools"
+          "url": "https://utilitymega.com/text-tools"
         },
         {
-          "@type": "ListItem",
-          "position": 3,
           "name": "Text Diff",
-          "item": "https://utilitymega.com/text-tools/text-diff-highlighter"
+          "url": "https://utilitymega.com/text-tools/text-diff-highlighter"
         }
-      ]
-    }
-  },
-  "faqSchema": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What do the colors mean?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Green: lines added. Red: lines removed. No color: unchanged lines."
+      ],
+      "openGraph": {
+        "og:title": "Free Text Diff Highlighter — Compare Two Texts Online",
+        "og:description": "Compare two texts with color-coded diff view. Side-by-side or unified view. Line, word or character-level comparison. Free tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/text-tools/text-diff-highlighter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Text Diff Highlighter | UtilityMega",
+        "twitter:description": "Compare texts, see additions and deletions. Side-by-side or unified view."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Text Diff Highlighter",
+        "description": "Compare two texts side-by-side or unified with highlighted additions, deletions and unchanged content.",
+        "url": "https://utilitymega.com/text-tools/text-diff-highlighter",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Text Tools",
+              "item": "https://utilitymega.com/text-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Text Diff",
+              "item": "https://utilitymega.com/text-tools/text-diff-highlighter"
+            }
+          ]
         }
       },
-      {
-        "@type": "Question",
-        "name": "What is the difference between line, word and character diff?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Line diff compares whole lines. Word diff shows which words changed. Character diff shows individual character changes."
-        }
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What do the colors mean?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Green: lines added. Red: lines removed. No color: unchanged lines."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between line, word and character diff?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Line diff compares whole lines. Word diff shows which words changed. Character diff shows individual character changes."
+            }
+          }
+        ]
       }
-    ]
-  }
-}
+    }
   ]
 }
