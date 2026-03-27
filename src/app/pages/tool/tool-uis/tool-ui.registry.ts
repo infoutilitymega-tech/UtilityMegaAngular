@@ -12,6 +12,7 @@ import { CalorieCalculatorComponent } from './calorie-calculator.component';
 import { DiscountCalculatorComponent } from './discount-calculator.component';
 import { RetirementCalculatorComponent } from './retirement-calculator.component';
 
+
 // ── Image Tools ───────────────────────────────────────────────────────────────
 import { ImageCompressorComponent } from './image-compressor.component';
 import { ImageResizerComponent } from './image-resizer.component';
@@ -70,6 +71,10 @@ import { WeatherCropAdvisorComponent, MspCalculatorComponent } from './weather-m
 import { LoremIpsumGeneratorComponent, DuplicateLineRemoverComponent, FindReplaceComponent } from './lorem-duplicate-findreplace.component';
 import { TextToSlugComponent, TextReverserComponent, LineSorterComponent, StringEncoderComponent, TextDiffHighlighterComponent } from './slug-reverser-sorter-encoder-diff.component';
 import { CagrCalculatorComponent, CurrencyConverterComponent, FdCalculatorComponent, FuelCostCalculatorComponent, LoanComparisonComponent, PpfCalculatorComponent, RdCalculatorComponent, TipCalculatorComponent, VatCalculatorComponent } from './calculator-all.component';
+import { VideoCompressorComponent, VideoConverterComponent } from './video-compressor-converter.component';
+import { GifMakerComponent, VideoTrimmerComponent } from './video-trimmer-gif.component';
+import { ScreenRecorderComponent, VideoMergerComponent, VideoRotateComponent, VideoSubtitleAdderComponent } from './video-rotate-recorder-subtitle-merger.component';
+import { VideoSpeedChangerComponent, VideoToMp3Component } from './video-mp3-speed.component';
 
 
 /**
@@ -112,6 +117,18 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'jpg-to-png': JpgToPngComponent,
   'image-color-picker': ImageColorPickerComponent,
   'image-to-base64': ImageToBase64Component,
+
+  // Video Tools
+  'video-compressor': VideoCompressorComponent,
+  'video-converter': VideoConverterComponent,
+  'video-trimmer': VideoTrimmerComponent,
+  'gif-maker': GifMakerComponent,
+  'video-to-mp3': VideoToMp3Component,
+  'video-merger': VideoMergerComponent,
+  'screen-recorder': ScreenRecorderComponent,
+  'video-speed-changer': VideoSpeedChangerComponent,
+  'video-rotate': VideoRotateComponent,
+  'video-subtitle-adder': VideoSubtitleAdderComponent,
 
   // Developer Tools
   'json-formatter': JsonFormatterComponent,

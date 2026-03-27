@@ -4261,288 +4261,6 @@
       }
     },
     {
-      "id": "tool-005",
-      "name": "Video Compressor",
-      "slug": "video-compressor",
-      "categorySlug": "video-tools",
-      "categoryName": "Video Tools",
-      "shortDescription": "Compress video files online to reduce size while maintaining quality.",
-      "seoTitle": "Free Video Compressor - Reduce Video File Size Online",
-      "metaDescription": "Compress video files online for free. Reduce MP4, AVI, MOV file size without watermarks. Browser-based video compression tool.",
-      "h1": "Video Compressor — Compress Video Online Free",
-      "canonicalUrl": "https://utilitymega.com/video-tools/video-compressor",
-      "keywords": [
-        "video compressor",
-        "compress video online",
-        "reduce video size",
-        "MP4 compressor",
-        "video optimizer",
-        "shrink video file",
-        "video file reducer",
-        "online video compression"
-      ],
-      "content": "Video files are among the largest digital assets you will work with. A single minute of 1080p video can be 100–400MB in size. For websites, apps, email attachments, or social media, large video files create significant upload, download, and storage challenges. Our free video compressor solves this problem with browser-based video compression technology.\n\nUsing WebCodecs API and FFmpeg.wasm, our tool compresses video directly in your browser without uploading files to a server. Your privacy is protected, and compression can begin immediately without file size limits imposed by server infrastructure.\n\nVideo Compression Techniques\n\nVideo compression works by eliminating redundant information between frames (temporal compression) and within individual frames (spatial compression). Modern codecs like H.264 (AVC) and H.265 (HEVC) are highly efficient at this. Our tool uses H.264 encoding by default with configurable quality settings using the CRF (Constant Rate Factor) scale.\n\nTarget File Size vs Bitrate Control\n\nYou can compress by setting a target file size (e.g., reduce to under 25MB) or by controlling the output bitrate. Lower bitrate means smaller file but lower quality. For general web use, 2–4 Mbps for 1080p video provides excellent quality. For 720p, 1–2 Mbps is sufficient.\n\nResolution and Frame Rate Optimization\n\nSometimes the best compression strategy is reducing resolution or frame rate. A 4K video downscaled to 1080p is typically 4x smaller. Reducing frame rate from 60fps to 30fps halves the temporal data. Our tool supports resolution and frame rate adjustment alongside bitrate control.\n\nPlatform-Specific Compression Presets\n\nWe provide optimized compression presets for YouTube (recommended bitrates per resolution), WhatsApp (under 16MB), Instagram (under 100MB, 1:1 or 4:5 ratio), email attachments, and general web embedding. These presets take the guesswork out of compression settings.\n\nFor content creators, bloggers, and marketing teams producing video content regularly, having a fast, free, privacy-respecting video compressor in the browser is a significant workflow improvement. No more waiting for cloud uploads or worrying about sensitive footage being stored on third-party servers.",
-      "faq": [
-        {
-          "question": "What video formats can I compress?",
-          "answer": "Our video compressor supports MP4, AVI, MOV, MKV, WebM, and FLV formats. Output is MP4 (H.264) by default, which has the best compatibility across all devices and platforms."
-        },
-        {
-          "question": "Is video compression done on the server?",
-          "answer": "No. All video processing uses FFmpeg.wasm running in your browser. Your video files never leave your device, ensuring complete privacy."
-        },
-        {
-          "question": "How much can I compress a video?",
-          "answer": "Typical compression ratios are 50–80% file size reduction with minimal visible quality loss. A 100MB video can often be reduced to 20–40MB while remaining crisp on most screens."
-        },
-        {
-          "question": "How long does video compression take?",
-          "answer": "Browser-based compression speed depends on your device's CPU. A 1-minute 1080p video typically takes 1–3 minutes to compress on a modern laptop. Mobile devices may take longer."
-        },
-        {
-          "question": "Will there be any watermark on my compressed video?",
-          "answer": "Absolutely not. Our video compressor is completely free with no watermarks added. What you compress is exactly what you download."
-        }
-      ],
-      "relatedTools": [
-        "video-converter",
-        "video-trimmer",
-        "gif-maker"
-      ],
-      "isPopular": true,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Video Tools",
-          "url": "https://utilitymega.com/video-tools"
-        },
-        {
-          "name": "Video Compressor",
-          "url": "https://utilitymega.com/video-tools/video-compressor"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Video Compressor - Reduce Video File Size Online",
-        "og:description": "Compress MP4, AVI, MOV video files free. No watermarks, no server upload, browser-based.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/video-tools/video-compressor",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Video Compressor | UtilityMega",
-        "twitter:description": "Compress videos 50-80% free. No watermarks, browser-based."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Video Compressor",
-        "description": "Compress video files online without watermarks. Browser-based using FFmpeg.wasm.",
-        "url": "https://utilitymega.com/video-tools/video-compressor",
-        "applicationCategory": "MultimediaApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Video Tools",
-              "item": "https://utilitymega.com/video-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Video Compressor",
-              "item": "https://utilitymega.com/video-tools/video-compressor"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What video formats can I compress?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Our video compressor supports MP4, AVI, MOV, MKV, WebM, and FLV formats. Output is MP4 (H.264) by default, which has the best compatibility across all devices and platforms."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is video compression done on the server?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. All video processing uses FFmpeg.wasm running in your browser. Your video files never leave your device, ensuring complete privacy."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Will there be any watermark on my compressed video?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Absolutely not. Our video compressor is completely free with no watermarks added. What you compress is exactly what you download."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "tool-006",
-      "name": "Video Converter",
-      "slug": "video-converter",
-      "categorySlug": "video-tools",
-      "categoryName": "Video Tools",
-      "shortDescription": "Convert video files between MP4, AVI, MOV, WebM and other formats free.",
-      "seoTitle": "Free Video Converter - Convert MP4, AVI, MOV Online",
-      "metaDescription": "Convert video files online for free. Convert between MP4, AVI, MOV, WebM, MKV formats. No watermark, no signup required.",
-      "h1": "Video Converter — Convert Video Formats Online Free",
-      "canonicalUrl": "https://utilitymega.com/video-tools/video-converter",
-      "keywords": [
-        "video converter",
-        "convert video online",
-        "MP4 converter",
-        "AVI to MP4",
-        "MOV to MP4",
-        "WebM converter",
-        "free video converter",
-        "online video format converter"
-      ],
-      "content": "Video format compatibility is a constant challenge in digital workflows. A video recorded on iPhone is in MOV format, but it may not play on older Android devices or Windows Media Player. A WebM file optimized for web won't open in Adobe Premiere. Our free video converter eliminates these compatibility headaches by converting between all major video formats entirely within your browser.\n\nSupported Conversions\n\nOur video converter handles all common format conversions: MOV to MP4, AVI to MP4, WebM to MP4, MKV to MP4, MP4 to AVI, MP4 to WebM, and dozens of other format combinations. MP4 with H.264 codec is the universally compatible output for most use cases.\n\nUnderstanding Video Codecs vs Containers\n\nMany people confuse video format (container) with codec. A .mp4 file is a container that can hold H.264, H.265, or even AV1 video codec. A .mov file is Apple's QuickTime container. When converting, you choose both the container format and the codec. Our tool handles this complexity automatically, selecting optimal codec settings for each output format.\n\nWhich Format Should You Use?\n\nMP4 (H.264): Best for universal compatibility — plays on every device, accepted by every platform. WebM (VP9): Best for web browsers and YouTube — similar quality to H.264 at smaller file sizes. MOV: Best for Apple ecosystem and professional video editing. AVI: Legacy format with wide software support but larger files. MKV: Best for high-quality video storage with multiple audio tracks and subtitles.\n\nAudio Conversion Support\n\nWhen converting video formats, audio tracks are automatically re-encoded to match the target container. You can optionally extract audio as MP3 or AAC, which is useful for creating podcast episodes or audio-only versions from video content.\n\nFor content creators uploading to multiple platforms simultaneously, having the right format for each platform is essential. YouTube prefers MP4, Instagram requires specific aspect ratios and duration limits, and TikTok has its own requirements. Our converter handles all these needs efficiently without server uploads or per-conversion fees.",
-      "faq": [
-        {
-          "question": "What is the best video format for web use?",
-          "answer": "MP4 with H.264 encoding is the best choice for web compatibility. For modern browsers, WebM with VP9 offers better compression. Always provide MP4 as a fallback."
-        },
-        {
-          "question": "Can I convert video without losing quality?",
-          "answer": "Every encoding involves some quality loss (transcode loss). To minimize this, use high quality settings in the converter. Converting to the same codec is more quality-preserving than cross-codec conversion."
-        },
-        {
-          "question": "Is there a file size limit for video conversion?",
-          "answer": "Browser-based conversion is limited by your device's available RAM. Practically, videos up to 2GB can be converted on most modern computers with 8GB or more RAM."
-        },
-        {
-          "question": "How long does video conversion take?",
-          "answer": "Conversion speed depends on video length, resolution, and your device's CPU. A 5-minute HD video typically converts in 2–5 minutes on a modern computer."
-        },
-        {
-          "question": "Can I convert multiple videos at once?",
-          "answer": "Currently, our free tool processes one video at a time. For bulk video conversion, we recommend queuing videos one after another while the first conversion completes."
-        }
-      ],
-      "relatedTools": [
-        "video-compressor",
-        "video-trimmer",
-        "gif-maker"
-      ],
-      "isPopular": false,
-      "isFeatured": false,
-      "breadcrumbs": [
-        {
-          "name": "Home",
-          "url": "https://utilitymega.com"
-        },
-        {
-          "name": "Video Tools",
-          "url": "https://utilitymega.com/video-tools"
-        },
-        {
-          "name": "Video Converter",
-          "url": "https://utilitymega.com/video-tools/video-converter"
-        }
-      ],
-      "openGraph": {
-        "og:title": "Free Video Converter - Convert MP4, AVI, MOV Online",
-        "og:description": "Convert between all video formats free. MOV to MP4, AVI to MP4, WebM and more. No watermark.",
-        "og:type": "website",
-        "og:url": "https://utilitymega.com/video-tools/video-converter",
-        "og:site_name": "UtilityMega"
-      },
-      "twitterCard": {
-        "twitter:card": "summary_large_image",
-        "twitter:title": "Free Video Converter | UtilityMega",
-        "twitter:description": "Convert MP4, AVI, MOV, WebM, MKV formats free. No watermark."
-      },
-      "jsonLd": {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Video Converter",
-        "description": "Convert video files between all major formats. Browser-based, no watermarks.",
-        "url": "https://utilitymega.com/video-tools/video-converter",
-        "applicationCategory": "MultimediaApplication",
-        "operatingSystem": "All",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "breadcrumb": {
-          "@type": "BreadcrumbList",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://utilitymega.com"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Video Tools",
-              "item": "https://utilitymega.com/video-tools"
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Video Converter",
-              "item": "https://utilitymega.com/video-tools/video-converter"
-            }
-          ]
-        }
-      },
-      "faqSchema": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the best video format for web use?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "MP4 with H.264 encoding is the best choice for web compatibility. For modern browsers, WebM with VP9 offers better compression. Always provide MP4 as a fallback."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I convert video without losing quality?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Every encoding involves some quality loss (transcode loss). To minimize this, use high quality settings in the converter. Converting to the same codec is more quality-preserving than cross-codec conversion."
-            }
-          }
-        ]
-      }
-    },
-    {
       "id": "seo-001",
       "name": "Meta Tag Generator",
       "slug": "meta-tag-generator",
@@ -13384,6 +13102,1276 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Line diff compares whole lines. Word diff shows which words changed. Character diff shows individual character changes."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-001",
+      "name": "Video Compressor",
+      "slug": "video-compressor",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Reduce video file size while preserving quality — choose resolution, codec, and target file size.",
+      "seoTitle": "Free Video Compressor Online — Reduce Video File Size | UtilityMega",
+      "metaDescription": "Compress video files online to reduce size. Choose resolution (4K to 360p), codec (H.264/H.265/VP9), quality and target file size. 100% browser-based, no upload required.",
+      "h1": "Video Compressor",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-compressor",
+      "keywords": [
+        "video compressor online",
+        "reduce video file size",
+        "compress video without losing quality",
+        "video size reducer",
+        "H.264 compressor",
+        "video MB reducer"
+      ],
+      "content": "Reduce video file size with precise control over resolution, codec and quality. Four presets: Web (~30%), Balanced (~50%), Quality (~75%) and Max quality. Supports MP4 (H.264), MP4 (H.265/HEVC) and WebM (VP9) output. Shows estimated output size and percentage reduction before compressing. Real implementation requires FFmpeg.wasm (client-side) or a server API.",
+      "faq": [
+        {
+          "question": "How much can I reduce my video size?",
+          "answer": "Dropping resolution from 4K to 1080p reduces size by ~75%. Changing from H.264 to H.265 saves another 40–50%. Combined, a 4K H.265 video at 50% quality can be 90% smaller than the original."
+        },
+        {
+          "question": "What is H.265/HEVC?",
+          "answer": "H.265 (High Efficiency Video Coding) compresses video 40–50% better than H.264 at the same quality. It's supported on all modern devices but may have limited browser support."
+        },
+        {
+          "question": "Will compression reduce video quality?",
+          "answer": "Compression always trades some quality for smaller size. At 65–80% quality setting with the Balanced preset, the quality loss is generally imperceptible on a phone or laptop screen."
+        }
+      ],
+      "relatedTools": [
+        "video-converter",
+        "video-trimmer",
+        "video-rotate"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Compressor",
+          "url": "https://utilitymega.com/video-tools/video-compressor"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Compressor Online — Reduce Video File Size",
+        "og:description": "Compress video files online to reduce size. Choose resolution, codec, quality and target file size. Browser-based, no upload.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-compressor",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Compressor | UtilityMega",
+        "twitter:description": "Reduce video size with H.264/H.265/VP9. Estimated output size preview."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Compressor",
+        "description": "Reduce video file size while preserving quality with resolution, codec, and target file size options.",
+        "url": "https://utilitymega.com/video-tools/video-compressor",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Compressor",
+              "item": "https://utilitymega.com/video-tools/video-compressor"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much can I reduce my video size?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dropping resolution from 4K to 1080p reduces size by ~75%. H.265 saves another 40-50%."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is H.265/HEVC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "H.265 compresses video 40-50% better than H.264 at the same quality."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-002",
+      "name": "Video Converter",
+      "slug": "video-converter",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Convert video between MP4, WebM, MOV, AVI, MKV and GIF formats with codec and resolution control.",
+      "seoTitle": "Free Video Format Converter Online — MP4 WebM MOV AVI | UtilityMega",
+      "metaDescription": "Convert video to MP4, WebM, MOV, AVI, MKV or GIF. Choose video codec (H.264, H.265, VP9), audio codec, resolution and frame rate. Browser-based with no file upload.",
+      "h1": "Video Format Converter",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-converter",
+      "keywords": [
+        "video converter online",
+        "convert video to MP4",
+        "convert MP4 to WebM",
+        "video format changer",
+        "MOV to MP4 converter",
+        "AVI to MP4 online"
+      ],
+      "content": "Convert between 6 video formats: MP4 (H.264), WebM (VP9), MOV (QuickTime), AVI, MKV and GIF. Advanced settings let you choose video codec, audio codec, resolution and frame rate. Includes a format comparison guide showing best use cases, quality, file size and compatibility for each format.",
+      "faq": [
+        {
+          "question": "What is the best format for web video?",
+          "answer": "MP4 (H.264) is the safest choice — plays on all devices and browsers. WebM (VP9) is smaller and great for modern browsers. Use MP4 as a fallback."
+        },
+        {
+          "question": "Why convert MOV to MP4?",
+          "answer": "MOV (QuickTime) is Apple's native format. It plays fine on Macs but may require QuickTime on Windows. MP4 plays natively everywhere."
+        },
+        {
+          "question": "Can I convert video to GIF?",
+          "answer": "Yes. GIF conversion is great for short loops (under 10 seconds). For social sharing, use the dedicated GIF Maker tool for better control over size, frame rate and dimensions."
+        }
+      ],
+      "relatedTools": [
+        "video-compressor",
+        "gif-maker",
+        "video-trimmer"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Converter",
+          "url": "https://utilitymega.com/video-tools/video-converter"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Format Converter Online — MP4 WebM MOV AVI",
+        "og:description": "Convert video to MP4, WebM, MOV, AVI, MKV or GIF. Choose codec, resolution, frame rate. Browser-based.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-converter",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Converter | UtilityMega",
+        "twitter:description": "Convert between MP4, WebM, MOV, AVI, MKV, GIF. Codec and resolution control."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Converter",
+        "description": "Convert video between MP4, WebM, MOV, AVI, MKV and GIF formats with codec and resolution control.",
+        "url": "https://utilitymega.com/video-tools/video-converter",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Converter",
+              "item": "https://utilitymega.com/video-tools/video-converter"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best format for web video?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MP4 (H.264) is the safest choice — plays on all devices and browsers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why convert MOV to MP4?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MOV plays fine on Macs but may require QuickTime on Windows. MP4 plays natively everywhere."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-003",
+      "name": "Video Trimmer",
+      "slug": "video-trimmer",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Trim video clips to exact start and end points with a visual timeline and drag handles.",
+      "seoTitle": "Free Video Trimmer Online — Cut Video Clips in Browser | UtilityMega",
+      "metaDescription": "Trim video to exact start and end points. Visual timeline with draggable handles, preview playback and quick presets. Cut first/last 30s, first half, or any custom range. No upload.",
+      "h1": "Video Trimmer & Cutter",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-trimmer",
+      "keywords": [
+        "video trimmer online",
+        "cut video online",
+        "trim video free",
+        "video cutter browser",
+        "cut video without software",
+        "trim MP4 online"
+      ],
+      "content": "Trim videos with a visual timeline and draggable orange handles. Preview the trimmed clip before exporting. Type exact start/end times in the time fields. Quick presets: First 30s, Last 30s, First half, Middle section. Volume control and fullscreen preview included. Supports MP4, WebM, MOV and other browser-supported formats.",
+      "faq": [
+        {
+          "question": "Is the trim frame-accurate?",
+          "answer": "Browser-based trimming has sub-second accuracy using the HTML5 video timeline. For frame-accurate cuts (single-frame precision), use FFmpeg.wasm or desktop editing software."
+        },
+        {
+          "question": "What happens to the audio when trimming?",
+          "answer": "Audio is trimmed to match the video clip automatically. The same start/end points apply to both video and audio tracks."
+        },
+        {
+          "question": "Can I trim multiple sections?",
+          "answer": "This tool trims a single continuous range. For multi-cut editing with non-contiguous sections, use the Video Merger tool — trim each section separately then merge."
+        }
+      ],
+      "relatedTools": [
+        "video-merger",
+        "video-compressor",
+        "video-speed-changer"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Trimmer",
+          "url": "https://utilitymega.com/video-tools/video-trimmer"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Trimmer Online — Cut Video Clips in Browser",
+        "og:description": "Trim video to exact start and end points. Visual timeline with draggable handles, preview playback, quick presets. No upload.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-trimmer",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Trimmer | UtilityMega",
+        "twitter:description": "Trim video clips with visual timeline, drag handles, quick presets."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Trimmer",
+        "description": "Trim video clips to exact start and end points with a visual timeline and drag handles.",
+        "url": "https://utilitymega.com/video-tools/video-trimmer",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Trimmer",
+              "item": "https://utilitymega.com/video-tools/video-trimmer"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is the trim frame-accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Browser-based trimming has sub-second accuracy using the HTML5 video timeline."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I trim multiple sections?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This tool trims a single continuous range. For multiple sections, use the Video Merger tool."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-004",
+      "name": "GIF Maker",
+      "slug": "gif-maker",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Convert video clips to animated GIFs with control over size, frame rate, quality and loop count.",
+      "seoTitle": "Free Video to GIF Maker Online — Create Animated GIFs | UtilityMega",
+      "metaDescription": "Convert any video to an animated GIF. Set clip range, output width (240–960px), frame rate (5–25fps), quality and loop behavior. Preview before download. Browser-based.",
+      "h1": "Video to GIF Maker",
+      "canonicalUrl": "https://utilitymega.com/video-tools/gif-maker",
+      "keywords": [
+        "video to GIF converter",
+        "GIF maker online",
+        "make animated GIF from video",
+        "create GIF from video",
+        "MP4 to GIF online",
+        "screen recording to GIF"
+      ],
+      "content": "Convert video clips to animated GIFs with full control over every parameter. Set clip start/end time, output width (240px small to 960px HD), frame rate (5–25fps) and colour quality. Four quality presets. Choose infinite loop, play once or loop 3 times. Estimates GIF file size before generating. Best for 3–6 second clips — longer clips create very large files.",
+      "faq": [
+        {
+          "question": "Why are GIFs so large?",
+          "answer": "GIF uses an old 8-bit colour palette (max 256 colors per frame) and frame-by-frame compression without inter-frame prediction. A 5-second 480px GIF at 10fps can easily be 5–15MB."
+        },
+        {
+          "question": "GIF vs WebP vs AVIF for animation?",
+          "answer": "Modern formats like WebP and AVIF animated images are 5–10x smaller than GIF with better quality. But GIF still has universal support everywhere — email, Slack, social media — that WebP doesn't."
+        },
+        {
+          "question": "What is the best frame rate for GIFs?",
+          "answer": "10fps is the sweet spot — smooth enough for most motion, small enough file size. Use 15–25fps for fast motion like sports; use 5fps for slow/static content."
+        }
+      ],
+      "relatedTools": [
+        "video-trimmer",
+        "video-converter",
+        "video-compressor"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "GIF Maker",
+          "url": "https://utilitymega.com/video-tools/gif-maker"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video to GIF Maker Online — Create Animated GIFs",
+        "og:description": "Convert any video to animated GIF. Control size, frame rate, quality, loop count. Preview before download. Browser-based.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/gif-maker",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video to GIF Maker | UtilityMega",
+        "twitter:description": "Create animated GIFs from video. Size, frame rate, quality control."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "GIF Maker",
+        "description": "Convert video clips to animated GIFs with control over size, frame rate, quality and loop count.",
+        "url": "https://utilitymega.com/video-tools/gif-maker",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "GIF Maker",
+              "item": "https://utilitymega.com/video-tools/gif-maker"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why are GIFs so large?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "GIF uses an 8-bit colour palette and frame-by-frame compression without inter-frame prediction."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best frame rate for GIFs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "10fps is the sweet spot — smooth enough for most motion, small enough file size."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-005",
+      "name": "Video to MP3",
+      "slug": "video-to-mp3",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Extract audio from any video file and save as MP3, AAC, WAV, OGG, FLAC or M4A.",
+      "seoTitle": "Free Video to MP3 Extractor — Extract Audio from Video Online | UtilityMega",
+      "metaDescription": "Extract audio from video files online. Save as MP3, AAC, WAV, OGG, FLAC or M4A. Choose bitrate (64–320 kbps), sample rate and channels. Trim audio range. 100% browser-based.",
+      "h1": "Video to MP3 Audio Extractor",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-to-mp3",
+      "keywords": [
+        "video to MP3 converter",
+        "extract audio from video",
+        "MP4 to MP3 online",
+        "video audio extractor",
+        "download audio from video",
+        "convert video to audio"
+      ],
+      "content": "Extract audio from any video using the Web Audio API — entirely in your browser. Choose output format (MP3, AAC, WAV, OGG, FLAC, M4A), bitrate (64–320 kbps), sample rate (16–48kHz) and channels (mono/stereo). Optional start/end trim to extract just a portion of the audio. Preview extracted audio before downloading.",
+      "faq": [
+        {
+          "question": "What is the best bitrate for MP3?",
+          "answer": "192 kbps is transparent for most content. 320 kbps is maximum quality (audiophile). For voice/podcasts, 64–96 kbps mono is sufficient. 128 kbps is the standard streaming bitrate."
+        },
+        {
+          "question": "What formats preserve the most quality?",
+          "answer": "WAV and FLAC are lossless — no quality loss. AAC is more efficient than MP3 at the same bitrate. OGG Vorbis is open-source and high quality. M4A is iTunes' container format."
+        },
+        {
+          "question": "Can I extract audio from YouTube videos?",
+          "answer": "This tool works with locally uploaded files. To extract from YouTube, you must first download the video file. Check your local copyright laws before downloading from streaming platforms."
+        }
+      ],
+      "relatedTools": [
+        "video-compressor",
+        "video-trimmer",
+        "video-speed-changer"
+      ],
+      "isPopular": true,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video to MP3",
+          "url": "https://utilitymega.com/video-tools/video-to-mp3"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video to MP3 Extractor — Extract Audio from Video Online",
+        "og:description": "Extract audio from video files. Save as MP3, AAC, WAV, OGG, FLAC or M4A. Choose bitrate, sample rate, channels. Browser-based.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-to-mp3",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video to MP3 Extractor | UtilityMega",
+        "twitter:description": "Extract audio from video. MP3, AAC, WAV, FLAC, OGG output. Bitrate control."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video to MP3 Extractor",
+        "description": "Extract audio from any video file and save as MP3, AAC, WAV, OGG, FLAC or M4A.",
+        "url": "https://utilitymega.com/video-tools/video-to-mp3",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video to MP3",
+              "item": "https://utilitymega.com/video-tools/video-to-mp3"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best bitrate for MP3?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "192 kbps is transparent for most content. For voice/podcasts, 64–96 kbps mono is sufficient."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What formats preserve the most quality?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "WAV and FLAC are lossless — no quality loss. AAC is more efficient than MP3."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-006",
+      "name": "Video Merger",
+      "slug": "video-merger",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Combine multiple video clips into one video with transitions, custom order and output settings.",
+      "seoTitle": "Free Video Merger Online — Combine Videos in Browser | UtilityMega",
+      "metaDescription": "Merge multiple video clips into one video. Add clips via drag-and-drop, reorder with up/down buttons, choose transitions (cut, fade, dissolve) and output format. Browser-based.",
+      "h1": "Video Merger",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-merger",
+      "keywords": [
+        "video merger online",
+        "combine videos online",
+        "join videos together",
+        "merge MP4 files",
+        "video joiner free",
+        "concatenate videos browser"
+      ],
+      "content": "Combine multiple video clips with a drag-and-drop interface. Add unlimited clips, reorder with up/down arrows, and choose between cut, fade and dissolve transitions. Preview each clip individually. Output settings: format (MP4/WebM), resolution (auto/1080p/720p/480p) and audio mode (mix all tracks, first clip only, or mute). Shows total clips, combined size and estimated total duration.",
+      "faq": [
+        {
+          "question": "Do all clips need to be the same format?",
+          "answer": "Ideally yes — mixing formats requires transcoding. For best results, use clips of the same resolution, frame rate and codec. The tool auto-normalizes when needed."
+        },
+        {
+          "question": "Is there a limit on the number of clips?",
+          "answer": "No hard limit in the browser. Practically, working with 10+ clips of large files may be slow. For large projects, consider using desktop video editing software."
+        },
+        {
+          "question": "What are transitions and how do they work?",
+          "answer": "Cut: instant switch between clips. Fade: clip fades to black then fades in. Dissolve: clips overlap with cross-dissolve. All transitions add a brief overlap between clips."
+        }
+      ],
+      "relatedTools": [
+        "video-trimmer",
+        "video-compressor",
+        "video-converter"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Merger",
+          "url": "https://utilitymega.com/video-tools/video-merger"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Merger Online — Combine Videos in Browser",
+        "og:description": "Merge multiple video clips into one. Drag-and-drop, reorder, transitions (cut/fade/dissolve). Output format control.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-merger",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Merger | UtilityMega",
+        "twitter:description": "Combine video clips, add transitions, reorder clips. Merge MP4/WebM."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Merger",
+        "description": "Combine multiple video clips into one video with transitions, custom order and output settings.",
+        "url": "https://utilitymega.com/video-tools/video-merger",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Merger",
+              "item": "https://utilitymega.com/video-tools/video-merger"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do all clips need to be the same format?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ideally yes — mixing formats requires transcoding. For best results, use clips of the same resolution and codec."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are transitions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cut: instant switch. Fade: fade to black then fade in. Dissolve: cross-dissolve overlap between clips."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-007",
+      "name": "Screen Recorder",
+      "slug": "screen-recorder",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Record your screen, window or browser tab with the browser's MediaRecorder API — no extension needed.",
+      "seoTitle": "Free Screen Recorder Online — Record Screen Without Extension | UtilityMega",
+      "metaDescription": "Record your screen, window or tab using the browser's built-in MediaRecorder API. No extension or software required. Supports pause/resume, microphone audio, and WebM download.",
+      "h1": "Screen Recorder",
+      "canonicalUrl": "https://utilitymega.com/video-tools/screen-recorder",
+      "keywords": [
+        "screen recorder online",
+        "record screen browser",
+        "screen capture no extension",
+        "browser screen recorder",
+        "record tab Chrome",
+        "free screen recording"
+      ],
+      "content": "Record your screen directly from the browser using the getDisplayMedia and MediaRecorder APIs — no extension, plugin or software required. Choose to capture the full screen, a specific window or a browser tab. Optional microphone overlay. Configure video quality (500 kbps to 2.5 Mbps) and frame rate (15–60fps). Pause and resume recording. Download as WebM — convert to MP4 using the Video Converter tool.",
+      "faq": [
+        {
+          "question": "Which browsers support screen recording?",
+          "answer": "Chrome, Firefox, Edge and Brave support getDisplayMedia. Safari has limited support. Chrome on Android requires a flag. iOS Safari does not currently support screen capture."
+        },
+        {
+          "question": "Why does the recording save as WebM?",
+          "answer": "WebM is the native format for MediaRecorder in browsers. To convert to MP4, use our Video Converter tool after recording."
+        },
+        {
+          "question": "Can I record audio along with video?",
+          "answer": "Yes. You can capture system audio if supported by the OS (Chrome on Windows/Mac supports tab audio capture). Enable microphone to add voiceover narration."
+        }
+      ],
+      "relatedTools": [
+        "video-compressor",
+        "video-converter",
+        "gif-maker"
+      ],
+      "isPopular": true,
+      "isFeatured": true,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Screen Recorder",
+          "url": "https://utilitymega.com/video-tools/screen-recorder"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Screen Recorder Online — Record Screen Without Extension",
+        "og:description": "Record screen, window or tab using browser's MediaRecorder API. No extension required. Microphone audio, pause/resume.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/screen-recorder",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Screen Recorder | UtilityMega",
+        "twitter:description": "Record screen without extension. Microphone audio, pause/resume, WebM output."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Screen Recorder",
+        "description": "Record your screen, window or browser tab with the browser's MediaRecorder API — no extension needed.",
+        "url": "https://utilitymega.com/video-tools/screen-recorder",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Screen Recorder",
+              "item": "https://utilitymega.com/video-tools/screen-recorder"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which browsers support screen recording?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chrome, Firefox, Edge and Brave support getDisplayMedia. iOS Safari does not currently support screen capture."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I record audio along with video?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Capture system audio or enable microphone for voiceover narration."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-008",
+      "name": "Video Speed Changer",
+      "slug": "video-speed-changer",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Speed up or slow down any video from 0.25x to 4x with optional pitch preservation.",
+      "seoTitle": "Free Video Speed Changer — Speed Up or Slow Down Video | UtilityMega",
+      "metaDescription": "Change video playback speed from 0.25x (slow motion) to 4x (time-lapse). 8 preset speeds, pitch preservation toggle. Preview in real-time. Export changed speed video. Free, browser-based.",
+      "h1": "Video Speed Changer",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-speed-changer",
+      "keywords": [
+        "video speed changer online",
+        "slow motion video maker",
+        "speed up video online",
+        "change video playback speed",
+        "time-lapse video maker",
+        "2x speed video"
+      ],
+      "content": "Change video speed from 0.25x (ultra slow-motion) to 4x (fast-forward). Live preview with instant speed change. 8 preset speeds with use-case labels. Pitch preservation toggle prevents the chipmunk/deep-voice effect at non-standard speeds. Duration information shows original and new duration, and time saved or added. Export the speed-changed video in MP4 or WebM format.",
+      "faq": [
+        {
+          "question": "Does changing speed affect audio pitch?",
+          "answer": "Without pitch correction, speeding up a video raises the audio pitch (chipmunk effect) and slowing down lowers it. Enable 'Preserve Audio Pitch' to maintain natural voice tone."
+        },
+        {
+          "question": "What is the best speed for watching lectures?",
+          "answer": "1.5x is the standard for lecture viewing — fast enough to save 33% time while remaining clearly understandable. 2x works for familiar or simple content."
+        },
+        {
+          "question": "Can I create a slow-motion video at 0.25x?",
+          "answer": "Yes. 0.25x plays the video at 25% speed — ideal for sports analysis, dance moves or capturing fast action. For best quality slow motion, the original footage should be recorded at 60fps or higher."
+        }
+      ],
+      "relatedTools": [
+        "video-trimmer",
+        "video-compressor",
+        "video-to-mp3"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Speed Changer",
+          "url": "https://utilitymega.com/video-tools/video-speed-changer"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Speed Changer — Speed Up or Slow Down Video",
+        "og:description": "Change video speed from 0.25x to 4x. 8 presets, pitch preservation toggle. Export MP4/WebM. Free browser tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-speed-changer",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Speed Changer | UtilityMega",
+        "twitter:description": "Speed up or slow down video. Pitch preservation, live preview."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Speed Changer",
+        "description": "Speed up or slow down any video from 0.25x to 4x with optional pitch preservation.",
+        "url": "https://utilitymega.com/video-tools/video-speed-changer",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Speed Changer",
+              "item": "https://utilitymega.com/video-tools/video-speed-changer"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does changing speed affect audio pitch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Without pitch correction, speed changes affect pitch. Enable 'Preserve Audio Pitch' to maintain natural voice tone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best speed for watching lectures?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "1.5x saves 33% time while remaining clearly understandable."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-009",
+      "name": "Video Rotate & Flip",
+      "slug": "video-rotate",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Rotate video 90°, 180°, 270° or flip/mirror horizontally and vertically.",
+      "seoTitle": "Free Video Rotate & Flip Online — Fix Sideways Videos | UtilityMega",
+      "metaDescription": "Rotate video 90°, 180° or 270° clockwise or flip horizontally/vertically. Fix sideways mobile videos, create mirror effects. Preview transformation instantly. Free, browser-based.",
+      "h1": "Video Rotate & Flip",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-rotate",
+      "keywords": [
+        "rotate video online",
+        "flip video horizontally",
+        "fix sideways video",
+        "video rotation tool",
+        "mirror video online",
+        "rotate MP4 video"
+      ],
+      "content": "Rotate video in 90° increments (0°, 90°, 180°, 270°) or flip horizontally/vertically. Transformation is previewed instantly in the browser. Rotate 90° or 270° to fix portrait videos shot sideways on mobile devices. Use horizontal flip to mirror selfie-mode or front-camera videos. Combine rotation and flip simultaneously. Output in MP4 or WebM format.",
+      "faq": [
+        {
+          "question": "Why is my mobile video sideways?",
+          "answer": "Many mobile phones record video in landscape orientation with a rotation metadata tag. Some players/platforms ignore this tag and display the video sideways. Rotating 90° or 270° permanently fixes the orientation."
+        },
+        {
+          "question": "Does rotation change video dimensions?",
+          "answer": "90° and 270° rotation swap width and height. A 1920×1080 (landscape) video becomes 1080×1920 (portrait) after 90° rotation. 180° rotation keeps the same dimensions."
+        },
+        {
+          "question": "What is the difference between flip and mirror?",
+          "answer": "They're the same thing. Horizontal flip = mirror image = left becomes right. Vertical flip = upside down = top becomes bottom."
+        }
+      ],
+      "relatedTools": [
+        "video-compressor",
+        "video-converter",
+        "video-trimmer"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Rotate",
+          "url": "https://utilitymega.com/video-tools/video-rotate"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Rotate & Flip Online — Fix Sideways Videos",
+        "og:description": "Rotate video 90°, 180°, 270° or flip horizontally/vertically. Fix sideways mobile videos. Preview instantly.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-rotate",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Rotate & Flip | UtilityMega",
+        "twitter:description": "Rotate video 90°/180°/270°, flip horizontally/vertically. Fix orientation."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Rotate & Flip",
+        "description": "Rotate video 90°, 180°, 270° or flip/mirror horizontally and vertically.",
+        "url": "https://utilitymega.com/video-tools/video-rotate",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Rotate",
+              "item": "https://utilitymega.com/video-tools/video-rotate"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is my mobile video sideways?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rotating 90° or 270° permanently fixes the orientation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does rotation change video dimensions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "90° and 270° rotation swap width and height. 180° rotation keeps same dimensions."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "tool-video-010",
+      "name": "Video Subtitle Adder",
+      "slug": "video-subtitle-adder",
+      "categorySlug": "video-tools",
+      "categoryName": "Video Tools",
+      "shortDescription": "Add subtitles to video with an in-browser editor — create, import SRT, customize style and burn in.",
+      "seoTitle": "Free Video Subtitle Adder — Add Captions to Video Online | UtilityMega",
+      "metaDescription": "Add subtitles or closed captions to videos. Create subtitles manually, import SRT files, customize font size, color and background. Preview on video and burn permanently. Free online tool.",
+      "h1": "Video Subtitle Adder",
+      "canonicalUrl": "https://utilitymega.com/video-tools/video-subtitle-adder",
+      "keywords": [
+        "add subtitles to video online",
+        "video subtitle maker",
+        "SRT subtitle adder",
+        "burn subtitles into video",
+        "closed caption adder",
+        "hardcode subtitles online"
+      ],
+      "content": "Create and add subtitles to any video with a built-in timeline editor. Add subtitle entries with start/end times and text. Import existing .srt or .vtt files. Export subtitles as an .srt file for external use. Customize subtitle appearance: font size, text colour, background colour and vertical position. Preview subtitles overlaid on the video in real-time. Burn subtitles permanently into the video (hardcode) or keep them as a separate .srt track.",
+      "faq": [
+        {
+          "question": "What is an SRT file?",
+          "answer": "SRT (SubRip Text) is the most common subtitle format. It's a plain text file containing numbered subtitle entries with timestamps and text. Most video players, YouTube and social platforms accept .srt files."
+        },
+        {
+          "question": "What is the difference between soft and hard subtitles?",
+          "answer": "Soft subtitles are in a separate track (.srt file) — the viewer can toggle them on/off. Hard subtitles (burned-in) are permanently embedded in the video image — always visible but cannot be turned off."
+        },
+        {
+          "question": "Can I use this for auto-generated captions?",
+          "answer": "This tool requires you to create or import an existing SRT file. For automatic speech-to-text captioning, use a service like Rev.ai, AssemblyAI or YouTube's auto-captions, then import the generated SRT here."
+        }
+      ],
+      "relatedTools": [
+        "video-merger",
+        "video-converter",
+        "video-trimmer"
+      ],
+      "isPopular": false,
+      "isFeatured": false,
+      "breadcrumbs": [
+        {
+          "name": "Home",
+          "url": "https://utilitymega.com"
+        },
+        {
+          "name": "Video Tools",
+          "url": "https://utilitymega.com/video-tools"
+        },
+        {
+          "name": "Video Subtitle Adder",
+          "url": "https://utilitymega.com/video-tools/video-subtitle-adder"
+        }
+      ],
+      "openGraph": {
+        "og:title": "Free Video Subtitle Adder — Add Captions to Video Online",
+        "og:description": "Add subtitles to videos. Create manually, import SRT, customize style, burn in permanently. Free browser tool.",
+        "og:type": "website",
+        "og:url": "https://utilitymega.com/video-tools/video-subtitle-adder",
+        "og:site_name": "UtilityMega"
+      },
+      "twitterCard": {
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Free Video Subtitle Adder | UtilityMega",
+        "twitter:description": "Add subtitles to video, import SRT, customize style, burn in."
+      },
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Video Subtitle Adder",
+        "description": "Add subtitles to video with an in-browser editor — create, import SRT, customize style and burn in.",
+        "url": "https://utilitymega.com/video-tools/video-subtitle-adder",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://utilitymega.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Video Tools",
+              "item": "https://utilitymega.com/video-tools"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Video Subtitle Adder",
+              "item": "https://utilitymega.com/video-tools/video-subtitle-adder"
+            }
+          ]
+        }
+      },
+      "faqSchema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is an SRT file?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SRT (SubRip Text) is the most common subtitle format. Most video players and social platforms accept .srt files."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between soft and hard subtitles?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Soft subtitles are separate tracks (toggle on/off). Hard subtitles are permanently burned into the video image."
             }
           }
         ]
