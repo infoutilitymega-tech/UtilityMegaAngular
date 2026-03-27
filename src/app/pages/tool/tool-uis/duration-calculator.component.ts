@@ -47,11 +47,11 @@ import { FormsModule } from '@angular/forms';
               <option value="s">Seconds</option>
               <option value="m">Minutes</option>
               <option value="h">Hours</option>
-              <option value="frames24">Frames @ 24fps</option>
-              <option value="frames25">Frames @ 25fps</option>
-              <option value="frames30">Frames @ 30fps</option>
-              <option value="frames60">Frames @ 60fps</option>
-              <option value="ms">Milliseconds</option>
+              <option value="frames24">{{'Frames @ 24fps'}}</option>
+              <option value="frames25">{{'Frames @ 25fps'}}</option>
+              <option value="frames30">{{'Frames @ 30fps'}}</option>
+              <option value="frames60">{{'Frames @ 60fps'}}</option>
+              <option value="ms">{{'Milliseconds'}}</option>
             </select>
           </div>
         </div>
@@ -97,7 +97,7 @@ import { FormsModule } from '@angular/forms';
         <div class="rt-title">📋 Duration Quick Reference</div>
         <div class="table-scroll">
           <table class="data-table">
-            <thead><tr><th>Duration</th><th>Seconds</th><th>Frames @24fps</th><th>Frames @30fps</th><th>Frames @60fps</th></tr></thead>
+            <thead><tr><th>Duration</th><th>Seconds</th><th>{{'Frames @24fps'}}</th><th>{{'Frames @30fps'}}</th><th>{{'Frames @60fps'}}</th></tr></thead>
             <tbody>
               <tr *ngFor="let r of durationRef">
                 <td><strong>{{ r.label }}</strong></td>
