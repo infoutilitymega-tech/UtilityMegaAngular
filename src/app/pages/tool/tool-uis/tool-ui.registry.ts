@@ -75,6 +75,7 @@ import { VideoCompressorComponent, VideoConverterComponent } from './video-compr
 import { GifMakerComponent, VideoTrimmerComponent } from './video-trimmer-gif.component';
 import { ScreenRecorderComponent, VideoMergerComponent, VideoRotateComponent, VideoSubtitleAdderComponent } from './video-rotate-recorder-subtitle-merger.component';
 import { VideoSpeedChangerComponent, VideoToMp3Component } from './video-mp3-speed.component';
+import { BacklinkCheckerComponent } from './url-encoder-backlink.component';
 
 
 /**
@@ -181,7 +182,7 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'title-description-analyzer': TitleDescriptionAnalyzerComponent,
   'schema-markup-generator': SchemaMarkupGeneratorComponent,
   'open-graph-tester': OpenGraphTesterComponent,
-
+  'backlink-checker': BacklinkCheckerComponent,
   // Unit Converters
   'length-converter': LengthConverterComponent,
   'temperature-converter': TemperatureConverterComponent,
