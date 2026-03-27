@@ -93,6 +93,7 @@ interface YearRow { year: number; invested: number; returns: number; total: numb
               <div class="rc-sub">{{ wealthMultiple() }}x wealth gained</div>
             </div>
           </div>
+          
           <div class="rc xirr">
             <div class="rc-icon">⚡</div>
             <div class="rc-body">
@@ -262,7 +263,7 @@ interface YearRow { year: number; invested: number; returns: number; total: numb
     .tiny-inp { width: 48px; padding: .25rem .4rem; border: 1.5px solid var(--border); border-radius: 6px; background: var(--input-bg); color: var(--text); font-size: .85rem; font-weight: 700; text-align: center; outline: none; font-family: var(--font); }
 
     /* Results */
-    .result-cards { display: grid; grid-template-columns: repeat(4,1fr); gap: .85rem; }
+    .result-cards { display: grid; grid-template-columns: repeat(4,1fr); gap: .85rem; padding-bottom: .5rem; }
     .rc { display: flex; align-items: flex-start; gap: .75rem; padding: 1rem; border-radius: 12px; border: 1.5px solid var(--border); background: var(--bg-alt); transition: transform .2s, box-shadow .2s; }
     .rc:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
     .rc.total { border-color: var(--primary); background: var(--primary-light); }
