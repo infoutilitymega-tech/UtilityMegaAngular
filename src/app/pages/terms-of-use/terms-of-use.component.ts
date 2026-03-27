@@ -11,7 +11,7 @@ import { SeoService } from '../../core/services/seo.service';
         <div class="container">
           <div class="hero-label">Legal</div>
           <h1>Terms of Use</h1>
-          <p class="updated">Last updated: January 1, 2025</p>
+          <p class="updated">Last updated: March 1, 2026</p>
           <p class="hero-sub">By using UtilityMega, you agree to these terms. They're written in plain English — no legalese.</p>
         </div>
       </section>

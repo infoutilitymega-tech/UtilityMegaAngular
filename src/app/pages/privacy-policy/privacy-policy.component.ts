@@ -11,7 +11,7 @@ import { SeoService } from '../../core/services/seo.service';
         <div class="container">
           <div class="hero-label">Legal</div>
           <h1>Privacy Policy</h1>
-          <p class="updated">Last updated: January 1, 2025</p>
+          <p class="updated">Last updated: March 1, 2026</p>
           <p class="hero-sub">Your privacy matters to us. Here's exactly what we do (and don't do) with your data.</p>
         </div>
       </section>
@@ -22,17 +22,17 @@ import { SeoService } from '../../core/services/seo.service';
           <!-- TOC -->
           <nav class="toc">
             <div class="toc-title">Contents</div>
-            <a href="#overview" class="toc-link">1. Overview</a>
-            <a href="#data-collected" class="toc-link">2. Data We Collect</a>
-            <a href="#browser-processing" class="toc-link">3. Browser-Based Processing</a>
-            <a href="#cookies" class="toc-link">4. Cookies & Analytics</a>
-            <a href="#third-party" class="toc-link">5. Third-Party Services</a>
-            <a href="#advertising" class="toc-link">6. Advertising</a>
-            <a href="#data-security" class="toc-link">7. Data Security</a>
-            <a href="#children" class="toc-link">8. Children's Privacy</a>
-            <a href="#your-rights" class="toc-link">9. Your Rights</a>
-            <a href="#changes" class="toc-link">10. Policy Changes</a>
-            <a href="#contact-privacy" class="toc-link">11. Contact</a>
+            <a (click)="scrollTo('overview')" class="toc-link">1. Overview</a>
+            <a (click)="scrollTo('data-collected')" class="toc-link">2. Data We Collect</a>
+            <a (click)="scrollTo('browser-processing')" class="toc-link">3. Browser-Based Processing</a>
+            <a (click)="scrollTo('cookies')" class="toc-link">4. Cookies & Analytics</a>
+            <a (click)="scrollTo('third-party')" class="toc-link">5. Third-Party Services</a>
+            <a (click)="scrollTo('advertising')" class="toc-link">6. Advertising</a>
+            <a (click)="scrollTo('data-security')" class="toc-link">7. Data Security</a>
+            <a (click)="scrollTo('children')" class="toc-link">8. Children's Privacy</a>
+            <a (click)="scrollTo('your-rights')" class="toc-link">9. Your Rights</a>
+            <a (click)="scrollTo('changes')" class="toc-link">10. Policy Changes</a>
+            <a (click)="scrollTo('contact-privacy')" class="toc-link">11. Contact</a>
           </nav>
 
           <!-- Content -->
@@ -141,12 +141,12 @@ import { SeoService } from '../../core/services/seo.service';
     /* TOC */
     .toc { position: sticky; top: 80px; background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; }
     .toc-title { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #6b7280; margin-bottom: .75rem; }
-    .toc-link { display: block; color: #4b5563; text-decoration: none; font-size: .8rem; padding: .3rem 0; border-bottom: 1px solid #f3f4f6; transition: color .12s; }
+    .toc-link { cursor: pointer; display: block; color: #4b5563; text-decoration: none; font-size: .8rem; padding: .3rem 0; border-bottom: 1px solid #f3f4f6; transition: color .12s; }
     .toc-link:last-child { border-bottom: none; }
     .toc-link:hover { color: #2563eb; }
 
     /* Article */
-    .policy-content h2 { font-size: 1.2rem; font-weight: 800; margin: 2rem 0 .75rem; padding-top: .5rem; border-top: 1px solid #f3f4f6; }
+    .policy-content h2 { scroll-margin-top: 80px; font-size: 1.2rem; font-weight: 800; margin: 2rem 0 .75rem; padding-top: .5rem; border-top: 1px solid #f3f4f6; }
     .policy-content h2:first-of-type { margin-top: 1.5rem; }
     .policy-content p { color: #374151; font-size: .9rem; line-height: 1.8; margin-bottom: .9rem; }
     .policy-content ul { padding-left: 1.25rem; margin-bottom: .9rem; }
@@ -172,5 +172,9 @@ export class PrivacyPolicyComponent implements OnInit {
       description: 'UtilityMega Privacy Policy. We process everything in your browser — no file uploads, no data storage, no tracking. 100% private.',
       url: 'https://utilitymega.com/privacy-policy'
     });
+  }
+  scrollTo(id: string) {
+  const element = document.getElementById(id);
+  element?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
