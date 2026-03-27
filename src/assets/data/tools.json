@@ -361,7 +361,7 @@
         "description": "Free utility tools: QR code generator, URL encoder, IP lookup, color picker and more",
         "url": "https://utilitymega.com/utility-tools"
       },
-      "toolCount": 10
+      "toolCount": 20
     },
     {
       "id": "cat-10",
@@ -8266,6 +8266,574 @@
         ]
       }
     },
+    {
+    "id": "utility-011",
+    "name": "Aspect Ratio Calculator",
+    "slug": "aspect-ratio-calculator",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Calculate, scale, and compare video aspect ratios for any resolution — 16:9, 4:3, 21:9, 9:16, and more.",
+    "seoTitle": "Free Aspect Ratio Calculator — 16:9, 4:3, 21:9 & Custom | UtilityMega",
+    "metaDescription": "Calculate aspect ratios, scale video dimensions proportionally, and compare popular ratios side by side. Supports 16:9, 4:3, 21:9, 1:1, 9:16 and any custom resolution. Free, instant, no signup.",
+    "h1": "Free Aspect Ratio Calculator",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/aspect-ratio-calculator",
+    "keywords": [
+      "aspect ratio calculator",
+      "video aspect ratio",
+      "16:9 ratio calculator",
+      "scale video dimensions",
+      "4:3 to 16:9 converter",
+      "resolution aspect ratio",
+      "aspect ratio finder"
+    ],
+    "content": "The Aspect Ratio Calculator helps you find the exact ratio of any video resolution, scale dimensions while preserving the ratio, and visually compare the most common aspect ratios used in film, TV, and social media.\n\nWhat Is an Aspect Ratio?\n\nAn aspect ratio describes the proportional relationship between the width and height of a video frame. It is expressed as W:H — for example, 1920×1080 pixels has a 16:9 ratio. Aspect ratios determine how a video appears on different screens and are critical for avoiding black bars, cropping, or distortion.\n\nCommon Aspect Ratios\n\n16:9 (Widescreen): The universal standard for HD video, YouTube, streaming platforms, and modern TV. Examples: 1920×1080, 1280×720, 3840×2160. 4:3 (Classic TV): The legacy standard for analog TV and early digital cameras. Still used in some photography and surveillance systems. 21:9 (Ultrawide/Cinema): Used in cinematic productions and ultrawide monitors. Provides a wide, immersive viewing experience. 1:1 (Square): The default format for Instagram feeds and some social platforms. 9:16 (Vertical): Standard for TikTok, Instagram Reels, YouTube Shorts, and all mobile-first content.\n\nScaling Video Dimensions\n\nWhen resizing video for different platforms, always scale proportionally to avoid stretching or squishing. Enter your original resolution and target width or height — the calculator automatically computes the other dimension to maintain your exact ratio.\n\nAspect Ratio and Platform Requirements\n\nYouTube: 16:9 recommended (1920×1080 or 3840×2160). Instagram Feed: 1:1 (1080×1080) or 4:5 portrait. TikTok / Reels: 9:16 (1080×1920). Twitter/X: 16:9 (1600×900 recommended). Cinema (DCP): 1.85:1 or 2.39:1 (Scope).",
+    "faq": [
+      {
+        "question": "What is the most common aspect ratio for video?",
+        "answer": "16:9 is the dominant aspect ratio for modern video content. It is the standard for HD and 4K TV, YouTube, Netflix, and most streaming platforms. The equivalent pixel dimensions include 1920×1080 (Full HD), 1280×720 (HD), and 3840×2160 (4K UHD)."
+      },
+      {
+        "question": "How do I calculate an aspect ratio from pixel dimensions?",
+        "answer": "Divide both the width and height by their Greatest Common Divisor (GCD). For 1920×1080: GCD is 120, so 1920÷120=16 and 1080÷120=9, giving you 16:9. Our tool does this automatically for any resolution you enter."
+      },
+      {
+        "question": "What aspect ratio should I use for TikTok and Instagram Reels?",
+        "answer": "Use 9:16 (vertical) for TikTok, Instagram Reels, and YouTube Shorts. The optimal resolution is 1080×1920 pixels. This fills the full mobile screen without black bars on either side."
+      },
+      {
+        "question": "How do I scale a 1920×1080 video to 1280 wide without distortion?",
+        "answer": "Use the Scale Dimensions tab. Enter original dimensions (1920×1080), then type 1280 in the Target Width field. The calculator will automatically compute the proportional height as 720px, giving you 1280×720 — the standard 720p resolution."
+      },
+      {
+        "question": "What is the difference between 16:9 and 2.39:1?",
+        "answer": "16:9 (1.78:1) is the standard widescreen format for TV and online video. 2.39:1 (often called 'Scope') is the ultra-wide anamorphic cinema format used in many feature films. The wider cinema format creates the letterbox black bars you see when watching movies on a 16:9 TV."
+      }
+    ],
+    "relatedTools": [
+      "resolution-converter",
+      "bitrate-calculator",
+      "compression-calculator"
+    ],
+    "isPopular": true,
+    "isFeatured": true,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Aspect Ratio Calculator", "url": "/utility-tools/aspect-ratio-calculator" }
+    ]
+  },
+  {
+    "id": "utility-012",
+    "name": "Video Bitrate Calculator",
+    "slug": "bitrate-calculator",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Calculate video file size from bitrate and duration. Estimate storage requirements for any codec and quality level.",
+    "seoTitle": "Free Video Bitrate Calculator — File Size, Storage & Bitrate | UtilityMega",
+    "metaDescription": "Calculate video file size from bitrate and duration. Get recommended bitrates for YouTube, TikTok, Instagram, and Blu-ray. Estimate storage needs for any video project. Free and instant.",
+    "h1": "Free Video Bitrate Calculator",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/bitrate-calculator",
+    "keywords": [
+      "video bitrate calculator",
+      "video file size calculator",
+      "bitrate to file size",
+      "youtube bitrate",
+      "video storage calculator",
+      "streaming bitrate",
+      "video encoding bitrate"
+    ],
+    "content": "The Video Bitrate Calculator estimates the file size of any video based on its duration, video bitrate, audio bitrate, and container overhead. Use it to plan storage capacity, estimate upload times, and ensure your videos meet platform bitrate requirements.\n\nWhat Is Video Bitrate?\n\nBitrate is the amount of data used per second of video, typically measured in Megabits per second (Mbps) or kilobits per second (kbps). Higher bitrate = higher quality = larger file size. Bitrate directly impacts visual quality — too low results in compression artifacts; too high wastes storage.\n\nVideo vs Audio Bitrate\n\nVideo bitrate (Mbps) carries the picture information and accounts for the vast majority of file size. Audio bitrate (kbps) carries the sound. A typical HD video might use 8 Mbps video + 192 kbps audio. At 10 minutes, that's approximately 600 MB.\n\nContainer Overhead\n\nVideo containers (MP4, MKV, MOV) add a small overhead of 1–5% for metadata, timestamps, and indexing. This calculator accounts for overhead so your estimate is accurate.\n\nPlatform Bitrate Requirements\n\nYouTube 4K 60fps: 35–45 Mbps. YouTube 1080p 60fps: 8–12 Mbps. YouTube 720p 30fps: 2.5–4 Mbps. TikTok/Reels: 6–8 Mbps. Instagram Feed: 3.5 Mbps. Blu-ray: 25–40 Mbps. DVD: 4–8 Mbps.",
+    "faq": [
+      {
+        "question": "How do I calculate video file size from bitrate?",
+        "answer": "File size (bytes) = (Video Bitrate in bps + Audio Bitrate in bps) × Duration in seconds ÷ 8. For example, a 10-minute video at 8 Mbps video + 192 kbps audio: (8,000,000 + 192,000) × 600 ÷ 8 = approximately 615 MB."
+      },
+      {
+        "question": "What bitrate should I use for YouTube 1080p?",
+        "answer": "YouTube recommends 8 Mbps for 1080p at 30fps, and 12 Mbps for 1080p at 60fps. For 4K (2160p) at 30fps, they recommend 35–45 Mbps. These are target upload bitrates — YouTube will re-encode your video for delivery."
+      },
+      {
+        "question": "What is CBR vs VBR bitrate?",
+        "answer": "CBR (Constant Bit Rate) uses the same bitrate throughout — easier to predict file size but wastes bits on simple scenes. VBR (Variable Bit Rate) allocates more bits to complex scenes and fewer to simple ones — better quality per file size but harder to predict exactly how large the output will be."
+      },
+      {
+        "question": "How much storage do I need for a 1-hour 4K video?",
+        "answer": "It depends heavily on the codec and quality. At YouTube-recommended 4K 60fps settings (~45 Mbps), 1 hour = approximately 20 GB. At broadcast-quality ProRes HQ 4K, 1 hour can exceed 400 GB. Use our calculator to get an exact estimate for your settings."
+      },
+      {
+        "question": "What is the difference between bitrate and resolution?",
+        "answer": "Resolution determines the number of pixels (e.g., 1920×1080). Bitrate determines how much data is used to encode those pixels. You can have a 4K video at a low bitrate (blurry) or a 1080p video at a very high bitrate (excellent quality). Both resolution and bitrate affect perceived quality."
+      }
+    ],
+    "relatedTools": [
+      "compression-calculator",
+      "aspect-ratio-calculator",
+      "duration-calculator"
+    ],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Video Bitrate Calculator", "url": "/utility-tools/bitrate-calculator" }
+    ]
+  },
+  {
+    "id": "utility-013",
+    "name": "Codec Comparison Tool",
+    "slug": "codec-comparison",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Compare video codecs side-by-side — H.264, H.265, AV1, VP9, ProRes, and more. Get codec recommendations by use case.",
+    "seoTitle": "Video Codec Comparison — H.264 vs H.265 vs AV1 vs VP9 | UtilityMega",
+    "metaDescription": "Compare H.264, H.265/HEVC, AV1, VP9, Apple ProRes, and more video codecs side-by-side. Get codec recommendations for streaming, editing, social media, and cinema. Free tool.",
+    "h1": "Video Codec Comparison Tool",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/codec-comparison",
+    "keywords": [
+      "video codec comparison",
+      "h264 vs h265",
+      "h265 vs av1",
+      "best video codec",
+      "av1 codec",
+      "vp9 vs h265",
+      "video codec guide",
+      "hevc vs av1"
+    ],
+    "content": "The Video Codec Comparison Tool lets you compare any two video codecs side by side across key attributes including compression efficiency, encoding speed, HDR support, licensing, and hardware compatibility. Use the Codec Picker to get instant recommendations based on your use case and priority.\n\nWhat Is a Video Codec?\n\nA video codec (coder-decoder) is a compression algorithm that encodes video into a smaller file and decodes it for playback. Choosing the right codec is critical for balancing quality, file size, compatibility, and encoding speed.\n\nMajor Video Codecs Explained\n\nH.264 (AVC): The most compatible codec. Plays on virtually every device made after 2010. Moderate efficiency. Best for maximum compatibility. H.265 (HEVC): 50% better compression than H.264 at the same quality. Excellent for 4K and HDR but has complex patent licensing. AV1: Royalty-free, best compression of any mainstream codec (~2.5× better than H.264). Slow software encoding but growing hardware support. Used heavily by YouTube and Netflix. VP9: Google's royalty-free codec. Better than H.264 by about 30–50%. Widely supported in browsers. Good YouTube codec. Apple ProRes: A professional intermediate/mezzanine codec for editing. Large files but extremely fast decode — ideal for editing timelines. Avid DNxHD/HR: Professional broadcast intermediate. Alternative to ProRes in Avid and Adobe workflows. H.266 (VVC): The newest standard. ~50% better than H.265 but extremely slow encoding and very limited hardware support.\n\nCodec Licensing\n\nPatent licensing is important when choosing a codec for commercial use. H.264 and H.265 require royalty payments. AV1 and VP9 are completely royalty-free, making them popular for large-scale deployment.",
+    "faq": [
+      {
+        "question": "Which codec should I use for YouTube?",
+        "answer": "For uploading to YouTube, H.264 is the safest choice for compatibility and fast encoding. If you have the encoding time, AV1 or H.265 will produce higher quality at smaller file sizes. YouTube re-encodes all uploads to VP9 or AV1 for delivery, so your upload codec mainly affects upload speed and initial quality."
+      },
+      {
+        "question": "Is AV1 better than H.265?",
+        "answer": "AV1 generally offers 20–30% better compression efficiency than H.265 at the same quality level. AV1 is also royalty-free. However, H.265 has much wider hardware support and faster encoding. For most practical workflows in 2024–2025, H.265 is the better choice unless you specifically need the royalty-free nature or maximum compression of AV1."
+      },
+      {
+        "question": "What codec should I use for video editing?",
+        "answer": "For editing, use an intraframe (I-frame only) intermediate codec. Apple ProRes is the gold standard on Mac — fast decode, excellent quality, supports all resolutions. Avid DNxHD/HR is the standard for Windows broadcast workflows. H.264 proxy files can be used for proxy editing workflows to reduce system load."
+      },
+      {
+        "question": "What is the difference between a codec and a container?",
+        "answer": "A codec is the compression algorithm (H.264, H.265, AV1). A container is the file format that wraps the video and audio streams (MP4, MKV, MOV, WebM). For example, an MP4 file can contain H.264, H.265, or even AV1 video. One container can hold multiple codec types."
+      },
+      {
+        "question": "Does H.265 have licensing fees?",
+        "answer": "Yes. H.265/HEVC has complex and expensive patent licensing — multiple patent pools (HEVC Advance, Via Licensing, Sisvel) each demand royalties. This is why many companies have shifted to AV1 and VP9 for large-scale deployment. For personal or small-scale use, the practical impact is minimal as most encoders include pre-paid licenses."
+      }
+    ],
+    "relatedTools": [
+      "compression-calculator",
+      "bitrate-calculator",
+      "screen-recording-calculator"
+    ],
+    "isPopular": false,
+    "isFeatured": true,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Codec Comparison", "url": "/utility-tools/codec-comparison" }
+    ]
+  },
+  {
+    "id": "utility-014",
+    "name": "Color Space Converter",
+    "slug": "color-space-converter",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Convert between HEX, RGB, HSL, HSV, YUV, YCbCr, and CMYK color spaces. Includes video color standards reference.",
+    "seoTitle": "Free Color Space Converter — HEX, RGB, HSL, YUV, YCbCr | UtilityMega",
+    "metaDescription": "Convert colors between HEX, RGB, HSL, HSV, YUV, YCbCr, and CMYK. Includes Rec.709, Rec.2020, DCI-P3 reference and video color space guide. Free online tool.",
+    "h1": "Free Color Space Converter",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/color-space-converter",
+    "keywords": [
+      "color space converter",
+      "hex to rgb",
+      "rgb to yuv",
+      "ycbcr converter",
+      "hsl to rgb",
+      "video color space",
+      "rec 709 rec 2020",
+      "cmyk converter"
+    ],
+    "content": "The Color Space Converter converts colors between all major color spaces used in video production, photography, and web design. Convert HEX to RGB, RGB to YCbCr/YUV, and explore the HSL, HSV, and CMYK representations of any color. Includes a full reference for professional video color standards.\n\nWhat Is a Color Space?\n\nA color space defines the range of colors (gamut) that can be represented and how those colors are encoded numerically. Different color spaces are optimized for different purposes — display, print, video compression, or scientific measurement.\n\nKey Color Spaces for Video\n\nRec. 709 (sRGB equivalent): The standard color space for HD video. Used by virtually all HD cameras, displays, and streaming platforms including YouTube HD and Blu-ray. Rec. 2020: The standard for 4K/8K HDR video. Covers approximately 75% of human visible color, versus 35% for sRGB. Used in HDR10, Dolby Vision, and HLG content. DCI-P3: The digital cinema standard, approximately 25% larger gamut than sRGB. Used by Apple displays and HDR streaming. YCbCr (YUV): The color model used in video compression. Separates luminance (Y) from color difference channels (Cb, Cr). Used in H.264, H.265, JPEG, and all broadcast formats. Log (S-Log, C-Log, V-Log): Logarithmic encoding from cinema cameras. Preserves the maximum dynamic range for color grading in post-production.\n\nWhy YCbCr in Video?\n\nThe human eye is more sensitive to brightness (luminance) than color. YCbCr exploits this by using full resolution for the Y (luminance) channel and lower resolution for the Cb/Cr (color) channels — the basis of chroma subsampling (4:2:0, 4:2:2, 4:4:4).",
+    "faq": [
+      {
+        "question": "What is the difference between RGB and YCbCr?",
+        "answer": "RGB represents colors using Red, Green, and Blue channels of equal importance. YCbCr separates luminance (Y — brightness) from chrominance (Cb and Cr — color information). Video compression uses YCbCr because the human eye is more sensitive to brightness than color, allowing the color channels to be compressed more aggressively without visible quality loss."
+      },
+      {
+        "question": "What is Rec. 709 vs Rec. 2020?",
+        "answer": "Rec. 709 is the color standard for HD video (1080p and below), covering about 35% of human visible colors. Rec. 2020 is the standard for 4K/8K HDR, covering about 75% of human visible colors — roughly twice as wide a gamut. Most consumer displays cannot fully reproduce Rec. 2020 yet."
+      },
+      {
+        "question": "What does 4:2:0 chroma subsampling mean?",
+        "answer": "4:2:0 is the most common chroma subsampling format in consumer video. It uses full-resolution luminance (Y) but halves the color information (Cb and Cr) in both horizontal and vertical directions. This reduces file size by ~50% with minimal visible quality loss for most content. 4:2:2 is used in professional production, and 4:4:4 in the highest-quality mastering workflows."
+      },
+      {
+        "question": "Why does LOG footage look washed out?",
+        "answer": "LOG (logarithmic) gamma encoding is designed to capture the maximum dynamic range from camera sensors. It compresses bright highlights and lifts dark shadows, resulting in a flat, desaturated look. LOG footage requires a color grade (LUT) to be applied in post-production to restore the intended look and contrast."
+      },
+      {
+        "question": "What color space should I use for YouTube?",
+        "answer": "Upload in Rec. 709 color space for standard HD content. For HDR content, upload in Rec. 2020 with HDR10 or HLG metadata. YouTube will process the color correctly if the metadata is set accurately. Most editing software like Premiere Pro, DaVinci Resolve, and Final Cut Pro handles this automatically when you choose the correct export preset."
+      }
+    ],
+    "relatedTools": [
+      "codec-comparison",
+      "compression-calculator",
+      "resolution-converter"
+    ],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Color Space Converter", "url": "/utility-tools/color-space-converter" }
+    ]
+  },
+  {
+    "id": "utility-015",
+    "name": "Video Compression Calculator",
+    "slug": "compression-calculator",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Get optimal video compression settings for any codec, resolution, and platform. Includes FFmpeg command generator.",
+    "seoTitle": "Free Video Compression Settings Calculator + FFmpeg Generator | UtilityMega",
+    "metaDescription": "Calculate optimal video compression settings for H.264, H.265, AV1, VP9, and ProRes. Generate ready-to-use FFmpeg commands for any resolution, frame rate, and quality target. Free tool.",
+    "h1": "Video Compression Settings Calculator",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/compression-calculator",
+    "keywords": [
+      "video compression calculator",
+      "ffmpeg settings generator",
+      "h264 compression settings",
+      "video encoding settings",
+      "crf value calculator",
+      "optimal video bitrate",
+      "ffmpeg command generator",
+      "video quality settings"
+    ],
+    "content": "The Video Compression Calculator recommends optimal encoding settings for any combination of codec, resolution, frame rate, and quality target. It generates a ready-to-use FFmpeg command so you can immediately encode with the best settings for your use case.\n\nUnderstanding CRF (Constant Rate Factor)\n\nCRF is the primary quality control parameter in H.264 and H.265 encoding. It ranges from 0 (lossless) to 51 (worst quality). Lower CRF = higher quality = larger file. The default (23 for H.264, 28 for H.265) produces a good balance. Recommended values: 18 = visually lossless, 23 = high quality streaming, 28 = good quality web video, 32+ = low quality preview.\n\nCodec-Specific Settings\n\nH.264 (libx264): Use -crf and -preset. Slower presets provide better compression at the same quality. For streaming use preset medium or fast. For archival use slow or veryslow. H.265 (libx265): Same CRF scale as H.264 but CRF 28 ≈ CRF 23 in H.264 quality. Significantly smaller files. AV1 (libaom-av1): CRF range 0–63. Very slow encoding — use hardware encoder (SVT-AV1) for speed. VP9 (libvpx-vp9): Use -crf and -b:v 0 for quality-based encoding. Apple ProRes: No CRF — uses profile-based quality (Proxy, LT, 422, 422 HQ, 4444). Choose profile based on required quality and file size balance.\n\nEncoding Presets\n\nFFmpeg presets control the trade-off between encoding speed and compression efficiency: ultrafast, superfast, veryfast, faster, fast, medium (default), slow, slower, veryslow. A slower preset gives you smaller files at the same quality, at the cost of encoding time.",
+    "faq": [
+      {
+        "question": "What CRF value should I use for H.264?",
+        "answer": "For high-quality streaming, use CRF 18–20. For standard web video, CRF 23 (default) is ideal. For smaller files with acceptable quality, CRF 26–28. For proxy/preview files, CRF 30–35. Lower numbers are higher quality — CRF 0 is lossless but produces very large files."
+      },
+      {
+        "question": "What is the best FFmpeg preset for quality?",
+        "answer": "The slower the preset, the better the compression at the same quality level. For archival or high-quality exports, use -preset slow or -preset veryslow. For real-time or fast encoding (e.g., live streaming), use -preset fast or -preset veryfast. The default medium preset is a good balance for most uses."
+      },
+      {
+        "question": "How do I encode video with FFmpeg for YouTube?",
+        "answer": "For 1080p YouTube upload: ffmpeg -i input.mp4 -c:v libx264 -crf 18 -preset slow -profile:v high -vf scale=1920:1080 -r 30 -c:a aac -b:a 192k output.mp4. This produces a high-quality file that YouTube's encoder will process with minimal generation loss."
+      },
+      {
+        "question": "What is the difference between H.264 and H.265 file sizes?",
+        "answer": "H.265 achieves roughly 50% smaller file size than H.264 at the same perceived visual quality. For example, a 1-hour 1080p video that is 3 GB in H.264 would be approximately 1.5 GB in H.265 at equivalent quality. The trade-off is slower encoding and higher CPU requirements."
+      },
+      {
+        "question": "What is pixel format yuv420p?",
+        "answer": "yuv420p is the most compatible pixel format, using 4:2:0 chroma subsampling — full-resolution luminance with quarter-resolution color. Required for compatibility with most devices and players. yuv444p uses full color resolution (4:4:4) but is not supported on many devices. Always use -pix_fmt yuv420p for maximum compatibility."
+      }
+    ],
+    "relatedTools": [
+      "bitrate-calculator",
+      "codec-comparison",
+      "screen-recording-calculator"
+    ],
+    "isPopular": true,
+    "isFeatured": true,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Compression Calculator", "url": "/utility-tools/compression-calculator" }
+    ]
+  },
+  {
+    "id": "utility-016",
+    "name": "Video Duration Calculator",
+    "slug": "duration-calculator",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Add multiple video clip durations, convert between timecodes, seconds, minutes, frames, and split videos into equal segments.",
+    "seoTitle": "Free Video Duration Calculator — Add Clips, Timecode Converter | UtilityMega",
+    "metaDescription": "Add and sum multiple video clip durations, convert between HH:MM:SS timecodes, seconds, frames at any FPS, and split total duration into segments with overlap. Free video duration tool.",
+    "h1": "Free Video Duration Calculator",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/duration-calculator",
+    "keywords": [
+      "video duration calculator",
+      "timecode calculator",
+      "add video durations",
+      "seconds to timecode",
+      "video clip duration",
+      "hh mm ss calculator",
+      "frame to timecode",
+      "video length calculator"
+    ],
+    "content": "The Video Duration Calculator solves three common production problems: totalling the combined duration of multiple video clips, converting between timecode formats (HH:MM:SS, seconds, frames), and splitting a total duration into equal segments for multi-part video series.\n\nTimecode Formats\n\nHH:MM:SS:FF (Drop Frame / Non-Drop Frame): Standard broadcast and editing timecode. Hours:Minutes:Seconds:Frames. The frame count depends on your frame rate. Decimal Seconds: Simple floating-point seconds value used in many APIs and export formats. Frame Count: Total number of frames elapsed since the start. Frame count = Seconds × FPS.\n\nDrop Frame vs Non-Drop Frame Timecode\n\nNTSC video runs at 29.97 fps (not exactly 30). Over time, this causes timecode to drift from real clock time. Drop Frame timecode corrects this by occasionally skipping frame numbers (not actual frames) to keep timecode synchronized with real time. Non-Drop Frame (NDF) is simpler but drifts by ~3.6 seconds per hour at 29.97 fps.\n\nProduction Planning with Duration Calculator\n\nThe Add Durations feature lets you list all your clips and instantly see the total program length — essential for broadcast delivery where you must hit exact durations. The Split Segments feature helps divide a long recording into equal-length parts for multi-episode uploads, with optional overlap for continuous content.",
+    "faq": [
+      {
+        "question": "How do I convert seconds to HH:MM:SS timecode?",
+        "answer": "Hours = floor(seconds ÷ 3600). Minutes = floor((seconds mod 3600) ÷ 60). Seconds = seconds mod 60. For example, 5400 seconds = 1:30:00. Use the Convert Duration tab in this tool to instantly convert any value to timecode."
+      },
+      {
+        "question": "How do I calculate the total duration of multiple video clips?",
+        "answer": "Use the Add Durations tab. Enter each clip's duration in HH:MM:SS format or as plain seconds. The tool will sum all clips and display the total duration, average clip length, and total frame count at your chosen frame rate."
+      },
+      {
+        "question": "What is the difference between timecode and duration?",
+        "answer": "Timecode is an absolute position marker (e.g., 00:01:23:15 means 1 minute, 23 seconds, 15 frames into the video). Duration is a relative length (e.g., 3 minutes 30 seconds). Timecode is used to identify specific frames in editing, while duration describes how long a clip or segment runs."
+      },
+      {
+        "question": "How many frames are in a 10-minute video at 24fps?",
+        "answer": "10 minutes × 60 seconds × 24 frames = 14,400 frames. At 30fps: 18,000 frames. At 60fps: 36,000 frames. Use the Frame Counter tab to calculate frames for any duration and frame rate combination."
+      },
+      {
+        "question": "How do I split a 1-hour video into equal segments?",
+        "answer": "Use the Split Into Segments tab. Enter the total duration (01:00:00) and number of segments. The tool will calculate the start and end timecode for each segment. You can also add overlap (e.g., 30 seconds) so each segment has context from the previous one — useful for multi-part tutorials or episodes."
+      }
+    ],
+    "relatedTools": [
+      "frame-rate-converter",
+      "bitrate-calculator",
+      "subtitle-timing-calculator"
+    ],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Duration Calculator", "url": "/utility-tools/duration-calculator" }
+    ]
+  },
+  {
+    "id": "utility-017",
+    "name": "Frame Rate Converter",
+    "slug": "frame-rate-converter",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Convert between video frame rates, count frames for any duration, and convert timecodes at any FPS. Supports 23.976, 24, 25, 29.97, 30, 60fps and more.",
+    "seoTitle": "Free Frame Rate Converter — 24fps to 30fps, Timecode, Frame Count | UtilityMega",
+    "metaDescription": "Convert between video frame rates (24, 25, 29.97, 30, 60fps), count total frames for any duration, and convert HH:MM:SS:FF timecodes at any FPS. Free online frame rate tool.",
+    "h1": "Free Frame Rate Converter",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/frame-rate-converter",
+    "keywords": [
+      "frame rate converter",
+      "fps converter",
+      "24fps to 30fps",
+      "29.97 fps converter",
+      "video frame count",
+      "timecode to frames",
+      "frame rate calculator",
+      "fps to seconds"
+    ],
+    "content": "The Frame Rate Converter converts between video frame rates, calculates total frame counts for any duration, and converts HH:MM:SS:FF timecodes between different frame rates. Essential for video editors, motion graphics artists, and developers working across broadcast and film standards.\n\nCommon Frame Rates\n\n23.976 fps: The film-look standard for NTSC markets. Created by pulling 24fps film down to sync with 29.97 NTSC video. Standard for most narrative film and TV in the US. 24 fps: True cinema frame rate. The cinematic standard since the 1920s. Creates the 'film look' due to its characteristic motion blur. 25 fps: The PAL broadcast standard used in Europe, Australia, and most of Asia. 29.97 fps: NTSC broadcast standard for US, Canada, and Japan. Technically 30000/1001 fps to accommodate color television. 30 fps: Web video and streaming standard. Clean, smooth motion. Often confused with 29.97 — ensure you know which you're using. 60 fps: High frame rate for gaming content, sports, and slow-motion at 120fps/240fps cameras.\n\nFrame Rate Conversion Considerations\n\nChanging a video's frame rate in post-production has significant implications. Speed-up (24→25): Playing 24fps content at 25fps speeds it up by 4.167% and raises audio pitch. Interpolation (24→60): Motion-interpolated frames are generated — quality depends on the algorithm. Pulldown (24→29.97): The 3:2 pulldown technique adds frames while preserving original cadence.",
+    "faq": [
+      {
+        "question": "What is the difference between 29.97 and 30 fps?",
+        "answer": "29.97 fps (technically 30000÷1001) is the NTSC broadcast standard used in North America and Japan. 30 fps is the clean integer rate used for web video. They appear identical to the eye but drift apart over time — 1 hour of 29.97fps content is 3.6 seconds longer than 1 hour of 30fps. Always confirm which rate your project uses to avoid sync issues."
+      },
+      {
+        "question": "How many frames are in a 1-minute video at 24fps?",
+        "answer": "1 minute × 60 seconds × 24 fps = 1,440 frames. At 25fps: 1,500 frames. At 30fps: 1,800 frames. At 60fps: 3,600 frames. The Frame Counter tab calculates this automatically for any duration and frame rate."
+      },
+      {
+        "question": "What frame rate should I use for YouTube?",
+        "answer": "YouTube accepts 24, 25, 30, 48, 50, and 60 fps. For general content, 30fps is the most common. For gaming and sports, 60fps provides noticeably smoother motion. For a cinematic look, 24fps is the traditional choice. Upload at your original capture frame rate whenever possible — do not convert frame rates just for YouTube."
+      },
+      {
+        "question": "What is 23.976 fps and why does it exist?",
+        "answer": "23.976 fps (exactly 24000÷1001) exists because early color NTSC video required a 0.1% frequency shift to avoid interference between the color and audio subcarriers. When 24fps film was adapted for NTSC broadcast, it was slowed by 0.1% to 23.976 fps. Today it remains the dominant 'film look' frame rate for narrative content in NTSC markets."
+      },
+      {
+        "question": "How do I convert a timecode to total frames?",
+        "answer": "Total frames = (Hours × 3600 + Minutes × 60 + Seconds) × FPS + Frame number. For example, timecode 00:01:30:12 at 24fps = (90 seconds × 24) + 12 = 2,172 frames. Use the Timecode tab to convert any HH:MM:SS:FF timecode to total frames, milliseconds, and seconds automatically."
+      }
+    ],
+    "relatedTools": [
+      "duration-calculator",
+      "aspect-ratio-calculator",
+      "subtitle-timing-calculator"
+    ],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Frame Rate Converter", "url": "/utility-tools/frame-rate-converter" }
+    ]
+  },
+  {
+    "id": "utility-018",
+    "name": "Video Resolution Converter",
+    "slug": "resolution-converter",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Look up and compare video resolutions, calculate megapixels, find aspect ratios, and see scaled variants for any custom resolution.",
+    "seoTitle": "Free Video Resolution Converter & Calculator — 4K, 1080p, 720p | UtilityMega",
+    "metaDescription": "Convert and compare video resolutions — 8K, 4K, 2K, 1080p, 720p. Calculate megapixels, aspect ratio, and scaled variants. Visual comparison of all standard resolutions. Free tool.",
+    "h1": "Free Video Resolution Converter",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/resolution-converter",
+    "keywords": [
+      "video resolution converter",
+      "resolution calculator",
+      "4k resolution pixels",
+      "1080p vs 4k",
+      "megapixel calculator",
+      "video resolution comparison",
+      "screen resolution calculator",
+      "pixel count calculator"
+    ],
+    "content": "The Video Resolution Converter provides complete information about any video resolution: total pixel count, megapixels, aspect ratio, density classification, scaled variants, and how it compares to standard resolutions. Use it to understand resolution relationships and choose the right output resolution for any platform.\n\nVideo Resolution Standards\n\n8K UHD (7680×4320): 33.2 megapixels. The emerging consumer standard for premium displays and digital cinema. 8× the pixel count of 1080p. 4K UHD (3840×2160): 8.3 megapixels. The current premium standard for streaming (Netflix, Disney+, YouTube 4K). 4× the pixel count of 1080p. DCI 4K (4096×2160): The digital cinema standard with slightly wider 17:9 ratio. Used in professional film production and cinema projection. QHD / 2K (2560×1440): 3.7 megapixels. Popular for PC gaming monitors. Often incorrectly called '2K' — true 2K DCI is 2048×1080. Full HD 1080p (1920×1080): 2.1 megapixels. The dominant standard for TV broadcast, Blu-ray, and streaming. 16:9 ratio. HD 720p (1280×720): 0.9 megapixels. Minimum HD standard. Widely used for mobile streaming and lower-bandwidth scenarios. SD 480p (854×480): 0.4 megapixels. Legacy standard for DVD and early web video.\n\nResolution and Storage\n\nResolution has a squared relationship with file size and processing requirements. Doubling the resolution (e.g., 1080p to 4K) quadruples the pixel count, requiring roughly 4× the bitrate to maintain equivalent quality.",
+    "faq": [
+      {
+        "question": "What is the difference between 4K and 1080p?",
+        "answer": "4K UHD (3840×2160) has 4× the pixel count of 1080p (1920×1080) — 8.3 megapixels vs 2.1 megapixels. 4K requires roughly 4× the bitrate to maintain equivalent quality. The visible difference depends on screen size and viewing distance — on a large TV at close range, 4K shows significantly more detail."
+      },
+      {
+        "question": "Is 2560×1440 really '2K'?",
+        "answer": "No. True 2K (DCI) is 2048×1080, used in digital cinema. 2560×1440 is technically QHD (Quad HD) — 4× the pixel count of 720p. The '2K' label is a marketing shorthand that has become common for 1440p monitors, but it is technically incorrect. True DCI 2K is actually slightly lower resolution than 1920×1080 Full HD."
+      },
+      {
+        "question": "How many megapixels is 4K video?",
+        "answer": "4K UHD (3840×2160) = 8,294,400 pixels = approximately 8.3 megapixels. DCI 4K (4096×2160) = 8,847,360 pixels ≈ 8.8 megapixels. By comparison, 1080p = 2.07 MP and 8K = 33.2 MP."
+      },
+      {
+        "question": "What resolution should I export for Instagram?",
+        "answer": "Instagram recommends 1080×1080 for square posts, 1080×1350 for portrait (4:5), and 1080×1920 for Stories and Reels. The maximum resolution Instagram processes is 1080px wide — uploading higher resolution is automatically downscaled, so 1080px is the optimal export width."
+      },
+      {
+        "question": "What is the relationship between resolution and file size?",
+        "answer": "File size scales roughly proportionally with pixel count. A 4K video has 4× the pixels of 1080p and requires approximately 4× the bitrate to maintain the same quality per pixel. However, modern codecs (H.265, AV1) use less than linear scaling due to improved efficiency at higher resolutions."
+      }
+    ],
+    "relatedTools": [
+      "aspect-ratio-calculator",
+      "bitrate-calculator",
+      "compression-calculator"
+    ],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Resolution Converter", "url": "/utility-tools/resolution-converter" }
+    ]
+  },
+  {
+    "id": "utility-019",
+    "name": "Screen Recording Calculator",
+    "slug": "screen-recording-calculator",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Get optimal screen recording settings for any use case — streaming, tutorials, gaming, and webinars. Includes software recommendations.",
+    "seoTitle": "Free Screen Recording Settings Calculator — OBS, Loom, Tutorials | UtilityMega",
+    "metaDescription": "Calculate optimal screen recording settings for OBS, Loom, Camtasia, and more. Get codec, bitrate, resolution, and FPS recommendations for tutorials, gaming, webinars, and social media. Free tool.",
+    "h1": "Screen Recording Settings Calculator",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/screen-recording-calculator",
+    "keywords": [
+      "screen recording settings",
+      "obs settings calculator",
+      "screen recording bitrate",
+      "best screen recording settings",
+      "screen capture settings",
+      "tutorial recording settings",
+      "game capture settings",
+      "screen recording file size"
+    ],
+    "content": "The Screen Recording Calculator recommends optimal settings for any screen recording scenario. Enter your screen resolution, content type, intended output, and duration to get tailored codec, bitrate, frame rate, and software recommendations — plus an accurate file size estimate.\n\nKey Screen Recording Settings\n\nResolution: Record at your native screen resolution (1:1 pixel mapping). Avoid upscaling or downscaling during capture. For delivery to 1080p platforms, record at 1920×1080 or scale down in post. Frame Rate: 30fps is sufficient for tutorials, presentations, and UI demos. 60fps is recommended for gaming and any content with fast motion. Codec: H.264 is the standard for screen recording — excellent hardware acceleration. ProRes or DNxHD for professional editing workflows. Encoder: Prefer hardware encoders (NVENC for Nvidia, VCN for AMD, QuickSync for Intel) over software (CPU) encoding to reduce system load during recording. This is critical for gaming capture.\n\nContent Type Matters\n\nScreen content varies enormously in motion complexity. Static slides require very little bitrate. Fast-paced gaming needs high bitrate for clean encoding. Tutorials fall in between. Our calculator adjusts the estimated bitrate and recommended settings based on your content type.\n\nOBS Studio Recommended Settings\n\nFor 1080p streaming at 30fps: Encoder NVENC H.264, Rate Control CBR, Bitrate 6000 kbps, Keyframe interval 2, Profile High, Preset Quality. For 1080p recording: Rate Control CQP, CQ Level 18, Profile High, Preset Quality.",
+    "faq": [
+      {
+        "question": "What are the best OBS settings for 1080p recording?",
+        "answer": "For 1080p recording in OBS: Video Encoder = NVENC H.264 (or x264 if no Nvidia GPU), Rate Control = CQP, CQ Level = 18 (high quality) or 23 (balanced), Profile = High, Preset = Quality. Audio: AAC, 192 kbps, 48 kHz. Resolution: 1920×1080, FPS: 30 or 60 depending on content."
+      },
+      {
+        "question": "What frame rate should I use for screen recording?",
+        "answer": "Use 30fps for tutorials, coding screencasts, presentations, and UI demos — this is sufficient and produces smaller files. Use 60fps for gaming, software demos with fast animations, and any content where smooth motion matters. For slides or webinars, even 24fps is adequate."
+      },
+      {
+        "question": "How much storage does a 1-hour screen recording use?",
+        "answer": "It depends heavily on settings and content. A 1-hour 1080p 30fps tutorial recorded in H.264 at ~6 Mbps = approximately 2.7 GB. Gaming at 60fps and 15 Mbps ≈ 6.75 GB/hour. Professional ProRes 1080p recordings can exceed 80 GB/hour. Use our calculator for precise estimates based on your specific settings."
+      },
+      {
+        "question": "Should I use hardware or software encoding for screen recording?",
+        "answer": "Always prefer hardware encoding (NVENC, AMF/VCE, Intel QuickSync) when available. Hardware encoders offload encoding to your GPU, freeing the CPU for the application you're recording. Software (CPU) encoding in x264 produces slightly better quality at the same bitrate but can cause frame drops and lag — especially during gaming."
+      },
+      {
+        "question": "What is the best screen recording software?",
+        "answer": "OBS Studio is the best free option — powerful, open-source, and supports streaming and recording. Loom is ideal for quick screen shares with instant shareable links. Camtasia is the best all-in-one for tutorial creation with built-in editing. For gaming, Nvidia ShadowPlay (GeForce Experience) has virtually zero performance overhead. On macOS, ScreenFlow is popular for professional screencasts."
+      }
+    ],
+    "relatedTools": [
+      "compression-calculator",
+      "bitrate-calculator",
+      "codec-comparison"
+    ],
+    "isPopular": true,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Screen Recording Calculator", "url": "/utility-tools/screen-recording-calculator" }
+    ]
+  },
+  {
+    "id": "utility-020",
+    "name": "Subtitle Timing Calculator",
+    "slug": "subtitle-timing-calculator",
+    "categorySlug": "utility-tools",
+    "categoryName": "Utility Tools",
+    "shortDescription": "Calculate subtitle display duration from word count, shift SRT timecodes, and parse SRT files for timing analysis.",
+    "seoTitle": "Free Subtitle Timing Calculator — SRT Timecode, Word Count & Shift | UtilityMega",
+    "metaDescription": "Calculate subtitle display duration from word count and reading speed, shift SRT timecodes by any offset, and analyze SRT subtitle files. Supports standard and custom reading speeds. Free tool.",
+    "h1": "Free Subtitle Timing Calculator",
+    "canonicalUrl": "https://utilitymega.com/utility-tools/subtitle-timing-calculator",
+    "keywords": [
+      "subtitle timing calculator",
+      "srt timecode calculator",
+      "subtitle duration calculator",
+      "srt time shift",
+      "subtitle word count timing",
+      "subtitle reading speed",
+      "srt file parser",
+      "subtitle delay calculator"
+    ],
+    "content": "The Subtitle Timing Calculator helps video editors, translators, and content creators calculate accurate subtitle display times, shift out-of-sync SRT timecodes, and analyze existing subtitle files. It uses industry-standard reading speed guidelines from Netflix, BBC, and the SDI (Subtitling Industry) to ensure viewers have adequate time to read every subtitle.\n\nSubtitle Timing Standards\n\nReading Speed: The average adult reads subtitles at 250 words per minute (17 characters per second). Children's content uses 160 wpm. Fast readers can manage 300–400 wpm. Netflix standard is 17 cps maximum. Minimum Duration: Subtitles should display for at least 0.8 seconds regardless of word count — this is the minimum time the eye needs to register text. Maximum Duration: No subtitle should stay on screen for more than 7 seconds — it suggests the text is too long and should be broken up. Characters Per Line: Maximum 42 characters per line (Netflix) or 37 cps (BBC) for readability across all screen sizes.\n\nSRT File Format\n\nSRT (SubRip Text) is the most universal subtitle format. Each entry has an index number, a timing line (start --> end in HH:MM:SS,mmm format), the subtitle text, and a blank line separator. Our SRT Parser analyzes any SRT file paste to show word counts, durations, and timing statistics.\n\nShifting Subtitle Timing\n\nSubtitle sync issues are common when a video is re-encoded, trimmed, or distributed with a different offset from the original. Shifting all timecodes by a fixed offset (positive to delay, negative to advance) corrects the synchronization without re-authoring.",
+    "faq": [
+      {
+        "question": "How long should a subtitle be displayed?",
+        "answer": "The general rule is: duration = word count ÷ reading speed (words per minute) × 60 seconds. For 20 words at 250 wpm: 20 ÷ 250 × 60 = 4.8 seconds. Netflix requires a minimum of 0.833 seconds and recommends no more than 7 seconds. Always add a small safety buffer of 0.1–0.2 seconds."
+      },
+      {
+        "question": "How do I fix out-of-sync SRT subtitles?",
+        "answer": "If all subtitles are consistently early or late, use the Shift Timing tab. Enter the offset in milliseconds — positive values delay subtitles, negative values advance them. For example, if subtitles appear 2 seconds too early, enter -2000 ms. If they appear 3 seconds too late, enter +3000 ms."
+      },
+      {
+        "question": "What is the SRT subtitle file format?",
+        "answer": "SRT (SubRip Text) is a plain text format. Each entry contains: (1) an integer index, (2) a timing line in format HH:MM:SS,mmm --> HH:MM:SS,mmm, (3) one or more lines of subtitle text, and (4) a blank line separator. Timestamps use commas for milliseconds (not periods). It is supported by virtually every video player and editing application."
+      },
+      {
+        "question": "How many words should a subtitle have per line?",
+        "answer": "Standard subtitle guidelines recommend no more than 42 characters per line and no more than 2 lines per subtitle. This typically corresponds to 7–10 words per line. Shorter lines are generally preferred for readability, especially for fast-paced dialogue or when subtitles appear over complex backgrounds."
+      },
+      {
+        "question": "What reading speed should I use for subtitle timing?",
+        "answer": "250 wpm (about 17 characters per second) is the standard for adult content and is used by Netflix, Amazon, and most broadcasters. Use 160–180 wpm for children's content, elderly audiences, or complex technical content. For hearing-impaired subtitles (SDH), 220 wpm is recommended as these audiences rely entirely on subtitles for all audio information."
+      }
+    ],
+    "relatedTools": [
+      "duration-calculator",
+      "frame-rate-converter",
+      "compression-calculator"
+    ],
+    "isPopular": false,
+    "isFeatured": false,
+    "breadcrumbs": [
+      { "label": "Home", "url": "/" },
+      { "label": "Utility Tools", "url": "/utility-tools" },
+      { "label": "Subtitle Timing Calculator", "url": "/utility-tools/subtitle-timing-calculator" }
+    ]
+  },
     {
       "id": "tool-farmers-001",
       "name": "Crop Yield Calculator",

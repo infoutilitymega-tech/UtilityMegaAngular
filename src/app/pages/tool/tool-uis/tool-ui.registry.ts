@@ -44,6 +44,17 @@ import { PressureConverterComponent } from './pressure-converter.component';
 import { EnergyConverterComponent } from './energy-converter.component';
 import { DataConverterComponent } from './data-converter.component';
 import { FuelConverterComponent } from './fuel-converter.component';
+import { AspectRatioCalculatorComponent } from './aspect-ratio-calculator.component';
+import { BitrateCalculatorComponent } from './bitrate-calculator.component';
+import { CodecComparisonComponent } from './codec-comparison.component';
+import { ColorSpaceConverterComponent } from './color-space-converter.component';
+import { CompressionCalculatorComponent } from './compression-calculator.component';
+import { DurationCalculatorComponent } from './duration-calculator.component';
+import { FrameRateConverterComponent } from './frame-rate-converter.component';
+import { ResolutionConverterComponent } from './resolution-converter.component';
+import { ScreenRecordingCalculatorComponent } from './screen-recording-calculator.component';
+import { SubtitleTimingCalculatorComponent } from './subtitle-timing-calculator.component';
+
 
 // ── Utility Tools ─────────────────────────────────────────────────────────────
 import { QrGeneratorComponent } from './qr-generator.component';
@@ -209,6 +220,17 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'base-converter': BaseConverterComponent,
   'roman-numeral-converter': RomanNumeralConverterComponent,
   'morse-code-converter': MorseCodeConverterComponent,
+  'aspect-ratio-calculator': AspectRatioCalculatorComponent,
+  'bitrate-calculator': BitrateCalculatorComponent,
+  'codec-comparison': CodecComparisonComponent,
+  'color-space-converter': ColorSpaceConverterComponent,
+  'compression-calculator': CompressionCalculatorComponent,
+  'duration-calculator': DurationCalculatorComponent,
+  'frame-rate-converter': FrameRateConverterComponent,
+  'resolution-converter': ResolutionConverterComponent,
+  'screen-recording-calculator': ScreenRecordingCalculatorComponent,
+  'subtitle-timing-calculator': SubtitleTimingCalculatorComponent,
+
 
   // Farmers Tools
   // 'crop-yield-calculator': CropYieldCalculatorComponent,
