@@ -451,12 +451,22 @@
         {
           "question": "Is there a minimum SIP amount?",
           "answer": "Most mutual funds allow SIPs starting from ₹100 or ₹500 per month. However, for meaningful wealth creation, financial advisors recommend investing at least ₹1,000–₹5,000 per month depending on your income and goals."
+        },
+        {
+          "question": "What is the difference between a SIP and a lump sum investment?",
+          "answer": "A SIP (Systematic Investment Plan) involves investing a fixed amount regularly (e.g., monthly), which averages out the purchase cost over time (rupee cost averaging). A lump sum investment is a one-time, large investment. SIPs are generally considered less risky than lump sums, especially in volatile markets, because they reduce the impact of market timing."
+        },
+        {
+          "question": "How do I start a SIP in a mutual fund?",
+          "answer": "You can start a SIP by opening an account with a mutual fund house directly or through a registered intermediary like a broker or investment platform (e.g., Zerodha, Groww, Paytm Money). You'll need to complete your KYC (Know Your Customer) process, choose a fund, decide the SIP amount and date, and set up an auto-debit mandate from your bank account."
         }
       ],
       "relatedTools": [
         "emi-calculator",
         "compound-interest-calculator",
-        "retirement-calculator"
+        "retirement-calculator",
+        "ppf-calculator",
+        "cagr-calculator"
       ],
       "isPopular": true,
       "isFeatured": true,
@@ -550,6 +560,14 @@
               "@type": "Answer",
               "text": "Yes, our advanced SIP calculator supports step-up SIP, where your monthly investment increases by a fixed percentage each year, typically 10%, to match income growth."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a SIP and a lump sum investment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A SIP involves investing a fixed amount regularly, which averages out the purchase cost over time. A lump sum is a one-time, large investment. SIPs reduce the impact of market timing."
+            }
           }
         ]
       }
@@ -596,12 +614,21 @@
         {
           "question": "How do I reduce my loan EMI?",
           "answer": "You can reduce EMI by negotiating a lower interest rate, choosing a longer tenure, making a larger down payment, or opting for a balance transfer to a lender offering lower rates."
+        },
+        {
+          "question": "What is a floating interest rate and how does it affect my EMI?",
+          "answer": "A floating or variable interest rate is linked to a benchmark rate (like the Repo Rate). If the benchmark rate changes, your interest rate (and consequently your EMI) can increase or decrease over the loan tenure. In contrast, a fixed-rate loan keeps the same EMI throughout. Floating rates are common for home loans and can be beneficial if rates are expected to fall."
+        },
+        {
+          "question": "What is a loan balance transfer and how can it help me?",
+          "answer": "A loan balance transfer involves moving your outstanding loan amount from your current lender to another lender offering a lower interest rate or better terms. This can reduce your EMI, save on total interest payable, and improve your cash flow. However, consider processing fees, legal charges, and the remaining loan tenure before initiating a transfer."
         }
       ],
       "relatedTools": [
         "sip-calculator",
         "compound-interest-calculator",
-        "loan-comparison-tool"
+        "loan-comparison-tool",
+        "home-loan-calculator"
       ],
       "isPopular": true,
       "isFeatured": true,
@@ -677,7 +704,7 @@
             "name": "What does EMI stand for?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "EMI stands for Equated Monthly Installment. It is the fixed monthly payment made to a lender (bank or NBFC) to repay a loan. Each EMI includes both the principal repayment and interest for that month."
+              "text": "EMI stands for Equated Monthly Installment. It is the fixed monthly payment made to a lender to repay a loan."
             }
           },
           {
@@ -685,7 +712,7 @@
             "name": "Does EMI change if interest rate changes?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "For floating rate loans, if the bank's benchmark rate (like MCLR or repo rate) changes, your EMI may increase or decrease. Fixed rate loans maintain the same EMI throughout the tenure."
+              "text": "For floating rate loans, your EMI may increase or decrease. Fixed rate loans maintain the same EMI throughout the tenure."
             }
           },
           {
@@ -693,7 +720,7 @@
             "name": "How do I reduce my loan EMI?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can reduce EMI by negotiating a lower interest rate, choosing a longer tenure, making a larger down payment, or opting for a balance transfer to a lender offering lower rates."
+              "text": "You can reduce EMI by negotiating a lower interest rate, choosing a longer tenure, making a larger down payment, or opting for a balance transfer."
             }
           }
         ]
@@ -1629,12 +1656,21 @@
         {
           "question": "Should I use NPS or mutual funds for retirement?",
           "answer": "Both serve different purposes. NPS offers guaranteed allocation, tax benefits, and pension annuity. Mutual fund SIPs offer higher potential returns and full liquidity. Ideally, use NPS for the fixed income component and SIPs for the equity growth component."
+        },
+        {
+          "question": "What is the National Pension System (NPS) and how does it help with retirement?",
+          "answer": "NPS is a government-sponsored pension scheme. It's a market-linked, voluntary, defined-contribution system. You contribute regularly to a pension account, and your money is invested across equity and debt instruments. At retirement, you can withdraw 60% of the corpus tax-free and must use the remaining 40% to buy an annuity for a regular pension. It's a powerful tool for building a retirement corpus."
+        },
+        {
+          "question": "How does inflation impact my retirement planning?",
+          "answer": "Inflation erodes the purchasing power of your money over time. For example, ₹50,000 today might buy the same as ₹1,00,000 in 15 years due to 5% inflation. Our calculator factors in inflation to show you the real value of your future expenses. To combat this, your retirement savings must grow at a rate that outpaces inflation, highlighting the importance of investing in assets that offer inflation-beating returns, like equities."
         }
       ],
       "relatedTools": [
         "sip-calculator",
         "compound-interest-calculator",
-        "emi-calculator"
+        "emi-calculator",
+        "ppf-calculator"
       ],
       "isPopular": true,
       "isFeatured": true,
@@ -1723,6 +1759,14 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "The 4% rule states you can withdraw 4% of your retirement corpus annually without depleting it over 30 years."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the National Pension System (NPS)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "NPS is a government-sponsored pension scheme with market-linked returns. At retirement, 60% can be withdrawn tax-free and 40% must be used for an annuity."
             }
           }
         ]
@@ -2996,7 +3040,7 @@
             "name": "Does image compression reduce quality?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Lossy compression (used for JPEG) slightly reduces quality in exchange for smaller file sizes. At quality levels of 70–85%, the difference is virtually invisible to human eyes. Lossless compression preserves 100% quality."
+              "text": "Lossy compression slightly reduces quality for smaller files. At 70-85% quality, difference is invisible. Lossless preserves 100% quality."
             }
           },
           {
@@ -3004,7 +3048,7 @@
             "name": "Is it safe to compress images in this tool?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, completely safe. All compression happens inside your browser. Your images are never uploaded to our servers. No data leaves your device."
+              "text": "Yes, completely safe. All compression happens inside your browser. Images never leave your device."
             }
           },
           {
@@ -3012,7 +3056,7 @@
             "name": "What image formats does the compressor support?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Our image compressor supports JPG/JPEG, PNG, and WebP formats. You can also convert between formats during compression."
+              "text": "JPG/JPEG, PNG, and WebP formats. You can also convert between formats during compression."
             }
           }
         ]
@@ -3141,7 +3185,7 @@
             "name": "Will resizing an image reduce its quality?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Resizing down generally maintains quality well. Resizing up will cause pixelation or blurring."
+              "text": "Resizing down maintains quality well. Resizing up causes pixelation or blurring."
             }
           },
           {
@@ -4287,6 +4331,14 @@
         {
           "question": "What are Open Graph tags?",
           "answer": "Open Graph tags control how your page appears when shared on social media platforms like Facebook, LinkedIn, WhatsApp, and Telegram. og:title, og:description, and og:image are most important."
+        },
+        {
+          "question": "How long should my meta description be for optimal click-through rate?",
+          "answer": "Google typically displays meta descriptions up to 155-160 characters on desktop and around 120 characters on mobile. While there's no hard limit, it's best to keep your description under 160 characters. The most important part is to make it compelling and relevant to the search query, including your target keyword, to encourage users to click through to your page."
+        },
+        {
+          "question": "What is a canonical tag and why is it important for SEO?",
+          "answer": "A canonical tag (rel='canonical') is an HTML element that tells search engines which version of a URL is the master or 'preferred' version. This is crucial for preventing duplicate content issues, which can harm your SEO. If you have similar or identical pages (e.g., for pagination, print-friendly versions, or session IDs), use the canonical tag to point search engines to the main page you want to be indexed."
         }
       ],
       "relatedTools": [
@@ -4377,6 +4429,14 @@
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Open Graph tags control how your page appears when shared on social media platforms like Facebook, LinkedIn, WhatsApp, and Telegram."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long should my meta description be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keep your meta description under 160 characters. Google typically displays up to 155-160 characters on desktop and around 120 characters on mobile."
             }
           }
         ]
@@ -8265,7 +8325,7 @@
           }
         ]
       }
-    },
+    },  
     {
     "id": "utility-011",
     "name": "Aspect Ratio Calculator",
