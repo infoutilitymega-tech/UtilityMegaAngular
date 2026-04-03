@@ -2424,7 +2424,9 @@
         "VAT amount calculator",
         "add VAT calculator",
         "remove VAT calculator",
-        "VAT inclusive exclusive"
+        "VAT inclusive exclusive",
+        "vat calculator uk",
+        "vat","vat cal","vat calculator online"
       ],
       "content": "VAT (Value Added Tax) is a consumption tax applied to goods and services at each stage of production and distribution. Our VAT calculator helps you calculate VAT amounts for any tax rate in two modes.\n\nAdd VAT: Calculate gross price (including VAT) from net price (excluding VAT). Formula: Gross = Net × (1 + VAT%)\n\nRemove VAT: Calculate net price (excluding VAT) from gross price (including VAT). Formula: Net = Gross ÷ (1 + VAT%)\n\nCommon VAT Rates: Standard rate (18-20% in most countries), Reduced rate (5-12% for essentials), Zero rate (0% for exports, basic food).\n\nOur calculator shows VAT amount, net price (excluding VAT), and gross price (including VAT).",
       "faq": [
@@ -8076,7 +8078,7 @@
         "text to morse code",
         "morse code translator",
         "morse code audio",
-        "learn morse code"
+        "learn morse code",". . . . - morse code","morse code generator","morse code online"
       ],
       "content": "Translate any text to Morse code or decode Morse back to text. Play Morse code as audio beeps using the Web Audio API. Includes a visual dot-dash display and a complete reference chart for all letters, numbers, and punctuation.\n\nMorse Code Basics\n\nMorse code uses dots (·) and dashes (−) to represent letters and numbers. Dots are short signals, dashes are long signals (three times longer than a dot). The space between parts of the same letter is one dot duration. Space between letters is three dots. Space between words is seven dots.\n\nAudio Playback\n\nListen to your Morse code with adjustable speed (5-40 WPM). The Web Audio API generates clean sine wave beeps. Perfect for learning Morse code by ear or verifying your encoding.\n\nVisual Display\n\nSee your Morse code displayed as dots and dashes with color coding. Letters are grouped visually for easy reading. The display updates in real-time as you type.\n\nComplete Reference Chart\n\nFull reference chart showing all letters (A-Z), numbers (0-9), and common punctuation (., ?, !, @, etc.) with their Morse code equivalents. Great for learning or quick reference.\n\nCommon Uses\n\nHam radio operators, emergency communication, learning Morse code for amateur radio licensing, educational activities, and encoding secret messages.",
       "faq": [
