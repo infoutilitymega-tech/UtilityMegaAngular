@@ -2,7 +2,7 @@ import { ApplicationConfig, provideZoneChangeDetection, APP_INITIALIZER, isDevMo
 import { provideRouter, withPreloading, PreloadAllModules, withInMemoryScrolling } from '@angular/router';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { provideHttpClient, withFetch } from '@angular/common/http';
-import { inject } from '@vercel/analytics';
+import { inject as vercelInject } from '@vercel/analytics';
 import { routes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
@@ -18,7 +18,7 @@ export const appConfig: ApplicationConfig = {
     {
       provide: APP_INITIALIZER,
       useFactory: () => () => {
-        inject({ mode: isDevMode() ? 'development' : 'production' });
+        vercelInject({ mode: isDevMode() ? 'development' : 'production' });
       },
       multi: true,
     },

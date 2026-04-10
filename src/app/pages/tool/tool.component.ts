@@ -1,7 +1,7 @@
-import { Component, OnInit, inject, signal, ViewContainerRef } from '@angular/core';
+import { Component, OnInit, inject, signal, ViewContainerRef, Inject, PLATFORM_ID, TransferState, makeStateKey } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ViewChild } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 import { CmsService } from '../../core/services/cms.service';
 import { SeoService } from '../../core/services/seo.service';
@@ -9,6 +9,8 @@ import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcru
 import { AdsenseComponent } from '../../shared/components/adsense/adsense.component';
 import { Tool, BreadcrumbItem } from '../../core/models/tool.model';
 import { TOOL_UI_REGISTRY } from './tool-uis/tool-ui.registry';
+
+const TOOL_DATA_KEY = makeStateKey<Tool>('toolData');
 
 @Component({
   selector: 'app-tool',
@@ -295,12 +297,15 @@ import { TOOL_UI_REGISTRY } from './tool-uis/tool-ui.registry';
   `]
 })
 export class ToolComponent implements OnInit {
-  private route = inject(ActivatedRoute);
+ private route = inject(ActivatedRoute);
   private cms = inject(CmsService);
   private seo = inject(SeoService);
-  //private vcr = inject(ViewContainerRef);
-@ViewChild('toolHost', { read: ViewContainerRef })
-private vcr!: ViewContainerRef;
+  private transferState = inject(TransferState);
+  @Inject(PLATFORM_ID) private platformId: any;
+  
+  @ViewChild('toolHost', { read: ViewContainerRef })
+  private vcr!: ViewContainerRef;
+  
   tool = signal<Tool | undefined>(undefined);
   relatedTools = signal<Tool[]>([]);
   categoryTools = signal<Tool[]>([]);
@@ -310,50 +315,101 @@ private vcr!: ViewContainerRef;
   hasUI = signal(false);
 
   ngOnInit() {
-    this.route.paramMap.pipe(
-      switchMap(p => this.cms.getTool(p.get('category')!, p.get('tool')!))
-    ).subscribe(tool => {
-      if (!tool) return;
-      this.tool.set(tool);
-      this.seo.setToolMeta(tool);
-      this.breadcrumbs.set([
-        { label: 'Home', url: '/' },
-        { label: tool.categoryName, url: `/${tool.categorySlug}` },
-        { label: tool.name, url: `/${tool.categorySlug}/${tool.slug}` }
-      ]);
-      this.cms.getRelatedTools(tool).subscribe(r => this.relatedTools.set(r));
-      this.cms.getToolsByCategory(tool.categorySlug).subscribe(t =>
-        this.categoryTools.set(t.filter(x => x.slug !== tool.slug).slice(0, 8))
-      );
-      this.loadUI(tool.slug);
-    });
+    const isBrowser = isPlatformBrowser(this.platformId);
+    const isServer = isPlatformServer(this.platformId);
+    
+    console.log(`Running on: ${isBrowser ? 'BROWSER' : 'SERVER'}`);
+    
+    // Try to get cached data from TransferState (for SSR hydration)
+    const cachedTool = this.transferState.get<Tool | null>(TOOL_DATA_KEY, null);
+    
+    if (cachedTool) {
+      // Use cached data from server
+      console.log('Using cached tool data:', cachedTool.name);
+      this.tool.set(cachedTool);
+      this.seo.setToolMeta(cachedTool);
+      this.setupRelatedData(cachedTool);
+      // Clean up cache
+      this.transferState.remove(TOOL_DATA_KEY);
+    } else {
+      // Fetch fresh data
+      this.route.paramMap.pipe(
+        switchMap(params => {
+          const category = params.get('category')!;
+          const slug = params.get('tool')!;
+          console.log(`Fetching tool: ${category}/${slug}`);
+          return this.cms.getTool(category, slug);
+        })
+      ).subscribe((tool: Tool | undefined) => {
+        if (!tool) return;
+        
+        console.log('Tool loaded:', tool.name);
+        this.tool.set(tool);
+        this.seo.setToolMeta(tool);
+        
+        // On server, cache the data for client
+        if (isServer) {
+          this.transferState.set(TOOL_DATA_KEY, tool);
+        }
+        
+        this.setupRelatedData(tool);
+      });
+    }
+  }
+
+  private setupRelatedData(tool: Tool) {
+    this.breadcrumbs.set([
+      { label: 'Home', url: '/' },
+      { label: tool.categoryName, url: `/${tool.categorySlug}` },
+      { label: tool.name, url: `/${tool.categorySlug}/${tool.slug}` }
+    ]);
+    
+    this.cms.getRelatedTools(tool).subscribe((r: Tool[]) => this.relatedTools.set(r));
+    this.cms.getToolsByCategory(tool.categorySlug).subscribe((t: Tool[]) =>
+      this.categoryTools.set(t.filter(x => x.slug !== tool.slug).slice(0, 8))
+    );
+    
+    this.loadUI(tool.slug);
   }
 
   loadUI(slug: string) {
-    const comp = TOOL_UI_REGISTRY[slug];
-    this.hasUI.set(!!comp);
-    if (comp) {
-      setTimeout(() => { this.vcr.clear(); this.vcr.createComponent(comp); }, 50);
+    // Only load UI on browser, not on server
+    if (isPlatformBrowser(this.platformId)) {
+      const comp = TOOL_UI_REGISTRY[slug];
+      this.hasUI.set(!!comp);
+      if (comp) {
+        setTimeout(() => { 
+          this.vcr.clear(); 
+          this.vcr.createComponent(comp); 
+        }, 50);
+      }
     }
   }
 
   formattedContent(): string {
-    return (this.tool()?.content ?? '').split('\n\n').map(p => p.trim()).filter(Boolean).map(p => `<p>${p}</p>`).join('');
+    const content = this.tool()?.content ?? '';
+    return content.split('\n\n').map(p => p.trim()).filter(Boolean).map(p => `<p>${p}</p>`).join('');
   }
 
-  toggleFaq(i: number) { this.openFaq.set(this.openFaq() === i ? null : i); }
+  toggleFaq(i: number) { 
+    this.openFaq.set(this.openFaq() === i ? null : i); 
+  }
 
   share(platform: string) {
-    const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent((this.tool()?.name ?? '') + ' - Free Online Tool');
-    if (platform === 'twitter') window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`);
-    if (platform === 'whatsapp') window.open(`https://wa.me/?text=${text}%20${url}`);
+    if (isPlatformBrowser(this.platformId)) {
+      const url = encodeURIComponent(window.location.href);
+      const text = encodeURIComponent((this.tool()?.name ?? '') + ' - Free Online Tool');
+      if (platform === 'twitter') window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`);
+      if (platform === 'whatsapp') window.open(`https://wa.me/?text=${text}%20${url}`);
+    }
   }
 
   copyLink() {
-    navigator.clipboard.writeText(window.location.href).then(() => {
-      this.copied.set(true);
-      setTimeout(() => this.copied.set(false), 2500);
-    });
+    if (isPlatformBrowser(this.platformId)) {
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        this.copied.set(true);
+        setTimeout(() => this.copied.set(false), 2500);
+      });
+    }
   }
 }
