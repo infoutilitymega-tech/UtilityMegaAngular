@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, PLATFORM_ID, Type, ViewChild, ViewContainerRef, inject, signal } from '@angular/core';
+import { AfterViewInit, ChangeDetectionStrategy, Component, DestroyRef, OnInit, PLATFORM_ID, Type, ViewChild, ViewContainerRef, inject, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CommonModule, NgOptimizedImage, isPlatformBrowser } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
@@ -296,7 +296,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
     }
   `]
 })
-export class ToolComponent implements OnInit {
+export class ToolComponent implements OnInit, AfterViewInit {
   private route = inject(ActivatedRoute);
   private cms = inject(CmsService);
   private seo = inject(SeoService);
@@ -305,6 +305,7 @@ export class ToolComponent implements OnInit {
   //private vcr = inject(ViewContainerRef);
 @ViewChild('toolHost', { read: ViewContainerRef })
 private vcr!: ViewContainerRef;
+  private pendingToolSlug: string | null = null;
   tool = signal<Tool | undefined>(undefined);
   relatedTools = signal<Tool[]>([]);
   categoryTools = signal<Tool[]>([]);
@@ -332,8 +333,19 @@ private vcr!: ViewContainerRef;
       this.cms.getToolsByCategory(tool.categorySlug)
         .pipe(takeUntilDestroyed(this.destroyRef))
         .subscribe(t => this.categoryTools.set(t.filter(x => x.slug !== tool.slug).slice(0, 8)));
-      void this.loadUI(tool.slug);
+      if (this.vcr) {
+        void this.loadUI(tool.slug);
+      } else {
+        this.pendingToolSlug = tool.slug;
+      }
     });
+  }
+
+  ngAfterViewInit() {
+    if (this.pendingToolSlug) {
+      void this.loadUI(this.pendingToolSlug);
+      this.pendingToolSlug = null;
+    }
   }
 
   async loadUI(slug: string): Promise<void> {
