@@ -14,7 +14,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://utilitymega.com';
+const BASE_URL = 'https://www.utilitymega.com';
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || 'YOUR_INDEXNOW_KEY_HERE';
 const DATA_FILE = path.join(__dirname, '../src/assets/data/tools.json');
 
@@ -38,7 +38,7 @@ function buildUrls(data) {
 function submitToIndexNow(endpoint, urls) {
   return new Promise((resolve, reject) => {
     const payload = JSON.stringify({
-      host: 'utilitymega.com',
+      host: 'www.utilitymega.com',
       key: INDEXNOW_KEY,
       keyLocation: `${BASE_URL}/${INDEXNOW_KEY}.txt`,
       urlList: urls,

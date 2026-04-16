@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://utilitymega.com',
+  baseUrl: 'https://www.utilitymega.com',
   siteName: 'UtilityMega',
-  siteUrl: 'https://utilitymega.com',
+  siteUrl: 'https://www.utilitymega.com',
 };
