@@ -1,5 +1,12 @@
 import { Type } from '@angular/core';
 
+/**
+ * NOTE FOR MAINTAINERS:
+ * Heavy image/video/SEO generator UIs were intentionally moved to
+ * `tool-ui.lazy-registry.ts` so they are code-split and downloaded only when
+ * the specific tool route is opened. They are NOT removed from the product.
+ */
+
 // ── Calculators ──────────────────────────────────────────────────────────────
 import { SipCalculatorComponent } from './sip-calculator.component';
 import { EmiCalculatorComponent } from './emi-calculator.component';
@@ -14,8 +21,6 @@ import { RetirementCalculatorComponent } from './retirement-calculator.component
 
 
 // ── Image Tools ───────────────────────────────────────────────────────────────
-import { ImageCompressorComponent } from './image-compressor.component';
-import { ImageResizerComponent } from './image-resizer.component';
 
 // ── Developer Tools ───────────────────────────────────────────────────────────
 import { JsonFormatterComponent } from './json-formatter.component';
@@ -32,6 +37,7 @@ import { PasswordGeneratorComponent } from './password-generator.component';
 // ── SEO Tools ─────────────────────────────────────────────────────────────────
 import { MetaTagGeneratorComponent } from './meta-tag-generator.component';
 import { KeywordDensityCheckerComponent } from './keyword-density-checker.component';
+import { OgGeneratorComponent, OpenGraphTesterComponent, ReadabilityCheckerComponent, RobotsTxtGeneratorComponent, SitemapGeneratorComponent, TitleDescriptionAnalyzerComponent, TwitterCardGeneratorComponent } from './seo-tools-all.component';
 
 // ── Unit Converters ───────────────────────────────────────────────────────────
 import { LengthConverterComponent } from './length-converter.component';
@@ -62,13 +68,7 @@ import { QrGeneratorComponent } from './qr-generator.component';
 // ── Farmers Tools ─────────────────────────────────────────────────────────────
 import { CropYieldCalculatorComponent } from './crop-yield-calculator.component';
 import { FertilizerCalculatorComponent } from './fertilizer-calculator.component';
-import { ImageConverterComponent } from './image-converter.component';
-import { ImageCropperComponent } from './image-cropper.component';
-import { ImageFlipRotateComponent } from './image-flip-rotate.component';
-import { ImageWatermarkComponent } from './image-watermark.component';
-import { ImageColorPickerComponent, ImageToBase64Component, JpgToPngComponent, PngToJpgComponent } from './image-misc-components';
 import { BarcodeGeneratorComponent, ColorPickerToolComponent, IpLookupComponent, RomanNumeralConverterComponent, TimestampConverterComponent, UrlEncoderComponent } from './utility-tools-1.component';
-import { JsonLdGeneratorComponent, OgGeneratorComponent, OpenGraphTesterComponent, PageSpeedAnalyzerComponent, ReadabilityCheckerComponent, RobotsTxtGeneratorComponent, SchemaMarkupGeneratorComponent, SitemapGeneratorComponent, TitleDescriptionAnalyzerComponent, TwitterCardGeneratorComponent } from './seo-tools-all.component';
 import { StopwatchTimerComponent, ScreenRulerComponent, PomodoroComponent, TextToSpeechComponent, BaseConverterComponent, MorseCodeConverterComponent } from './utility-tools-2.component';
 import { CronGeneratorComponent, ColorConverterComponent, DiffCheckerComponent } from './cron-color-diff.component';
 import { MarkdownEditorComponent, JwtDecoderComponent } from './markdown-jwt.component';
@@ -82,11 +82,6 @@ import { WeatherCropAdvisorComponent, MspCalculatorComponent } from './weather-m
 import { LoremIpsumGeneratorComponent, DuplicateLineRemoverComponent, FindReplaceComponent } from './lorem-duplicate-findreplace.component';
 import { TextToSlugComponent, TextReverserComponent, LineSorterComponent, StringEncoderComponent, TextDiffHighlighterComponent } from './slug-reverser-sorter-encoder-diff.component';
 import { CagrCalculatorComponent, CurrencyConverterComponent, FdCalculatorComponent, FuelCostCalculatorComponent, LoanComparisonComponent, PpfCalculatorComponent, RdCalculatorComponent, TipCalculatorComponent, VatCalculatorComponent } from './calculator-all.component';
-import { VideoCompressorComponent, VideoConverterComponent } from './video-compressor-converter.component';
-import { GifMakerComponent, VideoTrimmerComponent } from './video-trimmer-gif.component';
-import { ScreenRecorderComponent, VideoMergerComponent, VideoRotateComponent, VideoSubtitleAdderComponent } from './video-rotate-recorder-subtitle-merger.component';
-import { VideoSpeedChangerComponent, VideoToMp3Component } from './video-mp3-speed.component';
-import { BacklinkCheckerComponent } from './url-encoder-backlink.component';
 
 
 /**
@@ -97,6 +92,33 @@ import { BacklinkCheckerComponent } from './url-encoder-backlink.component';
  *   const comp = TOOL_UI_REGISTRY[tool.slug];
  *   if (comp) this.vcr.createComponent(comp);
  */
+export const TOOL_UI_DEFERRED_SLUGS = [
+  'image-compressor',
+  'image-resizer',
+  'image-converter',
+  'image-cropper',
+  'image-flip-rotate',
+  'image-watermark',
+  'png-to-jpg',
+  'jpg-to-png',
+  'image-color-picker',
+  'image-to-base64',
+  'video-compressor',
+  'video-converter',
+  'video-trimmer',
+  'gif-maker',
+  'video-to-mp3',
+  'video-merger',
+  'screen-recorder',
+  'video-speed-changer',
+  'video-rotate',
+  'video-subtitle-adder',
+  'backlink-checker',
+  'jsonld-generator',
+  'schema-markup-generator',
+  'page-speed-analyzer',
+] as const;
+
 export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   // Calculators
   'sip-calculator': SipCalculatorComponent,
@@ -119,28 +141,8 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'currency-converter': CurrencyConverterComponent,
   'fuel-cost-calculator': FuelCostCalculatorComponent,
   // Image Tools
-  'image-compressor': ImageCompressorComponent,
-  'image-resizer': ImageResizerComponent,
-  'image-converter': ImageConverterComponent,
-  'image-cropper': ImageCropperComponent,
-  'image-flip-rotate': ImageFlipRotateComponent,
-  'image-watermark': ImageWatermarkComponent,
-  'png-to-jpg': PngToJpgComponent,
-  'jpg-to-png': JpgToPngComponent,
-  'image-color-picker': ImageColorPickerComponent,
-  'image-to-base64': ImageToBase64Component,
 
   // Video Tools
-  'video-compressor': VideoCompressorComponent,
-  'video-converter': VideoConverterComponent,
-  'video-trimmer': VideoTrimmerComponent,
-  'gif-maker': GifMakerComponent,
-  'video-to-mp3': VideoToMp3Component,
-  'video-merger': VideoMergerComponent,
-  'screen-recorder': ScreenRecorderComponent,
-  'video-speed-changer': VideoSpeedChangerComponent,
-  'video-rotate': VideoRotateComponent,
-  'video-subtitle-adder': VideoSubtitleAdderComponent,
 
   // Developer Tools
   'json-formatter': JsonFormatterComponent,
@@ -188,12 +190,8 @@ export const TOOL_UI_REGISTRY: Record<string, Type<any>> = {
   'sitemap-generator': SitemapGeneratorComponent,
   'og-generator': OgGeneratorComponent,
   'twitter-card-generator': TwitterCardGeneratorComponent,
-  'page-speed-analyzer': PageSpeedAnalyzerComponent,
-  'jsonld-generator': JsonLdGeneratorComponent,
   'title-description-analyzer': TitleDescriptionAnalyzerComponent,
-  'schema-markup-generator': SchemaMarkupGeneratorComponent,
   'open-graph-tester': OpenGraphTesterComponent,
-  'backlink-checker': BacklinkCheckerComponent,
   // Unit Converters
   'length-converter': LengthConverterComponent,
   'temperature-converter': TemperatureConverterComponent,
