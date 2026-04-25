@@ -3,8 +3,6 @@
    Theme: Deep Navy Dark / Clean Light
    ══════════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-
 /* ─── Light Mode Tokens ─── */
 :root {
   --primary: #3b82f6;
@@ -25,7 +23,7 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,.08);
   --shadow-md: 0 4px 16px rgba(0,0,0,.1);
   --shadow-lg: 0 8px 32px rgba(0,0,0,.14);
-  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font: 'Inter', 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* ─── Dark Mode Tokens ─── */

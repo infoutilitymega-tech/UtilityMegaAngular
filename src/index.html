@@ -16,22 +16,26 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.utilitymega.com">
   <meta property="og:site_name" content="UtilityMega">
+  <meta property="og:image" content="https://www.utilitymega.com/assets/logo.png">
   <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap">
+  </noscript>
+
   <link rel="canonical" href="https://www.utilitymega.com">
-  <meta property="og:image" content="https://www.utilitymega.com/assets/logo.png">
-
-
   <link rel="icon" href="favicon.ico" sizes="any">
-
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-
   <link rel="manifest" href="/manifest.webmanifest">
-  
+
   <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -42,31 +46,33 @@
 }
 </script>
 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KW289K8P');</script>
-<!-- End Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ7NVQ7CMJ"></script>
+  <script defer>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-HJ7NVQ7CMJ', { send_page_view: false });
+  </script>
+
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      const f = d.getElementsByTagName(s)[0];
+      const j = d.createElement(s);
+      const dl = l !== 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode?.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KW289K8P');
+  </script>
 </head>
 
 <body>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ7NVQ7CMJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-HJ7NVQ7CMJ', {
-      send_page_view: false   // 👈 MUST for Angular SPA
-    });
-  </script>
   <app-root></app-root>
 
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW289K8P"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW289K8P" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 </html>

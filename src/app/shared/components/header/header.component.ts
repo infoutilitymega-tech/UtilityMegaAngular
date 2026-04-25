@@ -1,7 +1,7 @@
-import { Component, signal, inject, HostListener, OnInit, Output, EventEmitter, OnDestroy } from '@angular/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, HostListener, OnDestroy, OnInit, Output, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Router } from '@angular/router';
 import { CmsService } from '../../../core/services/cms.service';
 import { Tool } from '../../../core/models/tool.model';
@@ -11,14 +11,14 @@ import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterLink, FormsModule, CommonModule],
+  imports: [RouterLink, FormsModule, CommonModule, NgOptimizedImage],
   template: `
     <header class="site-header" [class.scrolled]="scrolled()">
       <div class="header-inner">
 
         <!-- Logo with custom favicon image -->
         <a routerLink="/" class="logo" aria-label="UtilityMega Home">
-          <img src="favicon.ico" alt="UtilityMega" class="logo-img" />
+          <img ngSrc="favicon.ico" width="28" height="28" alt="UtilityMega" class="logo-img" priority fetchpriority="high" />
           <span class="logo-text">Utility<strong>Mega</strong></span>
         </a>
 
@@ -113,6 +113,7 @@ import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
       </div>
     </header>
   `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   styles: [`
     .site-header {
       position: sticky; top: 0; z-index: 900;
