@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -6,6 +6,7 @@ import { CmsService } from '../../core/services/cms.service';
 import { SeoService } from '../../core/services/seo.service';
 import { ToolCardComponent } from '../../shared/components/tool-card/tool-card.component';
 import { Category, Tool } from '../../core/models/tool.model';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 const CATEGORY_ICONS: Record<string, string> = {
   calculators: '🧮', 'image-tools': '🖼️', 'video-tools': '🎬',
@@ -202,6 +203,7 @@ const CATEGORY_ICONS: Record<string, string> = {
 export class HomeComponent implements OnInit {
   private cms = inject(CmsService);
   private seo = inject(SeoService);
+  private destroyRef = inject(DestroyRef);
 
   categories = signal<Category[]>([]);
   popularTools = signal<Tool[]>([]);
@@ -210,8 +212,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.seo.setHomeMeta();
-    this.cms.getCategories().subscribe(c => this.categories.set(c));
-    this.cms.getPopularTools().subscribe(t => this.popularTools.set(t));
+    this.cms.getCategories().pipe(takeUntilDestroyed(this.destroyRef)).subscribe(c => this.categories.set(c));
+    this.cms.getPopularTools().pipe(takeUntilDestroyed(this.destroyRef)).subscribe(t => this.popularTools.set(t));
   }
 
   getIcon(slug: string): string {
@@ -225,6 +227,6 @@ export class HomeComponent implements OnInit {
 
   onSearch(): void {
     if (!this.searchQuery.trim()) { this.searchResults.set([]); return; }
-    this.cms.searchTools(this.searchQuery).subscribe(results => this.searchResults.set(results.slice(0, 6)));
+    this.cms.searchTools(this.searchQuery).pipe(takeUntilDestroyed(this.destroyRef)).subscribe(results => this.searchResults.set(results.slice(0, 6)));
   }
 }

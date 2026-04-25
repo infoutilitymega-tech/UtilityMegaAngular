@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, PLATFORM_ID, Type, ViewChild, ViewContainerRef, inject, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { CommonModule, NgOptimizedImage, isPlatformBrowser } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 import { CmsService } from '../../core/services/cms.service';
 import { SeoService } from '../../core/services/seo.service';
@@ -14,7 +14,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 @Component({
   selector: 'app-tool',
   standalone: true,
-  imports: [RouterLink, CommonModule, BreadcrumbComponent, AdsenseComponent],
+  imports: [RouterLink, CommonModule, NgOptimizedImage, BreadcrumbComponent, AdsenseComponent],
   template: `
     <div class="page-wrap" *ngIf="tool(); else notFound">
 
@@ -54,7 +54,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
             <div class="tool-ui-card">
               <div class="ui-card-header">
                 <div class="ui-card-title-row">
-                  <img src="favicon.ico" alt="" class="ui-favicon" />
+                  <img ngSrc="favicon.ico" width="22" height="22" alt="" class="ui-favicon" loading="eager" fetchpriority="high" />
                   <span class="ui-card-name">{{ tool()!.name }}</span>
                 </div>
                 <div class="ui-card-badges">
