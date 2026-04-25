@@ -1,6 +1,5 @@
-import { Component, OnInit, inject, signal, ViewContainerRef, PLATFORM_ID } from '@angular/core';
+import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, PLATFORM_ID, Type, ViewChild, ViewContainerRef, inject, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { ViewChild } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 import { CmsService } from '../../core/services/cms.service';
@@ -8,7 +7,8 @@ import { SeoService } from '../../core/services/seo.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { AdsenseComponent } from '../../shared/components/adsense/adsense.component';
 import { Tool, BreadcrumbItem } from '../../core/models/tool.model';
-import { TOOL_UI_REGISTRY } from './tool-uis/tool-ui.registry';
+import { TOOL_UI_LOADERS } from './tool-ui.loaders';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-tool',
@@ -177,6 +177,7 @@ import { TOOL_UI_REGISTRY } from './tool-uis/tool-ui.registry';
       </div>
     </ng-template>
   `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   styles: [`
     .page-wrap { padding-bottom: 4rem; }
     .container { max-width: 1200px; margin: 0 auto; padding: 0 1.25rem; }
@@ -299,6 +300,7 @@ export class ToolComponent implements OnInit {
   private cms = inject(CmsService);
   private seo = inject(SeoService);
   private platformId = inject(PLATFORM_ID);
+  private destroyRef = inject(DestroyRef);
   //private vcr = inject(ViewContainerRef);
 @ViewChild('toolHost', { read: ViewContainerRef })
 private vcr!: ViewContainerRef;
@@ -312,7 +314,8 @@ private vcr!: ViewContainerRef;
 
   ngOnInit() {
     this.route.paramMap.pipe(
-      switchMap(p => this.cms.getTool(p.get('category')!, p.get('tool')!))
+      switchMap(p => this.cms.getTool(p.get('category')!, p.get('tool')!)),
+      takeUntilDestroyed(this.destroyRef)
     ).subscribe(tool => {
       if (!tool) return;
       this.tool.set(tool);
@@ -322,26 +325,29 @@ private vcr!: ViewContainerRef;
         { label: tool.categoryName, url: `/${tool.categorySlug}` },
         { label: tool.name, url: `/${tool.categorySlug}/${tool.slug}` }
       ]);
-      this.cms.getRelatedTools(tool).subscribe(r => this.relatedTools.set(r));
-      this.cms.getToolsByCategory(tool.categorySlug).subscribe(t =>
-        this.categoryTools.set(t.filter(x => x.slug !== tool.slug).slice(0, 8))
-      );
-      this.loadUI(tool.slug);
+      this.cms.getRelatedTools(tool)
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe(r => this.relatedTools.set(r));
+      this.cms.getToolsByCategory(tool.categorySlug)
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe(t => this.categoryTools.set(t.filter(x => x.slug !== tool.slug).slice(0, 8)));
+      void this.loadUI(tool.slug);
     });
   }
 
-  loadUI(slug: string) {
-    const comp = TOOL_UI_REGISTRY[slug];
-    this.hasUI.set(!!comp);
+  async loadUI(slug: string): Promise<void> {
+    const loader = TOOL_UI_LOADERS[slug];
+    this.hasUI.set(!!loader);
 
     // Avoid instantiating browser-only tool UIs during SSR/prerender.
-    if (!isPlatformBrowser(this.platformId)) return;
+    if (!isPlatformBrowser(this.platformId) || !loader) return;
 
-    if (comp) {
-      setTimeout(() => {
-        this.vcr?.clear();
-        this.vcr?.createComponent(comp);
-      }, 50);
+    try {
+      const componentToRender: Type<unknown> = await loader();
+      this.vcr?.clear();
+      this.vcr?.createComponent(componentToRender);
+    } catch (error) {
+      console.error(`[ToolComponent] Failed to lazy-load UI for ${slug}.`, error);
     }
   }
 
