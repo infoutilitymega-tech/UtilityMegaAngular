@@ -8,9 +8,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://utilitymega.com';
+const BASE_URL = 'https://www.utilitymega.com';
 const DATA_FILE = path.join(__dirname, '../src/assets/data/tools.json');
 const OUTPUT_FILE = path.join(__dirname, '../public/sitemap.xml');
+const OUTPUT_ASSET_FILE = path.join(__dirname, '../src/assets/sitemap.xml');
 
 const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
 const today = new Date().toISOString().split('T')[0];
@@ -19,6 +20,12 @@ const urls = [];
 
 // Home page
 urls.push({ loc: BASE_URL, priority: '1.0', changefreq: 'daily', lastmod: today });
+
+// Static pages
+const staticPages = ['/about', '/contact', '/privacy-policy', '/terms-of-use', '/sitemap'];
+for (const page of staticPages) {
+  urls.push({ loc: `${BASE_URL}${page}`, priority: '0.5', changefreq: 'monthly', lastmod: today });
+}
 
 // Category pages
 for (const cat of data.categories) {
@@ -60,8 +67,10 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 
 fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
 fs.writeFileSync(OUTPUT_FILE, xml, 'utf-8');
+fs.writeFileSync(OUTPUT_ASSET_FILE, xml, 'utf-8');
 
 console.log(`✅ Sitemap generated: ${OUTPUT_FILE}`);
+console.log(`✅ Asset sitemap synced: ${OUTPUT_ASSET_FILE}`);
 console.log(`   Total URLs: ${urls.length}`);
 console.log(`   Categories: ${data.categories.length}`);
 console.log(`   Tools: ${data.tools.length}`);

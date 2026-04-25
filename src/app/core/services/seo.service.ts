@@ -55,7 +55,7 @@ export class SeoService {
     this.updateMeta({
       title: 'UtilityMega — 100+ Free Online Tools | No Login Required',
       description: 'Free online tools for everyone: SIP calculator, EMI calculator, image compressor, JSON formatter, password generator, unit converters and more. 100% free, instant, private.',
-      url: 'https://utilitymega.com'
+      url: 'https://www.utilitymega.com'
     });
   }
 
