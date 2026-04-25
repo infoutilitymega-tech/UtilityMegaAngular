@@ -294,6 +294,11 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
       .tool-layout { grid-template-columns: 1fr; }
       .tool-sidebar { position: static; order: 3; }
     }
+    @media(max-width: 500px) {
+      .tool-ui-card{
+        max-width: 350px;
+      }
+    }
   `]
 })
 export class ToolComponent implements OnInit, AfterViewInit {
