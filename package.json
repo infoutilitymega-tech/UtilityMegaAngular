@@ -5,13 +5,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run generate:sitemap && ng build",
-    "build:prod": "npm run generate:sitemap && ng build --configuration production",
+    "build": "npm run generate:prerender-routes && npm run generate:sitemap && ng build",
+    "build:prod": "npm run generate:prerender-routes && npm run generate:sitemap && ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr": "node dist/utilitymega/server/server.mjs",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "generate:seo": "node scripts/seo-generator.js"
+    "generate:seo": "node scripts/seo-generator.js",
+    "generate:prerender-routes": "node scripts/generate-prerender-routes.js"
   },
   "private": true,
   "dependencies": {
