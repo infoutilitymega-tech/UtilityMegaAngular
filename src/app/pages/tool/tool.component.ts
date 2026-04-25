@@ -1,7 +1,7 @@
-import { Component, OnInit, inject, signal, ViewContainerRef } from '@angular/core';
+import { Component, OnInit, inject, signal, ViewContainerRef, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ViewChild } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { switchMap } from 'rxjs/operators';
 import { CmsService } from '../../core/services/cms.service';
 import { SeoService } from '../../core/services/seo.service';
@@ -298,6 +298,7 @@ export class ToolComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private cms = inject(CmsService);
   private seo = inject(SeoService);
+  private platformId = inject(PLATFORM_ID);
   //private vcr = inject(ViewContainerRef);
 @ViewChild('toolHost', { read: ViewContainerRef })
 private vcr!: ViewContainerRef;
@@ -332,8 +333,15 @@ private vcr!: ViewContainerRef;
   loadUI(slug: string) {
     const comp = TOOL_UI_REGISTRY[slug];
     this.hasUI.set(!!comp);
+
+    // Avoid instantiating browser-only tool UIs during SSR/prerender.
+    if (!isPlatformBrowser(this.platformId)) return;
+
     if (comp) {
-      setTimeout(() => { this.vcr.clear(); this.vcr.createComponent(comp); }, 50);
+      setTimeout(() => {
+        this.vcr?.clear();
+        this.vcr?.createComponent(comp);
+      }, 50);
     }
   }
 
@@ -344,6 +352,7 @@ private vcr!: ViewContainerRef;
   toggleFaq(i: number) { this.openFaq.set(this.openFaq() === i ? null : i); }
 
   share(platform: string) {
+    if (!isPlatformBrowser(this.platformId)) return;
     const url = encodeURIComponent(window.location.href);
     const text = encodeURIComponent((this.tool()?.name ?? '') + ' - Free Online Tool');
     if (platform === 'twitter') window.open(`https://twitter.com/intent/tweet?text=${text}&url=${url}`);
@@ -351,6 +360,7 @@ private vcr!: ViewContainerRef;
   }
 
   copyLink() {
+    if (!isPlatformBrowser(this.platformId)) return;
     navigator.clipboard.writeText(window.location.href).then(() => {
       this.copied.set(true);
       setTimeout(() => this.copied.set(false), 2500);
