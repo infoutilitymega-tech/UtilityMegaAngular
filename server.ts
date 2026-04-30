@@ -17,7 +17,15 @@ export function app(): express.Express {
   server.set('views', browserDistFolder);
 
   // Static files
-  server.get('*.*', express.static(browserDistFolder, { maxAge: '1y' }));
+  server.get('*.*', express.static(browserDistFolder, {
+    maxAge: '1y',
+    immutable: true,
+    setHeaders: (res, filePath) => {
+      if (/\.(?:js|css|png|jpg|jpeg|gif|svg|webp|avif|woff2?)$/i.test(filePath)) {
+        res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+      }
+    },
+  }));
 
   // SSR all routes
   server.get('*', (req, res, next) => {

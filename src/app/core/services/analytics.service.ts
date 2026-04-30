@@ -3,6 +3,8 @@ import { isPlatformBrowser } from '@angular/common';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
+type EventParams = Record<string, string | number | boolean | undefined>;
+
 @Injectable({
   providedIn: 'root'
 })
@@ -12,7 +14,6 @@ export class AnalyticsService {
     @Inject(PLATFORM_ID) private platformId: any,
     private router: Router
   ) {
-    // Only run on browser, not on server
     if (isPlatformBrowser(this.platformId)) {
       this.initAnalytics();
     }
@@ -27,11 +28,27 @@ export class AnalyticsService {
   }
 
   private pageView(url: string) {
-    // Check if gtag exists and is a function
+    this.track('page_view', { page_path: url });
+  }
+
+  track(eventName: string, params: EventParams = {}) {
     if (typeof window !== 'undefined' && (window as any).gtag) {
-      (window as any).gtag('event', 'page_view', {
-        page_path: url
-      });
+      (window as any).gtag('event', eventName, params);
     }
+  }
+
+  trackSearch(query: string, resultCount: number) {
+    this.track('search', {
+      search_term: query,
+      results_count: resultCount,
+    });
+  }
+
+  trackToolOpen(toolName: string, category: string) {
+    this.track('select_content', {
+      content_type: 'tool',
+      item_id: toolName,
+      item_category: category,
+    });
   }
 }

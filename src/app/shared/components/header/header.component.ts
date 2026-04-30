@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Router } from '@angular/router';
 import { CmsService } from '../../../core/services/cms.service';
+import { AnalyticsService } from '../../../core/services/analytics.service';
 import { Tool } from '../../../core/models/tool.model';
 import { Subject } from 'rxjs';
 import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
@@ -43,7 +44,7 @@ import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
               aria-autocomplete="list"
               aria-haspopup="listbox"
             />
-            <button *ngIf="query" class="clear-btn" (click)="clearSearch()" tabindex="-1">✕</button>
+            <button *ngIf="query" class="clear-btn" (click)="clearSearch()" tabindex="-1" aria-label="Clear search">✕</button>
           </div>
 
           <!-- Suggestions Dropdown -->
@@ -101,7 +102,7 @@ import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
 
         <!-- Actions -->
         <div class="header-actions">
-          <button class="icon-btn theme-btn" (click)="toggleTheme()" [title]="dark() ? 'Switch to Light' : 'Switch to Dark'">
+          <button class="icon-btn theme-btn" (click)="toggleTheme()" [title]="dark() ? 'Switch to Light' : 'Switch to Dark'" [attr.aria-label]="dark() ? 'Switch to light theme' : 'Switch to dark theme'">
             <span class="theme-icon">{{ dark() ? '☀️' : '🌙' }}</span>
           </button>
           <button class="icon-btn ham-btn" (click)="sidebarToggle.emit()" aria-label="Open Menu">
@@ -227,6 +228,7 @@ import { debounceTime, distinctUntilChanged, takeUntil } from 'rxjs/operators';
 export class HeaderComponent implements OnInit, OnDestroy {
   private router = inject(Router);
   private cms = inject(CmsService);
+  private analytics = inject(AnalyticsService);
   private destroy$ = new Subject<void>();
   private searchSubject = new Subject<string>();
 
@@ -305,6 +307,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   selectTool(t: Tool) {
+    this.analytics.trackToolOpen(t.name, t.categorySlug);
     this.saveRecent(t.name);
     this.query = '';
     this.closeSugg();
@@ -317,6 +320,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   goSearch() {
+    if (this.query.trim()) {
+      this.analytics.trackSearch(this.query.trim(), this.suggestions().length);
+    }
     const q = this.query.trim();
     if (!q) return;
     this.saveRecent(q);
@@ -331,6 +337,7 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   toggleTheme() {
+    this.analytics.track('theme_toggle', { theme: this.dark() ? 'light' : 'dark' });
     const d = !this.dark();
     this.dark.set(d);
     document.documentElement.setAttribute('data-theme', d ? 'dark' : 'light');
