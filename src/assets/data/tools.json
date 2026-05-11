@@ -8379,9 +8379,9 @@
     "isPopular": true,
     "isFeatured": true,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Aspect Ratio Calculator", "url": "/utility-tools/aspect-ratio-calculator" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Aspect Ratio Calculator", "url": "https://www.utilitymega.com/utility-tools/aspect-ratio-calculator" }
     ]
   },
   {
@@ -8435,9 +8435,9 @@
     "isPopular": true,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Video Bitrate Calculator", "url": "/utility-tools/bitrate-calculator" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Video Bitrate Calculator", "url": "https://www.utilitymega.com/utility-tools/utility-tools/bitrate-calculator" }
     ]
   },
   {
@@ -8492,9 +8492,9 @@
     "isPopular": false,
     "isFeatured": true,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Codec Comparison", "url": "/utility-tools/codec-comparison" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools/utility-tools" },
+      { "label": "Codec Comparison", "url": "https://www.utilitymega.com/utility-tools/codec-comparison" }
     ]
   },
   {
@@ -8549,9 +8549,9 @@
     "isPopular": false,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Color Space Converter", "url": "/utility-tools/color-space-converter" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Color Space Converter", "url": "https://www.utilitymega.com/utility-tools/color-space-converter" }
     ]
   },
   {
@@ -8606,9 +8606,9 @@
     "isPopular": true,
     "isFeatured": true,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Compression Calculator", "url": "/utility-tools/compression-calculator" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Compression Calculator", "url": "https://www.utilitymega.com/utility-tools/compression-calculator" }
     ]
   },
   {
@@ -8663,9 +8663,9 @@
     "isPopular": false,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Duration Calculator", "url": "/utility-tools/duration-calculator" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Duration Calculator", "url": "https://www.utilitymega.com/utility-tools/duration-calculator" }
     ]
   },
   {
@@ -8720,9 +8720,9 @@
     "isPopular": false,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Frame Rate Converter", "url": "/utility-tools/frame-rate-converter" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Frame Rate Converter", "url": "https://www.utilitymega.com/utility-tools/frame-rate-converter" }
     ]
   },
   {
@@ -8777,9 +8777,9 @@
     "isPopular": true,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Resolution Converter", "url": "/utility-tools/resolution-converter" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Resolution Converter", "url": "https://www.utilitymega.com/utility-tools/resolution-converter" }
     ]
   },
   {
@@ -8834,9 +8834,9 @@
     "isPopular": true,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Screen Recording Calculator", "url": "/utility-tools/screen-recording-calculator" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Screen Recording Calculator", "url": "https://www.utilitymega.com/utility-tools/screen-recording-calculator" }
     ]
   },
   {
@@ -8891,9 +8891,9 @@
     "isPopular": false,
     "isFeatured": false,
     "breadcrumbs": [
-      { "label": "Home", "url": "/" },
-      { "label": "Utility Tools", "url": "/utility-tools" },
-      { "label": "Subtitle Timing Calculator", "url": "/utility-tools/subtitle-timing-calculator" }
+      { "label": "Home", "url": "https://www.utilitymega.com" },
+      { "label": "Utility Tools", "url": "https://www.utilitymega.com/utility-tools" },
+      { "label": "Subtitle Timing Calculator", "url": "https://www.utilitymega.com/utility-tools/subtitle-timing-calculator" }
     ]
   },
     {
