@@ -1,5 +1,6 @@
 /
 /about
+/blogs
 /calculators
 /calculators/age-calculator
 /calculators/bmi-calculator
@@ -18,6 +19,7 @@
 /calculators/rd-calculator
 /calculators/retirement-calculator
 /calculators/sip-calculator
+/calculators/sip-calculator/blog/how-to-plan-monthly-investments-with-sip-calculator
 /calculators/tip-calculator
 /calculators/vat-calculator
 /contact
@@ -45,6 +47,8 @@
 /image-tools
 /image-tools/image-color-picker
 /image-tools/image-compressor
+/image-tools/image-compressor/blog/best-image-compression-tips
+/image-tools/image-compressor/blog/how-to-compress-images-without-losing-quality
 /image-tools/image-converter
 /image-tools/image-cropper
 /image-tools/image-flip-rotate

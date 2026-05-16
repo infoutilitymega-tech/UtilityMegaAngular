@@ -20,12 +20,16 @@ const staticRoutes = [
   '/privacy-policy',
   '/terms-of-use',
   '/sitemap',
+  '/blogs',
 ];
 
 const categoryRoutes = data.categories.map((c) => `/${c.slug}`);
 const toolRoutes = data.tools.map((t) => `/${t.categorySlug}/${t.slug}`);
+const blogRoutes = data.tools.flatMap((t) =>
+  (t.blogs ?? []).map((b) => `/${t.categorySlug}/${t.slug}/blog/${b.slug}`)
+);
 
-const routes = Array.from(new Set([...staticRoutes, ...categoryRoutes, ...toolRoutes])).sort();
+const routes = Array.from(new Set([...staticRoutes, ...categoryRoutes, ...toolRoutes, ...blogRoutes])).sort();
 
 fs.writeFileSync(OUTPUT_FILE, routes.join('\n') + '\n', 'utf-8');
 
@@ -34,3 +38,4 @@ console.log(`   Total routes: ${routes.length}`);
 console.log(`   Static: ${staticRoutes.length}`);
 console.log(`   Categories: ${categoryRoutes.length}`);
 console.log(`   Tools: ${toolRoutes.length}`);
+console.log(`   Blogs: ${blogRoutes.length}`);

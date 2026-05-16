@@ -27,6 +27,27 @@ export interface TwitterCard {
   'twitter:description': string;
 }
 
+export interface Blog {
+  id: string;
+  title: string;
+  slug: string;
+  image: string;
+  description: string;
+  content: string;
+  createdDate: string;
+  seoTitle: string;
+  metaDescription: string;
+  keywords: string[];
+}
+
+export interface BlogWithTool extends Blog {
+  toolSlug: string;
+  toolName: string;
+  categorySlug: string;
+  categoryName: string;
+  url: string;
+}
+
 export interface Tool {
   id: string;
   name: string;
@@ -41,6 +62,7 @@ export interface Tool {
   keywords: string[];
   content: string;
   faq: FAQ[];
+  blogs: Blog[];
   relatedTools: string[];
   isPopular: boolean;
   isFeatured: boolean;

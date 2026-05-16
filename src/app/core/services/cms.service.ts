@@ -2,7 +2,7 @@ import { Injectable, PLATFORM_ID, inject, makeStateKey, TransferState } from '@a
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, of, shareReplay, tap } from 'rxjs';
 import { isPlatformServer } from '@angular/common';
-import { Category, Tool, ToolsData } from '../models/tool.model';
+import { BlogWithTool, Category, Tool, ToolsData } from '../models/tool.model';
 
 const TOOLS_DATA_KEY = makeStateKey<ToolsData>('tools-data');
 
@@ -64,6 +64,37 @@ export class CmsService {
     return this.getData().pipe(map((d) => d.tools.find((t) => t.slug === toolSlug)));
   }
 
+
+  getAllBlogs(): Observable<BlogWithTool[]> {
+    return this.getData().pipe(map((d) => this.flattenBlogs(d.tools)));
+  }
+
+  getBlogsByTool(categorySlug: string, toolSlug: string): Observable<BlogWithTool[]> {
+    return this.getData().pipe(
+      map((d) => {
+        const tool = d.tools.find((t) => t.categorySlug === categorySlug && t.slug === toolSlug);
+        return tool ? this.mapToolBlogs(tool) : [];
+      })
+    );
+  }
+
+  getBlog(categorySlug: string, toolSlug: string, blogSlug: string): Observable<BlogWithTool | undefined> {
+    return this.getBlogsByTool(categorySlug, toolSlug).pipe(
+      map((blogs) => blogs.find((blog) => blog.slug === blogSlug))
+    );
+  }
+
+  getRelatedBlogs(blog: BlogWithTool, limit = 3): Observable<BlogWithTool[]> {
+    return this.getAllBlogs().pipe(
+      map((blogs) =>
+        blogs
+          .filter((item) => item.slug !== blog.slug)
+          .sort((a, b) => Number(b.toolSlug === blog.toolSlug) - Number(a.toolSlug === blog.toolSlug))
+          .slice(0, limit)
+      )
+    );
+  }
+
   getPopularTools(): Observable<Tool[]> {
     return this.getData().pipe(map((d) => d.tools.filter((t) => t.isPopular)));
   }
@@ -76,6 +107,24 @@ export class CmsService {
     return this.getData().pipe(
       map((d) => d.tools.filter((t) => tool.relatedTools.includes(t.slug) && t.slug !== tool.slug).slice(0, 4))
     );
+  }
+
+
+  private flattenBlogs(tools: Tool[]): BlogWithTool[] {
+    return tools.flatMap((tool) => this.mapToolBlogs(tool)).sort((a, b) =>
+      new Date(b.createdDate).getTime() - new Date(a.createdDate).getTime()
+    );
+  }
+
+  private mapToolBlogs(tool: Tool): BlogWithTool[] {
+    return (tool.blogs ?? []).map((blog) => ({
+      ...blog,
+      toolSlug: tool.slug,
+      toolName: tool.name,
+      categorySlug: tool.categorySlug,
+      categoryName: tool.categoryName,
+      url: `/${tool.categorySlug}/${tool.slug}/blog/${blog.slug}`,
+    }));
   }
 
   searchTools(keyword: string): Observable<Tool[]> {

@@ -1,7 +1,7 @@
+import { DOCUMENT, isPlatformBrowser, isPlatformServer } from '@angular/common';
 import { Injectable, PLATFORM_ID, TransferState, makeStateKey, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { isPlatformBrowser, isPlatformServer } from '@angular/common';
-import { Category, Tool } from '../models/tool.model';
+import { BlogWithTool, Category, Tool } from '../models/tool.model';
 
 interface MetaOptions {
   title: string;
@@ -20,10 +20,11 @@ export class SeoService {
   private readonly transferState = inject(TransferState);
 
   private readonly platformId = inject(PLATFORM_ID);
+  private readonly document = inject(DOCUMENT);
 
   private readonly defaultImage = 'https://www.utilitymega.com/assets/og-default.png';
 
-  updateMeta(opts: MetaOptions): void {
+  updateMeta(opts: MetaOptions & { type?: string }): void {
     this.title.setTitle(opts.title);
     const image = opts.image ?? this.defaultImage;
 
@@ -34,7 +35,7 @@ export class SeoService {
     this.meta.updateTag({ property: 'og:description', content: opts.description });
     this.meta.updateTag({ property: 'og:url', content: opts.url });
     this.meta.updateTag({ property: 'og:image', content: image });
-    this.meta.updateTag({ property: 'og:type', content: 'website' });
+    this.meta.updateTag({ property: 'og:type', content: opts.type ?? 'website' });
     this.meta.updateTag({ property: 'og:site_name', content: 'UtilityMega' });
 
     this.meta.updateTag({ name: 'twitter:card', content: 'summary_large_image' });
@@ -116,6 +117,79 @@ export class SeoService {
     }
   }
 
+
+  setBlogsMeta(): void {
+    this.updateMeta({
+      title: 'Tool-wise Blogs | UtilityMega',
+      description: 'Explore practical tool-wise guides, tips, and tutorials for UtilityMega calculators, converters, image tools, developer utilities, and more.',
+      url: 'https://www.utilitymega.com/blogs',
+    });
+
+    this.injectJsonLd(
+      {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: 'Tool-wise Blogs',
+        url: 'https://www.utilitymega.com/blogs',
+        description: 'Tool-wise guides and tutorials from UtilityMega.',
+      },
+      'json-ld'
+    );
+  }
+
+  setBlogMeta(blog: BlogWithTool): void {
+    const url = `https://www.utilitymega.com${blog.url}`;
+    const image = blog.image.startsWith('http') ? blog.image : `https://www.utilitymega.com${blog.image}`;
+
+    this.updateMeta({
+      title: blog.seoTitle,
+      description: blog.metaDescription,
+      url,
+      image,
+      type: 'article',
+    });
+
+    this.meta.updateTag({ property: 'article:published_time', content: blog.createdDate });
+    this.meta.updateTag({ property: 'article:section', content: blog.categoryName });
+    this.meta.updateTag({ property: 'article:tag', content: blog.keywords.join(', ') });
+
+    this.injectJsonLd(
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: blog.title,
+        description: blog.description,
+        image,
+        datePublished: blog.createdDate,
+        dateModified: blog.createdDate,
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': url,
+        },
+        author: {
+          '@type': 'Organization',
+          name: 'UtilityMega',
+          url: 'https://www.utilitymega.com',
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'UtilityMega',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.utilitymega.com/assets/logo.png',
+          },
+        },
+        about: {
+          '@type': 'SoftwareApplication',
+          name: blog.toolName,
+          applicationCategory: blog.categoryName,
+          url: `https://www.utilitymega.com/${blog.categorySlug}/${blog.toolSlug}`,
+        },
+      },
+      'json-ld'
+    );
+  }
+
   setSearchMeta(query?: string): void {
     const baseTitle = 'Search Tools | UtilityMega';
     const baseDesc =
@@ -134,28 +208,22 @@ export class SeoService {
   }
 
   private setCanonical(url: string): void {
-    if (!isPlatformBrowser(this.platformId)) {
-      return;
-    }
-
-    let link: HTMLLinkElement | null = document.querySelector("link[rel='canonical']");
+    let link: HTMLLinkElement | null = this.document.querySelector("link[rel='canonical']");
     if (!link) {
-      link = document.createElement('link');
+      link = this.document.createElement('link');
       link.setAttribute('rel', 'canonical');
-      document.head.appendChild(link);
+      this.document.head.appendChild(link);
     }
     link.setAttribute('href', url);
   }
 
   private injectJsonLd(data: object, id = 'json-ld'): void {
-    if (!isPlatformBrowser(this.platformId)) return;
-
-    let script = document.getElementById(id);
+    let script = this.document.getElementById(id);
     if (!script) {
-      script = document.createElement('script');
+      script = this.document.createElement('script');
       script.id = id;
       script.setAttribute('type', 'application/ld+json');
-      document.head.appendChild(script);
+      this.document.head.appendChild(script);
     }
 
     script.textContent = JSON.stringify(data);

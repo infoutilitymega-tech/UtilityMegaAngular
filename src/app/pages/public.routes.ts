@@ -29,6 +29,12 @@ export const PUBLIC_ROUTES: Routes = [
     title: 'Terms of Use — UtilityMega',
   },
   {
+    path: 'blogs',
+    loadComponent: () => import('./blogs/blogs.component').then((m) => m.BlogsComponent),
+    title: 'Tool-wise Blogs — UtilityMega',
+    data: { preload: true },
+  },
+  {
     path: 'sitemap',
     loadComponent: () => import('./sitemap/sitemap.component').then((m) => m.SitemapComponent),
     title: 'Sitemap — UtilityMega',

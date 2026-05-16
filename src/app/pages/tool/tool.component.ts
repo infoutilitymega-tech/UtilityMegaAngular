@@ -6,7 +6,7 @@ import { CmsService } from '../../core/services/cms.service';
 import { SeoService } from '../../core/services/seo.service';
 import { BreadcrumbComponent } from '../../shared/components/breadcrumb/breadcrumb.component';
 import { AdsenseComponent } from '../../shared/components/adsense/adsense.component';
-import { Tool, BreadcrumbItem } from '../../core/models/tool.model';
+import { BlogWithTool, Tool, BreadcrumbItem } from '../../core/models/tool.model';
 import { TOOL_UI_REGISTRY } from './tool-uis/tool-ui.registry';
 import { TOOL_UI_LAZY_REGISTRY } from './tool-uis/tool-ui.lazy-registry';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
@@ -109,6 +109,31 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
                 </div>
               </div>
             </div>
+
+
+            <!-- 5️⃣  Related Blogs -->
+            <section class="tool-blogs" *ngIf="toolBlogs().length">
+              <div class="section-head">
+                <div>
+                  <span class="section-kicker">Guides</span>
+                  <h2>Latest {{ tool()!.name }} Blogs</h2>
+                </div>
+                <a routerLink="/blogs" class="view-blogs-link">View all blogs →</a>
+              </div>
+              <div class="blog-grid">
+                <article class="blog-card" *ngFor="let blog of toolBlogs()">
+                  <a [routerLink]="blog.url" class="blog-card-link">
+                    <img [ngSrc]="blog.image" width="360" height="202" [alt]="blog.title" class="blog-thumb" loading="lazy" />
+                    <div class="blog-body">
+                      <time [attr.datetime]="blog.createdDate">{{ blog.createdDate | date: 'mediumDate' }}</time>
+                      <h3>{{ blog.title }}</h3>
+                      <p>{{ blog.description }}</p>
+                      <span>Read blog →</span>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </section>
 
           </main><!-- /tool-main -->
 
@@ -258,6 +283,24 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
     .faq-a { padding: .25rem 1.1rem 1rem; }
     .faq-a p { font-size: .875rem; color: var(--text-muted); line-height: 1.75; margin: 0; }
 
+
+    /* Related blogs */
+    .tool-blogs { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 1.5rem 1.75rem; margin-top: 1.5rem; }
+    .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+    .section-kicker { color: var(--primary); font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+    .tool-blogs h2 { font-size: 1.2rem; font-weight: 800; margin: .15rem 0 0; }
+    .view-blogs-link { color: var(--primary); font-size: .82rem; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    .blog-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
+    .blog-card { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--bg); transition: transform .16s ease, border-color .16s ease; }
+    .blog-card:hover { transform: translateY(-3px); border-color: var(--primary); }
+    .blog-card-link { color: inherit; text-decoration: none; display: block; height: 100%; }
+    .blog-thumb { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--bg-alt); }
+    .blog-body { padding: .85rem; }
+    .blog-body time { color: var(--text-muted); font-size: .7rem; font-weight: 700; }
+    .blog-body h3 { font-size: .92rem; font-weight: 800; margin: .3rem 0 .35rem; line-height: 1.35; }
+    .blog-body p { color: var(--text-muted); font-size: .78rem; line-height: 1.55; margin: 0 0 .6rem; }
+    .blog-body span { color: var(--primary); font-size: .78rem; font-weight: 800; }
+
     /* Sidebar */
     .tool-sidebar { display: flex; flex-direction: column; gap: 1rem; align-self: start; position: sticky; top: 68px; }
     .sb-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 1rem; }
@@ -293,6 +336,8 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
     @media(max-width: 960px) {
       .tool-layout { grid-template-columns: 1fr; }
       .tool-sidebar { position: static; order: 3; }
+      .blog-grid { grid-template-columns: 1fr; }
+      .section-head { align-items: flex-start; flex-direction: column; }
     }
     @media(max-width: 500px) {
       .tool-ui-card{
@@ -313,6 +358,7 @@ private vcr!: ViewContainerRef;
   private pendingToolSlug: string | null = null;
   tool = signal<Tool | undefined>(undefined);
   relatedTools = signal<Tool[]>([]);
+  toolBlogs = signal<BlogWithTool[]>([]);
   categoryTools = signal<Tool[]>([]);
   breadcrumbs = signal<BreadcrumbItem[]>([]);
   openFaq = signal<number | null>(null);
@@ -338,6 +384,9 @@ private vcr!: ViewContainerRef;
       this.cms.getToolsByCategory(tool.categorySlug)
         .pipe(takeUntilDestroyed(this.destroyRef))
         .subscribe(t => this.categoryTools.set(t.filter(x => x.slug !== tool.slug).slice(0, 8)));
+      this.cms.getBlogsByTool(tool.categorySlug, tool.slug)
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe(blogs => this.toolBlogs.set(blogs.slice(0, 3)));
       if (this.vcr) {
         void this.loadUI(tool.slug);
       } else {

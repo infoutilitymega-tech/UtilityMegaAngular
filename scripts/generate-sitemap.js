@@ -22,7 +22,7 @@ const urls = [];
 urls.push({ loc: BASE_URL, priority: '1.0', changefreq: 'daily', lastmod: today });
 
 // Static pages
-const staticPages = ['/about', '/contact', '/privacy-policy', '/terms-of-use', '/sitemap'];
+const staticPages = ['/about', '/contact', '/privacy-policy', '/terms-of-use', '/sitemap', '/blogs'];
 for (const page of staticPages) {
   urls.push({ loc: `${BASE_URL}${page}`, priority: '0.5', changefreq: 'monthly', lastmod: today });
 }
@@ -45,6 +45,18 @@ for (const tool of data.tools) {
     changefreq: 'monthly',
     lastmod: today,
   });
+}
+
+// Blog pages
+for (const tool of data.tools) {
+  for (const blog of tool.blogs ?? []) {
+    urls.push({
+      loc: `${BASE_URL}/${tool.categorySlug}/${tool.slug}/blog/${blog.slug}`,
+      priority: '0.7',
+      changefreq: 'monthly',
+      lastmod: blog.createdDate || today,
+    });
+  }
 }
 
 // Build XML
@@ -74,3 +86,4 @@ console.log(`✅ Asset sitemap synced: ${OUTPUT_ASSET_FILE}`);
 console.log(`   Total URLs: ${urls.length}`);
 console.log(`   Categories: ${data.categories.length}`);
 console.log(`   Tools: ${data.tools.length}`);
+console.log(`   Blogs: ${data.tools.reduce((total, tool) => total + (tool.blogs ?? []).length, 0)}`);
