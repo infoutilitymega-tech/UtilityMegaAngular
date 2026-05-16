@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -67,18 +67,47 @@ const CATEGORY_ICONS: Record<string, string> = {
           <p>Choose from 10 categories with specialized tools for every task</p>
         </div>
         <div class="categories-grid">
-          <a class="category-card" *ngFor="let cat of categories()" [routerLink]="['/', cat.slug]">
+          <button
+            type="button"
+            class="category-card"
+            *ngFor="let cat of categories()"
+            [class.active]="selectedCategorySlug() === cat.slug"
+            (click)="selectCategory(cat.slug)"
+          >
             <div class="cat-icon">{{ getIcon(cat.slug) }}</div>
             <h3 class="cat-name">{{ cat.name }}</h3>
             <p class="cat-desc">{{ cat.shortDescription }}</p>
-            <span class="cat-tools">{{ cat.toolCount }}+ tools →</span>
-          </a>
+            <span class="cat-tools">{{ cat.toolCount }}+ tools ↓</span>
+          </button>
         </div>
       </div>
     </section>
 
+
+    <!-- Category Tools -->
+    <section class="section section-alt" *ngIf="selectedCategory() as cat">
+      <div class="container">
+        <div class="section-header category-tools-header">
+          <div>
+            <span class="section-kicker">{{ getIcon(cat.slug) }} {{ cat.name }}</span>
+            <h2>{{ cat.name }} Tools</h2>
+            <p>Click any {{ cat.name }} tool to open it instantly.</p>
+          </div>
+          <a class="view-category-link" [routerLink]="['/', cat.slug]">View all {{ cat.name }} →</a>
+        </div>
+
+        <div class="tools-grid category-tools-grid" *ngIf="selectedCategoryTools().length; else noCategoryTools">
+          <app-tool-card *ngFor="let tool of selectedCategoryTools()" [tool]="tool" />
+        </div>
+
+        <ng-template #noCategoryTools>
+          <div class="empty-tools">No tools found in this category yet.</div>
+        </ng-template>
+      </div>
+    </section>
+
     <!-- Popular Tools -->
-    <section class="section section-alt">
+    <section class="section">
       <div class="container">
         <div class="section-header">
           <h2>🔥 Popular Tools</h2>
@@ -165,13 +194,23 @@ const CATEGORY_ICONS: Record<string, string> = {
     .section-header h2 { font-size: 1.75rem; font-weight: 700; color: var(--text, #111827); margin-bottom: 0.5rem; }
     .section-header p { color: var(--text-muted, #6b7280); }
     .categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
-    .category-card { display: flex; flex-direction: column; gap: 0.4rem; background: var(--card-bg, #fff); border: 1px solid var(--border-color, #e5e7eb); border-radius: 12px; padding: 1.5rem 1.25rem; text-decoration: none; color: inherit; transition: all 0.2s; }
-    .category-card:hover { border-color: var(--primary, #2563eb); box-shadow: 0 4px 20px rgba(37,99,235,0.1); transform: translateY(-2px); }
+    .category-card { display: flex; flex-direction: column; gap: 0.4rem; background: var(--card-bg, #fff); border: 1px solid var(--border-color, #e5e7eb); border-radius: 12px; padding: 1.5rem 1.25rem; text-decoration: none; color: inherit; transition: all 0.2s; text-align: left; cursor: pointer; font: inherit; }
+    .category-card:hover, .category-card.active { border-color: var(--primary, #2563eb); box-shadow: 0 4px 20px rgba(37,99,235,0.1); transform: translateY(-2px); }
+    .category-card.active { background: linear-gradient(180deg, var(--primary-light, #eff6ff), var(--card-bg, #fff)); }
     .cat-icon { font-size: 2.25rem; }
     .cat-name { font-size: 1rem; font-weight: 600; color: var(--text, #111827); margin: 0; }
     .cat-desc { font-size: 0.8rem; color: var(--text-muted, #6b7280); line-height: 1.4; margin: 0; }
     .cat-tools { font-size: 0.8rem; color: var(--primary, #2563eb); font-weight: 600; margin-top: auto; }
     .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+
+    .category-tools-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; text-align: left; }
+    .category-tools-header h2 { margin-top: 0.25rem; }
+    .section-kicker { display: inline-flex; align-items: center; gap: .35rem; color: var(--primary, #2563eb); font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+    .view-category-link { color: var(--primary, #2563eb); font-size: .88rem; font-weight: 800; text-decoration: none; white-space: nowrap; }
+    .view-category-link:hover { text-decoration: underline; }
+    .category-tools-grid { animation: fadeUp .25s ease both; }
+    .empty-tools { background: var(--card-bg, #fff); border: 1px solid var(--border-color, #e5e7eb); border-radius: 12px; color: var(--text-muted, #6b7280); padding: 2rem; text-align: center; }
+
     .content-block { max-width: 900px; margin: 0 auto; }
     .content-block h2 { font-size: 1.75rem; font-weight: 700; text-align: center; margin-bottom: 2rem; }
     .feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem; }
@@ -197,6 +236,11 @@ const CATEGORY_ICONS: Record<string, string> = {
     padding: 0.75rem 1rem;
     white-space: nowrap; /* keeps text in one line */
   }
+
+  .category-tools-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
   `]
 })
@@ -207,13 +251,29 @@ export class HomeComponent implements OnInit {
 
   categories = signal<Category[]>([]);
   popularTools = signal<Tool[]>([]);
+  allTools = signal<Tool[]>([]);
+  selectedCategorySlug = signal<string>('');
+  selectedCategory = computed(() => this.categories().find(cat => cat.slug === this.selectedCategorySlug()));
+  selectedCategoryTools = computed(() =>
+    this.allTools().filter(tool => tool.categorySlug === this.selectedCategorySlug()).slice(0, 12)
+  );
   searchResults = signal<Tool[]>([]);
   searchQuery = '';
 
   ngOnInit(): void {
     this.seo.setHomeMeta();
-    this.cms.getCategories().pipe(takeUntilDestroyed(this.destroyRef)).subscribe(c => this.categories.set(c));
+    this.cms.getCategories().pipe(takeUntilDestroyed(this.destroyRef)).subscribe(c => {
+      this.categories.set(c);
+      if (!this.selectedCategorySlug() && c.length) {
+        this.selectedCategorySlug.set(c[0].slug);
+      }
+    });
+    this.cms.getAllTools().pipe(takeUntilDestroyed(this.destroyRef)).subscribe(t => this.allTools.set(t));
     this.cms.getPopularTools().pipe(takeUntilDestroyed(this.destroyRef)).subscribe(t => this.popularTools.set(t));
+  }
+
+  selectCategory(slug: string): void {
+    this.selectedCategorySlug.set(slug);
   }
 
   getIcon(slug: string): string {
