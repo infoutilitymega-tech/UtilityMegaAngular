@@ -78,13 +78,13 @@
  */
 
 // ads.txt content (place as public/ads.txt)
-const adsTxtContent = `google.com, pub-7834537669803530, DIRECT, f08c47fec0942fa0`;
+const adsTxtContent = `google.com, ca-pub-7834537669803530, DIRECT, f08c47fec0942fa0`;
 
 // Auto-generate ads.txt
 const fs = require('fs');
 const path = require('path');
 
-const PUBLISHER_ID = process.env.ADSENSE_PUBLISHER_ID || 'pub-7834537669803530';
+const PUBLISHER_ID =  'ca-pub-7834537669803530';
 const content = `google.com, ${PUBLISHER_ID}, DIRECT, f08c47fec0942fa0\n`;
 
 fs.writeFileSync(path.join(__dirname, '../public/ads.txt'), content);
